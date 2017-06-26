@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0027-de-2.7-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0027-de-2.7-de"/>
+  <name value="V2Table0027LangGermanVersion2.7"/>
+  <title value="V2 Table language Pack for Priority: German Version 2.7"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:33+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0027 Version 2.7 (Priority), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0027-de"/>
+      <concept>
+        <code value="S"/>
+        <display value="sofort"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="sofort"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="schnellstm&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="schnellstm&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Routine"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Routine"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="pr&#xE4;operativ"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="pr&#xE4;operativ"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="zum vereinbarten Zeitpunkt"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="zum vereinbarten Zeitpunkt"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0335 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="every &lt;integer&gt; seconds"/>
       </concept>
       <concept>
+        <code value="Q&lt;integer&gt;S"/>
+        <display value="every &lt;integer&gt; seconds"/>
+      </concept>
+      <concept>
         <code value="Q&lt;integer&gt;M"/>
         <display value="every &lt;integer&gt; minutes"/>
+      </concept>
+      <concept>
+        <code value="Q&lt;integer&gt;M"/>
+        <display value="every &lt;integer&gt; minutes"/>
+      </concept>
+      <concept>
+        <code value="Q&lt;integer&gt;H"/>
+        <display value="every &lt;integer&gt; hours"/>
       </concept>
       <concept>
         <code value="Q&lt;integer&gt;H"/>
@@ -37,8 +49,20 @@
         <display value="every &lt;integer&gt; days"/>
       </concept>
       <concept>
+        <code value="Q&lt;integer&gt;D"/>
+        <display value="every &lt;integer&gt; days"/>
+      </concept>
+      <concept>
         <code value="Q&lt;integer&gt;W"/>
         <display value="every &lt;integer&gt; weeks"/>
+      </concept>
+      <concept>
+        <code value="Q&lt;integer&gt;W"/>
+        <display value="every &lt;integer&gt; weeks"/>
+      </concept>
+      <concept>
+        <code value="Q&lt;integer&gt;L"/>
+        <display value="every &lt;integer&gt; months (Lunar cycle)"/>
       </concept>
       <concept>
         <code value="Q&lt;integer&gt;L"/>
@@ -49,8 +73,20 @@
         <display value="repeats on a particular day of the week,"/>
       </concept>
       <concept>
+        <code value="Q&lt;integer&gt;J&lt;day#&gt;"/>
+        <display value="repeats on a particular day of the week,"/>
+      </concept>
+      <concept>
         <code value="BID"/>
         <display value="twice a day at institution-specified times"/>
+      </concept>
+      <concept>
+        <code value="BID"/>
+        <display value="twice a day at institution-specified times"/>
+      </concept>
+      <concept>
+        <code value="TID"/>
+        <display value="three times a day at institution-specified times"/>
       </concept>
       <concept>
         <code value="TID"/>
@@ -61,8 +97,20 @@
         <display value="four times a day at institution-specified times"/>
       </concept>
       <concept>
+        <code value="QID"/>
+        <display value="four times a day at institution-specified times"/>
+      </concept>
+      <concept>
         <code value="xID"/>
         <display value="&quot;X&quot; times per day at institution-specified times, where X is a numeral 5 or greater."/>
+      </concept>
+      <concept>
+        <code value="xID"/>
+        <display value="&quot;X&quot; times per day at institution-specified times, where X is a numeral 5 or greater."/>
+      </concept>
+      <concept>
+        <code value="QAM"/>
+        <display value="in the morning at institution-specified time"/>
       </concept>
       <concept>
         <code value="QAM"/>
@@ -73,8 +121,20 @@
         <display value="during each of three eight-hour shifts at institution-specified times"/>
       </concept>
       <concept>
+        <code value="QSHIFT"/>
+        <display value="during each of three eight-hour shifts at institution-specified times"/>
+      </concept>
+      <concept>
         <code value="QOD"/>
         <display value="every other day"/>
+      </concept>
+      <concept>
+        <code value="QOD"/>
+        <display value="every other day"/>
+      </concept>
+      <concept>
+        <code value="QHS"/>
+        <display value="every day before the hour of sleep"/>
       </concept>
       <concept>
         <code value="QHS"/>
@@ -85,8 +145,20 @@
         <display value="in the evening at institution-specified time"/>
       </concept>
       <concept>
+        <code value="QPM"/>
+        <display value="in the evening at institution-specified time"/>
+      </concept>
+      <concept>
         <code value="C"/>
         <display value="service is provided continuously between start time and stop time"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="service is provided continuously between start time and stop time"/>
+      </concept>
+      <concept>
+        <code value="U &lt;spec&gt;"/>
+        <display value="for future use, where &lt;spec&gt; is an interval specification as defined by the UNIX cron specification."/>
       </concept>
       <concept>
         <code value="U &lt;spec&gt;"/>
@@ -97,8 +169,20 @@
         <display value="given as needed"/>
       </concept>
       <concept>
+        <code value="PRN"/>
+        <display value="given as needed"/>
+      </concept>
+      <concept>
         <code value="PRNxxx"/>
         <display value="where xxx is some frequency code"/>
+      </concept>
+      <concept>
+        <code value="PRNxxx"/>
+        <display value="where xxx is some frequency code"/>
+      </concept>
+      <concept>
+        <code value="Once"/>
+        <display value="one time only."/>
       </concept>
       <concept>
         <code value="Once"/>
@@ -109,8 +193,20 @@
         <display value="&lt;timing&gt;C (&quot;cum&quot;)&lt;meal&gt;"/>
       </concept>
       <concept>
+        <code value="Meal Related Timings"/>
+        <display value="&lt;timing&gt;C (&quot;cum&quot;)&lt;meal&gt;"/>
+      </concept>
+      <concept>
         <code value="A"/>
         <display value="Ante (before)"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Ante (before)"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Post (after)"/>
       </concept>
       <concept>
         <code value="P"/>
@@ -121,12 +217,28 @@
         <display value="Inter"/>
       </concept>
       <concept>
+        <code value="I"/>
+        <display value="Inter"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Cibus Matutinus (breakfast)"/>
+      </concept>
+      <concept>
         <code value="M"/>
         <display value="Cibus Matutinus (breakfast)"/>
       </concept>
       <concept>
         <code value="D"/>
         <display value="Cibus Diurnus (lunch)"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Cibus Diurnus (lunch)"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="Cibus Vespertinus (dinner)"/>
       </concept>
       <concept>
         <code value="V"/>

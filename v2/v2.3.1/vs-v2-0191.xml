@@ -7,7 +7,7 @@
   <title value="V2 Table 0191 Version 2.3.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:40+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Scanned image (HL7 V2.2 only)"/>
       </concept>
       <concept>
+        <code value="SI"/>
+        <display value="Scanned image (HL7 V2.2 only)"/>
+      </concept>
+      <concept>
+        <code value="NS"/>
+        <display value="Non-scanned image (HL7 V2.2 only)"/>
+      </concept>
+      <concept>
         <code value="NS"/>
         <display value="Non-scanned image (HL7 V2.2 only)"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Scanned document (HL7 V2.2 only)"/>
       </concept>
       <concept>
+        <code value="SD"/>
+        <display value="Scanned document (HL7 V2.2 only)"/>
+      </concept>
+      <concept>
         <code value="TX"/>
         <display value="Machine readable text document (HL7 V2.2 only)"/>
+      </concept>
+      <concept>
+        <code value="TX"/>
+        <display value="Machine readable text document (HL7 V2.2 only)"/>
+      </concept>
+      <concept>
+        <code value="FT"/>
+        <display value="Formatted text (HL7 V2.2 only)"/>
       </concept>
       <concept>
         <code value="FT"/>
@@ -49,6 +69,18 @@
         <display value="Machine readable text document (HL7 V2.3.1 and later)"/>
       </concept>
       <concept>
+        <code value="IM"/>
+        <display value="Image data  (new  with HL7 v 2.3)"/>
+      </concept>
+      <concept>
+        <code value="TEXT"/>
+        <display value="Machine readable text document (HL7 V2.3.1 and later)"/>
+      </concept>
+      <concept>
+        <code value="AU"/>
+        <display value="Audio data  (new with HL7 v 2.3)"/>
+      </concept>
+      <concept>
         <code value="AU"/>
         <display value="Audio data  (new with HL7 v 2.3)"/>
       </concept>
@@ -61,8 +93,24 @@
         <display value="Image data  (HL7 V2.3 and later)"/>
       </concept>
       <concept>
+        <code value="AP"/>
+        <display value="Other application data, typically uninterpreted binary data  (new with HL7 v 2.3)"/>
+      </concept>
+      <concept>
+        <code value="Image"/>
+        <display value="Image data  (HL7 V2.3 and later)"/>
+      </concept>
+      <concept>
         <code value="Audio"/>
         <display value="Audio data  (HL7 V2.3 and later)"/>
+      </concept>
+      <concept>
+        <code value="Audio"/>
+        <display value="Audio data  (HL7 V2.3 and later)"/>
+      </concept>
+      <concept>
+        <code value="Application"/>
+        <display value="Other application data, typically uninterpreted binary data  (HL7 V2.3 and later)"/>
       </concept>
       <concept>
         <code value="Application"/>

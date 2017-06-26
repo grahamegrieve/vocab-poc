@@ -7,7 +7,7 @@
   <title value="V2 Table 0158 Version 2.5.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:38+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,28 @@
         <display value="First value within range"/>
       </concept>
       <concept>
+        <code value="1ST"/>
+        <display value="First value within range"/>
+      </concept>
+      <concept>
+        <code value="ALL"/>
+        <display value="All values within the range"/>
+      </concept>
+      <concept>
         <code value="ALL"/>
         <display value="All values within the range"/>
       </concept>
       <concept>
         <code value="LST"/>
         <display value="Last value within the range"/>
+      </concept>
+      <concept>
+        <code value="LST"/>
+        <display value="Last value within the range"/>
+      </concept>
+      <concept>
+        <code value="REV"/>
+        <display value="All values within the range returned in reverse chronological order (This is the default if not otherwise specified.)"/>
       </concept>
       <concept>
         <code value="REV"/>

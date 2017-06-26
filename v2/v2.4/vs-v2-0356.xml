@@ -7,7 +7,7 @@
   <title value="V2 Table 0356 Version 2.4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="This standard is titled &quot;Information Technology - Character Code Structure and Extension Technique&quot;. This standard specifies an escape sequence from basic one byte character set to specified other character set, and vice versa.  The escape sequence explic"/>
       </concept>
       <concept>
+        <code value="ISO 2022-1994"/>
+        <display value="This standard is titled &quot;Information Technology - Character Code Structure and Extension Technique&quot;. This standard specifies an escape sequence from basic one byte character set to specified other character set, and vice versa.  The escape sequence explic"/>
+      </concept>
+      <concept>
         <code value="2.3"/>
         <display value="The character set switching mode specified in HL7 2.3, sections 2.8.28.6.1, and 2.9.2.  Note that the escape sequences used in this mode do not use the ASCII &quot;esc&quot; character. They are &quot;HL7 escape sequences&quot; as defined in HL7 2.3, sec.  2.9 as defined in I"/>
+      </concept>
+      <concept>
+        <code value="2.3"/>
+        <display value="The character set switching mode specified in HL7 2.3, sections 2.8.28.6.1, and 2.9.2.  Note that the escape sequences used in this mode do not use the ASCII &quot;esc&quot; character. They are &quot;HL7 escape sequences&quot; as defined in HL7 2.3, sec.  2.9 as defined in I"/>
+      </concept>
+      <concept>
+        <code value="&lt;null&gt;"/>
+        <display value="This is the default, indicating that there is no character set switching occurring in this message."/>
       </concept>
       <concept>
         <code value="&lt;null&gt;"/>

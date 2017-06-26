@@ -7,7 +7,7 @@
   <title value="V2 Table 0178 Version 2.7"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:39+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -23,6 +23,14 @@
       <concept>
         <code value="REP"/>
         <display value="Replace current version of this master file with the version contained in this message"/>
+      </concept>
+      <concept>
+        <code value="REP"/>
+        <display value="Replace current version of this master file with the version contained in this message"/>
+      </concept>
+      <concept>
+        <code value="UPD"/>
+        <display value="Change file records as defined in the record-level event codes for each record that follows"/>
       </concept>
       <concept>
         <code value="UPD"/>

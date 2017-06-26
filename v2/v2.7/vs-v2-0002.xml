@@ -7,7 +7,7 @@
   <title value="V2 Table 0002 Version 2.7"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:32+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Separated"/>
       </concept>
       <concept>
+        <code value="A"/>
+        <display value="Separated"/>
+      </concept>
+      <concept>
         <code value="D"/>
         <display value="Divorced"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Divorced"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Married"/>
       </concept>
       <concept>
         <code value="M"/>
@@ -37,8 +49,20 @@
         <display value="Single"/>
       </concept>
       <concept>
+        <code value="S"/>
+        <display value="Single"/>
+      </concept>
+      <concept>
         <code value="W"/>
         <display value="Widowed"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Widowed"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Common law"/>
       </concept>
       <concept>
         <code value="C"/>
@@ -49,8 +73,20 @@
         <display value="Living together"/>
       </concept>
       <concept>
+        <code value="G"/>
+        <display value="Living together"/>
+      </concept>
+      <concept>
         <code value="P"/>
         <display value="Domestic partner"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Domestic partner"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Registered domestic partner"/>
       </concept>
       <concept>
         <code value="R"/>
@@ -61,8 +97,20 @@
         <display value="Legally Separated"/>
       </concept>
       <concept>
+        <code value="E"/>
+        <display value="Legally Separated"/>
+      </concept>
+      <concept>
         <code value="N"/>
         <display value="Annulled"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Annulled"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Interlocutory"/>
       </concept>
       <concept>
         <code value="I"/>
@@ -73,12 +121,28 @@
         <display value="Unmarried"/>
       </concept>
       <concept>
+        <code value="B"/>
+        <display value="Unmarried"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Unknown"/>
+      </concept>
+      <concept>
         <code value="U"/>
         <display value="Unknown"/>
       </concept>
       <concept>
         <code value="O"/>
         <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Unreported"/>
       </concept>
       <concept>
         <code value="T"/>

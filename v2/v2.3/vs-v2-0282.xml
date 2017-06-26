@@ -7,7 +7,7 @@
   <title value="V2 Table 0282 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,22 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0282"/>
+      <concept>
+        <code value="AM"/>
+        <display value="Assume Management"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Return Patient After Evaluation"/>
+      </concept>
+      <concept>
+        <code value="SO"/>
+        <display value="Second Opinion"/>
+      </concept>
+      <concept>
+        <code value="WR"/>
+        <display value="Send Written Report"/>
+      </concept>
       <concept>
         <code value="AM"/>
         <display value="Assume Management"/>

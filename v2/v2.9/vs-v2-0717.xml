@@ -7,7 +7,7 @@
   <title value="V2 Table 0717 Version 2.9"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:54+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="All"/>
       </concept>
       <concept>
+        <code value="ALL"/>
+        <display value="All"/>
+      </concept>
+      <concept>
         <code value="DEM"/>
         <display value="All demographic data"/>
+      </concept>
+      <concept>
+        <code value="DEM"/>
+        <display value="All demographic data"/>
+      </concept>
+      <concept>
+        <code value="LOC"/>
+        <display value="Patient Location"/>
       </concept>
       <concept>
         <code value="LOC"/>
@@ -37,8 +49,20 @@
         <display value="Date of Birth"/>
       </concept>
       <concept>
+        <code value="PID-7"/>
+        <display value="Date of Birth"/>
+      </concept>
+      <concept>
         <code value="PID-17"/>
         <display value="Religion"/>
+      </concept>
+      <concept>
+        <code value="PID-17"/>
+        <display value="Religion"/>
+      </concept>
+      <concept>
+        <code value="HIV"/>
+        <display value="HIV status and results"/>
       </concept>
       <concept>
         <code value="HIV"/>
@@ -49,8 +73,20 @@
         <display value="Sexually transmitted diseases"/>
       </concept>
       <concept>
+        <code value="STD"/>
+        <display value="Sexually transmitted diseases"/>
+      </concept>
+      <concept>
         <code value="PSY"/>
         <display value="Psychiatric Mental health"/>
+      </concept>
+      <concept>
+        <code value="PSY"/>
+        <display value="Psychiatric Mental health"/>
+      </concept>
+      <concept>
+        <code value="DRG"/>
+        <display value="Drug"/>
       </concept>
       <concept>
         <code value="DRG"/>
@@ -61,12 +97,28 @@
         <display value="Sensitive medical data"/>
       </concept>
       <concept>
+        <code value="SMD"/>
+        <display value="Sensitive medical data"/>
+      </concept>
+      <concept>
+        <code value="NO"/>
+        <display value="None"/>
+      </concept>
+      <concept>
         <code value="NO"/>
         <display value="None"/>
       </concept>
       <concept>
         <code value="OO"/>
         <display value="Opt out all registries (HIPAA)"/>
+      </concept>
+      <concept>
+        <code value="OO"/>
+        <display value="Opt out all registries (HIPAA)"/>
+      </concept>
+      <concept>
+        <code value="OI"/>
+        <display value="Opt in all registries (HIPAA)"/>
       </concept>
       <concept>
         <code value="OI"/>

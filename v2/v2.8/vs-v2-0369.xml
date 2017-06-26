@@ -7,7 +7,7 @@
   <title value="V2 Table 0369 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Blind Sample"/>
       </concept>
       <concept>
+        <code value="B"/>
+        <display value="Blind Sample"/>
+      </concept>
+      <concept>
         <code value="C"/>
         <display value="Calibrator, used for initial setting of calibration"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Calibrator, used for initial setting of calibration"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Electronic QC, used with manufactured reference providing signals that simulate QC results"/>
       </concept>
       <concept>
         <code value="E"/>
@@ -37,8 +49,20 @@
         <display value="Specimen used for testing proficiency of the organization performing the testing (Filler)"/>
       </concept>
       <concept>
+        <code value="F"/>
+        <display value="Specimen used for testing proficiency of the organization performing the testing (Filler)"/>
+      </concept>
+      <concept>
         <code value="G"/>
         <display value="Group (where a specimen consists of multiple individual elements that are not individually identified)"/>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Group (where a specimen consists of multiple individual elements that are not individually identified)"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)"/>
       </concept>
       <concept>
         <code value="L"/>
@@ -49,6 +73,14 @@
         <display value="Specimen used for testing Operator Proficiency"/>
       </concept>
       <concept>
+        <code value="O"/>
+        <display value="Specimen used for testing Operator Proficiency"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Patient (default if blank component value)"/>
+      </concept>
+      <concept>
         <code value="P"/>
         <display value="Patient (default if blank component value)"/>
       </concept>
@@ -57,8 +89,20 @@
         <display value="Control specimen"/>
       </concept>
       <concept>
+        <code value="Q"/>
+        <display value="Control specimen"/>
+      </concept>
+      <concept>
         <code value="R"/>
         <display value="Replicate (of patient sample as a control)"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Replicate (of patient sample as a control)"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="Verifying Calibrator, used for periodic calibration checks"/>
       </concept>
       <concept>
         <code value="V"/>

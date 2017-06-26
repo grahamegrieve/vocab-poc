@@ -7,7 +7,7 @@
   <title value="V2 Table 0205 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,34 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0205"/>
+      <concept>
+        <code value="AP"/>
+        <display value="Administrative Price or Handling Fee"/>
+      </concept>
+      <concept>
+        <code value="DC"/>
+        <display value="Direct Unit Cost"/>
+      </concept>
+      <concept>
+        <code value="IC"/>
+        <display value="Indirect Unit Cost"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="Professional Fee for Performing Provider"/>
+      </concept>
+      <concept>
+        <code value="TF"/>
+        <display value="Technology Fee for Use of Equipment"/>
+      </concept>
+      <concept>
+        <code value="TP"/>
+        <display value="Total Price"/>
+      </concept>
+      <concept>
+        <code value="UP"/>
+        <display value="Unit Price, may be based on length of procedure or service"/>
+      </concept>
       <concept>
         <code value="AP"/>
         <display value="Administrative Price or Handling Fee"/>

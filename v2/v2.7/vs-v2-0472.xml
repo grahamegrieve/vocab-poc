@@ -7,7 +7,7 @@
   <title value="V2 Table 0472 Version 2.7"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:50+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Synchronous"/>
       </concept>
       <concept>
+        <code value="S"/>
+        <display value="Synchronous"/>
+      </concept>
+      <concept>
         <code value="A"/>
         <display value="Asynchronous"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Asynchronous"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Actuation Time"/>
       </concept>
       <concept>
         <code value="C"/>

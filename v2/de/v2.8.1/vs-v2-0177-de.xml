@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0177-de-2.8.1-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0177-de-2.8.1-de"/>
+  <name value="V2Table0177LangGermanVersion2.8.1"/>
+  <title value="V2 Table language Pack for Confidentiality Code: German Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:39+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0177 Version 2.8.1 (Confidentiality Code), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0177-de"/>
+      <concept>
+        <code value="V"/>
+        <display value="streng vertraulich"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="streng vertraulich"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="vertraulich"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="vertraulich"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="normaler Zugriff"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="normaler Zugriff"/>
+      </concept>
+      <concept>
+        <code value="EMP"/>
+        <display value="Mitarbeiter"/>
+      </concept>
+      <concept>
+        <code value="EMP"/>
+        <display value="Mitarbeiter"/>
+      </concept>
+      <concept>
+        <code value="UWM"/>
+        <display value="unverheiratete Mutter"/>
+      </concept>
+      <concept>
+        <code value="UWM"/>
+        <display value="unverheiratete Mutter"/>
+      </concept>
+      <concept>
+        <code value="VIP"/>
+        <display value="VIP"/>
+      </concept>
+      <concept>
+        <code value="VIP"/>
+        <display value="VIP"/>
+      </concept>
+      <concept>
+        <code value="PSY"/>
+        <display value="Psychatriepatient"/>
+      </concept>
+      <concept>
+        <code value="PSY"/>
+        <display value="Psychatriepatient"/>
+      </concept>
+      <concept>
+        <code value="AID"/>
+        <display value="AIDS-Patient"/>
+      </concept>
+      <concept>
+        <code value="AID"/>
+        <display value="AIDS-Patient"/>
+      </concept>
+      <concept>
+        <code value="HIV"/>
+        <display value="HIV-positiver Patient"/>
+      </concept>
+      <concept>
+        <code value="HIV"/>
+        <display value="HIV-positiver Patient"/>
+      </concept>
+      <concept>
+        <code value="ETH"/>
+        <display value="Alkohol-/medikamentenabh&#xE4;ngiger Patient"/>
+      </concept>
+      <concept>
+        <code value="ETH"/>
+        <display value="Alkohol-/medikamentenabh&#xE4;ngiger Patient"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

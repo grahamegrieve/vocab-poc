@@ -7,7 +7,7 @@
   <title value="V2 Table 0528 Version 2.5.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:52+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="the hour of sleep (e.g., H18-22)"/>
       </concept>
       <concept>
+        <code value="HS"/>
+        <display value="the hour of sleep (e.g., H18-22)"/>
+      </concept>
+      <concept>
         <code value="AC"/>
         <display value="before meal (from lat. ante cibus)"/>
+      </concept>
+      <concept>
+        <code value="AC"/>
+        <display value="before meal (from lat. ante cibus)"/>
+      </concept>
+      <concept>
+        <code value="PC"/>
+        <display value="after meal (from lat. post cibus)"/>
       </concept>
       <concept>
         <code value="PC"/>
@@ -37,8 +49,20 @@
         <display value="between meals (from lat. inter cibus)"/>
       </concept>
       <concept>
+        <code value="IC"/>
+        <display value="between meals (from lat. inter cibus)"/>
+      </concept>
+      <concept>
         <code value="ACM"/>
         <display value="before breakfast (from lat. ante cibus matutinus)"/>
+      </concept>
+      <concept>
+        <code value="ACM"/>
+        <display value="before breakfast (from lat. ante cibus matutinus)"/>
+      </concept>
+      <concept>
+        <code value="ACD"/>
+        <display value="before lunch (from lat. ante cibus diurnus)"/>
       </concept>
       <concept>
         <code value="ACD"/>
@@ -49,8 +73,20 @@
         <display value="before dinner (from lat. ante cibus vespertinus)"/>
       </concept>
       <concept>
+        <code value="ACV"/>
+        <display value="before dinner (from lat. ante cibus vespertinus)"/>
+      </concept>
+      <concept>
         <code value="PCM"/>
         <display value="after breakfast (from lat. post cibus matutinus)"/>
+      </concept>
+      <concept>
+        <code value="PCM"/>
+        <display value="after breakfast (from lat. post cibus matutinus)"/>
+      </concept>
+      <concept>
+        <code value="PCD"/>
+        <display value="after lunch (from lat. post cibus diurnus)"/>
       </concept>
       <concept>
         <code value="PCD"/>
@@ -61,12 +97,28 @@
         <display value="after dinner (from lat. post cibus vespertinus)"/>
       </concept>
       <concept>
+        <code value="PCV"/>
+        <display value="after dinner (from lat. post cibus vespertinus)"/>
+      </concept>
+      <concept>
+        <code value="ICM"/>
+        <display value="between breakfast and lunch"/>
+      </concept>
+      <concept>
         <code value="ICM"/>
         <display value="between breakfast and lunch"/>
       </concept>
       <concept>
         <code value="ICD"/>
         <display value="between lunch and dinner"/>
+      </concept>
+      <concept>
+        <code value="ICD"/>
+        <display value="between lunch and dinner"/>
+      </concept>
+      <concept>
+        <code value="ICV"/>
+        <display value="between dinner and the hour of sleep"/>
       </concept>
       <concept>
         <code value="ICV"/>

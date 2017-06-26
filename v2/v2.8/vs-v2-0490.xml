@@ -7,7 +7,7 @@
   <title value="V2 Table 0490 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:51+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Expired"/>
       </concept>
       <concept>
+        <code value="EX"/>
+        <display value="Expired"/>
+      </concept>
+      <concept>
         <code value="QS"/>
         <display value="Quantity not sufficient"/>
+      </concept>
+      <concept>
+        <code value="QS"/>
+        <display value="Quantity not sufficient"/>
+      </concept>
+      <concept>
+        <code value="RB"/>
+        <display value="Broken container"/>
       </concept>
       <concept>
         <code value="RB"/>
@@ -37,8 +49,20 @@
         <display value="Clotting"/>
       </concept>
       <concept>
+        <code value="RC"/>
+        <display value="Clotting"/>
+      </concept>
+      <concept>
         <code value="RD"/>
         <display value="Missing collection date"/>
+      </concept>
+      <concept>
+        <code value="RD"/>
+        <display value="Missing collection date"/>
+      </concept>
+      <concept>
+        <code value="RA"/>
+        <display value="Missing patient ID number"/>
       </concept>
       <concept>
         <code value="RA"/>
@@ -49,8 +73,20 @@
         <display value="Missing patient name"/>
       </concept>
       <concept>
+        <code value="RE"/>
+        <display value="Missing patient name"/>
+      </concept>
+      <concept>
         <code value="RH"/>
         <display value="Hemolysis"/>
+      </concept>
+      <concept>
+        <code value="RH"/>
+        <display value="Hemolysis"/>
+      </concept>
+      <concept>
+        <code value="RI"/>
+        <display value="Identification problem"/>
       </concept>
       <concept>
         <code value="RI"/>
@@ -61,6 +97,14 @@
         <display value="Labeling"/>
       </concept>
       <concept>
+        <code value="RM"/>
+        <display value="Labeling"/>
+      </concept>
+      <concept>
+        <code value="RN"/>
+        <display value="Contamination"/>
+      </concept>
+      <concept>
         <code value="RN"/>
         <display value="Contamination"/>
       </concept>
@@ -69,8 +113,20 @@
         <display value="Missing phlebotomist ID"/>
       </concept>
       <concept>
+        <code value="RP"/>
+        <display value="Missing phlebotomist ID"/>
+      </concept>
+      <concept>
         <code value="RR"/>
         <display value="Improper storage"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Improper storage"/>
+      </concept>
+      <concept>
+        <code value="RS"/>
+        <display value="Name misspelling"/>
       </concept>
       <concept>
         <code value="RS"/>

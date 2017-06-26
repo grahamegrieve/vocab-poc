@@ -7,7 +7,7 @@
   <title value="V2 Table 0278 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -21,36 +21,36 @@
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0278"/>
       <concept>
-        <code value="BLOCKED"/>
-        <display value="Blocked"/>
-      </concept>
-      <concept>
-        <code value="BOOKED"/>
-        <display value="Booked"/>
-      </concept>
-      <concept>
-        <code value="CANCELLED"/>
-        <display value="Cancelled"/>
-      </concept>
-      <concept>
-        <code value="COMPLETE"/>
-        <display value="Complete"/>
-      </concept>
-      <concept>
-        <code value="DELETED"/>
-        <display value="Deleted"/>
+        <code value="PENDING"/>
+        <display value="Pending"/>
       </concept>
       <concept>
         <code value="OVERBOOK"/>
         <display value="Overbook"/>
       </concept>
       <concept>
-        <code value="PENDING"/>
-        <display value="Pending"/>
+        <code value="DELETED"/>
+        <display value="Deleted"/>
       </concept>
       <concept>
         <code value="STARTED"/>
         <display value="Started"/>
+      </concept>
+      <concept>
+        <code value="CANCELLED"/>
+        <display value="Cancelled"/>
+      </concept>
+      <concept>
+        <code value="BOOKED"/>
+        <display value="Booked"/>
+      </concept>
+      <concept>
+        <code value="BLOCKED"/>
+        <display value="Blocked"/>
+      </concept>
+      <concept>
+        <code value="COMPLETE"/>
+        <display value="Complete"/>
       </concept>
       <concept>
         <code value="WAITLIST"/>

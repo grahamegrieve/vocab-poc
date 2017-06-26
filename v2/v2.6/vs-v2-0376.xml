@@ -7,7 +7,7 @@
   <title value="V2 Table 0376 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Body temperature"/>
       </concept>
       <concept>
+        <code value="C37"/>
+        <display value="Body temperature"/>
+      </concept>
+      <concept>
         <code value="AMB"/>
         <display value="Ambient temperature"/>
+      </concept>
+      <concept>
+        <code value="AMB"/>
+        <display value="Ambient temperature"/>
+      </concept>
+      <concept>
+        <code value="CAMB"/>
+        <display value="Critical ambient temperature"/>
       </concept>
       <concept>
         <code value="CAMB"/>
@@ -37,8 +49,20 @@
         <display value="Refrigerated temperature"/>
       </concept>
       <concept>
+        <code value="REF"/>
+        <display value="Refrigerated temperature"/>
+      </concept>
+      <concept>
         <code value="CREF"/>
         <display value="Critical refrigerated temperature"/>
+      </concept>
+      <concept>
+        <code value="CREF"/>
+        <display value="Critical refrigerated temperature"/>
+      </concept>
+      <concept>
+        <code value="FRZ"/>
+        <display value="Frozen temperature"/>
       </concept>
       <concept>
         <code value="FRZ"/>
@@ -49,8 +73,20 @@
         <display value="Critical frozen temperature"/>
       </concept>
       <concept>
+        <code value="CFRZ"/>
+        <display value="Critical frozen temperature"/>
+      </concept>
+      <concept>
         <code value="DFRZ"/>
         <display value="Deep frozen"/>
+      </concept>
+      <concept>
+        <code value="DFRZ"/>
+        <display value="Deep frozen"/>
+      </concept>
+      <concept>
+        <code value="UFRZ"/>
+        <display value="Ultra frozen"/>
       </concept>
       <concept>
         <code value="UFRZ"/>
@@ -61,8 +97,20 @@
         <display value="Liquid nitrogen"/>
       </concept>
       <concept>
+        <code value="NTR"/>
+        <display value="Liquid nitrogen"/>
+      </concept>
+      <concept>
         <code value="PRTL"/>
         <display value="Protect from light"/>
+      </concept>
+      <concept>
+        <code value="PRTL"/>
+        <display value="Protect from light"/>
+      </concept>
+      <concept>
+        <code value="CATM"/>
+        <display value="Protect from air"/>
       </concept>
       <concept>
         <code value="CATM"/>
@@ -73,6 +121,14 @@
         <display value="Dry"/>
       </concept>
       <concept>
+        <code value="DRY"/>
+        <display value="Dry"/>
+      </concept>
+      <concept>
+        <code value="PSO"/>
+        <display value="No shock"/>
+      </concept>
+      <concept>
         <code value="PSO"/>
         <display value="No shock"/>
       </concept>
@@ -81,8 +137,20 @@
         <display value="Do not shake"/>
       </concept>
       <concept>
+        <code value="PSA"/>
+        <display value="Do not shake"/>
+      </concept>
+      <concept>
         <code value="UPR"/>
         <display value="Upright"/>
+      </concept>
+      <concept>
+        <code value="UPR"/>
+        <display value="Upright"/>
+      </concept>
+      <concept>
+        <code value="MTLF"/>
+        <display value="Metal Free"/>
       </concept>
       <concept>
         <code value="MTLF"/>

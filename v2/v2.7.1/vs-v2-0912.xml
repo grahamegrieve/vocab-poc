@@ -7,7 +7,7 @@
   <title value="V2 Table 0912 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:55+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Admitting Provider"/>
       </concept>
       <concept>
+        <code value="AD"/>
+        <display value="Admitting Provider"/>
+      </concept>
+      <concept>
         <code value="AI"/>
         <display value="Assistant/Alternate Interpreter"/>
+      </concept>
+      <concept>
+        <code value="AI"/>
+        <display value="Assistant/Alternate Interpreter"/>
+      </concept>
+      <concept>
+        <code value="AP"/>
+        <display value="Administering Provider"/>
       </concept>
       <concept>
         <code value="AP"/>
@@ -37,8 +49,20 @@
         <display value="Assistant Result Interpreter"/>
       </concept>
       <concept>
+        <code value="ARI"/>
+        <display value="Assistant Result Interpreter"/>
+      </concept>
+      <concept>
         <code value="AT"/>
         <display value="Attending Provider"/>
+      </concept>
+      <concept>
+        <code value="AT"/>
+        <display value="Attending Provider"/>
+      </concept>
+      <concept>
+        <code value="AUT"/>
+        <display value="AUT Author/Event Initiator"/>
       </concept>
       <concept>
         <code value="AUT"/>
@@ -49,8 +73,20 @@
         <display value="Consulting Provider"/>
       </concept>
       <concept>
+        <code value="CP"/>
+        <display value="Consulting Provider"/>
+      </concept>
+      <concept>
         <code value="DP"/>
         <display value="Dispensing Provider"/>
+      </concept>
+      <concept>
+        <code value="DP"/>
+        <display value="Dispensing Provider"/>
+      </concept>
+      <concept>
+        <code value="EP"/>
+        <display value="Entering Provider (probably not the same as transcriptionist)"/>
       </concept>
       <concept>
         <code value="EP"/>
@@ -61,8 +97,20 @@
         <display value="Equipment"/>
       </concept>
       <concept>
+        <code value="EQUIP"/>
+        <display value="Equipment"/>
+      </concept>
+      <concept>
         <code value="FHCP"/>
         <display value="Family Health Care Professional"/>
+      </concept>
+      <concept>
+        <code value="FHCP"/>
+        <display value="Family Health Care Professional"/>
+      </concept>
+      <concept>
+        <code value="MDIR"/>
+        <display value="Medical Director"/>
       </concept>
       <concept>
         <code value="MDIR"/>
@@ -73,8 +121,20 @@
         <display value="Ordering Provider"/>
       </concept>
       <concept>
+        <code value="OP"/>
+        <display value="Ordering Provider"/>
+      </concept>
+      <concept>
         <code value="PB"/>
         <display value="Packed by"/>
+      </concept>
+      <concept>
+        <code value="PB"/>
+        <display value="Packed by"/>
+      </concept>
+      <concept>
+        <code value="PH"/>
+        <display value="Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
       </concept>
       <concept>
         <code value="PH"/>
@@ -85,8 +145,20 @@
         <display value="Primary Interpreter"/>
       </concept>
       <concept>
+        <code value="PI"/>
+        <display value="Primary Interpreter"/>
+      </concept>
+      <concept>
         <code value="PO"/>
         <display value="Performing Organization"/>
+      </concept>
+      <concept>
+        <code value="PO"/>
+        <display value="Performing Organization"/>
+      </concept>
+      <concept>
+        <code value="POMD"/>
+        <display value="Performing Organization Medical Director"/>
       </concept>
       <concept>
         <code value="POMD"/>
@@ -97,8 +169,20 @@
         <display value="Primary Care Provider"/>
       </concept>
       <concept>
+        <code value="PP"/>
+        <display value="Primary Care Provider"/>
+      </concept>
+      <concept>
         <code value="PRI"/>
         <display value="Principal Result Interpreter"/>
+      </concept>
+      <concept>
+        <code value="PRI"/>
+        <display value="Principal Result Interpreter"/>
+      </concept>
+      <concept>
+        <code value="RCT"/>
+        <display value="Results Copies To"/>
       </concept>
       <concept>
         <code value="RCT"/>
@@ -109,8 +193,20 @@
         <display value="Responsible Observer"/>
       </concept>
       <concept>
+        <code value="RO"/>
+        <display value="Responsible Observer"/>
+      </concept>
+      <concept>
         <code value="RP"/>
         <display value="Referring Provider"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Referring Provider"/>
+      </concept>
+      <concept>
+        <code value="RT"/>
+        <display value="Referred to Provider"/>
       </concept>
       <concept>
         <code value="RT"/>
@@ -121,8 +217,20 @@
         <display value="Send by"/>
       </concept>
       <concept>
+        <code value="SB"/>
+        <display value="Send by"/>
+      </concept>
+      <concept>
         <code value="SC"/>
         <display value="Specimen Collector"/>
+      </concept>
+      <concept>
+        <code value="SC"/>
+        <display value="Specimen Collector"/>
+      </concept>
+      <concept>
+        <code value="TN"/>
+        <display value="Technician"/>
       </concept>
       <concept>
         <code value="TN"/>
@@ -133,8 +241,20 @@
         <display value="Transcriptionist"/>
       </concept>
       <concept>
+        <code value="TR"/>
+        <display value="Transcriptionist"/>
+      </concept>
+      <concept>
         <code value="VP"/>
         <display value="Verifying Provider"/>
+      </concept>
+      <concept>
+        <code value="VP"/>
+        <display value="Verifying Provider"/>
+      </concept>
+      <concept>
+        <code value="VPS"/>
+        <display value="Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
       </concept>
       <concept>
         <code value="VPS"/>
@@ -145,8 +265,20 @@
         <display value="Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
       </concept>
       <concept>
+        <code value="VTS"/>
+        <display value="Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
+      </concept>
+      <concept>
         <code value="WAY"/>
         <display value="Waypoint"/>
+      </concept>
+      <concept>
+        <code value="WAY"/>
+        <display value="Waypoint"/>
+      </concept>
+      <concept>
+        <code value="WAYR"/>
+        <display value="Waypoint Recipient"/>
       </concept>
       <concept>
         <code value="WAYR"/>

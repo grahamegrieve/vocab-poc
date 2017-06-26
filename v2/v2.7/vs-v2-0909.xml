@@ -7,7 +7,7 @@
   <title value="V2 Table 0909 Version 2.7"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:55+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Share To Be Determined -&lt;p&gt;Category to be determined"/>
       </concept>
       <concept>
+        <code value="STBD"/>
+        <display value="Share To Be Determined -&lt;p&gt;Category to be determined"/>
+      </concept>
+      <concept>
         <code value="SIMM"/>
         <display value="Share Immediately -&lt;p&gt;Share result with patient immediately"/>
+      </concept>
+      <concept>
+        <code value="SIMM"/>
+        <display value="Share Immediately -&lt;p&gt;Share result with patient immediately"/>
+      </concept>
+      <concept>
+        <code value="SWNL"/>
+        <display value="Share Within Normal Limits -&lt;p&gt;Share result in reference/therapeutic range with patient immediately&lt;p&gt;Share result out of reference/therapeutic ranges with patient after 1 or more business day as agreed to by the systems in play."/>
       </concept>
       <concept>
         <code value="SWNL"/>
@@ -37,8 +49,20 @@
         <display value="Share In1 Day -&lt;p&gt;Share result regardless of reference/therapeutic range after 1 or more business day as agreed to by the systems in play."/>
       </concept>
       <concept>
+        <code value="SID"/>
+        <display value="Share In1 Day -&lt;p&gt;Share result regardless of reference/therapeutic range after 1 or more business day as agreed to by the systems in play."/>
+      </concept>
+      <concept>
         <code value="SIDC"/>
         <display value="Share in 1 Day Conditionally -&lt;p&gt;Share result in reference ranges/therapeutic with patient after 1 or more business day as agreed to by the systems in play.&lt;p&gt;Withhold result out of reference/therapeutic range until physician release"/>
+      </concept>
+      <concept>
+        <code value="SIDC"/>
+        <display value="Share in 1 Day Conditionally -&lt;p&gt;Share result in reference ranges/therapeutic with patient after 1 or more business day as agreed to by the systems in play.&lt;p&gt;Withhold result out of reference/therapeutic range until physician release"/>
+      </concept>
+      <concept>
+        <code value="SWTH"/>
+        <display value="Share Withhold -&lt;p&gt;Withhold result regardless of reference/therapeutic ranges"/>
       </concept>
       <concept>
         <code value="SWTH"/>

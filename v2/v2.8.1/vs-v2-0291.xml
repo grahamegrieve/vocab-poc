@@ -7,7 +7,7 @@
   <title value="V2 Table 0291 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,62 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0291"/>
+      <concept>
+        <code value="FAX"/>
+        <display value="Facsimile data"/>
+      </concept>
+      <concept>
+        <code value="GIF"/>
+        <display value="Graphics Interchange Format"/>
+      </concept>
+      <concept>
+        <code value="HTML"/>
+        <display value="Hypertext Markup Language"/>
+      </concept>
+      <concept>
+        <code value="JOT"/>
+        <display value="Electronic ink data (Jot 1.0 standard)"/>
+      </concept>
+      <concept>
+        <code value="JPEG"/>
+        <display value="Joint Photographic Experts Group"/>
+      </concept>
+      <concept>
+        <code value="Octet-stream"/>
+        <display value="Uninterpreted binary data"/>
+      </concept>
+      <concept>
+        <code value="PICT"/>
+        <display value="PICT format image data"/>
+      </concept>
+      <concept>
+        <code value="PostScript"/>
+        <display value="PostScript program"/>
+      </concept>
+      <concept>
+        <code value="RTF"/>
+        <display value="Rich Text Format"/>
+      </concept>
+      <concept>
+        <code value="SGML"/>
+        <display value="Standard Generalized Markup Language (HL7 V2.3.1 and later)"/>
+      </concept>
+      <concept>
+        <code value="TIFF"/>
+        <display value="TIFF image data"/>
+      </concept>
+      <concept>
+        <code value="DICOM"/>
+        <display value="Digital Imaging and Communications in Medicine"/>
+      </concept>
+      <concept>
+        <code value="BASIC"/>
+        <display value="ISDN PCM audio data"/>
+      </concept>
+      <concept>
+        <code value="XML"/>
+        <display value="Extensible Markup Language (HL7 V2.3.1 and later)"/>
+      </concept>
       <concept>
         <code value="BASIC"/>
         <display value="ISDN PCM audio data"/>
@@ -75,6 +131,10 @@
       <concept>
         <code value="XML"/>
         <display value="Extensible Markup Language (HL7 V2.3.1 and later)"/>
+      </concept>
+      <concept>
+        <code value="x-hl7-cda-level-one"/>
+        <display value="HL7 Clinical Document Architecture Level One document"/>
       </concept>
       <concept>
         <code value="x-hl7-cda-level-one"/>

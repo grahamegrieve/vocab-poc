@@ -7,7 +7,7 @@
   <title value="V2 Table 0179 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:39+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,22 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0179"/>
+      <concept>
+        <code value="SU"/>
+        <display value="Success.  Only MFA segments denoting success must be returned via the application level acknowledgement for this message"/>
+      </concept>
+      <concept>
+        <code value="NE"/>
+        <display value="Never.  no application level response needed"/>
+      </concept>
+      <concept>
+        <code value="AL"/>
+        <display value="Always. All MFA segments (whether denoting errors or not) must be returned via the application level acknowledgement message"/>
+      </concept>
+      <concept>
+        <code value="ER"/>
+        <display value="Error/Reject conditions only.  Only MFA segments denoting errors must be returned via the application level acknowledgement for this message"/>
+      </concept>
       <concept>
         <code value="AL"/>
         <display value="Always. All MFA segments (whether denoting errors or not) must be returned via the application level acknowledgement message"/>

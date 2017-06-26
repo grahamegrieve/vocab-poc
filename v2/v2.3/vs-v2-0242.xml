@@ -7,7 +7,7 @@
   <title value="V2 Table 0242 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:42+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,34 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0242"/>
+      <concept>
+        <code value="R"/>
+        <display value="Pharmacist"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Physician (osteopath, homeopath)"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Other non-health professional"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Mid-level professional (nurse, nurse practitioner, physician&#39;s assistant)"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Health care consumer/patient"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="Other health professional"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Lawyer/attorney"/>
+      </concept>
       <concept>
         <code value="C"/>
         <display value="Health care consumer/patient"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0298 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -23,6 +23,14 @@
       <concept>
         <code value="P"/>
         <display value="Pro-rate. Apply this price to this interval, pro-rated by whatever portion of the interval has occurred/been consumed"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Pro-rate. Apply this price to this interval, pro-rated by whatever portion of the interval has occurred/been consumed"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Flat-rate. Apply the entire price to this interval, do not pro-rate the price if the full interval has not occurred/been consumed"/>
       </concept>
       <concept>
         <code value="F"/>

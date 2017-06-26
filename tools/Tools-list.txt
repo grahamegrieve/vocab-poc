@@ -22,7 +22,12 @@ The build runs an extensive set of checks on the terminology repository:
 Then the build produces a set of outputs:
 - v2 table definitions for import into the v2 publishing processes
 - v3 MIF file(s) for V3 MIF based tooling
-- a set of outputs in FHIR IG Format for FHIR IG based tooling
+- a set of outputs in FHIR IG output Format for FHIR IG based tooling
+- an RDF file to support RDF based reasoning
 - other formats?
 
 Note that the FHIR build process uses the latest repository directly when publishing FHIR
+
+tooling chain
+- run java validator
+- 

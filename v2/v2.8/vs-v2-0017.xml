@@ -7,7 +7,7 @@
   <title value="V2 Table 0017 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:32+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Charge"/>
       </concept>
       <concept>
+        <code value="CG"/>
+        <display value="Charge"/>
+      </concept>
+      <concept>
+        <code value="CD"/>
+        <display value="Credit"/>
+      </concept>
+      <concept>
         <code value="CD"/>
         <display value="Credit"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Payment"/>
       </concept>
       <concept>
+        <code value="PY"/>
+        <display value="Payment"/>
+      </concept>
+      <concept>
         <code value="AJ"/>
         <display value="Adjustment"/>
+      </concept>
+      <concept>
+        <code value="AJ"/>
+        <display value="Adjustment"/>
+      </concept>
+      <concept>
+        <code value="CO"/>
+        <display value="Co-payment"/>
       </concept>
       <concept>
         <code value="CO"/>

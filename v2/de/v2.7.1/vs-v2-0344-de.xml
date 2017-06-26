@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0344-de-2.7.1-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0344-de-2.7.1-de"/>
+  <name value="V2Table0344LangGermanVersion2.7.1"/>
+  <title value="V2 Table language Pack for Patient&#39;s Relationship to Insured: German Version 2.7.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0344 Version 2.7.1 (Patient&#39;s Relationship to Insured), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0344-de"/>
+      <concept>
+        <code value="10"/>
+        <display value="behinderter Angeh&#xF6;riger"/>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="behinderter Angeh&#xF6;riger"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Organspender"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Organspender"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="K&#xF6;rper-/Leichenspender (bspw. f&#xFC;r anatomische Studien; wir Organspender, nur nach dem Tod)"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="K&#xF6;rper-/Leichenspender (bspw. f&#xFC;r anatomische Studien; wir Organspender, nur nach dem Tod)"/>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Enkel"/>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Enkel"/>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Nichte/Neffe"/>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Nichte/Neffe"/>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="verletzter Kl&#xE4;ger"/>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="verletzter Kl&#xE4;ger"/>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Unterhaltsberechtigter"/>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Unterhaltsberechtigter"/>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Kind eines Minderj&#xE4;hrigen"/>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Kind eines Minderj&#xE4;hrigen"/>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Eltern"/>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Eltern"/>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Gro&#xDF;eltern"/>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Gro&#xDF;eltern"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

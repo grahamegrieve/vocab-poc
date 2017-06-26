@@ -7,7 +7,7 @@
   <title value="V2 Table 0180 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:40+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Add record to master file"/>
       </concept>
       <concept>
+        <code value="MAD"/>
+        <display value="Add record to master file"/>
+      </concept>
+      <concept>
+        <code value="MDL"/>
+        <display value="Delete record from master file"/>
+      </concept>
+      <concept>
         <code value="MDL"/>
         <display value="Delete record from master file"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Update record for master file"/>
       </concept>
       <concept>
+        <code value="MUP"/>
+        <display value="Update record for master file"/>
+      </concept>
+      <concept>
         <code value="MDC"/>
         <display value="Deactivate: discontinue using record in master file, but do not delete from database"/>
+      </concept>
+      <concept>
+        <code value="MDC"/>
+        <display value="Deactivate: discontinue using record in master file, but do not delete from database"/>
+      </concept>
+      <concept>
+        <code value="MAC"/>
+        <display value="Reactivate deactivated record"/>
       </concept>
       <concept>
         <code value="MAC"/>

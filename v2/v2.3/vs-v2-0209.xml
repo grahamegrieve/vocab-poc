@@ -7,7 +7,7 @@
   <title value="V2 Table 0209 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,38 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0209"/>
+      <concept>
+        <code value="LE"/>
+        <display value="Less than or equal"/>
+      </concept>
+      <concept>
+        <code value="NE"/>
+        <display value="Not equal"/>
+      </concept>
+      <concept>
+        <code value="LT"/>
+        <display value="Less than"/>
+      </concept>
+      <concept>
+        <code value="GT"/>
+        <display value="Greater than"/>
+      </concept>
+      <concept>
+        <code value="GN"/>
+        <display value="Generic"/>
+      </concept>
+      <concept>
+        <code value="GE"/>
+        <display value="Greater than or equal"/>
+      </concept>
+      <concept>
+        <code value="EQ"/>
+        <display value="Equal"/>
+      </concept>
+      <concept>
+        <code value="CT"/>
+        <display value="Contains"/>
+      </concept>
       <concept>
         <code value="CT"/>
         <display value="Contains"/>

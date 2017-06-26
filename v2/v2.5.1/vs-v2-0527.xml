@@ -7,7 +7,7 @@
   <title value="V2 Table 0527 Version 2.5.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:52+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="month of the year"/>
       </concept>
       <concept>
+        <code value="MY"/>
+        <display value="month of the year"/>
+      </concept>
+      <concept>
         <code value="WY"/>
         <display value="week of the year"/>
+      </concept>
+      <concept>
+        <code value="WY"/>
+        <display value="week of the year"/>
+      </concept>
+      <concept>
+        <code value="DM"/>
+        <display value="day of the month"/>
       </concept>
       <concept>
         <code value="DM"/>
@@ -37,6 +49,14 @@
         <display value="day of the year"/>
       </concept>
       <concept>
+        <code value="DY"/>
+        <display value="day of the year"/>
+      </concept>
+      <concept>
+        <code value="DW"/>
+        <display value="day of the week (begins with Monday)"/>
+      </concept>
+      <concept>
         <code value="DW"/>
         <display value="day of the week (begins with Monday)"/>
       </concept>
@@ -45,8 +65,20 @@
         <display value="hour of the day"/>
       </concept>
       <concept>
+        <code value="HD"/>
+        <display value="hour of the day"/>
+      </concept>
+      <concept>
         <code value="NH"/>
         <display value="minute of the hour"/>
+      </concept>
+      <concept>
+        <code value="NH"/>
+        <display value="minute of the hour"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="second of the minute"/>
       </concept>
       <concept>
         <code value="SN"/>

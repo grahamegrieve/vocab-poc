@@ -7,7 +7,7 @@
   <title value="V2 Table 0137 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:37+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,26 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0137"/>
+      <concept>
+        <code value="E"/>
+        <display value="Employer"/>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Guarantor"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Insurance Company"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Patient"/>
+      </concept>
       <concept>
         <code value="E"/>
         <display value="Employer"/>

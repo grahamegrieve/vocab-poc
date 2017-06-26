@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0165-de-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0165-de-de"/>
+  <name value="V2Table0165LangGermanVersionMaster"/>
+  <title value="V2 Table language Pack for Administration Method: German Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:39+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0165 Version Master (Administration Method), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0165-de"/>
+      <concept>
+        <code value="CH"/>
+        <display value="Kauen"/>
+      </concept>
+      <concept>
+        <code value="DI"/>
+        <display value="Aufl&#xF6;sen"/>
+      </concept>
+      <concept>
+        <code value="DU"/>
+        <display value="Zerst&#xE4;uben"/>
+      </concept>
+      <concept>
+        <code value="IF"/>
+        <display value="Infiltrieren"/>
+      </concept>
+      <concept>
+        <code value="IS"/>
+        <display value="Einf&#xFC;gen / einsetzen"/>
+      </concept>
+      <concept>
+        <code value="IR"/>
+        <display value="Sp&#xFC;len"/>
+      </concept>
+      <concept>
+        <code value="IVPB"/>
+        <display value="IV-Kurzinfusion"/>
+      </concept>
+      <concept>
+        <code value="IVP"/>
+        <display value="Intraven&#xF6;se Spritze"/>
+      </concept>
+      <concept>
+        <code value="NB"/>
+        <display value="Vernebeln"/>
+      </concept>
+      <concept>
+        <code value="PT"/>
+        <display value="Schmerz"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="Perfundieren"/>
+      </concept>
+      <concept>
+        <code value="SH"/>
+        <display value="Shampoo"/>
+      </concept>
+      <concept>
+        <code value="SO"/>
+        <display value="Aufweichen"/>
+      </concept>
+      <concept>
+        <code value="WA"/>
+        <display value="Waschen"/>
+      </concept>
+      <concept>
+        <code value="WI"/>
+        <display value="Wischen"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0323 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,18 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0323"/>
+      <concept>
+        <code value="A"/>
+        <display value="Add/Insert"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Delete"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Update"/>
+      </concept>
       <concept>
         <code value="A"/>
         <display value="Add/Insert"/>

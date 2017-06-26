@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0190-de-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0190-de-de"/>
+  <name value="V2Table0190LangGermanVersionMaster"/>
+  <title value="V2 Table language Pack for Address Type: German Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:40+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0190 Version Master (Address Type), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0190-de"/>
+      <concept>
+        <code value="BDL"/>
+        <display value="genauer Geburtsort"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Herkunftsland"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Derzeitige Adresse"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Firma/Gesch&#xE4;ft"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="Privatadresse"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="registrierte Adresse"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Postalische Adresse"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="B&#xFC;roadresse"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Dauernder Wohnsitz"/>
+      </concept>
+      <concept>
+        <code value="BR"/>
+        <display value="Wohnort zum Zeit&#xAD;punkt der Geburt"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

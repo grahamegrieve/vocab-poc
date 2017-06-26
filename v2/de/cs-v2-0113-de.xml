@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0113-de"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0113-de"/>
+  <name value="V2Table0113LangGerman"/>
+  <title value="V2 Table language Pack for Discharged to location: German"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:35+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0113 (Discharged to location), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="fragment"/>
+  <concept>
+    <code value="..."/>
+    <designation>
+      <language value="de"/>
+      <value value="Aufenthalt nach Austritt"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0080-de-2.8.1-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0080-de-2.8.1-de"/>
+  <name value="V2Table0080LangGermanVersion2.8.1"/>
+  <title value="V2 Table language Pack for Nature of Abnormal Testing: German Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:34+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0080 Version 2.8.1 (Nature of Abnormal Testing), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0080-de"/>
+      <concept>
+        <code value="A"/>
+        <display value="Altersabh&#xE4;ngig"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Altersabh&#xE4;ngig"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Genereller Normalwert"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Genereller Normalwert"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Rasseabh&#xE4;ngig"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Rasseabh&#xE4;ngig"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Geschlechtsabh&#xE4;ngig"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Geschlechtsabh&#xE4;ngig"/>
+      </concept>
+      <concept>
+        <code value="SP"/>
+        <display value="abh&#xE4;ngig von Spezies"/>
+      </concept>
+      <concept>
+        <code value="SP"/>
+        <display value="abh&#xE4;ngig von Spezies"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="abh&#xE4;ngig von Rasse oder Zucht"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="abh&#xE4;ngig von Rasse oder Zucht"/>
+      </concept>
+      <concept>
+        <code value="ST"/>
+        <display value="abh&#xE4;ngig von Bakterienstamm"/>
+      </concept>
+      <concept>
+        <code value="ST"/>
+        <display value="abh&#xE4;ngig von Bakterienstamm"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

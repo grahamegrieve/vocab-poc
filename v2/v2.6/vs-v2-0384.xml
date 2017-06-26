@@ -7,7 +7,7 @@
   <title value="V2 Table 0384 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Single Test Reagent"/>
       </concept>
       <concept>
+        <code value="SR"/>
+        <display value="Single Test Reagent"/>
+      </concept>
+      <concept>
         <code value="MR"/>
         <display value="Multiple Test Reagent"/>
+      </concept>
+      <concept>
+        <code value="MR"/>
+        <display value="Multiple Test Reagent"/>
+      </concept>
+      <concept>
+        <code value="DI"/>
+        <display value="Diluent"/>
       </concept>
       <concept>
         <code value="DI"/>
@@ -37,8 +49,20 @@
         <display value="Pretreatment"/>
       </concept>
       <concept>
+        <code value="PT"/>
+        <display value="Pretreatment"/>
+      </concept>
+      <concept>
         <code value="RC"/>
         <display value="Reagent Calibrator"/>
+      </concept>
+      <concept>
+        <code value="RC"/>
+        <display value="Reagent Calibrator"/>
+      </concept>
+      <concept>
+        <code value="CO"/>
+        <display value="Control"/>
       </concept>
       <concept>
         <code value="CO"/>
@@ -49,8 +73,20 @@
         <display value="Purified Water"/>
       </concept>
       <concept>
+        <code value="PW"/>
+        <display value="Purified Water"/>
+      </concept>
+      <concept>
         <code value="LW"/>
         <display value="Liquid Waste"/>
+      </concept>
+      <concept>
+        <code value="LW"/>
+        <display value="Liquid Waste"/>
+      </concept>
+      <concept>
+        <code value="SW"/>
+        <display value="Solid Waste"/>
       </concept>
       <concept>
         <code value="SW"/>
@@ -61,8 +97,20 @@
         <display value="Countable Solid Item"/>
       </concept>
       <concept>
+        <code value="SC"/>
+        <display value="Countable Solid Item"/>
+      </concept>
+      <concept>
         <code value="LI"/>
         <display value="Measurable Liquid Item"/>
+      </concept>
+      <concept>
+        <code value="LI"/>
+        <display value="Measurable Liquid Item"/>
+      </concept>
+      <concept>
+        <code value="OT"/>
+        <display value="Other"/>
       </concept>
       <concept>
         <code value="OT"/>

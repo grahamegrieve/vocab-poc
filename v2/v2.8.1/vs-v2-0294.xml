@@ -7,7 +7,7 @@
   <title value="V2 Table 0294 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="An indicator that there is a preferred start time for the appointment request, service or resource."/>
       </concept>
       <concept>
+        <code value="Prefstart"/>
+        <display value="An indicator that there is a preferred start time for the appointment request, service or resource."/>
+      </concept>
+      <concept>
         <code value="Prefend"/>
         <display value="An indicator that there is a preferred end time for the appointment request, service or resource."/>
+      </concept>
+      <concept>
+        <code value="Prefend"/>
+        <display value="An indicator that there is a preferred end time for the appointment request, service or resource."/>
+      </concept>
+      <concept>
+        <code value="Mon"/>
+        <display value="An indicator that Monday is or is not preferred for the day on which the appointment will occur."/>
       </concept>
       <concept>
         <code value="Mon"/>
@@ -37,8 +49,20 @@
         <display value="An indicator that Tuesday is or is not preferred for the day on which the appointment will occur."/>
       </concept>
       <concept>
+        <code value="Tue"/>
+        <display value="An indicator that Tuesday is or is not preferred for the day on which the appointment will occur."/>
+      </concept>
+      <concept>
         <code value="Wed"/>
         <display value="An indicator that Wednesday is or is not preferred for the day on which the appointment will occur."/>
+      </concept>
+      <concept>
+        <code value="Wed"/>
+        <display value="An indicator that Wednesday is or is not preferred for the day on which the appointment will occur."/>
+      </concept>
+      <concept>
+        <code value="Thu"/>
+        <display value="An indicator that Thursday is or is not preferred for the day on which the appointment will occur."/>
       </concept>
       <concept>
         <code value="Thu"/>
@@ -49,8 +73,20 @@
         <display value="An indicator that Friday is or is not preferred for the day on which the appointment will occur."/>
       </concept>
       <concept>
+        <code value="Fri"/>
+        <display value="An indicator that Friday is or is not preferred for the day on which the appointment will occur."/>
+      </concept>
+      <concept>
         <code value="Sat"/>
         <display value="An indicator that Saturday is or is not preferred for the day on which the appointment will occur."/>
+      </concept>
+      <concept>
+        <code value="Sat"/>
+        <display value="An indicator that Saturday is or is not preferred for the day on which the appointment will occur."/>
+      </concept>
+      <concept>
+        <code value="Sun"/>
+        <display value="An indicator that Sunday is or is not preferred for the day on which the appointment will occur."/>
       </concept>
       <concept>
         <code value="Sun"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0108 Version 2.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:35+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,22 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0108"/>
+      <concept>
+        <code value="O"/>
+        <display value="Order plus order status"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Status only"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Full Results"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Results without bulk text"/>
+      </concept>
       <concept>
         <code value="O"/>
         <display value="Order plus order status"/>

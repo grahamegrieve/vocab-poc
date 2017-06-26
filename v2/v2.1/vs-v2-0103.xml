@@ -7,7 +7,7 @@
   <title value="V2 Table 0103 Version 2.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:35+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,18 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0103"/>
+      <concept>
+        <code value="D"/>
+        <display value="Debugging"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Production"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Training"/>
+      </concept>
       <concept>
         <code value="D"/>
         <display value="Debugging"/>

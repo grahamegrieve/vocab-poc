@@ -7,7 +7,7 @@
   <title value="V2 Table 0478 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:51+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,28 @@
         <display value="Pharmaceutical substance is in the formulary"/>
       </concept>
       <concept>
+        <code value="Y"/>
+        <display value="Pharmaceutical substance is in the formulary"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Pharmaceutical substance is NOT in the formulary"/>
+      </concept>
+      <concept>
         <code value="N"/>
         <display value="Pharmaceutical substance is NOT in the formulary"/>
       </concept>
       <concept>
         <code value="R"/>
         <display value="Pharmaceutical substance is in the formulary, but restrictions apply"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Pharmaceutical substance is in the formulary, but restrictions apply"/>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Pharmaceutical substance is in the formulary, but guidelines apply"/>
       </concept>
       <concept>
         <code value="G"/>

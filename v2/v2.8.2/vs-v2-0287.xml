@@ -7,7 +7,7 @@
   <title value="V2 Table 0287 Version 2.8.2"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="ADD"/>
       </concept>
       <concept>
+        <code value="AD"/>
+        <display value="ADD"/>
+      </concept>
+      <concept>
         <code value="CO"/>
         <display value="CORRECT"/>
+      </concept>
+      <concept>
+        <code value="CO"/>
+        <display value="CORRECT"/>
+      </concept>
+      <concept>
+        <code value="DE"/>
+        <display value="DELETE"/>
       </concept>
       <concept>
         <code value="DE"/>
@@ -37,12 +49,28 @@
         <display value="LINK"/>
       </concept>
       <concept>
+        <code value="LI"/>
+        <display value="LINK"/>
+      </concept>
+      <concept>
+        <code value="UC"/>
+        <display value="UNCHANGED"/>
+      </concept>
+      <concept>
         <code value="UC"/>
         <display value="UNCHANGED"/>
       </concept>
       <concept>
         <code value="UN"/>
         <display value="UNLINK"/>
+      </concept>
+      <concept>
+        <code value="UN"/>
+        <display value="UNLINK"/>
+      </concept>
+      <concept>
+        <code value="UP"/>
+        <display value="UPDATE"/>
       </concept>
       <concept>
         <code value="UP"/>

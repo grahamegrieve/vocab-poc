@@ -7,7 +7,7 @@
   <title value="V2 Table 0417 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:48+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Insufficient Tissue"/>
       </concept>
       <concept>
+        <code value="1"/>
+        <display value="Insufficient Tissue"/>
+      </concept>
+      <concept>
         <code value="2"/>
         <display value="Not abnormal"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Not abnormal"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Abnormal-not categorized"/>
       </concept>
       <concept>
         <code value="3"/>
@@ -37,8 +49,20 @@
         <display value="Mechanical abnormal"/>
       </concept>
       <concept>
+        <code value="4"/>
+        <display value="Mechanical abnormal"/>
+      </concept>
+      <concept>
         <code value="5"/>
         <display value="Growth alteration"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Growth alteration"/>
+      </concept>
+      <concept>
+        <code value="6"/>
+        <display value="Degeneration &amp; necrosis"/>
       </concept>
       <concept>
         <code value="6"/>
@@ -49,8 +73,20 @@
         <display value="Non-acute inflammation"/>
       </concept>
       <concept>
+        <code value="7"/>
+        <display value="Non-acute inflammation"/>
+      </concept>
+      <concept>
         <code value="8"/>
         <display value="Non-malignant neoplasm"/>
+      </concept>
+      <concept>
+        <code value="8"/>
+        <display value="Non-malignant neoplasm"/>
+      </concept>
+      <concept>
+        <code value="9"/>
+        <display value="Malignant neoplasm"/>
       </concept>
       <concept>
         <code value="9"/>
@@ -61,12 +97,28 @@
         <display value="No tissue expected"/>
       </concept>
       <concept>
+        <code value="0"/>
+        <display value="No tissue expected"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Basal cell carcinoma"/>
+      </concept>
+      <concept>
         <code value="B"/>
         <display value="Basal cell carcinoma"/>
       </concept>
       <concept>
         <code value="C"/>
         <display value="Carcinoma-unspecified type"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Carcinoma-unspecified type"/>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Additional tissue required"/>
       </concept>
       <concept>
         <code value="G"/>

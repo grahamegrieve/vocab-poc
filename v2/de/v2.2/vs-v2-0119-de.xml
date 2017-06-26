@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0119-de-2.2-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0119-de-2.2-de"/>
+  <name value="V2Table0119LangGermanVersion2.2"/>
+  <title value="V2 Table language Pack for Order Control Codes: German Version 2.2"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:36+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0119 Version 2.2 (Order Control Codes), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0119-de"/>
+      <concept>
+        <code value="NW"/>
+        <display value="Neuer Auftrag"/>
+      </concept>
+      <concept>
+        <code value="NW"/>
+        <display value="Neuer Auftrag"/>
+      </concept>
+      <concept>
+        <code value="OK"/>
+        <display value="Auftrag akzeptiert"/>
+      </concept>
+      <concept>
+        <code value="OK"/>
+        <display value="Auftrag akzeptiert"/>
+      </concept>
+      <concept>
+        <code value="CA"/>
+        <display value="Auftrag stornieren"/>
+      </concept>
+      <concept>
+        <code value="CA"/>
+        <display value="Auftrag stornieren"/>
+      </concept>
+      <concept>
+        <code value="OC"/>
+        <display value="Auftrag storniert"/>
+      </concept>
+      <concept>
+        <code value="OC"/>
+        <display value="Auftrag storniert"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Auftrag anweisungsgem&#xE4;&#xDF; storniert"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Auftrag anweisungsgem&#xE4;&#xDF; storniert"/>
+      </concept>
+      <concept>
+        <code value="UC"/>
+        <display value="Auftragsstornierung nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="UC"/>
+        <display value="Auftragsstornierung nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="DC"/>
+        <display value="Auftragsausf&#xFC;hrung abbrechen"/>
+      </concept>
+      <concept>
+        <code value="DC"/>
+        <display value="Auftragsausf&#xFC;hrung abbrechen"/>
+      </concept>
+      <concept>
+        <code value="OD"/>
+        <display value="Auftragsausf&#xFC;hrung abgebrochen"/>
+      </concept>
+      <concept>
+        <code value="OD"/>
+        <display value="Auftragsausf&#xFC;hrung abgebrochen"/>
+      </concept>
+      <concept>
+        <code value="DR"/>
+        <display value="Auftragsausf&#xFC;hrung anweisungsgem&#xE4;&#xDF; abgebrochen"/>
+      </concept>
+      <concept>
+        <code value="DR"/>
+        <display value="Auftragsausf&#xFC;hrung anweisungsgem&#xE4;&#xDF; abgebrochen"/>
+      </concept>
+      <concept>
+        <code value="UD"/>
+        <display value="Abbrechen nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="UD"/>
+        <display value="Abbrechen nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="HD"/>
+        <display value="Auftragsbearbeitung aussetzen"/>
+      </concept>
+      <concept>
+        <code value="HD"/>
+        <display value="Auftragsbearbeitung aussetzen"/>
+      </concept>
+      <concept>
+        <code value="OH"/>
+        <display value="Auftragsbearbeitung ausgesetzt"/>
+      </concept>
+      <concept>
+        <code value="OH"/>
+        <display value="Auftragsbearbeitung ausgesetzt"/>
+      </concept>
+      <concept>
+        <code value="UH"/>
+        <display value="Aussetzen nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="UH"/>
+        <display value="Aussetzen nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="HR"/>
+        <display value="Auftragsbearbeitung anweisungsgem&#xE4;&#xDF; ausgesetzt"/>
+      </concept>
+      <concept>
+        <code value="HR"/>
+        <display value="Auftragsbearbeitung anweisungsgem&#xE4;&#xDF; ausgesetzt"/>
+      </concept>
+      <concept>
+        <code value="RL"/>
+        <display value="Auftragsberabeitung wiederaufnehmen"/>
+      </concept>
+      <concept>
+        <code value="RL"/>
+        <display value="Auftragsberabeitung wiederaufnehmen"/>
+      </concept>
+      <concept>
+        <code value="OR"/>
+        <display value="Auftragsbearbeitung anweisungsgem&#xE4;&#xDF; wiederaufgenommen"/>
+      </concept>
+      <concept>
+        <code value="OR"/>
+        <display value="Auftragsbearbeitung anweisungsgem&#xE4;&#xDF; wiederaufgenommen"/>
+      </concept>
+      <concept>
+        <code value="UR"/>
+        <display value="Wiederaufnahme nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="UR"/>
+        <display value="Wiederaufnahme nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Auftrag ersetzen"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Auftrag ersetzen"/>
+      </concept>
+      <concept>
+        <code value="RU"/>
+        <display value="Auftrag ersetzt (ohne Anweisung)"/>
+      </concept>
+      <concept>
+        <code value="RU"/>
+        <display value="Auftrag ersetzt (ohne Anweisung)"/>
+      </concept>
+      <concept>
+        <code value="RO"/>
+        <display value="Ersatzauftrag"/>
+      </concept>
+      <concept>
+        <code value="RO"/>
+        <display value="Ersatzauftrag"/>
+      </concept>
+      <concept>
+        <code value="RQ"/>
+        <display value="Auftrag anweisungsgem&#xE4;&#xDF; ersetzt"/>
+      </concept>
+      <concept>
+        <code value="RQ"/>
+        <display value="Auftrag anweisungsgem&#xE4;&#xDF; ersetzt"/>
+      </concept>
+      <concept>
+        <code value="UM"/>
+        <display value="Ersetzen nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="UM"/>
+        <display value="Ersetzen nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="Hauptauftrag"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="Hauptauftrag"/>
+      </concept>
+      <concept>
+        <code value="CH"/>
+        <display value="nachgeordneter Auftrag"/>
+      </concept>
+      <concept>
+        <code value="CH"/>
+        <display value="nachgeordneter Auftrag"/>
+      </concept>
+      <concept>
+        <code value="XO"/>
+        <display value="Auftrag &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="XO"/>
+        <display value="Auftrag &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="XX"/>
+        <display value="Auftrag ge&#xE4;ndert (ohne Anweisung)"/>
+      </concept>
+      <concept>
+        <code value="XX"/>
+        <display value="Auftrag ge&#xE4;ndert (ohne Anweisung)"/>
+      </concept>
+      <concept>
+        <code value="UX"/>
+        <display value="&#xC4;nderung nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="UX"/>
+        <display value="&#xC4;nderung nicht m&#xF6;glich"/>
+      </concept>
+      <concept>
+        <code value="XR"/>
+        <display value="Auftrag anweisungsgem&#xE4;&#xDF; ge&#xE4;ndert"/>
+      </concept>
+      <concept>
+        <code value="XR"/>
+        <display value="Auftrag anweisungsgem&#xE4;&#xDF; ge&#xE4;ndert"/>
+      </concept>
+      <concept>
+        <code value="DE"/>
+        <display value="Datenfehler"/>
+      </concept>
+      <concept>
+        <code value="DE"/>
+        <display value="Datenfehler"/>
+      </concept>
+      <concept>
+        <code value="RE"/>
+        <display value="Untersuchungsergebnisse folgen (in sp&#xE4;teren Segmenten dieser Nachricht)"/>
+      </concept>
+      <concept>
+        <code value="RE"/>
+        <display value="Untersuchungsergebnisse folgen (in sp&#xE4;teren Segmenten dieser Nachricht)"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Anforderung erhalten (veraltet)"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Anforderung erhalten (veraltet)"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="Auftragsstatus (Antwort)"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="Auftragsstatus (Antwort)"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="Auftragsstatus senden"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="Auftragsstatus senden"/>
+      </concept>
+      <concept>
+        <code value="SC"/>
+        <display value="Status&#xE4;nderung"/>
+      </concept>
+      <concept>
+        <code value="SC"/>
+        <display value="Status&#xE4;nderung"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="Auftrags- bzw. Bearbeitungsnummer zuweisen / &#xFC;bermitteln"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="Auftrags- bzw. Bearbeitungsnummer zuweisen / &#xFC;bermitteln"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="Nummer zugewiesen"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="Nummer zugewiesen"/>
+      </concept>
+      <concept>
+        <code value="CN"/>
+        <display value="Kumulatives Ergebnis (zu mehreren Auftr&#xE4;gen)"/>
+      </concept>
+      <concept>
+        <code value="CN"/>
+        <display value="Kumulatives Ergebnis (zu mehreren Auftr&#xE4;gen)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0468 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:50+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="No payment adjustment"/>
       </concept>
       <concept>
+        <code value="1"/>
+        <display value="No payment adjustment"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Designated current drug or biological payment adjustment applies to APC (status indicator G)"/>
+      </concept>
+      <concept>
         <code value="2"/>
         <display value="Designated current drug or biological payment adjustment applies to APC (status indicator G)"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Designated new device payment adjustment applies to APC (status indicator H)"/>
       </concept>
       <concept>
+        <code value="3"/>
+        <display value="Designated new device payment adjustment applies to APC (status indicator H)"/>
+      </concept>
+      <concept>
         <code value="4"/>
         <display value="Designated new drug or new biological payment adjustment applies to APC (status indicator J)"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Designated new drug or new biological payment adjustment applies to APC (status indicator J)"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Deductible not applicable (specific list of HCPCS codes)"/>
       </concept>
       <concept>
         <code value="5"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0725 Version 2.9"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:55+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Intent"/>
       </concept>
       <concept>
+        <code value="INT"/>
+        <display value="Intent"/>
+      </concept>
+      <concept>
         <code value="APT"/>
         <display value="Appointment"/>
+      </concept>
+      <concept>
+        <code value="APT"/>
+        <display value="Appointment"/>
+      </concept>
+      <concept>
+        <code value="ARQ"/>
+        <display value="Appointment Request"/>
       </concept>
       <concept>
         <code value="ARQ"/>
@@ -37,8 +49,20 @@
         <display value="Promise"/>
       </concept>
       <concept>
+        <code value="PRMS"/>
+        <display value="Promise"/>
+      </concept>
+      <concept>
         <code value="PRP"/>
         <display value="Proposal"/>
+      </concept>
+      <concept>
+        <code value="PRP"/>
+        <display value="Proposal"/>
+      </concept>
+      <concept>
+        <code value="RQO"/>
+        <display value="Request-Order"/>
       </concept>
       <concept>
         <code value="RQO"/>
@@ -49,8 +73,20 @@
         <display value="Event"/>
       </concept>
       <concept>
+        <code value="EVN"/>
+        <display value="Event"/>
+      </concept>
+      <concept>
         <code value="EVN.CRT"/>
         <display value="Event Criterion"/>
+      </concept>
+      <concept>
+        <code value="EVN.CRT"/>
+        <display value="Event Criterion"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Expectation"/>
       </concept>
       <concept>
         <code value="EXP"/>

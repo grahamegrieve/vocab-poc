@@ -7,7 +7,7 @@
   <title value="V2 Table 0457 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:50+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="No edits present on claim"/>
       </concept>
       <concept>
+        <code value="0"/>
+        <display value="No edits present on claim"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="Only edits present are for line item denial or rejection"/>
+      </concept>
+      <concept>
         <code value="1"/>
         <display value="Only edits present are for line item denial or rejection"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Multiple-day claim with one or more days denied or rejected"/>
       </concept>
       <concept>
+        <code value="2"/>
+        <display value="Multiple-day claim with one or more days denied or rejected"/>
+      </concept>
+      <concept>
         <code value="3"/>
         <display value="Claim denied, rejected, suspended or returned to provider with only post payment edits"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Claim denied, rejected, suspended or returned to provider with only post payment edits"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Claim denied, rejected, suspended or returned to provider with only pre payment edits"/>
       </concept>
       <concept>
         <code value="4"/>

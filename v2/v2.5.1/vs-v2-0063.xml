@@ -7,7 +7,7 @@
   <title value="V2 Table 0063 Version 2.5.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:33+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Self"/>
       </concept>
       <concept>
+        <code value="SEL"/>
+        <display value="Self"/>
+      </concept>
+      <concept>
         <code value="SPO"/>
         <display value="Spouse"/>
+      </concept>
+      <concept>
+        <code value="SPO"/>
+        <display value="Spouse"/>
+      </concept>
+      <concept>
+        <code value="DOM"/>
+        <display value="Life partner"/>
       </concept>
       <concept>
         <code value="DOM"/>
@@ -37,8 +49,20 @@
         <display value="Child"/>
       </concept>
       <concept>
+        <code value="CHD"/>
+        <display value="Child"/>
+      </concept>
+      <concept>
         <code value="GCH"/>
         <display value="Grandchild"/>
+      </concept>
+      <concept>
+        <code value="GCH"/>
+        <display value="Grandchild"/>
+      </concept>
+      <concept>
+        <code value="NCH"/>
+        <display value="Natural child"/>
       </concept>
       <concept>
         <code value="NCH"/>
@@ -49,8 +73,20 @@
         <display value="Stepchild"/>
       </concept>
       <concept>
+        <code value="SCH"/>
+        <display value="Stepchild"/>
+      </concept>
+      <concept>
         <code value="FCH"/>
         <display value="Foster child"/>
+      </concept>
+      <concept>
+        <code value="FCH"/>
+        <display value="Foster child"/>
+      </concept>
+      <concept>
+        <code value="DEP"/>
+        <display value="Handicapped dependent"/>
       </concept>
       <concept>
         <code value="DEP"/>
@@ -61,8 +97,20 @@
         <display value="Ward of court"/>
       </concept>
       <concept>
+        <code value="WRD"/>
+        <display value="Ward of court"/>
+      </concept>
+      <concept>
         <code value="PAR"/>
         <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="PAR"/>
+        <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="MTH"/>
+        <display value="Mother"/>
       </concept>
       <concept>
         <code value="MTH"/>
@@ -73,8 +121,20 @@
         <display value="Father"/>
       </concept>
       <concept>
+        <code value="FTH"/>
+        <display value="Father"/>
+      </concept>
+      <concept>
         <code value="CGV"/>
         <display value="Care giver"/>
+      </concept>
+      <concept>
+        <code value="CGV"/>
+        <display value="Care giver"/>
+      </concept>
+      <concept>
+        <code value="GRD"/>
+        <display value="Guardian"/>
       </concept>
       <concept>
         <code value="GRD"/>
@@ -85,8 +145,20 @@
         <display value="Grandparent"/>
       </concept>
       <concept>
+        <code value="GRP"/>
+        <display value="Grandparent"/>
+      </concept>
+      <concept>
         <code value="EXF"/>
         <display value="Extended family"/>
+      </concept>
+      <concept>
+        <code value="EXF"/>
+        <display value="Extended family"/>
+      </concept>
+      <concept>
+        <code value="SIB"/>
+        <display value="Sibling"/>
       </concept>
       <concept>
         <code value="SIB"/>
@@ -97,8 +169,20 @@
         <display value="Brother"/>
       </concept>
       <concept>
+        <code value="BRO"/>
+        <display value="Brother"/>
+      </concept>
+      <concept>
         <code value="SIS"/>
         <display value="Sister"/>
+      </concept>
+      <concept>
+        <code value="SIS"/>
+        <display value="Sister"/>
+      </concept>
+      <concept>
+        <code value="FND"/>
+        <display value="Friend"/>
       </concept>
       <concept>
         <code value="FND"/>
@@ -109,8 +193,20 @@
         <display value="Other adult"/>
       </concept>
       <concept>
+        <code value="OAD"/>
+        <display value="Other adult"/>
+      </concept>
+      <concept>
         <code value="EME"/>
         <display value="Employee"/>
+      </concept>
+      <concept>
+        <code value="EME"/>
+        <display value="Employee"/>
+      </concept>
+      <concept>
+        <code value="EMR"/>
+        <display value="Employer"/>
       </concept>
       <concept>
         <code value="EMR"/>
@@ -121,8 +217,20 @@
         <display value="Associate"/>
       </concept>
       <concept>
+        <code value="ASC"/>
+        <display value="Associate"/>
+      </concept>
+      <concept>
         <code value="EMC"/>
         <display value="Emergency contact"/>
+      </concept>
+      <concept>
+        <code value="EMC"/>
+        <display value="Emergency contact"/>
+      </concept>
+      <concept>
+        <code value="OWN"/>
+        <display value="Owner"/>
       </concept>
       <concept>
         <code value="OWN"/>
@@ -133,6 +241,14 @@
         <display value="Trainer"/>
       </concept>
       <concept>
+        <code value="TRA"/>
+        <display value="Trainer"/>
+      </concept>
+      <concept>
+        <code value="MGR"/>
+        <display value="Manager"/>
+      </concept>
+      <concept>
         <code value="MGR"/>
         <display value="Manager"/>
       </concept>
@@ -141,8 +257,20 @@
         <display value="None"/>
       </concept>
       <concept>
+        <code value="NON"/>
+        <display value="None"/>
+      </concept>
+      <concept>
         <code value="UNK"/>
         <display value="Unknown"/>
+      </concept>
+      <concept>
+        <code value="UNK"/>
+        <display value="Unknown"/>
+      </concept>
+      <concept>
+        <code value="OTH"/>
+        <display value="Other"/>
       </concept>
       <concept>
         <code value="OTH"/>

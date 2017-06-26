@@ -7,7 +7,7 @@
   <title value="V2 Table 0145 Version 2.7"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:37+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Private room"/>
       </concept>
       <concept>
+        <code value="PRI"/>
+        <display value="Private room"/>
+      </concept>
+      <concept>
         <code value="2PRI"/>
         <display value="Second private room"/>
+      </concept>
+      <concept>
+        <code value="2PRI"/>
+        <display value="Second private room"/>
+      </concept>
+      <concept>
+        <code value="SPR"/>
+        <display value="Semi-private room"/>
       </concept>
       <concept>
         <code value="SPR"/>
@@ -37,8 +49,20 @@
         <display value="Second semi-private room"/>
       </concept>
       <concept>
+        <code value="2SPR"/>
+        <display value="Second semi-private room"/>
+      </concept>
+      <concept>
         <code value="ICU"/>
         <display value="Intensive care unit"/>
+      </concept>
+      <concept>
+        <code value="ICU"/>
+        <display value="Intensive care unit"/>
+      </concept>
+      <concept>
+        <code value="2ICU"/>
+        <display value="Second intensive care unit"/>
       </concept>
       <concept>
         <code value="2ICU"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0316 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Yes, patient is a documented donor and documentation is on file"/>
       </concept>
       <concept>
+        <code value="Y"/>
+        <display value="Yes, patient is a documented donor and documentation is on file"/>
+      </concept>
+      <concept>
         <code value="F"/>
         <display value="Yes, patient is a documented donor, but documentation is not on file"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Yes, patient is a documented donor, but documentation is not on file"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="No, patient has not agreed to be a donor"/>
       </concept>
       <concept>
         <code value="N"/>
@@ -37,12 +49,28 @@
         <display value="No, patient is not a documented donor, but information was provided"/>
       </concept>
       <concept>
+        <code value="I"/>
+        <display value="No, patient is not a documented donor, but information was provided"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Patient leaves organ donation decision to relatives"/>
+      </concept>
+      <concept>
         <code value="R"/>
         <display value="Patient leaves organ donation decision to relatives"/>
       </concept>
       <concept>
         <code value="P"/>
         <display value="Patient leaves organ donation decision to a specific person"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Patient leaves organ donation decision to a specific person"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Unknown"/>
       </concept>
       <concept>
         <code value="U"/>

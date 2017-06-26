@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0123-de-2.3.1-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0123-de-2.3.1-de"/>
+  <name value="V2Table0123LangGermanVersion2.3.1"/>
+  <title value="V2 Table language Pack for Result Status: German Version 2.3.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:36+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0123 Version 2.3.1 (Result Status), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0123-de"/>
+      <concept>
+        <code value="O"/>
+        <display value="Auftrag erhalten - Probe steht noch aus"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Auftrag erhalten - Probe steht noch aus"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Keine Ergebnisse - Probe liegt vor, Untersuchung unvollst&#xE4;ndig"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Keine Ergebnisse - Probe liegt vor, Untersuchung unvollst&#xE4;ndig"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Keine Ergebnisse - Untersuchung eingeplant, aber noch nicht durchgef&#xFC;hrt"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Keine Ergebnisse - Untersuchung eingeplant, aber noch nicht durchgef&#xFC;hrt"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="einige, aber nicht alle Ergebnisse verf&#xFC;gbar"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="einige, aber nicht alle Ergebnisse verf&#xFC;gbar"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Vorl&#xE4;ufig - Validiertes Zwischenergebnis liegt vor, aber noch keine endg&#xFC;ltigen"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Vorl&#xE4;ufig - Validiertes Zwischenergebnis liegt vor, aber noch keine endg&#xFC;ltigen"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Ergebniskorrektur"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Ergebniskorrektur"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Ergebnisse gespeichert, aber noch nicht validiert"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Ergebnisse gespeichert, aber noch nicht validiert"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Endergebnis - Auftrag erledigt, Ergebnisse validiert"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Endergebnis - Auftrag erledigt, Ergebnisse validiert"/>
+      </concept>
+      <concept>
+        <code value="X"/>
+        <display value="Keine Ergebnisse - Auftrag storniert"/>
+      </concept>
+      <concept>
+        <code value="X"/>
+        <display value="Keine Ergebnisse - Auftrag storniert"/>
+      </concept>
+      <concept>
+        <code value="Y"/>
+        <display value="Kein Auftrag zu dieser Untersuchung"/>
+      </concept>
+      <concept>
+        <code value="Y"/>
+        <display value="Kein Auftrag zu dieser Untersuchung"/>
+      </concept>
+      <concept>
+        <code value="Z"/>
+        <display value="Keine Daten &#xFC;ber diesen Patienten"/>
+      </concept>
+      <concept>
+        <code value="Z"/>
+        <display value="Keine Daten &#xFC;ber diesen Patienten"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

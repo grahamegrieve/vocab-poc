@@ -7,7 +7,7 @@
   <title value="V2 Table 0202 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Telephone"/>
       </concept>
       <concept>
+        <code value="PH"/>
+        <display value="Telephone"/>
+      </concept>
+      <concept>
         <code value="FX"/>
         <display value="Fax"/>
+      </concept>
+      <concept>
+        <code value="FX"/>
+        <display value="Fax"/>
+      </concept>
+      <concept>
+        <code value="MD"/>
+        <display value="Modem"/>
       </concept>
       <concept>
         <code value="MD"/>
@@ -37,8 +49,20 @@
         <display value="Cellular or Mobile Phone"/>
       </concept>
       <concept>
+        <code value="CP"/>
+        <display value="Cellular or Mobile Phone"/>
+      </concept>
+      <concept>
         <code value="SAT"/>
         <display value="Satellite Phone"/>
+      </concept>
+      <concept>
+        <code value="SAT"/>
+        <display value="Satellite Phone"/>
+      </concept>
+      <concept>
+        <code value="BP"/>
+        <display value="Beeper"/>
       </concept>
       <concept>
         <code value="BP"/>
@@ -49,12 +73,28 @@
         <display value="Internet Address"/>
       </concept>
       <concept>
+        <code value="Internet"/>
+        <display value="Internet Address"/>
+      </concept>
+      <concept>
+        <code value="X.400"/>
+        <display value="X.400 email address"/>
+      </concept>
+      <concept>
         <code value="X.400"/>
         <display value="X.400 email address"/>
       </concept>
       <concept>
         <code value="TDD"/>
         <display value="Telecommunications Device for the Deaf"/>
+      </concept>
+      <concept>
+        <code value="TDD"/>
+        <display value="Telecommunications Device for the Deaf"/>
+      </concept>
+      <concept>
+        <code value="TTY"/>
+        <display value="Teletypewriter"/>
       </concept>
       <concept>
         <code value="TTY"/>

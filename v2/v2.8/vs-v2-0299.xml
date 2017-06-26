@@ -7,7 +7,7 @@
   <title value="V2 Table 0299 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="No encoding - data are displayable ASCII characters."/>
       </concept>
       <concept>
+        <code value="A"/>
+        <display value="No encoding - data are displayable ASCII characters."/>
+      </concept>
+      <concept>
         <code value="Hex"/>
         <display value="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets."/>
+      </concept>
+      <concept>
+        <code value="Hex"/>
+        <display value="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets."/>
+      </concept>
+      <concept>
+        <code value="Base64"/>
+        <display value="Encoding as defined by MIME (Multipurpose Internet Mail Extensions) standard RFC 1521. Four consecutive ASCII characters represent three consecutive octets of binary data. Base64 utilizes a 65-character subset of US-ASCII, consisting of both the upper and"/>
       </concept>
       <concept>
         <code value="Base64"/>

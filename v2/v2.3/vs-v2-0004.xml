@@ -7,7 +7,7 @@
   <title value="V2 Table 0004 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:32+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,30 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0004"/>
+      <concept>
+        <code value="B"/>
+        <display value="Obstetrics"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Emergency"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Inpatient"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Outpatient"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Preadmit"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Recurring Patient"/>
+      </concept>
       <concept>
         <code value="B"/>
         <display value="Obstetrics"/>

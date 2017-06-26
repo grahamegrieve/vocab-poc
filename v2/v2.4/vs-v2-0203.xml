@@ -7,7 +7,7 @@
   <title value="V2 Table 0203 Version 2.4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="American Express"/>
       </concept>
       <concept>
+        <code value="AM"/>
+        <display value="American Express"/>
+      </concept>
+      <concept>
         <code value="AN"/>
         <display value="Account number"/>
+      </concept>
+      <concept>
+        <code value="AN"/>
+        <display value="Account number"/>
+      </concept>
+      <concept>
+        <code value="BA"/>
+        <display value="Bank Account Number"/>
       </concept>
       <concept>
         <code value="BA"/>
@@ -37,8 +49,20 @@
         <display value="Birth registry number"/>
       </concept>
       <concept>
+        <code value="BR"/>
+        <display value="Birth registry number"/>
+      </concept>
+      <concept>
         <code value="BRN"/>
         <display value="Breed Registry Number"/>
+      </concept>
+      <concept>
+        <code value="BRN"/>
+        <display value="Breed Registry Number"/>
+      </concept>
+      <concept>
+        <code value="DI"/>
+        <display value="Diner&#39;s Club card"/>
       </concept>
       <concept>
         <code value="DI"/>
@@ -49,8 +73,20 @@
         <display value="Driver&#39;s license number"/>
       </concept>
       <concept>
+        <code value="DL"/>
+        <display value="Driver&#39;s license number"/>
+      </concept>
+      <concept>
         <code value="DN"/>
         <display value="Doctor number"/>
+      </concept>
+      <concept>
+        <code value="DN"/>
+        <display value="Doctor number"/>
+      </concept>
+      <concept>
+        <code value="DR"/>
+        <display value="Donor Registration Number"/>
       </concept>
       <concept>
         <code value="DR"/>
@@ -61,8 +97,20 @@
         <display value="Discover Card"/>
       </concept>
       <concept>
+        <code value="DS"/>
+        <display value="Discover Card"/>
+      </concept>
+      <concept>
         <code value="EI"/>
         <display value="Employee number"/>
+      </concept>
+      <concept>
+        <code value="EI"/>
+        <display value="Employee number"/>
+      </concept>
+      <concept>
+        <code value="EN"/>
+        <display value="Employer number"/>
       </concept>
       <concept>
         <code value="EN"/>
@@ -73,8 +121,20 @@
         <display value="Facility ID"/>
       </concept>
       <concept>
+        <code value="FI"/>
+        <display value="Facility ID"/>
+      </concept>
+      <concept>
         <code value="GI"/>
         <display value="Guarantor internal identifier"/>
+      </concept>
+      <concept>
+        <code value="GI"/>
+        <display value="Guarantor internal identifier"/>
+      </concept>
+      <concept>
+        <code value="GN"/>
+        <display value="Guarantor external  identifier"/>
       </concept>
       <concept>
         <code value="GN"/>
@@ -85,8 +145,20 @@
         <display value="Health Card Number"/>
       </concept>
       <concept>
+        <code value="HC"/>
+        <display value="Health Card Number"/>
+      </concept>
+      <concept>
         <code value="JHN"/>
         <display value="Jurisdictional health number (Canada)"/>
+      </concept>
+      <concept>
+        <code value="JHN"/>
+        <display value="Jurisdictional health number (Canada)"/>
+      </concept>
+      <concept>
+        <code value="LN"/>
+        <display value="License number"/>
       </concept>
       <concept>
         <code value="LN"/>
@@ -97,8 +169,20 @@
         <display value="Local Registry ID"/>
       </concept>
       <concept>
+        <code value="LR"/>
+        <display value="Local Registry ID"/>
+      </concept>
+      <concept>
         <code value="MA"/>
         <display value="Medicaid number"/>
+      </concept>
+      <concept>
+        <code value="MA"/>
+        <display value="Medicaid number"/>
+      </concept>
+      <concept>
+        <code value="MC"/>
+        <display value="Medicare number"/>
       </concept>
       <concept>
         <code value="MC"/>
@@ -109,8 +193,20 @@
         <display value="Microchip Number"/>
       </concept>
       <concept>
+        <code value="MCN"/>
+        <display value="Microchip Number"/>
+      </concept>
+      <concept>
         <code value="MR"/>
         <display value="Medical record number"/>
+      </concept>
+      <concept>
+        <code value="MR"/>
+        <display value="Medical record number"/>
+      </concept>
+      <concept>
+        <code value="MS"/>
+        <display value="MasterCard"/>
       </concept>
       <concept>
         <code value="MS"/>
@@ -121,8 +217,20 @@
         <display value="National employer identifier"/>
       </concept>
       <concept>
+        <code value="NE"/>
+        <display value="National employer identifier"/>
+      </concept>
+      <concept>
         <code value="NH"/>
         <display value="National Health Plan Identifier"/>
+      </concept>
+      <concept>
+        <code value="NH"/>
+        <display value="National Health Plan Identifier"/>
+      </concept>
+      <concept>
+        <code value="NI"/>
+        <display value="National unique individual identifier"/>
       </concept>
       <concept>
         <code value="NI"/>
@@ -133,8 +241,20 @@
         <display value="National Person Identifier where the xxx is the ISO table 3166  3-character (alphabetic) country code"/>
       </concept>
       <concept>
+        <code value="NNxxx"/>
+        <display value="National Person Identifier where the xxx is the ISO table 3166  3-character (alphabetic) country code"/>
+      </concept>
+      <concept>
         <code value="NPI"/>
         <display value="National provider identifier"/>
+      </concept>
+      <concept>
+        <code value="NPI"/>
+        <display value="National provider identifier"/>
+      </concept>
+      <concept>
+        <code value="PEN"/>
+        <display value="Pension Number"/>
       </concept>
       <concept>
         <code value="PEN"/>
@@ -145,8 +265,20 @@
         <display value="Patient internal identifier"/>
       </concept>
       <concept>
+        <code value="PI"/>
+        <display value="Patient internal identifier"/>
+      </concept>
+      <concept>
         <code value="PN"/>
         <display value="Person number"/>
+      </concept>
+      <concept>
+        <code value="PN"/>
+        <display value="Person number"/>
+      </concept>
+      <concept>
+        <code value="PRN"/>
+        <display value="Provider number"/>
       </concept>
       <concept>
         <code value="PRN"/>
@@ -157,8 +289,20 @@
         <display value="Patient external identifier"/>
       </concept>
       <concept>
+        <code value="PT"/>
+        <display value="Patient external identifier"/>
+      </concept>
+      <concept>
         <code value="RR"/>
         <display value="Railroad Retirement number"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Railroad Retirement number"/>
+      </concept>
+      <concept>
+        <code value="RRI"/>
+        <display value="Regional registry ID"/>
       </concept>
       <concept>
         <code value="RRI"/>
@@ -169,8 +313,20 @@
         <display value="State license"/>
       </concept>
       <concept>
+        <code value="SL"/>
+        <display value="State license"/>
+      </concept>
+      <concept>
         <code value="SR"/>
         <display value="State registry ID"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="State registry ID"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="Social Security number"/>
       </concept>
       <concept>
         <code value="SS"/>
@@ -181,8 +337,20 @@
         <display value="Unspecified"/>
       </concept>
       <concept>
+        <code value="U"/>
+        <display value="Unspecified"/>
+      </concept>
+      <concept>
         <code value="UPIN"/>
         <display value="Medicare/HCFA&#39;s Universal Physician Identification numbers"/>
+      </concept>
+      <concept>
+        <code value="UPIN"/>
+        <display value="Medicare/HCFA&#39;s Universal Physician Identification numbers"/>
+      </concept>
+      <concept>
+        <code value="VN"/>
+        <display value="Visit number"/>
       </concept>
       <concept>
         <code value="VN"/>
@@ -193,12 +361,28 @@
         <display value="VISA"/>
       </concept>
       <concept>
+        <code value="VS"/>
+        <display value="VISA"/>
+      </concept>
+      <concept>
+        <code value="WC"/>
+        <display value="WIC identifier"/>
+      </concept>
+      <concept>
         <code value="WC"/>
         <display value="WIC identifier"/>
       </concept>
       <concept>
         <code value="WCN"/>
         <display value="Workers&#39; Comp Number"/>
+      </concept>
+      <concept>
+        <code value="WCN"/>
+        <display value="Workers&#39; Comp Number"/>
+      </concept>
+      <concept>
+        <code value="XX"/>
+        <display value="Organization identifier"/>
       </concept>
       <concept>
         <code value="XX"/>

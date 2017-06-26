@@ -7,7 +7,7 @@
   <title value="V2 Table 0871 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:55+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Corrosive"/>
       </concept>
       <concept>
+        <code value="COR"/>
+        <display value="Corrosive"/>
+      </concept>
+      <concept>
         <code value="FLA"/>
         <display value="Flammable"/>
+      </concept>
+      <concept>
+        <code value="FLA"/>
+        <display value="Flammable"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Explosive"/>
       </concept>
       <concept>
         <code value="EXP"/>
@@ -37,12 +49,28 @@
         <display value="Injury Hazard"/>
       </concept>
       <concept>
+        <code value="INJ"/>
+        <display value="Injury Hazard"/>
+      </concept>
+      <concept>
+        <code value="TOX"/>
+        <display value="Toxic"/>
+      </concept>
+      <concept>
         <code value="TOX"/>
         <display value="Toxic"/>
       </concept>
       <concept>
         <code value="RAD"/>
         <display value="Radioactive"/>
+      </concept>
+      <concept>
+        <code value="RAD"/>
+        <display value="Radioactive"/>
+      </concept>
+      <concept>
+        <code value="UNK"/>
+        <display value="Unknown"/>
       </concept>
       <concept>
         <code value="UNK"/>

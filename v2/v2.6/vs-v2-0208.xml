@@ -7,7 +7,7 @@
   <title value="V2 Table 0208 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,28 @@
         <display value="Data found, no errors (this is the default)"/>
       </concept>
       <concept>
+        <code value="OK"/>
+        <display value="Data found, no errors (this is the default)"/>
+      </concept>
+      <concept>
+        <code value="NF"/>
+        <display value="No data found, no errors"/>
+      </concept>
+      <concept>
         <code value="NF"/>
         <display value="No data found, no errors"/>
       </concept>
       <concept>
         <code value="AE"/>
         <display value="Application error"/>
+      </concept>
+      <concept>
+        <code value="AE"/>
+        <display value="Application error"/>
+      </concept>
+      <concept>
+        <code value="AR"/>
+        <display value="Application reject"/>
       </concept>
       <concept>
         <code value="AR"/>

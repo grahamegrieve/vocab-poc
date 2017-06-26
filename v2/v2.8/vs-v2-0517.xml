@@ -7,7 +7,7 @@
   <title value="V2 Table 0517 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:52+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,28 @@
         <display value="Inform patient"/>
       </concept>
       <concept>
+        <code value="PAT"/>
+        <display value="Inform patient"/>
+      </concept>
+      <concept>
+        <code value="NPAT"/>
+        <display value="Do NOT inform patient"/>
+      </concept>
+      <concept>
         <code value="NPAT"/>
         <display value="Do NOT inform patient"/>
       </concept>
       <concept>
         <code value="USR"/>
         <display value="Inform User"/>
+      </concept>
+      <concept>
+        <code value="USR"/>
+        <display value="Inform User"/>
+      </concept>
+      <concept>
+        <code value="HD"/>
+        <display value="Inform help desk"/>
       </concept>
       <concept>
         <code value="HD"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0338 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Unique Physician ID. No."/>
       </concept>
       <concept>
+        <code value="UPIN"/>
+        <display value="Unique Physician ID. No."/>
+      </concept>
+      <concept>
         <code value="SL"/>
         <display value="State License Number"/>
+      </concept>
+      <concept>
+        <code value="SL"/>
+        <display value="State License Number"/>
+      </concept>
+      <concept>
+        <code value="MCD"/>
+        <display value="Medicaid Number"/>
       </concept>
       <concept>
         <code value="MCD"/>
@@ -37,8 +49,20 @@
         <display value="General Ledger Number"/>
       </concept>
       <concept>
+        <code value="GL"/>
+        <display value="General Ledger Number"/>
+      </concept>
+      <concept>
         <code value="CY"/>
         <display value="County Number"/>
+      </concept>
+      <concept>
+        <code value="CY"/>
+        <display value="County Number"/>
+      </concept>
+      <concept>
+        <code value="TAX"/>
+        <display value="Tax ID Number"/>
       </concept>
       <concept>
         <code value="TAX"/>
@@ -49,6 +73,14 @@
         <display value="Drug Enforcement Agency No."/>
       </concept>
       <concept>
+        <code value="DEA"/>
+        <display value="Drug Enforcement Agency No."/>
+      </concept>
+      <concept>
+        <code value="MCR"/>
+        <display value="Medicare Number"/>
+      </concept>
+      <concept>
         <code value="MCR"/>
         <display value="Medicare Number"/>
       </concept>
@@ -57,8 +89,20 @@
         <display value="Labor and Industries Number"/>
       </concept>
       <concept>
+        <code value="L&amp;I"/>
+        <display value="Labor and Industries Number"/>
+      </concept>
+      <concept>
         <code value="QA"/>
         <display value="QA Number"/>
+      </concept>
+      <concept>
+        <code value="QA"/>
+        <display value="QA Number"/>
+      </concept>
+      <concept>
+        <code value="TRL"/>
+        <display value="Training License Number"/>
       </concept>
       <concept>
         <code value="TRL"/>

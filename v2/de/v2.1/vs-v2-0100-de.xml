@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0100-de-2.1-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0100-de-2.1-de"/>
+  <name value="V2Table0100LangGermanVersion2.1"/>
+  <title value="V2 Table language Pack for Invocation event: German Version 2.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:34+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0100 Version 2.1 (Invocation event), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0100-de"/>
+      <concept>
+        <code value="D"/>
+        <display value="bei Entlassung"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="bei Auftragserteilung"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="am Ende der Lesitungserbringung"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="am Anfang der Leistungserbringung"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="zum angegebenen Zeitpunkt"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="bei Entlassung"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="bei Auftragserteilung"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="am Ende der Lesitungserbringung"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="am Anfang der Leistungserbringung"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="zum angegebenen Zeitpunkt"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

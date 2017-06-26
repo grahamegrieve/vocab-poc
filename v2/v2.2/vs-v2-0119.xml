@@ -7,7 +7,7 @@
   <title value="V2 Table 0119 Version 2.2"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:36+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="New Order"/>
       </concept>
       <concept>
+        <code value="NW"/>
+        <display value="New Order"/>
+      </concept>
+      <concept>
         <code value="OK"/>
         <display value="Order accepted and OK"/>
+      </concept>
+      <concept>
+        <code value="OK"/>
+        <display value="Order accepted and OK"/>
+      </concept>
+      <concept>
+        <code value="CA"/>
+        <display value="Cancel order request"/>
       </concept>
       <concept>
         <code value="CA"/>
@@ -37,8 +49,20 @@
         <display value="Order canceled"/>
       </concept>
       <concept>
+        <code value="OC"/>
+        <display value="Order canceled"/>
+      </concept>
+      <concept>
         <code value="CR"/>
         <display value="Canceled as requested"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Canceled as requested"/>
+      </concept>
+      <concept>
+        <code value="UC"/>
+        <display value="Unable to cancel"/>
       </concept>
       <concept>
         <code value="UC"/>
@@ -49,8 +73,20 @@
         <display value="Discontinue order request"/>
       </concept>
       <concept>
+        <code value="DC"/>
+        <display value="Discontinue order request"/>
+      </concept>
+      <concept>
         <code value="OD"/>
         <display value="Order discontinued"/>
+      </concept>
+      <concept>
+        <code value="OD"/>
+        <display value="Order discontinued"/>
+      </concept>
+      <concept>
+        <code value="DR"/>
+        <display value="Discontinued as requested"/>
       </concept>
       <concept>
         <code value="DR"/>
@@ -61,8 +97,20 @@
         <display value="Unable to discontinue"/>
       </concept>
       <concept>
+        <code value="UD"/>
+        <display value="Unable to discontinue"/>
+      </concept>
+      <concept>
         <code value="HD"/>
         <display value="Hold order request"/>
+      </concept>
+      <concept>
+        <code value="HD"/>
+        <display value="Hold order request"/>
+      </concept>
+      <concept>
+        <code value="OH"/>
+        <display value="Order held"/>
       </concept>
       <concept>
         <code value="OH"/>
@@ -73,8 +121,20 @@
         <display value="Unable to put on hold"/>
       </concept>
       <concept>
+        <code value="UH"/>
+        <display value="Unable to put on hold"/>
+      </concept>
+      <concept>
         <code value="HR"/>
         <display value="On hold as requested"/>
+      </concept>
+      <concept>
+        <code value="HR"/>
+        <display value="On hold as requested"/>
+      </concept>
+      <concept>
+        <code value="RL"/>
+        <display value="Release previous hold"/>
       </concept>
       <concept>
         <code value="RL"/>
@@ -85,8 +145,20 @@
         <display value="Released as requested"/>
       </concept>
       <concept>
+        <code value="OR"/>
+        <display value="Released as requested"/>
+      </concept>
+      <concept>
         <code value="UR"/>
         <display value="Unable to release"/>
+      </concept>
+      <concept>
+        <code value="UR"/>
+        <display value="Unable to release"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Order replace request"/>
       </concept>
       <concept>
         <code value="RP"/>
@@ -97,8 +169,20 @@
         <display value="Replaced unsolicited"/>
       </concept>
       <concept>
+        <code value="RU"/>
+        <display value="Replaced unsolicited"/>
+      </concept>
+      <concept>
         <code value="RO"/>
         <display value="Replacement order"/>
+      </concept>
+      <concept>
+        <code value="RO"/>
+        <display value="Replacement order"/>
+      </concept>
+      <concept>
+        <code value="RQ"/>
+        <display value="Replaced as requested"/>
       </concept>
       <concept>
         <code value="RQ"/>
@@ -109,8 +193,20 @@
         <display value="Unable to replace"/>
       </concept>
       <concept>
+        <code value="UM"/>
+        <display value="Unable to replace"/>
+      </concept>
+      <concept>
         <code value="PA"/>
         <display value="Parent order"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="Parent order"/>
+      </concept>
+      <concept>
+        <code value="CH"/>
+        <display value="Child order"/>
       </concept>
       <concept>
         <code value="CH"/>
@@ -121,8 +217,20 @@
         <display value="Change order request"/>
       </concept>
       <concept>
+        <code value="XO"/>
+        <display value="Change order request"/>
+      </concept>
+      <concept>
         <code value="XX"/>
         <display value="Order changed, unsolicited"/>
+      </concept>
+      <concept>
+        <code value="XX"/>
+        <display value="Order changed, unsolicited"/>
+      </concept>
+      <concept>
+        <code value="UX"/>
+        <display value="Unable to change"/>
       </concept>
       <concept>
         <code value="UX"/>
@@ -133,8 +241,20 @@
         <display value="Changed as requested"/>
       </concept>
       <concept>
+        <code value="XR"/>
+        <display value="Changed as requested"/>
+      </concept>
+      <concept>
         <code value="DE"/>
         <display value="Data Errors"/>
+      </concept>
+      <concept>
+        <code value="DE"/>
+        <display value="Data Errors"/>
+      </concept>
+      <concept>
+        <code value="RE"/>
+        <display value="Observations to follow"/>
       </concept>
       <concept>
         <code value="RE"/>
@@ -145,8 +265,20 @@
         <display value="Request received"/>
       </concept>
       <concept>
+        <code value="RR"/>
+        <display value="Request received"/>
+      </concept>
+      <concept>
         <code value="SR"/>
         <display value="Response to send order status request"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="Response to send order status request"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="Send order status request"/>
       </concept>
       <concept>
         <code value="SS"/>
@@ -157,12 +289,28 @@
         <display value="Status changed"/>
       </concept>
       <concept>
+        <code value="SC"/>
+        <display value="Status changed"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="Send order number"/>
+      </concept>
+      <concept>
         <code value="SN"/>
         <display value="Send order number"/>
       </concept>
       <concept>
         <code value="NA"/>
         <display value="Number assigned"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="Number assigned"/>
+      </concept>
+      <concept>
+        <code value="CN"/>
+        <display value="Combined result"/>
       </concept>
       <concept>
         <code value="CN"/>

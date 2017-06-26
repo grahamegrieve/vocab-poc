@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0127-de-2.7-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0127-de-2.7-de"/>
+  <name value="V2Table0127LangGermanVersion2.7"/>
+  <title value="V2 Table language Pack for Allergy Type: German Version 2.7"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:37+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0127 Version 2.7 (Allergy Type), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0127-de"/>
+      <concept>
+        <code value="DA"/>
+        <display value="Medikamentenallergie"/>
+      </concept>
+      <concept>
+        <code value="DA"/>
+        <display value="Medikamentenallergie"/>
+      </concept>
+      <concept>
+        <code value="FA"/>
+        <display value="Nahrungsmittelallergie"/>
+      </concept>
+      <concept>
+        <code value="FA"/>
+        <display value="Nahrungsmittelallergie"/>
+      </concept>
+      <concept>
+        <code value="MA"/>
+        <display value="Sonstige Allergie"/>
+      </concept>
+      <concept>
+        <code value="MA"/>
+        <display value="Sonstige Allergie"/>
+      </concept>
+      <concept>
+        <code value="MC"/>
+        <display value="Sonstige Kontraindikation"/>
+      </concept>
+      <concept>
+        <code value="MC"/>
+        <display value="Sonstige Kontraindikation"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

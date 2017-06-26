@@ -7,7 +7,7 @@
   <title value="V2 Table 0372 Version 2.8"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Supernatant"/>
       </concept>
       <concept>
+        <code value="SUP"/>
+        <display value="Supernatant"/>
+      </concept>
+      <concept>
         <code value="SED"/>
         <display value="Sediment"/>
+      </concept>
+      <concept>
+        <code value="SED"/>
+        <display value="Sediment"/>
+      </concept>
+      <concept>
+        <code value="BLD"/>
+        <display value="Whole blood, homogeneous"/>
       </concept>
       <concept>
         <code value="BLD"/>
@@ -37,6 +49,14 @@
         <display value="Whole blood, separated"/>
       </concept>
       <concept>
+        <code value="BSEP"/>
+        <display value="Whole blood, separated"/>
+      </concept>
+      <concept>
+        <code value="PRP"/>
+        <display value="Platelet rich plasma"/>
+      </concept>
+      <concept>
         <code value="PRP"/>
         <display value="Platelet rich plasma"/>
       </concept>
@@ -45,8 +65,20 @@
         <display value="Platelet poor plasma"/>
       </concept>
       <concept>
+        <code value="PPP"/>
+        <display value="Platelet poor plasma"/>
+      </concept>
+      <concept>
         <code value="SER"/>
         <display value="Serum, NOS (not otherwise specified)"/>
+      </concept>
+      <concept>
+        <code value="SER"/>
+        <display value="Serum, NOS (not otherwise specified)"/>
+      </concept>
+      <concept>
+        <code value="PLAS"/>
+        <display value="Plasma, NOS (not otherwise specified)"/>
       </concept>
       <concept>
         <code value="PLAS"/>

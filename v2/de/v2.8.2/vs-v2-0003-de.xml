@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0003-de-2.8.2-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0003-de-2.8.2-de"/>
+  <name value="V2Table0003LangGermanVersion2.8.2"/>
+  <title value="V2 Table language Pack for Event Type: German Version 2.8.2"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:32+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0003 Version 2.8.2 (Event Type), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0003-de"/>
+      <concept>
+        <code value="A01"/>
+        <display value="station&#xE4;re Aufnahme"/>
+      </concept>
+      <concept>
+        <code value="A01"/>
+        <display value="station&#xE4;re Aufnahme"/>
+      </concept>
+      <concept>
+        <code value="A02"/>
+        <display value="Verlegung"/>
+      </concept>
+      <concept>
+        <code value="A02"/>
+        <display value="Verlegung"/>
+      </concept>
+      <concept>
+        <code value="A03"/>
+        <display value="Entlassung"/>
+      </concept>
+      <concept>
+        <code value="A03"/>
+        <display value="Entlassung"/>
+      </concept>
+      <concept>
+        <code value="A04"/>
+        <display value="Besuchsmeldung (nicht-station&#xE4;r)"/>
+      </concept>
+      <concept>
+        <code value="A04"/>
+        <display value="Besuchsmeldung (nicht-station&#xE4;r)"/>
+      </concept>
+      <concept>
+        <code value="A05"/>
+        <display value="Voraufnahme eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="A05"/>
+        <display value="Voraufnahme eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="A06"/>
+        <display value="&#xC4;nderung von ambulant in station&#xE4;r"/>
+      </concept>
+      <concept>
+        <code value="A06"/>
+        <display value="&#xC4;nderung von ambulant in station&#xE4;r"/>
+      </concept>
+      <concept>
+        <code value="A07"/>
+        <display value="&#xC4;nderung von station&#xE4;r in ambulant"/>
+      </concept>
+      <concept>
+        <code value="A07"/>
+        <display value="&#xC4;nderung von station&#xE4;r in ambulant"/>
+      </concept>
+      <concept>
+        <code value="A08"/>
+        <display value="&#xC4;nderung von Patienteninformationen"/>
+      </concept>
+      <concept>
+        <code value="A08"/>
+        <display value="&#xC4;nderung von Patienteninformationen"/>
+      </concept>
+      <concept>
+        <code value="A09"/>
+        <display value="Patient verl&#xE4;&#xDF;t Einrichtung"/>
+      </concept>
+      <concept>
+        <code value="A09"/>
+        <display value="Patient verl&#xE4;&#xDF;t Einrichtung"/>
+      </concept>
+      <concept>
+        <code value="A10"/>
+        <display value="Patient erreicht Einrichtung"/>
+      </concept>
+      <concept>
+        <code value="A10"/>
+        <display value="Patient erreicht Einrichtung"/>
+      </concept>
+      <concept>
+        <code value="A11"/>
+        <display value="Stornierung f&#xFC;r A01 und A04"/>
+      </concept>
+      <concept>
+        <code value="A11"/>
+        <display value="Stornierung f&#xFC;r A01 und A04"/>
+      </concept>
+      <concept>
+        <code value="A12"/>
+        <display value="Stornierung f&#xFC;r A02"/>
+      </concept>
+      <concept>
+        <code value="A12"/>
+        <display value="Stornierung f&#xFC;r A02"/>
+      </concept>
+      <concept>
+        <code value="A13"/>
+        <display value="Stornierung f&#xFC;r A03"/>
+      </concept>
+      <concept>
+        <code value="A13"/>
+        <display value="Stornierung f&#xFC;r A03"/>
+      </concept>
+      <concept>
+        <code value="A14"/>
+        <display value="Geplante Aufnahme"/>
+      </concept>
+      <concept>
+        <code value="A14"/>
+        <display value="Geplante Aufnahme"/>
+      </concept>
+      <concept>
+        <code value="A15"/>
+        <display value="Geplante Verlegung"/>
+      </concept>
+      <concept>
+        <code value="A15"/>
+        <display value="Geplante Verlegung"/>
+      </concept>
+      <concept>
+        <code value="A16"/>
+        <display value="Geplante Entlassung"/>
+      </concept>
+      <concept>
+        <code value="A16"/>
+        <display value="Geplante Entlassung"/>
+      </concept>
+      <concept>
+        <code value="A17"/>
+        <display value="Bettentausch zweier Patienten"/>
+      </concept>
+      <concept>
+        <code value="A17"/>
+        <display value="Bettentausch zweier Patienten"/>
+      </concept>
+      <concept>
+        <code value="A19"/>
+        <display value="Anfrage nach Patientendaten"/>
+      </concept>
+      <concept>
+        <code value="A19"/>
+        <display value="Anfrage nach Patientendaten"/>
+      </concept>
+      <concept>
+        <code value="A20"/>
+        <display value="&#xC4;nderung des Bettenstatus"/>
+      </concept>
+      <concept>
+        <code value="A20"/>
+        <display value="&#xC4;nderung des Bettenstatus"/>
+      </concept>
+      <concept>
+        <code value="A21"/>
+        <display value="Beginn einer Patientenabwesenheit"/>
+      </concept>
+      <concept>
+        <code value="A21"/>
+        <display value="Beginn einer Patientenabwesenheit"/>
+      </concept>
+      <concept>
+        <code value="A22"/>
+        <display value="Ende einer Patientenabwesenheit"/>
+      </concept>
+      <concept>
+        <code value="A22"/>
+        <display value="Ende einer Patientenabwesenheit"/>
+      </concept>
+      <concept>
+        <code value="A23"/>
+        <display value="L&#xF6;schen eines Patientensatzes"/>
+      </concept>
+      <concept>
+        <code value="A23"/>
+        <display value="L&#xF6;schen eines Patientensatzes"/>
+      </concept>
+      <concept>
+        <code value="A24"/>
+        <display value="Verkn&#xFC;pfen von Patientendaten"/>
+      </concept>
+      <concept>
+        <code value="A24"/>
+        <display value="Verkn&#xFC;pfen von Patientendaten"/>
+      </concept>
+      <concept>
+        <code value="A25"/>
+        <display value="Stornierung einer eingeleiteten Entlassung"/>
+      </concept>
+      <concept>
+        <code value="A25"/>
+        <display value="Stornierung einer eingeleiteten Entlassung"/>
+      </concept>
+      <concept>
+        <code value="A26"/>
+        <display value="Stornierung einer eingeleiteten Verlegung"/>
+      </concept>
+      <concept>
+        <code value="A26"/>
+        <display value="Stornierung einer eingeleiteten Verlegung"/>
+      </concept>
+      <concept>
+        <code value="A27"/>
+        <display value="Stornierung einer eingeleiteten Aufnahme"/>
+      </concept>
+      <concept>
+        <code value="A27"/>
+        <display value="Stornierung einer eingeleiteten Aufnahme"/>
+      </concept>
+      <concept>
+        <code value="A28"/>
+        <display value="Personendaten hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="A28"/>
+        <display value="Personendaten hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="A29"/>
+        <display value="L&#xF6;schung von personenbezogenen Daten"/>
+      </concept>
+      <concept>
+        <code value="A29"/>
+        <display value="L&#xF6;schung von personenbezogenen Daten"/>
+      </concept>
+      <concept>
+        <code value="A31"/>
+        <display value="&#xC4;ndern personenbezogener Daten"/>
+      </concept>
+      <concept>
+        <code value="A31"/>
+        <display value="&#xC4;ndern personenbezogener Daten"/>
+      </concept>
+      <concept>
+        <code value="A32"/>
+        <display value="Stornierung eines Patientenzugangs (Bettenzuweisung)"/>
+      </concept>
+      <concept>
+        <code value="A32"/>
+        <display value="Stornierung eines Patientenzugangs (Bettenzuweisung)"/>
+      </concept>
+      <concept>
+        <code value="A33"/>
+        <display value="Stornierung eines Patientenabgangs (Bettenfreigabe)"/>
+      </concept>
+      <concept>
+        <code value="A33"/>
+        <display value="Stornierung eines Patientenabgangs (Bettenfreigabe)"/>
+      </concept>
+      <concept>
+        <code value="A37"/>
+        <display value="Aufl&#xF6;sung einer Verkn&#xFC;pfung von Patientendaten"/>
+      </concept>
+      <concept>
+        <code value="A37"/>
+        <display value="Aufl&#xF6;sung einer Verkn&#xFC;pfung von Patientendaten"/>
+      </concept>
+      <concept>
+        <code value="A38"/>
+        <display value="Stornierung zu A05"/>
+      </concept>
+      <concept>
+        <code value="A38"/>
+        <display value="Stornierung zu A05"/>
+      </concept>
+      <concept>
+        <code value="A40"/>
+        <display value="Zusammenf&#xFC;hrung v. Pat-Information &#xFC;ber ID-Liste"/>
+      </concept>
+      <concept>
+        <code value="A40"/>
+        <display value="Zusammenf&#xFC;hrung v. Pat-Information &#xFC;ber ID-Liste"/>
+      </concept>
+      <concept>
+        <code value="A41"/>
+        <display value="Zusammenf&#xFC;hrung von Konten &#xFC;ber Kontonummer"/>
+      </concept>
+      <concept>
+        <code value="A41"/>
+        <display value="Zusammenf&#xFC;hrung von Konten &#xFC;ber Kontonummer"/>
+      </concept>
+      <concept>
+        <code value="A42"/>
+        <display value="Zusammenf&#xFC;hrung v.Fall-Information &#xFC;ber Fallnummer"/>
+      </concept>
+      <concept>
+        <code value="A42"/>
+        <display value="Zusammenf&#xFC;hrung v.Fall-Information &#xFC;ber Fallnummer"/>
+      </concept>
+      <concept>
+        <code value="A43"/>
+        <display value="Korrektur einer falschen Zuordnung bzgl. PID-Liste"/>
+      </concept>
+      <concept>
+        <code value="A43"/>
+        <display value="Korrektur einer falschen Zuordnung bzgl. PID-Liste"/>
+      </concept>
+      <concept>
+        <code value="A45"/>
+        <display value="Korrektur einer falschen Zuordnung bzgl.Fallnummer"/>
+      </concept>
+      <concept>
+        <code value="A45"/>
+        <display value="Korrektur einer falschen Zuordnung bzgl.Fallnummer"/>
+      </concept>
+      <concept>
+        <code value="A49"/>
+        <display value="&#xC4;nderung der Abrechungsnummer (PID-18)"/>
+      </concept>
+      <concept>
+        <code value="A49"/>
+        <display value="&#xC4;nderung der Abrechungsnummer (PID-18)"/>
+      </concept>
+      <concept>
+        <code value="A50"/>
+        <display value="&#xC4;nderung der Fallnummer (PV1-19)"/>
+      </concept>
+      <concept>
+        <code value="A50"/>
+        <display value="&#xC4;nderung der Fallnummer (PV1-19)"/>
+      </concept>
+      <concept>
+        <code value="A51"/>
+        <display value="&#xC4;nderung der alternativen Fallnummer (PV1-50)"/>
+      </concept>
+      <concept>
+        <code value="A51"/>
+        <display value="&#xC4;nderung der alternativen Fallnummer (PV1-50)"/>
+      </concept>
+      <concept>
+        <code value="C02"/>
+        <display value="L&#xF6;schung der Registrierung"/>
+      </concept>
+      <concept>
+        <code value="C02"/>
+        <display value="L&#xF6;schung der Registrierung"/>
+      </concept>
+      <concept>
+        <code value="C03"/>
+        <display value="Korrektur/&#xC4;nderung der Registrierung"/>
+      </concept>
+      <concept>
+        <code value="C03"/>
+        <display value="Korrektur/&#xC4;nderung der Registrierung"/>
+      </concept>
+      <concept>
+        <code value="C04"/>
+        <display value="Patient ist aus der Studie ausgeschieden"/>
+      </concept>
+      <concept>
+        <code value="C04"/>
+        <display value="Patient ist aus der Studie ausgeschieden"/>
+      </concept>
+      <concept>
+        <code value="C05"/>
+        <display value="Patient tritt in Studienphase ein"/>
+      </concept>
+      <concept>
+        <code value="C05"/>
+        <display value="Patient tritt in Studienphase ein"/>
+      </concept>
+      <concept>
+        <code value="C07"/>
+        <display value="Korrektur/&#xC4;nderung der Angaben zur Studienphase"/>
+      </concept>
+      <concept>
+        <code value="C07"/>
+        <display value="Korrektur/&#xC4;nderung der Angaben zur Studienphase"/>
+      </concept>
+      <concept>
+        <code value="C08"/>
+        <display value="Patient ist aus Studienphase ausgeschieden"/>
+      </concept>
+      <concept>
+        <code value="C08"/>
+        <display value="Patient ist aus Studienphase ausgeschieden"/>
+      </concept>
+      <concept>
+        <code value="C09"/>
+        <display value="Festlegung des Zeitintervalls f&#xFC;r autom. Berichte"/>
+      </concept>
+      <concept>
+        <code value="C09"/>
+        <display value="Festlegung des Zeitintervalls f&#xFC;r autom. Berichte"/>
+      </concept>
+      <concept>
+        <code value="C10"/>
+        <display value="Patient beendet Studie"/>
+      </concept>
+      <concept>
+        <code value="C10"/>
+        <display value="Patient beendet Studie"/>
+      </concept>
+      <concept>
+        <code value="C11"/>
+        <display value="Patient beendet eine Studienphase"/>
+      </concept>
+      <concept>
+        <code value="C11"/>
+        <display value="Patient beendet eine Studienphase"/>
+      </concept>
+      <concept>
+        <code value="C12"/>
+        <display value="Korrektur/&#xC4;nderung von Anforderungen/Ergebnissen"/>
+      </concept>
+      <concept>
+        <code value="C12"/>
+        <display value="Korrektur/&#xC4;nderung von Anforderungen/Ergebnissen"/>
+      </concept>
+      <concept>
+        <code value="CNQ"/>
+        <display value="Stornierung einer Anfrage"/>
+      </concept>
+      <concept>
+        <code value="CNQ"/>
+        <display value="Stornierung einer Anfrage"/>
+      </concept>
+      <concept>
+        <code value="I01"/>
+        <display value="Anforderung von Versicherungsdaten"/>
+      </concept>
+      <concept>
+        <code value="I01"/>
+        <display value="Anforderung von Versicherungsdaten"/>
+      </concept>
+      <concept>
+        <code value="I02"/>
+        <display value="Anforderg.einer Patientenauswahlliste (zur Anzeige)"/>
+      </concept>
+      <concept>
+        <code value="I02"/>
+        <display value="Anforderg.einer Patientenauswahlliste (zur Anzeige)"/>
+      </concept>
+      <concept>
+        <code value="I03"/>
+        <display value="Anforderg.einer strukt. Patientenauswahlliste"/>
+      </concept>
+      <concept>
+        <code value="I03"/>
+        <display value="Anforderg.einer strukt. Patientenauswahlliste"/>
+      </concept>
+      <concept>
+        <code value="I04"/>
+        <display value="Anforderung demographischer Informationen"/>
+      </concept>
+      <concept>
+        <code value="I04"/>
+        <display value="Anforderung demographischer Informationen"/>
+      </concept>
+      <concept>
+        <code value="I05"/>
+        <display value="Anforderung klinischer Informationen"/>
+      </concept>
+      <concept>
+        <code value="I05"/>
+        <display value="Anforderung klinischer Informationen"/>
+      </concept>
+      <concept>
+        <code value="I06"/>
+        <display value="Anforderung strukt. klinischer Informationen"/>
+      </concept>
+      <concept>
+        <code value="I06"/>
+        <display value="Anforderung strukt. klinischer Informationen"/>
+      </concept>
+      <concept>
+        <code value="I07"/>
+        <display value="unaufgeforderte &#xDC;bermittlung v. Versicherungsdaten"/>
+      </concept>
+      <concept>
+        <code value="I07"/>
+        <display value="unaufgeforderte &#xDC;bermittlung v. Versicherungsdaten"/>
+      </concept>
+      <concept>
+        <code value="I08"/>
+        <display value="Anforderung Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I08"/>
+        <display value="Anforderung Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I09"/>
+        <display value="Anforderg bzgl. &#xC4;nderung Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I09"/>
+        <display value="Anforderg bzgl. &#xC4;nderung Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I10"/>
+        <display value="erneute Anforderung Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I10"/>
+        <display value="erneute Anforderung Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I11"/>
+        <display value="Anfordrg Stornierg einer Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I11"/>
+        <display value="Anfordrg Stornierg einer Kosten&#xFC;bernahmeerkl&#xE4;rung"/>
+      </concept>
+      <concept>
+        <code value="I12"/>
+        <display value="&#xDC;berweisung eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="I12"/>
+        <display value="&#xDC;berweisung eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="I13"/>
+        <display value="&#xC4;nderung einer Patienten&#xFC;berweisung"/>
+      </concept>
+      <concept>
+        <code value="I13"/>
+        <display value="&#xC4;nderung einer Patienten&#xFC;berweisung"/>
+      </concept>
+      <concept>
+        <code value="I14"/>
+        <display value="Stornierung einer Patienten&#xFC;berweisung"/>
+      </concept>
+      <concept>
+        <code value="I14"/>
+        <display value="Stornierung einer Patienten&#xFC;berweisung"/>
+      </concept>
+      <concept>
+        <code value="I15"/>
+        <display value="Statusabfrage bzgl. Patienten&#xFC;berweisung"/>
+      </concept>
+      <concept>
+        <code value="I15"/>
+        <display value="Statusabfrage bzgl. Patienten&#xFC;berweisung"/>
+      </concept>
+      <concept>
+        <code value="M02"/>
+        <display value="Stammdaten&#xE4;nderung - &#xC4;rzte"/>
+      </concept>
+      <concept>
+        <code value="M02"/>
+        <display value="Stammdaten&#xE4;nderung - &#xC4;rzte"/>
+      </concept>
+      <concept>
+        <code value="M05"/>
+        <display value="Stammdaten&#xE4;nderung - Aufenthaltsorte"/>
+      </concept>
+      <concept>
+        <code value="M05"/>
+        <display value="Stammdaten&#xE4;nderung - Aufenthaltsorte"/>
+      </concept>
+      <concept>
+        <code value="M07"/>
+        <display value="Stammdaten&#xE4;nderung - klinische Studien ohne Phasen"/>
+      </concept>
+      <concept>
+        <code value="M07"/>
+        <display value="Stammdaten&#xE4;nderung - klinische Studien ohne Phasen"/>
+      </concept>
+      <concept>
+        <code value="M09"/>
+        <display value="Stammdaten&#xE4;nderung - Tests mit nicht numerischen Ergebnissen"/>
+      </concept>
+      <concept>
+        <code value="M09"/>
+        <display value="Stammdaten&#xE4;nderung - Tests mit nicht numerischen Ergebnissen"/>
+      </concept>
+      <concept>
+        <code value="O01"/>
+        <display value="Auftrag / Verordnung"/>
+      </concept>
+      <concept>
+        <code value="O01"/>
+        <display value="Auftrag / Verordnung"/>
+      </concept>
+      <concept>
+        <code value="O02"/>
+        <display value="Auftragsbest&#xE4;tigung"/>
+      </concept>
+      <concept>
+        <code value="O02"/>
+        <display value="Auftragsbest&#xE4;tigung"/>
+      </concept>
+      <concept>
+        <code value="P02"/>
+        <display value="L&#xF6;schen der Abrechnungsdaten eines Patientenkontos"/>
+      </concept>
+      <concept>
+        <code value="P02"/>
+        <display value="L&#xF6;schen der Abrechnungsdaten eines Patientenkontos"/>
+      </concept>
+      <concept>
+        <code value="P03"/>
+        <display value="Leistungs- und Abrechnungsinformationen"/>
+      </concept>
+      <concept>
+        <code value="P03"/>
+        <display value="Leistungs- und Abrechnungsinformationen"/>
+      </concept>
+      <concept>
+        <code value="P04"/>
+        <display value="Druck und Anzeige von Rechnungen"/>
+      </concept>
+      <concept>
+        <code value="P04"/>
+        <display value="Druck und Anzeige von Rechnungen"/>
+      </concept>
+      <concept>
+        <code value="P05"/>
+        <display value="&#xC4;nderung eines Patientenkontos"/>
+      </concept>
+      <concept>
+        <code value="P05"/>
+        <display value="&#xC4;nderung eines Patientenkontos"/>
+      </concept>
+      <concept>
+        <code value="P06"/>
+        <display value="Abschlu&#xDF; eines Patientenkontos"/>
+      </concept>
+      <concept>
+        <code value="P06"/>
+        <display value="Abschlu&#xDF; eines Patientenkontos"/>
+      </concept>
+      <concept>
+        <code value="P07"/>
+        <display value="unaufgeforderte individueller Produktersterfahrungsbericht"/>
+      </concept>
+      <concept>
+        <code value="P07"/>
+        <display value="unaufgeforderte individueller Produktersterfahrungsbericht"/>
+      </concept>
+      <concept>
+        <code value="P08"/>
+        <display value="&#xC4;nderung individueller Produktersterfahrungsbericht"/>
+      </concept>
+      <concept>
+        <code value="P08"/>
+        <display value="&#xC4;nderung individueller Produktersterfahrungsbericht"/>
+      </concept>
+      <concept>
+        <code value="P09"/>
+        <display value="zusammenfassender Produkterfahrungsbericht"/>
+      </concept>
+      <concept>
+        <code value="P09"/>
+        <display value="zusammenfassender Produkterfahrungsbericht"/>
+      </concept>
+      <concept>
+        <code value="PC1"/>
+        <display value="Problem hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PC1"/>
+        <display value="Problem hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PC2"/>
+        <display value="Problem &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PC2"/>
+        <display value="Problem &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PC3"/>
+        <display value="Problem l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PC3"/>
+        <display value="Problem l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PC4"/>
+        <display value="Problem abfragen"/>
+      </concept>
+      <concept>
+        <code value="PC4"/>
+        <display value="Problem abfragen"/>
+      </concept>
+      <concept>
+        <code value="PC5"/>
+        <display value="Problem Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PC5"/>
+        <display value="Problem Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PC6"/>
+        <display value="Ziel hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PC6"/>
+        <display value="Ziel hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PC7"/>
+        <display value="Ziel &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PC7"/>
+        <display value="Ziel &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PC8"/>
+        <display value="Ziel l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PC8"/>
+        <display value="Ziel l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PC9"/>
+        <display value="Ziel abfragen"/>
+      </concept>
+      <concept>
+        <code value="PC9"/>
+        <display value="Ziel abfragen"/>
+      </concept>
+      <concept>
+        <code value="PCA"/>
+        <display value="Ziel Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PCA"/>
+        <display value="Ziel Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PCB"/>
+        <display value="(problemorientierte) Leitlinie hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PCB"/>
+        <display value="(problemorientierte) Leitlinie hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PCC"/>
+        <display value="(problemorientierte) Leitlinie &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PCC"/>
+        <display value="(problemorientierte) Leitlinie &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PCD"/>
+        <display value="(problemorientierte) Leitlinie l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PCD"/>
+        <display value="(problemorientierte) Leitlinie l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PCE"/>
+        <display value="(problemorientierte) Leitlinie abfragen"/>
+      </concept>
+      <concept>
+        <code value="PCE"/>
+        <display value="(problemorientierte) Leitlinie abfragen"/>
+      </concept>
+      <concept>
+        <code value="PCF"/>
+        <display value="(problemorientierte) Leitlinie Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PCF"/>
+        <display value="(problemorientierte) Leitlinie Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PCG"/>
+        <display value="(zielorientierte) Leitlinie hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PCG"/>
+        <display value="(zielorientierte) Leitlinie hinzuf&#xFC;gen"/>
+      </concept>
+      <concept>
+        <code value="PCH"/>
+        <display value="(zielorientierte) Leitlinie &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PCH"/>
+        <display value="(zielorientierte) Leitlinie &#xE4;ndern"/>
+      </concept>
+      <concept>
+        <code value="PCJ"/>
+        <display value="(zielorientierte) Leitlinie l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PCJ"/>
+        <display value="(zielorientierte) Leitlinie l&#xF6;schen"/>
+      </concept>
+      <concept>
+        <code value="PCK"/>
+        <display value="(zielorientierte) Leitlinie abfragen"/>
+      </concept>
+      <concept>
+        <code value="PCK"/>
+        <display value="(zielorientierte) Leitlinie abfragen"/>
+      </concept>
+      <concept>
+        <code value="PCL"/>
+        <display value="(zielorientierte) Leitlinie Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="PCL"/>
+        <display value="(zielorientierte) Leitlinie Anfrage beantworten"/>
+      </concept>
+      <concept>
+        <code value="Q01"/>
+        <display value="Anfrage mit sofortiger Antwort"/>
+      </concept>
+      <concept>
+        <code value="Q01"/>
+        <display value="Anfrage mit sofortiger Antwort"/>
+      </concept>
+      <concept>
+        <code value="Q02"/>
+        <display value="Anfrage mit verz&#xF6;gerter Antwort"/>
+      </concept>
+      <concept>
+        <code value="Q02"/>
+        <display value="Anfrage mit verz&#xF6;gerter Antwort"/>
+      </concept>
+      <concept>
+        <code value="Q03"/>
+        <display value="Verz&#xF6;gerte Antwort auf Anfrage"/>
+      </concept>
+      <concept>
+        <code value="Q03"/>
+        <display value="Verz&#xF6;gerte Antwort auf Anfrage"/>
+      </concept>
+      <concept>
+        <code value="Q05"/>
+        <display value="Sofortige Bildschirmanzeige (Eilmeldung)"/>
+      </concept>
+      <concept>
+        <code value="Q05"/>
+        <display value="Sofortige Bildschirmanzeige (Eilmeldung)"/>
+      </concept>
+      <concept>
+        <code value="Q06"/>
+        <display value="Abfrage des Auftragsstatus"/>
+      </concept>
+      <concept>
+        <code value="Q06"/>
+        <display value="Abfrage des Auftragsstatus"/>
+      </concept>
+      <concept>
+        <code value="R02"/>
+        <display value="Anfrage nach Untersuchungsergebnis"/>
+      </concept>
+      <concept>
+        <code value="R02"/>
+        <display value="Anfrage nach Untersuchungsergebnis"/>
+      </concept>
+      <concept>
+        <code value="R04"/>
+        <display value="Antwort auf Anfrage / &#xDC;bermittlung eines angeforderten Ergebnisses"/>
+      </concept>
+      <concept>
+        <code value="R04"/>
+        <display value="Antwort auf Anfrage / &#xDC;bermittlung eines angeforderten Ergebnisses"/>
+      </concept>
+      <concept>
+        <code value="S01"/>
+        <display value="Terminanforderung"/>
+      </concept>
+      <concept>
+        <code value="S01"/>
+        <display value="Terminanforderung"/>
+      </concept>
+      <concept>
+        <code value="S02"/>
+        <display value="Anforderung f&#xFC;r Terminverschiebung"/>
+      </concept>
+      <concept>
+        <code value="S02"/>
+        <display value="Anforderung f&#xFC;r Terminverschiebung"/>
+      </concept>
+      <concept>
+        <code value="S03"/>
+        <display value="Anforderung f&#xFC;r inhaltliche Termin&#xE4;nderung"/>
+      </concept>
+      <concept>
+        <code value="S03"/>
+        <display value="Anforderung f&#xFC;r inhaltliche Termin&#xE4;nderung"/>
+      </concept>
+      <concept>
+        <code value="S04"/>
+        <display value="Absage eines Termins"/>
+      </concept>
+      <concept>
+        <code value="S04"/>
+        <display value="Absage eines Termins"/>
+      </concept>
+      <concept>
+        <code value="S05"/>
+        <display value="Aussetzung des aktuellen oder weiterer Termine"/>
+      </concept>
+      <concept>
+        <code value="S05"/>
+        <display value="Aussetzung des aktuellen oder weiterer Termine"/>
+      </concept>
+      <concept>
+        <code value="S06"/>
+        <display value="Stornierung eines Termins"/>
+      </concept>
+      <concept>
+        <code value="S06"/>
+        <display value="Stornierung eines Termins"/>
+      </concept>
+      <concept>
+        <code value="S07"/>
+        <display value="Anforderung zus&#xE4;tzlicher Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S07"/>
+        <display value="Anforderung zus&#xE4;tzlicher Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S08"/>
+        <display value="&#xC4;nderungsanforderung f&#xFC;r zus&#xE4;tzliche Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S08"/>
+        <display value="&#xC4;nderungsanforderung f&#xFC;r zus&#xE4;tzliche Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S12"/>
+        <display value="Benachrichtigung &#xFC;ber Terminvergabe"/>
+      </concept>
+      <concept>
+        <code value="S12"/>
+        <display value="Benachrichtigung &#xFC;ber Terminvergabe"/>
+      </concept>
+      <concept>
+        <code value="S13"/>
+        <display value="Benachrichtigung f&#xFC;r Terminverschiebung"/>
+      </concept>
+      <concept>
+        <code value="S13"/>
+        <display value="Benachrichtigung f&#xFC;r Terminverschiebung"/>
+      </concept>
+      <concept>
+        <code value="S14"/>
+        <display value="Benachrichtigung f&#xFC;r inhaltliche Termin&#xE4;nderung"/>
+      </concept>
+      <concept>
+        <code value="S14"/>
+        <display value="Benachrichtigung f&#xFC;r inhaltliche Termin&#xE4;nderung"/>
+      </concept>
+      <concept>
+        <code value="S15"/>
+        <display value="Benachrichtigung &#xFC;ber Terminabsage"/>
+      </concept>
+      <concept>
+        <code value="S15"/>
+        <display value="Benachrichtigung &#xFC;ber Terminabsage"/>
+      </concept>
+      <concept>
+        <code value="S16"/>
+        <display value="Benachrichtigung &#xFC;ber Aussetzung des aktuellen oder weiterer Termine"/>
+      </concept>
+      <concept>
+        <code value="S16"/>
+        <display value="Benachrichtigung &#xFC;ber Aussetzung des aktuellen oder weiterer Termine"/>
+      </concept>
+      <concept>
+        <code value="S18"/>
+        <display value="Benachrichtigung &#xFC;ber  zus&#xE4;tzlicher Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S18"/>
+        <display value="Benachrichtigung &#xFC;ber  zus&#xE4;tzlicher Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S20"/>
+        <display value="Benachrichtigung f. zus&#xE4;tzliche Leistungen/Voraussetzungen zu einem Terminabsage"/>
+      </concept>
+      <concept>
+        <code value="S20"/>
+        <display value="Benachrichtigung f. zus&#xE4;tzliche Leistungen/Voraussetzungen zu einem Terminabsage"/>
+      </concept>
+      <concept>
+        <code value="S21"/>
+        <display value="Benachrichtigung &#xFC;ber Aussetzung f&#xFC;r zus&#xE4;tzliche Leistungen/Voraussetzungen"/>
+      </concept>
+      <concept>
+        <code value="S21"/>
+        <display value="Benachrichtigung &#xFC;ber Aussetzung f&#xFC;r zus&#xE4;tzliche Leistungen/Voraussetzungen"/>
+      </concept>
+      <concept>
+        <code value="S22"/>
+        <display value="Benachrichtigung Stornierg.f.zus&#xE4;tzl.Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S22"/>
+        <display value="Benachrichtigung Stornierg.f.zus&#xE4;tzl.Leistungen/Voraussetzungen zu einem Termin"/>
+      </concept>
+      <concept>
+        <code value="S23"/>
+        <display value="Benachrichtigung &#xFC;ber nicht verf&#xFC;gbare Zeitbereiche"/>
+      </concept>
+      <concept>
+        <code value="S23"/>
+        <display value="Benachrichtigung &#xFC;ber nicht verf&#xFC;gbare Zeitbereiche"/>
+      </concept>
+      <concept>
+        <code value="T01"/>
+        <display value="Benachrichtigung &#xFC;ber die Neuanlage eines Dokuments ohne Inhalt"/>
+      </concept>
+      <concept>
+        <code value="T01"/>
+        <display value="Benachrichtigung &#xFC;ber die Neuanlage eines Dokuments ohne Inhalt"/>
+      </concept>
+      <concept>
+        <code value="T02"/>
+        <display value="Benachrichtigung &#xFC;ber die Neuanlage eines Dokuments mit Inhalts&#xFC;bermittlung"/>
+      </concept>
+      <concept>
+        <code value="T02"/>
+        <display value="Benachrichtigung &#xFC;ber die Neuanlage eines Dokuments mit Inhalts&#xFC;bermittlung"/>
+      </concept>
+      <concept>
+        <code value="T03"/>
+        <display value="Benachrichtigung &#xFC;ber die Status&#xE4;nderung eines Dokuments (ohne Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T03"/>
+        <display value="Benachrichtigung &#xFC;ber die Status&#xE4;nderung eines Dokuments (ohne Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T04"/>
+        <display value="Benachrichtigung &#xFC;ber die Status&#xE4;nderung eines Dokuments (mit Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T04"/>
+        <display value="Benachrichtigung &#xFC;ber die Status&#xE4;nderung eines Dokuments (mit Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T05"/>
+        <display value="Benachrichtigung &#xFC;ber die Erg&#xE4;nzung eines Dokuments (ohne Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T05"/>
+        <display value="Benachrichtigung &#xFC;ber die Erg&#xE4;nzung eines Dokuments (ohne Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T06"/>
+        <display value="Benachrichtigung &#xFC;ber die Erg&#xE4;nzung eines Dokuments (mit Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T06"/>
+        <display value="Benachrichtigung &#xFC;ber die Erg&#xE4;nzung eines Dokuments (mit Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T10"/>
+        <display value="Benachrichtigung &#xFC;ber den Austausch eines Dokuments (mit Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T10"/>
+        <display value="Benachrichtigung &#xFC;ber den Austausch eines Dokuments (mit Inhalt)"/>
+      </concept>
+      <concept>
+        <code value="T11"/>
+        <display value="Benachrichtigung &#xFC;ber die L&#xF6;schung eines Dokuments"/>
+      </concept>
+      <concept>
+        <code value="T11"/>
+        <display value="Benachrichtigung &#xFC;ber die L&#xF6;schung eines Dokuments"/>
+      </concept>
+      <concept>
+        <code value="T12"/>
+        <display value="Dokumentanfrage"/>
+      </concept>
+      <concept>
+        <code value="T12"/>
+        <display value="Dokumentanfrage"/>
+      </concept>
+      <concept>
+        <code value="V01"/>
+        <display value="Anfrage nach Impfstatus eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="V01"/>
+        <display value="Anfrage nach Impfstatus eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="V02"/>
+        <display value="Antwort auf Impfstatusanfrage bei nicht-eindeutiger Patienten-ID"/>
+      </concept>
+      <concept>
+        <code value="V02"/>
+        <display value="Antwort auf Impfstatusanfrage bei nicht-eindeutiger Patienten-ID"/>
+      </concept>
+      <concept>
+        <code value="V03"/>
+        <display value="Antwort auf Impfstatusanfrage zu einem Patienten"/>
+      </concept>
+      <concept>
+        <code value="V03"/>
+        <display value="Antwort auf Impfstatusanfrage zu einem Patienten"/>
+      </concept>
+      <concept>
+        <code value="V04"/>
+        <display value="unaufgeforderte &#xC4;nderung zu dem Impfstatus eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="V04"/>
+        <display value="unaufgeforderte &#xC4;nderung zu dem Impfstatus eines Patienten"/>
+      </concept>
+      <concept>
+        <code value="Varies"/>
+        <display value="allgemeine Stammdatenanfrage"/>
+      </concept>
+      <concept>
+        <code value="Varies"/>
+        <display value="allgemeine Stammdatenanfrage"/>
+      </concept>
+      <concept>
+        <code value="W01"/>
+        <display value="unaufgeforderte &#xDC;bermittlung von Signaldaten"/>
+      </concept>
+      <concept>
+        <code value="W01"/>
+        <display value="unaufgeforderte &#xDC;bermittlung von Signaldaten"/>
+      </concept>
+      <concept>
+        <code value="W02"/>
+        <display value="angeforderte &#xDC;bermittlung von Signaldaten"/>
+      </concept>
+      <concept>
+        <code value="W02"/>
+        <display value="angeforderte &#xDC;bermittlung von Signaldaten"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

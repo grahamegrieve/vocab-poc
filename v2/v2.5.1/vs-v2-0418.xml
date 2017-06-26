@@ -7,7 +7,7 @@
   <title value="V2 Table 0418 Version 2.5.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:48+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,27 @@
         <display value="the admitting procedure"/>
       </concept>
       <concept>
+        <code value="0"/>
+        <display value="the admitting procedure"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="the primary procedure"/>
+      </concept>
+      <concept>
         <code value="1"/>
         <display value="the primary procedure"/>
       </concept>
       <concept>
         <code value="2"/>
         <display value="for ranked secondary procedures"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="for ranked secondary procedures"/>
+      </concept>
+      <concept>
+        <code value="&#x2026;"/>
       </concept>
       <concept>
         <code value="&#x2026;"/>

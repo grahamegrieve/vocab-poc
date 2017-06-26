@@ -7,7 +7,7 @@
   <title value="V2 Table 0357 Version 2.5"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Message accepted"/>
       </concept>
       <concept>
+        <code value="0"/>
+        <display value="Message accepted"/>
+      </concept>
+      <concept>
         <code value="100"/>
         <display value="Segment sequence error"/>
+      </concept>
+      <concept>
+        <code value="100"/>
+        <display value="Segment sequence error"/>
+      </concept>
+      <concept>
+        <code value="101"/>
+        <display value="Required field missing"/>
       </concept>
       <concept>
         <code value="101"/>
@@ -37,8 +49,20 @@
         <display value="Data type error"/>
       </concept>
       <concept>
+        <code value="102"/>
+        <display value="Data type error"/>
+      </concept>
+      <concept>
         <code value="103"/>
         <display value="Table value not found"/>
+      </concept>
+      <concept>
+        <code value="103"/>
+        <display value="Table value not found"/>
+      </concept>
+      <concept>
+        <code value="200"/>
+        <display value="Unsupported message type"/>
       </concept>
       <concept>
         <code value="200"/>
@@ -49,8 +73,20 @@
         <display value="Unsupported event code"/>
       </concept>
       <concept>
+        <code value="201"/>
+        <display value="Unsupported event code"/>
+      </concept>
+      <concept>
         <code value="202"/>
         <display value="Unsupported processing id"/>
+      </concept>
+      <concept>
+        <code value="202"/>
+        <display value="Unsupported processing id"/>
+      </concept>
+      <concept>
+        <code value="203"/>
+        <display value="Unsupported version id"/>
       </concept>
       <concept>
         <code value="203"/>
@@ -61,12 +97,28 @@
         <display value="Unknown key identifier"/>
       </concept>
       <concept>
+        <code value="204"/>
+        <display value="Unknown key identifier"/>
+      </concept>
+      <concept>
+        <code value="205"/>
+        <display value="Duplicate key identifier"/>
+      </concept>
+      <concept>
         <code value="205"/>
         <display value="Duplicate key identifier"/>
       </concept>
       <concept>
         <code value="206"/>
         <display value="Application record locked"/>
+      </concept>
+      <concept>
+        <code value="206"/>
+        <display value="Application record locked"/>
+      </concept>
+      <concept>
+        <code value="207"/>
+        <display value="Application internal error"/>
       </concept>
       <concept>
         <code value="207"/>

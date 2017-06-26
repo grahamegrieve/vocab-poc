@@ -7,7 +7,7 @@
   <title value="V2 Table 0294 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:44+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,42 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0294"/>
+      <concept>
+        <code value="WED"/>
+        <display value="An indicator that Wednesday is or is not preferred for the day on which the appointment will occur. OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="TUE"/>
+        <display value="An indicator that Tuesday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="THU"/>
+        <display value="An indicator that Thursday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="SAT"/>
+        <display value="An indicator that Saturday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="SUN"/>
+        <display value="An indicator that Sunday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="PREFEND"/>
+        <display value="The preferred start time for the appointment request, service or resource.  Any legal time specification in the format HHMM, using 24-hour clock notation"/>
+      </concept>
+      <concept>
+        <code value="MON"/>
+        <display value="An indicator that Monday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="FRI"/>
+        <display value="An indicator that Friday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>
+      </concept>
+      <concept>
+        <code value="PREFSTART"/>
+        <display value="The preferred start time for the appointment request, service or resource.   Any legal time specification in the format HHMM, using 24-hour clock notation"/>
+      </concept>
       <concept>
         <code value="FRI"/>
         <display value="An indicator that Friday is or is not preferred for the day on which the appointment will occur.  OK = Preferred appointment dayNO = Day is not preferred"/>

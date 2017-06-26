@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0105-de-2.2-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0105-de-2.2-de"/>
+  <name value="V2Table0105LangGermanVersion2.2"/>
+  <title value="V2 Table language Pack for Source of Comment: German Version 2.2"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:35+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0105 Version 2.2 (Source of Comment), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0105-de"/>
+      <concept>
+        <code value="L"/>
+        <display value="Leistungsstelle"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Leistungsstelle"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Auftraggeber / auftraggebende Stelle"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Auftraggeber / auftraggebende Stelle"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Andere Stelle"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Andere Stelle"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

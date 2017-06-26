@@ -7,7 +7,7 @@
   <title value="V2 Table 0761 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:55+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Valid code"/>
       </concept>
       <concept>
+        <code value="0"/>
+        <display value="Valid code"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="Invalid code"/>
+      </concept>
+      <concept>
         <code value="1"/>
         <display value="Invalid code"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Not used"/>
       </concept>
       <concept>
+        <code value="2"/>
+        <display value="Not used"/>
+      </concept>
+      <concept>
         <code value="3"/>
         <display value="Invalid for this gender"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Invalid for this gender"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Invalid for this age"/>
       </concept>
       <concept>
         <code value="4"/>

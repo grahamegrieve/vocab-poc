@@ -7,7 +7,7 @@
   <title value="V2 Table 0100 Version 2.4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:34+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="On discharge"/>
       </concept>
       <concept>
+        <code value="D"/>
+        <display value="On discharge"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="On receipt of order"/>
+      </concept>
+      <concept>
         <code value="O"/>
         <display value="On receipt of order"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="At time service is completed"/>
       </concept>
       <concept>
+        <code value="R"/>
+        <display value="At time service is completed"/>
+      </concept>
+      <concept>
         <code value="S"/>
         <display value="At time service is started"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="At time service is started"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="At a designated date/time"/>
       </concept>
       <concept>
         <code value="T"/>

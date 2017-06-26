@@ -7,7 +7,7 @@
   <title value="V2 Table 0376 Version 2.4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Protect from light"/>
       </concept>
       <concept>
+        <code value="PRTL"/>
+        <display value="Protect from light"/>
+      </concept>
+      <concept>
         <code value="CFRZ"/>
         <display value="Critical Frozen"/>
+      </concept>
+      <concept>
+        <code value="CFRZ"/>
+        <display value="Critical Frozen"/>
+      </concept>
+      <concept>
+        <code value="CATM"/>
+        <display value="Critical do not expose to atmosphere - Do not uncap"/>
       </concept>
       <concept>
         <code value="CATM"/>
@@ -37,8 +49,20 @@
         <display value="Critical refrigerated"/>
       </concept>
       <concept>
+        <code value="CREF"/>
+        <display value="Critical refrigerated"/>
+      </concept>
+      <concept>
         <code value="CAMB"/>
         <display value="Critical ambient temperature"/>
+      </concept>
+      <concept>
+        <code value="CAMB"/>
+        <display value="Critical ambient temperature"/>
+      </concept>
+      <concept>
+        <code value="C37"/>
+        <display value="Critical maintain at 37C (e.g., cryoglobulin specimen"/>
       </concept>
       <concept>
         <code value="C37"/>

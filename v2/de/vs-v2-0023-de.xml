@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0023-de-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0023-de-de"/>
+  <name value="V2Table0023LangGermanVersionMaster"/>
+  <title value="V2 Table language Pack for Admit Source: German Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:33+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0023 Version Master (Admit Source), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0023-de"/>
+      <concept>
+        <code value="1"/>
+        <display value="&#xDC;berweisung durch Arzt"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="&#xDC;berweisung durch Klinik"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="nicht verwendet"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Verlegung aus Krankenhaus"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Verlegung aus Pflegeeinrichtung"/>
+      </concept>
+      <concept>
+        <code value="6"/>
+        <display value="Verlegung aus sonstiger Gesundheitseinrichtung"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="Notfallambulanz"/>
+      </concept>
+      <concept>
+        <code value="8"/>
+        <display value="Zwangseinweisung"/>
+      </concept>
+      <concept>
+        <code value="9"/>
+        <display value="keine Information verf&#xFC;gbar"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

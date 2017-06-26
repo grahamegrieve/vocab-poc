@@ -7,7 +7,7 @@
   <title value="V2 Table 0147 Version 2.5"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:37+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Ancillary"/>
       </concept>
       <concept>
+        <code value="ANC"/>
+        <display value="Ancillary"/>
+      </concept>
+      <concept>
+        <code value="2ANC"/>
+        <display value="Second ancillary"/>
+      </concept>
+      <concept>
         <code value="2ANC"/>
         <display value="Second ancillary"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Major medical"/>
       </concept>
       <concept>
+        <code value="MMD"/>
+        <display value="Major medical"/>
+      </concept>
+      <concept>
         <code value="2MMD"/>
         <display value="Second major medical"/>
+      </concept>
+      <concept>
+        <code value="2MMD"/>
+        <display value="Second major medical"/>
+      </concept>
+      <concept>
+        <code value="3MMD"/>
+        <display value="Third major medical"/>
       </concept>
       <concept>
         <code value="3MMD"/>

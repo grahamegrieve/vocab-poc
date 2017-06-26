@@ -7,7 +7,7 @@
   <title value="V2 Table 0168 Version 2.3.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:39+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Stat (do immediately)"/>
       </concept>
       <concept>
+        <code value="S"/>
+        <display value="Stat (do immediately)"/>
+      </concept>
+      <concept>
         <code value="A"/>
         <display value="As soon as possible (a priority lower than stat)"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="As soon as possible (a priority lower than stat)"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Routine"/>
       </concept>
       <concept>
         <code value="R"/>
@@ -37,12 +49,28 @@
         <display value="Preoperative (to be done prior to surgery)"/>
       </concept>
       <concept>
+        <code value="P"/>
+        <display value="Preoperative (to be done prior to surgery)"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Timing critical (do as near as possible to requested time)"/>
+      </concept>
+      <concept>
         <code value="T"/>
         <display value="Timing critical (do as near as possible to requested time)"/>
       </concept>
       <concept>
         <code value="C"/>
         <display value="Measure continuously (e.g., arterial line blood pressure)"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Measure continuously (e.g., arterial line blood pressure)"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Do at bedside or portable (may be used with other codes)"/>
       </concept>
       <concept>
         <code value="B"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0510 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:52+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Received into inventory (for specified patient)"/>
       </concept>
       <concept>
+        <code value="RI"/>
+        <display value="Received into inventory (for specified patient)"/>
+      </concept>
+      <concept>
         <code value="RD"/>
         <display value="Reserved and ready to dispense"/>
+      </concept>
+      <concept>
+        <code value="RD"/>
+        <display value="Reserved and ready to dispense"/>
+      </concept>
+      <concept>
+        <code value="RS"/>
+        <display value="Reserved (ordered and product allocated for the patient)"/>
       </concept>
       <concept>
         <code value="RS"/>
@@ -37,8 +49,20 @@
         <display value="Released (no longer allocated for the patient)"/>
       </concept>
       <concept>
+        <code value="RE"/>
+        <display value="Released (no longer allocated for the patient)"/>
+      </concept>
+      <concept>
         <code value="DS"/>
         <display value="Dispensed to patient location"/>
+      </concept>
+      <concept>
+        <code value="DS"/>
+        <display value="Dispensed to patient location"/>
+      </concept>
+      <concept>
+        <code value="RA"/>
+        <display value="Returned unused/no longer needed"/>
       </concept>
       <concept>
         <code value="RA"/>
@@ -49,6 +73,14 @@
         <display value="Returned unused/keep linked to patient for possible use later"/>
       </concept>
       <concept>
+        <code value="RL"/>
+        <display value="Returned unused/keep linked to patient for possible use later"/>
+      </concept>
+      <concept>
+        <code value="WA"/>
+        <display value="Wasted (product no longer viable)"/>
+      </concept>
+      <concept>
         <code value="WA"/>
         <display value="Wasted (product no longer viable)"/>
       </concept>
@@ -57,8 +89,20 @@
         <display value="Presumed transfused (dispensed and not returned)"/>
       </concept>
       <concept>
+        <code value="PT"/>
+        <display value="Presumed transfused (dispensed and not returned)"/>
+      </concept>
+      <concept>
         <code value="CR"/>
         <display value="Released into inventory for general availability"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Released into inventory for general availability"/>
+      </concept>
+      <concept>
+        <code value="RQ"/>
+        <display value="Request to dispense blood product"/>
       </concept>
       <concept>
         <code value="RQ"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0048 Version 2.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:33+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,50 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0048"/>
+      <concept>
+        <code value="OTH"/>
+        <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="STA"/>
+        <display value="Status"/>
+      </concept>
+      <concept>
+        <code value="RES"/>
+        <display value="Result"/>
+      </concept>
+      <concept>
+        <code value="PRO"/>
+        <display value="Procedure"/>
+      </concept>
+      <concept>
+        <code value="MRO"/>
+        <display value="Most recent outpatient"/>
+      </concept>
+      <concept>
+        <code value="MRI"/>
+        <display value="Most recent inpatient"/>
+      </concept>
+      <concept>
+        <code value="ADV"/>
+        <display value="Advice/Diagnosis"/>
+      </concept>
+      <concept>
+        <code value="CAN"/>
+        <display value="Cancel. Used to cancel a query"/>
+      </concept>
+      <concept>
+        <code value="APN"/>
+        <display value="Patient name look up"/>
+      </concept>
+      <concept>
+        <code value="ANU"/>
+        <display value="Nursing Unit Look up"/>
+      </concept>
+      <concept>
+        <code value="DEM"/>
+        <display value="Demographics"/>
+      </concept>
       <concept>
         <code value="ADV"/>
         <display value="Advice/Diagnosis"/>

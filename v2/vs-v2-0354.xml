@@ -7,7 +7,7 @@
   <title value="V2 Table 0354 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -21,12 +21,6 @@
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0354"/>
       <concept>
-        <code value="OMD_O01"/>
-      </concept>
-      <concept>
-        <code value="OMN_O01"/>
-      </concept>
-      <concept>
         <code value="OMS_O01"/>
       </concept>
       <concept>
@@ -39,10 +33,16 @@
         <code value="ORS_O02"/>
       </concept>
       <concept>
-        <code value="RDO_O01"/>
+        <code value="RRO_O02"/>
       </concept>
       <concept>
-        <code value="RRO_O02"/>
+        <code value="OMN_O01"/>
+      </concept>
+      <concept>
+        <code value="OMD_O01"/>
+      </concept>
+      <concept>
+        <code value="RDO_O01"/>
       </concept>
       <concept>
         <code value="ACK"/>
@@ -689,20 +689,20 @@
         <display value="O40"/>
       </concept>
       <concept>
-        <code value="ORL_O41"/>
-        <display value="O41"/>
-      </concept>
-      <concept>
         <code value="ORL_O42"/>
         <display value="O42"/>
       </concept>
       <concept>
-        <code value="ORL_O43"/>
-        <display value="O43"/>
+        <code value="ORL_O41"/>
+        <display value="O41"/>
       </concept>
       <concept>
         <code value="ORL_O44"/>
         <display value="O44"/>
+      </concept>
+      <concept>
+        <code value="ORL_O43"/>
+        <display value="O43"/>
       </concept>
       <concept>
         <code value="ORM_O01"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0702 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:54+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Flash"/>
       </concept>
       <concept>
+        <code value="FLS"/>
+        <display value="Flash"/>
+      </concept>
+      <concept>
         <code value="PRV"/>
         <display value="Prevac"/>
+      </concept>
+      <concept>
+        <code value="PRV"/>
+        <display value="Prevac"/>
+      </concept>
+      <concept>
+        <code value="GRV"/>
+        <display value="Gravity"/>
       </concept>
       <concept>
         <code value="GRV"/>
@@ -37,8 +49,20 @@
         <display value="Liquid"/>
       </concept>
       <concept>
+        <code value="LQD"/>
+        <display value="Liquid"/>
+      </concept>
+      <concept>
         <code value="EXP"/>
         <display value="Express"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Express"/>
+      </concept>
+      <concept>
+        <code value="DRT"/>
+        <display value="Dart"/>
       </concept>
       <concept>
         <code value="DRT"/>
@@ -49,8 +73,20 @@
         <display value="Dart Warm-up Cycle"/>
       </concept>
       <concept>
+        <code value="DRW"/>
+        <display value="Dart Warm-up Cycle"/>
+      </concept>
+      <concept>
         <code value="THR"/>
         <display value="Thermal"/>
+      </concept>
+      <concept>
+        <code value="THR"/>
+        <display value="Thermal"/>
+      </concept>
+      <concept>
+        <code value="ISO"/>
+        <display value="Isothermal"/>
       </concept>
       <concept>
         <code value="ISO"/>
@@ -61,8 +97,20 @@
         <display value="Bowie-Dick Test"/>
       </concept>
       <concept>
+        <code value="BWD"/>
+        <display value="Bowie-Dick Test"/>
+      </concept>
+      <concept>
         <code value="LKT"/>
         <display value="Leak Test"/>
+      </concept>
+      <concept>
+        <code value="LKT"/>
+        <display value="Leak Test"/>
+      </concept>
+      <concept>
+        <code value="WFP"/>
+        <display value="Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)"/>
       </concept>
       <concept>
         <code value="WFP"/>
@@ -73,8 +121,20 @@
         <display value="Steam Flush Pressure Pulse"/>
       </concept>
       <concept>
+        <code value="SFP"/>
+        <display value="Steam Flush Pressure Pulse"/>
+      </concept>
+      <concept>
         <code value="CMW"/>
         <display value="Chemical Wash"/>
+      </concept>
+      <concept>
+        <code value="CMW"/>
+        <display value="Chemical Wash"/>
+      </concept>
+      <concept>
+        <code value="PEA"/>
+        <display value="Peracetic Acid"/>
       </concept>
       <concept>
         <code value="PEA"/>
@@ -85,8 +145,20 @@
         <display value="EO High Temperature"/>
       </concept>
       <concept>
+        <code value="EOH"/>
+        <display value="EO High Temperature"/>
+      </concept>
+      <concept>
         <code value="EOL"/>
         <display value="EO Low Temperature"/>
+      </concept>
+      <concept>
+        <code value="EOL"/>
+        <display value="EO Low Temperature"/>
+      </concept>
+      <concept>
+        <code value="CRT"/>
+        <display value="Cart Wash"/>
       </concept>
       <concept>
         <code value="CRT"/>
@@ -97,8 +169,20 @@
         <display value="Utensil Wash"/>
       </concept>
       <concept>
+        <code value="UTL"/>
+        <display value="Utensil Wash"/>
+      </concept>
+      <concept>
         <code value="IST"/>
         <display value="Instrument Wash"/>
+      </concept>
+      <concept>
+        <code value="IST"/>
+        <display value="Instrument Wash"/>
+      </concept>
+      <concept>
+        <code value="GLS"/>
+        <display value="Glassware"/>
       </concept>
       <concept>
         <code value="GLS"/>
@@ -109,8 +193,20 @@
         <display value="Plastic Goods Wash"/>
       </concept>
       <concept>
+        <code value="PLA"/>
+        <display value="Plastic Goods Wash"/>
+      </concept>
+      <concept>
         <code value="ANR"/>
         <display value="Anesthesia/Respiratory"/>
+      </concept>
+      <concept>
+        <code value="ANR"/>
+        <display value="Anesthesia/Respiratory"/>
+      </concept>
+      <concept>
+        <code value="GTL"/>
+        <display value="Gentle"/>
       </concept>
       <concept>
         <code value="GTL"/>
@@ -121,8 +217,20 @@
         <display value="Optional Wash"/>
       </concept>
       <concept>
+        <code value="OPW"/>
+        <display value="Optional Wash"/>
+      </concept>
+      <concept>
         <code value="BDP"/>
         <display value="Bedpans"/>
+      </concept>
+      <concept>
+        <code value="BDP"/>
+        <display value="Bedpans"/>
+      </concept>
+      <concept>
+        <code value="TRB"/>
+        <display value="Tray/Basin"/>
       </concept>
       <concept>
         <code value="TRB"/>
@@ -133,6 +241,14 @@
         <display value="Gen. Purpose"/>
       </concept>
       <concept>
+        <code value="GNP"/>
+        <display value="Gen. Purpose"/>
+      </concept>
+      <concept>
+        <code value="COD"/>
+        <display value="Code"/>
+      </concept>
+      <concept>
         <code value="COD"/>
         <display value="Code"/>
       </concept>
@@ -141,8 +257,20 @@
         <display value="Rinse"/>
       </concept>
       <concept>
+        <code value="RNS"/>
+        <display value="Rinse"/>
+      </concept>
+      <concept>
         <code value="2RS"/>
         <display value="Second Rinse"/>
+      </concept>
+      <concept>
+        <code value="2RS"/>
+        <display value="Second Rinse"/>
+      </concept>
+      <concept>
+        <code value="DEC"/>
+        <display value="Decontamination"/>
       </concept>
       <concept>
         <code value="DEC"/>

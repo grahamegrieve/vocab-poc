@@ -7,7 +7,7 @@
   <title value="V2 Table 0078 Version 2.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:34+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,62 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0078"/>
+      <concept>
+        <code value="U"/>
+        <display value="Significant change up"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Sensitive"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Resists"/>
+      </concept>
+      <concept>
+        <code value="null"/>
+        <display value="No range defined,or normal ranges don&#39;t apply"/>
+      </concept>
+      <concept>
+        <code value="MS"/>
+        <display value="Moderately sensitive"/>
+      </concept>
+      <concept>
+        <code value="LL"/>
+        <display value="Below lower panic limits"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Interval"/>
+      </concept>
+      <concept>
+        <code value="VS"/>
+        <display value="Very sensitive"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="Above high normal"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Significant change down"/>
+      </concept>
+      <concept>
+        <code value="AA"/>
+        <display value="Very abnormal"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Abnormal (applies to non-numeric results)"/>
+      </concept>
+      <concept>
+        <code value="&lt;"/>
+        <display value="Below absolute low-off instrument scale"/>
+      </concept>
+      <concept>
+        <code value="HH"/>
+        <display value="Above upper panic limits"/>
+      </concept>
       <concept>
         <code value="&lt;"/>
         <display value="Below absolute low-off instrument scale"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0247 Version 2.7.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:42+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Evaluation completed"/>
       </concept>
       <concept>
+        <code value="Y"/>
+        <display value="Evaluation completed"/>
+      </concept>
+      <concept>
         <code value="P"/>
         <display value="Evaluation in progress"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Evaluation in progress"/>
+      </concept>
+      <concept>
+        <code value="K"/>
+        <display value="Problem already known, no evaluation necessary"/>
       </concept>
       <concept>
         <code value="K"/>
@@ -37,8 +49,20 @@
         <display value="Product not made by company"/>
       </concept>
       <concept>
+        <code value="X"/>
+        <display value="Product not made by company"/>
+      </concept>
+      <concept>
         <code value="A"/>
         <display value="Evaluation anticipated, but not yet begun"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Evaluation anticipated, but not yet begun"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Product discarded -- unable to follow up"/>
       </concept>
       <concept>
         <code value="D"/>
@@ -49,8 +73,20 @@
         <display value="Product received in condition which made analysis impossible"/>
       </concept>
       <concept>
+        <code value="C"/>
+        <display value="Product received in condition which made analysis impossible"/>
+      </concept>
+      <concept>
         <code value="I"/>
         <display value="Product remains implanted -- unable to follow up"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Product remains implanted -- unable to follow up"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Product unavailable for follow up investigation"/>
       </concept>
       <concept>
         <code value="U"/>
@@ -61,8 +97,20 @@
         <display value="Product under quarantine -- unable to follow up"/>
       </concept>
       <concept>
+        <code value="Q"/>
+        <display value="Product under quarantine -- unable to follow up"/>
+      </concept>
+      <concept>
         <code value="R"/>
         <display value="Product under recall/corrective action"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Product under recall/corrective action"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Other"/>
       </concept>
       <concept>
         <code value="O"/>

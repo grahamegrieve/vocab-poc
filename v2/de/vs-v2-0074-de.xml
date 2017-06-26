@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0074-de-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0074-de-de"/>
+  <name value="V2Table0074LangGermanVersionMaster"/>
+  <title value="V2 Table language Pack for Diagnostic Service Section ID: German Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:34+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0074 Version Master (Diagnostic Service Section ID), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0074-de"/>
+      <concept>
+        <code value="AU"/>
+        <display value="Audiologie"/>
+      </concept>
+      <concept>
+        <code value="BG"/>
+        <display value="Blutgase"/>
+      </concept>
+      <concept>
+        <code value="BLB"/>
+        <display value="Blutbank"/>
+      </concept>
+      <concept>
+        <code value="CUS"/>
+        <display value="Kardiologische Ultraschalluntersuchung"/>
+      </concept>
+      <concept>
+        <code value="CTH"/>
+        <display value="Herzkatheter"/>
+      </concept>
+      <concept>
+        <code value="CT"/>
+        <display value="Computertomographie"/>
+      </concept>
+      <concept>
+        <code value="CH"/>
+        <display value="Klinische Chemie"/>
+      </concept>
+      <concept>
+        <code value="CP"/>
+        <display value="Zellpathologie"/>
+      </concept>
+      <concept>
+        <code value="EC"/>
+        <display value="Elektrokardiographie"/>
+      </concept>
+      <concept>
+        <code value="EN"/>
+        <display value="Elektroneurographie, Elektroencephalographie"/>
+      </concept>
+      <concept>
+        <code value="HM"/>
+        <display value="H&#xE4;matologie"/>
+      </concept>
+      <concept>
+        <code value="IMM"/>
+        <display value="Immunologie"/>
+      </concept>
+      <concept>
+        <code value="MB"/>
+        <display value="Mikrobiologie"/>
+      </concept>
+      <concept>
+        <code value="MCB"/>
+        <display value="Mykobakteriologie"/>
+      </concept>
+      <concept>
+        <code value="MYC"/>
+        <display value="Mykologie"/>
+      </concept>
+      <concept>
+        <code value="NMS"/>
+        <display value="Szintigramm"/>
+      </concept>
+      <concept>
+        <code value="NMR"/>
+        <display value="Kernspintomographie (MR)"/>
+      </concept>
+      <concept>
+        <code value="NRS"/>
+        <display value="Pflegema&#xDF;nahme"/>
+      </concept>
+      <concept>
+        <code value="OUS"/>
+        <display value="Geburtshilfiche Ultraschalluntersuchung"/>
+      </concept>
+      <concept>
+        <code value="OT"/>
+        <display value="Besch&#xE4;ftigungstherapie"/>
+      </concept>
+      <concept>
+        <code value="OTH"/>
+        <display value="Andere"/>
+      </concept>
+      <concept>
+        <code value="OSL"/>
+        <display value="Externes Labor"/>
+      </concept>
+      <concept>
+        <code value="PHR"/>
+        <display value="Apotheke"/>
+      </concept>
+      <concept>
+        <code value="PT"/>
+        <display value="physiklische Therapie"/>
+      </concept>
+      <concept>
+        <code value="PHY"/>
+        <display value="Arzt (Krankengeschichte, Diagnose, Aufnahmeuntersuchung)"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="Lungenfunktion"/>
+      </concept>
+      <concept>
+        <code value="RAD"/>
+        <display value="Radiologie"/>
+      </concept>
+      <concept>
+        <code value="RX"/>
+        <display value="R&#xF6;ntgenaufnahme"/>
+      </concept>
+      <concept>
+        <code value="RUS"/>
+        <display value="Radiologische Ultraschalluntersuchung"/>
+      </concept>
+      <concept>
+        <code value="RC"/>
+        <display value="Atemtherapie"/>
+      </concept>
+      <concept>
+        <code value="RT"/>
+        <display value="Strahlentherapie"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="Serologie"/>
+      </concept>
+      <concept>
+        <code value="SP"/>
+        <display value="Operative Pathologie"/>
+      </concept>
+      <concept>
+        <code value="TX"/>
+        <display value="Toxikologie"/>
+      </concept>
+      <concept>
+        <code value="VUS"/>
+        <display value="Ultraschalluntersuchung der Gef&#xE4;&#xDF;e"/>
+      </concept>
+      <concept>
+        <code value="VR"/>
+        <display value="Virologie"/>
+      </concept>
+      <concept>
+        <code value="XRC"/>
+        <display value="R&#xF6;ntgenkinematographie"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

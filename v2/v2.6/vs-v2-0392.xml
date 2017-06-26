@@ -7,7 +7,7 @@
   <title value="V2 Table 0392 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:46+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,28 @@
         <display value="Match on Date of Birth"/>
       </concept>
       <concept>
+        <code value="DB"/>
+        <display value="Match on Date of Birth"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="Match on Name (Alpha Match)"/>
+      </concept>
+      <concept>
         <code value="NA"/>
         <display value="Match on Name (Alpha Match)"/>
       </concept>
       <concept>
         <code value="NP"/>
         <display value="Match on Name (Phonetic Match)"/>
+      </concept>
+      <concept>
+        <code value="NP"/>
+        <display value="Match on Name (Phonetic Match)"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="Match on Social Security Number"/>
       </concept>
       <concept>
         <code value="SS"/>

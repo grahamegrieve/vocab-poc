@@ -7,7 +7,7 @@
   <title value="V2 Table 0548 Version 2.5"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:53+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Self"/>
       </concept>
       <concept>
+        <code value="1"/>
+        <display value="Self"/>
+      </concept>
+      <concept>
         <code value="2"/>
         <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Next of Kin"/>
       </concept>
       <concept>
         <code value="3"/>
@@ -37,12 +49,28 @@
         <display value="Durable Power of Attorney in Healthcare Affairs"/>
       </concept>
       <concept>
+        <code value="4"/>
+        <display value="Durable Power of Attorney in Healthcare Affairs"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Conservator"/>
+      </concept>
+      <concept>
         <code value="5"/>
         <display value="Conservator"/>
       </concept>
       <concept>
         <code value="6"/>
         <display value="Emergent Practitioner (practitioner judging case as emergency requiring care without a consent)"/>
+      </concept>
+      <concept>
+        <code value="6"/>
+        <display value="Emergent Practitioner (practitioner judging case as emergency requiring care without a consent)"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="Non-Emergent Practitioner (i.e. medical ethics committee)"/>
       </concept>
       <concept>
         <code value="7"/>

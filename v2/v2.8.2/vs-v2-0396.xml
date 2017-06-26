@@ -7,7 +7,7 @@
   <title value="V2 Table 0396 Version 2.8.2"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:47+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,158 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0396"/>
+      <concept>
+        <code value="ALPHAID2015"/>
+        <display value="German Alpha-ID v2015"/>
+      </concept>
+      <concept>
+        <code value="IBT0001"/>
+        <display value="ISBT 128 Standard transfusion/transplantation data items"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2013"/>
+        <display value="German Alpha-ID v2013"/>
+      </concept>
+      <concept>
+        <code value="AMTv2"/>
+        <display value="Australian Medicines Terminology (v2)"/>
+      </concept>
+      <concept>
+        <code value="cdcgs1vis"/>
+        <display value="VIS Bar Codes (IIS)"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2012"/>
+        <display value="German Alpha-ID v2013"/>
+      </concept>
+      <concept>
+        <code value="HSLOC"/>
+        <display value="Healthcare Service Location"/>
+      </concept>
+      <concept>
+        <code value="I10C"/>
+        <display value="International Classification of Diseases, 10th  Revision, Clinical Modification (ICD-10-CM)"/>
+      </concept>
+      <concept>
+        <code value="ACTRELSS"/>
+        <display value="Used to indicate that the target of the relationship will be a filtered subset of the total related set of targets.&#xD;&#xA;Used when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtere"/>
+      </concept>
+      <concept>
+        <code value="ACTCODE"/>
+        <display value="Table of HL7 Version 3 ActCode values"/>
+      </concept>
+      <concept>
+        <code value="ENTITYHDLG"/>
+        <display value="Entity Handling Code"/>
+      </concept>
+      <concept>
+        <code value="ENTITYCODE"/>
+        <display value="Entity Code"/>
+      </concept>
+      <concept>
+        <code value="EDLEVEL"/>
+        <display value="Education Level"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2014"/>
+        <display value="German Alpha-ID v2014"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2016"/>
+        <display value="German Alpha-ID v2016"/>
+      </concept>
+      <concept>
+        <code value="CDCNHSN"/>
+        <display value="CDC National Healthcare Safety Network Codes"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2013"/>
+        <display value="ICD 10 Germany v2013"/>
+      </concept>
+      <concept>
+        <code value="USGSGNIS"/>
+        <display value="U.S. Board on Geographic Names (USGS - GNIS)"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2012"/>
+        <display value="ICD 10 Germany v2012"/>
+      </concept>
+      <concept>
+        <code value="ROLECLASS"/>
+        <display value="Used initially for contact roles."/>
+      </concept>
+      <concept>
+        <code value="PRTCPTNMODE"/>
+        <display value="Paticipation Mode Code"/>
+      </concept>
+      <concept>
+        <code value="PHDSCSOPT"/>
+        <display value="Source of Payment Typology"/>
+      </concept>
+      <concept>
+        <code value="OPS2016"/>
+        <display value="OPS Germany v2016"/>
+      </concept>
+      <concept>
+        <code value="MEDIATYPE"/>
+        <display value="MIME Media Type IANA"/>
+      </concept>
+      <concept>
+        <code value="OPS2015"/>
+        <display value="OPS Germany v2015"/>
+      </concept>
+      <concept>
+        <code value="RSPMODE"/>
+        <display value="Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities."/>
+      </concept>
+      <concept>
+        <code value="OPS2014"/>
+        <display value="OPS Germany v2014"/>
+      </concept>
+      <concept>
+        <code value="OPS2013"/>
+        <display value="OPS Germany v2013"/>
+      </concept>
+      <concept>
+        <code value="OPS2012"/>
+        <display value="OPS Germany v2012"/>
+      </concept>
+      <concept>
+        <code value="ROLECODE"/>
+        <display value="Participation Mode"/>
+      </concept>
+      <concept>
+        <code value="OBSMETHOD"/>
+        <display value="Observation Method Code"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2014"/>
+        <display value="ICD 10 Germany v2014"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2015"/>
+        <display value="ICD 10 Germany v2015"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2016"/>
+        <display value="ICD 10 Germany v2016"/>
+      </concept>
+      <concept>
+        <code value="ICF"/>
+        <display value="International Classification of Functioning, Disability and Health (ICF)"/>
+      </concept>
+      <concept>
+        <code value="LANGUAL"/>
+        <display value="LanguaL"/>
+      </concept>
+      <concept>
+        <code value="VIS"/>
+        <display value="Clinicians are required to track the Vaccine Information Sheet (VIS) that was shared with the recipient of a vaccination.  This code system contains codes that  identify the document type and the owner of the document."/>
+      </concept>
+      <concept>
+        <code value="IHELAW"/>
+        <display value="IHE Laboratory Analytical Workflow (LAW) Profile Codes."/>
+      </concept>
       <concept>
         <code value="ACTCODE"/>
         <display value="Table of HL7 Version 3 ActCode values"/>
@@ -177,8 +329,20 @@
         <display value="Local general code"/>
       </concept>
       <concept>
+        <code value="L"/>
+        <display value="Local general code"/>
+      </concept>
+      <concept>
         <code value="99zzz"/>
         <display value="Local general code where z is an alphanumeric character"/>
+      </concept>
+      <concept>
+        <code value="99zzz"/>
+        <display value="Local general code where z is an alphanumeric character"/>
+      </concept>
+      <concept>
+        <code value="ACR"/>
+        <display value="American College of Radiology finding codes"/>
       </concept>
       <concept>
         <code value="ACR"/>
@@ -189,8 +353,20 @@
         <display value="German Alpha-ID v2006"/>
       </concept>
       <concept>
+        <code value="ALPHAID2006"/>
+        <display value="German Alpha-ID v2006"/>
+      </concept>
+      <concept>
         <code value="ALPHAID2007"/>
         <display value="German Alpha-ID v2007"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2007"/>
+        <display value="German Alpha-ID v2007"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2008"/>
+        <display value="German Alpha-ID v2008"/>
       </concept>
       <concept>
         <code value="ALPHAID2008"/>
@@ -201,8 +377,20 @@
         <display value="German Alpha-ID v2009"/>
       </concept>
       <concept>
+        <code value="ALPHAID2009"/>
+        <display value="German Alpha-ID v2009"/>
+      </concept>
+      <concept>
         <code value="ALPHAID2010"/>
         <display value="German Alpha-ID v2010"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2010"/>
+        <display value="German Alpha-ID v2010"/>
+      </concept>
+      <concept>
+        <code value="ALPHAID2011"/>
+        <display value="German Alpha-ID v2011"/>
       </concept>
       <concept>
         <code value="ALPHAID2011"/>
@@ -213,8 +401,20 @@
         <display value="WHO Adverse Reaction Terms"/>
       </concept>
       <concept>
+        <code value="ART"/>
+        <display value="WHO Adverse Reaction Terms"/>
+      </concept>
+      <concept>
         <code value="ANS+"/>
         <display value="HL7 set of units of measure"/>
+      </concept>
+      <concept>
+        <code value="ANS+"/>
+        <display value="HL7 set of units of measure"/>
+      </concept>
+      <concept>
+        <code value="AS4"/>
+        <display value="ASTM E1238/ E1467 Universal"/>
       </concept>
       <concept>
         <code value="AS4"/>
@@ -225,8 +425,20 @@
         <display value="AS4 Neurophysiology Codes"/>
       </concept>
       <concept>
+        <code value="AS4E"/>
+        <display value="AS4 Neurophysiology Codes"/>
+      </concept>
+      <concept>
         <code value="ATC"/>
         <display value="American Type Culture Collection"/>
+      </concept>
+      <concept>
+        <code value="ATC"/>
+        <display value="American Type Culture Collection"/>
+      </concept>
+      <concept>
+        <code value="C4"/>
+        <display value="CPT-4"/>
       </concept>
       <concept>
         <code value="C4"/>
@@ -237,8 +449,20 @@
         <display value="College of American Pathologists Electronic Cancer Checklist"/>
       </concept>
       <concept>
+        <code value="CAPECC"/>
+        <display value="College of American Pathologists Electronic Cancer Checklist"/>
+      </concept>
+      <concept>
         <code value="CAS"/>
         <display value="Chemical abstract codes"/>
+      </concept>
+      <concept>
+        <code value="CAS"/>
+        <display value="Chemical abstract codes"/>
+      </concept>
+      <concept>
+        <code value="CCC"/>
+        <display value="Clinical Care Classification system"/>
       </concept>
       <concept>
         <code value="CCC"/>
@@ -249,8 +473,20 @@
         <display value="CDT-2 Codes"/>
       </concept>
       <concept>
+        <code value="CD2"/>
+        <display value="CDT-2 Codes"/>
+      </concept>
+      <concept>
         <code value="CDCA"/>
         <display value="CDC Analyte Codes"/>
+      </concept>
+      <concept>
+        <code value="CDCA"/>
+        <display value="CDC Analyte Codes"/>
+      </concept>
+      <concept>
+        <code value="CDCEDACUITY"/>
+        <display value="CDC Emergency Department Acuity"/>
       </concept>
       <concept>
         <code value="CDCEDACUITY"/>
@@ -261,8 +497,20 @@
         <display value="CDC Methods/Instruments Codes"/>
       </concept>
       <concept>
+        <code value="CDCM"/>
+        <display value="CDC Methods/Instruments Codes"/>
+      </concept>
+      <concept>
         <code value="CDCOBS"/>
         <display value="CDC BioSense RT observations (Census) - CDC"/>
+      </concept>
+      <concept>
+        <code value="CDCOBS"/>
+        <display value="CDC BioSense RT observations (Census) - CDC"/>
+      </concept>
+      <concept>
+        <code value="CDCPHINVS"/>
+        <display value="CDC PHIN Vocabulary Coding System"/>
       </concept>
       <concept>
         <code value="CDCPHINVS"/>
@@ -273,8 +521,20 @@
         <display value="Race &amp; Ethnicity - CDC"/>
       </concept>
       <concept>
+        <code value="CDCREC"/>
+        <display value="Race &amp; Ethnicity - CDC"/>
+      </concept>
+      <concept>
         <code value="CDS"/>
         <display value="CDC Surveillance"/>
+      </concept>
+      <concept>
+        <code value="CDS"/>
+        <display value="CDC Surveillance"/>
+      </concept>
+      <concept>
+        <code value="CE (obsolete)"/>
+        <display value="CEN ECG diagnostic codes"/>
       </concept>
       <concept>
         <code value="CE (obsolete)"/>
@@ -285,8 +545,20 @@
         <display value="CLIP"/>
       </concept>
       <concept>
+        <code value="CLP"/>
+        <display value="CLIP"/>
+      </concept>
+      <concept>
         <code value="CPTM"/>
         <display value="CPT Modifier Code"/>
+      </concept>
+      <concept>
+        <code value="CPTM"/>
+        <display value="CPT Modifier Code"/>
+      </concept>
+      <concept>
+        <code value="CST"/>
+        <display value="COSTART"/>
       </concept>
       <concept>
         <code value="CST"/>
@@ -297,8 +569,20 @@
         <display value="CDC Vaccine Codes"/>
       </concept>
       <concept>
+        <code value="CVX"/>
+        <display value="CDC Vaccine Codes"/>
+      </concept>
+      <concept>
         <code value="DCM"/>
         <display value="DICOM Controlled Terminology"/>
+      </concept>
+      <concept>
+        <code value="DCM"/>
+        <display value="DICOM Controlled Terminology"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="EUCLIDES"/>
       </concept>
       <concept>
         <code value="E"/>
@@ -309,8 +593,20 @@
         <display value="Euclides  quantity codes"/>
       </concept>
       <concept>
+        <code value="E5"/>
+        <display value="Euclides  quantity codes"/>
+      </concept>
+      <concept>
         <code value="E6"/>
         <display value="Euclides Lab method codes"/>
+      </concept>
+      <concept>
+        <code value="E6"/>
+        <display value="Euclides Lab method codes"/>
+      </concept>
+      <concept>
+        <code value="E7"/>
+        <display value="Euclides Lab equipment codes"/>
       </concept>
       <concept>
         <code value="E7"/>
@@ -321,8 +617,20 @@
         <display value="Enzyme Codes"/>
       </concept>
       <concept>
+        <code value="ENZC"/>
+        <display value="Enzyme Codes"/>
+      </concept>
+      <concept>
         <code value="EPASRS"/>
         <display value="EPA SRS"/>
+      </concept>
+      <concept>
+        <code value="EPASRS"/>
+        <display value="EPA SRS"/>
+      </concept>
+      <concept>
+        <code value="FDAUDI"/>
+        <display value="FDA Unique Device Identifier"/>
       </concept>
       <concept>
         <code value="FDAUDI"/>
@@ -333,8 +641,20 @@
         <display value="Unique Ingredient Identifier (UNII)"/>
       </concept>
       <concept>
+        <code value="FDAUNII"/>
+        <display value="Unique Ingredient Identifier (UNII)"/>
+      </concept>
+      <concept>
         <code value="FDDC"/>
         <display value="First DataBank Drug Codes"/>
+      </concept>
+      <concept>
+        <code value="FDDC"/>
+        <display value="First DataBank Drug Codes"/>
+      </concept>
+      <concept>
+        <code value="FDDX"/>
+        <display value="First DataBank Diagnostic Codes"/>
       </concept>
       <concept>
         <code value="FDDX"/>
@@ -345,8 +665,20 @@
         <display value="FDA K10"/>
       </concept>
       <concept>
+        <code value="FDK"/>
+        <display value="FDA K10"/>
+      </concept>
+      <concept>
         <code value="FIPS5_2"/>
         <display value="FIPS 5-2 (State)"/>
+      </concept>
+      <concept>
+        <code value="FIPS5_2"/>
+        <display value="FIPS 5-2 (State)"/>
+      </concept>
+      <concept>
+        <code value="FIPS6_4"/>
+        <display value="FIPS 6-4 (County)"/>
       </concept>
       <concept>
         <code value="FIPS6_4"/>
@@ -357,8 +689,20 @@
         <display value="G-DRG German DRG Codes v2004"/>
       </concept>
       <concept>
+        <code value="GDRG2004"/>
+        <display value="G-DRG German DRG Codes v2004"/>
+      </concept>
+      <concept>
         <code value="GDRG2005"/>
         <display value="G-DRG German DRG Codes v2005"/>
+      </concept>
+      <concept>
+        <code value="GDRG2005"/>
+        <display value="G-DRG German DRG Codes v2005"/>
+      </concept>
+      <concept>
+        <code value="GDRG2006"/>
+        <display value="G-DRG German DRG Codes v2006"/>
       </concept>
       <concept>
         <code value="GDRG2006"/>
@@ -369,8 +713,20 @@
         <display value="G-DRG German DRG Codes v2007"/>
       </concept>
       <concept>
+        <code value="GDRG2007"/>
+        <display value="G-DRG German DRG Codes v2007"/>
+      </concept>
+      <concept>
         <code value="GDRG2008"/>
         <display value="G-DRG German DRG Codes v2008"/>
+      </concept>
+      <concept>
+        <code value="GDRG2008"/>
+        <display value="G-DRG German DRG Codes v2008"/>
+      </concept>
+      <concept>
+        <code value="GDRG2009"/>
+        <display value="G-DRG German DRG Codes v2009"/>
       </concept>
       <concept>
         <code value="GDRG2009"/>
@@ -381,8 +737,20 @@
         <display value="German Major Diagnostic Codes v2004"/>
       </concept>
       <concept>
+        <code value="GMDC2004"/>
+        <display value="German Major Diagnostic Codes v2004"/>
+      </concept>
+      <concept>
         <code value="GMDC2005"/>
         <display value="German Major Diagnostic Codes v2005"/>
+      </concept>
+      <concept>
+        <code value="GMDC2005"/>
+        <display value="German Major Diagnostic Codes v2005"/>
+      </concept>
+      <concept>
+        <code value="GMDC2006"/>
+        <display value="German Major Diagnostic Codes v2006"/>
       </concept>
       <concept>
         <code value="GMDC2006"/>
@@ -393,8 +761,20 @@
         <display value="German Major Diagnostic Codes v2007"/>
       </concept>
       <concept>
+        <code value="GMDC2007"/>
+        <display value="German Major Diagnostic Codes v2007"/>
+      </concept>
+      <concept>
         <code value="GMDC2008"/>
         <display value="German Major Diagnostic Codes v2008"/>
+      </concept>
+      <concept>
+        <code value="GMDC2008"/>
+        <display value="German Major Diagnostic Codes v2008"/>
+      </concept>
+      <concept>
+        <code value="GMDC2009"/>
+        <display value="German Major Diagnostic Codes v2009"/>
       </concept>
       <concept>
         <code value="GMDC2009"/>
@@ -405,8 +785,20 @@
         <display value="GS1 Unique Device Identifier"/>
       </concept>
       <concept>
+        <code value="GS1UDI"/>
+        <display value="GS1 Unique Device Identifier"/>
+      </concept>
+      <concept>
         <code value="HB"/>
         <display value="HIBCC"/>
+      </concept>
+      <concept>
+        <code value="HB"/>
+        <display value="HIBCC"/>
+      </concept>
+      <concept>
+        <code value="HCPCS"/>
+        <display value="CMS (formerly HCFA)  Common Procedure Coding System"/>
       </concept>
       <concept>
         <code value="HCPCS"/>
@@ -417,8 +809,20 @@
         <display value="Health Care Provider Taxonomy"/>
       </concept>
       <concept>
+        <code value="HCPT"/>
+        <display value="Health Care Provider Taxonomy"/>
+      </concept>
+      <concept>
         <code value="HHC"/>
         <display value="Home Health Care"/>
+      </concept>
+      <concept>
+        <code value="HHC"/>
+        <display value="Home Health Care"/>
+      </concept>
+      <concept>
+        <code value="HI"/>
+        <display value="Health Outcomes"/>
       </concept>
       <concept>
         <code value="HI"/>
@@ -429,8 +833,20 @@
         <display value="HIBCC Unique Device Identifier"/>
       </concept>
       <concept>
+        <code value="HIBUDI"/>
+        <display value="HIBCC Unique Device Identifier"/>
+      </concept>
+      <concept>
         <code value="HL7nnnn"/>
         <display value="HL7 Defined Codes where nnnn is the HL7 table number"/>
+      </concept>
+      <concept>
+        <code value="HL7nnnn"/>
+        <display value="HL7 Defined Codes where nnnn is the HL7 table number"/>
+      </concept>
+      <concept>
+        <code value="HOT"/>
+        <display value="Japanese Nationwide Medicine Code"/>
       </concept>
       <concept>
         <code value="HOT"/>
@@ -441,8 +857,20 @@
         <display value="CMS (formerly HCFA )Procedure Codes (HCPCS)"/>
       </concept>
       <concept>
+        <code value="HPC"/>
+        <display value="CMS (formerly HCFA )Procedure Codes (HCPCS)"/>
+      </concept>
+      <concept>
         <code value="I10"/>
         <display value="ICD-10"/>
+      </concept>
+      <concept>
+        <code value="I10"/>
+        <display value="ICD-10"/>
+      </concept>
+      <concept>
+        <code value="I10G2004"/>
+        <display value="ICD 10 Germany 2004"/>
       </concept>
       <concept>
         <code value="I10G2004"/>
@@ -453,8 +881,20 @@
         <display value="ICD 10 Germany 2005"/>
       </concept>
       <concept>
+        <code value="I10G2005"/>
+        <display value="ICD 10 Germany 2005"/>
+      </concept>
+      <concept>
         <code value="I10G2006"/>
         <display value="ICD 10 Germany 2006"/>
+      </concept>
+      <concept>
+        <code value="I10G2006"/>
+        <display value="ICD 10 Germany 2006"/>
+      </concept>
+      <concept>
+        <code value="I10P"/>
+        <display value="ICD-10  Procedure Codes"/>
       </concept>
       <concept>
         <code value="I10P"/>
@@ -465,8 +905,20 @@
         <display value="ICD9"/>
       </concept>
       <concept>
+        <code value="I9"/>
+        <display value="ICD9"/>
+      </concept>
+      <concept>
         <code value="I9C"/>
         <display value="ICD-9CM"/>
+      </concept>
+      <concept>
+        <code value="I9C"/>
+        <display value="ICD-9CM"/>
+      </concept>
+      <concept>
+        <code value="I9CDX"/>
+        <display value="ICD-9CM Diagnosis codes"/>
       </concept>
       <concept>
         <code value="I9CDX"/>
@@ -477,8 +929,20 @@
         <display value="ICD-9CM Procedure codes"/>
       </concept>
       <concept>
+        <code value="I9CP"/>
+        <display value="ICD-9CM Procedure codes"/>
+      </concept>
+      <concept>
         <code value="IBT"/>
         <display value="ISBT"/>
+      </concept>
+      <concept>
+        <code value="IBT"/>
+        <display value="ISBT"/>
+      </concept>
+      <concept>
+        <code value="IBTnnnn"/>
+        <display value="ISBT 128 codes where nnnn  specifies a specific table within ISBT 128."/>
       </concept>
       <concept>
         <code value="IBTnnnn"/>
@@ -489,8 +953,20 @@
         <display value="ICHPPC-2"/>
       </concept>
       <concept>
+        <code value="IC2"/>
+        <display value="ICHPPC-2"/>
+      </concept>
+      <concept>
         <code value="ICCUDI"/>
         <display value="ICCBBA Unique Device Identifier"/>
+      </concept>
+      <concept>
+        <code value="ICCUDI"/>
+        <display value="ICCBBA Unique Device Identifier"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2007"/>
+        <display value="ICD 10 Germany v2007"/>
       </concept>
       <concept>
         <code value="ICD10GM2007"/>
@@ -501,8 +977,20 @@
         <display value="ICD 10 Germany v2008"/>
       </concept>
       <concept>
+        <code value="ICD10GM2008"/>
+        <display value="ICD 10 Germany v2008"/>
+      </concept>
+      <concept>
         <code value="ICD10GM2009"/>
         <display value="ICD 10 Germany v2009"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2009"/>
+        <display value="ICD 10 Germany v2009"/>
+      </concept>
+      <concept>
+        <code value="ICD10GM2010"/>
+        <display value="ICD 10 Germany v2010"/>
       </concept>
       <concept>
         <code value="ICD10GM2010"/>
@@ -513,8 +1001,20 @@
         <display value="ICD 10 Germany v2011"/>
       </concept>
       <concept>
+        <code value="ICD10GM2011"/>
+        <display value="ICD 10 Germany v2011"/>
+      </concept>
+      <concept>
         <code value="ICD10AM"/>
         <display value="ICD-10 Australian modification"/>
+      </concept>
+      <concept>
+        <code value="ICD10AM"/>
+        <display value="ICD-10 Australian modification"/>
+      </concept>
+      <concept>
+        <code value="ICD10CA"/>
+        <display value="ICD-10 Canada"/>
       </concept>
       <concept>
         <code value="ICD10CA"/>
@@ -525,8 +1025,20 @@
         <display value="International Classification of Diseases for Oncology"/>
       </concept>
       <concept>
+        <code value="ICDO"/>
+        <display value="International Classification of Diseases for Oncology"/>
+      </concept>
+      <concept>
         <code value="ICDO2"/>
         <display value="International Classification of Disease for Oncology Second Edition"/>
+      </concept>
+      <concept>
+        <code value="ICDO2"/>
+        <display value="International Classification of Disease for Oncology Second Edition"/>
+      </concept>
+      <concept>
+        <code value="ICDO3"/>
+        <display value="International Classification of Disease for Oncology Third Edition"/>
       </concept>
       <concept>
         <code value="ICDO3"/>
@@ -537,8 +1049,20 @@
         <display value="ICCS"/>
       </concept>
       <concept>
+        <code value="ICS"/>
+        <display value="ICCS"/>
+      </concept>
+      <concept>
         <code value="ICSD"/>
         <display value="International Classification of Sleep Disorders"/>
+      </concept>
+      <concept>
+        <code value="ICSD"/>
+        <display value="International Classification of Sleep Disorders"/>
+      </concept>
+      <concept>
+        <code value="ISOnnnn (deprecated)"/>
+        <display value="ISO Defined Codes where nnnn is the ISO table number"/>
       </concept>
       <concept>
         <code value="ISOnnnn (deprecated)"/>
@@ -549,8 +1073,20 @@
         <display value="ISO 2955.83 (units of measure) with HL7 extensions"/>
       </concept>
       <concept>
+        <code value="ISO"/>
+        <display value="ISO 2955.83 (units of measure) with HL7 extensions"/>
+      </concept>
+      <concept>
         <code value="ISO3166_1"/>
         <display value="ISO 3166-1 Country Codes"/>
+      </concept>
+      <concept>
+        <code value="ISO3166_1"/>
+        <display value="ISO 3166-1 Country Codes"/>
+      </concept>
+      <concept>
+        <code value="ISO3166_2"/>
+        <display value="ISO 3166-2 Country subdivisions"/>
       </concept>
       <concept>
         <code value="ISO3166_2"/>
@@ -561,8 +1097,20 @@
         <display value="ISO4217 Currency Codes"/>
       </concept>
       <concept>
+        <code value="ISO4217"/>
+        <display value="ISO4217 Currency Codes"/>
+      </concept>
+      <concept>
         <code value="ISO639"/>
         <display value="ISO 639 Language"/>
+      </concept>
+      <concept>
+        <code value="ISO639"/>
+        <display value="ISO 639 Language"/>
+      </concept>
+      <concept>
+        <code value="ITIS"/>
+        <display value="Integrated Taxonomic Information System"/>
       </concept>
       <concept>
         <code value="ITIS"/>
@@ -573,8 +1121,20 @@
         <display value="IUPAC/IFCC Property Codes"/>
       </concept>
       <concept>
+        <code value="IUPP"/>
+        <display value="IUPAC/IFCC Property Codes"/>
+      </concept>
+      <concept>
         <code value="IUPC"/>
         <display value="IUPAC/IFCC Component Codes"/>
+      </concept>
+      <concept>
+        <code value="IUPC"/>
+        <display value="IUPAC/IFCC Component Codes"/>
+      </concept>
+      <concept>
+        <code value="JC8"/>
+        <display value="Japanese Chemistry"/>
       </concept>
       <concept>
         <code value="JC8"/>
@@ -585,8 +1145,20 @@
         <display value="JLAC/JSLM, nationwide laboratory code"/>
       </concept>
       <concept>
+        <code value="JC10"/>
+        <display value="JLAC/JSLM, nationwide laboratory code"/>
+      </concept>
+      <concept>
         <code value="JJ1017"/>
         <display value="Japanese Image Examination Cache"/>
+      </concept>
+      <concept>
+        <code value="JJ1017"/>
+        <display value="Japanese Image Examination Cache"/>
+      </concept>
+      <concept>
+        <code value="LB"/>
+        <display value="Local billing code"/>
       </concept>
       <concept>
         <code value="LB"/>
@@ -597,8 +1169,20 @@
         <display value="Logical Observation Identifier Names and Codes (LOINC&#xC2;&#xAE;)"/>
       </concept>
       <concept>
+        <code value="LN"/>
+        <display value="Logical Observation Identifier Names and Codes (LOINC&#xC2;&#xAE;)"/>
+      </concept>
+      <concept>
         <code value="MCD"/>
         <display value="Medicaid"/>
+      </concept>
+      <concept>
+        <code value="MCD"/>
+        <display value="Medicaid"/>
+      </concept>
+      <concept>
+        <code value="MCR"/>
+        <display value="Medicare"/>
       </concept>
       <concept>
         <code value="MCR"/>
@@ -609,8 +1193,20 @@
         <display value="Medical Device Communication"/>
       </concept>
       <concept>
+        <code value="MDC"/>
+        <display value="Medical Device Communication"/>
+      </concept>
+      <concept>
         <code value="MDDX"/>
         <display value="Medispan Diagnostic Codes"/>
+      </concept>
+      <concept>
+        <code value="MDDX"/>
+        <display value="Medispan Diagnostic Codes"/>
+      </concept>
+      <concept>
+        <code value="MEDC"/>
+        <display value="Medical Economics Drug Codes"/>
       </concept>
       <concept>
         <code value="MEDC"/>
@@ -621,8 +1217,20 @@
         <display value="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)"/>
       </concept>
       <concept>
+        <code value="MEDR"/>
+        <display value="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)"/>
+      </concept>
+      <concept>
         <code value="MEDX"/>
         <display value="Medical Economics Diagnostic Codes"/>
+      </concept>
+      <concept>
+        <code value="MEDX"/>
+        <display value="Medical Economics Diagnostic Codes"/>
+      </concept>
+      <concept>
+        <code value="MGPI"/>
+        <display value="Medispan GPI"/>
       </concept>
       <concept>
         <code value="MGPI"/>
@@ -633,8 +1241,20 @@
         <display value="CDC Vaccine Manufacturer Codes"/>
       </concept>
       <concept>
+        <code value="MVX"/>
+        <display value="CDC Vaccine Manufacturer Codes"/>
+      </concept>
+      <concept>
         <code value="NAICS"/>
         <display value="Industry (NAICS)"/>
+      </concept>
+      <concept>
+        <code value="NAICS"/>
+        <display value="Industry (NAICS)"/>
+      </concept>
+      <concept>
+        <code value="NCPDPnnnnsss"/>
+        <display value="NCPDP code list for data element nnnn [as used in segment sss]"/>
       </concept>
       <concept>
         <code value="NCPDPnnnnsss"/>
@@ -645,8 +1265,20 @@
         <display value="NANDA"/>
       </concept>
       <concept>
+        <code value="NDA"/>
+        <display value="NANDA"/>
+      </concept>
+      <concept>
         <code value="NDC"/>
         <display value="National drug codes"/>
+      </concept>
+      <concept>
+        <code value="NDC"/>
+        <display value="National drug codes"/>
+      </concept>
+      <concept>
+        <code value="NDFRT"/>
+        <display value="NDF-RT (Drug Classification)"/>
       </concept>
       <concept>
         <code value="NDFRT"/>
@@ -657,8 +1289,20 @@
         <display value="Nursing Interventions Classification"/>
       </concept>
       <concept>
+        <code value="NIC"/>
+        <display value="Nursing Interventions Classification"/>
+      </concept>
+      <concept>
         <code value="NIP001"/>
         <display value="Source of Information (Immunization)"/>
+      </concept>
+      <concept>
+        <code value="NIP001"/>
+        <display value="Source of Information (Immunization)"/>
+      </concept>
+      <concept>
+        <code value="NIP002"/>
+        <display value="Substance refusal reason"/>
       </concept>
       <concept>
         <code value="NIP002"/>
@@ -669,8 +1313,20 @@
         <display value="Vaccination - Contraindications, Precautions, and Immunities"/>
       </concept>
       <concept>
+        <code value="NIP004"/>
+        <display value="Vaccination - Contraindications, Precautions, and Immunities"/>
+      </concept>
+      <concept>
         <code value="NIP007"/>
         <display value="Vaccinated at location (facility)"/>
+      </concept>
+      <concept>
+        <code value="NIP007"/>
+        <display value="Vaccinated at location (facility)"/>
+      </concept>
+      <concept>
+        <code value="NIP008"/>
+        <display value="Vaccine purchased with (Type of funding)"/>
       </concept>
       <concept>
         <code value="NIP008"/>
@@ -681,8 +1337,20 @@
         <display value="Reported adverse event previously"/>
       </concept>
       <concept>
+        <code value="NIP009"/>
+        <display value="Reported adverse event previously"/>
+      </concept>
+      <concept>
         <code value="NIP010"/>
         <display value="VAERS Report type"/>
+      </concept>
+      <concept>
+        <code value="NIP010"/>
+        <display value="VAERS Report type"/>
+      </concept>
+      <concept>
+        <code value="NND"/>
+        <display value="Notifiable Event (Disease/Condition) Code List"/>
       </concept>
       <concept>
         <code value="NND"/>
@@ -693,8 +1361,20 @@
         <display value="National Provider Identifier"/>
       </concept>
       <concept>
+        <code value="NPI"/>
+        <display value="National Provider Identifier"/>
+      </concept>
+      <concept>
         <code value="NUBC"/>
         <display value="National Uniform Billing Committee"/>
+      </concept>
+      <concept>
+        <code value="NUBC"/>
+        <display value="National Uniform Billing Committee"/>
+      </concept>
+      <concept>
+        <code value="NULLFL"/>
+        <display value="Null Flavor"/>
       </concept>
       <concept>
         <code value="NULLFL"/>
@@ -705,8 +1385,20 @@
         <display value="Omaha System"/>
       </concept>
       <concept>
+        <code value="OHA"/>
+        <display value="Omaha System"/>
+      </concept>
+      <concept>
         <code value="O301"/>
         <display value="German Procedure Codes"/>
+      </concept>
+      <concept>
+        <code value="O301"/>
+        <display value="German Procedure Codes"/>
+      </concept>
+      <concept>
+        <code value="O3012004"/>
+        <display value="OPS Germany v2004"/>
       </concept>
       <concept>
         <code value="O3012004"/>
@@ -717,8 +1409,20 @@
         <display value="OPS Germany v2005"/>
       </concept>
       <concept>
+        <code value="O3012005"/>
+        <display value="OPS Germany v2005"/>
+      </concept>
+      <concept>
         <code value="O3012006"/>
         <display value="OPS Germany v2006"/>
+      </concept>
+      <concept>
+        <code value="O3012006"/>
+        <display value="OPS Germany v2006"/>
+      </concept>
+      <concept>
+        <code value="OPS2007"/>
+        <display value="OPS Germany v2007"/>
       </concept>
       <concept>
         <code value="OPS2007"/>
@@ -729,8 +1433,20 @@
         <display value="OPS Germany v2008"/>
       </concept>
       <concept>
+        <code value="OPS2008"/>
+        <display value="OPS Germany v2008"/>
+      </concept>
+      <concept>
         <code value="OPS2009"/>
         <display value="OPS Germany v2009"/>
+      </concept>
+      <concept>
+        <code value="OPS2009"/>
+        <display value="OPS Germany v2009"/>
+      </concept>
+      <concept>
+        <code value="OPS2010"/>
+        <display value="OPS Germany v2010"/>
       </concept>
       <concept>
         <code value="OPS2010"/>
@@ -741,8 +1457,20 @@
         <display value="OPS Germany v2011"/>
       </concept>
       <concept>
+        <code value="OPS2011"/>
+        <display value="OPS Germany v2011"/>
+      </concept>
+      <concept>
         <code value="PHINQUESTION"/>
         <display value="CDC Public Health Information Network (PHIN) Question"/>
+      </concept>
+      <concept>
+        <code value="PHINQUESTION"/>
+        <display value="CDC Public Health Information Network (PHIN) Question"/>
+      </concept>
+      <concept>
+        <code value="PLR"/>
+        <display value="CDC PHLIP Lab result codes that are not covered in SNOMED at the time of this implementation"/>
       </concept>
       <concept>
         <code value="PLR"/>
@@ -753,8 +1481,20 @@
         <display value="CDC PHLIP Lab test codes, where LOINC concept is too broad or not yet available, especially as needed for ordering and or lab to lab reporting )"/>
       </concept>
       <concept>
+        <code value="PLT"/>
+        <display value="CDC PHLIP Lab test codes, where LOINC concept is too broad or not yet available, especially as needed for ordering and or lab to lab reporting )"/>
+      </concept>
+      <concept>
         <code value="POS"/>
         <display value="POS Codes"/>
+      </concept>
+      <concept>
+        <code value="POS"/>
+        <display value="POS Codes"/>
+      </concept>
+      <concept>
+        <code value="RC"/>
+        <display value="Read Classification"/>
       </concept>
       <concept>
         <code value="RC"/>
@@ -765,8 +1505,20 @@
         <display value="RxNorm"/>
       </concept>
       <concept>
+        <code value="RXNORM"/>
+        <display value="RxNorm"/>
+      </concept>
+      <concept>
         <code value="SCT"/>
         <display value="SNOMED Clinical Terms"/>
+      </concept>
+      <concept>
+        <code value="SCT"/>
+        <display value="SNOMED Clinical Terms"/>
+      </concept>
+      <concept>
+        <code value="SCT2"/>
+        <display value="SNOMED Clinical Terms alphanumeric codes"/>
       </concept>
       <concept>
         <code value="SCT2"/>
@@ -777,8 +1529,20 @@
         <display value="SNOMED- DICOM Microglossary"/>
       </concept>
       <concept>
+        <code value="SDM"/>
+        <display value="SNOMED- DICOM Microglossary"/>
+      </concept>
+      <concept>
         <code value="SIC"/>
         <display value="Industry (SIC)"/>
+      </concept>
+      <concept>
+        <code value="SIC"/>
+        <display value="Industry (SIC)"/>
+      </concept>
+      <concept>
+        <code value="SNM"/>
+        <display value="Systemized Nomenclature of Medicine (SNOMED)"/>
       </concept>
       <concept>
         <code value="SNM"/>
@@ -789,8 +1553,20 @@
         <display value="SNOMED International"/>
       </concept>
       <concept>
+        <code value="SNM3"/>
+        <display value="SNOMED International"/>
+      </concept>
+      <concept>
         <code value="SNT"/>
         <display value="SNOMED topology codes (anatomic sites)"/>
+      </concept>
+      <concept>
+        <code value="SNT"/>
+        <display value="SNOMED topology codes (anatomic sites)"/>
+      </concept>
+      <concept>
+        <code value="SOC"/>
+        <display value="Occupation (SOC 2000)"/>
       </concept>
       <concept>
         <code value="SOC"/>
@@ -801,8 +1577,20 @@
         <display value="Priority (Type) of Visit"/>
       </concept>
       <concept>
+        <code value="UB04FL14"/>
+        <display value="Priority (Type) of Visit"/>
+      </concept>
+      <concept>
         <code value="UB04FL15"/>
         <display value="Point of Origin"/>
+      </concept>
+      <concept>
+        <code value="UB04FL15"/>
+        <display value="Point of Origin"/>
+      </concept>
+      <concept>
+        <code value="UB04FL17"/>
+        <display value="Patient Discharge Status"/>
       </concept>
       <concept>
         <code value="UB04FL17"/>
@@ -813,8 +1601,20 @@
         <display value="Occurrence Code"/>
       </concept>
       <concept>
+        <code value="UB04FL31"/>
+        <display value="Occurrence Code"/>
+      </concept>
+      <concept>
         <code value="UB04FL35"/>
         <display value="Occurrence Span"/>
+      </concept>
+      <concept>
+        <code value="UB04FL35"/>
+        <display value="Occurrence Span"/>
+      </concept>
+      <concept>
+        <code value="UB04FL39"/>
+        <display value="Value Code"/>
       </concept>
       <concept>
         <code value="UB04FL39"/>
@@ -825,8 +1625,20 @@
         <display value="UCDS"/>
       </concept>
       <concept>
+        <code value="UC"/>
+        <display value="UCDS"/>
+      </concept>
+      <concept>
         <code value="UCUM"/>
         <display value="UCUM code set for units of measure(from Regenstrief)"/>
+      </concept>
+      <concept>
+        <code value="UCUM"/>
+        <display value="UCUM code set for units of measure(from Regenstrief)"/>
+      </concept>
+      <concept>
+        <code value="UMD"/>
+        <display value="MDNS"/>
       </concept>
       <concept>
         <code value="UMD"/>
@@ -837,8 +1649,20 @@
         <display value="Unified Medical Language"/>
       </concept>
       <concept>
+        <code value="UML"/>
+        <display value="Unified Medical Language"/>
+      </concept>
+      <concept>
         <code value="UPC"/>
         <display value="Universal Product Code"/>
+      </concept>
+      <concept>
+        <code value="UPC"/>
+        <display value="Universal Product Code"/>
+      </concept>
+      <concept>
+        <code value="UPIN"/>
+        <display value="UPIN"/>
       </concept>
       <concept>
         <code value="UPIN"/>
@@ -849,8 +1673,20 @@
         <display value="United States Postal Service"/>
       </concept>
       <concept>
+        <code value="USPS"/>
+        <display value="United States Postal Service"/>
+      </concept>
+      <concept>
         <code value="W1"/>
         <display value="WHO record # drug codes (6 digit)"/>
+      </concept>
+      <concept>
+        <code value="W1"/>
+        <display value="WHO record # drug codes (6 digit)"/>
+      </concept>
+      <concept>
+        <code value="W2"/>
+        <display value="WHO record # drug codes (8 digit)"/>
       </concept>
       <concept>
         <code value="W2"/>
@@ -861,8 +1697,20 @@
         <display value="WHO record # code with ASTM extension"/>
       </concept>
       <concept>
+        <code value="W4"/>
+        <display value="WHO record # code with ASTM extension"/>
+      </concept>
+      <concept>
         <code value="WC"/>
         <display value="WHO ATC"/>
+      </concept>
+      <concept>
+        <code value="WC"/>
+        <display value="WHO ATC"/>
+      </concept>
+      <concept>
+        <code value="X12Dennnn"/>
+        <display value="ASC X12 Code List nnnn"/>
       </concept>
       <concept>
         <code value="X12Dennnn"/>

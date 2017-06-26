@@ -7,7 +7,7 @@
   <title value="V2 Table 0344 Version 2.8.1"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Patient is insured"/>
       </concept>
       <concept>
+        <code value="01"/>
+        <display value="Patient is insured"/>
+      </concept>
+      <concept>
         <code value="02"/>
         <display value="Spouse"/>
+      </concept>
+      <concept>
+        <code value="02"/>
+        <display value="Spouse"/>
+      </concept>
+      <concept>
+        <code value="03"/>
+        <display value="Natural child/insured financial responsibility"/>
       </concept>
       <concept>
         <code value="03"/>
@@ -37,8 +49,20 @@
         <display value="Natural child/Insured does not have financial responsibility"/>
       </concept>
       <concept>
+        <code value="04"/>
+        <display value="Natural child/Insured does not have financial responsibility"/>
+      </concept>
+      <concept>
         <code value="05"/>
         <display value="Step child"/>
+      </concept>
+      <concept>
+        <code value="05"/>
+        <display value="Step child"/>
+      </concept>
+      <concept>
+        <code value="06"/>
+        <display value="Foster child"/>
       </concept>
       <concept>
         <code value="06"/>
@@ -49,8 +73,20 @@
         <display value="Ward of the court"/>
       </concept>
       <concept>
+        <code value="07"/>
+        <display value="Ward of the court"/>
+      </concept>
+      <concept>
         <code value="08"/>
         <display value="Employee"/>
+      </concept>
+      <concept>
+        <code value="08"/>
+        <display value="Employee"/>
+      </concept>
+      <concept>
+        <code value="09"/>
+        <display value="Unknown"/>
       </concept>
       <concept>
         <code value="09"/>
@@ -61,8 +97,20 @@
         <display value="Handicapped dependent"/>
       </concept>
       <concept>
+        <code value="10"/>
+        <display value="Handicapped dependent"/>
+      </concept>
+      <concept>
         <code value="11"/>
         <display value="Organ donor"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Organ donor"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Cadaver donor"/>
       </concept>
       <concept>
         <code value="12"/>
@@ -73,8 +121,20 @@
         <display value="Grandchild"/>
       </concept>
       <concept>
+        <code value="13"/>
+        <display value="Grandchild"/>
+      </concept>
+      <concept>
         <code value="14"/>
         <display value="Niece/nephew"/>
+      </concept>
+      <concept>
+        <code value="14"/>
+        <display value="Niece/nephew"/>
+      </concept>
+      <concept>
+        <code value="15"/>
+        <display value="Injured plaintiff"/>
       </concept>
       <concept>
         <code value="15"/>
@@ -85,12 +145,28 @@
         <display value="Sponsored dependent"/>
       </concept>
       <concept>
+        <code value="16"/>
+        <display value="Sponsored dependent"/>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Minor dependent of a minor dependent"/>
+      </concept>
+      <concept>
         <code value="17"/>
         <display value="Minor dependent of a minor dependent"/>
       </concept>
       <concept>
         <code value="18"/>
         <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Grandparent"/>
       </concept>
       <concept>
         <code value="19"/>

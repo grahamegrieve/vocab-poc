@@ -7,7 +7,7 @@
   <title value="V2 Table 0234 Version 2.4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:42+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Correction"/>
       </concept>
       <concept>
+        <code value="CO"/>
+        <display value="Correction"/>
+      </concept>
+      <concept>
         <code value="AD"/>
         <display value="Additional information"/>
+      </concept>
+      <concept>
+        <code value="AD"/>
+        <display value="Additional information"/>
+      </concept>
+      <concept>
+        <code value="RQ"/>
+        <display value="Requested information"/>
       </concept>
       <concept>
         <code value="RQ"/>
@@ -37,8 +49,20 @@
         <display value="Device evaluation"/>
       </concept>
       <concept>
+        <code value="DE"/>
+        <display value="Device evaluation"/>
+      </concept>
+      <concept>
         <code value="PD"/>
         <display value="Periodic"/>
+      </concept>
+      <concept>
+        <code value="PD"/>
+        <display value="Periodic"/>
+      </concept>
+      <concept>
+        <code value="3D"/>
+        <display value="3 day report"/>
       </concept>
       <concept>
         <code value="3D"/>
@@ -49,12 +73,28 @@
         <display value="7 day report"/>
       </concept>
       <concept>
+        <code value="7D"/>
+        <display value="7 day report"/>
+      </concept>
+      <concept>
+        <code value="10D"/>
+        <display value="10 day report"/>
+      </concept>
+      <concept>
         <code value="10D"/>
         <display value="10 day report"/>
       </concept>
       <concept>
         <code value="15D"/>
         <display value="15 day report"/>
+      </concept>
+      <concept>
+        <code value="15D"/>
+        <display value="15 day report"/>
+      </concept>
+      <concept>
+        <code value="30D"/>
+        <display value="30 day report"/>
       </concept>
       <concept>
         <code value="30D"/>

@@ -7,7 +7,7 @@
   <title value="V2 Table 0330 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:45+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,30 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0330"/>
+      <concept>
+        <code value="TXN"/>
+        <display value="Transitional"/>
+      </concept>
+      <concept>
+        <code value="PRE"/>
+        <display value="Preamendment"/>
+      </concept>
+      <concept>
+        <code value="522S"/>
+        <display value="Post marketing study (522)"/>
+      </concept>
+      <concept>
+        <code value="PMA"/>
+        <display value="Premarketing authorization"/>
+      </concept>
+      <concept>
+        <code value="510E"/>
+        <display value="510 (K) exempt"/>
+      </concept>
+      <concept>
+        <code value="510K"/>
+        <display value="510 (K)"/>
+      </concept>
       <concept>
         <code value="510E"/>
         <display value="510 (K) exempt"/>

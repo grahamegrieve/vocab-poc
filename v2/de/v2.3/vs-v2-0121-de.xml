@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0121-de-2.3-de"/>
+  <language value="de"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0121-de-2.3-de"/>
+  <name value="V2Table0121LangGermanVersion2.3"/>
+  <title value="V2 Table language Pack for Response Flag: German Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T20:46:36+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0121 Version 2.3 (Response Flag), language pack for German"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0121-de"/>
+      <concept>
+        <code value="R"/>
+        <display value="Wie E, zus&#xE4;tzlich ORC-Segmente von nachgeordneten und Ersatzauftr&#xE4;gen"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Nur Eingangsbest&#xE4;tigung"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Wie D, zus&#xE4;tzlich ausdr&#xFC;ckliche Best&#xE4;tigungen"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Nur OK oder Fehlercode nach Auftragspr&#xFC;fung / -bearbeitung"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Wie R, zus&#xE4;tzlich Detail-Segmente (OBR usw.) von nachgeordneten und Ersatzauftr&#xE4;"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Wie R, zus&#xE4;tzlich Detail-Segmente (OBR usw.) von nachgeordneten und Ersatzauftr&#xE4;"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Nur OK oder Fehlercode nach Auftragspr&#xFC;fung / -bearbeitung"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Wie D, zus&#xE4;tzlich ausdr&#xFC;ckliche Best&#xE4;tigungen"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Nur Eingangsbest&#xE4;tigung"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Wie E, zus&#xE4;tzlich ORC-Segmente von nachgeordneten und Ersatzauftr&#xE4;gen"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

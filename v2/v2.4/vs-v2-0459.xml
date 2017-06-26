@@ -7,7 +7,7 @@
   <title value="V2 Table 0459 Version 2.4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:50+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,12 +25,28 @@
         <display value="OCE line item denial or rejection is not ignored"/>
       </concept>
       <concept>
+        <code value="0"/>
+        <display value="OCE line item denial or rejection is not ignored"/>
+      </concept>
+      <concept>
+        <code value="1"/>
+        <display value="OCE line item denial or rejection is ignored"/>
+      </concept>
+      <concept>
         <code value="1"/>
         <display value="OCE line item denial or rejection is ignored"/>
       </concept>
       <concept>
         <code value="2"/>
         <display value="External line item denial. Line item is denied even if no OCE edits"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="External line item denial. Line item is denied even if no OCE edits"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="External line item rejection. Line item is rejected even if no OCE edits"/>
       </concept>
       <concept>
         <code value="3"/>

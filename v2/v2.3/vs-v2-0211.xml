@@ -7,7 +7,7 @@
   <title value="V2 Table 0211 Version 2.3"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,6 +20,58 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0211"/>
+      <concept>
+        <code value="8859/9"/>
+        <display value="The printable characters from the ISO 8859/9 Character set"/>
+      </concept>
+      <concept>
+        <code value="UNICODE"/>
+        <display value="&lt;needs document reference&gt;"/>
+      </concept>
+      <concept>
+        <code value="JIS X 0202"/>
+        <display value="ISO 2022 with escape sequences for Kanjii"/>
+      </concept>
+      <concept>
+        <code value="JAS2020"/>
+        <display value="A subset of ISO2020 used for most Kanjii transmissions"/>
+      </concept>
+      <concept>
+        <code value="ASCII"/>
+        <display value="The printable 7-bit ASCII character set . (This is the default if this field is omitted)"/>
+      </concept>
+      <concept>
+        <code value="8859/8"/>
+        <display value="The printable characters from the ISO 8859/8 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/7"/>
+        <display value="The printable characters from the ISO 8859/7 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/1"/>
+        <display value="The printable characters from the ISO 8859/1 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/5"/>
+        <display value="The printable characters from the ISO 8859/5 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/4"/>
+        <display value="The printable characters from the ISO 8859/4 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/3"/>
+        <display value="The printable characters from the ISO 8859/3 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/2"/>
+        <display value="The printable characters from the ISO 8859/2 Character set"/>
+      </concept>
+      <concept>
+        <code value="8859/6"/>
+        <display value="The printable characters from the ISO 8859/6 Character set"/>
+      </concept>
       <concept>
         <code value="8859/1"/>
         <display value="The printable characters from the ISO 8859/1 Character set"/>

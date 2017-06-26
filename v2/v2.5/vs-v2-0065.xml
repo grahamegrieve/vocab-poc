@@ -7,7 +7,7 @@
   <title value="V2 Table 0065 Version 2.5"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:00+10:00"/>
+  <date value="2017-06-26T20:46:33+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Add ordered tests to the existing specimen"/>
       </concept>
       <concept>
+        <code value="A"/>
+        <display value="Add ordered tests to the existing specimen"/>
+      </concept>
+      <concept>
         <code value="G"/>
         <display value="Generated order; reflex order"/>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Generated order; reflex order"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Lab to obtain specimen from patient"/>
       </concept>
       <concept>
         <code value="L"/>
@@ -37,12 +49,28 @@
         <display value="Specimen obtained by service other than Lab"/>
       </concept>
       <concept>
+        <code value="O"/>
+        <display value="Specimen obtained by service other than Lab"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Pending specimen; Order sent prior to delivery"/>
+      </concept>
+      <concept>
         <code value="P"/>
         <display value="Pending specimen; Order sent prior to delivery"/>
       </concept>
       <concept>
         <code value="R"/>
         <display value="Revised order"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Revised order"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Schedule the tests specified below"/>
       </concept>
       <concept>
         <code value="S"/>

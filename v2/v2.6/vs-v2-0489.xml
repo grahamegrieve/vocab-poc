@@ -7,7 +7,7 @@
   <title value="V2 Table 0489 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:02+10:00"/>
+  <date value="2017-06-26T20:46:51+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Biological"/>
       </concept>
       <concept>
+        <code value="BIO"/>
+        <display value="Biological"/>
+      </concept>
+      <concept>
         <code value="COR"/>
         <display value="Corrosive"/>
+      </concept>
+      <concept>
+        <code value="COR"/>
+        <display value="Corrosive"/>
+      </concept>
+      <concept>
+        <code value="ESC"/>
+        <display value="Escape Risk"/>
       </concept>
       <concept>
         <code value="ESC"/>
@@ -37,8 +49,20 @@
         <display value="Aggressive"/>
       </concept>
       <concept>
+        <code value="AGG"/>
+        <display value="Aggressive"/>
+      </concept>
+      <concept>
         <code value="IFL"/>
         <display value="MaterialDangerInflammable"/>
+      </concept>
+      <concept>
+        <code value="IFL"/>
+        <display value="MaterialDangerInflammable"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Explosive"/>
       </concept>
       <concept>
         <code value="EXP"/>
@@ -49,6 +73,14 @@
         <display value="MaterialDangerInfectious"/>
       </concept>
       <concept>
+        <code value="INF"/>
+        <display value="MaterialDangerInfectious"/>
+      </concept>
+      <concept>
+        <code value="BHZ"/>
+        <display value="Biohazard"/>
+      </concept>
+      <concept>
         <code value="BHZ"/>
         <display value="Biohazard"/>
       </concept>
@@ -57,8 +89,20 @@
         <display value="Injury Hazard"/>
       </concept>
       <concept>
+        <code value="INJ"/>
+        <display value="Injury Hazard"/>
+      </concept>
+      <concept>
         <code value="POI"/>
         <display value="Poison"/>
+      </concept>
+      <concept>
+        <code value="POI"/>
+        <display value="Poison"/>
+      </concept>
+      <concept>
+        <code value="RAD"/>
+        <display value="Radioactive"/>
       </concept>
       <concept>
         <code value="RAD"/>

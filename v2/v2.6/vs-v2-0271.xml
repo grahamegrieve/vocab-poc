@@ -7,7 +7,7 @@
   <title value="V2 Table 0271 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:43+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Dictated"/>
       </concept>
       <concept>
+        <code value="DI"/>
+        <display value="Dictated"/>
+      </concept>
+      <concept>
         <code value="DO"/>
         <display value="Documented"/>
+      </concept>
+      <concept>
+        <code value="DO"/>
+        <display value="Documented"/>
+      </concept>
+      <concept>
+        <code value="IP"/>
+        <display value="In Progress"/>
       </concept>
       <concept>
         <code value="IP"/>
@@ -37,12 +49,28 @@
         <display value="Incomplete"/>
       </concept>
       <concept>
+        <code value="IN"/>
+        <display value="Incomplete"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="Pre-authenticated"/>
+      </concept>
+      <concept>
         <code value="PA"/>
         <display value="Pre-authenticated"/>
       </concept>
       <concept>
         <code value="AU"/>
         <display value="Authenticated"/>
+      </concept>
+      <concept>
+        <code value="AU"/>
+        <display value="Authenticated"/>
+      </concept>
+      <concept>
+        <code value="LA"/>
+        <display value="Legally authenticated"/>
       </concept>
       <concept>
         <code value="LA"/>

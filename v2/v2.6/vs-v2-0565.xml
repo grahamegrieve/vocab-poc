@@ -7,7 +7,7 @@
   <title value="V2 Table 0565 Version 2.6"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:54+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Provincial Sales Tax"/>
       </concept>
       <concept>
+        <code value="PST"/>
+        <display value="Provincial Sales Tax"/>
+      </concept>
+      <concept>
+        <code value="GST"/>
+        <display value="Goods and Services Tax"/>
+      </concept>
+      <concept>
         <code value="GST"/>
         <display value="Goods and Services Tax"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Harmonized Sales Tax"/>
       </concept>
       <concept>
+        <code value="HST"/>
+        <display value="Harmonized Sales Tax"/>
+      </concept>
+      <concept>
         <code value="DISP"/>
         <display value="Dispensing Fee"/>
+      </concept>
+      <concept>
+        <code value="DISP"/>
+        <display value="Dispensing Fee"/>
+      </concept>
+      <concept>
+        <code value="MKUP"/>
+        <display value="Mark up Fee"/>
       </concept>
       <concept>
         <code value="MKUP"/>

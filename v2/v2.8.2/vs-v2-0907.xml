@@ -7,7 +7,7 @@
   <title value="V2 Table 0907 Version 2.8.2"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:03+10:00"/>
+  <date value="2017-06-26T20:46:55+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,8 +25,20 @@
         <display value="Business - Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality.  However, no patient related inf"/>
       </concept>
       <concept>
+        <code value="B"/>
+        <display value="Business - Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality.  However, no patient related inf"/>
+      </concept>
+      <concept>
         <code value="D"/>
         <display value="Clinician - Only clinicians may see this item, billing and administration persons can not access this item without special permission."/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Clinician - Only clinicians may see this item, billing and administration persons can not access this item without special permission."/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Individual - Access only to individual persons who are mentioned explicitly as actors of this service and whose actor type warrants that access (cf. to actor typed code)."/>
       </concept>
       <concept>
         <code value="I"/>
@@ -37,8 +49,20 @@
         <display value="Low - No patient record item can be of low confidentiality.  However, some service objects are not patient related and therefore may have low confidentiality."/>
       </concept>
       <concept>
+        <code value="L"/>
+        <display value="Low - No patient record item can be of low confidentiality.  However, some service objects are not patient related and therefore may have low confidentiality."/>
+      </concept>
+      <concept>
         <code value="N"/>
         <display value="Normal - Normal confidentiality rules (according to good health care practice) apply, that is, only authorized individuals with a legitimate medical or business need may access this item."/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Normal - Normal confidentiality rules (according to good health care practice) apply, that is, only authorized individuals with a legitimate medical or business need may access this item."/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Restricted - Restricted access, e.g. only to providers having a current care relationship to the patient."/>
       </concept>
       <concept>
         <code value="R"/>
@@ -49,8 +73,20 @@
         <display value="Very restricted - Very restricted access as declared by the Privacy Officer of the record holder."/>
       </concept>
       <concept>
+        <code value="V"/>
+        <display value="Very restricted - Very restricted access as declared by the Privacy Officer of the record holder."/>
+      </concept>
+      <concept>
         <code value="ETH"/>
         <display value="Substance abuse related - Alcohol/drug-abuse related item"/>
+      </concept>
+      <concept>
+        <code value="ETH"/>
+        <display value="Substance abuse related - Alcohol/drug-abuse related item"/>
+      </concept>
+      <concept>
+        <code value="HIV"/>
+        <display value="HIV Related - HIV and AIDS related item"/>
       </concept>
       <concept>
         <code value="HIV"/>
@@ -61,6 +97,14 @@
         <display value="Psychiatry related - Psychiatry related item"/>
       </concept>
       <concept>
+        <code value="PSY"/>
+        <display value="Psychiatry related - Psychiatry related item"/>
+      </concept>
+      <concept>
+        <code value="SDV"/>
+        <display value="Sexual and domestic violence related - Sexual assault / domestic violence related item"/>
+      </concept>
+      <concept>
         <code value="SDV"/>
         <display value="Sexual and domestic violence related - Sexual assault / domestic violence related item"/>
       </concept>
@@ -69,8 +113,20 @@
         <display value="Celebrity - Celebrities are people of public interest (VIP) including employees, whose information require special protection."/>
       </concept>
       <concept>
+        <code value="C"/>
+        <display value="Celebrity - Celebrities are people of public interest (VIP) including employees, whose information require special protection."/>
+      </concept>
+      <concept>
         <code value="S"/>
         <display value="Sensitive - Information for which the patient seeks heightened confidentiality.  Sensitive information is not to be shared with family members.  Information reported by the patient about family members is sensitive by default.  Flag can be set or cleared "/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Sensitive - Information for which the patient seeks heightened confidentiality.  Sensitive information is not to be shared with family members.  Information reported by the patient about family members is sensitive by default.  Flag can be set or cleared "/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Taboo - Information not to be disclosed or discussed with patient except through physician assigned to patient in this case.  This is usually a temporary constraint only; example use is a new fatal diagnosis or finding, such as malignancy or HIV."/>
       </concept>
       <concept>
         <code value="T"/>

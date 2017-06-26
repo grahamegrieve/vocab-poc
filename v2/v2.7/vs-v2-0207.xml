@@ -7,7 +7,7 @@
   <title value="V2 Table 0207 Version 2.7"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T17:31:01+10:00"/>
+  <date value="2017-06-26T20:46:41+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -25,6 +25,14 @@
         <display value="Archive"/>
       </concept>
       <concept>
+        <code value="A"/>
+        <display value="Archive"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Restore from archive"/>
+      </concept>
+      <concept>
         <code value="R"/>
         <display value="Restore from archive"/>
       </concept>
@@ -33,8 +41,20 @@
         <display value="Initial load"/>
       </concept>
       <concept>
+        <code value="I"/>
+        <display value="Initial load"/>
+      </concept>
+      <concept>
         <code value="T"/>
         <display value="Current processing, transmitted at intervals (scheduled or on demand)"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Current processing, transmitted at intervals (scheduled or on demand)"/>
+      </concept>
+      <concept>
+        <code value="Not present"/>
+        <display value="Not present (the default, meaning current  processing)"/>
       </concept>
       <concept>
         <code value="Not present"/>
