@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0527"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0527"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.527"/>
+  </identifier>
+  <name value="V2Table0527"/>
+  <title value="V2 Table: Calendar Alignment"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0527 (Calendar Alignment)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0527"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="MY"/>
+    <display value="month of the year"/>
+    <definition value="month of the year"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="WY"/>
+    <display value="week of the year"/>
+    <definition value="week of the year"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="DM"/>
+    <display value="day of the month"/>
+    <definition value="day of the month"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="DY"/>
+    <display value="day of the year"/>
+    <definition value="day of the year"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="DW"/>
+    <display value="day of the week (begins with Monday)"/>
+    <definition value="day of the week (begins with Monday)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="HD"/>
+    <display value="hour of the day"/>
+    <definition value="hour of the day"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="NH"/>
+    <display value="minute of the hour"/>
+    <definition value="minute of the hour"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="SN"/>
+    <display value="second of the minute"/>
+    <definition value="second of the minute"/>
+  </concept>
+</CodeSystem>

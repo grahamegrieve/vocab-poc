@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0270"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0270"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.270"/>
+  </identifier>
+  <name value="V2Table0270"/>
+  <title value="V2 Table: Document Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0270 (Document Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0270"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="AR"/>
+    <display value="Autopsy report"/>
+    <definition value="Autopsy report"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="CD"/>
+    <display value="Cardiodiagnostics"/>
+    <definition value="Cardiodiagnostics"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="CN"/>
+    <display value="Consultation"/>
+    <definition value="Consultation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="DI"/>
+    <display value="Diagnostic imaging"/>
+    <definition value="Diagnostic imaging"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="DS"/>
+    <display value="Discharge summary"/>
+    <definition value="Discharge summary"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="ED"/>
+    <display value="Emergency department report"/>
+    <definition value="Emergency department report"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="HP"/>
+    <display value="History and physical examination"/>
+    <definition value="History and physical examination"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="OP"/>
+    <display value="Operative report"/>
+    <definition value="Operative report"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PC"/>
+    <display value="Psychiatric consultation"/>
+    <definition value="Psychiatric consultation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PH"/>
+    <display value="Psychiatric history and physical examination"/>
+    <definition value="Psychiatric history and physical examination"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PN"/>
+    <display value="Procedure note"/>
+    <definition value="Procedure note"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PR"/>
+    <display value="Progress note"/>
+    <definition value="Progress note"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="SP"/>
+    <display value="Surgical pathology"/>
+    <definition value="Surgical pathology"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="TS"/>
+    <display value="Transfer summary"/>
+    <definition value="Transfer summary"/>
+  </concept>
+</CodeSystem>

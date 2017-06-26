@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0048"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0048"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.48"/>
+  </identifier>
+  <name value="V2Table0048"/>
+  <title value="V2 Table: What subject filter"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0048 (What subject filter)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0048"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ADV"/>
+    <display value="Advice/diagnosis"/>
+    <definition value="Advice/diagnosis"/>
+  </concept>
+  <concept>
+    <code value="ANU"/>
+    <display value="Nursing unit lookup (returns patients in beds, excluding empty beds)"/>
+    <definition value="Nursing unit lookup (returns patients in beds, excluding empty beds)"/>
+  </concept>
+  <concept>
+    <code value="APN"/>
+    <display value="Patient name lookup"/>
+    <definition value="Patient name lookup"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="APP"/>
+    <display value="Physician lookup"/>
+    <definition value="Physician lookup"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ARN"/>
+    <display value="Nursing unit lookup (returns patients in beds, including empty beds)"/>
+    <definition value="Nursing unit lookup (returns patients in beds, including empty beds)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="APM"/>
+    <display value="Medical record number query, returns visits for a medical record number"/>
+    <definition value="Medical record number query, returns visits for a medical record number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="APA"/>
+    <display value="Account number query, return matching visit"/>
+    <definition value="Account number query, return matching visit"/>
+  </concept>
+  <concept>
+    <code value="CAN"/>
+    <display value="Cancel.  Used to cancel a query"/>
+    <definition value="Cancel.  Used to cancel a query"/>
+  </concept>
+  <concept>
+    <code value="DEM"/>
+    <display value="Demographics"/>
+    <definition value="Demographics"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="FIN"/>
+    <display value="Financial"/>
+    <definition value="Financial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="GID"/>
+    <display value="Generate new identifier"/>
+    <definition value="Generate new identifier"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="GOL"/>
+    <display value="Goals"/>
+    <definition value="Goals"/>
+  </concept>
+  <concept>
+    <code value="MRI"/>
+    <display value="Most recent inpatient"/>
+    <definition value="Most recent inpatient"/>
+  </concept>
+  <concept>
+    <code value="MRO"/>
+    <display value="Most recent outpatient"/>
+    <definition value="Most recent outpatient"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NCK"/>
+    <display value="Network clock"/>
+    <definition value="Network clock"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NSC"/>
+    <display value="Network status change"/>
+    <definition value="Network status change"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NST"/>
+    <display value="Network statistic"/>
+    <definition value="Network statistic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ORD"/>
+    <display value="Order"/>
+    <definition value="Order"/>
+  </concept>
+  <concept>
+    <code value="OTH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PRB"/>
+    <display value="Problems"/>
+    <definition value="Problems"/>
+  </concept>
+  <concept>
+    <code value="PRO"/>
+    <display value="Procedure"/>
+    <definition value="Procedure"/>
+  </concept>
+  <concept>
+    <code value="RES"/>
+    <display value="Result"/>
+    <definition value="Result"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="RAR"/>
+    <display value="Pharmacy administration information"/>
+    <definition value="Pharmacy administration information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="RER"/>
+    <display value="Pharmacy encoded order information"/>
+    <definition value="Pharmacy encoded order information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="RDR"/>
+    <display value="Pharmacy dispense information"/>
+    <definition value="Pharmacy dispense information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="RGR"/>
+    <display value="Pharmacy give information"/>
+    <definition value="Pharmacy give information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="MFQ"/>
+    <display value="Master file query"/>
+    <definition value="Master file query"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ROR"/>
+    <display value="Pharmacy prescription information"/>
+    <definition value="Pharmacy prescription information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SAL"/>
+    <display value="All schedule related information, including open slots, booked slots, blocked slots"/>
+    <definition value="All schedule related information, including open slots, booked slots, blocked slots"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SBK"/>
+    <display value="Booked slots on the identified schedule"/>
+    <definition value="Booked slots on the identified schedule"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SBL"/>
+    <display value="Blocked slots on the identified schedule"/>
+    <definition value="Blocked slots on the identified schedule"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SOF"/>
+    <display value="First open slot on the identified schedule after the start date/tiem"/>
+    <definition value="First open slot on the identified schedule after the start date/tiem"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SOP"/>
+    <display value="Open slots on the identified schedule between the begin and end of the start date/time range"/>
+    <definition value="Open slots on the identified schedule between the begin and end of the start date/time range"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SSA"/>
+    <display value="Time slots available for a single appointment"/>
+    <definition value="Time slots available for a single appointment"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SSR"/>
+    <display value="Time slots available for a recurring appointment"/>
+    <definition value="Time slots available for a recurring appointment"/>
+  </concept>
+  <concept>
+    <code value="STA"/>
+    <display value="Status"/>
+    <definition value="Status"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="VXI"/>
+    <display value="Vaccine Information"/>
+    <definition value="Vaccine Information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="XID"/>
+    <display value="Get cross-referenced identifiers"/>
+    <definition value="Get cross-referenced identifiers"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0205-2.3"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0205-2.3"/>
+  <name value="V2Table0205Version2.3"/>
+  <title value="V2 Table 0205 Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0205 Version 2.3 (Price Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0205"/>
+      <concept>
+        <code value="AP"/>
+        <display value="Administrative Price or Handling Fee"/>
+      </concept>
+      <concept>
+        <code value="DC"/>
+        <display value="Direct Unit Cost"/>
+      </concept>
+      <concept>
+        <code value="IC"/>
+        <display value="Indirect Unit Cost"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="Professional Fee for Performing Provider"/>
+      </concept>
+      <concept>
+        <code value="TF"/>
+        <display value="Technology Fee for Use of Equipment"/>
+      </concept>
+      <concept>
+        <code value="TP"/>
+        <display value="Total Price"/>
+      </concept>
+      <concept>
+        <code value="UP"/>
+        <display value="Unit Price, may be based on length of procedure or service"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

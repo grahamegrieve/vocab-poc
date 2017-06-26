@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0276-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0276-2.4"/>
+  <name value="V2Table0276Version2.4"/>
+  <title value="V2 Table 0276 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0276 Version 2.4 (Appointment reason codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0276"/>
+      <concept>
+        <code value="ROUTINE"/>
+        <display value="Routine appointment - default if not valued"/>
+      </concept>
+      <concept>
+        <code value="WALKIN"/>
+        <display value="A previously unscheduled walk-in visit"/>
+      </concept>
+      <concept>
+        <code value="CHECKUP"/>
+        <display value="A routine check-up, such as an annual physical"/>
+      </concept>
+      <concept>
+        <code value="FOLLOWUP"/>
+        <display value="A follow up visit from a previous appointment"/>
+      </concept>
+      <concept>
+        <code value="EMERGENCY"/>
+        <display value="Emergency appointment"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

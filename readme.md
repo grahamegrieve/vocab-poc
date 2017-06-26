@@ -1,7 +1,7 @@
 HL7 Vocbulary Repository
 
 This repository contains the master content for the vocabulary 
-content for HL7 v2, v3, CDA, and FHIR.
+content for HL7 v2, v3, CDA, CIMI and FHIR.
 
 For documentation around working with the vocabulary content,
 see http://wiki.hl7.org/index.php?title=Vocabulary_Maintenance_Process

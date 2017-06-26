@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0411"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0411"/>
+  <name value="V2Table0411VersionMaster"/>
+  <title value="V2 Table 0411 Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0411 Version Master (Supplemental Service Information Values)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0411"/>
+      <concept>
+        <code value="1ST"/>
+        <display value="First"/>
+      </concept>
+      <concept>
+        <code value="..."/>
+        <display value="No suggested values defined."/>
+      </concept>
+      <concept>
+        <code value="2ND"/>
+        <display value="Second"/>
+      </concept>
+      <concept>
+        <code value="3RD"/>
+        <display value="Third"/>
+      </concept>
+      <concept>
+        <code value="4TH"/>
+        <display value="Fourth"/>
+      </concept>
+      <concept>
+        <code value="5TH"/>
+        <display value="Fifth"/>
+      </concept>
+      <concept>
+        <code value="ANT"/>
+        <display value="Anterior"/>
+      </concept>
+      <concept>
+        <code value="A/P"/>
+        <display value="Anterior/Posterior"/>
+      </concept>
+      <concept>
+        <code value="BLT"/>
+        <display value="Bilateral"/>
+      </concept>
+      <concept>
+        <code value="DEC"/>
+        <display value="Decubitus"/>
+      </concept>
+      <concept>
+        <code value="DST"/>
+        <display value="Distal"/>
+      </concept>
+      <concept>
+        <code value="LAT"/>
+        <display value="Lateral"/>
+      </concept>
+      <concept>
+        <code value="LFT"/>
+        <display value="Left"/>
+      </concept>
+      <concept>
+        <code value="LLQ"/>
+        <display value="Left Lower Quadrant"/>
+      </concept>
+      <concept>
+        <code value="LOW"/>
+        <display value="Lower"/>
+      </concept>
+      <concept>
+        <code value="LUQ"/>
+        <display value="Left Upper Quadrant"/>
+      </concept>
+      <concept>
+        <code value="MED"/>
+        <display value="Medial"/>
+      </concept>
+      <concept>
+        <code value="OR"/>
+        <display value="Operating Room"/>
+      </concept>
+      <concept>
+        <code value="PED"/>
+        <display value="Pediatric"/>
+      </concept>
+      <concept>
+        <code value="POS"/>
+        <display value="Posterior"/>
+      </concept>
+      <concept>
+        <code value="PRT"/>
+        <display value="Portable"/>
+      </concept>
+      <concept>
+        <code value="PRX"/>
+        <display value="Proximal"/>
+      </concept>
+      <concept>
+        <code value="REC"/>
+        <display value="Recumbent"/>
+      </concept>
+      <concept>
+        <code value="RLQ"/>
+        <display value="Right Lower Quadrant"/>
+      </concept>
+      <concept>
+        <code value="RGH"/>
+        <display value="Right"/>
+      </concept>
+      <concept>
+        <code value="RUQ"/>
+        <display value="Right Upper Quadrant"/>
+      </concept>
+      <concept>
+        <code value="UPP"/>
+        <display value="Upper"/>
+      </concept>
+      <concept>
+        <code value="UPR"/>
+        <display value="Upright"/>
+      </concept>
+      <concept>
+        <code value="WCT"/>
+        <display value="With Contrast"/>
+      </concept>
+      <concept>
+        <code value="WOC"/>
+        <display value="Without Contrast"/>
+      </concept>
+      <concept>
+        <code value="WSD"/>
+        <display value="With Sedation"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

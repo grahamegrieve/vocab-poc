@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0421"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0421"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.421"/>
+  </identifier>
+  <name value="V2Table0421"/>
+  <title value="V2 Table: Severity of Illness Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0421 (Severity of Illness Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0421"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MI"/>
+    <display value="Mild"/>
+    <definition value="Mild"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MO"/>
+    <display value="Moderate"/>
+    <definition value="Moderate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SE"/>
+    <display value="Severe"/>
+    <definition value="Severe"/>
+  </concept>
+</CodeSystem>

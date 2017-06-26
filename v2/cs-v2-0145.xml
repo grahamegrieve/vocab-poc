@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0145"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0145"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.145"/>
+  </identifier>
+  <name value="V2Table0145"/>
+  <title value="V2 Table: Room Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0145 (Room Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0145"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PRI"/>
+    <display value="Private room"/>
+    <definition value="Private room"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="2PRI"/>
+    <display value="Second private room"/>
+    <definition value="Second private room"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SPR"/>
+    <display value="Semi-private room"/>
+    <definition value="Semi-private room"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="2SPR"/>
+    <display value="Second semi-private room"/>
+    <definition value="Second semi-private room"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ICU"/>
+    <display value="Intensive care unit"/>
+    <definition value="Intensive care unit"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="2ICU"/>
+    <display value="Second intensive care unit"/>
+    <definition value="Second intensive care unit"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0207"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0207"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.207"/>
+  </identifier>
+  <name value="V2Table0207"/>
+  <title value="V2 Table: Processing Mode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0207 (Processing Mode)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0207"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="A"/>
+    <display value="Archive"/>
+    <definition value="Archive"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="R"/>
+    <display value="Restore from archive"/>
+    <definition value="Restore from archive"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="I"/>
+    <display value="Initial load"/>
+    <definition value="Initial load"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="T"/>
+    <display value="Current processing, transmitted at intervals (scheduled or on demand)"/>
+    <definition value="Current processing, transmitted at intervals (scheduled or on demand)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="Not present"/>
+    <display value="Not present (the default, meaning current  processing)"/>
+    <definition value="Not present (the default, meaning current  processing)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="not present"/>
+    <display value="Not present (the default, meaning current  processing)"/>
+    <definition value="Not present (the default, meaning current  processing)"/>
+  </concept>
+</CodeSystem>

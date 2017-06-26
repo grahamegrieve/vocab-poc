@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0048-2.3"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0048-2.3"/>
+  <name value="V2Table0048Version2.3"/>
+  <title value="V2 Table 0048 Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0048 Version 2.3 (What subject filter)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0048"/>
+      <concept>
+        <code value="ADV"/>
+        <display value="Advice/diagnosis"/>
+      </concept>
+      <concept>
+        <code value="ANU"/>
+        <display value="Nursing unit lookup (returns patients in beds, excluding empty beds)"/>
+      </concept>
+      <concept>
+        <code value="APA"/>
+        <display value="Account number query, return matching visit"/>
+      </concept>
+      <concept>
+        <code value="APM"/>
+        <display value="Medical record number query, returns visits for a medical record number"/>
+      </concept>
+      <concept>
+        <code value="APN"/>
+        <display value="Patient name lookup"/>
+      </concept>
+      <concept>
+        <code value="APP"/>
+        <display value="Physician lookup"/>
+      </concept>
+      <concept>
+        <code value="ARN"/>
+        <display value="Nursing unit lookup (returns patients in beds, including empty beds)"/>
+      </concept>
+      <concept>
+        <code value="CAN"/>
+        <display value="Cancel.  Used to cancel a query"/>
+      </concept>
+      <concept>
+        <code value="DEM"/>
+        <display value="Demographics"/>
+      </concept>
+      <concept>
+        <code value="FIN"/>
+        <display value="Financial"/>
+      </concept>
+      <concept>
+        <code value="GOL"/>
+        <display value="Goals"/>
+      </concept>
+      <concept>
+        <code value="MRI"/>
+        <display value="Most recent inpatient"/>
+      </concept>
+      <concept>
+        <code value="MRO"/>
+        <display value="Most recent outpatient"/>
+      </concept>
+      <concept>
+        <code value="NCK"/>
+        <display value="Network clock"/>
+      </concept>
+      <concept>
+        <code value="NSC"/>
+        <display value="Network status change"/>
+      </concept>
+      <concept>
+        <code value="NST"/>
+        <display value="Network statistic"/>
+      </concept>
+      <concept>
+        <code value="ORD"/>
+        <display value="Order"/>
+      </concept>
+      <concept>
+        <code value="OTH"/>
+        <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="PRB"/>
+        <display value="Problems"/>
+      </concept>
+      <concept>
+        <code value="PRO"/>
+        <display value="Procedure"/>
+      </concept>
+      <concept>
+        <code value="RAR"/>
+        <display value="Pharmacy administration information"/>
+      </concept>
+      <concept>
+        <code value="RDR"/>
+        <display value="Pharmacy dispense information"/>
+      </concept>
+      <concept>
+        <code value="RER"/>
+        <display value="Pharmacy encoded order information"/>
+      </concept>
+      <concept>
+        <code value="RES"/>
+        <display value="Result"/>
+      </concept>
+      <concept>
+        <code value="RGR"/>
+        <display value="Pharmacy give information"/>
+      </concept>
+      <concept>
+        <code value="ROR"/>
+        <display value="Pharmacy prescription information"/>
+      </concept>
+      <concept>
+        <code value="STA"/>
+        <display value="Status"/>
+      </concept>
+      <concept>
+        <code value="VXI"/>
+        <display value="Vaccine Information"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

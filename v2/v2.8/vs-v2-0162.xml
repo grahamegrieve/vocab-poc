@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0162-2.8"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0162-2.8"/>
+  <name value="V2Table0162Version2.8"/>
+  <title value="V2 Table 0162 Version 2.8"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0162 Version 2.8 (Route of Administration)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0162"/>
+      <concept>
+        <code value="AP"/>
+        <display value="Apply Externally"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Buccal"/>
+      </concept>
+      <concept>
+        <code value="DT"/>
+        <display value="Dental"/>
+      </concept>
+      <concept>
+        <code value="EP"/>
+        <display value="Epidural"/>
+      </concept>
+      <concept>
+        <code value="ET"/>
+        <display value="Endotrachial Tube"/>
+      </concept>
+      <concept>
+        <code value="GTT"/>
+        <display value="Gastrostomy Tube"/>
+      </concept>
+      <concept>
+        <code value="GU"/>
+        <display value="GU Irrigant"/>
+      </concept>
+      <concept>
+        <code value="IMR"/>
+        <display value="Immerse (Soak) Body Part"/>
+      </concept>
+      <concept>
+        <code value="IA"/>
+        <display value="Intra-arterial"/>
+      </concept>
+      <concept>
+        <code value="IB"/>
+        <display value="Intrabursal"/>
+      </concept>
+      <concept>
+        <code value="IC"/>
+        <display value="Intracardiac"/>
+      </concept>
+      <concept>
+        <code value="ICV"/>
+        <display value="Intracervical (uterus)"/>
+      </concept>
+      <concept>
+        <code value="ID"/>
+        <display value="Intradermal"/>
+      </concept>
+      <concept>
+        <code value="IH"/>
+        <display value="Inhalation"/>
+      </concept>
+      <concept>
+        <code value="IHA"/>
+        <display value="Intrahepatic Artery"/>
+      </concept>
+      <concept>
+        <code value="IM"/>
+        <display value="Intramuscular"/>
+      </concept>
+      <concept>
+        <code value="IN"/>
+        <display value="Intranasal"/>
+      </concept>
+      <concept>
+        <code value="IO"/>
+        <display value="Intraocular"/>
+      </concept>
+      <concept>
+        <code value="IP"/>
+        <display value="Intraperitoneal"/>
+      </concept>
+      <concept>
+        <code value="IS"/>
+        <display value="Intrasynovial"/>
+      </concept>
+      <concept>
+        <code value="IT"/>
+        <display value="Intrathecal"/>
+      </concept>
+      <concept>
+        <code value="IU"/>
+        <display value="Intrauterine"/>
+      </concept>
+      <concept>
+        <code value="IV"/>
+        <display value="Intravenous"/>
+      </concept>
+      <concept>
+        <code value="MTH"/>
+        <display value="Mouth/Throat"/>
+      </concept>
+      <concept>
+        <code value="MM"/>
+        <display value="Mucous Membrane"/>
+      </concept>
+      <concept>
+        <code value="NS"/>
+        <display value="Nasal"/>
+      </concept>
+      <concept>
+        <code value="NG"/>
+        <display value="Nasogastric"/>
+      </concept>
+      <concept>
+        <code value="NP"/>
+        <display value="Nasal Prongs"/>
+      </concept>
+      <concept>
+        <code value="NT"/>
+        <display value="Nasotrachial Tube"/>
+      </concept>
+      <concept>
+        <code value="OP"/>
+        <display value="Ophthalmic"/>
+      </concept>
+      <concept>
+        <code value="OT"/>
+        <display value="Otic"/>
+      </concept>
+      <concept>
+        <code value="OTH"/>
+        <display value="Other/Miscellaneous"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="Perfusion"/>
+      </concept>
+      <concept>
+        <code value="PO"/>
+        <display value="Oral"/>
+      </concept>
+      <concept>
+        <code value="PR"/>
+        <display value="Rectal"/>
+      </concept>
+      <concept>
+        <code value="RM"/>
+        <display value="Rebreather Mask"/>
+      </concept>
+      <concept>
+        <code value="SD"/>
+        <display value="Soaked Dressing"/>
+      </concept>
+      <concept>
+        <code value="SC"/>
+        <display value="Subcutaneous"/>
+      </concept>
+      <concept>
+        <code value="SL"/>
+        <display value="Sublingual"/>
+      </concept>
+      <concept>
+        <code value="TP"/>
+        <display value="Topical"/>
+      </concept>
+      <concept>
+        <code value="TRA"/>
+        <display value="Tracheostomy"/>
+      </concept>
+      <concept>
+        <code value="TD"/>
+        <display value="Transdermal"/>
+      </concept>
+      <concept>
+        <code value="TL"/>
+        <display value="Translingual"/>
+      </concept>
+      <concept>
+        <code value="UR"/>
+        <display value="Urethral"/>
+      </concept>
+      <concept>
+        <code value="VG"/>
+        <display value="Vaginal"/>
+      </concept>
+      <concept>
+        <code value="VM"/>
+        <display value="Ventimask"/>
+      </concept>
+      <concept>
+        <code value="WND"/>
+        <display value="Wound"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

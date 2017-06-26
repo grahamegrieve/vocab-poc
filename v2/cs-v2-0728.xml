@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0728"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0728"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.728"/>
+  </identifier>
+  <name value="V2Table0728"/>
+  <title value="V2 Table: CCL Value"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0728 (CCL Value)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0728"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="0"/>
+    <display value="Nothing obvious"/>
+    <definition value="Nothing obvious"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="1"/>
+    <display value="Low"/>
+    <definition value="Low"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="2"/>
+    <display value="Moderate"/>
+    <definition value="Moderate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="3"/>
+    <display value="High"/>
+    <definition value="High"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="4"/>
+    <display value="Very high"/>
+    <definition value="Very high"/>
+  </concept>
+</CodeSystem>

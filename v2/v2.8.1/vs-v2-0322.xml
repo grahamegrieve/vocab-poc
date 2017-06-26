@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0322-2.8.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0322-2.8.1"/>
+  <name value="V2Table0322Version2.8.1"/>
+  <title value="V2 Table 0322 Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0322 Version 2.8.1 (Completion Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0322"/>
+      <concept>
+        <code value="CP"/>
+        <display value="Complete"/>
+      </concept>
+      <concept>
+        <code value="RE"/>
+        <display value="Refused"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="Not Administered"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="Partially Administered"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

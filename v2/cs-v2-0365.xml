@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0365"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0365"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.365"/>
+  </identifier>
+  <name value="V2Table0365"/>
+  <title value="V2 Table: Equipment State"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0365 (Equipment State)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0365"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="IN"/>
+    <display value="Initializing"/>
+    <definition value="Initializing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CO"/>
+    <display value="Configuring"/>
+    <definition value="Configuring"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PU"/>
+    <display value="Powered Up"/>
+    <definition value="Powered Up"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="RS"/>
+    <display value="Ready to start"/>
+    <definition value="Ready to start"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ID"/>
+    <display value="Idle"/>
+    <definition value="Idle"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="OP"/>
+    <display value="Normal Operation"/>
+    <definition value="Normal Operation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CL"/>
+    <display value="Clearing"/>
+    <definition value="Clearing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PA"/>
+    <display value="Pausing"/>
+    <definition value="Pausing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PD"/>
+    <display value="Paused"/>
+    <definition value="Paused"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ES"/>
+    <display value="E-stopped"/>
+    <definition value="E-stopped"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.7.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="&#x2026;"/>
+    <display value="(null) No state change"/>
+    <definition value="(null) No state change"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="TS"/>
+    <display value="Transport stopped"/>
+    <definition value="Transport stopped"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="SS"/>
+    <display value="Sampling stopped"/>
+    <definition value="Sampling stopped"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="SD"/>
+    <display value="Shutting down"/>
+    <definition value="Shutting down"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="DI"/>
+    <display value="Diagnose"/>
+    <definition value="Diagnose"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="..."/>
+    <display value="(null) No state change"/>
+    <definition value="(null) No state change"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="MA"/>
+    <display value="Maintenance"/>
+    <definition value="Maintenance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="FL"/>
+    <display value="Failure"/>
+    <definition value="Failure"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="UNK"/>
+    <display value="Unknown"/>
+    <definition value="Unknown"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="LT"/>
+    <display value="Limited test menu"/>
+    <definition value="Limited test menu"/>
+  </concept>
+</CodeSystem>

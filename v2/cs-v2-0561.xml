@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0561"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0561"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.561"/>
+  </identifier>
+  <name value="V2Table0561"/>
+  <title value="V2 Table: Product/Services Clarification Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0561 (Product/Services Clarification Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0561"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="MSP: Data Center Number associated with the Provider&#39;s Network Application ID"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="DTCTR"/>
+    <display value="Data Center Number"/>
+    <definition value="Data Center Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="MSP: Must be sequential by Data Center Number"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="SEQ"/>
+    <display value="Sequence Number"/>
+    <definition value="Sequence Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="MSP: assigned by MSP"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="DGAPP"/>
+    <display value="Diagnostic Approval Number"/>
+    <definition value="Diagnostic Approval Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="CLCTR"/>
+    <display value="Claim Center"/>
+    <definition value="Claim Center"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="ENC"/>
+    <display value="Encounter Number"/>
+    <definition value="Encounter Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="OOP"/>
+    <display value="Out of Province Indicator"/>
+    <definition value="Out of Province Indicator"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="GFTH"/>
+    <display value="Good Faith Indicator"/>
+    <definition value="Good Faith Indicator"/>
+  </concept>
+</CodeSystem>

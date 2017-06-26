@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0165"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0165"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.165"/>
+  </identifier>
+  <name value="V2Table0165"/>
+  <title value="V2 Table: Administration Method"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0165 (Administration Method)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0165"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CH"/>
+    <display value="Chew"/>
+    <definition value="Chew"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="DI"/>
+    <display value="Dissolve"/>
+    <definition value="Dissolve"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="DU"/>
+    <display value="Dust"/>
+    <definition value="Dust"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IF"/>
+    <display value="Infiltrate"/>
+    <definition value="Infiltrate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IS"/>
+    <display value="Insert"/>
+    <definition value="Insert"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IR"/>
+    <display value="Irrigate"/>
+    <definition value="Irrigate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IVPB"/>
+    <display value="IV Piggyback"/>
+    <definition value="IV Piggyback"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IVP"/>
+    <display value="IV Push"/>
+    <definition value="IV Push"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NB"/>
+    <display value="Nebulized"/>
+    <definition value="Nebulized"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PT"/>
+    <display value="Paint"/>
+    <definition value="Paint"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PF"/>
+    <display value="Perfuse"/>
+    <definition value="Perfuse"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SH"/>
+    <display value="Shampoo"/>
+    <definition value="Shampoo"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SO"/>
+    <display value="Soak"/>
+    <definition value="Soak"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WA"/>
+    <display value="Wash"/>
+    <definition value="Wash"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WI"/>
+    <display value="Wipe"/>
+    <definition value="Wipe"/>
+  </concept>
+</CodeSystem>

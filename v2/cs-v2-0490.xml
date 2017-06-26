@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0490"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0490"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.490"/>
+  </identifier>
+  <name value="V2Table0490"/>
+  <title value="V2 Table: Specimen Reject Reason"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0490 (Specimen Reject Reason)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0490"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="EX"/>
+    <display value="Expired"/>
+    <definition value="Expired"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="QS"/>
+    <display value="Quantity not sufficient"/>
+    <definition value="Quantity not sufficient"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RB"/>
+    <display value="Broken container"/>
+    <definition value="Broken container"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RC"/>
+    <display value="Clotting"/>
+    <definition value="Clotting"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RD"/>
+    <display value="Missing collection date"/>
+    <definition value="Missing collection date"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RA"/>
+    <display value="Missing patient ID number"/>
+    <definition value="Missing patient ID number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RE"/>
+    <display value="Missing patient name"/>
+    <definition value="Missing patient name"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RH"/>
+    <display value="Hemolysis"/>
+    <definition value="Hemolysis"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RI"/>
+    <display value="Identification problem"/>
+    <definition value="Identification problem"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RM"/>
+    <display value="Labeling"/>
+    <definition value="Labeling"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RN"/>
+    <display value="Contamination"/>
+    <definition value="Contamination"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RP"/>
+    <display value="Missing phlebotomist ID"/>
+    <definition value="Missing phlebotomist ID"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RR"/>
+    <display value="Improper storage"/>
+    <definition value="Improper storage"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RS"/>
+    <display value="Name misspelling"/>
+    <definition value="Name misspelling"/>
+  </concept>
+</CodeSystem>

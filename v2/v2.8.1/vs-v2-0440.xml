@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0440-2.8.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0440-2.8.1"/>
+  <name value="V2Table0440Version2.8.1"/>
+  <title value="V2 Table 0440 Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0440 Version 2.8.1 (Data Types)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0440"/>
+      <concept>
+        <code value="AD"/>
+        <display value="Address"/>
+      </concept>
+      <concept>
+        <code value="AUI"/>
+        <display value="Authorization information"/>
+      </concept>
+      <concept>
+        <code value="CCD"/>
+        <display value="Charge code and date"/>
+      </concept>
+      <concept>
+        <code value="CCP"/>
+        <display value="Channel calibration parameters"/>
+      </concept>
+      <concept>
+        <code value="CD"/>
+        <display value="Channel definition"/>
+      </concept>
+      <concept>
+        <code value="CE"/>
+        <display value="Coded element"/>
+      </concept>
+      <concept>
+        <code value="CF"/>
+        <display value="Coded element with formatted values"/>
+      </concept>
+      <concept>
+        <code value="CK"/>
+        <display value="Composite ID with check digit"/>
+      </concept>
+      <concept>
+        <code value="CM"/>
+        <display value="Composite"/>
+      </concept>
+      <concept>
+        <code value="CN"/>
+        <display value="Composite ID number and name"/>
+      </concept>
+      <concept>
+        <code value="CNE"/>
+        <display value="Coded with no exceptions"/>
+      </concept>
+      <concept>
+        <code value="CNN"/>
+        <display value="Composite ID number and name simplified"/>
+      </concept>
+      <concept>
+        <code value="CP"/>
+        <display value="Composite price"/>
+      </concept>
+      <concept>
+        <code value="CQ"/>
+        <display value="Composite quantity with units"/>
+      </concept>
+      <concept>
+        <code value="CSU"/>
+        <display value="Channel sensitivity and units"/>
+      </concept>
+      <concept>
+        <code value="CWE"/>
+        <display value="Coded with exceptions"/>
+      </concept>
+      <concept>
+        <code value="CX"/>
+        <display value="Extended composite ID with check digit"/>
+      </concept>
+      <concept>
+        <code value="DDI"/>
+        <display value="Daily deductible information"/>
+      </concept>
+      <concept>
+        <code value="DIN"/>
+        <display value="Date and institution name"/>
+      </concept>
+      <concept>
+        <code value="DLD"/>
+        <display value="Discharge to location and date"/>
+      </concept>
+      <concept>
+        <code value="DLN"/>
+        <display value="Driver&#39;s license number"/>
+      </concept>
+      <concept>
+        <code value="DLT"/>
+        <display value="Delta"/>
+      </concept>
+      <concept>
+        <code value="DR"/>
+        <display value="Date/time range"/>
+      </concept>
+      <concept>
+        <code value="DT"/>
+        <display value="Date"/>
+      </concept>
+      <concept>
+        <code value="DTM"/>
+        <display value="Date/time"/>
+      </concept>
+      <concept>
+        <code value="DTN"/>
+        <display value="Day type and number"/>
+      </concept>
+      <concept>
+        <code value="ED"/>
+        <display value="Encapsulated data"/>
+      </concept>
+      <concept>
+        <code value="EI"/>
+        <display value="Entity identifier"/>
+      </concept>
+      <concept>
+        <code value="EIP"/>
+        <display value="Entity identifier pair"/>
+      </concept>
+      <concept>
+        <code value="ELD"/>
+        <display value="Error location and description"/>
+      </concept>
+      <concept>
+        <code value="ERL"/>
+        <display value="Error location"/>
+      </concept>
+      <concept>
+        <code value="FC"/>
+        <display value="Financial class"/>
+      </concept>
+      <concept>
+        <code value="FN"/>
+        <display value="Family name"/>
+      </concept>
+      <concept>
+        <code value="FT"/>
+        <display value="Formatted text"/>
+      </concept>
+      <concept>
+        <code value="GTS"/>
+        <display value="General timing specification"/>
+      </concept>
+      <concept>
+        <code value="HD"/>
+        <display value="Hierarchic designator"/>
+      </concept>
+      <concept>
+        <code value="ICD"/>
+        <display value="Insurance certification definition"/>
+      </concept>
+      <concept>
+        <code value="ID"/>
+        <display value="Coded values for HL7 tables"/>
+      </concept>
+      <concept>
+        <code value="IS"/>
+        <display value="Coded value for user-defined tables"/>
+      </concept>
+      <concept>
+        <code value="JCC"/>
+        <display value="Job code/class"/>
+      </concept>
+      <concept>
+        <code value="LA1"/>
+        <display value="Location with address variation 1"/>
+      </concept>
+      <concept>
+        <code value="LA2"/>
+        <display value="Location with address variation 2"/>
+      </concept>
+      <concept>
+        <code value="MA"/>
+        <display value="Multiplexed array"/>
+      </concept>
+      <concept>
+        <code value="MO"/>
+        <display value="Money"/>
+      </concept>
+      <concept>
+        <code value="MOC"/>
+        <display value="Money and charge code"/>
+      </concept>
+      <concept>
+        <code value="MOP"/>
+        <display value="Money or percentage"/>
+      </concept>
+      <concept>
+        <code value="MSG"/>
+        <display value="Message type"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="Numeric array"/>
+      </concept>
+      <concept>
+        <code value="NDL"/>
+        <display value="Name with date and location"/>
+      </concept>
+      <concept>
+        <code value="NM"/>
+        <display value="Numeric"/>
+      </concept>
+      <concept>
+        <code value="NR"/>
+        <display value="Numeric range"/>
+      </concept>
+      <concept>
+        <code value="OCD"/>
+        <display value="Occurrence code and date"/>
+      </concept>
+      <concept>
+        <code value="OSD"/>
+        <display value="Order sequence definition"/>
+      </concept>
+      <concept>
+        <code value="OSP"/>
+        <display value="Occurrence span code and date"/>
+      </concept>
+      <concept>
+        <code value="PIP"/>
+        <display value="Practitioner institutional privileges"/>
+      </concept>
+      <concept>
+        <code value="PL"/>
+        <display value="Person location"/>
+      </concept>
+      <concept>
+        <code value="PLN"/>
+        <display value="Practitioner license or other ID number"/>
+      </concept>
+      <concept>
+        <code value="PN"/>
+        <display value="Person name"/>
+      </concept>
+      <concept>
+        <code value="PPN"/>
+        <display value="Performing person time stamp"/>
+      </concept>
+      <concept>
+        <code value="PRL"/>
+        <display value="Parent result link"/>
+      </concept>
+      <concept>
+        <code value="PT"/>
+        <display value="Processing type"/>
+      </concept>
+      <concept>
+        <code value="PTA"/>
+        <display value="Policy type and amount"/>
+      </concept>
+      <concept>
+        <code value="QIP"/>
+        <display value="Query input parameter list"/>
+      </concept>
+      <concept>
+        <code value="QSC"/>
+        <display value="Query selection criteria"/>
+      </concept>
+      <concept>
+        <code value="RCD"/>
+        <display value="Row column definition"/>
+      </concept>
+      <concept>
+        <code value="RFR"/>
+        <display value="Reference range"/>
+      </concept>
+      <concept>
+        <code value="RI"/>
+        <display value="Repeat interval"/>
+      </concept>
+      <concept>
+        <code value="RMC"/>
+        <display value="Room coverage"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Reference pointer"/>
+      </concept>
+      <concept>
+        <code value="RPT"/>
+        <display value="Repeat pattern"/>
+      </concept>
+      <concept>
+        <code value="SAD"/>
+        <display value="Street Address"/>
+      </concept>
+      <concept>
+        <code value="SCV"/>
+        <display value="Scheduling class value pair"/>
+      </concept>
+      <concept>
+        <code value="SI"/>
+        <display value="Sequence ID"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="Structured numeric"/>
+      </concept>
+      <concept>
+        <code value="SNM"/>
+        <display value="String of telephone number digits"/>
+      </concept>
+      <concept>
+        <code value="SPD"/>
+        <display value="Specialty description"/>
+      </concept>
+      <concept>
+        <code value="SPS"/>
+        <display value="Specimen source"/>
+      </concept>
+      <concept>
+        <code value="SRT"/>
+        <display value="Sort order"/>
+      </concept>
+      <concept>
+        <code value="ST"/>
+        <display value="String data"/>
+      </concept>
+      <concept>
+        <code value="TM"/>
+        <display value="Time"/>
+      </concept>
+      <concept>
+        <code value="TN"/>
+        <display value="Telephone number"/>
+      </concept>
+      <concept>
+        <code value="TQ"/>
+        <display value="Timing/quantity"/>
+      </concept>
+      <concept>
+        <code value="TS"/>
+        <display value="Time stamp"/>
+      </concept>
+      <concept>
+        <code value="TX"/>
+        <display value="Text data"/>
+      </concept>
+      <concept>
+        <code value="UVC"/>
+        <display value="UB value code and amount"/>
+      </concept>
+      <concept>
+        <code value="VH"/>
+        <display value="Visiting hours"/>
+      </concept>
+      <concept>
+        <code value="VID"/>
+        <display value="Version identifier"/>
+      </concept>
+      <concept>
+        <code value="VR"/>
+        <display value="Value range"/>
+      </concept>
+      <concept>
+        <code value="WVI"/>
+        <display value="Channel Identifier"/>
+      </concept>
+      <concept>
+        <code value="WVS"/>
+        <display value="Waveform source"/>
+      </concept>
+      <concept>
+        <code value="XAD"/>
+        <display value="Extended address"/>
+      </concept>
+      <concept>
+        <code value="XCN"/>
+        <display value="Extended composite ID number and name for persons"/>
+      </concept>
+      <concept>
+        <code value="XON"/>
+        <display value="Extended composite name and ID number for organizations"/>
+      </concept>
+      <concept>
+        <code value="XPN"/>
+        <display value="Extended person name"/>
+      </concept>
+      <concept>
+        <code value="XTN"/>
+        <display value="Extended telecommunications number"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

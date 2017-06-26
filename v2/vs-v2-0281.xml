@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0281"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0281"/>
+  <name value="V2Table0281VersionMaster"/>
+  <title value="V2 Table 0281 Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0281 Version Master (Referral Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0281"/>
+      <concept>
+        <code value="HOM"/>
+        <display value="Home Care"/>
+      </concept>
+      <concept>
+        <code value="LAB"/>
+        <display value="Laboratory"/>
+      </concept>
+      <concept>
+        <code value="MED"/>
+        <display value="Medical"/>
+      </concept>
+      <concept>
+        <code value="PSY"/>
+        <display value="Psychiatric"/>
+      </concept>
+      <concept>
+        <code value="RAD"/>
+        <display value="Radiology"/>
+      </concept>
+      <concept>
+        <code value="SKN"/>
+        <display value="Skilled Nursing"/>
+      </concept>
+      <concept>
+        <code value="Lab"/>
+        <display value="Laboratory"/>
+      </concept>
+      <concept>
+        <code value="Rad"/>
+        <display value="Radiology"/>
+      </concept>
+      <concept>
+        <code value="Med"/>
+        <display value="Medical"/>
+      </concept>
+      <concept>
+        <code value="Skn"/>
+        <display value="Skilled Nursing"/>
+      </concept>
+      <concept>
+        <code value="Psy"/>
+        <display value="Psychiatric"/>
+      </concept>
+      <concept>
+        <code value="Hom"/>
+        <display value="Home Care"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0122-2.5"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0122-2.5"/>
+  <name value="V2Table0122Version2.5"/>
+  <title value="V2 Table 0122 Version 2.5"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0122 Version 2.5 (Charge Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0122"/>
+      <concept>
+        <code value="CH"/>
+        <display value="Charge"/>
+      </concept>
+      <concept>
+        <code value="CO"/>
+        <display value="Contract"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Credit"/>
+      </concept>
+      <concept>
+        <code value="DP"/>
+        <display value="Department"/>
+      </concept>
+      <concept>
+        <code value="GR"/>
+        <display value="Grant"/>
+      </concept>
+      <concept>
+        <code value="NC"/>
+        <display value="No Charge"/>
+      </concept>
+      <concept>
+        <code value="PC"/>
+        <display value="Professional"/>
+      </concept>
+      <concept>
+        <code value="RS"/>
+        <display value="Research"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

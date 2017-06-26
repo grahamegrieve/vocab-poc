@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0165-2.3"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0165-2.3"/>
+  <name value="V2Table0165Version2.3"/>
+  <title value="V2 Table 0165 Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0165 Version 2.3 (Administration Method)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0165"/>
+      <concept>
+        <code value="CH"/>
+        <display value="Chew"/>
+      </concept>
+      <concept>
+        <code value="DI"/>
+        <display value="Dissolve"/>
+      </concept>
+      <concept>
+        <code value="DU"/>
+        <display value="Dust"/>
+      </concept>
+      <concept>
+        <code value="IF"/>
+        <display value="Inflitrate"/>
+      </concept>
+      <concept>
+        <code value="IR"/>
+        <display value="Irrigate"/>
+      </concept>
+      <concept>
+        <code value="IS"/>
+        <display value="Insert"/>
+      </concept>
+      <concept>
+        <code value="IVP"/>
+        <display value="IV Push"/>
+      </concept>
+      <concept>
+        <code value="IVPB"/>
+        <display value="IV Piggyback"/>
+      </concept>
+      <concept>
+        <code value="NB"/>
+        <display value="Nebulized"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="Perfuse"/>
+      </concept>
+      <concept>
+        <code value="PT"/>
+        <display value="Pain"/>
+      </concept>
+      <concept>
+        <code value="SH"/>
+        <display value="Shampoo"/>
+      </concept>
+      <concept>
+        <code value="SO"/>
+        <display value="Soak"/>
+      </concept>
+      <concept>
+        <code value="WA"/>
+        <display value="Wash"/>
+      </concept>
+      <concept>
+        <code value="WI"/>
+        <display value="Wipe"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0003-2.2"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0003-2.2"/>
+  <name value="V2Table0003Version2.2"/>
+  <title value="V2 Table 0003 Version 2.2"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0003 Version 2.2 (Event Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0003"/>
+      <concept>
+        <code value="A01"/>
+        <display value="Admit a patient"/>
+      </concept>
+      <concept>
+        <code value="A02"/>
+        <display value="Transfer a patient"/>
+      </concept>
+      <concept>
+        <code value="A03"/>
+        <display value="Discharge a patient"/>
+      </concept>
+      <concept>
+        <code value="A04"/>
+        <display value="Register a patient"/>
+      </concept>
+      <concept>
+        <code value="A05"/>
+        <display value="Pre-admit a Patient"/>
+      </concept>
+      <concept>
+        <code value="A06"/>
+        <display value="Transfer an outpatient to inpatient"/>
+      </concept>
+      <concept>
+        <code value="A07"/>
+        <display value="Transfer an inpatient to outpatient"/>
+      </concept>
+      <concept>
+        <code value="A08"/>
+        <display value="Update patient information"/>
+      </concept>
+      <concept>
+        <code value="A09"/>
+        <display value="Patient departing"/>
+      </concept>
+      <concept>
+        <code value="A10"/>
+        <display value="Patient arriving"/>
+      </concept>
+      <concept>
+        <code value="A11"/>
+        <display value="Cancel admit"/>
+      </concept>
+      <concept>
+        <code value="A12"/>
+        <display value="Cancel transfer"/>
+      </concept>
+      <concept>
+        <code value="A13"/>
+        <display value="Cancel discharge"/>
+      </concept>
+      <concept>
+        <code value="A14"/>
+        <display value="Pending admit"/>
+      </concept>
+      <concept>
+        <code value="A15"/>
+        <display value="Pending transfer"/>
+      </concept>
+      <concept>
+        <code value="A16"/>
+        <display value="Pending discharge"/>
+      </concept>
+      <concept>
+        <code value="A17"/>
+        <display value="Swap patients"/>
+      </concept>
+      <concept>
+        <code value="A18"/>
+        <display value="Merge patient information"/>
+      </concept>
+      <concept>
+        <code value="A19"/>
+        <display value="Patient query"/>
+      </concept>
+      <concept>
+        <code value="A20"/>
+        <display value="Bed Status Update"/>
+      </concept>
+      <concept>
+        <code value="A21"/>
+        <display value="Leave of absence - out (leaving)"/>
+      </concept>
+      <concept>
+        <code value="A22"/>
+        <display value="Leave of absence - in (returning)"/>
+      </concept>
+      <concept>
+        <code value="A23"/>
+        <display value="Delete a patient record"/>
+      </concept>
+      <concept>
+        <code value="A24"/>
+        <display value="Link patient information"/>
+      </concept>
+      <concept>
+        <code value="A25"/>
+        <display value="Cancel pending discharge"/>
+      </concept>
+      <concept>
+        <code value="A26"/>
+        <display value="Cancel pending transfer"/>
+      </concept>
+      <concept>
+        <code value="A27"/>
+        <display value="Cancel pending admit"/>
+      </concept>
+      <concept>
+        <code value="A28"/>
+        <display value="Add person information"/>
+      </concept>
+      <concept>
+        <code value="A29"/>
+        <display value="Delete person information"/>
+      </concept>
+      <concept>
+        <code value="A30"/>
+        <display value="Merge Patient information"/>
+      </concept>
+      <concept>
+        <code value="A31"/>
+        <display value="Update person information"/>
+      </concept>
+      <concept>
+        <code value="A32"/>
+        <display value="Cancel patient arriving"/>
+      </concept>
+      <concept>
+        <code value="A33"/>
+        <display value="Cancel patient departing"/>
+      </concept>
+      <concept>
+        <code value="A34"/>
+        <display value="Merge patient information - patient ID only"/>
+      </concept>
+      <concept>
+        <code value="A35"/>
+        <display value="Merge patient information - account number only"/>
+      </concept>
+      <concept>
+        <code value="A36"/>
+        <display value="Merge patient information - patient ID and account number"/>
+      </concept>
+      <concept>
+        <code value="A37"/>
+        <display value="Unlink patient information"/>
+      </concept>
+      <concept>
+        <code value="M01"/>
+        <display value="Master file not otherwise specified (for backwards compatibility only)"/>
+      </concept>
+      <concept>
+        <code value="M02"/>
+        <display value="Master file - Staff Practioner"/>
+      </concept>
+      <concept>
+        <code value="M03"/>
+        <display value="Master file - test / observation"/>
+      </concept>
+      <concept>
+        <code value="O01"/>
+        <display value="Order message"/>
+      </concept>
+      <concept>
+        <code value="O02"/>
+        <display value="Order response"/>
+      </concept>
+      <concept>
+        <code value="P01"/>
+        <display value="Add and Update Patient Accounts"/>
+      </concept>
+      <concept>
+        <code value="P02"/>
+        <display value="Purge Patient Accounts"/>
+      </concept>
+      <concept>
+        <code value="P03"/>
+        <display value="Post detail financial transaction"/>
+      </concept>
+      <concept>
+        <code value="P04"/>
+        <display value="Generate bill and accounts receivable statements"/>
+      </concept>
+      <concept>
+        <code value="Q01"/>
+        <display value="Immediate access"/>
+      </concept>
+      <concept>
+        <code value="Q02"/>
+        <display value="Deferred access"/>
+      </concept>
+      <concept>
+        <code value="Q03"/>
+        <display value="Deferred response to query"/>
+      </concept>
+      <concept>
+        <code value="Q05"/>
+        <display value="Unsolicited display update"/>
+      </concept>
+      <concept>
+        <code value="R01"/>
+        <display value="Unsolicited transmission of requested observation"/>
+      </concept>
+      <concept>
+        <code value="R02"/>
+        <display value="Query for results of observation"/>
+      </concept>
+      <concept>
+        <code value="R03"/>
+        <display value="Display-oriented results (query / unsolicited update)"/>
+      </concept>
+      <concept>
+        <code value="R04"/>
+        <display value="Response to query / transmission of requested observation"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

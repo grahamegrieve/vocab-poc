@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0262"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0262"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.262"/>
+  </identifier>
+  <name value="V2Table0262"/>
+  <title value="V2 Table: Privacy Level"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0262 (Privacy Level)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0262"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="F"/>
+    <display value="Isolation"/>
+    <definition value="Isolation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="P"/>
+    <display value="Private room"/>
+    <definition value="Private room"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="J"/>
+    <display value="Private room - medically justified"/>
+    <definition value="Private room - medically justified"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="Q"/>
+    <display value="Private room - due to overflow"/>
+    <definition value="Private room - due to overflow"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="S"/>
+    <display value="Semi-private room"/>
+    <definition value="Semi-private room"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="W"/>
+    <display value="Ward"/>
+    <definition value="Ward"/>
+  </concept>
+</CodeSystem>

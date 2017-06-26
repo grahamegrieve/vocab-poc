@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0164"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0164"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.164"/>
+  </identifier>
+  <name value="V2Table0164"/>
+  <title value="V2 Table: Administration Device"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0164 (Administration Device)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0164"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="AP"/>
+    <display value="Applicator"/>
+    <definition value="Applicator"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="BT"/>
+    <display value="Buretrol"/>
+    <definition value="Buretrol"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="HL"/>
+    <display value="Heparin Lock"/>
+    <definition value="Heparin Lock"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IPPB"/>
+    <display value="IPPB"/>
+    <definition value="IPPB"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IVP"/>
+    <display value="IV Pump"/>
+    <definition value="IV Pump"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IVS"/>
+    <display value="IV Soluset"/>
+    <definition value="IV Soluset"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MI"/>
+    <display value="Metered Inhaler"/>
+    <definition value="Metered Inhaler"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NEB"/>
+    <display value="Nebulizer"/>
+    <definition value="Nebulizer"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PCA"/>
+    <display value="PCA Pump"/>
+    <definition value="PCA Pump"/>
+  </concept>
+</CodeSystem>

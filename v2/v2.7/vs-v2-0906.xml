@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0906-2.7"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0906-2.7"/>
+  <name value="V2Table0906Version2.7"/>
+  <title value="V2 Table 0906 Version 2.7"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0906 Version 2.7 (ActPriority)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0906"/>
+      <concept>
+        <code value="A"/>
+        <display value="ASAP - As soon as possible, next highest priority after stat"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Callback results - filler should contact the placer as soon as results are available, even for preliminary results"/>
+      </concept>
+      <concept>
+        <code value="CS"/>
+        <display value="Callback for scheduling - Filler should contact the placer (or target) to schedule the service."/>
+      </concept>
+      <concept>
+        <code value="CSP"/>
+        <display value="Callback placer for scheduling - filler should contact the placer to schedule the service"/>
+      </concept>
+      <concept>
+        <code value="CSR"/>
+        <display value="Contact recipient for scheduling - Filler should contact the service recipient (target) to schedule the service"/>
+      </concept>
+      <concept>
+        <code value="EL"/>
+        <display value="Elective - Beneficial to the patient but not essential for survival."/>
+      </concept>
+      <concept>
+        <code value="EM"/>
+        <display value="Emergency - An unforeseen combination of circumstances or the resulting state that calls for immediate action"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Preop - Used to indicate that a service is to be performed prior to a scheduled surgery.  When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service.  When the order"/>
+      </concept>
+      <concept>
+        <code value="PRN"/>
+        <display value="As needed - An &quot;as needed&quot; order should be accompanied by a description of what constitutes a need.  This description is represented by an observation service predicate as a precondition."/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Routine - Routine service, do at usual work hours"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Rush reporting - A report should be prepared and sent as quickly as possible"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Stat - With highest priority (e.g. emergency)."/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Timing critical - It is critical to come as close as possible to the requested time (e.g. for a through antimicrobial level)."/>
+      </concept>
+      <concept>
+        <code value="UD"/>
+        <display value="Use as directed - Drug is to be used as directed by the prescriber."/>
+      </concept>
+      <concept>
+        <code value="UR"/>
+        <display value="Urgent - Calls for prompt action"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

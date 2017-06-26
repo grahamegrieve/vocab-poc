@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0227"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0227"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.227"/>
+  </identifier>
+  <name value="V2Table0227"/>
+  <title value="V2 Table: Manufacturers of Vaccines (code=MVX)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0227 (Manufacturers of Vaccines (code=MVX))"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0227"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Ross Products Division)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="AB"/>
+    <display value="Abbott Laboratories"/>
+    <definition value="Abbott Laboratories"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="AD"/>
+    <display value="Adams Laboratories, Inc."/>
+    <definition value="Adams Laboratories, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="ALP"/>
+    <display value="Alpha Therapeutic Corporation"/>
+    <definition value="Alpha Therapeutic Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use AVB]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="AR"/>
+    <display value="Armour"/>
+    <definition value="Armour"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly Centeon L.L.C.; includes Armour Pharmaceutical Company) [Inactive--use ZLB] CDC Changes made on: Feb. 28, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="AVB"/>
+    <display value="Aventis Behring L.L.C."/>
+    <definition value="Aventis Behring L.L.C."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="AVI"/>
+    <display value="Aviron"/>
+    <definition value="Aviron"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use BAH]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BA"/>
+    <display value="Baxter Healthcare Corporation"/>
+    <definition value="Baxter Healthcare Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Hyland Immuno, Immuno International AG, and North American Vaccine, Inc.)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="BAH"/>
+    <display value="Baxter Healthcare Corporation"/>
+    <definition value="Baxter Healthcare Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Miles, Inc. and Cutter Laboratories)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BAY"/>
+    <display value="Bayer Corporation"/>
+    <definition value="Bayer Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use BPC]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BP"/>
+    <display value="Berna Products"/>
+    <definition value="Berna Products"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Swiss Serum and Vaccine Institute Berne)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BPC"/>
+    <display value="Berna Products Corporation"/>
+    <definition value="Berna Products Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly Michigan Biologic Products Institute)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="MIP"/>
+    <display value="Bioport Corporation"/>
+    <definition value="Bioport Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="CDC Changes made on: Feb. 28, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="CNJ"/>
+    <display value="Cangene Corporation"/>
+    <definition value="Cangene Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use NOV] CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CMP"/>
+    <display value="Celltech Medeva Pharmaceuticals"/>
+    <definition value="Celltech Medeva Pharmaceuticals"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use AVB]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="CEN"/>
+    <display value="Centeon L.L.C."/>
+    <definition value="Centeon L.L.C."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use NOV] includes PowderJect Pharmaceuticals, Celltech Medeva Vaccines and Evans Medical Limited CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="CHI"/>
+    <display value="Chiron Corporation"/>
+    <definition value="Chiron Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use PMC]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="CON"/>
+    <display value="Connaught"/>
+    <definition value="Connaught"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="DVC"/>
+    <display value="DynPort Vaccine Company, LLC"/>
+    <definition value="DynPort Vaccine Company, LLC"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use NOV] CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="EVN"/>
+    <display value="Evans Medical Limited"/>
+    <definition value="Evans Medical Limited"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="GEO"/>
+    <display value="GeoVax Labs, Inc."/>
+    <definition value="GeoVax Labs, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly SmithKline Beecham; includes SmithKline Beecham and Glaxo Welcome)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="SKB"/>
+    <display value="GlaxoSmithKline"/>
+    <definition value="GlaxoSmithKline"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="GRE"/>
+    <display value="Greer Laboratories, Inc."/>
+    <definition value="Greer Laboratories, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use BAH]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="IAG"/>
+    <display value="Immuno International AG"/>
+    <definition value="Immuno International AG"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="IUS"/>
+    <display value="Immuno-U.S., Inc."/>
+    <definition value="Immuno-U.S., Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="KGC"/>
+    <display value="Korea Green Cross Corporation"/>
+    <definition value="Korea Green Cross Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use WAL]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="LED"/>
+    <display value="Lederle"/>
+    <definition value="Lederle"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly Massachusetts Public Health Biologic Laboratories)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="MBL"/>
+    <display value="Massachusetts Biologic Laboratories"/>
+    <definition value="Massachusetts Biologic Laboratories"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use MBL]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="MA"/>
+    <display value="Massachusetts Public Health Biologic Laboratories"/>
+    <definition value="Massachusetts Public Health Biologic Laboratories"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MED"/>
+    <display value="MedImmune, Inc."/>
+    <definition value="MedImmune, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="MSD"/>
+    <display value="Merck &amp; Co., Inc."/>
+    <definition value="Merck &amp; Co., Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use PMC]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="IM"/>
+    <display value="Merieux"/>
+    <definition value="Merieux"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use BAY]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="MIL"/>
+    <display value="Miles"/>
+    <definition value="Miles"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly North American Biologicals, Inc.)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="NAB"/>
+    <display value="NABI"/>
+    <definition value="NABI"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="NYB"/>
+    <display value="New York Blood Center"/>
+    <definition value="New York Blood Center"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use BAH]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="NAV"/>
+    <display value="North American Vaccine, Inc."/>
+    <definition value="North American Vaccine, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Chiron, PowderJect Pharmaceuticals, Celltech Medeva Vaccines and Evans Limited, Ciba-Geigy Limited and Sandoz Limited)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="NOV"/>
+    <display value="Novartis Pharmaceutical Corporation"/>
+    <definition value="Novartis Pharmaceutical Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="NVX"/>
+    <display value="Novavax, Inc."/>
+    <definition value="Novavax, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="OTC"/>
+    <display value="Organon Teknika Corporation"/>
+    <definition value="Organon Teknika Corporation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly Ortho Diagnostic Systems, Inc.)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="ORT"/>
+    <display value="Ortho-Clinical Diagnostics"/>
+    <definition value="Ortho-Clinical Diagnostics"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly Parke-Davis)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PD"/>
+    <display value="Parkedale Pharmaceuticals"/>
+    <definition value="Parkedale Pharmaceuticals"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Celltech Medeva Vaccines and Evans Medical Limited) [Inactive--use NOV] CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="PWJ"/>
+    <display value="PowderJect Pharmaceuticals"/>
+    <definition value="PowderJect Pharmaceuticals"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use WAL]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PRX"/>
+    <display value="Praxis Biologics"/>
+    <definition value="Praxis Biologics"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(formerly Aventis Pasteur, Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux) CDC Changes made on: Feb. 28, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="PMC"/>
+    <display value="sanofi pasteur"/>
+    <definition value="sanofi pasteur"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(BIKEN)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="JPN"/>
+    <display value="The Research Foundation for Microbial Diseases of Osaka University"/>
+    <definition value="The Research Foundation for Microbial Diseases of Osaka University"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="SCL"/>
+    <display value="Sclavo, Inc."/>
+    <definition value="Sclavo, Inc."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="SOL"/>
+    <display value="Solvay Pharmaceuticals"/>
+    <definition value="Solvay Pharmaceuticals"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use BPC]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="SI"/>
+    <display value="Swiss Serum and Vaccine Inst."/>
+    <definition value="Swiss Serum and Vaccine Inst."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Bayer Biologicals) CDC Changes made on: Feb. 28, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="TAL"/>
+    <display value="Talecris Biotherapeutics"/>
+    <definition value="Talecris Biotherapeutics"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="USA"/>
+    <display value="United States Army Medical Research and Material Command"/>
+    <definition value="United States Army Medical Research and Material Command"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="CDC Changes made on: July 14, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="VXG"/>
+    <display value="VaxGen"/>
+    <definition value="VaxGen"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="[Inactive--use WAL]"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="WA"/>
+    <display value="Wyeth-Ayerst"/>
+    <definition value="Wyeth-Ayerst"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="WAL"/>
+    <display value="Wyeth-Ayerst"/>
+    <definition value="Wyeth-Ayerst"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="(includes Aventis Behring and Armour Pharmaceutical Company) CDC Changes made on: Feb. 28, 2006"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="ZLB"/>
+    <display value="ZLB Behring"/>
+    <definition value="ZLB Behring"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="OTH"/>
+    <display value="Other manufacturer"/>
+    <definition value="Other manufacturer"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="UNK"/>
+    <display value="Unknown manufacturer"/>
+    <definition value="Unknown manufacturer"/>
+  </concept>
+</CodeSystem>

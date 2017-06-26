@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0157-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0157-2.4"/>
+  <name value="V2Table0157Version2.4"/>
+  <title value="V2 Table 0157 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0157 Version 2.4 (Which date/time status qualifier)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0157"/>
+      <concept>
+        <code value="ANY"/>
+        <display value="Any status"/>
+      </concept>
+      <concept>
+        <code value="CFN"/>
+        <display value="Current final value, whether final or corrected"/>
+      </concept>
+      <concept>
+        <code value="COR"/>
+        <display value="Corrected only (no final with corrections)"/>
+      </concept>
+      <concept>
+        <code value="FIN"/>
+        <display value="Final only (no corrections)"/>
+      </concept>
+      <concept>
+        <code value="PRE"/>
+        <display value="Preliminary"/>
+      </concept>
+      <concept>
+        <code value="REP"/>
+        <display value="Report completion date/time"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

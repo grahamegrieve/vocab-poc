@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0325-2.3"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0325-2.3"/>
+  <name value="V2Table0325Version2.3"/>
+  <title value="V2 Table 0325 Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0325 Version 2.3 (Location Relationship ID)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0325"/>
+      <concept>
+        <code value="ALI"/>
+        <display value="Location alias(es)"/>
+      </concept>
+      <concept>
+        <code value="DTY"/>
+        <display value="Nearest Dietary"/>
+      </concept>
+      <concept>
+        <code value="LAB"/>
+        <display value="Nearest Lab"/>
+      </concept>
+      <concept>
+        <code value="LB2"/>
+        <display value="Second Lab"/>
+      </concept>
+      <concept>
+        <code value="PAR"/>
+        <display value="Parent location"/>
+      </concept>
+      <concept>
+        <code value="RX"/>
+        <display value="Nearest Pharmacy"/>
+      </concept>
+      <concept>
+        <code value="RX2"/>
+        <display value="Second Pharmacy"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

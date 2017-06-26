@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0485-2.9"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0485-2.9"/>
+  <name value="V2Table0485Version2.9"/>
+  <title value="V2 Table 0485 Version 2.9"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0485 Version 2.9 (Extended Priority Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0485"/>
+      <concept>
+        <code value="S"/>
+        <display value="Stat"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="ASAP"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Routine"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Preop"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Callback"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Timing critical"/>
+      </concept>
+      <concept>
+        <code value="TS&lt;integer&gt;"/>
+        <display value="Timing critical within &lt;integer&gt; seconds."/>
+      </concept>
+      <concept>
+        <code value="TM&lt;integer&gt;"/>
+        <display value="Timing critical within &lt;integer&gt; minutes."/>
+      </concept>
+      <concept>
+        <code value="TH&lt;integer&gt;"/>
+        <display value="Timing critical within &lt;integer&gt; hours."/>
+      </concept>
+      <concept>
+        <code value="TD&lt;integer&gt;"/>
+        <display value="Timing critical within &lt;integer&gt; days."/>
+      </concept>
+      <concept>
+        <code value="TW&lt;integer&gt;"/>
+        <display value="Timing critical within &lt;integer&gt; weeks."/>
+      </concept>
+      <concept>
+        <code value="TL&lt;integer&gt;"/>
+        <display value="Timing critical within &lt;integer&gt; months."/>
+      </concept>
+      <concept>
+        <code value="PRN"/>
+        <display value="As needed"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

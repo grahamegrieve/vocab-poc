@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0473"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0473"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.473"/>
+  </identifier>
+  <name value="V2Table0473"/>
+  <title value="V2 Table: Formulary Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0473 (Formulary Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0473"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="G"/>
+    <display value="This observation/service is on the formulary, and has guidelines"/>
+    <definition value="This observation/service is on the formulary, and has guidelines"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="N"/>
+    <display value="This observation/service is not on the formulary"/>
+    <definition value="This observation/service is not on the formulary"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="R"/>
+    <display value="This observation/service is on the formulary, but is restricted"/>
+    <definition value="This observation/service is on the formulary, but is restricted"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="Y"/>
+    <display value="This observation/service is on the formulary"/>
+    <definition value="This observation/service is on the formulary"/>
+  </concept>
+</CodeSystem>

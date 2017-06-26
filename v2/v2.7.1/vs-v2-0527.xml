@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0527-2.7.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0527-2.7.1"/>
+  <name value="V2Table0527Version2.7.1"/>
+  <title value="V2 Table 0527 Version 2.7.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0527 Version 2.7.1 (Calendar Alignment)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0527"/>
+      <concept>
+        <code value="MY"/>
+        <display value="month of the year"/>
+      </concept>
+      <concept>
+        <code value="WY"/>
+        <display value="week of the year"/>
+      </concept>
+      <concept>
+        <code value="DM"/>
+        <display value="day of the month"/>
+      </concept>
+      <concept>
+        <code value="DY"/>
+        <display value="day of the year"/>
+      </concept>
+      <concept>
+        <code value="DW"/>
+        <display value="day of the week (begins with Monday)"/>
+      </concept>
+      <concept>
+        <code value="HD"/>
+        <display value="hour of the day"/>
+      </concept>
+      <concept>
+        <code value="NH"/>
+        <display value="minute of the hour"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="second of the minute"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

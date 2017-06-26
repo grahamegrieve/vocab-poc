@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0659-2.9"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0659-2.9"/>
+  <name value="V2Table0659Version2.9"/>
+  <title value="V2 Table 0659 Version 2.9"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0659 Version 2.9 (Lot Control)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0659"/>
+      <concept>
+        <code value="1"/>
+        <display value="OR Mode Without Operator"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="OR Mode with Operator"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="CPD Mode Without Operator"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="CPD Mode With Operator"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Offline Mode"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

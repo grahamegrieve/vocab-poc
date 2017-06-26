@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0070-2.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0070-2.1"/>
+  <name value="V2Table0070Version2.1"/>
+  <title value="V2 Table 0070 Version 2.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0070 Version 2.1 (Specimen Source Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0070"/>
+      <concept>
+        <code value="BLD"/>
+        <display value="Blood"/>
+      </concept>
+      <concept>
+        <code value="BON"/>
+        <display value="Bone"/>
+      </concept>
+      <concept>
+        <code value="BRN"/>
+        <display value="Burn"/>
+      </concept>
+      <concept>
+        <code value="CNJT"/>
+        <display value="Conjunctiva"/>
+      </concept>
+      <concept>
+        <code value="CSF"/>
+        <display value="Cerebral spinal fluid"/>
+      </concept>
+      <concept>
+        <code value="CVX"/>
+        <display value="Cervix"/>
+      </concept>
+      <concept>
+        <code value="EAR"/>
+        <display value="Ear"/>
+      </concept>
+      <concept>
+        <code value="FIB"/>
+        <display value="Fibroblood"/>
+      </concept>
+      <concept>
+        <code value="HAR"/>
+        <display value="Hair"/>
+      </concept>
+      <concept>
+        <code value="MN"/>
+        <display value="Amniotic Fluid"/>
+      </concept>
+      <concept>
+        <code value="NOS"/>
+        <display value="Nose"/>
+      </concept>
+      <concept>
+        <code value="OTH"/>
+        <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="PLAS"/>
+        <display value="Plasma"/>
+      </concept>
+      <concept>
+        <code value="PRT"/>
+        <display value="Peritoneal Fluid"/>
+      </concept>
+      <concept>
+        <code value="RBC"/>
+        <display value="Erythrocytes"/>
+      </concept>
+      <concept>
+        <code value="SAL"/>
+        <display value="Saliva"/>
+      </concept>
+      <concept>
+        <code value="SEM"/>
+        <display value="Seminal Fluid"/>
+      </concept>
+      <concept>
+        <code value="SER"/>
+        <display value="Serum"/>
+      </concept>
+      <concept>
+        <code value="SKN"/>
+        <display value="Skin"/>
+      </concept>
+      <concept>
+        <code value="SNV"/>
+        <display value="Synovial Fluid"/>
+      </concept>
+      <concept>
+        <code value="STL"/>
+        <display value="Stool"/>
+      </concept>
+      <concept>
+        <code value="SWT"/>
+        <display value="Sweat"/>
+      </concept>
+      <concept>
+        <code value="THRT"/>
+        <display value="Throat"/>
+      </concept>
+      <concept>
+        <code value="TIS"/>
+        <display value="Tissue"/>
+      </concept>
+      <concept>
+        <code value="UMB"/>
+        <display value="Umbilical Blood"/>
+      </concept>
+      <concept>
+        <code value="UR"/>
+        <display value="Urine"/>
+      </concept>
+      <concept>
+        <code value="URTH"/>
+        <display value="Urethra"/>
+      </concept>
+      <concept>
+        <code value="WBC"/>
+        <display value="Leukocytes"/>
+      </concept>
+      <concept>
+        <code value="WND"/>
+        <display value="Wound"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

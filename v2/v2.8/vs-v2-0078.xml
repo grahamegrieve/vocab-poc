@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0078-2.8"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0078-2.8"/>
+  <name value="V2Table0078Version2.8"/>
+  <title value="V2 Table 0078 Version 2.8"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0078 Version 2.8 (Abnormal Flags)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0078"/>
+      <concept>
+        <code value="L"/>
+        <display value="Below low normal"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="Above high normal"/>
+      </concept>
+      <concept>
+        <code value="LL"/>
+        <display value="Below lower panic limits"/>
+      </concept>
+      <concept>
+        <code value="HH"/>
+        <display value="Above upper panic limits"/>
+      </concept>
+      <concept>
+        <code value="&lt;"/>
+        <display value="Below absolute low-off instrument scale"/>
+      </concept>
+      <concept>
+        <code value="&gt;"/>
+        <display value="Above absolute high-off instrument scale"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Normal (applies to non-numeric results)"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Abnormal (applies to non-numeric results)"/>
+      </concept>
+      <concept>
+        <code value="AA"/>
+        <display value="Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)"/>
+      </concept>
+      <concept>
+        <code value="null"/>
+        <display value="No range defined, or normal ranges don&#39;t apply"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Significant change up"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Significant change down"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Better-use when direction not relevant"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Worse-use when direction not relevant"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Susceptible. Indicates for microbiology susceptibilities only."/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Resistant. Indicates for microbiology susceptibilities only."/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Intermediate. Indicates for microbiology susceptibilities only."/>
+      </concept>
+      <concept>
+        <code value="MS"/>
+        <display value="Moderately susceptible. Indicates for microbiology susceptibilities only."/>
+      </concept>
+      <concept>
+        <code value="VS"/>
+        <display value="Very susceptible. Indicates for microbiology susceptibilities only."/>
+      </concept>
+      <concept>
+        <code value="POS"/>
+        <display value="Positive"/>
+      </concept>
+      <concept>
+        <code value="NEG"/>
+        <display value="Negative"/>
+      </concept>
+      <concept>
+        <code value="IND"/>
+        <display value="Indeterminate"/>
+      </concept>
+      <concept>
+        <code value="DET"/>
+        <display value="Detected"/>
+      </concept>
+      <concept>
+        <code value="ND"/>
+        <display value="Not Detected"/>
+      </concept>
+      <concept>
+        <code value="AC"/>
+        <display value="Anti-complementary substances present"/>
+      </concept>
+      <concept>
+        <code value="TOX"/>
+        <display value="Cytotoxic substance present"/>
+      </concept>
+      <concept>
+        <code value="QCF"/>
+        <display value="Quality Control Failure"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Reactive"/>
+      </concept>
+      <concept>
+        <code value="WR"/>
+        <display value="Weakly reactive"/>
+      </concept>
+      <concept>
+        <code value="NR"/>
+        <display value="Non-reactive"/>
+      </concept>
+      <concept>
+        <code value="OBX"/>
+        <display value="Interpretation qualifiers in separate OBX segments"/>
+      </concept>
+      <concept>
+        <code value="HM"/>
+        <display value="Hold for Medical Review"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0529"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0529"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.529"/>
+  </identifier>
+  <name value="V2Table0529"/>
+  <title value="V2 Table: Precision"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0529 (Precision)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0529"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="Y"/>
+    <display value="year"/>
+    <definition value="year"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="L"/>
+    <display value="month"/>
+    <definition value="month"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="D"/>
+    <display value="day"/>
+    <definition value="day"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="H"/>
+    <display value="hour"/>
+    <definition value="hour"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="M"/>
+    <display value="minute"/>
+    <definition value="minute"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="S"/>
+    <display value="second"/>
+    <definition value="second"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0183-2.3"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0183-2.3"/>
+  <name value="V2Table0183Version2.3"/>
+  <title value="V2 Table 0183 Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0183 Version 2.3 (Active/Inactive)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0183"/>
+      <concept>
+        <code value="A"/>
+        <display value="Active staff"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Inactive staff"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

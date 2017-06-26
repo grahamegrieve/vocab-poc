@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0173-2.7"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0173-2.7"/>
+  <name value="V2Table0173Version2.7"/>
+  <title value="V2 Table 0173 Version 2.7"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0173 Version 2.7 (Coordination of Benefits)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0173"/>
+      <concept>
+        <code value="CO"/>
+        <display value="Coordination"/>
+      </concept>
+      <concept>
+        <code value="IN"/>
+        <display value="Independent"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

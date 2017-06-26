@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0443-2.8"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0443-2.8"/>
+  <name value="V2Table0443Version2.8"/>
+  <title value="V2 Table 0443 Version 2.8"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0443 Version 2.8 (Provider role)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0443"/>
+      <concept>
+        <code value="AD"/>
+        <display value="Admitting"/>
+      </concept>
+      <concept>
+        <code value="AP"/>
+        <display value="Administering Provider"/>
+      </concept>
+      <concept>
+        <code value="AT"/>
+        <display value="Attending"/>
+      </concept>
+      <concept>
+        <code value="CLP"/>
+        <display value="Collecting Provider"/>
+      </concept>
+      <concept>
+        <code value="CP"/>
+        <display value="Consulting Provider"/>
+      </concept>
+      <concept>
+        <code value="DP"/>
+        <display value="Dispensing Provider"/>
+      </concept>
+      <concept>
+        <code value="EP"/>
+        <display value="Entering Provider (probably not the same as transcriptionist?)"/>
+      </concept>
+      <concept>
+        <code value="FHCP"/>
+        <display value="Family Health Care Professional"/>
+      </concept>
+      <concept>
+        <code value="IP"/>
+        <display value="Initiating Provider (as in action by)"/>
+      </concept>
+      <concept>
+        <code value="MDIR"/>
+        <display value="Medical Director"/>
+      </concept>
+      <concept>
+        <code value="OP"/>
+        <display value="Ordering Provider"/>
+      </concept>
+      <concept>
+        <code value="PH"/>
+        <display value="Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
+      </concept>
+      <concept>
+        <code value="PP"/>
+        <display value="Primary Care Provider"/>
+      </concept>
+      <concept>
+        <code value="RO"/>
+        <display value="Responsible Observer"/>
+      </concept>
+      <concept>
+        <code value="RP"/>
+        <display value="Referring Provider"/>
+      </concept>
+      <concept>
+        <code value="RT"/>
+        <display value="Referred to Provider"/>
+      </concept>
+      <concept>
+        <code value="TR"/>
+        <display value="Transcriptionist"/>
+      </concept>
+      <concept>
+        <code value="PI"/>
+        <display value="Primary Interpreter"/>
+      </concept>
+      <concept>
+        <code value="AI"/>
+        <display value="Assistant/Alternate Interpreter"/>
+      </concept>
+      <concept>
+        <code value="TN"/>
+        <display value="Technician"/>
+      </concept>
+      <concept>
+        <code value="VP"/>
+        <display value="Verifying Provider"/>
+      </concept>
+      <concept>
+        <code value="VPS"/>
+        <display value="Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
+      </concept>
+      <concept>
+        <code value="VTS"/>
+        <display value="Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

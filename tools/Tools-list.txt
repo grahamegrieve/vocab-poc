@@ -1,0 +1,28 @@
+Tools
+
+= User tooling =
+
+- terminology server - see (todo) (terminology server that uses this repository, for windows / mac)
+- value set editor - see: ?
+- concept map editor - see: ?
+- code system editor - see: ?
+
+= Build Pre-requisites =
+
+- Ant
+- java 1.8
+
+= Build Functionality =
+
+The build runs an extensive set of checks on the terminology repository:
+- that the FHIR resources are all syntactially and semantically valid
+- that there are no name clashes etc.
+- that the vocabulary design rules (see wiki) are being followed
+
+Then the build produces a set of outputs:
+- v2 table definitions for import into the v2 publishing processes
+- v3 MIF file(s) for V3 MIF based tooling
+- a set of outputs in FHIR IG Format for FHIR IG based tooling
+- other formats?
+
+Note that the FHIR build process uses the latest repository directly when publishing FHIR

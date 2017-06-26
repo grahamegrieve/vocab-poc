@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0291-2.3"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0291-2.3"/>
+  <name value="V2Table0291Version2.3"/>
+  <title value="V2 Table 0291 Version 2.3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0291 Version 2.3 (Subtype of Referenced Data)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0291"/>
+      <concept>
+        <code value="BASIC"/>
+        <display value="ISDN PCM audio data"/>
+      </concept>
+      <concept>
+        <code value="DICOM"/>
+        <display value="Digital Imaging and Communications in Medicine"/>
+      </concept>
+      <concept>
+        <code value="FAX"/>
+        <display value="Facsimile data"/>
+      </concept>
+      <concept>
+        <code value="GIF"/>
+        <display value="Needs formal description"/>
+      </concept>
+      <concept>
+        <code value="HTML"/>
+        <display value="Hypertext Markup Language"/>
+      </concept>
+      <concept>
+        <code value="JOT"/>
+        <display value="Electronic ink data (Jot 1.0 standard)"/>
+      </concept>
+      <concept>
+        <code value="JPEG"/>
+        <display value="Needs formal description"/>
+      </concept>
+      <concept>
+        <code value="Octet-stream"/>
+        <display value="Uninterpreted binary data"/>
+      </concept>
+      <concept>
+        <code value="PICT"/>
+        <display value="PICT format image data"/>
+      </concept>
+      <concept>
+        <code value="PostScript"/>
+        <display value="PostScript program"/>
+      </concept>
+      <concept>
+        <code value="RTF"/>
+        <display value="Rich Text Format"/>
+      </concept>
+      <concept>
+        <code value="TIFF"/>
+        <display value="TIFF image data"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

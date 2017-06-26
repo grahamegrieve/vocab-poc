@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0489-2.8"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0489-2.8"/>
+  <name value="V2Table0489Version2.8"/>
+  <title value="V2 Table 0489 Version 2.8"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0489 Version 2.8 (Risk Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0489"/>
+      <concept>
+        <code value="BIO"/>
+        <display value="Biological"/>
+      </concept>
+      <concept>
+        <code value="COR"/>
+        <display value="Corrosive"/>
+      </concept>
+      <concept>
+        <code value="ESC"/>
+        <display value="Escape Risk"/>
+      </concept>
+      <concept>
+        <code value="AGG"/>
+        <display value="Aggressive"/>
+      </concept>
+      <concept>
+        <code value="IFL"/>
+        <display value="MaterialDangerInflammable"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Explosive"/>
+      </concept>
+      <concept>
+        <code value="INF"/>
+        <display value="MaterialDangerInfectious"/>
+      </concept>
+      <concept>
+        <code value="BHZ"/>
+        <display value="Biohazard"/>
+      </concept>
+      <concept>
+        <code value="INJ"/>
+        <display value="Injury Hazard"/>
+      </concept>
+      <concept>
+        <code value="POI"/>
+        <display value="Poison"/>
+      </concept>
+      <concept>
+        <code value="RAD"/>
+        <display value="Radioactive"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

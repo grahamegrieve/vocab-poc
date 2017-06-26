@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0356-2.3.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0356-2.3.1"/>
+  <name value="V2Table0356Version2.3.1"/>
+  <title value="V2 Table 0356 Version 2.3.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0356 Version 2.3.1 (Alternate Character Set Handling Scheme)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0356"/>
+      <concept>
+        <code value="2.3"/>
+        <display value="The character set switching mode specified in HL7 2.3, sections 2.8.28.6.1, and 2.9.2.  Note that the escape sequences used in this mode are &quot;HL7 escapes sequences&quot; as defined in HL7 2.3, sec.  2.9, and do not use the ASCII &quot;esc&quot; character,"/>
+      </concept>
+      <concept>
+        <code value="ISO 2022-1994"/>
+        <display value="This standard is titled &quot;Information Technology - Character Code Structure  and Extension Technique&quot;. This standard specifies an escape sequence from basic one byte character set to specified other character set, and  vice versa.  The escape sequence expl"/>
+      </concept>
+      <concept>
+        <code value="&lt;null&gt;"/>
+        <display value="This is the default, indicating that there is no character set switching occurring in this message."/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

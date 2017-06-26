@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0909-2.7.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0909-2.7.1"/>
+  <name value="V2Table0909Version2.7.1"/>
+  <title value="V2 Table 0909 Version 2.7.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0909 Version 2.7.1 (Patient Results Release Categorization Scheme)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0909"/>
+      <concept>
+        <code value="STBD"/>
+        <display value="Share To Be Determined -&lt;p&gt;Category to be determined"/>
+      </concept>
+      <concept>
+        <code value="SIMM"/>
+        <display value="Share Immediately -&lt;p&gt;Share result with patient immediately"/>
+      </concept>
+      <concept>
+        <code value="SWNL"/>
+        <display value="Share Within Normal Limits -&lt;p&gt;Share result in reference/therapeutic range with patient immediately&lt;p&gt;Share result out of reference/therapeutic ranges with patient after 1 or more business day as agreed to by the systems in play."/>
+      </concept>
+      <concept>
+        <code value="SID"/>
+        <display value="Share In1 Day -&lt;p&gt;Share result regardless of reference/therapeutic range after 1 or more business day as agreed to by the systems in play."/>
+      </concept>
+      <concept>
+        <code value="SIDC"/>
+        <display value="Share in 1 Day Conditionally -&lt;p&gt;Share result in reference ranges/therapeutic with patient after 1 or more business day as agreed to by the systems in play.&lt;p&gt;Withhold result out of reference/therapeutic range until physician release"/>
+      </concept>
+      <concept>
+        <code value="SWTH"/>
+        <display value="Share Withhold -&lt;p&gt;Withhold result regardless of reference/therapeutic ranges"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

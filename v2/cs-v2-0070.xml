@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0070"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0070"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.70"/>
+  </identifier>
+  <name value="V2Table0070"/>
+  <title value="V2 Table: Specimen Source Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0070 (Specimen Source Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0070"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="MN"/>
+    <display value="Amniotic Fluid"/>
+    <definition value="Amniotic Fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="OTH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="TIS"/>
+    <display value="Tissue"/>
+    <definition value="Tissue"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ABS"/>
+    <display value="Abscess"/>
+    <definition value="Abscess"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="AMN"/>
+    <display value="Amniotic fluid"/>
+    <definition value="Amniotic fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ASP"/>
+    <display value="Aspirate"/>
+    <definition value="Aspirate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="BPH"/>
+    <display value="Basophils"/>
+    <definition value="Basophils"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="ABLD"/>
+    <display value="Arterial blood"/>
+    <definition value="Arterial blood"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BIFL"/>
+    <display value="Bile fluid"/>
+    <definition value="Bile fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BLDA"/>
+    <display value="Blood  arterial"/>
+    <definition value="Blood  arterial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="BBL"/>
+    <display value="Blood bag"/>
+    <definition value="Blood bag"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BLDC"/>
+    <display value="Blood  capillary"/>
+    <definition value="Blood  capillary"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BPU"/>
+    <display value="Blood product unit"/>
+    <definition value="Blood product unit"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="BLDV"/>
+    <display value="Blood  venous"/>
+    <definition value="Blood  venous"/>
+  </concept>
+  <concept>
+    <code value="BON"/>
+    <display value="Bone"/>
+    <definition value="Bone"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="BRTH"/>
+    <display value="Breath (use EXHLD)"/>
+    <definition value="Breath (use EXHLD)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="BRO"/>
+    <display value="Bronchial"/>
+    <definition value="Bronchial"/>
+  </concept>
+  <concept>
+    <code value="BRN"/>
+    <display value="Burn"/>
+    <definition value="Burn"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CALC"/>
+    <display value="Calculus (=Stone)"/>
+    <definition value="Calculus (=Stone)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CDM"/>
+    <display value="Cardiac muscle"/>
+    <definition value="Cardiac muscle"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CNL"/>
+    <display value="Cannula"/>
+    <definition value="Cannula"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CTP"/>
+    <display value="Catheter tip"/>
+    <definition value="Catheter tip"/>
+  </concept>
+  <concept>
+    <code value="CSF"/>
+    <display value="Cerebral spinal fluid"/>
+    <definition value="Cerebral spinal fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CVM"/>
+    <display value="Cervical mucus"/>
+    <definition value="Cervical mucus"/>
+  </concept>
+  <concept>
+    <code value="CVX"/>
+    <display value="Cervix"/>
+    <definition value="Cervix"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="COL"/>
+    <display value="Colostrum"/>
+    <definition value="Colostrum"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="CBLD"/>
+    <display value="Cord blood"/>
+    <definition value="Cord blood"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BLDCO"/>
+    <display value="Cord blood"/>
+    <definition value="Cord blood"/>
+  </concept>
+  <concept>
+    <code value="CNJT"/>
+    <display value="Conjunctiva"/>
+    <definition value="Conjunctiva"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CUR"/>
+    <display value="Curettage"/>
+    <definition value="Curettage"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CYST"/>
+    <display value="Cyst"/>
+    <definition value="Cyst"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="DIAF"/>
+    <display value="Dialysis fluid"/>
+    <definition value="Dialysis fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="DOSE"/>
+    <display value="Dose med or substance"/>
+    <definition value="Dose med or substance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="DRN"/>
+    <display value="Drain"/>
+    <definition value="Drain"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="DUFL"/>
+    <display value="Duodenal fluid"/>
+    <definition value="Duodenal fluid"/>
+  </concept>
+  <concept>
+    <code value="EAR"/>
+    <display value="Ear"/>
+    <definition value="Ear"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="EARW"/>
+    <display value="Ear wax (cerumen)"/>
+    <definition value="Ear wax (cerumen)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ELT"/>
+    <display value="Electrode"/>
+    <definition value="Electrode"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ENDC"/>
+    <display value="Endocardium"/>
+    <definition value="Endocardium"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ENDM"/>
+    <display value="Endometrium"/>
+    <definition value="Endometrium"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="EOS"/>
+    <display value="Eosinophils"/>
+    <definition value="Eosinophils"/>
+  </concept>
+  <concept>
+    <code value="RBC"/>
+    <display value="Erythrocytes"/>
+    <definition value="Erythrocytes"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="EYE"/>
+    <display value="Eye"/>
+    <definition value="Eye"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="EXHLD"/>
+    <display value="Exhaled gas (=breath)"/>
+    <definition value="Exhaled gas (=breath)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="EXG"/>
+    <display value="Exhaled gas (=breath)"/>
+    <definition value="Exhaled gas (=breath)"/>
+  </concept>
+  <concept>
+    <code value="FIB"/>
+    <display value="Fibroblasts"/>
+    <definition value="Fibroblasts"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="FLT"/>
+    <display value="Filter"/>
+    <definition value="Filter"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="FIST"/>
+    <display value="Fistula"/>
+    <definition value="Fistula"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="FLU"/>
+    <display value="Body fluid, unsp"/>
+    <definition value="Body fluid, unsp"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="GAS"/>
+    <display value="Gas"/>
+    <definition value="Gas"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="GAST"/>
+    <display value="Gastric fluid/contents"/>
+    <definition value="Gastric fluid/contents"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="GEN"/>
+    <display value="Genital"/>
+    <definition value="Genital"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="GENC"/>
+    <display value="Genital cervix"/>
+    <definition value="Genital cervix"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="GENL"/>
+    <display value="Genital lochia"/>
+    <definition value="Genital lochia"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="GENV"/>
+    <display value="Genital vaginal"/>
+    <definition value="Genital vaginal"/>
+  </concept>
+  <concept>
+    <code value="HAR"/>
+    <display value="Hair"/>
+    <definition value="Hair"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="IHG"/>
+    <display value="Inhaled Gas"/>
+    <definition value="Inhaled Gas"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IT"/>
+    <display value="Intubation tube"/>
+    <definition value="Intubation tube"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="ISLT"/>
+    <display value="Isolate"/>
+    <definition value="Isolate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="LAM"/>
+    <display value="Lamella"/>
+    <definition value="Lamella"/>
+  </concept>
+  <concept>
+    <code value="WBC"/>
+    <display value="Leukocytes"/>
+    <definition value="Leukocytes"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="LN"/>
+    <display value="Line"/>
+    <definition value="Line"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="LNA"/>
+    <display value="Line arterial"/>
+    <definition value="Line arterial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="PER"/>
+    <display value="Peritoneum"/>
+    <definition value="Peritoneum"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="LNV"/>
+    <display value="Line venous"/>
+    <definition value="Line venous"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="LIQ"/>
+    <display value="Liquid NOS"/>
+    <definition value="Liquid NOS"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="LYM"/>
+    <display value="Lymphocytes"/>
+    <definition value="Lymphocytes"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MAC"/>
+    <display value="Macrophages"/>
+    <definition value="Macrophages"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MAR"/>
+    <display value="Marrow"/>
+    <definition value="Marrow"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MEC"/>
+    <display value="Meconium"/>
+    <definition value="Meconium"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MBLD"/>
+    <display value="Menstrual blood"/>
+    <definition value="Menstrual blood"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MLK"/>
+    <display value="Milk"/>
+    <definition value="Milk"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="MILK"/>
+    <display value="Breast milk"/>
+    <definition value="Breast milk"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NAIL"/>
+    <display value="Nail"/>
+    <definition value="Nail"/>
+  </concept>
+  <concept>
+    <code value="NOS"/>
+    <display value="Nose (nasal passage)"/>
+    <definition value="Nose (nasal passage)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ORH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PAFL"/>
+    <display value="Pancreatic fluid"/>
+    <definition value="Pancreatic fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PAT"/>
+    <display value="Patient"/>
+    <definition value="Patient"/>
+  </concept>
+  <concept>
+    <code value="PRT"/>
+    <display value="Peritoneal fluid /ascites"/>
+    <definition value="Peritoneal fluid /ascites"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PLC"/>
+    <display value="Placenta"/>
+    <definition value="Placenta"/>
+  </concept>
+  <concept>
+    <code value="PLAS"/>
+    <display value="Plasma"/>
+    <definition value="Plasma"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PLB"/>
+    <display value="Plasma bag"/>
+    <definition value="Plasma bag"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PLR"/>
+    <display value="Pleural fluid (thoracentesis fld)"/>
+    <definition value="Pleural fluid (thoracentesis fld)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PMN"/>
+    <display value="Polymorphonuclear neutrophils"/>
+    <definition value="Polymorphonuclear neutrophils"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PPP"/>
+    <display value="Platelet poor plasma"/>
+    <definition value="Platelet poor plasma"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PRP"/>
+    <display value="Platelet rich plasma"/>
+    <definition value="Platelet rich plasma"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PUS"/>
+    <display value="Pus"/>
+    <definition value="Pus"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="TISB"/>
+    <display value="Tissue bone marrow"/>
+    <definition value="Tissue bone marrow"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="RT"/>
+    <display value="Route of medicine"/>
+    <definition value="Route of medicine"/>
+  </concept>
+  <concept>
+    <code value="SAL"/>
+    <display value="Saliva"/>
+    <definition value="Saliva"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="SEM"/>
+    <display value="Seminal fluid"/>
+    <definition value="Seminal fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="TISL"/>
+    <display value="Tissue lung"/>
+    <definition value="Tissue lung"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SMN"/>
+    <display value="Seminal fluid"/>
+    <definition value="Seminal fluid"/>
+  </concept>
+  <concept>
+    <code value="SER"/>
+    <display value="Serum"/>
+    <definition value="Serum"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="TISP"/>
+    <display value="Tissue peritoneum"/>
+    <definition value="Tissue peritoneum"/>
+  </concept>
+  <concept>
+    <code value="SKN"/>
+    <display value="Skin"/>
+    <definition value="Skin"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SKM"/>
+    <display value="Skeletal muscle"/>
+    <definition value="Skeletal muscle"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="TISC"/>
+    <display value="Tissue curettage"/>
+    <definition value="Tissue curettage"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SPRM"/>
+    <display value="Spermatozoa"/>
+    <definition value="Spermatozoa"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SPT"/>
+    <display value="Sputum"/>
+    <definition value="Sputum"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SPTC"/>
+    <display value="Sputum - coughed"/>
+    <definition value="Sputum - coughed"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SPTT"/>
+    <display value="Sputum - tracheal aspirate"/>
+    <definition value="Sputum - tracheal aspirate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="STON"/>
+    <display value="Stone (use CALC)"/>
+    <definition value="Stone (use CALC)"/>
+  </concept>
+  <concept>
+    <code value="STL"/>
+    <display value="Stool = Fecal"/>
+    <definition value="Stool = Fecal"/>
+  </concept>
+  <concept>
+    <code value="SWT"/>
+    <display value="Sweat"/>
+    <definition value="Sweat"/>
+  </concept>
+  <concept>
+    <code value="SNV"/>
+    <display value="Synovial fluid (Joint fluid)"/>
+    <definition value="Synovial fluid (Joint fluid)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="TEAR"/>
+    <display value="Tears"/>
+    <definition value="Tears"/>
+  </concept>
+  <concept>
+    <code value="THRT"/>
+    <display value="Throat"/>
+    <definition value="Throat"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="THRB"/>
+    <display value="Thrombocyte (platelet)"/>
+    <definition value="Thrombocyte (platelet)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="TISS"/>
+    <display value="Tissue"/>
+    <definition value="Tissue"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="TISG"/>
+    <display value="Tissue gall bladder"/>
+    <definition value="Tissue gall bladder"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="TLGI"/>
+    <display value="Tissue large intestine"/>
+    <definition value="Tissue large intestine"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="TLNG"/>
+    <display value="Tissue lung"/>
+    <definition value="Tissue lung"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="TISPL"/>
+    <display value="Tissue placenta"/>
+    <definition value="Tissue placenta"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="TSMI"/>
+    <display value="Tissue small intestine"/>
+    <definition value="Tissue small intestine"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="TISU"/>
+    <display value="Tissue ulcer"/>
+    <definition value="Tissue ulcer"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="TUB"/>
+    <display value="Tube NOS"/>
+    <definition value="Tube NOS"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ULC"/>
+    <display value="Ulcer"/>
+    <definition value="Ulcer"/>
+  </concept>
+  <concept>
+    <code value="UMB"/>
+    <display value="Umbilical blood"/>
+    <definition value="Umbilical blood"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="UMED"/>
+    <display value="Unknown medicine"/>
+    <definition value="Unknown medicine"/>
+  </concept>
+  <concept>
+    <code value="URTH"/>
+    <display value="Urethra"/>
+    <definition value="Urethra"/>
+  </concept>
+  <concept>
+    <code value="UR"/>
+    <display value="Urine"/>
+    <definition value="Urine"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="URC"/>
+    <display value="Urine clean catch"/>
+    <definition value="Urine clean catch"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="URT"/>
+    <display value="Urine catheter"/>
+    <definition value="Urine catheter"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="URNS"/>
+    <display value="Urine sediment"/>
+    <definition value="Urine sediment"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="USUB"/>
+    <display value="Unknown substance"/>
+    <definition value="Unknown substance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="VITF"/>
+    <display value="Vitreous Fluid"/>
+    <definition value="Vitreous Fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="VOM"/>
+    <display value="Vomitus"/>
+    <definition value="Vomitus"/>
+  </concept>
+  <concept>
+    <code value="BLD"/>
+    <display value="Whole blood"/>
+    <definition value="Whole blood"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="BDY"/>
+    <display value="Whole body"/>
+    <definition value="Whole body"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="WAT"/>
+    <display value="Water"/>
+    <definition value="Water"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WICK"/>
+    <display value="Wick"/>
+    <definition value="Wick"/>
+  </concept>
+  <concept>
+    <code value="WND"/>
+    <display value="Wound"/>
+    <definition value="Wound"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WNDA"/>
+    <display value="Wound abscess"/>
+    <definition value="Wound abscess"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WNDE"/>
+    <display value="Wound exudate"/>
+    <definition value="Wound exudate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WNDD"/>
+    <display value="Wound drainage"/>
+    <definition value="Wound drainage"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="XXX"/>
+    <display value="To be specified in another part of the message"/>
+    <definition value="To be specified in another part of the message"/>
+  </concept>
+</CodeSystem>

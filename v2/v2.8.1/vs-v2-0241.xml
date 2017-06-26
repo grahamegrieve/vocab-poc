@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0241-2.8.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0241-2.8.1"/>
+  <name value="V2Table0241Version2.8.1"/>
+  <title value="V2 Table 0241 Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0241 Version 2.8.1 (Patient Outcome)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0241"/>
+      <concept>
+        <code value="D"/>
+        <display value="Died"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Recovering"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Not recovering/unchanged"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Worsening"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Sequelae"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Fully recovered"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0374-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0374-2.4"/>
+  <name value="V2Table0374Version2.4"/>
+  <title value="V2 Table 0374 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0374 Version 2.4 (System Induced Contaminants)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0374"/>
+      <concept>
+        <code value="CNTM"/>
+        <display value="Present, type of contamination unspecified"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

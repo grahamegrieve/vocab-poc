@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-conceptdomains"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-conceptdomains"/>
+  <name value="V2ConceptDomains"/>
+  <title value="V2 Concept Domains"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:30:58+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - one concept domain for each table"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="0005"/>
+    <display value="Race (0005)"/>
+    <definition value="Race"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.5"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0006"/>
+    <display value="Religion (0006)"/>
+    <definition value="Religion"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.6"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0010"/>
+    <display value="Physician ID (0010)"/>
+    <definition value="Physician ID"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.10"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0017"/>
+    <display value="Transaction type (0017)"/>
+    <definition value="Transaction type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.17"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0018"/>
+    <display value="PATIENT TYPE (0018)"/>
+    <definition value="PATIENT TYPE"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.18"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0019"/>
+    <display value="Anesthesia Code (0019)"/>
+    <definition value="Anesthesia Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.19"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0021"/>
+    <display value="Bad Debt Agency Code (0021)"/>
+    <definition value="Bad Debt Agency Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.21"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0022"/>
+    <display value="Billing Status (0022)"/>
+    <definition value="Billing Status"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.22"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0023"/>
+    <display value="Admit Source (0023)"/>
+    <definition value="Admit Source"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.23"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0024"/>
+    <display value="Fee Schedule (0024)"/>
+    <definition value="Fee Schedule"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.24"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0032"/>
+    <display value="Charge Price Indicator (0032)"/>
+    <definition value="Charge Price Indicator"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.32"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0033"/>
+    <display value="ROUTE (0033)"/>
+    <definition value="ROUTE"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.33"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0034"/>
+    <display value="SITE ADMINISTERED (0034)"/>
+    <definition value="SITE ADMINISTERED"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.34"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0036"/>
+    <display value="UNITS OF MEASURE - ISO528,1977 (0036)"/>
+    <definition value="UNITS OF MEASURE - ISO528,1977"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.36"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0042"/>
+    <display value="Company Plan Code (0042)"/>
+    <definition value="Company Plan Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.42"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0043"/>
+    <display value="Condition Code (0043)"/>
+    <definition value="Condition Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.43"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0044"/>
+    <display value="Contract code (0044)"/>
+    <definition value="Contract code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.44"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0045"/>
+    <display value="Courtesy Code (0045)"/>
+    <definition value="Courtesy Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.45"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0046"/>
+    <display value="Credit Rating (0046)"/>
+    <definition value="Credit Rating"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.46"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0048"/>
+    <display value="What subject filter (0048)"/>
+    <definition value="What subject filter"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.48"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0049"/>
+    <display value="Department Code (0049)"/>
+    <definition value="Department Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.49"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0050"/>
+    <display value="Accident Code (0050)"/>
+    <definition value="Accident Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.50"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0051"/>
+    <display value="Diagnosis Code (0051)"/>
+    <definition value="Diagnosis Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.51"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0052"/>
+    <display value="Diagnosis type (0052)"/>
+    <definition value="Diagnosis type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.52"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0053"/>
+    <display value="Diagnosis Coding Method (0053)"/>
+    <definition value="Diagnosis Coding Method"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.53"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0055"/>
+    <display value="Diagnosis Related Group (0055)"/>
+    <definition value="Diagnosis Related Group"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.55"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0056"/>
+    <display value="DRG Grouper Review Code (0056)"/>
+    <definition value="DRG Grouper Review Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.56"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0057"/>
+    <display value="DRUG CODE (0057)"/>
+    <definition value="DRUG CODE"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.57"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0059"/>
+    <display value="Consent Code (0059)"/>
+    <definition value="Consent Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.59"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0060"/>
+    <display value="ERROR CODE (0060)"/>
+    <definition value="ERROR CODE"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.60"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0063"/>
+    <display value="Contact Role (0063)"/>
+    <definition value="Contact Role"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.63"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0064"/>
+    <display value="Financial Class (0064)"/>
+    <definition value="Financial Class"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.64"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0068"/>
+    <display value="Guarantor Type (0068)"/>
+    <definition value="Guarantor Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.68"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0072"/>
+    <display value="Type of payer (0072)"/>
+    <definition value="Type of payer"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.72"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0073"/>
+    <display value="Interest Rate Code (0073)"/>
+    <definition value="Interest Rate Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.73"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0075"/>
+    <display value="REPORT TYPES (0075)"/>
+    <definition value="REPORT TYPES"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.75"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0079"/>
+    <display value="Location (0079)"/>
+    <definition value="Location"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.79"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0081"/>
+    <display value="NOTICE OF ADMISSION (0081)"/>
+    <definition value="NOTICE OF ADMISSION"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.81"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0083"/>
+    <display value="Outlier Type (0083)"/>
+    <definition value="Outlier Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.83"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0084"/>
+    <display value="Performed by (0084)"/>
+    <definition value="Performed by"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.84"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0086"/>
+    <display value="Plan Id (0086)"/>
+    <definition value="Plan Id"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.86"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0087"/>
+    <display value="Pre-admit test indicator (0087)"/>
+    <definition value="Pre-admit test indicator"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.87"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0088"/>
+    <display value="Procedure Code (0088)"/>
+    <definition value="Procedure Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.88"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0089"/>
+    <display value="Procedure Coding Method (0089)"/>
+    <definition value="Procedure Coding Method"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.89"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0090"/>
+    <display value="PROCEDURE TYPE (0090)"/>
+    <definition value="PROCEDURE TYPE"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.90"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0096"/>
+    <display value="FINANCIAL TRANSACTION CODE (0096)"/>
+    <definition value="FINANCIAL TRANSACTION CODE"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.96"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0099"/>
+    <display value="VIP-Indicator (0099)"/>
+    <definition value="VIP-Indicator"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.99"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0101"/>
+    <display value="DISPLAY LEVEL (0101)"/>
+    <definition value="DISPLAY LEVEL"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.101"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0110"/>
+    <display value="Transfer to Bad Debt Code (0110)"/>
+    <definition value="Transfer to Bad Debt Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.110"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0111"/>
+    <display value="Delete Account Code (0111)"/>
+    <definition value="Delete Account Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.111"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0113"/>
+    <display value="Discharged to location (0113)"/>
+    <definition value="Discharged to location"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.113"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0114"/>
+    <display value="Diet Type (0114)"/>
+    <definition value="Diet Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.114"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0115"/>
+    <display value="Servicing Facilities (0115)"/>
+    <definition value="Servicing Facilities"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.115"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0117"/>
+    <display value="Account Status (0117)"/>
+    <definition value="Account Status"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.117"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0118"/>
+    <display value="Major Diagnostic Category (0118)"/>
+    <definition value="Major Diagnostic Category"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.118"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0129"/>
+    <display value="Accommodation Code (0129)"/>
+    <definition value="Accommodation Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.129"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0132"/>
+    <display value="Transaction Code (0132)"/>
+    <definition value="Transaction Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.132"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0136"/>
+    <display value="Yes/No Table (0136)"/>
+    <definition value="Yes/No Table"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.136"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0139"/>
+    <display value="Employer Information Data (0139)"/>
+    <definition value="Employer Information Data"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.139"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0143"/>
+    <display value="Non-covered Insurance Code (0143)"/>
+    <definition value="Non-covered Insurance Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.143"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0151"/>
+    <display value="Second Opinion Status (0151)"/>
+    <definition value="Second Opinion Status"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.151"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0152"/>
+    <display value="Second Opinion Documentation Received (0152)"/>
+    <definition value="Second Opinion Documentation Received"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.152"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0153"/>
+    <display value="Value Code (0153)"/>
+    <definition value="Value Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.153"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0171"/>
+    <display value="Citizenship (0171)"/>
+    <definition value="Citizenship"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.171"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0172"/>
+    <display value="Veterans Military Status (0172)"/>
+    <definition value="Veterans Military Status"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.172"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0182"/>
+    <display value="Staff Type (0182)"/>
+    <definition value="Staff Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.182"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0184"/>
+    <display value="Department (0184)"/>
+    <definition value="Department"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.184"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0186"/>
+    <display value="Practitioner Category (0186)"/>
+    <definition value="Practitioner Category"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.186"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0188"/>
+    <display value="Operator ID (0188)"/>
+    <definition value="Operator ID"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.188"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0192"/>
+    <display value="Visit ID Type (0192)"/>
+    <definition value="Visit ID Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.192"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0212"/>
+    <display value="Nationality (0212)"/>
+    <definition value="Nationality"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.212"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0218"/>
+    <display value="Charge Adjustment (0218)"/>
+    <definition value="Charge Adjustment"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.218"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0219"/>
+    <display value="Recurring Service Code (0219)"/>
+    <definition value="Recurring Service Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.219"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0222"/>
+    <display value="Contact Reason (0222)"/>
+    <definition value="Contact Reason"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.222"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0233"/>
+    <display value="Non-Concur Code/Description (0233)"/>
+    <definition value="Non-Concur Code/Description"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.233"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0244"/>
+    <display value="Single Use Device (0244)"/>
+    <definition value="Single Use Device"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.244"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0245"/>
+    <display value="Product Problem (0245)"/>
+    <definition value="Product Problem"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.245"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0246"/>
+    <display value="Product Available for Inspection (0246)"/>
+    <definition value="Product Available for Inspection"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.246"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0249"/>
+    <display value="Generic Product (0249)"/>
+    <definition value="Generic Product"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.249"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0264"/>
+    <display value="Location Department (0264)"/>
+    <definition value="Location Department"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.264"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0285"/>
+    <display value="Insurance Company ID Codes (0285)"/>
+    <definition value="Insurance Company ID Codes"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.285"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0288"/>
+    <display value="Census Tract (0288)"/>
+    <definition value="Census Tract"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.288"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0289"/>
+    <display value="County/Parish (0289)"/>
+    <definition value="County/Parish"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.289"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0293"/>
+    <display value="Billing Category (0293)"/>
+    <definition value="Billing Category"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.293"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0295"/>
+    <display value="Handicap (0295)"/>
+    <definition value="Handicap"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.295"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0296"/>
+    <display value="Primary Language (0296)"/>
+    <definition value="Primary Language"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.296"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0297"/>
+    <display value="CN ID Source (0297)"/>
+    <definition value="CN ID Source"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.297"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0300"/>
+    <display value="Namespace ID (0300)"/>
+    <definition value="Namespace ID"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.300"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0302"/>
+    <display value="Point of Care (0302)"/>
+    <definition value="Point of Care"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.302"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0303"/>
+    <display value="Room (0303)"/>
+    <definition value="Room"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.303"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0304"/>
+    <display value="Bed (0304)"/>
+    <definition value="Bed"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.304"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0306"/>
+    <display value="Location Status (0306)"/>
+    <definition value="Location Status"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.306"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0307"/>
+    <display value="Building (0307)"/>
+    <definition value="Building"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.307"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0308"/>
+    <display value="Floor (0308)"/>
+    <definition value="Floor"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.308"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0312"/>
+    <display value="Policy Scope (0312)"/>
+    <definition value="Policy Scope"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.312"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0313"/>
+    <display value="- Policy Source (0313)"/>
+    <definition value="- Policy Source"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.313"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0319"/>
+    <display value="Department Cost Center (0319)"/>
+    <definition value="Department Cost Center"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.319"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0320"/>
+    <display value="Item Natural Account Code (0320)"/>
+    <definition value="Item Natural Account Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.320"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0327"/>
+    <display value="Job Code (0327)"/>
+    <definition value="Job Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.327"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0328"/>
+    <display value="Employee Classification (0328)"/>
+    <definition value="Employee Classification"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.328"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0333"/>
+    <display value="Driver&#39;s License Issuing Authority (0333)"/>
+    <definition value="Driver&#39;s License Issuing Authority"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.333"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0340"/>
+    <display value="Procedure Code Modifier (0340)"/>
+    <definition value="Procedure Code Modifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.340"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0341"/>
+    <display value="Guarantor Credit Rating Code (0341)"/>
+    <definition value="Guarantor Credit Rating Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.341"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0342"/>
+    <display value="Military Recipient (0342)"/>
+    <definition value="Military Recipient"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.342"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0343"/>
+    <display value="Military Handicapped Program Code (0343)"/>
+    <definition value="Military Handicapped Program Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.343"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0345"/>
+    <display value="Appeal Reason (0345)"/>
+    <definition value="Appeal Reason"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.345"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0346"/>
+    <display value="Certification Agency (0346)"/>
+    <definition value="Certification Agency"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.346"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0347"/>
+    <display value="State/Province (0347)"/>
+    <definition value="State/Province"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.347"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0348"/>
+    <display value="Special Program Indicator (0348)"/>
+    <definition value="Special Program Indicator"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.348"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0349"/>
+    <display value="PSRO/UR Approval Indicator (0349)"/>
+    <definition value="PSRO/UR Approval Indicator"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.349"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0350"/>
+    <display value="Occurrence Code (0350)"/>
+    <definition value="Occurrence Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.350"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0351"/>
+    <display value="Occurrence Span (0351)"/>
+    <definition value="Occurrence Span"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.351"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0353"/>
+    <display value="CWE statuses (0353)"/>
+    <definition value="CWE statuses"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.353"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0358"/>
+    <display value="Practitioner Group (0358)"/>
+    <definition value="Practitioner Group"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.358"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0361"/>
+    <display value="Application (0361)"/>
+    <definition value="Application"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.361"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0362"/>
+    <display value="Facility (0362)"/>
+    <definition value="Facility"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.362"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0363"/>
+    <display value="Assigning Authority (0363)"/>
+    <definition value="Assigning Authority"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.363"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0378"/>
+    <display value="Carrier Type (0378)"/>
+    <definition value="Carrier Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.378"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0379"/>
+    <display value="Tray Type (0379)"/>
+    <definition value="Tray Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.379"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0380"/>
+    <display value="Separator Type (0380)"/>
+    <definition value="Separator Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.380"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0381"/>
+    <display value="Cap Type (0381)"/>
+    <definition value="Cap Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.381"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0382"/>
+    <display value="Drug Interference (0382)"/>
+    <definition value="Drug Interference"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.382"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0385"/>
+    <display value="Manufacturer Identifier (0385)"/>
+    <definition value="Manufacturer Identifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.385"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0386"/>
+    <display value="Supplier Identifier (0386)"/>
+    <definition value="Supplier Identifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.386"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0399"/>
+    <display value="Country Code (0399)"/>
+    <definition value="Country Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.399"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0405"/>
+    <display value="Organization Unit (0405)"/>
+    <definition value="Organization Unit"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.405"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0411"/>
+    <display value="Supplemental Service Information Values (0411)"/>
+    <definition value="Supplemental Service Information Values"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.411"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0412"/>
+    <display value="Category Identifier (0412)"/>
+    <definition value="Category Identifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.412"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0413"/>
+    <display value="Consent Identifier (0413)"/>
+    <definition value="Consent Identifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.413"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0414"/>
+    <display value="Units of Time (0414)"/>
+    <definition value="Units of Time"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.414"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0446"/>
+    <display value="Species Code (0446)"/>
+    <definition value="Species Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.446"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0447"/>
+    <display value="Breed Code (0447)"/>
+    <definition value="Breed Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.447"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0448"/>
+    <display value="Name Context (0448)"/>
+    <definition value="Name Context"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.448"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0451"/>
+    <display value="Substance Identifier (0451)"/>
+    <definition value="Substance Identifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.451"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0452"/>
+    <display value="Health Care Provider Type Code (0452)"/>
+    <definition value="Health Care Provider Type Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.452"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0453"/>
+    <display value="Health Care Provider Classification (0453)"/>
+    <definition value="Health Care Provider Classification"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.453"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0454"/>
+    <display value="Health Care Provider Area of Specialization (0454)"/>
+    <definition value="Health Care Provider Area of Specialization"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.454"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0455"/>
+    <display value="Type of Bill Code (0455)"/>
+    <definition value="Type of Bill Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.455"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0456"/>
+    <display value="Revenue code (0456)"/>
+    <definition value="Revenue code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.456"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0458"/>
+    <display value="OCE Edit Code (0458)"/>
+    <definition value="OCE Edit Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.458"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0461"/>
+    <display value="License Number (0461)"/>
+    <definition value="License Number"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.461"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0462"/>
+    <display value="Location Cost Center (0462)"/>
+    <definition value="Location Cost Center"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.462"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0463"/>
+    <display value="Inventory Number (0463)"/>
+    <definition value="Inventory Number"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.463"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0464"/>
+    <display value="Facility ID (0464)"/>
+    <definition value="Facility ID"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.464"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0467"/>
+    <display value="Modifier Edit Code (0467)"/>
+    <definition value="Modifier Edit Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.467"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0471"/>
+    <display value="Query Name (0471)"/>
+    <definition value="Query Name"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.471"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0476"/>
+    <display value="Medically Necessary Duplicate Procedure Reason (0476)"/>
+    <definition value="Medically Necessary Duplicate Procedure Reason"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.476"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0479"/>
+    <display value="Pharmaceutical Substances (0479)"/>
+    <definition value="Pharmaceutical Substances"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.479"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0509"/>
+    <display value="Indication for Use (0509)"/>
+    <definition value="Indication for Use"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.509"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0512"/>
+    <display value="Commercial Product (0512)"/>
+    <definition value="Commercial Product"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.512"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0515"/>
+    <display value="Transfusion Interrupted Reason (0515)"/>
+    <definition value="Transfusion Interrupted Reason"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.515"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0519"/>
+    <display value="Override Reason (0519)"/>
+    <definition value="Override Reason"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.519"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0521"/>
+    <display value="Override Code (0521)"/>
+    <definition value="Override Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.521"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0525"/>
+    <display value="Privilege (0525)"/>
+    <definition value="Privilege"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.525"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0526"/>
+    <display value="Privilege Class (0526)"/>
+    <definition value="Privilege Class"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.526"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0531"/>
+    <display value="Institution (0531)"/>
+    <definition value="Institution"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.531"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0532"/>
+    <display value="Expanded Yes/no Indicator (0532)"/>
+    <definition value="Expanded Yes/no Indicator"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.532"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0533"/>
+    <display value="Application Error Code (0533)"/>
+    <definition value="Application Error Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.533"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0537"/>
+    <display value="Institution (0537)"/>
+    <definition value="Institution"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.537"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0539"/>
+    <display value="Cost Center Code (0539)"/>
+    <definition value="Cost Center Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.539"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0541"/>
+    <display value="Specimen Type Modifier (0541)"/>
+    <definition value="Specimen Type Modifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.541"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0542"/>
+    <display value="Specimen Source Type Modifier (0542)"/>
+    <definition value="Specimen Source Type Modifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.542"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0543"/>
+    <display value="Specimen Collection Site (0543)"/>
+    <definition value="Specimen Collection Site"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.543"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0544"/>
+    <display value="Container Condition (0544)"/>
+    <definition value="Container Condition"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.544"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0545"/>
+    <display value="Language Translated To (0545)"/>
+    <definition value="Language Translated To"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.545"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0549"/>
+    <display value="NDC Codes (0549)"/>
+    <definition value="NDC Codes"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.549"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0552"/>
+    <display value="Advanced Beneficiary Notice Override Reason (0552)"/>
+    <definition value="Advanced Beneficiary Notice Override Reason"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.552"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0771"/>
+    <display value="Resource Type or Category (0771)"/>
+    <definition value="Resource Type or Category"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.771"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0809"/>
+    <display value="Maintenance Cycle (0809)"/>
+    <definition value="Maintenance Cycle"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.809"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0811"/>
+    <display value="Maintenance Type (0811)"/>
+    <definition value="Maintenance Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.811"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0836"/>
+    <display value="Problem Severity (0836)"/>
+    <definition value="Problem Severity"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.836"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0838"/>
+    <display value="Problem Perspective (0838)"/>
+    <definition value="Problem Perspective"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.838"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0865"/>
+    <display value="Referral Documentation Completion Status (0865)"/>
+    <definition value="Referral Documentation Completion Status"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.865"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0879"/>
+    <display value="Product/Service Code (0879)"/>
+    <definition value="Product/Service Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.879"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0880"/>
+    <display value="Product/Service Code Modifier (0880)"/>
+    <definition value="Product/Service Code Modifier"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.880"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0908"/>
+    <display value="Package Type (0908)"/>
+    <definition value="Package Type"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.908"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0910"/>
+    <display value="Acquisition Modality (0910)"/>
+    <definition value="Acquisition Modality"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.910"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="0913"/>
+    <display value="Monetary Denomination Code (0913)"/>
+    <definition value="Monetary Denomination Code"/>
+    <designation>
+      <use>
+        <system value="http://something..."/>
+        <code value="oid"/>
+      </use>
+      <value value="urn:oid:2.16.840.1.113883.12.913"/>
+    </designation>
+  </concept>
+</CodeSystem>

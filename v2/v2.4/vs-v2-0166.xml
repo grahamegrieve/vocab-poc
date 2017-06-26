@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0166-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0166-2.4"/>
+  <name value="V2Table0166Version2.4"/>
+  <title value="V2 Table 0166 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0166 Version 2.4 (RX Component Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0166"/>
+      <concept>
+        <code value="B"/>
+        <display value="Base"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Additive"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

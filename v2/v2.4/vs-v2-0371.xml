@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0371-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0371-2.4"/>
+  <name value="V2Table0371Version2.4"/>
+  <title value="V2 Table 0371 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0371 Version 2.4 (Additive/Preservative)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0371"/>
+      <concept>
+        <code value="EDTK"/>
+        <display value="Potassium/K EDTA"/>
+      </concept>
+      <concept>
+        <code value="EDTN"/>
+        <display value="Sodium/Na EDTA"/>
+      </concept>
+      <concept>
+        <code value="HEPL"/>
+        <display value="Lithium/Li  Heparin"/>
+      </concept>
+      <concept>
+        <code value="HEPN"/>
+        <display value="Sodium/Na  Heparin"/>
+      </concept>
+      <concept>
+        <code value="C32"/>
+        <display value="3.2%  Citrate"/>
+      </concept>
+      <concept>
+        <code value="C38"/>
+        <display value="3.8% Citrate"/>
+      </concept>
+      <concept>
+        <code value="BOR"/>
+        <display value="Borate"/>
+      </concept>
+      <concept>
+        <code value="HCL6"/>
+        <display value="6N HCL"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

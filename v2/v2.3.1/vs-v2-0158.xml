@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0158-2.3.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0158-2.3.1"/>
+  <name value="V2Table0158Version2.3.1"/>
+  <title value="V2 Table 0158 Version 2.3.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0158 Version 2.3.1 (Date/time selection qualifier)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0158"/>
+      <concept>
+        <code value="1ST"/>
+        <display value="First value within range"/>
+      </concept>
+      <concept>
+        <code value="ALL"/>
+        <display value="All values within the range"/>
+      </concept>
+      <concept>
+        <code value="LST"/>
+        <display value="Last value within the range"/>
+      </concept>
+      <concept>
+        <code value="REV"/>
+        <display value="All values within the range returned in reverse chronological order (This is the default if not otherwise specified.)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0565"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0565"/>
+  <name value="V2Table0565VersionMaster"/>
+  <title value="V2 Table 0565 Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0565 Version Master (Provider Adjustment Reason Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0565"/>
+      <concept>
+        <code value="PST"/>
+        <display value="Provincial Sales Tax"/>
+      </concept>
+      <concept>
+        <code value="GST"/>
+        <display value="Goods and Services Tax"/>
+      </concept>
+      <concept>
+        <code value="HST"/>
+        <display value="Harmonized Sales Tax"/>
+      </concept>
+      <concept>
+        <code value="DISP"/>
+        <display value="Dispensing Fee"/>
+      </concept>
+      <concept>
+        <code value="MKUP"/>
+        <display value="Mark up Fee"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0008-2.2"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0008-2.2"/>
+  <name value="V2Table0008Version2.2"/>
+  <title value="V2 Table 0008 Version 2.2"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0008 Version 2.2 (Acknowledgment code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0008"/>
+      <concept>
+        <code value="AA"/>
+        <display value="Application accept (original mode) / Application acknowledgement: accept (enhanced mode)"/>
+      </concept>
+      <concept>
+        <code value="AE"/>
+        <display value="Application error (original mode) / Application acknowledgement: error (enhanced mode)"/>
+      </concept>
+      <concept>
+        <code value="AR"/>
+        <display value="Application reject (original mode) / Application acknowledgement: reject (enhanced mode)"/>
+      </concept>
+      <concept>
+        <code value="CA"/>
+        <display value="Enhanced mode: Accept acknowledgment: Commit Accept"/>
+      </concept>
+      <concept>
+        <code value="CE"/>
+        <display value="Enhanced mode: Accept acknowledgment: Commit Error"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="Enhanced mode: Accept acknowledgment: Commit Reject"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0426-2.8.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0426-2.8.1"/>
+  <name value="V2Table0426Version2.8.1"/>
+  <title value="V2 Table 0426 Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0426 Version 2.8.1 (Blood Product Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0426"/>
+      <concept>
+        <code value="CRYO"/>
+        <display value="Cryoprecipitated AHF"/>
+      </concept>
+      <concept>
+        <code value="CRYOP"/>
+        <display value="Pooled Cryoprecipitate"/>
+      </concept>
+      <concept>
+        <code value="FFP"/>
+        <display value="Fresh Frozen Plasma"/>
+      </concept>
+      <concept>
+        <code value="FFPTH"/>
+        <display value="Fresh Frozen Plasma - Thawed"/>
+      </concept>
+      <concept>
+        <code value="PC"/>
+        <display value="Packed Cells"/>
+      </concept>
+      <concept>
+        <code value="PCA"/>
+        <display value="Autologous Packed Cells"/>
+      </concept>
+      <concept>
+        <code value="PCNEO"/>
+        <display value="Packed Cells - Neonatal"/>
+      </concept>
+      <concept>
+        <code value="PCW"/>
+        <display value="Washed Packed Cells"/>
+      </concept>
+      <concept>
+        <code value="PLT"/>
+        <display value="Platelet Concentrate"/>
+      </concept>
+      <concept>
+        <code value="PLTNEO"/>
+        <display value="Reduced Volume Platelets"/>
+      </concept>
+      <concept>
+        <code value="PLTP"/>
+        <display value="Pooled Platelets"/>
+      </concept>
+      <concept>
+        <code value="PLTPH"/>
+        <display value="Platelet Pheresis"/>
+      </concept>
+      <concept>
+        <code value="PLTPHLR"/>
+        <display value="Leukoreduced Platelet Pheresis"/>
+      </concept>
+      <concept>
+        <code value="RWB"/>
+        <display value="Reconstituted Whole Blood"/>
+      </concept>
+      <concept>
+        <code value="WBA"/>
+        <display value="Autologous Whole Blood"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0719-2.7.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0719-2.7.1"/>
+  <name value="V2Table0719Version2.7.1"/>
+  <title value="V2 Table 0719 Version 2.7.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0719 Version 2.7.1 (Access Restriction Reason Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0719"/>
+      <concept>
+        <code value="PAT"/>
+        <display value="Patient Request"/>
+      </concept>
+      <concept>
+        <code value="PHY"/>
+        <display value="Physician Request"/>
+      </concept>
+      <concept>
+        <code value="REG"/>
+        <display value="Regulatory requirement"/>
+      </concept>
+      <concept>
+        <code value="ORG"/>
+        <display value="Organizational policy or requirement"/>
+      </concept>
+      <concept>
+        <code value="EMP"/>
+        <display value="Employee of this organization"/>
+      </concept>
+      <concept>
+        <code value="DIA"/>
+        <display value="Diagnosis-related"/>
+      </concept>
+      <concept>
+        <code value="VIP"/>
+        <display value="Very important person or celebrity"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

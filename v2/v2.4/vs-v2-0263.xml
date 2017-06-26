@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0263-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0263-2.4"/>
+  <name value="V2Table0263Version2.4"/>
+  <title value="V2 Table 0263 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0263 Version 2.4 (Level of Care)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0263"/>
+      <concept>
+        <code value="A"/>
+        <display value="Ambulatory"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Emergency"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Isolation"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Intensive care"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Critical care"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Routine"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Surgery"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

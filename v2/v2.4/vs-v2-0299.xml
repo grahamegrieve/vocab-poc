@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0299-2.4"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0299-2.4"/>
+  <name value="V2Table0299Version2.4"/>
+  <title value="V2 Table 0299 Version 2.4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0299 Version 2.4 (Encoding)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0299"/>
+      <concept>
+        <code value="A"/>
+        <display value="No encoding - data are displayable ASCII characters."/>
+      </concept>
+      <concept>
+        <code value="Hex"/>
+        <display value="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets."/>
+      </concept>
+      <concept>
+        <code value="Base64"/>
+        <display value="Encoding as defined by MIME (Multipurpose Internet Mail Extensions) standard RFC 1521.  Four consecutive ASCII characters represent three consecutive octets of binary data.  Base64 utilizes a 65-character subset of US-ASCII, consisting of both the upper a"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

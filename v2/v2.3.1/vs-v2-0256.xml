@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0256-2.3.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0256-2.3.1"/>
+  <name value="V2Table0256Version2.3.1"/>
+  <title value="V2 Table 0256 Version 2.3.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0256 Version 2.3.1 (Time Delay Post Challenge)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0256"/>
+      <concept>
+        <code value="BS"/>
+        <display value="Baseline (time just before the challenge)"/>
+      </concept>
+      <concept>
+        <code value="PEAK"/>
+        <display value="The time post drug dose at which the highest drug level is reached (differs by drug)"/>
+      </concept>
+      <concept>
+        <code value="TROUGH"/>
+        <display value="The time post drug dose at which the lowest drug level is reached (varies with drug)"/>
+      </concept>
+      <concept>
+        <code value="RANDOM"/>
+        <display value="Time from the challenge, or dose not specified. (random)"/>
+      </concept>
+      <concept>
+        <code value="1M"/>
+        <display value="1 minute post challenge"/>
+      </concept>
+      <concept>
+        <code value="2M"/>
+        <display value="2 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="3M"/>
+        <display value="3 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="4M"/>
+        <display value="4 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="5M"/>
+        <display value="5 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="6M"/>
+        <display value="6 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="7M"/>
+        <display value="7 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="8M"/>
+        <display value="8 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="9M"/>
+        <display value="9 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="10M"/>
+        <display value="10 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="15M"/>
+        <display value="15 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="20M"/>
+        <display value="20 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="25M"/>
+        <display value="25 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="30M"/>
+        <display value="30 minutes post challenge"/>
+      </concept>
+      <concept>
+        <code value="1H"/>
+        <display value="1 hour post challenge"/>
+      </concept>
+      <concept>
+        <code value="2H"/>
+        <display value="2 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="2.5H"/>
+        <display value="2 1/2 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="3H"/>
+        <display value="3 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="4H"/>
+        <display value="4 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="5H"/>
+        <display value="5  hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="6H"/>
+        <display value="6 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="7H"/>
+        <display value="7 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="8H"/>
+        <display value="8 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="8H SHIFT"/>
+        <display value="8 hours aligned on nursing shifts"/>
+      </concept>
+      <concept>
+        <code value="12H"/>
+        <display value="12 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="24H"/>
+        <display value="24 hours post challenge"/>
+      </concept>
+      <concept>
+        <code value="2D"/>
+        <display value="2 days"/>
+      </concept>
+      <concept>
+        <code value="3D"/>
+        <display value="3 days"/>
+      </concept>
+      <concept>
+        <code value="4D"/>
+        <display value="4 days"/>
+      </concept>
+      <concept>
+        <code value="5D"/>
+        <display value="5 days"/>
+      </concept>
+      <concept>
+        <code value="6D"/>
+        <display value="6 days"/>
+      </concept>
+      <concept>
+        <code value="7D"/>
+        <display value="7 days"/>
+      </concept>
+      <concept>
+        <code value="1W"/>
+        <display value="1 week"/>
+      </concept>
+      <concept>
+        <code value="10D"/>
+        <display value="10 days"/>
+      </concept>
+      <concept>
+        <code value="2W"/>
+        <display value="2 weeks"/>
+      </concept>
+      <concept>
+        <code value="3W"/>
+        <display value="3 weeks"/>
+      </concept>
+      <concept>
+        <code value="4W"/>
+        <display value="4 weeks"/>
+      </concept>
+      <concept>
+        <code value="1L"/>
+        <display value="1 month (30 days) post challenge"/>
+      </concept>
+      <concept>
+        <code value="2L"/>
+        <display value="2 months (60 days) post challenge"/>
+      </concept>
+      <concept>
+        <code value="3L"/>
+        <display value="3 months (90 days) post challenge"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

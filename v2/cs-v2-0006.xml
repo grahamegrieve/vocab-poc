@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0006"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0006"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.6"/>
+  </identifier>
+  <name value="V2Table0006"/>
+  <title value="V2 Table: Religion"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0006 (Religion)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0006"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="A"/>
+    <display value="Atheist"/>
+    <definition value="Atheist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="B"/>
+    <display value="Baptist"/>
+    <definition value="Baptist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="C"/>
+    <display value="Catholic"/>
+    <definition value="Catholic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="E"/>
+    <display value="Episcopalian"/>
+    <definition value="Episcopalian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="J"/>
+    <display value="Judaism"/>
+    <definition value="Judaism"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="L"/>
+    <display value="Lutheran"/>
+    <definition value="Lutheran"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="M"/>
+    <display value="Church of Latter Day Saints (Mormon)"/>
+    <definition value="Church of Latter Day Saints (Mormon)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="N"/>
+    <display value="Hindu"/>
+    <definition value="Hindu"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="P"/>
+    <display value="Protestant"/>
+    <definition value="Protestant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="AGN"/>
+    <display value="Agnostic"/>
+    <definition value="Agnostic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ATH"/>
+    <display value="Atheist"/>
+    <definition value="Atheist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BAH"/>
+    <display value="Baha&#39;i"/>
+    <definition value="Baha&#39;i"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="BRE"/>
+    <display value="Brethren"/>
+    <definition value="Brethren"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BUD"/>
+    <display value="Buddhist"/>
+    <definition value="Buddhist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BMA"/>
+    <display value="Buddhist: Mahayana"/>
+    <definition value="Buddhist: Mahayana"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BTH"/>
+    <display value="Buddhist: Theravada"/>
+    <definition value="Buddhist: Theravada"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BTA"/>
+    <display value="Buddhist: Tantrayana"/>
+    <definition value="Buddhist: Tantrayana"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BOT"/>
+    <display value="Buddhist: Other"/>
+    <definition value="Buddhist: Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CFR"/>
+    <display value="Chinese Folk Religionist"/>
+    <definition value="Chinese Folk Religionist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CHR"/>
+    <display value="Christian"/>
+    <definition value="Christian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ABC"/>
+    <display value="Christian: American Baptist Church"/>
+    <definition value="Christian: American Baptist Church"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="AMT"/>
+    <display value="Christian: African Methodist Episcopal"/>
+    <definition value="Christian: African Methodist Episcopal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="AME"/>
+    <display value="Christian: African Methodist Episcopal Zion"/>
+    <definition value="Christian: African Methodist Episcopal Zion"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ANG"/>
+    <display value="Christian: Anglican"/>
+    <definition value="Christian: Anglican"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="AOG"/>
+    <display value="Christian: Assembly of God"/>
+    <definition value="Christian: Assembly of God"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="BAP"/>
+    <display value="Christian: Baptist"/>
+    <definition value="Christian: Baptist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CRR"/>
+    <display value="Christian: Christian Reformed"/>
+    <definition value="Christian: Christian Reformed"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CHS"/>
+    <display value="Christian: Christian Science"/>
+    <definition value="Christian: Christian Science"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CMA"/>
+    <display value="Christian: Christian Missionary Alliance"/>
+    <definition value="Christian: Christian Missionary Alliance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COC"/>
+    <display value="Christian: Church of Christ"/>
+    <definition value="Christian: Church of Christ"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COG"/>
+    <display value="Christian: Church of God"/>
+    <definition value="Christian: Church of God"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COI"/>
+    <display value="Christian: Church of God in Christ"/>
+    <definition value="Christian: Church of God in Christ"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COM"/>
+    <display value="Christian: Community"/>
+    <definition value="Christian: Community"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COL"/>
+    <display value="Christian: Congregational"/>
+    <definition value="Christian: Congregational"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="EOT"/>
+    <display value="Christian: Eastern Orthodox"/>
+    <definition value="Christian: Eastern Orthodox"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="EVC"/>
+    <display value="Christian: Evangelical Church"/>
+    <definition value="Christian: Evangelical Church"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="EPI"/>
+    <display value="Christian: Episcopalian"/>
+    <definition value="Christian: Episcopalian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="FWB"/>
+    <display value="Christian: Free Will Baptist"/>
+    <definition value="Christian: Free Will Baptist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="FRQ"/>
+    <display value="Christian: Friends"/>
+    <definition value="Christian: Friends"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="FUL"/>
+    <display value="Christian: Full Gospel"/>
+    <definition value="Christian: Full Gospel"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="GRE"/>
+    <display value="Christian: Greek Orthodox"/>
+    <definition value="Christian: Greek Orthodox"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JWN"/>
+    <display value="Christian: Jehovah&#39;s Witness"/>
+    <definition value="Christian: Jehovah&#39;s Witness"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MOM"/>
+    <display value="Christian: Latter-day Saints"/>
+    <definition value="Christian: Latter-day Saints"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="LUT"/>
+    <display value="Christian: Lutheran"/>
+    <definition value="Christian: Lutheran"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="LMS"/>
+    <display value="Christian: Lutheran Missouri Synod"/>
+    <definition value="Christian: Lutheran Missouri Synod"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MEN"/>
+    <display value="Christian: Mennonite"/>
+    <definition value="Christian: Mennonite"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MET"/>
+    <display value="Christian: Methodist"/>
+    <definition value="Christian: Methodist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="NAZ"/>
+    <display value="Christian: Church of the Nazarene"/>
+    <definition value="Christian: Church of the Nazarene"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ORT"/>
+    <display value="Christian: Orthodox"/>
+    <definition value="Christian: Orthodox"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PEN"/>
+    <display value="Christian: Pentecostal"/>
+    <definition value="Christian: Pentecostal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COP"/>
+    <display value="Christian: Other Pentecostal"/>
+    <definition value="Christian: Other Pentecostal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PRE"/>
+    <display value="Christian: Presbyterian"/>
+    <definition value="Christian: Presbyterian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PRO"/>
+    <display value="Christian: Protestant"/>
+    <definition value="Christian: Protestant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PRC"/>
+    <display value="Christian: Other Protestant"/>
+    <definition value="Christian: Other Protestant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="QUA"/>
+    <display value="Christian: Friends"/>
+    <definition value="Christian: Friends"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="REC"/>
+    <display value="Christian: Reformed Church"/>
+    <definition value="Christian: Reformed Church"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="REO"/>
+    <display value="Christian: Reorganized Church of Jesus Christ-LDS"/>
+    <definition value="Christian: Reorganized Church of Jesus Christ-LDS"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CAT"/>
+    <display value="Christian: Roman Catholic"/>
+    <definition value="Christian: Roman Catholic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SAA"/>
+    <display value="Christian: Salvation Army"/>
+    <definition value="Christian: Salvation Army"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SEV"/>
+    <display value="Christian: Seventh Day Adventist"/>
+    <definition value="Christian: Seventh Day Adventist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SOU"/>
+    <display value="Christian: Southern Baptist"/>
+    <definition value="Christian: Southern Baptist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="UCC"/>
+    <display value="Christian: United Church of Christ"/>
+    <definition value="Christian: United Church of Christ"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="UMD"/>
+    <display value="Christian: United Methodist"/>
+    <definition value="Christian: United Methodist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="UNI"/>
+    <display value="Christian: Unitarian"/>
+    <definition value="Christian: Unitarian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="UNU"/>
+    <display value="Christian: Unitarian Universalist"/>
+    <definition value="Christian: Unitarian Universalist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="WES"/>
+    <display value="Christian: Wesleyan"/>
+    <definition value="Christian: Wesleyan"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="WMC"/>
+    <display value="Christian: Wesleyan Methodist"/>
+    <definition value="Christian: Wesleyan Methodist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="COT"/>
+    <display value="Christian: Other"/>
+    <definition value="Christian: Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="CNF"/>
+    <display value="Confucian"/>
+    <definition value="Confucian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <code value="DOC"/>
+    <display value="Disciples of Christ"/>
+    <definition value="Disciples of Christ"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="ERL"/>
+    <display value="Ethnic Religionist"/>
+    <definition value="Ethnic Religionist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="HIN"/>
+    <display value="Hindu"/>
+    <definition value="Hindu"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="HSH"/>
+    <display value="Hindu: Shaivites"/>
+    <definition value="Hindu: Shaivites"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="HVA"/>
+    <display value="Hindu: Vaishnavites"/>
+    <definition value="Hindu: Vaishnavites"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="HOT"/>
+    <display value="Hindu: Other"/>
+    <definition value="Hindu: Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JAI"/>
+    <display value="Jain"/>
+    <definition value="Jain"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JEW"/>
+    <display value="Jewish"/>
+    <definition value="Jewish"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JCO"/>
+    <display value="Jewish: Conservative"/>
+    <definition value="Jewish: Conservative"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JOR"/>
+    <display value="Jewish: Orthodox"/>
+    <definition value="Jewish: Orthodox"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JRC"/>
+    <display value="Jewish: Reconstructionist"/>
+    <definition value="Jewish: Reconstructionist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JRF"/>
+    <display value="Jewish: Reform"/>
+    <definition value="Jewish: Reform"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JRN"/>
+    <display value="Jewish: Renewal"/>
+    <definition value="Jewish: Renewal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="JOT"/>
+    <display value="Jewish: Other"/>
+    <definition value="Jewish: Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MOS"/>
+    <display value="Muslim"/>
+    <definition value="Muslim"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MSH"/>
+    <display value="Muslim: Shiite"/>
+    <definition value="Muslim: Shiite"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MSU"/>
+    <display value="Muslim: Sunni"/>
+    <definition value="Muslim: Sunni"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="MOT"/>
+    <display value="Muslim: Other"/>
+    <definition value="Muslim: Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="NAM"/>
+    <display value="Native American"/>
+    <definition value="Native American"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="NRL"/>
+    <display value="New Religionist"/>
+    <definition value="New Religionist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="NOE"/>
+    <display value="Nonreligious"/>
+    <definition value="Nonreligious"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SHN"/>
+    <display value="Shintoist"/>
+    <definition value="Shintoist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SIK"/>
+    <display value="Sikh"/>
+    <definition value="Sikh"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="SPI"/>
+    <display value="Spiritist"/>
+    <definition value="Spiritist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="OTH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="VAR"/>
+    <display value="Unknown"/>
+    <definition value="Unknown"/>
+  </concept>
+</CodeSystem>

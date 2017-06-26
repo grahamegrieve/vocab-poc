@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0871-2.8.2"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0871-2.8.2"/>
+  <name value="V2Table0871Version2.8.2"/>
+  <title value="V2 Table 0871 Version 2.8.2"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0871 Version 2.8.2 (Supply Risk Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0871"/>
+      <concept>
+        <code value="COR"/>
+        <display value="Corrosive"/>
+      </concept>
+      <concept>
+        <code value="FLA"/>
+        <display value="Flammable"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Explosive"/>
+      </concept>
+      <concept>
+        <code value="INJ"/>
+        <display value="Injury Hazard"/>
+      </concept>
+      <concept>
+        <code value="TOX"/>
+        <display value="Toxic"/>
+      </concept>
+      <concept>
+        <code value="RAD"/>
+        <display value="Radioactive"/>
+      </concept>
+      <concept>
+        <code value="UNK"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

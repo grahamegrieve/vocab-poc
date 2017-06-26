@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0475"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0475"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.475"/>
+  </identifier>
+  <name value="V2Table0475"/>
+  <title value="V2 Table: Charge Type Reason"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:02+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0475 (Charge Type Reason)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0475"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="01"/>
+    <display value="Allergy"/>
+    <definition value="Allergy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="02"/>
+    <display value="Intolerance"/>
+    <definition value="Intolerance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="03"/>
+    <display value="Treatment Failure"/>
+    <definition value="Treatment Failure"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="04"/>
+    <display value="Patient Request"/>
+    <definition value="Patient Request"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="05"/>
+    <display value="No Exception"/>
+    <definition value="No Exception"/>
+  </concept>
+</CodeSystem>

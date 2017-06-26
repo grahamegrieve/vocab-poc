@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0080"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0080"/>
+  <name value="V2Table0080VersionMaster"/>
+  <title value="V2 Table 0080 Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0080 Version Master (Nature of Abnormal Testing)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0080"/>
+      <concept>
+        <code value="A"/>
+        <display value="An age-based population"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="None - generic normal range"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="A race-based population"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="A sex-based population"/>
+      </concept>
+      <concept>
+        <code value="SP"/>
+        <display value="Species"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Breed"/>
+      </concept>
+      <concept>
+        <code value="ST"/>
+        <display value="Strain"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

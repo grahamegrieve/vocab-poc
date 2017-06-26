@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0002"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0002"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.2"/>
+  </identifier>
+  <name value="V2Table0002"/>
+  <title value="V2 Table: Marital Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0002 (Marital Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0002"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A"/>
+    <display value="Separated"/>
+    <definition value="Separated"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Divorced"/>
+    <definition value="Divorced"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Married"/>
+    <definition value="Married"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Single"/>
+    <definition value="Single"/>
+  </concept>
+  <concept>
+    <code value="W"/>
+    <display value="Widowed"/>
+    <definition value="Widowed"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="C"/>
+    <display value="Common law"/>
+    <definition value="Common law"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="G"/>
+    <display value="Living together"/>
+    <definition value="Living together"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="P"/>
+    <display value="Domestic partner"/>
+    <definition value="Domestic partner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="R"/>
+    <display value="Registered domestic partner"/>
+    <definition value="Registered domestic partner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="E"/>
+    <display value="Legally Separated"/>
+    <definition value="Legally Separated"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="N"/>
+    <display value="Annulled"/>
+    <definition value="Annulled"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="I"/>
+    <display value="Interlocutory"/>
+    <definition value="Interlocutory"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="B"/>
+    <display value="Unmarried"/>
+    <definition value="Unmarried"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="U"/>
+    <display value="Unknown"/>
+    <definition value="Unknown"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="O"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="T"/>
+    <display value="Unreported"/>
+    <definition value="Unreported"/>
+  </concept>
+</CodeSystem>

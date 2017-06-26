@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0164-2.3.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0164-2.3.1"/>
+  <name value="V2Table0164Version2.3.1"/>
+  <title value="V2 Table 0164 Version 2.3.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:00+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0164 Version 2.3.1 (Administration Device)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0164"/>
+      <concept>
+        <code value="AP"/>
+        <display value="Applicator"/>
+      </concept>
+      <concept>
+        <code value="BT"/>
+        <display value="Buretrol"/>
+      </concept>
+      <concept>
+        <code value="HL"/>
+        <display value="Heparin Lock"/>
+      </concept>
+      <concept>
+        <code value="IPPB"/>
+        <display value="IPPB"/>
+      </concept>
+      <concept>
+        <code value="IVP"/>
+        <display value="IV Pump"/>
+      </concept>
+      <concept>
+        <code value="IVS"/>
+        <display value="IV Soluset"/>
+      </concept>
+      <concept>
+        <code value="MI"/>
+        <display value="Metered Inhaler"/>
+      </concept>
+      <concept>
+        <code value="NEB"/>
+        <display value="Nebulizer"/>
+      </concept>
+      <concept>
+        <code value="PCA"/>
+        <display value="PCA Pump"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0370"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0370"/>
+  <name value="V2Table0370VersionMaster"/>
+  <title value="V2 Table 0370 Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0370 Version Master (Container Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0370"/>
+      <concept>
+        <code value="A"/>
+        <display value="Archived"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Identified"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Left Equipment"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Missing"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="In Process"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="In Position"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Process Completed"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Unknown"/>
+      </concept>
+      <concept>
+        <code value="X"/>
+        <display value="Container Unavailable"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

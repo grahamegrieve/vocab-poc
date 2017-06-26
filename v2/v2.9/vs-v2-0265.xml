@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0265-2.9"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0265-2.9"/>
+  <name value="V2Table0265Version2.9"/>
+  <title value="V2 Table 0265 Version 2.9"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0265 Version 2.9 (Specialty Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0265"/>
+      <concept>
+        <code value="AMB"/>
+        <display value="Ambulatory"/>
+      </concept>
+      <concept>
+        <code value="PSY"/>
+        <display value="Psychiatric"/>
+      </concept>
+      <concept>
+        <code value="PPS"/>
+        <display value="Pediatric psychiatric"/>
+      </concept>
+      <concept>
+        <code value="REH"/>
+        <display value="Rehabilitation"/>
+      </concept>
+      <concept>
+        <code value="PRE"/>
+        <display value="Pediatric rehabilitation"/>
+      </concept>
+      <concept>
+        <code value="ISO"/>
+        <display value="Isolation"/>
+      </concept>
+      <concept>
+        <code value="OBG"/>
+        <display value="Obstetrics, gynecology"/>
+      </concept>
+      <concept>
+        <code value="PIN"/>
+        <display value="Pediatric/neonatal intensive care"/>
+      </concept>
+      <concept>
+        <code value="INT"/>
+        <display value="Intensive care"/>
+      </concept>
+      <concept>
+        <code value="SUR"/>
+        <display value="Surgery"/>
+      </concept>
+      <concept>
+        <code value="PSI"/>
+        <display value="Psychiatric intensive care"/>
+      </concept>
+      <concept>
+        <code value="EDI"/>
+        <display value="Education"/>
+      </concept>
+      <concept>
+        <code value="CAR"/>
+        <display value="Coronary/cardiac care"/>
+      </concept>
+      <concept>
+        <code value="NBI"/>
+        <display value="Newborn, nursery, infants"/>
+      </concept>
+      <concept>
+        <code value="CCR"/>
+        <display value="Critical care"/>
+      </concept>
+      <concept>
+        <code value="PED"/>
+        <display value="Pediatrics"/>
+      </concept>
+      <concept>
+        <code value="EMR"/>
+        <display value="Emergency"/>
+      </concept>
+      <concept>
+        <code value="OBS"/>
+        <display value="Observation"/>
+      </concept>
+      <concept>
+        <code value="WIC"/>
+        <display value="Walk-in clinic"/>
+      </concept>
+      <concept>
+        <code value="PHY"/>
+        <display value="General/family practice"/>
+      </concept>
+      <concept>
+        <code value="ALC"/>
+        <display value="Allergy"/>
+      </concept>
+      <concept>
+        <code value="FPC"/>
+        <display value="Family planning"/>
+      </concept>
+      <concept>
+        <code value="CHI"/>
+        <display value="Chiropractic"/>
+      </concept>
+      <concept>
+        <code value="CAN"/>
+        <display value="Cancer"/>
+      </concept>
+      <concept>
+        <code value="NAT"/>
+        <display value="Naturopathic"/>
+      </concept>
+      <concept>
+        <code value="OTH"/>
+        <display value="Other specialty"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

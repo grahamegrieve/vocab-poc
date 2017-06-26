@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0360"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0360"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.12.360"/>
+  </identifier>
+  <name value="V2Table0360"/>
+  <title value="V2 Table: Degree/License/Certificate"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Concept Domains - Underlying Code System for table 0360 (Degree/License/Certificate)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0360"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="PN"/>
+    <display value="Advanced Practice Nurse"/>
+    <definition value="Advanced Practice Nurse"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="AAS"/>
+    <display value="Associate of Applied Science"/>
+    <definition value="Associate of Applied Science"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="AA"/>
+    <display value="Associate of Arts"/>
+    <definition value="Associate of Arts"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="ABA"/>
+    <display value="Associate of Business Administration"/>
+    <definition value="Associate of Business Administration"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="AE"/>
+    <display value="Associate of Engineering"/>
+    <definition value="Associate of Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="AS"/>
+    <display value="Associate of Science"/>
+    <definition value="Associate of Science"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BA"/>
+    <display value="Bachelor of Arts"/>
+    <definition value="Bachelor of Arts"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BBA"/>
+    <display value="Bachelor of Business Administration"/>
+    <definition value="Bachelor of Business Administration"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BE"/>
+    <display value="Bachelor or Engineering"/>
+    <definition value="Bachelor or Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BFA"/>
+    <display value="Bachelor of Fine Arts"/>
+    <definition value="Bachelor of Fine Arts"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BN"/>
+    <display value="Bachelor of Nursing"/>
+    <definition value="Bachelor of Nursing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BS"/>
+    <display value="Bachelor of Science"/>
+    <definition value="Bachelor of Science"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BSL"/>
+    <display value="Bachelor of Science - Law"/>
+    <definition value="Bachelor of Science - Law"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="BSN"/>
+    <display value="Bachelor on Science - Nursing"/>
+    <definition value="Bachelor on Science - Nursing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="BT"/>
+    <display value="Bachelor of Theology"/>
+    <definition value="Bachelor of Theology"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="CER"/>
+    <display value="Certificate"/>
+    <definition value="Certificate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CANP"/>
+    <display value="Certified Adult Nurse Practitioner"/>
+    <definition value="Certified Adult Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CMA"/>
+    <display value="Certified Medical Assistant"/>
+    <definition value="Certified Medical Assistant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CNP"/>
+    <display value="Certified Nurse Practitioner"/>
+    <definition value="Certified Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CNM"/>
+    <display value="Certified Nurse Midwife"/>
+    <definition value="Certified Nurse Midwife"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CRN"/>
+    <display value="Certified Registered Nurse"/>
+    <definition value="Certified Registered Nurse"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CNS"/>
+    <display value="Certified Nurse Specialist"/>
+    <definition value="Certified Nurse Specialist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="CPNP"/>
+    <display value="Certified Pediatric Nurse Practitioner"/>
+    <definition value="Certified Pediatric Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="CTR"/>
+    <display value="Certified Tumor Registrar"/>
+    <definition value="Certified Tumor Registrar"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="DIP"/>
+    <display value="Diploma"/>
+    <definition value="Diploma"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="DBA"/>
+    <display value="Doctor of Business Administration"/>
+    <definition value="Doctor of Business Administration"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="DED"/>
+    <display value="Doctor of Education"/>
+    <definition value="Doctor of Education"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.4"/>
+    </extension>
+    <code value="PharmD"/>
+    <display value="Doctor of Pharmacy"/>
+    <definition value="Doctor of Pharmacy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="PHE"/>
+    <display value="Doctor of Engineering"/>
+    <definition value="Doctor of Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="PHD"/>
+    <display value="Doctor of Philosophy"/>
+    <definition value="Doctor of Philosophy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="PHS"/>
+    <display value="Doctor of Science"/>
+    <definition value="Doctor of Science"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MD"/>
+    <display value="Doctor of Medicine"/>
+    <definition value="Doctor of Medicine"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="DO"/>
+    <display value="Doctor of Osteopathy"/>
+    <definition value="Doctor of Osteopathy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="EMT"/>
+    <display value="Emergency Medical Technician"/>
+    <definition value="Emergency Medical Technician"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="EMTP"/>
+    <display value="Emergency Medical Technician - Paramedic"/>
+    <definition value="Emergency Medical Technician - Paramedic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="FPNP"/>
+    <display value="Family Practice Nurse Practitioner"/>
+    <definition value="Family Practice Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="HS"/>
+    <display value="High School Graduate"/>
+    <definition value="High School Graduate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="JD"/>
+    <display value="Juris Doctor"/>
+    <definition value="Juris Doctor"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MA"/>
+    <display value="Master of Arts"/>
+    <definition value="Master of Arts"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MBA"/>
+    <display value="Master of Business Administration"/>
+    <definition value="Master of Business Administration"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MCE"/>
+    <display value="Master of Civil Engineering"/>
+    <definition value="Master of Civil Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MDI"/>
+    <display value="Master of Divinity"/>
+    <definition value="Master of Divinity"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MED"/>
+    <display value="Master of Education"/>
+    <definition value="Master of Education"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MEE"/>
+    <display value="Master of Electrical Engineering"/>
+    <definition value="Master of Electrical Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="ME"/>
+    <display value="Master of Engineering"/>
+    <definition value="Master of Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MFA"/>
+    <display value="Master of Fine Arts"/>
+    <definition value="Master of Fine Arts"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MME"/>
+    <display value="Master of Mechanical Engineering"/>
+    <definition value="Master of Mechanical Engineering"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MS"/>
+    <display value="Master of Science"/>
+    <definition value="Master of Science"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MSL"/>
+    <display value="Master of Science - Law"/>
+    <definition value="Master of Science - Law"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="MSN"/>
+    <display value="Master of Science - Nursing"/>
+    <definition value="Master of Science - Nursing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.7"/>
+    </extension>
+    <code value="MTH"/>
+    <display value="Master of Theology"/>
+    <definition value="Master of Theology"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="MDA"/>
+    <display value="Medical Assistant"/>
+    <definition value="Medical Assistant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="MT"/>
+    <display value="Medical Technician"/>
+    <definition value="Medical Technician"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="NG"/>
+    <display value="Non-Graduate"/>
+    <definition value="Non-Graduate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="NP"/>
+    <display value="Nurse Practitioner"/>
+    <definition value="Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="PA"/>
+    <display value="Physician Assistant"/>
+    <definition value="Physician Assistant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RMA"/>
+    <display value="Registered Medical Assistant"/>
+    <definition value="Registered Medical Assistant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.7"/>
+    </extension>
+    <code value="RN"/>
+    <display value="Registered Nurse"/>
+    <definition value="Registered Nurse"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.5"/>
+    </extension>
+    <code value="RPH"/>
+    <display value="Registered Pharmacist"/>
+    <definition value="Registered Pharmacist"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="SEC"/>
+    <display value="Secretarial Certificate"/>
+    <definition value="Secretarial Certificate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="TS"/>
+    <display value="Trade School Graduate"/>
+    <definition value="Trade School Graduate"/>
+  </concept>
+</CodeSystem>

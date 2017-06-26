@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0200-2.9"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0200-2.9"/>
+  <name value="V2Table0200Version2.9"/>
+  <title value="V2 Table 0200 Version 2.9"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0200 Version 2.9 (null)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0200"/>
+      <concept>
+        <code value="A"/>
+        <display value="Assigned"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Birth name"/>
+      </concept>
+      <concept>
+        <code value="BAD"/>
+        <display value="Bad Name"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="Adopted Name"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Customary Name"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Fathers Name"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Licensing Name"/>
+      </concept>
+      <concept>
+        <code value="K"/>
+        <display value="Business name"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Official Registry Name"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Maiden Name"/>
+      </concept>
+      <concept>
+        <code value="MSK"/>
+        <display value="Masked"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Nickname"/>
+      </concept>
+      <concept>
+        <code value="NAV"/>
+        <display value="Temporarily Unavailable"/>
+      </concept>
+      <concept>
+        <code value="NB"/>
+        <display value="Newborn Name"/>
+      </concept>
+      <concept>
+        <code value="NOUSE"/>
+        <display value="No Longer To Be Used"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Name of Partner/Spouse"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Registered Name"/>
+      </concept>
+      <concept>
+        <code value="REL"/>
+        <display value="Religious"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Pseudonym"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Indigenous/Tribal"/>
+      </concept>
+      <concept>
+        <code value="TEMP"/>
+        <display value="Temporary Name"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

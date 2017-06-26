@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0905-2.8.1"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0905-2.8.1"/>
+  <name value="V2Table0905Version2.8.1"/>
+  <title value="V2 Table 0905 Version 2.8.1"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:03+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0905 Version 2.8.1 (Shipment Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0905"/>
+      <concept>
+        <code value="ONH"/>
+        <display value="On Hold"/>
+      </concept>
+      <concept>
+        <code value="INV"/>
+        <display value="Inventoried"/>
+      </concept>
+      <concept>
+        <code value="PRC"/>
+        <display value="Processing"/>
+      </concept>
+      <concept>
+        <code value="REJ"/>
+        <display value="Rejected"/>
+      </concept>
+      <concept>
+        <code value="TTL"/>
+        <display value="Triaged to Lab"/>
+      </concept>
+      <concept>
+        <code value="TRN"/>
+        <display value="In Transit"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

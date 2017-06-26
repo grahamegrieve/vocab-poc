@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="v2-0253"/>
+  <url value="http://hl7.org/fhir/ValueSet/v2-0253"/>
+  <name value="V2Table0253VersionMaster"/>
+  <title value="V2 Table 0253 Version Master"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-26T17:31:01+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="V2 Table 0253 Version Master (Indirect Exposure Mechanism)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/v2-0253"/>
+      <concept>
+        <code value="B"/>
+        <display value="Breast milk"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Transplacental"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Father"/>
+      </concept>
+      <concept>
+        <code value="X"/>
+        <display value="Blood product"/>
+      </concept>
+      <concept>
+        <code value="O"/>
+        <display value="Other"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
