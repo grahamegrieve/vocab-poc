@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-EmployeeJobClass"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-EmployeeJobClass"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1059"/>
+  </identifier>
+  <name value="EmployeeJobClass"/>
+  <title value="EmployeeJobClass"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="16037">
+    <code value="FT"/>
+    <definition value=" Employment in which the employee is expected to work at least a standard work week (defined by the US Bureau of Labor Statistics as 35-44 hours per week)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="full-time"/>
+    </designation>
+  </concept>
+  <concept id="16038">
+    <code value="PT"/>
+    <definition value=" Employment in which the employee is expected to work less than a standard work week (defined by the US Bureau of Labor Statistics as 35-44 hours per week)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="part-time"/>
+    </designation>
+  </concept>
+  <concept id="21490">
+    <code value="_EmployeeOccupationCode"/>
+    <definition value=" Industry and/or jurisdictional classification system for kind-of-work performed by an employee. Occupation codes are intended primarily as work descriptions that are suitable for a multitude of public uses e.g., job matching, employment counseling, occupational and career guidance, and labor market information services."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="EmployeeOccupationCode"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

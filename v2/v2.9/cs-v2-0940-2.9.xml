@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0940-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0940-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.443"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0940v2.9"/>
+  <title value="V2 Table: Limitation Type Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0940 (Limitation Type Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0940-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="LCP"/>
+    <display value="Limited Coverage Policy"/>
+    <definition value="Limited Coverage Policy"/>
+  </concept>
+  <concept>
+    <code value="NFDA"/>
+    <display value="Non-FDA Approved Diagnositic Procedure"/>
+    <definition value="Non-FDA Approved Diagnositic Procedure"/>
+  </concept>
+  <concept>
+    <code value="FLDP"/>
+    <display value="Frequency Limited Diagnostics Procedure"/>
+    <definition value="Frequency Limited Diagnostics Procedure"/>
+  </concept>
+  <concept>
+    <code value="NT"/>
+    <display value="New Test - Limited Diagnostic History"/>
+    <definition value="New Test - Limited Diagnostic History"/>
+  </concept>
+</CodeSystem>

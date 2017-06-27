@@ -12,7 +12,7 @@
   <title value="V2 Table: Alternate Character Sets"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,10 +29,10 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="JAS2020"/>
@@ -40,10 +40,10 @@
     <definition value="A subset of ISO2020 used for most Kanjii transmissions"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="JIS X 0202"/>
@@ -54,7 +54,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="(This is the default if this field is omitted)"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="ASCII"/>
@@ -62,7 +62,7 @@
     <definition value="The printable 7-bit ASCII character set."/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/1"/>
@@ -70,7 +70,7 @@
     <definition value="The printable characters from the ISO 8859/1 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/2"/>
@@ -78,7 +78,7 @@
     <definition value="The printable characters from the ISO 8859/2 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/3"/>
@@ -86,7 +86,7 @@
     <definition value="The printable characters from the ISO 8859/3 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/4"/>
@@ -94,7 +94,7 @@
     <definition value="The printable characters from the ISO 8859/4 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/5"/>
@@ -102,7 +102,7 @@
     <definition value="The printable characters from the ISO 8859/5 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/6"/>
@@ -110,7 +110,7 @@
     <definition value="The printable characters from the ISO 8859/6 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/7"/>
@@ -118,7 +118,7 @@
     <definition value="The printable characters from the ISO 8859/7 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/8"/>
@@ -126,7 +126,7 @@
     <definition value="The printable characters from the ISO 8859/8 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="8859/9"/>
@@ -134,7 +134,7 @@
     <definition value="The printable characters from the ISO 8859/9 Character set"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
     <code value="8859/15"/>
@@ -145,7 +145,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="http://www.itscj.ipsj.or.jp/ISO-IR/006.pdf"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
     <code value="ISO IR6"/>
@@ -156,7 +156,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Note that the code contains a space, i.e., &quot;ISO IR14&quot;."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="ISO IR14"/>
@@ -167,7 +167,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Note that the code contains a space, i.e., &#x201C;ISO IR87&#x201D;.&#xD;&#xA;&#xD;&#xA;The JIS X 0208 needs an escape sequence. In Japan, the escape technique is ISO 2022. From basic ASCII, escape sequence &#x201C;escape&#x201D; $ B (in HEX, 1B 24 42) lets the parser know that following bytes should be handled 2-byte wise. Back to ASCII is 1B 28 42."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="ISO IR87"/>
@@ -178,7 +178,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Note that the code contains a space, i.e., &quot;ISO IR159&quot;."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="ISO IR159"/>
@@ -189,7 +189,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Does not need an escape sequence."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="GB 18030-2000"/>
@@ -197,7 +197,7 @@
     <definition value="Code for Chinese Character Set (GB 18030-2000)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="KS X 1001"/>
@@ -208,7 +208,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Does not need an escape sequence."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="CNS 11643-1992"/>
@@ -219,7 +219,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Does not need an escape sequence.&#xD;&#xA;&#xD;&#xA;BIG-5 does not need an escape sequence. ASCII is a 7 bit character set, which means that the top bit of the byte is &#x201C;0&#x201D;. The parser knows that when the top bit of the byte is &#x201C;0&#x201D;, the character set is ASCII. When it is &#x201C;1&#x201D;, the following bytes should be handled as 2 bytes (or more). No escape technique is needed. However, since some servers do not correctly interpret when they receive a top bit &#x201C;1&#x201D;, it is advised, in internet RFC, to not use these kind of non-safe non-escape extension."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="BIG-5"/>
@@ -230,7 +230,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated. Retained for backward compatibility only as v 2.5. Replaced by specific Unicode encoding codes."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="UNICODE"/>
@@ -241,7 +241,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="UTF-8 is a variable-length encoding, each code value is represented by 1,2 or 3 bytes, depending on the code value. 7 bit ASCII is a proper subset of UTF-8. Note that the code contains a space before UTF but not before and after the hyphen. Since UTF-8 represents the full UNICODE character set, the following restriction apply to its use: &#xD;&#xA;1. UTF-8 must be the default encoding of the message, UTF-8 cannot be specified as an additional character set in MSH-18&#xD;&#xA;2. There are no other character sets allowed in a message where UTF-8 is the default encoding in the message.&#xD;&#xA;In other words, UNICODE UTF-8 can only be specified as a single value in MSH-18&#xD;&#xA;3. A message encoded in UTF-8 must not use a Byte Order Mark (BOM)."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="UNICODE UTF-8"/>
@@ -252,10 +252,10 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="UTF-16 is identical to ISO/IEC 10646 UCS-2. Note that the code contains a space before UTF but not before and after the hyphen."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="UNICODE UTF-16"/>
@@ -266,10 +266,10 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="UTF-32 is defined by Unicode Technical Report #19, and is an officially recognized encoding as of Unicode Version 3.1. UTF-32 is a proper subset of ISO/IEC 10646 UCS-4. Note that the code contains a space before UTF but not before and after the hyphen."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="UNICODE UTF-32"/>

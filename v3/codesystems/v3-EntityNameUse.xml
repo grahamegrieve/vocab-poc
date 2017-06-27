@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-EntityNameUse"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.45"/>
+  </identifier>
+  <name value="EntityNameUse"/>
+  <title value="EntityNameUse"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="21077">
+    <code value="_NameRepresentationUse"/>
+    <definition value=" Identifies the different representations of a name.  The representation may affect how the name is used.  (E.g. use of Ideographic for formal communications.)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="NameRepresentationUse"/>
+    </designation>
+    <concept id="15917">
+      <code value="ABC"/>
+      <definition value=" Alphabetic transcription of name (Japanese: romaji)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Alphabetic"/>
+      </designation>
+    </concept>
+    <concept id="15919">
+      <code value="IDE"/>
+      <definition value=" Ideographic representation of name (e.g., Japanese kanji, Chinese characters)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Ideographic"/>
+      </designation>
+    </concept>
+    <concept id="15918">
+      <code value="SYL"/>
+      <definition value=" Syllabic transcription of name (e.g., Japanese kana, Korean hangul)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Syllabic"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21358">
+    <code value="ASGN"/>
+    <definition value=" A name assigned to a person. Reasons some organizations assign alternate names may include not knowing the person&#39;s name, or to maintain anonymity. Some, but not necessarily all, of the name types that people call &quot;alias&quot; may fit into this category."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="assigned"/>
+    </designation>
+  </concept>
+  <concept id="10177">
+    <code value="C"/>
+    <definition value=" As recorded on a license, record, certificate, etc. (only if different from legal name)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="License"/>
+    </designation>
+  </concept>
+  <concept id="10179">
+    <code value="I"/>
+    <definition value=" e.g. Chief Red Cloud"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Indigenous/Tribal"/>
+    </designation>
+  </concept>
+  <concept id="10176">
+    <code value="L"/>
+    <definition value=" Known as/conventional/the one you use"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Legal"/>
+    </designation>
+    <concept id="21637">
+      <code value="OR"/>
+      <definition value="  Definition:&#xD;&#xA;The formal name as registered in an official (government) registry, but which name might not be commonly used. Particularly used in countries with a law system based on Napoleonic law."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="official registry"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21321">
+    <code value="P"/>
+    <definition value=" A self asserted name that the person is using or has used."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="pseudonym"/>
+    </designation>
+    <concept id="10178">
+      <code value="A"/>
+      <definition value=" Includes writer&#39;s pseudonym, stage name, etc"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Artist/Stage"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="10180">
+    <code value="R"/>
+    <definition value=" e.g. Sister Mary Francis, Brother John"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Religious"/>
+    </designation>
+  </concept>
+  <concept id="21363">
+    <code value="SRCH"/>
+    <definition value=" A name intended for use in searching or matching."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="search"/>
+    </designation>
+    <concept id="21364">
+      <code value="PHON"/>
+      <definition value=" A name spelled phonetically. There are a variety of phonetic spelling algorithms. This code value does not distinguish between these.Discussion:&#xD;&#xA;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="phonetic"/>
+      </designation>
+    </concept>
+    <concept id="21365">
+      <code value="SNDX"/>
+      <definition value=" A name spelled according to the SoundEx algorithm."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Soundex"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22618">
+    <code value="_EntityNameSearchUse"/>
+    <definition value="  Description:&#xD;&#xA;A name intended for use in searching or matching."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="EntityNameSearchUse"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="21078">
+    <code value="_OrganizationNameUse"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="OrganizationNameUse"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="21079">
+    <code value="_PersonNameUse"/>
+    <definition value=" A code indicating the type of name (e.g. nickname, alias, maiden name, legal, adopted)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PersonNameUse"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

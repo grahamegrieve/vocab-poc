@@ -12,7 +12,7 @@
   <title value="V2 Table: Equipment State"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="IN"/>
@@ -37,7 +37,7 @@
     <definition value="Initializing"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="CO"/>
@@ -45,7 +45,7 @@
     <definition value="Configuring"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="PU"/>
@@ -53,7 +53,7 @@
     <definition value="Powered Up"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="RS"/>
@@ -61,7 +61,7 @@
     <definition value="Ready to start"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="ID"/>
@@ -69,7 +69,7 @@
     <definition value="Idle"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="OP"/>
@@ -77,7 +77,7 @@
     <definition value="Normal Operation"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="CL"/>
@@ -85,7 +85,7 @@
     <definition value="Clearing"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="PA"/>
@@ -93,7 +93,7 @@
     <definition value="Pausing"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="PD"/>
@@ -101,7 +101,7 @@
     <definition value="Paused"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="ES"/>
@@ -109,10 +109,10 @@
     <definition value="E-stopped"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7.1"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="&#x2026;"/>
@@ -120,7 +120,7 @@
     <definition value="(null) No state change"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="TS"/>
@@ -128,7 +128,7 @@
     <definition value="Transport stopped"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="SS"/>
@@ -136,7 +136,7 @@
     <definition value="Sampling stopped"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="SD"/>
@@ -144,7 +144,7 @@
     <definition value="Shutting down"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="DI"/>
@@ -152,10 +152,10 @@
     <definition value="Diagnose"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="..."/>
@@ -163,7 +163,7 @@
     <definition value="(null) No state change"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="MA"/>
@@ -171,7 +171,7 @@
     <definition value="Maintenance"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="FL"/>
@@ -179,7 +179,7 @@
     <definition value="Failure"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="UNK"/>
@@ -187,7 +187,7 @@
     <definition value="Unknown"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="LT"/>

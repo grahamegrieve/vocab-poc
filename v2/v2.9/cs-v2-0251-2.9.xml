@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0251-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0251-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.146"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0251v2.9"/>
+  <title value="V2 Table: Action Taken in Response to the Event"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0251 (Action Taken in Response to the Event)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0251-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="WP"/>
+    <display value="Product withdrawn permanently"/>
+    <definition value="Product withdrawn permanently"/>
+  </concept>
+  <concept>
+    <code value="WT"/>
+    <display value="Product withdrawn temporarily"/>
+    <definition value="Product withdrawn temporarily"/>
+  </concept>
+  <concept>
+    <code value="DR"/>
+    <display value="Product dose or frequency of use reduced"/>
+    <definition value="Product dose or frequency of use reduced"/>
+  </concept>
+  <concept>
+    <code value="DI"/>
+    <display value="Product dose or frequency of use increased"/>
+    <definition value="Product dose or frequency of use increased"/>
+  </concept>
+  <concept>
+    <code value="OT"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="None"/>
+    <definition value="None"/>
+  </concept>
+</CodeSystem>

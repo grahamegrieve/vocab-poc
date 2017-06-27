@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0070-2.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0070-2.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.28"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0070v2.1"/>
+  <title value="V2 Table: Specimen Source Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0070 (Specimen Source Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0070-2.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="BLD"/>
+    <display value="Blood"/>
+    <definition value="Blood"/>
+  </concept>
+  <concept>
+    <code value="BON"/>
+    <display value="Bone"/>
+    <definition value="Bone"/>
+  </concept>
+  <concept>
+    <code value="BRN"/>
+    <display value="Burn"/>
+    <definition value="Burn"/>
+  </concept>
+  <concept>
+    <code value="CNJT"/>
+    <display value="Conjunctiva"/>
+    <definition value="Conjunctiva"/>
+  </concept>
+  <concept>
+    <code value="CSF"/>
+    <display value="Cerebral spinal fluid"/>
+    <definition value="Cerebral spinal fluid"/>
+  </concept>
+  <concept>
+    <code value="CVX"/>
+    <display value="Cervix"/>
+    <definition value="Cervix"/>
+  </concept>
+  <concept>
+    <code value="EAR"/>
+    <display value="Ear"/>
+    <definition value="Ear"/>
+  </concept>
+  <concept>
+    <code value="FIB"/>
+    <display value="Fibroblood"/>
+    <definition value="Fibroblood"/>
+  </concept>
+  <concept>
+    <code value="HAR"/>
+    <display value="Hair"/>
+    <definition value="Hair"/>
+  </concept>
+  <concept>
+    <code value="MN"/>
+    <display value="Amniotic Fluid"/>
+    <definition value="Amniotic Fluid"/>
+  </concept>
+  <concept>
+    <code value="NOS"/>
+    <display value="Nose"/>
+    <definition value="Nose"/>
+  </concept>
+  <concept>
+    <code value="OTH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <code value="PLAS"/>
+    <display value="Plasma"/>
+    <definition value="Plasma"/>
+  </concept>
+  <concept>
+    <code value="PRT"/>
+    <display value="Peritoneal Fluid"/>
+    <definition value="Peritoneal Fluid"/>
+  </concept>
+  <concept>
+    <code value="RBC"/>
+    <display value="Erythrocytes"/>
+    <definition value="Erythrocytes"/>
+  </concept>
+  <concept>
+    <code value="SAL"/>
+    <display value="Saliva"/>
+    <definition value="Saliva"/>
+  </concept>
+  <concept>
+    <code value="SEM"/>
+    <display value="Seminal Fluid"/>
+    <definition value="Seminal Fluid"/>
+  </concept>
+  <concept>
+    <code value="SER"/>
+    <display value="Serum"/>
+    <definition value="Serum"/>
+  </concept>
+  <concept>
+    <code value="SKN"/>
+    <display value="Skin"/>
+    <definition value="Skin"/>
+  </concept>
+  <concept>
+    <code value="SNV"/>
+    <display value="Synovial Fluid"/>
+    <definition value="Synovial Fluid"/>
+  </concept>
+  <concept>
+    <code value="STL"/>
+    <display value="Stool"/>
+    <definition value="Stool"/>
+  </concept>
+  <concept>
+    <code value="SWT"/>
+    <display value="Sweat"/>
+    <definition value="Sweat"/>
+  </concept>
+  <concept>
+    <code value="THRT"/>
+    <display value="Throat"/>
+    <definition value="Throat"/>
+  </concept>
+  <concept>
+    <code value="TIS"/>
+    <display value="Tissue"/>
+    <definition value="Tissue"/>
+  </concept>
+  <concept>
+    <code value="UMB"/>
+    <display value="Umbilical Blood"/>
+    <definition value="Umbilical Blood"/>
+  </concept>
+  <concept>
+    <code value="UR"/>
+    <display value="Urine"/>
+    <definition value="Urine"/>
+  </concept>
+  <concept>
+    <code value="URTH"/>
+    <display value="Urethra"/>
+    <definition value="Urethra"/>
+  </concept>
+  <concept>
+    <code value="WBC"/>
+    <display value="Leukocytes"/>
+    <definition value="Leukocytes"/>
+  </concept>
+  <concept>
+    <code value="WND"/>
+    <display value="Wound"/>
+    <definition value="Wound"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0432-2.7"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0432-2.7"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.273"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0432v2.7"/>
+  <title value="V2 Table: Admission Level of Care Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0432 (Admission Level of Care Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0432-2.7"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AC"/>
+    <display value="Acute"/>
+    <definition value="Acute"/>
+  </concept>
+  <concept>
+    <code value="CH"/>
+    <display value="Chronic"/>
+    <definition value="Chronic"/>
+  </concept>
+  <concept>
+    <code value="CO"/>
+    <display value="Comatose"/>
+    <definition value="Comatose"/>
+  </concept>
+  <concept>
+    <code value="CR"/>
+    <display value="Critical"/>
+    <definition value="Critical"/>
+  </concept>
+  <concept>
+    <code value="IM"/>
+    <display value="Improved"/>
+    <definition value="Improved"/>
+  </concept>
+  <concept>
+    <code value="MO"/>
+    <display value="Moribund"/>
+    <definition value="Moribund"/>
+  </concept>
+</CodeSystem>

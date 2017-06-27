@@ -12,7 +12,7 @@
   <title value="V2 Table: Appointment Type Codes"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,10 +29,10 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="COMPLETE"/>
@@ -40,10 +40,10 @@
     <definition value="A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="NORMAL"/>
@@ -51,10 +51,10 @@
     <definition value="Routine schedule request type - default if not valued"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="TENTATIVE"/>
@@ -62,7 +62,7 @@
     <definition value="A request for a tentative (e.g., &#x201C;penciled in&#x201D;) appointment"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="Normal"/>
@@ -70,7 +70,7 @@
     <definition value="Routine schedule request type &#x2013; default if not valued"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="Tentative"/>
@@ -78,7 +78,7 @@
     <definition value="A request for a tentative (e.g., &#x201C;penciled in&#x201D;) appointment"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="Complete"/>

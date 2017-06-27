@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0023-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0023-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.14"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0023v2.4"/>
+  <title value="V2 Table: Admit Source"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0023 (Admit Source)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0023-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Physician referral"/>
+    <definition value="Physician referral"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Clinic referral"/>
+    <definition value="Clinic referral"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="HMO referral"/>
+    <definition value="HMO referral"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Transfer from a hospital"/>
+    <definition value="Transfer from a hospital"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Transfer from a skilled nursing facility"/>
+    <definition value="Transfer from a skilled nursing facility"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Transfer from another health care facility"/>
+    <definition value="Transfer from another health care facility"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Emergency room"/>
+    <definition value="Emergency room"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Court/law enforcement"/>
+    <definition value="Court/law enforcement"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Information not available"/>
+    <definition value="Information not available"/>
+  </concept>
+</CodeSystem>

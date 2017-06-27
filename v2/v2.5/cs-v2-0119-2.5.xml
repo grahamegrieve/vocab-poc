@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0119-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0119-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.48"/>
+  </identifier>
+  <version value="5"/>
+  <name value="V2Table0119v2.5"/>
+  <title value="V2 Table: Order Control Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0119 (Order Control Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0119-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AF"/>
+    <display value="Order/service refill request approval"/>
+    <definition value="Order/service refill request approval"/>
+  </concept>
+  <concept>
+    <code value="CA"/>
+    <display value="Cancel order/service request"/>
+    <definition value="Cancel order/service request"/>
+  </concept>
+  <concept>
+    <code value="CH"/>
+    <display value="Child order/service"/>
+    <definition value="Child order/service"/>
+  </concept>
+  <concept>
+    <code value="CR"/>
+    <display value="Canceled as requested"/>
+    <definition value="Canceled as requested"/>
+  </concept>
+  <concept>
+    <code value="DC"/>
+    <display value="Discontinue order/service request"/>
+    <definition value="Discontinue order/service request"/>
+  </concept>
+  <concept>
+    <code value="DE"/>
+    <display value="Data errors"/>
+    <definition value="Data errors"/>
+  </concept>
+  <concept>
+    <code value="DF"/>
+    <display value="Order/service refill request denied"/>
+    <definition value="Order/service refill request denied"/>
+  </concept>
+  <concept>
+    <code value="DR"/>
+    <display value="Discontinued as requested"/>
+    <definition value="Discontinued as requested"/>
+  </concept>
+  <concept>
+    <code value="FU"/>
+    <display value="Order/service refilled, unsolicited"/>
+    <definition value="Order/service refilled, unsolicited"/>
+  </concept>
+  <concept>
+    <code value="HD"/>
+    <display value="Hold order request"/>
+    <definition value="Hold order request"/>
+  </concept>
+  <concept>
+    <code value="HR"/>
+    <display value="On hold as requested"/>
+    <definition value="On hold as requested"/>
+  </concept>
+  <concept>
+    <code value="LI"/>
+    <display value="Link order/service to patient care problem or goal"/>
+    <definition value="Link order/service to patient care problem or goal"/>
+  </concept>
+  <concept>
+    <code value="NA"/>
+    <display value="Number assigned"/>
+    <definition value="Number assigned"/>
+  </concept>
+  <concept>
+    <code value="NW"/>
+    <display value="New order/service"/>
+    <definition value="New order/service"/>
+  </concept>
+  <concept>
+    <code value="OC"/>
+    <display value="Order/service canceled"/>
+    <definition value="Order/service canceled"/>
+  </concept>
+  <concept>
+    <code value="OD"/>
+    <display value="Order/service discontinued"/>
+    <definition value="Order/service discontinued"/>
+  </concept>
+  <concept>
+    <code value="OE"/>
+    <display value="Order/service released"/>
+    <definition value="Order/service released"/>
+  </concept>
+  <concept>
+    <code value="OF"/>
+    <display value="Order/service refilled as requested"/>
+    <definition value="Order/service refilled as requested"/>
+  </concept>
+  <concept>
+    <code value="OH"/>
+    <display value="Order/service held"/>
+    <definition value="Order/service held"/>
+  </concept>
+  <concept>
+    <code value="OK"/>
+    <display value="Order/service accepted &amp; OK"/>
+    <definition value="Order/service accepted &amp; OK"/>
+  </concept>
+  <concept>
+    <code value="OR"/>
+    <display value="Released as requested"/>
+    <definition value="Released as requested"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Parent order/service"/>
+    <definition value="Parent order/service"/>
+  </concept>
+  <concept>
+    <code value="PR"/>
+    <display value="Previous Results with new order/service"/>
+    <definition value="Previous Results with new order/service"/>
+  </concept>
+  <concept>
+    <code value="RE"/>
+    <display value="Observations/Performed Service to follow"/>
+    <definition value="Observations/Performed Service to follow"/>
+  </concept>
+  <concept>
+    <code value="RF"/>
+    <display value="Refill order/service request"/>
+    <definition value="Refill order/service request"/>
+  </concept>
+  <concept>
+    <code value="RL"/>
+    <display value="Release previous hold"/>
+    <definition value="Release previous hold"/>
+  </concept>
+  <concept>
+    <code value="RO"/>
+    <display value="Replacement order"/>
+    <definition value="Replacement order"/>
+  </concept>
+  <concept>
+    <code value="RP"/>
+    <display value="Order/service replace request"/>
+    <definition value="Order/service replace request"/>
+  </concept>
+  <concept>
+    <code value="RQ"/>
+    <display value="Replaced as requested"/>
+    <definition value="Replaced as requested"/>
+  </concept>
+  <concept>
+    <code value="RU"/>
+    <display value="Replaced unsolicited"/>
+    <definition value="Replaced unsolicited"/>
+  </concept>
+  <concept>
+    <code value="SC"/>
+    <display value="Status changed"/>
+    <definition value="Status changed"/>
+  </concept>
+  <concept>
+    <code value="SN"/>
+    <display value="Send order/service number"/>
+    <definition value="Send order/service number"/>
+  </concept>
+  <concept>
+    <code value="SR"/>
+    <display value="Response to send order/service status request"/>
+    <definition value="Response to send order/service status request"/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="Send order/service status request"/>
+    <definition value="Send order/service status request"/>
+  </concept>
+  <concept>
+    <code value="UA"/>
+    <display value="Unable to accept order/service"/>
+    <definition value="Unable to accept order/service"/>
+  </concept>
+  <concept>
+    <code value="UC"/>
+    <display value="Unable to cancel"/>
+    <definition value="Unable to cancel"/>
+  </concept>
+  <concept>
+    <code value="UD"/>
+    <display value="Unable to discontinue"/>
+    <definition value="Unable to discontinue"/>
+  </concept>
+  <concept>
+    <code value="UF"/>
+    <display value="Unable to refill"/>
+    <definition value="Unable to refill"/>
+  </concept>
+  <concept>
+    <code value="UH"/>
+    <display value="Unable to put on hold"/>
+    <definition value="Unable to put on hold"/>
+  </concept>
+  <concept>
+    <code value="UM"/>
+    <display value="Unable to replace"/>
+    <definition value="Unable to replace"/>
+  </concept>
+  <concept>
+    <code value="UN"/>
+    <display value="Unlink order/service from patient care problem or goal"/>
+    <definition value="Unlink order/service from patient care problem or goal"/>
+  </concept>
+  <concept>
+    <code value="UR"/>
+    <display value="Unable to release"/>
+    <definition value="Unable to release"/>
+  </concept>
+  <concept>
+    <code value="UX"/>
+    <display value="Unable to change"/>
+    <definition value="Unable to change"/>
+  </concept>
+  <concept>
+    <code value="XO"/>
+    <display value="Change order/service request"/>
+    <definition value="Change order/service request"/>
+  </concept>
+  <concept>
+    <code value="XR"/>
+    <display value="Changed as requested"/>
+    <definition value="Changed as requested"/>
+  </concept>
+  <concept>
+    <code value="XX"/>
+    <display value="Order/service changed, unsol."/>
+    <definition value="Order/service changed, unsol."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="&quot;P,F&quot;"/>
+    </extension>
+    <code value="RR"/>
+    <display value="Request received"/>
+    <definition value="Request received"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="F"/>
+    </extension>
+    <code value="CN"/>
+    <display value="Combined result"/>
+    <definition value="Combined result"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="P"/>
+    </extension>
+    <code value="OP"/>
+    <display value="Notification of order for outside dispense"/>
+    <definition value="Notification of order for outside dispense"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="P,F"/>
+    </extension>
+    <code value="PY"/>
+    <display value="Notification of replacement order for outside dispense"/>
+    <definition value="Notification of replacement order for outside dispense"/>
+  </concept>
+</CodeSystem>

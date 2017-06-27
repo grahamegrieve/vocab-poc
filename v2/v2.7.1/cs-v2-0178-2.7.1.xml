@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0178-2.7.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0178-2.7.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.93"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0178v2.7.1"/>
+  <title value="V2 Table: File Level Event Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0178 (File Level Event Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0178-2.7.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="REP"/>
+    <display value="Replace current version of this master file with the version contained in this message"/>
+    <definition value="Replace current version of this master file with the version contained in this message"/>
+  </concept>
+  <concept>
+    <code value="UPD"/>
+    <display value="Change file records as defined in the record-level event codes for each record that follows"/>
+    <definition value="Change file records as defined in the record-level event codes for each record that follows"/>
+  </concept>
+</CodeSystem>

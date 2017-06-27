@@ -12,7 +12,7 @@
   <title value="V2 Table: Diagnosis Priority"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="0"/>
@@ -37,7 +37,7 @@
     <definition value="Not included in diagnosis ranking"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="1"/>
@@ -45,10 +45,10 @@
     <definition value="The primary diagnosis"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="2 and higher"/>
@@ -56,10 +56,10 @@
     <definition value="for ranked secondary diagnoses"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="2 ..."/>
@@ -67,7 +67,7 @@
     <definition value="For ranked secondary diagnoses"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
     <code value="2"/>
@@ -75,10 +75,10 @@
     <definition value="For  secondary diagnosis"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="..."/>
@@ -86,7 +86,7 @@
     <definition value="No suggested values defined"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="3"/>
@@ -94,7 +94,7 @@
     <definition value="For tertiary diagnosis"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="4"/>

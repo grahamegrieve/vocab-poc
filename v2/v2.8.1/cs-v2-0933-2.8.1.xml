@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0933-2.8.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0933-2.8.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.434"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0933v2.8.1"/>
+  <title value="V2 Table: Intended Procedure Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0933 (Intended Procedure Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0933-2.8.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="WBL"/>
+    <display value="Whole Blood"/>
+    <definition value="Whole Blood"/>
+  </concept>
+  <concept>
+    <code value="2RC"/>
+    <display value="Double Red Cells"/>
+    <definition value="Double Red Cells"/>
+  </concept>
+  <concept>
+    <code value="PLS"/>
+    <display value="Plasma"/>
+    <definition value="Plasma"/>
+  </concept>
+  <concept>
+    <code value="PLT"/>
+    <display value="Platelets"/>
+    <definition value="Platelets"/>
+  </concept>
+  <concept>
+    <code value="PNP"/>
+    <display value="Platelets and Plasma"/>
+    <definition value="Platelets and Plasma"/>
+  </concept>
+  <concept>
+    <code value="PNR"/>
+    <display value="Platelets and Red Cells"/>
+    <definition value="Platelets and Red Cells"/>
+  </concept>
+  <concept>
+    <code value="PPR"/>
+    <display value="Platelets, Plasma, and Red Cells"/>
+    <definition value="Platelets, Plasma, and Red Cells"/>
+  </concept>
+  <concept>
+    <code value="GRN"/>
+    <display value="Granulocytes"/>
+    <definition value="Granulocytes"/>
+  </concept>
+  <concept>
+    <code value="HEM"/>
+    <display value="Hemachromatosis"/>
+    <definition value="Hemachromatosis"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Stem Cells and other cells classified as Hematopoietic"/>
+    </extension>
+    <code value="HPC"/>
+    <display value="Hematopoietic Progenitor Cells"/>
+    <definition value="Hematopoietic Progenitor Cells"/>
+  </concept>
+  <concept>
+    <code value="LYM"/>
+    <display value="Lymphocytes"/>
+    <definition value="Lymphocytes"/>
+  </concept>
+  <concept>
+    <code value="THA"/>
+    <display value="Therapeutic Apheresis"/>
+    <definition value="Therapeutic Apheresis"/>
+  </concept>
+  <concept>
+    <code value="THW"/>
+    <display value="Therapeutic Whole Blood"/>
+    <definition value="Therapeutic Whole Blood"/>
+  </concept>
+</CodeSystem>

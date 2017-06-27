@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0426-2.8.2"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0426-2.8.2"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.267"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0426v2.8.2"/>
+  <title value="V2 Table: Blood Product Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0426 (Blood Product Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0426-2.8.2"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="CRYO"/>
+    <display value="Cryoprecipitated AHF"/>
+    <definition value="Cryoprecipitated AHF"/>
+  </concept>
+  <concept>
+    <code value="CRYOP"/>
+    <display value="Pooled Cryoprecipitate"/>
+    <definition value="Pooled Cryoprecipitate"/>
+  </concept>
+  <concept>
+    <code value="FFP"/>
+    <display value="Fresh Frozen Plasma"/>
+    <definition value="Fresh Frozen Plasma"/>
+  </concept>
+  <concept>
+    <code value="FFPTH"/>
+    <display value="Fresh Frozen Plasma - Thawed"/>
+    <definition value="Fresh Frozen Plasma - Thawed"/>
+  </concept>
+  <concept>
+    <code value="PC"/>
+    <display value="Packed Cells"/>
+    <definition value="Packed Cells"/>
+  </concept>
+  <concept>
+    <code value="PCA"/>
+    <display value="Autologous Packed Cells"/>
+    <definition value="Autologous Packed Cells"/>
+  </concept>
+  <concept>
+    <code value="PCNEO"/>
+    <display value="Packed Cells - Neonatal"/>
+    <definition value="Packed Cells - Neonatal"/>
+  </concept>
+  <concept>
+    <code value="PCW"/>
+    <display value="Washed Packed Cells"/>
+    <definition value="Washed Packed Cells"/>
+  </concept>
+  <concept>
+    <code value="PLT"/>
+    <display value="Platelet Concentrate"/>
+    <definition value="Platelet Concentrate"/>
+  </concept>
+  <concept>
+    <code value="PLTNEO"/>
+    <display value="Reduced Volume Platelets"/>
+    <definition value="Reduced Volume Platelets"/>
+  </concept>
+  <concept>
+    <code value="PLTP"/>
+    <display value="Pooled Platelets"/>
+    <definition value="Pooled Platelets"/>
+  </concept>
+  <concept>
+    <code value="PLTPH"/>
+    <display value="Platelet Pheresis"/>
+    <definition value="Platelet Pheresis"/>
+  </concept>
+  <concept>
+    <code value="PLTPHLR"/>
+    <display value="Leukoreduced Platelet Pheresis"/>
+    <definition value="Leukoreduced Platelet Pheresis"/>
+  </concept>
+  <concept>
+    <code value="RWB"/>
+    <display value="Reconstituted Whole Blood"/>
+    <definition value="Reconstituted Whole Blood"/>
+  </concept>
+  <concept>
+    <code value="WBA"/>
+    <display value="Autologous Whole Blood"/>
+    <definition value="Autologous Whole Blood"/>
+  </concept>
+</CodeSystem>

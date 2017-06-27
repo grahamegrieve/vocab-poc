@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0033-2.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0033-2.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.16"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0033v2.1"/>
+  <title value="V2 Table: ROUTE"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0033 (ROUTE)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0033-2.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AP"/>
+    <display value="Apply externally"/>
+    <definition value="Apply externally"/>
+  </concept>
+  <concept>
+    <code value="CH"/>
+    <display value="Chew"/>
+    <definition value="Chew"/>
+  </concept>
+  <concept>
+    <code value="DU"/>
+    <display value="Dust"/>
+    <definition value="Dust"/>
+  </concept>
+  <concept>
+    <code value="EA"/>
+    <display value="Ear"/>
+    <definition value="Ear"/>
+  </concept>
+  <concept>
+    <code value="EY"/>
+    <display value="Eye"/>
+    <definition value="Eye"/>
+  </concept>
+  <concept>
+    <code value="IA"/>
+    <display value="Intro-arterial"/>
+    <definition value="Intro-arterial"/>
+  </concept>
+  <concept>
+    <code value="ID"/>
+    <display value="Intra-dermal"/>
+    <definition value="Intra-dermal"/>
+  </concept>
+  <concept>
+    <code value="IF"/>
+    <display value="Infiltrate"/>
+    <definition value="Infiltrate"/>
+  </concept>
+  <concept>
+    <code value="IH"/>
+    <display value="Inhalation"/>
+    <definition value="Inhalation"/>
+  </concept>
+  <concept>
+    <code value="IM"/>
+    <display value="Intra-muscular"/>
+    <definition value="Intra-muscular"/>
+  </concept>
+  <concept>
+    <code value="IN"/>
+    <display value="Intra-nasal"/>
+    <definition value="Intra-nasal"/>
+  </concept>
+  <concept>
+    <code value="IR"/>
+    <display value="Irrigate"/>
+    <definition value="Irrigate"/>
+  </concept>
+  <concept>
+    <code value="IS"/>
+    <display value="Inserted"/>
+    <definition value="Inserted"/>
+  </concept>
+  <concept>
+    <code value="IT"/>
+    <display value="Intrathecal"/>
+    <definition value="Intrathecal"/>
+  </concept>
+  <concept>
+    <code value="IV"/>
+    <display value="Intravenous"/>
+    <definition value="Intravenous"/>
+  </concept>
+  <concept>
+    <code value="NB"/>
+    <display value="Nebulized"/>
+    <definition value="Nebulized"/>
+  </concept>
+  <concept>
+    <code value="NG"/>
+    <display value="Nathogasic"/>
+    <definition value="Nathogasic"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Peri-anally"/>
+    <definition value="Peri-anally"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Paint"/>
+    <definition value="Paint"/>
+  </concept>
+  <concept>
+    <code value="PU"/>
+    <display value="IV push"/>
+    <definition value="IV push"/>
+  </concept>
+  <concept>
+    <code value="RC"/>
+    <display value="Rectally"/>
+    <definition value="Rectally"/>
+  </concept>
+  <concept>
+    <code value="SH"/>
+    <display value="Shampoo"/>
+    <definition value="Shampoo"/>
+  </concept>
+  <concept>
+    <code value="SL"/>
+    <display value="Sublingual"/>
+    <definition value="Sublingual"/>
+  </concept>
+  <concept>
+    <code value="SO"/>
+    <display value="Soak"/>
+    <definition value="Soak"/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="IV soluset"/>
+    <definition value="IV soluset"/>
+  </concept>
+  <concept>
+    <code value="TP"/>
+    <display value="Topically"/>
+    <definition value="Topically"/>
+  </concept>
+  <concept>
+    <code value="WA"/>
+    <display value="Wash"/>
+    <definition value="Wash"/>
+  </concept>
+  <concept>
+    <code value="WI"/>
+    <display value="Wipe"/>
+    <definition value="Wipe"/>
+  </concept>
+</CodeSystem>

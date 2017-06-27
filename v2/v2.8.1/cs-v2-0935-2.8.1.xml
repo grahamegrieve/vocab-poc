@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0935-2.8.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0935-2.8.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.435"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0935v2.8.1"/>
+  <title value="V2 Table: Process Interruption Reason"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0935 (Process Interruption Reason)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0935-2.8.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="NRG"/>
+    <display value="No reason given, donor decided to stop without giving a reason"/>
+    <definition value="No reason given, donor decided to stop without giving a reason"/>
+  </concept>
+  <concept>
+    <code value="PCD"/>
+    <display value="Phone Call-Donor"/>
+    <definition value="Phone Call-Donor"/>
+  </concept>
+  <concept>
+    <code value="DCW"/>
+    <display value="Couldn&#39;t wait"/>
+    <definition value="Couldn&#39;t wait"/>
+  </concept>
+  <concept>
+    <code value="CFT"/>
+    <display value="Couldn&#39;t follow through with donation (scared)"/>
+    <definition value="Couldn&#39;t follow through with donation (scared)"/>
+  </concept>
+  <concept>
+    <code value="DBB"/>
+    <display value="Bathroom"/>
+    <definition value="Bathroom"/>
+  </concept>
+  <concept>
+    <code value="DNI"/>
+    <display value="Phlebotomy Issue"/>
+    <definition value="Phlebotomy Issue"/>
+  </concept>
+  <concept>
+    <code value="ASC"/>
+    <display value="Apheresis Software Crash"/>
+    <definition value="Apheresis Software Crash"/>
+  </concept>
+  <concept>
+    <code value="BSC"/>
+    <display value="Manufacturing Software Crash"/>
+    <definition value="Manufacturing Software Crash"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."/>
+    </extension>
+    <code value="GFE"/>
+    <display value="General Facility Emergency"/>
+    <definition value="General Facility Emergency"/>
+  </concept>
+</CodeSystem>

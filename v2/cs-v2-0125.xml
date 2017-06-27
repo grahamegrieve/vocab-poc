@@ -12,7 +12,7 @@
   <title value="V2 Table: Value Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility as of v2.6."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="AD"/>
@@ -40,7 +40,7 @@
     <definition value="Address"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="AUI"/>
@@ -48,10 +48,10 @@
     <definition value="Authorization information"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="CE"/>
@@ -59,7 +59,7 @@
     <definition value="Coded Entry"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="CCD"/>
@@ -67,7 +67,7 @@
     <definition value="Charge code and date"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="CCP"/>
@@ -75,7 +75,7 @@
     <definition value="Channel calibration parameters"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="CD"/>
@@ -86,7 +86,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="CK"/>
@@ -97,7 +97,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CF"/>
@@ -108,10 +108,10 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="CN"/>
@@ -119,7 +119,7 @@
     <definition value="Composite ID And Name"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
     <code value="CNE"/>
@@ -127,7 +127,7 @@
     <definition value="Coded with no exceptions"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="CNN"/>
@@ -138,7 +138,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="CP"/>
@@ -146,10 +146,10 @@
     <definition value="Composite price"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="..."/>
@@ -157,7 +157,7 @@
     <definition value="No suggested values defined"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="CSU"/>
@@ -165,7 +165,7 @@
     <definition value="Channel sensitivity and units"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
     <code value="CWE"/>
@@ -173,7 +173,7 @@
     <definition value="Coded with exceptions"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="CX"/>
@@ -181,7 +181,7 @@
     <definition value="Extended composite ID with check digit"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="DDI"/>
@@ -189,10 +189,10 @@
     <definition value="Daily deductible information"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="ID"/>
@@ -200,7 +200,7 @@
     <definition value="Coded Value for HL7 Defined Tables"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="DIN"/>
@@ -208,10 +208,10 @@
     <definition value="Date and institution name"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="TQ"/>
@@ -219,7 +219,7 @@
     <definition value="Timing / quantity"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="DLD"/>
@@ -227,7 +227,7 @@
     <definition value="Discharge to location and date"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="DLN"/>
@@ -235,10 +235,10 @@
     <definition value="Driver&#39;s license number"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="SI"/>
@@ -246,7 +246,7 @@
     <definition value="Sequence ID"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="DLT"/>
@@ -254,10 +254,10 @@
     <definition value="Delta"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="CM"/>
@@ -265,7 +265,7 @@
     <definition value="Composite"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
     <code value="DR"/>
@@ -273,7 +273,7 @@
     <definition value="Date/time range"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="TS"/>
@@ -281,7 +281,7 @@
     <definition value="Time Stamp (Date &amp; Time)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="DT"/>
@@ -289,10 +289,10 @@
     <definition value="Date"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="CQ"/>
@@ -303,7 +303,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="PN"/>
@@ -311,7 +311,7 @@
     <definition value="Person Name"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
     <code value="DTM"/>
@@ -319,7 +319,7 @@
     <definition value="Date/time"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="DTN"/>
@@ -327,7 +327,7 @@
     <definition value="Day type and number"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="ED"/>
@@ -335,7 +335,7 @@
     <definition value="Encapsulated data"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="EI"/>
@@ -343,7 +343,7 @@
     <definition value="Entity identifier"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="EIP"/>
@@ -354,10 +354,10 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
     <code value="TN"/>
@@ -365,7 +365,7 @@
     <definition value="Telephone Number"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="ERL"/>
@@ -373,7 +373,7 @@
     <definition value="Error location"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="FC"/>
@@ -386,7 +386,7 @@
     <definition value="Formatted text"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="GTS"/>
@@ -394,7 +394,7 @@
     <definition value="General timing specification"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="HD"/>
@@ -402,7 +402,7 @@
     <definition value="Hierarchic designator"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="ICD"/>
@@ -410,7 +410,7 @@
     <definition value="Insurance certification definition"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
     <code value="IS"/>
@@ -418,7 +418,7 @@
     <definition value="Coded value for user-defined tables"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="JCC"/>
@@ -426,7 +426,7 @@
     <definition value="Job code/class"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="LA1"/>
@@ -434,7 +434,7 @@
     <definition value="Location with address variation 1"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="LA2"/>
@@ -442,7 +442,7 @@
     <definition value="Location with address variation 2"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
     <code value="MA"/>
@@ -453,7 +453,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MO"/>
@@ -461,7 +461,7 @@
     <definition value="Money"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="MOC"/>
@@ -469,7 +469,7 @@
     <definition value="Money and charge code"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="MOP"/>
@@ -477,7 +477,7 @@
     <definition value="Money or percentage"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="MSG"/>
@@ -485,7 +485,7 @@
     <definition value="Message type"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
     <code value="NA"/>
@@ -493,7 +493,7 @@
     <definition value="Numeric array"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="NDL"/>
@@ -501,7 +501,7 @@
     <definition value="Name with date and location"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="NM"/>
@@ -509,7 +509,7 @@
     <definition value="Numeric"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="NR"/>
@@ -517,7 +517,7 @@
     <definition value="Numeric range"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="OCD"/>
@@ -525,7 +525,7 @@
     <definition value="Occurrence code and date"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="OSP"/>
@@ -533,7 +533,7 @@
     <definition value="Occurrence span code and date"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PIP"/>
@@ -541,7 +541,7 @@
     <definition value="Practitioner institutional privileges"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PL"/>
@@ -549,7 +549,7 @@
     <definition value="Person location"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PLN"/>
@@ -557,7 +557,7 @@
     <definition value="Practitioner license or other ID number"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PPN"/>
@@ -565,7 +565,7 @@
     <definition value="Performing person time stamp"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PRL"/>
@@ -573,7 +573,7 @@
     <definition value="Parent result link"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PT"/>
@@ -581,7 +581,7 @@
     <definition value="Processing type"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="PTA"/>
@@ -589,7 +589,7 @@
     <definition value="Policy type and amount"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="QIP"/>
@@ -597,7 +597,7 @@
     <definition value="Query input parameter list"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="QSC"/>
@@ -605,7 +605,7 @@
     <definition value="Query selection criteria"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="RCD"/>
@@ -613,7 +613,7 @@
     <definition value="Row column definition"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="RFR"/>
@@ -621,7 +621,7 @@
     <definition value="Reference range"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="RI"/>
@@ -629,7 +629,7 @@
     <definition value="Repeat interval"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="RMC"/>
@@ -637,7 +637,7 @@
     <definition value="Room coverage"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="RP"/>
@@ -645,7 +645,7 @@
     <definition value="Reference pointer"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="RPT"/>
@@ -653,7 +653,7 @@
     <definition value="Repeat pattern"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="SCV"/>
@@ -661,7 +661,7 @@
     <definition value="Scheduling class value pair"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="SN"/>
@@ -669,7 +669,7 @@
     <definition value="Structured numeric"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="SNM"/>
@@ -677,7 +677,7 @@
     <definition value="String of telephone number digits"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="SPD"/>
@@ -685,7 +685,7 @@
     <definition value="Specialty description"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="SRT"/>
@@ -708,7 +708,7 @@
     <definition value="Text data"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="UVC"/>
@@ -716,7 +716,7 @@
     <definition value="UB value code and amount"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="VH"/>
@@ -724,7 +724,7 @@
     <definition value="Visiting hours"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="VID"/>
@@ -732,7 +732,7 @@
     <definition value="Version identifier"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="VR"/>
@@ -740,7 +740,7 @@
     <definition value="Value range"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="WVI"/>
@@ -748,7 +748,7 @@
     <definition value="Channel Identifier"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="WVS"/>
@@ -759,7 +759,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="XAD"/>
@@ -770,7 +770,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="XCN"/>
@@ -781,7 +781,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="XON"/>
@@ -792,7 +792,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="XPN"/>
@@ -803,7 +803,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="XTN"/>

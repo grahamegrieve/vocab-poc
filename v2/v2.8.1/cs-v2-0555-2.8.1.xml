@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0555-2.8.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0555-2.8.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.359"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0555v2.8.1"/>
+  <title value="V2 Table: Invoice Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0555 (Invoice Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0555-2.8.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="FS"/>
+    <display value="Fee for Service"/>
+    <definition value="Fee for Service"/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="By Session"/>
+    <definition value="By Session"/>
+  </concept>
+  <concept>
+    <code value="GP"/>
+    <display value="Group"/>
+    <definition value="Group"/>
+  </concept>
+  <concept>
+    <code value="BK"/>
+    <display value="Block"/>
+    <definition value="Block"/>
+  </concept>
+  <concept>
+    <code value="SL"/>
+    <display value="Salary"/>
+    <definition value="Salary"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Payee information not required for this Invoice Type"/>
+    </extension>
+    <code value="IN"/>
+    <display value="Information Only"/>
+    <definition value="Information Only"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Invoice without a patient.  E.g. bulk invoicing for Pharmacy for a care facility."/>
+    </extension>
+    <code value="NP"/>
+    <display value="Non Patient"/>
+    <definition value="Non Patient"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Final Invoice"/>
+    </extension>
+    <code value="FN"/>
+    <display value="Final"/>
+    <definition value="Final"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Partial Invoice"/>
+    </extension>
+    <code value="PA"/>
+    <display value="Partial"/>
+    <definition value="Partial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Supplemental Invoice"/>
+    </extension>
+    <code value="SU"/>
+    <display value="Supplemental"/>
+    <definition value="Supplemental"/>
+  </concept>
+</CodeSystem>

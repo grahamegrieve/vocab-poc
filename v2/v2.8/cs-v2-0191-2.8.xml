@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0191-2.8"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0191-2.8"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.102"/>
+  </identifier>
+  <version value="4"/>
+  <name value="V2Table0191v2.8"/>
+  <title value="V2 Table: Type of Referenced Data"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0191 (Type of Referenced Data)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0191-2.8"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AP"/>
+    <display value="Other application data, typically uninterpreted binary data (HL7 V2.3 and later)"/>
+    <definition value="Other application data, typically uninterpreted binary data (HL7 V2.3 and later)"/>
+  </concept>
+  <concept>
+    <code value="AU"/>
+    <display value="Audio data (HL7 V2.3 and later)"/>
+    <definition value="Audio data (HL7 V2.3 and later)"/>
+  </concept>
+  <concept>
+    <code value="FT"/>
+    <display value="Formatted text (HL7 V2.2 only)"/>
+    <definition value="Formatted text (HL7 V2.2 only)"/>
+  </concept>
+  <concept>
+    <code value="IM"/>
+    <display value="Image data (HL7 V2.3 and later)"/>
+    <definition value="Image data (HL7 V2.3 and later)"/>
+  </concept>
+  <concept>
+    <code value="multipart"/>
+    <display value="MIME multipart package"/>
+    <definition value="MIME multipart package"/>
+  </concept>
+  <concept>
+    <code value="NS"/>
+    <display value="Non-scanned image (HL7 V2.2 only)"/>
+    <definition value="Non-scanned image (HL7 V2.2 only)"/>
+  </concept>
+  <concept>
+    <code value="SD"/>
+    <display value="Scanned document (HL7 V2.2 only)"/>
+    <definition value="Scanned document (HL7 V2.2 only)"/>
+  </concept>
+  <concept>
+    <code value="SI"/>
+    <display value="Scanned image (HL7 V2.2 only)"/>
+    <definition value="Scanned image (HL7 V2.2 only)"/>
+  </concept>
+  <concept>
+    <code value="TEXT"/>
+    <display value="Machine readable text document (HL7 V2.3.1 and later)"/>
+    <definition value="Machine readable text document (HL7 V2.3.1 and later)"/>
+  </concept>
+  <concept>
+    <code value="TX"/>
+    <display value="Machine readable text document (HL7 V2.2 only)"/>
+    <definition value="Machine readable text document (HL7 V2.2 only)"/>
+  </concept>
+</CodeSystem>

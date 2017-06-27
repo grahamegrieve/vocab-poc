@@ -12,7 +12,7 @@
   <title value="V2 Table: Observation Result Status Codes Interpretation"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="A"/>
@@ -37,7 +37,7 @@
     <definition value="Amended based on adjustments provided by the Placer (Physician) regarding patient demographics (such as age and/or gender or other patient specific information"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="B"/>
@@ -45,7 +45,7 @@
     <definition value="Appended Report - Final results reviewed and further information provided for clarity without change to the original result values."/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="C"/>
@@ -68,7 +68,7 @@
     <definition value="Specimen in lab; results pending"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="N"/>
@@ -76,7 +76,7 @@
     <definition value="Not asked; used to affirmatively document that the observation identified in the OBX was not sought when the universal service ID in OBR-4 implies that it would be sought."/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="O"/>
@@ -84,7 +84,7 @@
     <definition value="Order detail description only (no result)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="P"/>
@@ -105,7 +105,7 @@
     <definition value="Partial results.   Deprecated. Retained only for backward compatibility as of V2.6."/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="V"/>
@@ -113,7 +113,7 @@
     <definition value="Verified - Final results reviewed and confirmed to be correct, no change to result value, normal range or abnormal flag"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="X"/>
@@ -121,7 +121,7 @@
     <definition value="Results cannot be obtained for this observation"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="U"/>
@@ -129,7 +129,7 @@
     <definition value="Results status change to final without retransmitting results already sent as &#39;preliminary.&#39;  E.g., radiology changes status from preliminary to final"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="W"/>

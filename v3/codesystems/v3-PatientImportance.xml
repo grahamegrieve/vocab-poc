@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-PatientImportance"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Patient VIP code</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-PatientImportance"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1075"/>
+  </identifier>
+  <name value="PatientImportance"/>
+  <title value="PatientImportance"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7"/>
+  <contact>
+    <name value="Health Level Seven, Inc."/>
+  </contact>
+  <description value=" Patient VIP code"/>
+  <content value="complete"/>
+  <concept id="19266">
+    <code value="BM"/>
+    <definition value=" Board member of health care organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Board Member"/>
+    </designation>
+  </concept>
+  <concept id="19269">
+    <code value="DFM"/>
+    <definition value=" Family member of staff physician"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Physician Family Member"/>
+    </designation>
+  </concept>
+  <concept id="19267">
+    <code value="DR"/>
+    <definition value=" Member of the health care organization physician staff"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Staff Physician"/>
+    </designation>
+  </concept>
+  <concept id="19268">
+    <code value="FD"/>
+    <definition value=" Financial donor to the health care organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Financial Donor"/>
+    </designation>
+  </concept>
+  <concept id="19274">
+    <code value="FOR"/>
+    <definition value=" Foreign citizen dignitary of interest to the health care organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Foreign Dignitary"/>
+    </designation>
+  </concept>
+  <concept id="19270">
+    <code value="GOVT"/>
+    <definition value=" Government dignitary of interest to the organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Government Dignitary"/>
+    </designation>
+  </concept>
+  <concept id="19271">
+    <code value="SFM"/>
+    <definition value=" Family member of staff member"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Staff Family Member"/>
+    </designation>
+  </concept>
+  <concept id="19272">
+    <code value="STF"/>
+    <definition value=" Staff member of the health care organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Staff Member"/>
+    </designation>
+  </concept>
+  <concept id="19273">
+    <code value="VIP"/>
+    <definition value=" Very important person of interest to the health care organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Very Important Person"/>
+    </designation>
+  </concept>
+</CodeSystem>

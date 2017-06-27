@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0472-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0472-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.300"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0472v2.5"/>
+  <title value="V2 Table: TQ Conjunction ID"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0472 (TQ Conjunction ID)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0472-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="An _S_ specification implies that the second timing sequence follows the first, e.g., when an order is written to measure blood pressure Q15 minutes for the 1st hour, then every 2 hours for the next day."/>
+    </extension>
+    <code value="S"/>
+    <display value="Synchronous."/>
+    <definition value="Synchronous."/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Do the next specification in parallel with this one (unless otherwise constrained by the following components: ORC-7^4-start date/time and ORC-7^5-end date/time). The conjunction of _A_ specifies two parallel instructions, as are sometimes used in medicat"/>
+    </extension>
+    <code value="A"/>
+    <display value="Asynchronous"/>
+    <definition value="Asynchronous"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="^1^QAM^X3^D10"/>
+    </extension>
+    <code value="C"/>
+    <display value="This is an actuation time"/>
+    <definition value="This is an actuation time"/>
+  </concept>
+</CodeSystem>

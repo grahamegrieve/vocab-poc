@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-HL7ConformanceInclusion"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>These concepts represent theconformance requirments defined for including or valuing an element of an HL7 message.  The concepts apply equally to conformance profiles  defined for Version 2.x messgaes as defined by the Conformance SIG, and to the conformance columns for Version 3 messages as specified in the HMD.</p>
+                  
+      <p>
+                     
+        <b>Deprecation Comment:</b> Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.
+      </p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="661-20081229"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-HL7ConformanceInclusion"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.55"/>
+  </identifier>
+  <name value="HL7ConformanceInclusion"/>
+  <title value="HL7ConformanceInclusion"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" These concepts represent theconformance requirments defined for including or valuing an element of an HL7 message.  The concepts apply equally to conformance profiles  defined for Version 2.x messgaes as defined by the Conformance SIG, and to the conformance columns for Version 3 messages as specified in the HMD.  Deprecation Comment:&#xD;&#xA;Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used."/>
+  <content value="complete"/>
+  <concept id="21081">
+    <code value="_InclusionNotMandatory"/>
+    <definition value=" The message element is not mandatory, but its appearance may be constrained by one of the non-mandatory concepts."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="InclusionNotMandatory"/>
+    </designation>
+    <concept id="10014">
+      <code value="NP"/>
+      <definition value=" This message element may not appear when the message is communicated."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Not permitted"/>
+      </designation>
+    </concept>
+    <concept id="10015">
+      <code value="NR"/>
+      <definition value=" The message element may be populated or used by one system sponsor (or profile), but not by another.  Each system sponsor or profile is required to state the ability to accept or send the message element as part of a conformance claim."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Not required"/>
+      </designation>
+      <concept id="10016">
+        <code value="RE"/>
+        <definition value=" Pursuant to a profile or vendor conformance claim, the message element must appear every time the message is communicated, but the value may be communicated as null."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Required may be empty"/>
+        </designation>
+      </concept>
+      <concept id="10017">
+        <code value="X"/>
+        <definition value=" Pursuant to a profile or vendor conformance claim, this message element may not appear when the message is communicated."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Excluded"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="10013">
+      <code value="RQ"/>
+      <definition value=" The message element must appear every time the message is communicated, but the value may be communicated as null."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Required"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="10011">
+    <code value="M"/>
+    <display value="Required - V2.x"/>
+    <definition value=" The message element must appear every time the message is communicated and its value must not be null.  This condition is subject to the rules of multiplicity and conditionality. If a non-null default value is defined for the element, a null value may be communicated."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mandatory"/>
+    </designation>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="synonym"/>
+      </use>
+      <value value="R"/>
+    </designation>
+  </concept>
+</CodeSystem>

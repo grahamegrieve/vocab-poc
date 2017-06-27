@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0516-2.8.2"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0516-2.8.2"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.337"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0516v2.8.2"/>
+  <title value="V2 Table: Error Severity"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0516 (Error Severity)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0516-2.8.2"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Transaction successful, but there may issues"/>
+    </extension>
+    <code value="W"/>
+    <display value="Warning"/>
+    <definition value="Warning"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Transaction was successful but includes information e.g., inform patient"/>
+    </extension>
+    <code value="I"/>
+    <display value="Information"/>
+    <definition value="Information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Transaction was unsuccessful"/>
+    </extension>
+    <code value="E"/>
+    <display value="Error"/>
+    <definition value="Error"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Message not processed due to application or network failure condition"/>
+    </extension>
+    <code value="F"/>
+    <display value="Fatal Error"/>
+    <definition value="Fatal Error"/>
+  </concept>
+</CodeSystem>

@@ -12,7 +12,7 @@
   <title value="V2 Table: Observation Sub-Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - qualifies the result as an isolate."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="MIR"/>
@@ -43,7 +43,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - qualifies result as microbiology not related to any isolate (e.g., gram stain observations)"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="MNIR"/>
@@ -54,7 +54,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result is a modifier of the isolate (e.g., Few, Some, etc.)"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="MIRM"/>
@@ -65,7 +65,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result value is for micro susceptibility/sensitivity"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="SUR"/>
@@ -76,7 +76,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result coming over is additional material, for example points on a graph, an image, raw instrument data, links to related observations, etc."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="SUP"/>
@@ -87,7 +87,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result falls outside of the other sub-types."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="UNSP"/>
@@ -98,7 +98,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of QST (Question) - OBX-5 value is answer to an Ask at Order Entry question"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="AOE"/>
@@ -109,7 +109,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of QST (Question)  - OBX-5 value is answer to an Ask at Specimen Collection question"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
     <code value="ASC"/>

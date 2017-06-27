@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0267-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0267-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.160"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0267v2.9"/>
+  <title value="V2 Table: Days of the Week"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0267 (Days of the Week)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0267-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="SAT"/>
+    <display value="Saturday"/>
+    <definition value="Saturday"/>
+  </concept>
+  <concept>
+    <code value="SUN"/>
+    <display value="Sunday"/>
+    <definition value="Sunday"/>
+  </concept>
+  <concept>
+    <code value="MON"/>
+    <display value="Monday"/>
+    <definition value="Monday"/>
+  </concept>
+  <concept>
+    <code value="TUE"/>
+    <display value="Tuesday"/>
+    <definition value="Tuesday"/>
+  </concept>
+  <concept>
+    <code value="WED"/>
+    <display value="Wednesday"/>
+    <definition value="Wednesday"/>
+  </concept>
+  <concept>
+    <code value="THU"/>
+    <display value="Thursday"/>
+    <definition value="Thursday"/>
+  </concept>
+  <concept>
+    <code value="FRI"/>
+    <display value="Friday"/>
+    <definition value="Friday"/>
+  </concept>
+</CodeSystem>

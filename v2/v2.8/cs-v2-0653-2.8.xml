@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0653-2.8"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0653-2.8"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.381"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0653v2.8"/>
+  <title value="V2 Table: Date Format"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0653 (Date Format)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0653-2.8"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="USA standard"/>
+    </extension>
+    <code value="1"/>
+    <display value="mm/dd/yy"/>
+    <definition value="mm/dd/yy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="ANSI standard"/>
+    </extension>
+    <code value="2"/>
+    <display value="yy.mm.dd"/>
+    <definition value="yy.mm.dd"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Britain/France standard"/>
+    </extension>
+    <code value="3"/>
+    <display value="dd/mm/yy"/>
+    <definition value="dd/mm/yy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Germany standard"/>
+    </extension>
+    <code value="4"/>
+    <display value="dd.mm.yy"/>
+    <definition value="dd.mm.yy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Japan standard"/>
+    </extension>
+    <code value="5"/>
+    <display value="yy/mm/dd"/>
+    <definition value="yy/mm/dd"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="ISO standard"/>
+    </extension>
+    <code value="6"/>
+    <display value="Yymmdd"/>
+    <definition value="Yymmdd"/>
+  </concept>
+</CodeSystem>

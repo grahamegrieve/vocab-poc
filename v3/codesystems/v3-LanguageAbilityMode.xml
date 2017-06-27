@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-LanguageAbilityMode"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A value representing the method of expression of the language.</p>
+                  
+      <p>
+                     
+        <i>Example:</i>Expressed spoken, expressed written, expressed signed, received spoken, received written, received signed.
+      </p>
+                  
+      <p>
+                     
+        <i>OpenIssue: </i>Description copied from Concept Domain of same name.  Must be verified.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.60"/>
+  </identifier>
+  <name value="LanguageAbilityMode"/>
+  <title value="LanguageAbilityMode"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" A value representing the method of expression of the language.  Example:&#xD;&#xA;Expressed spoken, expressed written, expressed signed, received spoken, received written, received signed.  OpenIssue:&#xD;&#xA;Description copied from Concept Domain of same name.  Must be verified."/>
+  <content value="complete"/>
+  <concept id="12252">
+    <code value="ESGN"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Expressed signed"/>
+    </designation>
+  </concept>
+  <concept id="12250">
+    <code value="ESP"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Expressed spoken"/>
+    </designation>
+  </concept>
+  <concept id="12251">
+    <code value="EWR"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Expressed written"/>
+    </designation>
+  </concept>
+  <concept id="16139">
+    <code value="RSGN"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Received signed"/>
+    </designation>
+  </concept>
+  <concept id="12253">
+    <code value="RSP"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Received spoken"/>
+    </designation>
+  </concept>
+  <concept id="12254">
+    <code value="RWR"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Received written"/>
+    </designation>
+  </concept>
+</CodeSystem>

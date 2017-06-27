@@ -12,7 +12,7 @@
   <title value="V2 Table: Risk Codes"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The dangers associated with normal biological materials. I.e. potential risk of unknown infections.  Routine biological materials from living subjects."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="BIO"/>
@@ -43,7 +43,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material is corrosive and may cause severe injury to skin, mucous membranes and eyes. Avoid any unprotected contact."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="COR"/>
@@ -54,7 +54,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The entity is at risk for escaping from containment or control."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="ESC"/>
@@ -65,7 +65,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A danger that can be associated with certain living subjects, including humans."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="AGG"/>
@@ -76,7 +76,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material is highly inflammable and in certain mixtures (with air) may lead to explosions.  Keep away from fire, sparks and excessive heat."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="IFL"/>
@@ -87,7 +87,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material is an explosive mixture.  Keep away from fire, sparks, and heat."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="EXP"/>
@@ -98,7 +98,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material known to be infectious with human pathogenic microorganisms.  Those who handle this material must take precautions for their protection."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="INF"/>
@@ -109,7 +109,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material contains microorganisms that are an environmental hazard.  Must be handled with special care."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="BHZ"/>
@@ -120,7 +120,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material is solid and sharp (e.g., cannulas.)  Dispose in hard container."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="INJ"/>
@@ -131,7 +131,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material is poisonous to humans and/or animals.  Special care must be taken to avoid incorporation, even of small amounts."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="POI"/>
@@ -142,7 +142,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Material is a source for ionizing radiation and must be handled with special care to avoid injury of those who handle it and to avoid environmental hazards."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="RAD"/>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-URLScheme"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A Universal Resource Locator (URL) is a type of telecommunications address specified as Internet standard RFC 1738 [http://www.isi.edu/in-notes/rfc1738.txt].  The URL specifies the protocol and the contact point defined by that protocol for the resource.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-URLScheme"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.143"/>
+  </identifier>
+  <name value="URLScheme"/>
+  <title value="Universal Resource Locator Scheme"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" A Universal Resource Locator (URL) is a type of telecommunications address specified as Internet standard RFC 1738 [http://www.isi.edu/in-notes/rfc1738.txt].  The URL specifies the protocol and the contact point defined by that protocol for the resource."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="22603">
+    <code value="cid"/>
+    <definition value="  Description:&#xD;&#xA;cid: is the most common mechanism used in webservices. A cid: reference points from the SOAP body to other content in the mime package in which the SOAP envelope is wrapped"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Content ID"/>
+    </designation>
+  </concept>
+  <concept id="14872">
+    <code value="file"/>
+    <definition value=" Host-specific local file names [RCF 1738].  Note that the file scheme works only for local files.  There is little use for exchanging local file names between systems, since the receiving system likely will not be able to access the file."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="File"/>
+    </designation>
+  </concept>
+  <concept id="14871">
+    <code value="ftp"/>
+    <definition value=" The File Transfer Protocol (FTP) [RFC 1738]."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="FTP"/>
+    </designation>
+  </concept>
+  <concept id="22604">
+    <code value="hl7-att"/>
+    <definition value="  Description:&#xD;&#xA;A reference to an HL7 attachment by it&#39;s identifier, which takes the form hl7-att:[II.literal], such as hl7-att:2.1.16.3.9.12345.2.39.3:ABC123"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HL7 Attachment"/>
+    </designation>
+  </concept>
+  <concept id="14870">
+    <code value="http"/>
+    <definition value=" Hypertext Transfer Protocol [RFC 2068]. http://www.ietf.org/rfc/rfc2068.txt"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HTTP"/>
+    </designation>
+  </concept>
+  <concept id="14869">
+    <code value="mailto"/>
+    <definition value=" Electronic mail address [RFC 2368] http://www.ietf.org/rfc/rfc2368.txt"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mailto"/>
+    </designation>
+  </concept>
+  <concept id="21461">
+    <code value="mllp"/>
+    <definition value="  Description:&#xD;&#xA;Mimimal Lower Layer Protocol. See Transport Specification: MLLP, Release 2 (HL7 V3 Transport specification)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="MLLP"/>
+    </designation>
+  </concept>
+  <concept id="14873">
+    <code value="nfs"/>
+    <definition value=" Network File System protocol [RFC 2224]. Some sites use NFS servers to share data files. http://www.ietf.org/rfc/rfc2224.txt"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="NFS"/>
+    </designation>
+  </concept>
+  <concept id="14867">
+    <code value="tel"/>
+    <definition value=" A voice telephone number [http://www.ietf.org/rfc/rfc3966.txt and http://www.ietf.org/rfc/rfc2806.txt]."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Telephone"/>
+    </designation>
+  </concept>
+  <concept id="14874">
+    <code value="telnet"/>
+    <definition value=" Reference to interactive sessions [RFC 1738]. Some sites, (e.g., laboratories) have TTY based remote query sessions that can be accessed through telnet. http://www.ietf.org/rfc/rfc1738.txt"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Telnet"/>
+    </designation>
+  </concept>
+  <concept id="14868">
+    <code value="fax"/>
+    <definition value=" A telephone number served by a fax device [http://www.ietf.org/rfc/rfc3966.txt and http://www.ietf.org/rfc/rfc2806.txt]."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Fax"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="14875">
+    <code value="modem"/>
+    <definition value=" A telephone number served by a modem device  [http://www.ietf.org/rfc/rfc3966.txt and http://www.ietf.org/rfc/rfc2806.txt]."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Modem"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22605">
+    <code value="x-text-fax"/>
+    <definition value="  Description:&#xD;&#xA;A telephone number served by a fax device [http://www.ietf.org/rfc/rfc3966.txt and http://www.ietf.org/rfc/rfc2806.txt]"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Fax"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22606">
+    <code value="x-text-tel"/>
+    <definition value="  Description:&#xD;&#xA;A text telephone - a telephone which is designed for use by the hearing-impaired  Notes:&#xD;&#xA;   x-text-fax is required to replace fax, since this has been deprecated by W3C.  hl7-att is associated with a series of rules that must be followed. These rules are documented in Datatypes R2  This domain is external and extensible, so documenting this simply clarifies consistent usage for these use cases."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Text Telephone"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

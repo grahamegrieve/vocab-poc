@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0487-2.7.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0487-2.7.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.311"/>
+  </identifier>
+  <version value="3"/>
+  <name value="V2Table0487v2.7.1"/>
+  <title value="V2 Table: Specimen Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0487 (Specimen Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0487-2.7.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ABS"/>
+    <display value="Abscess"/>
+    <definition value="Abscess"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PELVA"/>
+    <display value="Abscess, Pelvic"/>
+    <definition value="Abscess, Pelvic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition, Abscess &amp; Body Part"/>
+    </extension>
+    <code value="PERIA"/>
+    <display value="Abscess, Perianal"/>
+    <definition value="Abscess, Perianal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="RECTA"/>
+    <display value="Abscess, Rectal"/>
+    <definition value="Abscess, Rectal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SCROA"/>
+    <display value="Abscess, Scrotal"/>
+    <definition value="Abscess, Scrotal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SUBMA"/>
+    <display value="Abscess, Submandibular"/>
+    <definition value="Abscess, Submandibular"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SUBMX"/>
+    <display value="Abscess, Submaxillary"/>
+    <definition value="Abscess, Submaxillary"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="TSTES"/>
+    <display value="Abscess, Testicular"/>
+    <definition value="Abscess, Testicular"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="AIRS"/>
+    <display value="Air Sample"/>
+    <definition value="Air Sample"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="ALL"/>
+    <display value="Allograft"/>
+    <definition value="Allograft"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="AMP"/>
+    <display value="Amputation"/>
+    <definition value="Amputation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="GASAN"/>
+    <display value="Antrum, Gastric"/>
+    <definition value="Antrum, Gastric"/>
+  </concept>
+  <concept>
+    <code value="ASP"/>
+    <display value="Aspirate"/>
+    <definition value="Aspirate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Aspirate"/>
+    </extension>
+    <code value="ETA"/>
+    <display value="Aspirate,  Endotrach"/>
+    <definition value="Aspirate,  Endotrach"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Aspirate"/>
+    </extension>
+    <code value="GASA"/>
+    <display value="Aspirate, Gastric"/>
+    <definition value="Aspirate, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Aspirate"/>
+    </extension>
+    <code value="NGASP"/>
+    <display value="Aspirate, Nasogastric"/>
+    <definition value="Aspirate, Nasogastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Aspirate"/>
+    </extension>
+    <code value="TASP"/>
+    <display value="Aspirate, Tracheal"/>
+    <definition value="Aspirate, Tracheal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Aspirate"/>
+    </extension>
+    <code value="TTRA"/>
+    <display value="Aspirate, Transtracheal"/>
+    <definition value="Aspirate, Transtracheal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="AUTP"/>
+    <display value="Autopsy"/>
+    <definition value="Autopsy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="BX"/>
+    <display value="Biopsy"/>
+    <definition value="Biopsy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="GSPEC"/>
+    <display value="Biopsy, Gastric"/>
+    <definition value="Biopsy, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="SKBP"/>
+    <display value="Biopsy, Skin"/>
+    <definition value="Biopsy, Skin"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="CONE"/>
+    <display value="Biospy, Cone"/>
+    <definition value="Biospy, Cone"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Conditions"/>
+    </extension>
+    <code value="BITE"/>
+    <display value="Bite"/>
+    <definition value="Bite"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Conditions"/>
+    </extension>
+    <code value="CBITE"/>
+    <display value="Bite, Cat"/>
+    <definition value="Bite, Cat"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Conditions"/>
+    </extension>
+    <code value="DBITE"/>
+    <display value="Bite, Dog"/>
+    <definition value="Bite, Dog"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Conditions"/>
+    </extension>
+    <code value="HBITE"/>
+    <display value="Bite, Human"/>
+    <definition value="Bite, Human"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Conditions"/>
+    </extension>
+    <code value="IBITE"/>
+    <display value="Bite, Insect"/>
+    <definition value="Bite, Insect"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Conditions"/>
+    </extension>
+    <code value="RBITE"/>
+    <display value="Bite, Reptile"/>
+    <definition value="Bite, Reptile"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition, Fluid/Tissue"/>
+    </extension>
+    <code value="BLEB"/>
+    <display value="Bleb"/>
+    <definition value="Bleb"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition, Fluid/Tissue"/>
+    </extension>
+    <code value="BLIST"/>
+    <display value="Blister"/>
+    <definition value="Blister"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="BBL"/>
+    <display value="Blood bag"/>
+    <definition value="Blood bag"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="BPU"/>
+    <display value="Blood product unit"/>
+    <definition value="Blood product unit"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="HBLUD"/>
+    <display value="Blood, Autopsy"/>
+    <definition value="Blood, Autopsy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Transfusion"/>
+    </extension>
+    <code value="CSVR"/>
+    <display value="Blood, Cell Saver"/>
+    <definition value="Blood, Cell Saver"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="FBLOOD"/>
+    <display value="Blood, Fetal"/>
+    <definition value="Blood, Fetal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="MBLD"/>
+    <display value="Blood, Menstrual"/>
+    <definition value="Blood, Menstrual"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="WB"/>
+    <display value="Blood, Whole"/>
+    <definition value="Blood, Whole"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="BOIL"/>
+    <display value="Boil"/>
+    <definition value="Boil"/>
+  </concept>
+  <concept>
+    <code value="BON"/>
+    <display value="Bone"/>
+    <definition value="Bone"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="BOWL"/>
+    <display value="Bowel contents"/>
+    <definition value="Bowel contents"/>
+  </concept>
+  <concept>
+    <code value="BRTH"/>
+    <display value="Breath (use EXHLD)"/>
+    <definition value="Breath (use EXHLD)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product; Brush or brushing (these may be 2 separate entries as in a physical brush or a portion thereof vs the substance obtained after a surface has been brushed)"/>
+    </extension>
+    <code value="BRSH"/>
+    <display value="Brush"/>
+    <definition value="Brush"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="EBRUSH"/>
+    <display value="Brush, Esophageal"/>
+    <definition value="Brush, Esophageal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="BRUS"/>
+    <display value="Brushing"/>
+    <definition value="Brushing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="GASBR"/>
+    <display value="Brushing, Gastric"/>
+    <definition value="Brushing, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="BUB"/>
+    <display value="Bubo"/>
+    <definition value="Bubo"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="BULLA"/>
+    <display value="Bulla/Bullae"/>
+    <definition value="Bulla/Bullae"/>
+  </concept>
+  <concept>
+    <code value="BRN"/>
+    <display value="Burn"/>
+    <definition value="Burn"/>
+  </concept>
+  <concept>
+    <code value="CALC"/>
+    <display value="Calculus (=Stone)"/>
+    <definition value="Calculus (=Stone)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="CARBU"/>
+    <display value="Carbuncle"/>
+    <definition value="Carbuncle"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="CAT"/>
+    <display value="Catheter"/>
+    <definition value="Catheter"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="CSITE"/>
+    <display value="Catheter Insertion Site"/>
+    <definition value="Catheter Insertion Site"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="CTP"/>
+    <display value="Catheter tip"/>
+    <definition value="Catheter tip"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="ANGI"/>
+    <display value="Catheter Tip, Angio"/>
+    <definition value="Catheter Tip, Angio"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="ARTC"/>
+    <display value="Catheter Tip, Arterial"/>
+    <definition value="Catheter Tip, Arterial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="CVPT"/>
+    <display value="Catheter Tip, CVP"/>
+    <definition value="Catheter Tip, CVP"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="ETTP"/>
+    <display value="Catheter Tip, Endotracheal"/>
+    <definition value="Catheter Tip, Endotracheal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="FOLEY"/>
+    <display value="Catheter Tip, Foley"/>
+    <definition value="Catheter Tip, Foley"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="HEMAQ"/>
+    <display value="Catheter Tip, Hemaquit"/>
+    <definition value="Catheter Tip, Hemaquit"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="HEMO"/>
+    <display value="Catheter Tip, Hemovac"/>
+    <definition value="Catheter Tip, Hemovac"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="IDC"/>
+    <display value="Catheter Tip, Indwelling"/>
+    <definition value="Catheter Tip, Indwelling"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="INTRD"/>
+    <display value="Catheter Tip, Introducer"/>
+    <definition value="Catheter Tip, Introducer"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="IVCAT"/>
+    <display value="Catheter Tip, IV"/>
+    <definition value="Catheter Tip, IV"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="MAHUR"/>
+    <display value="Catheter Tip, Makurkour"/>
+    <definition value="Catheter Tip, Makurkour"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="SCLV"/>
+    <display value="Catheter Tip, Subclavian"/>
+    <definition value="Catheter Tip, Subclavian"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="SPRP"/>
+    <display value="Catheter Tip, Suprapubic"/>
+    <definition value="Catheter Tip, Suprapubic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="SWGZ"/>
+    <display value="Catheter Tip, Swan Gantz"/>
+    <definition value="Catheter Tip, Swan Gantz"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="VASTIP"/>
+    <display value="Catheter Tip, Vas"/>
+    <definition value="Catheter Tip, Vas"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="VENT"/>
+    <display value="Catheter Tip, Ventricular"/>
+    <definition value="Catheter Tip, Ventricular"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="GROSH"/>
+    <display value="Catheter, Groshong"/>
+    <definition value="Catheter, Groshong"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="HIC"/>
+    <display value="Catheter, Hickman"/>
+    <definition value="Catheter, Hickman"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="PORTA"/>
+    <display value="Catheter, Porta"/>
+    <definition value="Catheter, Porta"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="SPRPB"/>
+    <display value="Cathether Tip, Suprapubic"/>
+    <definition value="Cathether Tip, Suprapubic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="TLC"/>
+    <display value="Cathether Tip, Triple Lumen"/>
+    <definition value="Cathether Tip, Triple Lumen"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="CLIPP"/>
+    <display value="Clippings"/>
+    <definition value="Clippings"/>
+  </concept>
+  <concept>
+    <code value="COL"/>
+    <display value="Colostrum"/>
+    <definition value="Colostrum"/>
+  </concept>
+  <concept>
+    <code value="CNJT"/>
+    <display value="Conjunctiva"/>
+    <definition value="Conjunctiva"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="LENS1"/>
+    <display value="Contact Lens"/>
+    <definition value="Contact Lens"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="LENS2"/>
+    <display value="Contact Lens Case"/>
+    <definition value="Contact Lens Case"/>
+  </concept>
+  <concept>
+    <code value="CYST"/>
+    <display value="Cyst"/>
+    <definition value="Cyst"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="BCYST"/>
+    <display value="Cyst, Baker&#39;s"/>
+    <definition value="Cyst, Baker&#39;s"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="ICYST"/>
+    <display value="Cyst, Inclusion"/>
+    <definition value="Cyst, Inclusion"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PILOC"/>
+    <display value="Cyst, Pilonidal"/>
+    <definition value="Cyst, Pilonidal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="RENALC"/>
+    <display value="Cyst, Renal"/>
+    <definition value="Cyst, Renal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="DIA"/>
+    <display value="Dialysate"/>
+    <definition value="Dialysate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="DISCHG"/>
+    <display value="Discharge"/>
+    <definition value="Discharge"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="DIV"/>
+    <display value="Diverticulum"/>
+    <definition value="Diverticulum"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="DRN"/>
+    <display value="Drain"/>
+    <definition value="Drain"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="HEV"/>
+    <display value="Drain, Hemovac"/>
+    <definition value="Drain, Hemovac"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="GTUBE"/>
+    <display value="Drainage Tube, Drainage (Gastrostomy)"/>
+    <definition value="Drainage Tube, Drainage (Gastrostomy)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="GASD"/>
+    <display value="Drainage, Gastric"/>
+    <definition value="Drainage, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="ILEO"/>
+    <display value="Drainage, Ileostomy"/>
+    <definition value="Drainage, Ileostomy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="JP"/>
+    <display value="Drainage, Jackson Pratt"/>
+    <definition value="Drainage, Jackson Pratt"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="JEJU"/>
+    <display value="Drainage, Jejunal"/>
+    <definition value="Drainage, Jejunal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="NASDR"/>
+    <display value="Drainage, Nasal"/>
+    <definition value="Drainage, Nasal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="NGAST"/>
+    <display value="Drainage, Nasogastric"/>
+    <definition value="Drainage, Nasogastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PND"/>
+    <display value="Drainage, Penile"/>
+    <definition value="Drainage, Penile"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="DRNGP"/>
+    <display value="Drainage, Penrose"/>
+    <definition value="Drainage, Penrose"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="RECT"/>
+    <display value="Drainage, Rectal"/>
+    <definition value="Drainage, Rectal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SUMP"/>
+    <display value="Drainage, Sump"/>
+    <definition value="Drainage, Sump"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="DRNG"/>
+    <display value="Drainage, Tube"/>
+    <definition value="Drainage, Tube"/>
+  </concept>
+  <concept>
+    <code value="EARW"/>
+    <display value="Ear wax (cerumen)"/>
+    <definition value="Ear wax (cerumen)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="EFFUS"/>
+    <display value="Effusion"/>
+    <definition value="Effusion"/>
+  </concept>
+  <concept>
+    <code value="ELT"/>
+    <display value="Electrode"/>
+    <definition value="Electrode"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="ATTE"/>
+    <display value="Environment, Attest"/>
+    <definition value="Environment, Attest"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="AUTOA"/>
+    <display value="Environmental, Autoclave Ampule"/>
+    <definition value="Environmental, Autoclave Ampule"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="AUTOC"/>
+    <display value="Environmental, Autoclave Capsule"/>
+    <definition value="Environmental, Autoclave Capsule"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="EFF"/>
+    <display value="Environmental, Effluent"/>
+    <definition value="Environmental, Effluent"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="EEYE"/>
+    <display value="Environmental, Eye Wash"/>
+    <definition value="Environmental, Eye Wash"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="EFOD"/>
+    <display value="Environmental, Food"/>
+    <definition value="Environmental, Food"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="EISO"/>
+    <display value="Environmental, Isolette"/>
+    <definition value="Environmental, Isolette"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment; (Substance is Known but not in code Table)"/>
+    </extension>
+    <code value="EOTH"/>
+    <display value="Environmental, Other Substance"/>
+    <definition value="Environmental, Other Substance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="ESOI"/>
+    <display value="Environmental, Soil"/>
+    <definition value="Environmental, Soil"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="ESOS"/>
+    <display value="Environmental, Solution (Sterile)"/>
+    <definition value="Environmental, Solution (Sterile)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="SPS"/>
+    <display value="Environmental, Spore Strip"/>
+    <definition value="Environmental, Spore Strip"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="STER"/>
+    <display value="Environmental, Sterrad"/>
+    <definition value="Environmental, Sterrad"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="ENVIR"/>
+    <display value="Environmental, Unidentified Substance"/>
+    <definition value="Environmental, Unidentified Substance"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="WWA"/>
+    <display value="Environmental, Water"/>
+    <definition value="Environmental, Water"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="DEION"/>
+    <display value="Environmental, Water  (Deionized)"/>
+    <definition value="Environmental, Water  (Deionized)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="WWT"/>
+    <display value="Environmental, Water  (Tap)"/>
+    <definition value="Environmental, Water  (Tap)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="FAW"/>
+    <display value="Environmental, Water  (Well)"/>
+    <definition value="Environmental, Water  (Well)"/>
+  </concept>
+  <concept>
+    <code value="WWO"/>
+    <display value="Environmental, Water (Ocean)"/>
+    <definition value="Environmental, Water (Ocean)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="EWHI"/>
+    <display value="Environmental, Whirlpool"/>
+    <definition value="Environmental, Whirlpool"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="EXUDTE"/>
+    <display value="Exudate"/>
+    <definition value="Exudate"/>
+  </concept>
+  <concept>
+    <code value="FLT"/>
+    <display value="Filter"/>
+    <definition value="Filter"/>
+  </concept>
+  <concept>
+    <code value="FIST"/>
+    <display value="Fistula"/>
+    <definition value="Fistula"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="FLUID"/>
+    <display value="Fluid"/>
+    <definition value="Fluid"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="FGA"/>
+    <display value="Fluid,  Abdomen"/>
+    <definition value="Fluid,  Abdomen"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="CSMY"/>
+    <display value="Fluid,  Cystostomy Tube"/>
+    <definition value="Fluid,  Cystostomy Tube"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="ACNFLD"/>
+    <display value="Fluid, Acne"/>
+    <definition value="Fluid, Acne"/>
+  </concept>
+  <concept>
+    <code value="FLU"/>
+    <display value="Fluid, Body unsp"/>
+    <definition value="Fluid, Body unsp"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="CST"/>
+    <display value="Fluid, Cyst"/>
+    <definition value="Fluid, Cyst"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="HYDC"/>
+    <display value="Fluid, Hydrocele"/>
+    <definition value="Fluid, Hydrocele"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="IVFLD"/>
+    <display value="Fluid, IV"/>
+    <definition value="Fluid, IV"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="JNTFLD"/>
+    <display value="Fluid, Joint"/>
+    <definition value="Fluid, Joint"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="KIDFLD"/>
+    <display value="Fluid, Kidney"/>
+    <definition value="Fluid, Kidney"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="LSAC"/>
+    <display value="Fluid, Lumbar Sac"/>
+    <definition value="Fluid, Lumbar Sac"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="FLD"/>
+    <display value="Fluid, Other"/>
+    <definition value="Fluid, Other"/>
+  </concept>
+  <concept>
+    <code value="PCFL"/>
+    <display value="Fluid, Pericardial"/>
+    <definition value="Fluid, Pericardial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="RENC"/>
+    <display value="Fluid, Renal Cyst"/>
+    <definition value="Fluid, Renal Cyst"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="FRS"/>
+    <display value="Fluid, Respiratory"/>
+    <definition value="Fluid, Respiratory"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid"/>
+    </extension>
+    <code value="SHUNF"/>
+    <display value="Fluid, Shunt"/>
+    <definition value="Fluid, Shunt"/>
+  </concept>
+  <concept>
+    <code value="SNV"/>
+    <display value="Fluid, synovial (Joint fluid)"/>
+    <definition value="Fluid, synovial (Joint fluid)"/>
+  </concept>
+  <concept>
+    <code value="GAST"/>
+    <display value="Fluid/contents, Gastric"/>
+    <definition value="Fluid/contents, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="FUR"/>
+    <display value="Furuncle"/>
+    <definition value="Furuncle"/>
+  </concept>
+  <concept>
+    <code value="GAS"/>
+    <display value="Gas"/>
+    <definition value="Gas"/>
+  </concept>
+  <concept>
+    <code value="EXG"/>
+    <display value="Gas, exhaled (=breath)"/>
+    <definition value="Gas, exhaled (=breath)"/>
+  </concept>
+  <concept>
+    <code value="IHG"/>
+    <display value="Gas, Inhaled"/>
+    <definition value="Gas, Inhaled"/>
+  </concept>
+  <concept>
+    <code value="GENV"/>
+    <display value="Genital vaginal"/>
+    <definition value="Genital vaginal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="GRAFT"/>
+    <display value="Graft"/>
+    <definition value="Graft"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="GRAFTS"/>
+    <display value="Graft Site"/>
+    <definition value="Graft Site"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="POPGS"/>
+    <display value="Graft Site, Popliteal"/>
+    <definition value="Graft Site, Popliteal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="POPLG"/>
+    <display value="Graft, Popliteal"/>
+    <definition value="Graft, Popliteal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="GRANU"/>
+    <display value="Granuloma"/>
+    <definition value="Granuloma"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="IMP"/>
+    <display value="Implant"/>
+    <definition value="Implant"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="INFIL"/>
+    <display value="Infiltrate"/>
+    <definition value="Infiltrate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Object"/>
+    </extension>
+    <code value="INS"/>
+    <display value="Insect"/>
+    <definition value="Insect"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device (Common Usage)"/>
+    </extension>
+    <code value="IUD"/>
+    <display value="Intrauterine Device"/>
+    <definition value="Intrauterine Device"/>
+  </concept>
+  <concept>
+    <code value="IT"/>
+    <display value="Intubation tube"/>
+    <definition value="Intubation tube"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="KELOI"/>
+    <display value="Lavage"/>
+    <definition value="Lavage"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="LAVG"/>
+    <display value="Lavage, Bronhial"/>
+    <definition value="Lavage, Bronhial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="LAVGG"/>
+    <display value="Lavage, Gastric"/>
+    <definition value="Lavage, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="LAVGP"/>
+    <display value="Lavage, Peritoneal"/>
+    <definition value="Lavage, Peritoneal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="LAVPG"/>
+    <display value="Lavage, Pre-Bronch"/>
+    <definition value="Lavage, Pre-Bronch"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="LESN"/>
+    <display value="Lesion"/>
+    <definition value="Lesion"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition (Common Usage)"/>
+    </extension>
+    <code value="ORL"/>
+    <display value="Lesion, Oral"/>
+    <definition value="Lesion, Oral"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition (Common Usage)"/>
+    </extension>
+    <code value="PENIL"/>
+    <display value="Lesion, Penile"/>
+    <definition value="Lesion, Penile"/>
+  </concept>
+  <concept>
+    <code value="LIQO"/>
+    <display value="Liquid, Other"/>
+    <definition value="Liquid, Other"/>
+  </concept>
+  <concept>
+    <code value="LIQ"/>
+    <display value="Liquid, Unspecified"/>
+    <definition value="Liquid, Unspecified"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="MASS"/>
+    <display value="Mass"/>
+    <definition value="Mass"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SMM"/>
+    <display value="Mass, Sub-Mandibular"/>
+    <definition value="Mass, Sub-Mandibular"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="MUCOS"/>
+    <display value="Mucosa"/>
+    <definition value="Mucosa"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="MUCUS"/>
+    <display value="Mucus"/>
+    <definition value="Mucus"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="NEDL"/>
+    <display value="Needle"/>
+    <definition value="Needle"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="NODUL"/>
+    <display value="Nodule(s)"/>
+    <definition value="Nodule(s)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="CYN"/>
+    <display value="Nodule, Cystic"/>
+    <definition value="Nodule, Cystic"/>
+  </concept>
+  <concept>
+    <code value="ORH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="PACEM"/>
+    <display value="Pacemaker"/>
+    <definition value="Pacemaker"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Object"/>
+    </extension>
+    <code value="PLAN"/>
+    <display value="Plant Material"/>
+    <definition value="Plant Material"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="PLAS"/>
+    <display value="Plasma"/>
+    <definition value="Plasma"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="PLB"/>
+    <display value="Plasma bag"/>
+    <definition value="Plasma bag"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="PPP"/>
+    <display value="Plasma, Platelet poor"/>
+    <definition value="Plasma, Platelet poor"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="PRP"/>
+    <display value="Plasma, Platelet rich"/>
+    <definition value="Plasma, Platelet rich"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="POL"/>
+    <display value="Polyps"/>
+    <definition value="Polyps"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="PROST"/>
+    <display value="Prosthetic Device"/>
+    <definition value="Prosthetic Device"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PSC"/>
+    <display value="Pseudocyst"/>
+    <definition value="Pseudocyst"/>
+  </concept>
+  <concept>
+    <code value="PUS"/>
+    <display value="Pus"/>
+    <definition value="Pus"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PUST"/>
+    <display value="Pus"/>
+    <definition value="Pus"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PUSFR"/>
+    <display value="Pustule"/>
+    <definition value="Pustule"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Environment"/>
+    </extension>
+    <code value="QC3"/>
+    <display value="Quality Control"/>
+    <definition value="Quality Control"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition (Ambiguous)"/>
+    </extension>
+    <code value="RES"/>
+    <display value="Respiratory"/>
+    <definition value="Respiratory"/>
+  </concept>
+  <concept>
+    <code value="SAL"/>
+    <display value="Saliva"/>
+    <definition value="Saliva"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="FSCLP"/>
+    <display value="Scalp, Fetal"/>
+    <definition value="Scalp, Fetal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="CSCR"/>
+    <display value="Scratch, Cat"/>
+    <definition value="Scratch, Cat"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Fluid/Secretion"/>
+    </extension>
+    <code value="SECRE"/>
+    <display value="Secretion(s)"/>
+    <definition value="Secretion(s)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="NSECR"/>
+    <display value="Secretion, Nasal"/>
+    <definition value="Secretion, Nasal"/>
+  </concept>
+  <concept>
+    <code value="SER"/>
+    <display value="Serum"/>
+    <definition value="Serum"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="ASERU"/>
+    <display value="Serum, Acute"/>
+    <definition value="Serum, Acute"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="CSERU"/>
+    <display value="Serum, Convalescent"/>
+    <definition value="Serum, Convalescent"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="PLEVS"/>
+    <display value="Serum, Peak Level"/>
+    <definition value="Serum, Peak Level"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Blood"/>
+    </extension>
+    <code value="TSERU"/>
+    <display value="Serum, Trough"/>
+    <definition value="Serum, Trough"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SHUNT"/>
+    <display value="Shunt"/>
+    <definition value="Shunt"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="EXS"/>
+    <display value="Shunt, External"/>
+    <definition value="Shunt, External"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="SITE"/>
+    <display value="Site"/>
+    <definition value="Site"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="CVPS"/>
+    <display value="Site, CVP"/>
+    <definition value="Site, CVP"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="INCI"/>
+    <display value="Site, Incision/Surgical"/>
+    <definition value="Site, Incision/Surgical"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="NGS"/>
+    <display value="Site, Naso/Gastric"/>
+    <definition value="Site, Naso/Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="NEPH"/>
+    <display value="Site, Nephrostomy"/>
+    <definition value="Site, Nephrostomy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="PIS"/>
+    <display value="Site, Pacemaker Insetion"/>
+    <definition value="Site, Pacemaker Insetion"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="PDSIT"/>
+    <display value="Site, Peritoneal Dialysis"/>
+    <definition value="Site, Peritoneal Dialysis"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="PDTS"/>
+    <display value="Site, Peritoneal Dialysis Tunnel"/>
+    <definition value="Site, Peritoneal Dialysis Tunnel"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="PINS"/>
+    <display value="Site, Pin"/>
+    <definition value="Site, Pin"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="POPLV"/>
+    <display value="Site, Popliteal Vein"/>
+    <definition value="Site, Popliteal Vein"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="SHU"/>
+    <display value="Site, Shunt"/>
+    <definition value="Site, Shunt"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Site"/>
+    </extension>
+    <code value="TRAC"/>
+    <display value="Site, Tracheostomy"/>
+    <definition value="Site, Tracheostomy"/>
+  </concept>
+  <concept>
+    <code value="SKN"/>
+    <display value="Skin"/>
+    <definition value="Skin"/>
+  </concept>
+  <concept>
+    <code value="TZANC"/>
+    <display value="Smear, Tzanck"/>
+    <definition value="Smear, Tzanck"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="GSOL"/>
+    <display value="Solution, Gastrostomy"/>
+    <definition value="Solution, Gastrostomy"/>
+  </concept>
+  <concept>
+    <code value="ILLEG"/>
+    <display value="Source of Specimen Is Illegible"/>
+    <definition value="Source of Specimen Is Illegible"/>
+  </concept>
+  <concept>
+    <code value="OTH"/>
+    <display value="Source, Other"/>
+    <definition value="Source, Other"/>
+  </concept>
+  <concept>
+    <code value="UDENT"/>
+    <display value="Source, Unidentified"/>
+    <definition value="Source, Unidentified"/>
+  </concept>
+  <concept>
+    <code value="USPEC"/>
+    <display value="Source, Unspecified"/>
+    <definition value="Source, Unspecified"/>
+  </concept>
+  <concept>
+    <code value="SPRM"/>
+    <display value="Spermatozoa"/>
+    <definition value="Spermatozoa"/>
+  </concept>
+  <concept>
+    <code value="SPT"/>
+    <display value="Sputum"/>
+    <definition value="Sputum"/>
+  </concept>
+  <concept>
+    <code value="SPTC"/>
+    <display value="Sputum - coughed"/>
+    <definition value="Sputum - coughed"/>
+  </concept>
+  <concept>
+    <code value="SPTT"/>
+    <display value="Sputum - tracheal aspirate"/>
+    <definition value="Sputum - tracheal aspirate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="DCS"/>
+    <display value="Sputum, Deep Cough"/>
+    <definition value="Sputum, Deep Cough"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SPUTIN"/>
+    <display value="Sputum, Inducted"/>
+    <definition value="Sputum, Inducted"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SPUT1"/>
+    <display value="Sputum, Simulated"/>
+    <definition value="Sputum, Simulated"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="SPUTSP"/>
+    <display value="Sputum, Spontaneous"/>
+    <definition value="Sputum, Spontaneous"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="STONE"/>
+    <display value="Stone, Kidney"/>
+    <definition value="Stone, Kidney"/>
+  </concept>
+  <concept>
+    <code value="STL"/>
+    <display value="Stool = Fecal"/>
+    <definition value="Stool = Fecal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="SUP"/>
+    <display value="Suprapubic Tap"/>
+    <definition value="Suprapubic Tap"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Object"/>
+    </extension>
+    <code value="SUTUR"/>
+    <display value="Suture"/>
+    <definition value="Suture"/>
+  </concept>
+  <concept>
+    <code value="TISS"/>
+    <display value="Tissue"/>
+    <definition value="Tissue"/>
+  </concept>
+  <concept>
+    <code value="TISU"/>
+    <display value="Tissue ulcer"/>
+    <definition value="Tissue ulcer"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="ACNE"/>
+    <display value="Tissue, Acne"/>
+    <definition value="Tissue, Acne"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="HERNI"/>
+    <display value="Tissue, Herniated"/>
+    <definition value="Tissue, Herniated"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="SCAR"/>
+    <display value="Tissue, Keloid (Scar)"/>
+    <definition value="Tissue, Keloid (Scar)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="TRANS"/>
+    <display value="Transudate"/>
+    <definition value="Transudate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="ETTUB"/>
+    <display value="Tube, Endotracheal"/>
+    <definition value="Tube, Endotracheal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="GT"/>
+    <display value="Tube, Gastric"/>
+    <definition value="Tube, Gastric"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="TUBES"/>
+    <display value="Tubes"/>
+    <definition value="Tubes"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="IVTIP"/>
+    <display value="Tubing Tip, IV"/>
+    <definition value="Tubing Tip, IV"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="TUMOR"/>
+    <display value="Tumor"/>
+    <definition value="Tumor"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="DEC"/>
+    <display value="Ulcer, Decubitus"/>
+    <definition value="Ulcer, Decubitus"/>
+  </concept>
+  <concept>
+    <code value="UR"/>
+    <display value="Urine"/>
+    <definition value="Urine"/>
+  </concept>
+  <concept>
+    <code value="URT"/>
+    <display value="Urine catheter"/>
+    <definition value="Urine catheter"/>
+  </concept>
+  <concept>
+    <code value="URC"/>
+    <display value="Urine clean catch"/>
+    <definition value="Urine clean catch"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="URINB"/>
+    <display value="Urine, Bladder Washings"/>
+    <definition value="Urine, Bladder Washings"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="URINC"/>
+    <display value="Urine, Catheterized"/>
+    <definition value="Urine, Catheterized"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="USCOP"/>
+    <display value="Urine, Cystoscopy"/>
+    <definition value="Urine, Cystoscopy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="URINM"/>
+    <display value="Urine, Midstream"/>
+    <definition value="Urine, Midstream"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="URINN"/>
+    <display value="Urine, Nephrostomy"/>
+    <definition value="Urine, Nephrostomy"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Device"/>
+    </extension>
+    <code value="URINP"/>
+    <display value="Urine, Pedibag"/>
+    <definition value="Urine, Pedibag"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="RANDU"/>
+    <display value="Urine, Random"/>
+    <definition value="Urine, Random"/>
+  </concept>
+  <concept>
+    <code value="VITF"/>
+    <display value="Vitreous Fluid"/>
+    <definition value="Vitreous Fluid"/>
+  </concept>
+  <concept>
+    <code value="VOM"/>
+    <display value="Vomitus"/>
+    <definition value="Vomitus"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="WRT"/>
+    <display value="Wart"/>
+    <definition value="Wart"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="WASH"/>
+    <display value="Wash"/>
+    <definition value="Wash"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Product"/>
+    </extension>
+    <code value="WASI"/>
+    <display value="Washing, e.g. bronchial washing"/>
+    <definition value="Washing, e.g. bronchial washing"/>
+  </concept>
+  <concept>
+    <code value="WAT"/>
+    <display value="Water"/>
+    <definition value="Water"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Tissue"/>
+    </extension>
+    <code value="WEN"/>
+    <display value="Wen"/>
+    <definition value="Wen"/>
+  </concept>
+  <concept>
+    <code value="WICK"/>
+    <display value="Wick"/>
+    <definition value="Wick"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Object"/>
+    </extension>
+    <code value="WORM"/>
+    <display value="Worm"/>
+    <definition value="Worm"/>
+  </concept>
+  <concept>
+    <code value="WND"/>
+    <display value="Wound"/>
+    <definition value="Wound"/>
+  </concept>
+  <concept>
+    <code value="WNDA"/>
+    <display value="Wound abscess"/>
+    <definition value="Wound abscess"/>
+  </concept>
+  <concept>
+    <code value="WNDD"/>
+    <display value="Wound drainage"/>
+    <definition value="Wound drainage"/>
+  </concept>
+  <concept>
+    <code value="WNDE"/>
+    <display value="Wound exudate"/>
+    <definition value="Wound exudate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Condition"/>
+    </extension>
+    <code value="PUNCT"/>
+    <display value="Wound, Puncture"/>
+    <definition value="Wound, Puncture"/>
+  </concept>
+</CodeSystem>

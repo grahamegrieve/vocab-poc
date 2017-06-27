@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-HL7CommitteeIDInRIM"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Holds the codes used to identify the committees and SIGS of HL7 in RIM repository tables.</p>
+                  
+      <p>
+                     
+        <b>Deprecation Comment:</b> Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.
+      </p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="657-20081229"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-HL7CommitteeIDInRIM"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.54"/>
+  </identifier>
+  <name value="HL7CommitteeIDInRIM"/>
+  <title value="HL7CommitteeIDInRIM"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Holds the codes used to identify the committees and SIGS of HL7 in RIM repository tables.  Deprecation Comment:&#xD;&#xA;Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used."/>
+  <content value="complete"/>
+  <concept id="10035">
+    <code value="C00"/>
+    <definition value=" Modeling and Methodology"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Modeling and Methodology"/>
+    </designation>
+  </concept>
+  <concept id="10036">
+    <code value="C01"/>
+    <definition value=" Technical Steering Committee"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Technical Steering Committee"/>
+    </designation>
+  </concept>
+  <concept id="10037">
+    <code value="C02"/>
+    <definition value=" Control/Query/MasterFiles"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Control/Query/MasterFiles"/>
+    </designation>
+  </concept>
+  <concept id="10038">
+    <code value="C03"/>
+    <definition value=" Patient Administration"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Patient Administration"/>
+    </designation>
+  </concept>
+  <concept id="10039">
+    <code value="C04"/>
+    <definition value=" Orders/Observation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Orders/Observation"/>
+    </designation>
+  </concept>
+  <concept id="10040">
+    <code value="C06"/>
+    <definition value=" Financial Management"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Financial Management"/>
+    </designation>
+  </concept>
+  <concept id="10041">
+    <code value="C09"/>
+    <definition value=" Information Management (Medical Records)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Medical records"/>
+    </designation>
+  </concept>
+  <concept id="10042">
+    <code value="C10"/>
+    <definition value=" Scheduling &amp; Referral"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Scheduling"/>
+    </designation>
+  </concept>
+  <concept id="10043">
+    <code value="C12"/>
+    <definition value=" Patient Care"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Patient Care"/>
+    </designation>
+  </concept>
+  <concept id="10044">
+    <code value="C20"/>
+    <definition value=" PRA Technical Committee"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Structured Document Committee"/>
+    </designation>
+  </concept>
+  <concept id="10757">
+    <code value="C21"/>
+    <definition value=" PRA Technical Committee"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Vocabulary Committee"/>
+    </designation>
+  </concept>
+</CodeSystem>

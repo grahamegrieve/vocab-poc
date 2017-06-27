@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-VocabularyDomainQualifier"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Vocabulary domain qualifiers are concepts that are used in domain constraints to specify behavior of the new domain.</p>
+                  
+      <p>Code system retired.</p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="584-20081027"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-VocabularyDomainQualifier"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.147"/>
+  </identifier>
+  <name value="VocabularyDomainQualifier"/>
+  <title value="VocabularyDomainQualifier"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Vocabulary domain qualifiers are concepts that are used in domain constraints to specify behavior of the new domain. Code system retired."/>
+  <content value="complete"/>
+  <concept id="21294">
+    <code value="_Extensibility"/>
+    <definition value=" The extensibility of coding determines whether or not extensions are allowed in the domain of a coded attribute."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Extensibility"/>
+    </designation>
+    <concept id="11049">
+      <code value="CNE"/>
+      <definition value=" The coded attribute allows only concepts from the defined value set. No extensions are allowed."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Coded No Extensions"/>
+      </designation>
+    </concept>
+    <concept id="11048">
+      <code value="CWE"/>
+      <definition value=" The coded attribute allows local codes or user entered text to be sent when the concept that the user would like to express is not a member of the defined value set.  If the concept that the user wants to express is represented by a code in the standard value set, the standard code must be sent.  The local code can be sent in addition to the standard code if desired.  Only if the concept that the user wants to express is NOT represented by a standard code, can a solitary local code be sent."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Coded With Extensions"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21295">
+    <code value="_RealmOfUse"/>
+    <definition value=" The jurisdiction or realm within which the domain will be used. A realm might be a country, a group of countries, a region of the world, or an organization."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RealmOfUse"/>
+    </designation>
+    <concept id="20838">
+      <code value="Canada"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Canada"/>
+      </designation>
+    </concept>
+    <concept id="20837">
+      <code value="NorthAmerica"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="North America"/>
+      </designation>
+    </concept>
+    <concept id="20836">
+      <code value="USA"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="United States"/>
+      </designation>
+    </concept>
+    <concept id="11051">
+      <code value="UV"/>
+      <definition value=" The root or universal HL7 jurisdiction or realm from which all subsequent specializations are derived."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Universal"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="U"/>
+      </designation>
+    </concept>
+  </concept>
+</CodeSystem>

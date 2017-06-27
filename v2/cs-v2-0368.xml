@@ -12,7 +12,7 @@
   <title value="V2 Table: Remote Control Command"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="SA"/>
@@ -37,7 +37,7 @@
     <definition value="Sampling"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="LO"/>
@@ -45,7 +45,7 @@
     <definition value="Load"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="UN"/>
@@ -53,7 +53,7 @@
     <definition value="Unload"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="LK"/>
@@ -61,7 +61,7 @@
     <definition value="Lock"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="UC"/>
@@ -69,7 +69,7 @@
     <definition value="Unlock"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="TT"/>
@@ -77,7 +77,7 @@
     <definition value="Transport To"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="CN"/>
@@ -85,7 +85,7 @@
     <definition value="Clear Notification"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="IN"/>
@@ -93,7 +93,7 @@
     <definition value="Initialize/Initiate"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="SU"/>
@@ -101,7 +101,7 @@
     <definition value="Setup"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="CL"/>
@@ -109,7 +109,7 @@
     <definition value="Clear"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="PA"/>
@@ -117,7 +117,7 @@
     <definition value="Pause"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="RE"/>
@@ -125,7 +125,7 @@
     <definition value="Resume"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="ES"/>
@@ -133,7 +133,7 @@
     <definition value="Emergency -stop"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="LC"/>
@@ -141,7 +141,7 @@
     <definition value="Local Control Request"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="RC"/>
@@ -149,7 +149,7 @@
     <definition value="Remote Control Request"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="AB"/>
@@ -157,7 +157,7 @@
     <definition value="Abort"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="EN"/>
@@ -165,7 +165,7 @@
     <definition value="Enable Sending Events"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="DI"/>
@@ -173,7 +173,7 @@
     <definition value="Disable Sending Events"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="EX"/>
@@ -184,7 +184,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="See desc. below"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="AF"/>
@@ -195,7 +195,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="See desc. below"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="AT"/>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-DocumentStorage"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Identifies the storage status of a document.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-DocumentStorage"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.34"/>
+  </identifier>
+  <name value="DocumentStorage"/>
+  <title value="DocumentStorage"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Identifies the storage status of a document."/>
+  <content value="complete"/>
+  <concept id="10584">
+    <code value="AC"/>
+    <definition value=" A storage status in which a document is available on-line."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="active"/>
+    </designation>
+    <concept id="10585">
+      <code value="AA"/>
+      <definition value=" A storage status in which a document is available on-line and is also stored off-line for long-term access."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="active and archived"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="10586">
+    <code value="AR"/>
+    <definition value=" A storage status in which a document has been stored off-line for long-term access."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="archived (not active)"/>
+    </designation>
+  </concept>
+  <concept id="10587">
+    <code value="PU"/>
+    <definition value=" A storage status in which a document is no longer available in this system."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="purged"/>
+    </designation>
+  </concept>
+</CodeSystem>

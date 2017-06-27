@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0370-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0370-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.228"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0370v2.9"/>
+  <title value="V2 Table: Container Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0370 (Container Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0370-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A"/>
+    <display value="Archived"/>
+    <definition value="Archived"/>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="Identified"/>
+    <definition value="Identified"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Left Equipment"/>
+    <definition value="Left Equipment"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Missing"/>
+    <definition value="Missing"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="In Process"/>
+    <definition value="In Process"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="In Position"/>
+    <definition value="In Position"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Process Completed"/>
+    <definition value="Process Completed"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Unknown"/>
+    <definition value="Unknown"/>
+  </concept>
+  <concept>
+    <code value="X"/>
+    <display value="Container Unavailable"/>
+    <definition value="Container Unavailable"/>
+  </concept>
+</CodeSystem>

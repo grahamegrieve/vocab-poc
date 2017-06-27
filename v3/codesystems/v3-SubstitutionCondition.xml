@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-SubstitutionCondition"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Identifies what sort of change is permitted or has occurred between the item that was ordered/requested and the one that was/will be provided.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-SubstitutionCondition"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1071"/>
+  </identifier>
+  <name value="SubstitutionCondition"/>
+  <title value="SubstitutionCondition"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Identifies what sort of change is permitted or has occurred between the item that was ordered/requested and the one that was/will be provided."/>
+  <content value="complete"/>
+  <concept id="21285">
+    <code value="_Conditional"/>
+    <definition value=" Some conditions may be attached to an allowable substitution.  An allowable substitution is based on a match to any other attributes that may be specified."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Conditional"/>
+    </designation>
+    <concept id="17721">
+      <code value="CONFIRM"/>
+      <definition value=" Confirmation with Contact Person prior to making any substitutions has or will occur."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Confirm first"/>
+      </designation>
+    </concept>
+    <concept id="17722">
+      <code value="NOTIFY"/>
+      <definition value=" Notification to the Contact Person, prior to substitution and through normal institutional procedures, has or will be made."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Notify first"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21383">
+    <code value="NOSUB"/>
+    <definition value=" Substitution is not permitted."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="No substitution"/>
+    </designation>
+  </concept>
+  <concept id="17723">
+    <code value="UNCOND"/>
+    <definition value=" No conditions are required."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Unconditional"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0116-2.7"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0116-2.7"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.47"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0116v2.7"/>
+  <title value="V2 Table: Bed Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0116 (Bed Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0116-2.7"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="C"/>
+    <display value="Closed"/>
+    <definition value="Closed"/>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="Housekeeping"/>
+    <definition value="Housekeeping"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Occupied"/>
+    <definition value="Occupied"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Unoccupied"/>
+    <definition value="Unoccupied"/>
+  </concept>
+  <concept>
+    <code value="K"/>
+    <display value="Contaminated"/>
+    <definition value="Contaminated"/>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="Isolated"/>
+    <definition value="Isolated"/>
+  </concept>
+</CodeSystem>

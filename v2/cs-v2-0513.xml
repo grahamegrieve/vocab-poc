@@ -12,7 +12,7 @@
   <title value="V2 Table: Blood Product Transfusion/Disposition Status"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="RA"/>
@@ -37,7 +37,7 @@
     <definition value="Returned unused/no longer needed"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="RL"/>
@@ -45,7 +45,7 @@
     <definition value="Returned unused/keep linked to patient for possible use later"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="WA"/>
@@ -53,7 +53,7 @@
     <definition value="Wasted (product no longer viable)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="TX"/>
@@ -61,7 +61,7 @@
     <definition value="Transfused"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="TR"/>

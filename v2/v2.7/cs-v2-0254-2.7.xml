@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0254-2.7"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0254-2.7"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.149"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0254v2.7"/>
+  <title value="V2 Table: Kind of Quantity"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0254 (Kind of Quantity)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0254-2.7"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="CACT"/>
+    <display value="Catalytic Activity"/>
+    <definition value="Catalytic Activity"/>
+  </concept>
+  <concept>
+    <code value="CNC"/>
+    <display value="Catalytic Concentration"/>
+    <definition value="Catalytic Concentration"/>
+  </concept>
+  <concept>
+    <code value="CCRTO"/>
+    <display value="Catalytic Concentration Ratio"/>
+    <definition value="Catalytic Concentration Ratio"/>
+  </concept>
+  <concept>
+    <code value="CCNT"/>
+    <display value="Catalytic Content"/>
+    <definition value="Catalytic Content"/>
+  </concept>
+  <concept>
+    <code value="CFR"/>
+    <display value="Catalytic Fraction"/>
+    <definition value="Catalytic Fraction"/>
+  </concept>
+  <concept>
+    <code value="CRAT"/>
+    <display value="Catalytic Rate"/>
+    <definition value="Catalytic Rate"/>
+  </concept>
+  <concept>
+    <code value="CRTO"/>
+    <display value="Catalytic Ratio"/>
+    <definition value="Catalytic Ratio"/>
+  </concept>
+  <concept>
+    <code value="ENT"/>
+    <display value="Entitic"/>
+    <definition value="Entitic"/>
+  </concept>
+  <concept>
+    <code value="ENTSUB"/>
+    <display value="Entitic Substance of Amount"/>
+    <definition value="Entitic Substance of Amount"/>
+  </concept>
+  <concept>
+    <code value="ENTCAT"/>
+    <display value="Entitic Catalytic Activity"/>
+    <definition value="Entitic Catalytic Activity"/>
+  </concept>
+  <concept>
+    <code value="ENTNUM"/>
+    <display value="Entitic Number"/>
+    <definition value="Entitic Number"/>
+  </concept>
+  <concept>
+    <code value="ENTVOL"/>
+    <display value="Entitic Volume"/>
+    <definition value="Entitic Volume"/>
+  </concept>
+  <concept>
+    <code value="MASS"/>
+    <display value="Mass"/>
+    <definition value="Mass"/>
+  </concept>
+  <concept>
+    <code value="MCNC"/>
+    <display value="Mass Concentration"/>
+    <definition value="Mass Concentration"/>
+  </concept>
+  <concept>
+    <code value="MCRTO"/>
+    <display value="Mass Concentration Ratio"/>
+    <definition value="Mass Concentration Ratio"/>
+  </concept>
+  <concept>
+    <code value="MCNT"/>
+    <display value="Mass Content"/>
+    <definition value="Mass Content"/>
+  </concept>
+  <concept>
+    <code value="MFR"/>
+    <display value="Mass Fraction"/>
+    <definition value="Mass Fraction"/>
+  </concept>
+  <concept>
+    <code value="MINC"/>
+    <display value="Mass Increment"/>
+    <definition value="Mass Increment"/>
+  </concept>
+  <concept>
+    <code value="MRAT"/>
+    <display value="Mass Rate"/>
+    <definition value="Mass Rate"/>
+  </concept>
+  <concept>
+    <code value="MRTO"/>
+    <display value="Mass Ratio"/>
+    <definition value="Mass Ratio"/>
+  </concept>
+  <concept>
+    <code value="NUM"/>
+    <display value="Number"/>
+    <definition value="Number"/>
+  </concept>
+  <concept>
+    <code value="NCNC"/>
+    <display value="Number Concentration"/>
+    <definition value="Number Concentration"/>
+  </concept>
+  <concept>
+    <code value="NCNT"/>
+    <display value="Number Content"/>
+    <definition value="Number Content"/>
+  </concept>
+  <concept>
+    <code value="NFR"/>
+    <display value="Number Fraction"/>
+    <definition value="Number Fraction"/>
+  </concept>
+  <concept>
+    <code value="NRTO"/>
+    <display value="Number Ratio"/>
+    <definition value="Number Ratio"/>
+  </concept>
+  <concept>
+    <code value="SUB"/>
+    <display value="Substance Amount"/>
+    <definition value="Substance Amount"/>
+  </concept>
+  <concept>
+    <code value="SCNC"/>
+    <display value="Substance Concentration"/>
+    <definition value="Substance Concentration"/>
+  </concept>
+  <concept>
+    <code value="SCRTO"/>
+    <display value="Substance Concentration Ratio"/>
+    <definition value="Substance Concentration Ratio"/>
+  </concept>
+  <concept>
+    <code value="SCNT"/>
+    <display value="Substance Content"/>
+    <definition value="Substance Content"/>
+  </concept>
+  <concept>
+    <code value="SCNTR"/>
+    <display value="Substance Content Rate"/>
+    <definition value="Substance Content Rate"/>
+  </concept>
+  <concept>
+    <code value="SFR"/>
+    <display value="Substance Fraction"/>
+    <definition value="Substance Fraction"/>
+  </concept>
+  <concept>
+    <code value="SCNCIN"/>
+    <display value="Substance Concentration Increment"/>
+    <definition value="Substance Concentration Increment"/>
+  </concept>
+  <concept>
+    <code value="SRAT"/>
+    <display value="Substance Rate"/>
+    <definition value="Substance Rate"/>
+  </concept>
+  <concept>
+    <code value="SRTO"/>
+    <display value="Substance Ratio"/>
+    <definition value="Substance Ratio"/>
+  </concept>
+  <concept>
+    <code value="VOL"/>
+    <display value="Volume"/>
+    <definition value="Volume"/>
+  </concept>
+  <concept>
+    <code value="VCNT"/>
+    <display value="Volume Content"/>
+    <definition value="Volume Content"/>
+  </concept>
+  <concept>
+    <code value="VFR"/>
+    <display value="Volume Fraction"/>
+    <definition value="Volume Fraction"/>
+  </concept>
+  <concept>
+    <code value="VRAT"/>
+    <display value="Volume Rate"/>
+    <definition value="Volume Rate"/>
+  </concept>
+  <concept>
+    <code value="VRTO"/>
+    <display value="Volume Ratio"/>
+    <definition value="Volume Ratio"/>
+  </concept>
+  <concept>
+    <code value="ACNC"/>
+    <display value="Concentration, Arbitrary Substance"/>
+    <definition value="Concentration, Arbitrary Substance"/>
+  </concept>
+  <concept>
+    <code value="RLMCNC"/>
+    <display value="Relative Mass Concentration"/>
+    <definition value="Relative Mass Concentration"/>
+  </concept>
+  <concept>
+    <code value="RLSCNC"/>
+    <display value="Relative Substance Concentration"/>
+    <definition value="Relative Substance Concentration"/>
+  </concept>
+  <concept>
+    <code value="THRMCNC"/>
+    <display value="Threshold Mass Concentration"/>
+    <definition value="Threshold Mass Concentration"/>
+  </concept>
+  <concept>
+    <code value="THRSCNC"/>
+    <display value="Threshold Substance Concentration"/>
+    <definition value="Threshold Substance Concentration"/>
+  </concept>
+  <concept>
+    <code value="TIME"/>
+    <display value="Time (e.g. seconds)"/>
+    <definition value="Time (e.g. seconds)"/>
+  </concept>
+  <concept>
+    <code value="TMDF"/>
+    <display value="Time Difference"/>
+    <definition value="Time Difference"/>
+  </concept>
+  <concept>
+    <code value="TMSTP"/>
+    <display value="Time Stamp-Date and Time"/>
+    <definition value="Time Stamp-Date and Time"/>
+  </concept>
+  <concept>
+    <code value="TRTO"/>
+    <display value="Time Ratio"/>
+    <definition value="Time Ratio"/>
+  </concept>
+  <concept>
+    <code value="RCRLTM"/>
+    <display value="Reciprocal Relative Time"/>
+    <definition value="Reciprocal Relative Time"/>
+  </concept>
+  <concept>
+    <code value="RLTM"/>
+    <display value="Relative Time"/>
+    <definition value="Relative Time"/>
+  </concept>
+  <concept>
+    <code value="ABS"/>
+    <display value="Absorbance"/>
+    <definition value="Absorbance"/>
+  </concept>
+  <concept>
+    <code value="ACT"/>
+    <display value="Activity"/>
+    <definition value="Activity"/>
+  </concept>
+  <concept>
+    <code value="APER"/>
+    <display value="Appearance"/>
+    <definition value="Appearance"/>
+  </concept>
+  <concept>
+    <code value="ARB"/>
+    <display value="Arbitrary"/>
+    <definition value="Arbitrary"/>
+  </concept>
+  <concept>
+    <code value="AREA"/>
+    <display value="Area"/>
+    <definition value="Area"/>
+  </concept>
+  <concept>
+    <code value="ASPECT"/>
+    <display value="Aspect"/>
+    <definition value="Aspect"/>
+  </concept>
+  <concept>
+    <code value="CLAS"/>
+    <display value="Class"/>
+    <definition value="Class"/>
+  </concept>
+  <concept>
+    <code value="CNST"/>
+    <display value="Constant"/>
+    <definition value="Constant"/>
+  </concept>
+  <concept>
+    <code value="COEF"/>
+    <display value="Coefficient"/>
+    <definition value="Coefficient"/>
+  </concept>
+  <concept>
+    <code value="COLOR"/>
+    <display value="Color"/>
+    <definition value="Color"/>
+  </concept>
+  <concept>
+    <code value="CONS"/>
+    <display value="Consistency"/>
+    <definition value="Consistency"/>
+  </concept>
+  <concept>
+    <code value="DEN"/>
+    <display value="Density"/>
+    <definition value="Density"/>
+  </concept>
+  <concept>
+    <code value="DEV"/>
+    <display value="Device"/>
+    <definition value="Device"/>
+  </concept>
+  <concept>
+    <code value="DIFF"/>
+    <display value="Difference"/>
+    <definition value="Difference"/>
+  </concept>
+  <concept>
+    <code value="ELAS"/>
+    <display value="Elasticity"/>
+    <definition value="Elasticity"/>
+  </concept>
+  <concept>
+    <code value="ELPOT"/>
+    <display value="Electrical Potential (Voltage)"/>
+    <definition value="Electrical Potential (Voltage)"/>
+  </concept>
+  <concept>
+    <code value="ELRAT"/>
+    <display value="Electrical current (amperage)"/>
+    <definition value="Electrical current (amperage)"/>
+  </concept>
+  <concept>
+    <code value="ELRES"/>
+    <display value="Electrical Resistance"/>
+    <definition value="Electrical Resistance"/>
+  </concept>
+  <concept>
+    <code value="ENGR"/>
+    <display value="Energy"/>
+    <definition value="Energy"/>
+  </concept>
+  <concept>
+    <code value="EQL"/>
+    <display value="Equilibrium"/>
+    <definition value="Equilibrium"/>
+  </concept>
+  <concept>
+    <code value="FORCE"/>
+    <display value="Mechanical force"/>
+    <definition value="Mechanical force"/>
+  </concept>
+  <concept>
+    <code value="FREQ"/>
+    <display value="Frequency"/>
+    <definition value="Frequency"/>
+  </concept>
+  <concept>
+    <code value="IMP"/>
+    <display value="Impression/ interpretation of study"/>
+    <definition value="Impression/ interpretation of study"/>
+  </concept>
+  <concept>
+    <code value="KINV"/>
+    <display value="Kinematic Viscosity"/>
+    <definition value="Kinematic Viscosity"/>
+  </concept>
+  <concept>
+    <code value="LEN"/>
+    <display value="Length"/>
+    <definition value="Length"/>
+  </concept>
+  <concept>
+    <code value="LINC"/>
+    <display value="Length Increment"/>
+    <definition value="Length Increment"/>
+  </concept>
+  <concept>
+    <code value="LIQ"/>
+    <display value="Liquefaction"/>
+    <definition value="Liquefaction"/>
+  </concept>
+  <concept>
+    <code value="MGFLUX"/>
+    <display value="Magnetic flux"/>
+    <definition value="Magnetic flux"/>
+  </concept>
+  <concept>
+    <code value="MORPH"/>
+    <display value="Morphology"/>
+    <definition value="Morphology"/>
+  </concept>
+  <concept>
+    <code value="MOTIL"/>
+    <display value="Motility"/>
+    <definition value="Motility"/>
+  </concept>
+  <concept>
+    <code value="OD"/>
+    <display value="Optical density"/>
+    <definition value="Optical density"/>
+  </concept>
+  <concept>
+    <code value="OSMOL"/>
+    <display value="Osmolality"/>
+    <definition value="Osmolality"/>
+  </concept>
+  <concept>
+    <code value="PRID"/>
+    <display value="Presence/Identity/Existence"/>
+    <definition value="Presence/Identity/Existence"/>
+  </concept>
+  <concept>
+    <code value="PRES"/>
+    <display value="Pressure (Partial)"/>
+    <definition value="Pressure (Partial)"/>
+  </concept>
+  <concept>
+    <code value="PWR"/>
+    <display value="Power (wattage)"/>
+    <definition value="Power (wattage)"/>
+  </concept>
+  <concept>
+    <code value="RANGE"/>
+    <display value="Ranges"/>
+    <definition value="Ranges"/>
+  </concept>
+  <concept>
+    <code value="RATIO"/>
+    <display value="Ratios"/>
+    <definition value="Ratios"/>
+  </concept>
+  <concept>
+    <code value="RDEN"/>
+    <display value="Relative Density"/>
+    <definition value="Relative Density"/>
+  </concept>
+  <concept>
+    <code value="REL"/>
+    <display value="Relative"/>
+    <definition value="Relative"/>
+  </concept>
+  <concept>
+    <code value="SATFR"/>
+    <display value="Saturation Fraction"/>
+    <definition value="Saturation Fraction"/>
+  </concept>
+  <concept>
+    <code value="SHAPE"/>
+    <display value="Shape"/>
+    <definition value="Shape"/>
+  </concept>
+  <concept>
+    <code value="SMELL"/>
+    <display value="Smell"/>
+    <definition value="Smell"/>
+  </concept>
+  <concept>
+    <code value="SUSC"/>
+    <display value="Susceptibility"/>
+    <definition value="Susceptibility"/>
+  </concept>
+  <concept>
+    <code value="TASTE"/>
+    <display value="Taste"/>
+    <definition value="Taste"/>
+  </concept>
+  <concept>
+    <code value="TEMP"/>
+    <display value="Temperature"/>
+    <definition value="Temperature"/>
+  </concept>
+  <concept>
+    <code value="TEMPDF"/>
+    <display value="Temperature Difference"/>
+    <definition value="Temperature Difference"/>
+  </concept>
+  <concept>
+    <code value="TEMPIN"/>
+    <display value="Temperature Increment"/>
+    <definition value="Temperature Increment"/>
+  </concept>
+  <concept>
+    <code value="TITR"/>
+    <display value="Dilution Factor (Titer)"/>
+    <definition value="Dilution Factor (Titer)"/>
+  </concept>
+  <concept>
+    <code value="TYPE"/>
+    <display value="Type"/>
+    <definition value="Type"/>
+  </concept>
+  <concept>
+    <code value="VEL"/>
+    <display value="Velocity"/>
+    <definition value="Velocity"/>
+  </concept>
+  <concept>
+    <code value="VELRT"/>
+    <display value="Velocity Ratio"/>
+    <definition value="Velocity Ratio"/>
+  </concept>
+  <concept>
+    <code value="VISC"/>
+    <display value="Viscosity"/>
+    <definition value="Viscosity"/>
+  </concept>
+</CodeSystem>

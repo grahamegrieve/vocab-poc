@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0125-2.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0125-2.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:null"/>
+  </identifier>
+  <name value="V2Table0125v2.1"/>
+  <title value="V2 Table: Value Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0125 (Value Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0125-2.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AD"/>
+    <display value="Address"/>
+    <definition value="Address"/>
+  </concept>
+  <concept>
+    <code value="CK"/>
+    <display value="Composite ID with check digit"/>
+    <definition value="Composite ID with check digit"/>
+  </concept>
+  <concept>
+    <code value="FT"/>
+    <display value="Formatted Text"/>
+    <definition value="Formatted Text"/>
+  </concept>
+  <concept>
+    <code value="PN"/>
+    <display value="Person name"/>
+    <definition value="Person name"/>
+  </concept>
+  <concept>
+    <code value="ST"/>
+    <display value="String data. Used to transmit numerics."/>
+    <definition value="String data. Used to transmit numerics."/>
+  </concept>
+  <concept>
+    <code value="TM"/>
+    <display value="Time"/>
+    <definition value="Time"/>
+  </concept>
+  <concept>
+    <code value="TS"/>
+    <display value="Time stamp"/>
+    <definition value="Time stamp"/>
+  </concept>
+  <concept>
+    <code value="TX"/>
+    <display value="Text"/>
+    <definition value="Text"/>
+  </concept>
+</CodeSystem>

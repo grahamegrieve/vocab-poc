@@ -12,7 +12,7 @@
   <title value="V2 Table: Patient&#39;s Relationship to Insured"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="01"/>
@@ -37,7 +37,7 @@
     <definition value="Patient is insured"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="02"/>
@@ -45,7 +45,7 @@
     <definition value="Spouse"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="03"/>
@@ -53,7 +53,7 @@
     <definition value="Natural child/insured financial responsibility"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="04"/>
@@ -61,7 +61,7 @@
     <definition value="Natural child/Insured does not have financial responsibility"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="05"/>
@@ -69,7 +69,7 @@
     <definition value="Step child"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="06"/>
@@ -77,7 +77,7 @@
     <definition value="Foster child"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="07"/>
@@ -85,7 +85,7 @@
     <definition value="Ward of the court"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="08"/>
@@ -93,7 +93,7 @@
     <definition value="Employee"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="09"/>
@@ -101,7 +101,7 @@
     <definition value="Unknown"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="10"/>
@@ -109,7 +109,7 @@
     <definition value="Handicapped dependent"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="11"/>
@@ -117,7 +117,7 @@
     <definition value="Organ donor"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="12"/>
@@ -125,7 +125,7 @@
     <definition value="Cadaver donor"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="13"/>
@@ -133,7 +133,7 @@
     <definition value="Grandchild"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="14"/>
@@ -141,7 +141,7 @@
     <definition value="Niece/nephew"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="15"/>
@@ -149,7 +149,7 @@
     <definition value="Injured plaintiff"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="16"/>
@@ -157,7 +157,7 @@
     <definition value="Sponsored dependent"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="17"/>
@@ -165,7 +165,7 @@
     <definition value="Minor dependent of a minor dependent"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="18"/>
@@ -173,7 +173,7 @@
     <definition value="Parent"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="19"/>

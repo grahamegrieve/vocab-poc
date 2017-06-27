@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0472-2.8.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0472-2.8.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.300"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0472v2.8.1"/>
+  <title value="V2 Table: TQ Conjunction ID"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0472 (TQ Conjunction ID)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0472-2.8.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Do the next specification after this one (unless otherwise constrained by the following fields: TQ1-7-start date/time and TQ1-8-end date/time). An &quot;S&quot; specification implies that the second timing sequence follows the first, e.g., when a service request is"/>
+    </extension>
+    <code value="S"/>
+    <display value="Synchronous"/>
+    <definition value="Synchronous"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Do the next specification in parallel with this one (unless otherwise constrained by the following fields: TQ1-7-start date/time and TQ1-8-end date/time).  The conjunction of &quot;A&quot; specifies two parallel instructions, as are sometimes used in medication, e."/>
+    </extension>
+    <code value="A"/>
+    <display value="Asynchronous"/>
+    <definition value="Asynchronous"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="It will be followed by a completion time for the service.  This code allows one to distinguish between the time and priority at which a service should be actuated (e.g., blood should be drawn) and the time and priority at which a service should be complet"/>
+    </extension>
+    <code value="C"/>
+    <display value="Actuation Time"/>
+    <definition value="Actuation Time"/>
+  </concept>
+</CodeSystem>

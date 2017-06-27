@@ -12,7 +12,7 @@
   <title value="V2 Table: Nature of Service/Test/Observation"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="can be associated with one or more OM4 (specimen) segments&lt;p&gt;See comment for value S"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="P"/>
@@ -43,7 +43,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="can be associated with one or more OM4 (specimen) segments&lt;p&gt;See comment for value S"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="F"/>
@@ -54,7 +54,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="can be associated with one or more OM4 (specimen) segments&lt;p&gt;a single direct observation and would usually be associated with an OM2 and/or OM3 segments"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="A"/>
@@ -65,7 +65,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="can be associated with one or more OM4 (specimen) segments&#xD;&#xA;Codes P, F, and S identify sets (batteries) and should be associated with an OM5 segment that defines the list of elements.  The definitions for the contained elements would have to be sent in other independent OMx segments, one for each contained element.  In the ASTM context, most text reports &#x2013; such as discharge summaries, admission H&amp;Ps, and chest X-ray reports &#x2013; are considered as sets, in which each section of the report (e.g., description, impression, and recommendation of an X-ray report) is considered a separate observation"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="S"/>
@@ -76,7 +76,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="can be associated with one or more OM4 (specimen) segments&lt;p&gt;a derived quantity and would usually be associated with an OM6 segment"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="C"/>

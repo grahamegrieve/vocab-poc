@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-QueryPriority"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-QueryPriority"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.102"/>
+  </identifier>
+  <name value="QueryPriority"/>
+  <title value="QueryPriority"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10145">
+    <code value="D"/>
+    <definition value=" Query response is deferred."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Deferred"/>
+    </designation>
+  </concept>
+  <concept id="10146">
+    <code value="I"/>
+    <definition value=" Query response is immediate."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immediate"/>
+    </designation>
+  </concept>
+</CodeSystem>

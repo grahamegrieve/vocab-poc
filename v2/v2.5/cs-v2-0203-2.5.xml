@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0203-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0203-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.108"/>
+  </identifier>
+  <version value="4"/>
+  <name value="V2Table0203v2.5"/>
+  <title value="V2 Table: Identifier Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0203 (Identifier Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0203-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AM"/>
+    <display value="American Express"/>
+    <definition value="American Express"/>
+  </concept>
+  <concept>
+    <code value="AN"/>
+    <display value="Account number"/>
+    <definition value="Account number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Justification: For public health reporting purposes, anonymous identifiers are occasionally used for protecting patient identity in reporting certain results. For instance, a state health department may choose to use a scheme for generating an anonymous i"/>
+    </extension>
+    <code value="ANON"/>
+    <display value="Anonymous identifier"/>
+    <definition value="Anonymous identifier"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Class: Financial"/>
+    </extension>
+    <code value="ANC"/>
+    <display value="Account number Creditor"/>
+    <definition value="Account number Creditor"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Class: Financial"/>
+    </extension>
+    <code value="AND"/>
+    <display value="Account number debitor"/>
+    <definition value="Account number debitor"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Temporary version of an Account Number."/>
+    </extension>
+    <code value="ANT"/>
+    <display value="Temporary Account Number"/>
+    <definition value="Temporary Account Number"/>
+  </concept>
+  <concept>
+    <code value="APRN"/>
+    <display value="Advanced Practice Registered Nurse number"/>
+    <definition value="Advanced Practice Registered Nurse number"/>
+  </concept>
+  <concept>
+    <code value="BA"/>
+    <display value="Bank Account Number"/>
+    <definition value="Bank Account Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="An identifier that is unique to a person_s bank card. Replaces AM, DI, DS, MS, and VS beginning in v 2.5."/>
+    </extension>
+    <code value="BC"/>
+    <display value="Bank Card Number"/>
+    <definition value="Bank Card Number"/>
+  </concept>
+  <concept>
+    <code value="BR"/>
+    <display value="Birth registry number"/>
+    <definition value="Birth registry number"/>
+  </concept>
+  <concept>
+    <code value="BRN"/>
+    <display value="Breed Registry Number"/>
+    <definition value="Breed Registry Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: needed especially for transmitting information about invoices."/>
+    </extension>
+    <code value="CC"/>
+    <display value="Cost Center number"/>
+    <definition value="Cost Center number"/>
+  </concept>
+  <concept>
+    <code value="CY"/>
+    <display value="County number"/>
+    <definition value="County number"/>
+  </concept>
+  <concept>
+    <code value="DDS"/>
+    <display value="Dentist license number"/>
+    <definition value="Dentist license number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use case: This is a registration number that identifies an individual or organization relative to controlled substance regulation and transactions."/>
+    </extension>
+    <code value="DEA"/>
+    <display value="Drug Enforcement Administration registration number"/>
+    <definition value="Drug Enforcement Administration registration number"/>
+  </concept>
+  <concept>
+    <code value="DI"/>
+    <display value="Diner&#39;s Club card"/>
+    <definition value="Diner&#39;s Club card"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: A nurse practitioner has authorization to furnish or prescribe pharmaceutical substances; this identifier is in component 1."/>
+    </extension>
+    <code value="DFN"/>
+    <display value="Drug Furnishing or prescriptive authority Number"/>
+    <definition value="Drug Furnishing or prescriptive authority Number"/>
+  </concept>
+  <concept>
+    <code value="DL"/>
+    <display value="Driver&#39;s license number"/>
+    <definition value="Driver&#39;s license number"/>
+  </concept>
+  <concept>
+    <code value="DN"/>
+    <display value="Doctor number"/>
+    <definition value="Doctor number"/>
+  </concept>
+  <concept>
+    <code value="DPM"/>
+    <display value="Podiatrist license number"/>
+    <definition value="Podiatrist license number"/>
+  </concept>
+  <concept>
+    <code value="DO"/>
+    <display value="Osteopathic License number"/>
+    <definition value="Osteopathic License number"/>
+  </concept>
+  <concept>
+    <code value="DR"/>
+    <display value="Donor Registration Number"/>
+    <definition value="Donor Registration Number"/>
+  </concept>
+  <concept>
+    <code value="DS"/>
+    <display value="Discover Card"/>
+    <definition value="Discover Card"/>
+  </concept>
+  <concept>
+    <code value="EI"/>
+    <display value="Employee number"/>
+    <definition value="Employee number"/>
+  </concept>
+  <concept>
+    <code value="EN"/>
+    <display value="Employer number"/>
+    <definition value="Employer number"/>
+  </concept>
+  <concept>
+    <code value="FI"/>
+    <display value="Facility ID"/>
+    <definition value="Facility ID"/>
+  </concept>
+  <concept>
+    <code value="GI"/>
+    <display value="Guarantor internal identifier"/>
+    <definition value="Guarantor internal identifier"/>
+  </concept>
+  <concept>
+    <code value="GL"/>
+    <display value="General ledger number"/>
+    <definition value="General ledger number"/>
+  </concept>
+  <concept>
+    <code value="GN"/>
+    <display value="Guarantor external  identifier"/>
+    <definition value="Guarantor external  identifier"/>
+  </concept>
+  <concept>
+    <code value="HC"/>
+    <display value="Health Card Number"/>
+    <definition value="Health Card Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="2 uses: a) UK jurisdictional CHI number; b) Canadian provincial health card number:"/>
+    </extension>
+    <code value="JHN"/>
+    <display value="Jurisdictional health number (Canada)"/>
+    <definition value="Jurisdictional health number (Canada)"/>
+  </concept>
+  <concept>
+    <code value="IND"/>
+    <display value="Indigenous/Aboriginal"/>
+    <definition value="Indigenous/Aboriginal"/>
+  </concept>
+  <concept>
+    <code value="LI"/>
+    <display value="Labor and industries number"/>
+    <definition value="Labor and industries number"/>
+  </concept>
+  <concept>
+    <code value="LN"/>
+    <display value="License number"/>
+    <definition value="License number"/>
+  </concept>
+  <concept>
+    <code value="LR"/>
+    <display value="Local Registry ID"/>
+    <definition value="Local Registry ID"/>
+  </concept>
+  <concept>
+    <code value="MA"/>
+    <display value="Patient Medicaid number"/>
+    <definition value="Patient Medicaid number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: Person is covered by an insurance policy. This person may or may not be the subscriber of the policy."/>
+    </extension>
+    <code value="MB"/>
+    <display value="Member Number"/>
+    <definition value="Member Number"/>
+  </concept>
+  <concept>
+    <code value="MC"/>
+    <display value="Patient&#39;s Medicare number"/>
+    <definition value="Patient&#39;s Medicare number"/>
+  </concept>
+  <concept>
+    <code value="MCD"/>
+    <display value="Practitioner Medicaid number"/>
+    <definition value="Practitioner Medicaid number"/>
+  </concept>
+  <concept>
+    <code value="MCN"/>
+    <display value="Microchip Number"/>
+    <definition value="Microchip Number"/>
+  </concept>
+  <concept>
+    <code value="MCR"/>
+    <display value="Practitioner Medicare number"/>
+    <definition value="Practitioner Medicare number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: These license numbers are sometimes used as identifiers. In some states, the same authority issues all three identifiers, e.g., medical, osteopathic, and physician assistant licenses all issued by one state medical board. For this case, the CX d"/>
+    </extension>
+    <code value="MD"/>
+    <display value="Medical License number"/>
+    <definition value="Medical License number"/>
+  </concept>
+  <concept>
+    <code value="MI"/>
+    <display value="Military ID number"/>
+    <definition value="Military ID number"/>
+  </concept>
+  <concept>
+    <code value="MR"/>
+    <display value="Medical record number"/>
+    <definition value="Medical record number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: An ancillary system that does not normally assign medical record numbers is the first time to register a patient. This ancillary system will generate a temporary medical record number that will only be used until an official medical record numbe"/>
+    </extension>
+    <code value="MRT"/>
+    <display value="Temporary Medical Record Number"/>
+    <definition value="Temporary Medical Record Number"/>
+  </concept>
+  <concept>
+    <code value="MS"/>
+    <display value="MasterCard"/>
+    <definition value="MasterCard"/>
+  </concept>
+  <concept>
+    <code value="NE"/>
+    <display value="National employer identifier"/>
+    <definition value="National employer identifier"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Used for the UK NHS national identifier."/>
+    </extension>
+    <code value="NH"/>
+    <display value="National Health Plan Identifier"/>
+    <definition value="National Health Plan Identifier"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="In the US, the Assigning Authority for this value is typically CMS, but it may be used by all providers and insurance companies in HIPAA related transactions."/>
+    </extension>
+    <code value="NI"/>
+    <display value="National unique individual identifier"/>
+    <definition value="National unique individual identifier"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Class: Insurance"/>
+    </extension>
+    <code value="NII"/>
+    <display value="National Insurance Organization Identifier"/>
+    <definition value="National Insurance Organization Identifier"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Class: Insurance"/>
+    </extension>
+    <code value="NIIP"/>
+    <display value="National Insurance Payor Identifier (Payor)"/>
+    <definition value="National Insurance Payor Identifier (Payor)"/>
+  </concept>
+  <concept>
+    <code value="NNxxx"/>
+    <display value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
+    <definition value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
+  </concept>
+  <concept>
+    <code value="NP"/>
+    <display value="Nurse practitioner number"/>
+    <definition value="Nurse practitioner number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="In the US, the Assigning Authority for this value is typically CMS, but it may be used by all providers and insurance companies in HIPAA related transactions."/>
+    </extension>
+    <code value="NPI"/>
+    <display value="National provider identifier"/>
+    <definition value="National provider identifier"/>
+  </concept>
+  <concept>
+    <code value="OD"/>
+    <display value="Optometrist license number"/>
+    <definition value="Optometrist license number"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Physician Assistant number"/>
+    <definition value="Physician Assistant number"/>
+  </concept>
+  <concept>
+    <code value="PCN"/>
+    <display value="Penitentiary/correctional institution Number"/>
+    <definition value="Penitentiary/correctional institution Number"/>
+  </concept>
+  <concept>
+    <code value="PE"/>
+    <display value="Living Subject Enterprise Number"/>
+    <definition value="Living Subject Enterprise Number"/>
+  </concept>
+  <concept>
+    <code value="PEN"/>
+    <display value="Pension Number"/>
+    <definition value="Pension Number"/>
+  </concept>
+  <concept>
+    <code value="PI"/>
+    <display value="Patient internal identifier"/>
+    <definition value="Patient internal identifier"/>
+  </concept>
+  <concept>
+    <code value="PN"/>
+    <display value="Person number"/>
+    <definition value="Person number"/>
+  </concept>
+  <concept>
+    <code value="PNT"/>
+    <display value="Temporary Living Subject Number"/>
+    <definition value="Temporary Living Subject Number"/>
+  </concept>
+  <concept>
+    <code value="PPN"/>
+    <display value="Passport number"/>
+    <definition value="Passport number"/>
+  </concept>
+  <concept>
+    <code value="PRC"/>
+    <display value="Permanent Resident Card Number"/>
+    <definition value="Permanent Resident Card Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use case: This allows PRN to represent either an individual (a nurse) or a group/organization (orthopedic surgery team)."/>
+    </extension>
+    <code value="PRN"/>
+    <display value="Provider number"/>
+    <definition value="Provider number"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Patient external identifier"/>
+    <definition value="Patient external identifier"/>
+  </concept>
+  <concept>
+    <code value="QA"/>
+    <display value="QA number"/>
+    <definition value="QA number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: An identifier type is needed to accommodate what are commonly known as resources. The resources can include human (e.g. a respiratory therapist), non-human (e.g., a companion animal), inanimate object (e.g., an exam room), organization (e.g., di"/>
+    </extension>
+    <code value="RI"/>
+    <display value="Resource identifier"/>
+    <definition value="Resource identifier"/>
+  </concept>
+  <concept>
+    <code value="RPH"/>
+    <display value="Pharmacist license number"/>
+    <definition value="Pharmacist license number"/>
+  </concept>
+  <concept>
+    <code value="RN"/>
+    <display value="Registered Nurse Number"/>
+    <definition value="Registered Nurse Number"/>
+  </concept>
+  <concept>
+    <code value="RR"/>
+    <display value="Railroad Retirement number"/>
+    <definition value="Railroad Retirement number"/>
+  </concept>
+  <concept>
+    <code value="RRI"/>
+    <display value="Regional registry ID"/>
+    <definition value="Regional registry ID"/>
+  </concept>
+  <concept>
+    <code value="SL"/>
+    <display value="State license"/>
+    <definition value="State license"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="An identifier for a subscriber of an insurance policy which is unique for, and usually assigned by, the insurance carrier."/>
+    </extension>
+    <code value="SN"/>
+    <display value="Subscriber Number"/>
+    <definition value="Subscriber Number"/>
+  </concept>
+  <concept>
+    <code value="SR"/>
+    <display value="State registry ID"/>
+    <definition value="State registry ID"/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="Social Security number"/>
+    <definition value="Social Security number"/>
+  </concept>
+  <concept>
+    <code value="TAX"/>
+    <display value="Tax ID number"/>
+    <definition value="Tax ID number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Use Case: First Nation."/>
+    </extension>
+    <code value="TN"/>
+    <display value="Treaty Number/ (Canada)"/>
+    <definition value="Treaty Number/ (Canada)"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Unspecified identifier"/>
+    <definition value="Unspecified identifier"/>
+  </concept>
+  <concept>
+    <code value="UPIN"/>
+    <display value="Medicare/CMS (formerly HCFA)&#39;s Universal Physician Identification numbers"/>
+    <definition value="Medicare/CMS (formerly HCFA)&#39;s Universal Physician Identification numbers"/>
+  </concept>
+  <concept>
+    <code value="VN"/>
+    <display value="Visit number"/>
+    <definition value="Visit number"/>
+  </concept>
+  <concept>
+    <code value="VS"/>
+    <display value="VISA"/>
+    <definition value="VISA"/>
+  </concept>
+  <concept>
+    <code value="WC"/>
+    <display value="WIC identifier"/>
+    <definition value="WIC identifier"/>
+  </concept>
+  <concept>
+    <code value="WCN"/>
+    <display value="Workers&#39; Comp Number"/>
+    <definition value="Workers&#39; Comp Number"/>
+  </concept>
+  <concept>
+    <code value="XX"/>
+    <display value="Organization identifier"/>
+    <definition value="Organization identifier"/>
+  </concept>
+</CodeSystem>

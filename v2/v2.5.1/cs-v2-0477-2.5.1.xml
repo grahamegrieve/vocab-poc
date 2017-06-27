@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0477-2.5.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0477-2.5.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.304"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0477v2.5.1"/>
+  <title value="V2 Table: Controlled Substance Schedule"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0477 (Controlled Substance Schedule)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0477-2.5.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="I"/>
+    <display value="Schedule I"/>
+    <definition value="Schedule I"/>
+  </concept>
+  <concept>
+    <code value="II"/>
+    <display value="Schedule II"/>
+    <definition value="Schedule II"/>
+  </concept>
+  <concept>
+    <code value="III"/>
+    <display value="Schedule III"/>
+    <definition value="Schedule III"/>
+  </concept>
+  <concept>
+    <code value="IV"/>
+    <display value="Schedule IV"/>
+    <definition value="Schedule IV"/>
+  </concept>
+  <concept>
+    <code value="V"/>
+    <display value="Schedule V"/>
+    <definition value="Schedule V"/>
+  </concept>
+  <concept>
+    <code value="VI"/>
+    <display value="Schedule VI"/>
+    <definition value="Schedule VI"/>
+  </concept>
+</CodeSystem>

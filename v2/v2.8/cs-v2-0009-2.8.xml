@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0009-2.8"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0009-2.8"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.11"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0009v2.8"/>
+  <title value="V2 Table: Ambulatory Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0009 (Ambulatory Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0009-2.8"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A0"/>
+    <display value="No functional limitations"/>
+    <definition value="No functional limitations"/>
+  </concept>
+  <concept>
+    <code value="A1"/>
+    <display value="Ambulates with assistive device"/>
+    <definition value="Ambulates with assistive device"/>
+  </concept>
+  <concept>
+    <code value="A2"/>
+    <display value="Wheelchair/stretcher bound"/>
+    <definition value="Wheelchair/stretcher bound"/>
+  </concept>
+  <concept>
+    <code value="A3"/>
+    <display value="Comatose; non-responsive"/>
+    <definition value="Comatose; non-responsive"/>
+  </concept>
+  <concept>
+    <code value="A4"/>
+    <display value="Disoriented"/>
+    <definition value="Disoriented"/>
+  </concept>
+  <concept>
+    <code value="A5"/>
+    <display value="Vision impaired"/>
+    <definition value="Vision impaired"/>
+  </concept>
+  <concept>
+    <code value="A6"/>
+    <display value="Hearing impaired"/>
+    <definition value="Hearing impaired"/>
+  </concept>
+  <concept>
+    <code value="A7"/>
+    <display value="Speech impaired"/>
+    <definition value="Speech impaired"/>
+  </concept>
+  <concept>
+    <code value="A8"/>
+    <display value="Non-English speaking"/>
+    <definition value="Non-English speaking"/>
+  </concept>
+  <concept>
+    <code value="A9"/>
+    <display value="Functional level unknown"/>
+    <definition value="Functional level unknown"/>
+  </concept>
+  <concept>
+    <code value="B1"/>
+    <display value="Oxygen therapy"/>
+    <definition value="Oxygen therapy"/>
+  </concept>
+  <concept>
+    <code value="B2"/>
+    <display value="Special equipment (tubes, IVs, catheters)"/>
+    <definition value="Special equipment (tubes, IVs, catheters)"/>
+  </concept>
+  <concept>
+    <code value="B3"/>
+    <display value="Amputee"/>
+    <definition value="Amputee"/>
+  </concept>
+  <concept>
+    <code value="B4"/>
+    <display value="Mastectomy"/>
+    <definition value="Mastectomy"/>
+  </concept>
+  <concept>
+    <code value="B5"/>
+    <display value="Paraplegic"/>
+    <definition value="Paraplegic"/>
+  </concept>
+  <concept>
+    <code value="B6"/>
+    <display value="Pregnant"/>
+    <definition value="Pregnant"/>
+  </concept>
+</CodeSystem>

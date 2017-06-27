@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0562-2.8"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0562-2.8"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.365"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0562v2.8"/>
+  <title value="V2 Table: Processing Consideration Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0562 (Processing Consideration Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0562-2.8"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="PAPER"/>
+    <display value="Paper documentation to follow"/>
+    <definition value="Paper documentation to follow"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="E30 transaction to follow"/>
+    </extension>
+    <code value="EFORM"/>
+    <display value="Electronic form to follow"/>
+    <definition value="Electronic form to follow"/>
+  </concept>
+  <concept>
+    <code value="FAX"/>
+    <display value="Fax to follow"/>
+    <definition value="Fax to follow"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="If permitted by Payer"/>
+    </extension>
+    <code value="RTADJ"/>
+    <display value="Real Time Adjudication Processing"/>
+    <definition value="Real Time Adjudication Processing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="If permitted by Payer"/>
+    </extension>
+    <code value="DFADJ"/>
+    <display value="Deferred Adjudication Processing"/>
+    <definition value="Deferred Adjudication Processing"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Allows Provider to explain lateness of Invoice to a subsequent Payer"/>
+    </extension>
+    <code value="PYRDELAY"/>
+    <display value="Delayed by a Previous Payer"/>
+    <definition value="Delayed by a Previous Payer"/>
+  </concept>
+</CodeSystem>

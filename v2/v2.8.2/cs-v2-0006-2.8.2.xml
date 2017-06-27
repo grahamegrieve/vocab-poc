@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0006-2.8.2"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0006-2.8.2"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.8"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0006v2.8.2"/>
+  <title value="V2 Table: Religion"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0006 (Religion)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0006-2.8.2"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AGN"/>
+    <display value="Agnostic"/>
+    <definition value="Agnostic"/>
+  </concept>
+  <concept>
+    <code value="ATH"/>
+    <display value="Atheist"/>
+    <definition value="Atheist"/>
+  </concept>
+  <concept>
+    <code value="BAH"/>
+    <display value="Baha&#39;i"/>
+    <definition value="Baha&#39;i"/>
+  </concept>
+  <concept>
+    <code value="BRE"/>
+    <display value="Brethren"/>
+    <definition value="Brethren"/>
+  </concept>
+  <concept>
+    <code value="BUD"/>
+    <display value="Buddhist"/>
+    <definition value="Buddhist"/>
+  </concept>
+  <concept>
+    <code value="BMA"/>
+    <display value="Buddhist: Mahayana"/>
+    <definition value="Buddhist: Mahayana"/>
+  </concept>
+  <concept>
+    <code value="BTH"/>
+    <display value="Buddhist: Theravada"/>
+    <definition value="Buddhist: Theravada"/>
+  </concept>
+  <concept>
+    <code value="BTA"/>
+    <display value="Buddhist: Tantrayana"/>
+    <definition value="Buddhist: Tantrayana"/>
+  </concept>
+  <concept>
+    <code value="BOT"/>
+    <display value="Buddhist: Other"/>
+    <definition value="Buddhist: Other"/>
+  </concept>
+  <concept>
+    <code value="CFR"/>
+    <display value="Chinese Folk Religionist"/>
+    <definition value="Chinese Folk Religionist"/>
+  </concept>
+  <concept>
+    <code value="CHR"/>
+    <display value="Christian"/>
+    <definition value="Christian"/>
+  </concept>
+  <concept>
+    <code value="ABC"/>
+    <display value="Christian: American Baptist Church"/>
+    <definition value="Christian: American Baptist Church"/>
+  </concept>
+  <concept>
+    <code value="AMT"/>
+    <display value="Christian: African Methodist Episcopal"/>
+    <definition value="Christian: African Methodist Episcopal"/>
+  </concept>
+  <concept>
+    <code value="AME"/>
+    <display value="Christian: African Methodist Episcopal Zion"/>
+    <definition value="Christian: African Methodist Episcopal Zion"/>
+  </concept>
+  <concept>
+    <code value="ANG"/>
+    <display value="Christian: Anglican"/>
+    <definition value="Christian: Anglican"/>
+  </concept>
+  <concept>
+    <code value="AOG"/>
+    <display value="Christian: Assembly of God"/>
+    <definition value="Christian: Assembly of God"/>
+  </concept>
+  <concept>
+    <code value="BAP"/>
+    <display value="Christian: Baptist"/>
+    <definition value="Christian: Baptist"/>
+  </concept>
+  <concept>
+    <code value="CRR"/>
+    <display value="Christian: Christian Reformed"/>
+    <definition value="Christian: Christian Reformed"/>
+  </concept>
+  <concept>
+    <code value="CHS"/>
+    <display value="Christian: Christian Science"/>
+    <definition value="Christian: Christian Science"/>
+  </concept>
+  <concept>
+    <code value="CMA"/>
+    <display value="Christian: Christian Missionary Alliance"/>
+    <definition value="Christian: Christian Missionary Alliance"/>
+  </concept>
+  <concept>
+    <code value="COC"/>
+    <display value="Christian: Church of Christ"/>
+    <definition value="Christian: Church of Christ"/>
+  </concept>
+  <concept>
+    <code value="COG"/>
+    <display value="Christian: Church of God"/>
+    <definition value="Christian: Church of God"/>
+  </concept>
+  <concept>
+    <code value="COI"/>
+    <display value="Christian: Church of God in Christ"/>
+    <definition value="Christian: Church of God in Christ"/>
+  </concept>
+  <concept>
+    <code value="COM"/>
+    <display value="Christian: Community"/>
+    <definition value="Christian: Community"/>
+  </concept>
+  <concept>
+    <code value="COL"/>
+    <display value="Christian: Congregational"/>
+    <definition value="Christian: Congregational"/>
+  </concept>
+  <concept>
+    <code value="EOT"/>
+    <display value="Christian: Eastern Orthodox"/>
+    <definition value="Christian: Eastern Orthodox"/>
+  </concept>
+  <concept>
+    <code value="EVC"/>
+    <display value="Christian: Evangelical Church"/>
+    <definition value="Christian: Evangelical Church"/>
+  </concept>
+  <concept>
+    <code value="EPI"/>
+    <display value="Christian: Episcopalian"/>
+    <definition value="Christian: Episcopalian"/>
+  </concept>
+  <concept>
+    <code value="FWB"/>
+    <display value="Christian: Free Will Baptist"/>
+    <definition value="Christian: Free Will Baptist"/>
+  </concept>
+  <concept>
+    <code value="FRQ"/>
+    <display value="Christian: Friends"/>
+    <definition value="Christian: Friends"/>
+  </concept>
+  <concept>
+    <code value="FUL"/>
+    <display value="Christian: Full Gospel"/>
+    <definition value="Christian: Full Gospel"/>
+  </concept>
+  <concept>
+    <code value="GRE"/>
+    <display value="Christian: Greek Orthodox"/>
+    <definition value="Christian: Greek Orthodox"/>
+  </concept>
+  <concept>
+    <code value="JWN"/>
+    <display value="Christian: Jehovah&#39;s Witness"/>
+    <definition value="Christian: Jehovah&#39;s Witness"/>
+  </concept>
+  <concept>
+    <code value="MOM"/>
+    <display value="Christian: Latter-day Saints"/>
+    <definition value="Christian: Latter-day Saints"/>
+  </concept>
+  <concept>
+    <code value="LUT"/>
+    <display value="Christian: Lutheran"/>
+    <definition value="Christian: Lutheran"/>
+  </concept>
+  <concept>
+    <code value="LMS"/>
+    <display value="Christian: Lutheran Missouri Synod"/>
+    <definition value="Christian: Lutheran Missouri Synod"/>
+  </concept>
+  <concept>
+    <code value="MEN"/>
+    <display value="Christian: Mennonite"/>
+    <definition value="Christian: Mennonite"/>
+  </concept>
+  <concept>
+    <code value="MET"/>
+    <display value="Christian: Methodist"/>
+    <definition value="Christian: Methodist"/>
+  </concept>
+  <concept>
+    <code value="NAZ"/>
+    <display value="Christian: Church of the Nazarene"/>
+    <definition value="Christian: Church of the Nazarene"/>
+  </concept>
+  <concept>
+    <code value="ORT"/>
+    <display value="Christian: Orthodox"/>
+    <definition value="Christian: Orthodox"/>
+  </concept>
+  <concept>
+    <code value="PEN"/>
+    <display value="Christian: Pentecostal"/>
+    <definition value="Christian: Pentecostal"/>
+  </concept>
+  <concept>
+    <code value="COP"/>
+    <display value="Christian: Other Pentecostal"/>
+    <definition value="Christian: Other Pentecostal"/>
+  </concept>
+  <concept>
+    <code value="PRE"/>
+    <display value="Christian: Presbyterian"/>
+    <definition value="Christian: Presbyterian"/>
+  </concept>
+  <concept>
+    <code value="PRO"/>
+    <display value="Christian: Protestant"/>
+    <definition value="Christian: Protestant"/>
+  </concept>
+  <concept>
+    <code value="PRC"/>
+    <display value="Christian: Other Protestant"/>
+    <definition value="Christian: Other Protestant"/>
+  </concept>
+  <concept>
+    <code value="REC"/>
+    <display value="Christian: Reformed Church"/>
+    <definition value="Christian: Reformed Church"/>
+  </concept>
+  <concept>
+    <code value="REO"/>
+    <display value="Christian: Reorganized Church of Jesus Christ-LDS"/>
+    <definition value="Christian: Reorganized Church of Jesus Christ-LDS"/>
+  </concept>
+  <concept>
+    <code value="CAT"/>
+    <display value="Christian: Roman Catholic"/>
+    <definition value="Christian: Roman Catholic"/>
+  </concept>
+  <concept>
+    <code value="SAA"/>
+    <display value="Christian: Salvation Army"/>
+    <definition value="Christian: Salvation Army"/>
+  </concept>
+  <concept>
+    <code value="SEV"/>
+    <display value="Christian: Seventh Day Adventist"/>
+    <definition value="Christian: Seventh Day Adventist"/>
+  </concept>
+  <concept>
+    <code value="SOU"/>
+    <display value="Christian: Southern Baptist"/>
+    <definition value="Christian: Southern Baptist"/>
+  </concept>
+  <concept>
+    <code value="UCC"/>
+    <display value="Christian: United Church of Christ"/>
+    <definition value="Christian: United Church of Christ"/>
+  </concept>
+  <concept>
+    <code value="UMD"/>
+    <display value="Christian: United Methodist"/>
+    <definition value="Christian: United Methodist"/>
+  </concept>
+  <concept>
+    <code value="UNI"/>
+    <display value="Christian: Unitarian"/>
+    <definition value="Christian: Unitarian"/>
+  </concept>
+  <concept>
+    <code value="UNU"/>
+    <display value="Christian: Unitarian Universalist"/>
+    <definition value="Christian: Unitarian Universalist"/>
+  </concept>
+  <concept>
+    <code value="WES"/>
+    <display value="Christian: Wesleyan"/>
+    <definition value="Christian: Wesleyan"/>
+  </concept>
+  <concept>
+    <code value="WMC"/>
+    <display value="Christian: Wesleyan Methodist"/>
+    <definition value="Christian: Wesleyan Methodist"/>
+  </concept>
+  <concept>
+    <code value="COT"/>
+    <display value="Christian: Other"/>
+    <definition value="Christian: Other"/>
+  </concept>
+  <concept>
+    <code value="CNF"/>
+    <display value="Confucian"/>
+    <definition value="Confucian"/>
+  </concept>
+  <concept>
+    <code value="DOC"/>
+    <display value="Disciples of Christ"/>
+    <definition value="Disciples of Christ"/>
+  </concept>
+  <concept>
+    <code value="ERL"/>
+    <display value="Ethnic Religionist"/>
+    <definition value="Ethnic Religionist"/>
+  </concept>
+  <concept>
+    <code value="HIN"/>
+    <display value="Hindu"/>
+    <definition value="Hindu"/>
+  </concept>
+  <concept>
+    <code value="HSH"/>
+    <display value="Hindu: Shaivites"/>
+    <definition value="Hindu: Shaivites"/>
+  </concept>
+  <concept>
+    <code value="HVA"/>
+    <display value="Hindu: Vaishnavites"/>
+    <definition value="Hindu: Vaishnavites"/>
+  </concept>
+  <concept>
+    <code value="HOT"/>
+    <display value="Hindu: Other"/>
+    <definition value="Hindu: Other"/>
+  </concept>
+  <concept>
+    <code value="JAI"/>
+    <display value="Jain"/>
+    <definition value="Jain"/>
+  </concept>
+  <concept>
+    <code value="JEW"/>
+    <display value="Jewish"/>
+    <definition value="Jewish"/>
+  </concept>
+  <concept>
+    <code value="JCO"/>
+    <display value="Jewish: Conservative"/>
+    <definition value="Jewish: Conservative"/>
+  </concept>
+  <concept>
+    <code value="JOR"/>
+    <display value="Jewish: Orthodox"/>
+    <definition value="Jewish: Orthodox"/>
+  </concept>
+  <concept>
+    <code value="JRC"/>
+    <display value="Jewish: Reconstructionist"/>
+    <definition value="Jewish: Reconstructionist"/>
+  </concept>
+  <concept>
+    <code value="JRF"/>
+    <display value="Jewish: Reform"/>
+    <definition value="Jewish: Reform"/>
+  </concept>
+  <concept>
+    <code value="JRN"/>
+    <display value="Jewish: Renewal"/>
+    <definition value="Jewish: Renewal"/>
+  </concept>
+  <concept>
+    <code value="JOT"/>
+    <display value="Jewish: Other"/>
+    <definition value="Jewish: Other"/>
+  </concept>
+  <concept>
+    <code value="MOS"/>
+    <display value="Muslim"/>
+    <definition value="Muslim"/>
+  </concept>
+  <concept>
+    <code value="MSH"/>
+    <display value="Muslim: Shiite"/>
+    <definition value="Muslim: Shiite"/>
+  </concept>
+  <concept>
+    <code value="MSU"/>
+    <display value="Muslim: Sunni"/>
+    <definition value="Muslim: Sunni"/>
+  </concept>
+  <concept>
+    <code value="MOT"/>
+    <display value="Muslim: Other"/>
+    <definition value="Muslim: Other"/>
+  </concept>
+  <concept>
+    <code value="NAM"/>
+    <display value="Native American"/>
+    <definition value="Native American"/>
+  </concept>
+  <concept>
+    <code value="NRL"/>
+    <display value="New Religionist"/>
+    <definition value="New Religionist"/>
+  </concept>
+  <concept>
+    <code value="NOE"/>
+    <display value="Nonreligious"/>
+    <definition value="Nonreligious"/>
+  </concept>
+  <concept>
+    <code value="SHN"/>
+    <display value="Shintoist"/>
+    <definition value="Shintoist"/>
+  </concept>
+  <concept>
+    <code value="SIK"/>
+    <display value="Sikh"/>
+    <definition value="Sikh"/>
+  </concept>
+  <concept>
+    <code value="SPI"/>
+    <display value="Spiritist"/>
+    <definition value="Spiritist"/>
+  </concept>
+  <concept>
+    <code value="OTH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <code value="VAR"/>
+    <display value="Unknown"/>
+    <definition value="Unknown"/>
+  </concept>
+</CodeSystem>

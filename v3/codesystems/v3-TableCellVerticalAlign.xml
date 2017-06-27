@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-TableCellVerticalAlign"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>These values are defined within the XHTML 4.0 Table Model</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-TableCellVerticalAlign"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.133"/>
+  </identifier>
+  <name value="TableCellVerticalAlign"/>
+  <title value="TableCellVerticalAlign"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" These values are defined within the XHTML 4.0 Table Model"/>
+  <content value="complete"/>
+  <concept id="10988">
+    <code value="baseline"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="baseline"/>
+    </designation>
+  </concept>
+  <concept id="10989">
+    <code value="bottom"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="bottom"/>
+    </designation>
+  </concept>
+  <concept id="10990">
+    <code value="middle"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="middle"/>
+    </designation>
+  </concept>
+  <concept id="10991">
+    <code value="top"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="top"/>
+    </designation>
+  </concept>
+</CodeSystem>

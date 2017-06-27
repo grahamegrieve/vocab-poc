@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0369-2.8.2"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0369-2.8.2"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.227"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0369v2.8.2"/>
+  <title value="V2 Table: Specimen Role"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0369 (Specimen Role)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0369-2.8.2"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="B"/>
+    <display value="Blind Sample"/>
+    <definition value="Blind Sample"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Calibrator, used for initial setting of calibration"/>
+    <definition value="Calibrator, used for initial setting of calibration"/>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="Electronic QC, used with manufactured reference providing signals that simulate QC results"/>
+    <definition value="Electronic QC, used with manufactured reference providing signals that simulate QC results"/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="Specimen used for testing proficiency of the organization performing the testing (Filler)"/>
+    <definition value="Specimen used for testing proficiency of the organization performing the testing (Filler)"/>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <display value="Group (where a specimen consists of multiple individual elements that are not individually identified)"/>
+    <definition value="Group (where a specimen consists of multiple individual elements that are not individually identified)"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)"/>
+    <definition value="Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Specimen used for testing Operator Proficiency"/>
+    <definition value="Specimen used for testing Operator Proficiency"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Patient (default if blank component value)"/>
+    <definition value="Patient (default if blank component value)"/>
+  </concept>
+  <concept>
+    <code value="Q"/>
+    <display value="Control specimen"/>
+    <definition value="Control specimen"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Replicate (of patient sample as a control)"/>
+    <definition value="Replicate (of patient sample as a control)"/>
+  </concept>
+  <concept>
+    <code value="V"/>
+    <display value="Verifying Calibrator, used for periodic calibration checks"/>
+    <definition value="Verifying Calibrator, used for periodic calibration checks"/>
+  </concept>
+</CodeSystem>

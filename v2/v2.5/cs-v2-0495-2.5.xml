@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0495-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0495-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.319"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0495v2.5"/>
+  <title value="V2 Table: Body Site Modifier"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0495 (Body Site Modifier)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0495-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ANT"/>
+    <display value="Anterior"/>
+    <definition value="Anterior"/>
+  </concept>
+  <concept>
+    <code value="BIL"/>
+    <display value="Bilateral"/>
+    <definition value="Bilateral"/>
+  </concept>
+  <concept>
+    <code value="DIS"/>
+    <display value="Distal"/>
+    <definition value="Distal"/>
+  </concept>
+  <concept>
+    <code value="EXT"/>
+    <display value="External"/>
+    <definition value="External"/>
+  </concept>
+  <concept>
+    <code value="LAT"/>
+    <display value="Lateral"/>
+    <definition value="Lateral"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Left"/>
+    <definition value="Left"/>
+  </concept>
+  <concept>
+    <code value="LOW"/>
+    <display value="Lower"/>
+    <definition value="Lower"/>
+  </concept>
+  <concept>
+    <code value="MED"/>
+    <display value="Medial"/>
+    <definition value="Medial"/>
+  </concept>
+  <concept>
+    <code value="POS"/>
+    <display value="Posterior"/>
+    <definition value="Posterior"/>
+  </concept>
+  <concept>
+    <code value="PRO"/>
+    <display value="Proximal"/>
+    <definition value="Proximal"/>
+  </concept>
+  <concept>
+    <code value="LLQ"/>
+    <display value="Quadrant, Left Lower"/>
+    <definition value="Quadrant, Left Lower"/>
+  </concept>
+  <concept>
+    <code value="LUQ"/>
+    <display value="Quadrant, Left Upper"/>
+    <definition value="Quadrant, Left Upper"/>
+  </concept>
+  <concept>
+    <code value="RLQ"/>
+    <display value="Quadrant, Right Lower"/>
+    <definition value="Quadrant, Right Lower"/>
+  </concept>
+  <concept>
+    <code value="RUQ"/>
+    <display value="Quadrant, Right Upper"/>
+    <definition value="Quadrant, Right Upper"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Right"/>
+    <definition value="Right"/>
+  </concept>
+  <concept>
+    <code value="UPP"/>
+    <display value="Upper"/>
+    <definition value="Upper"/>
+  </concept>
+</CodeSystem>

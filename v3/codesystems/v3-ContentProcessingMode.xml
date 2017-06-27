@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ContentProcessingMode"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <b>Description:</b>Identifies the order in which content should be processed.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ContentProcessingMode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1110"/>
+  </identifier>
+  <name value="ContentProcessingMode"/>
+  <title value="ContentProcessingMode"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7 International"/>
+  <contact>
+    <name value="INM"/>
+  </contact>
+  <description value="  Description:&#xD;&#xA;Identifies the order in which content should be processed."/>
+  <content value="complete"/>
+  <concept id="21995">
+    <code value="SEQL"/>
+    <definition value="  Description:&#xD;&#xA;The content should be processed in a sequential fashion."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Sequential"/>
+    </designation>
+  </concept>
+  <concept id="21996">
+    <code value="UNOR"/>
+    <definition value="  Description:&#xD;&#xA;The content may be processed in any order."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Unordered"/>
+    </designation>
+  </concept>
+</CodeSystem>

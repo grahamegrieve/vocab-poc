@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0123-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0123-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.51"/>
+  </identifier>
+  <version value="3"/>
+  <name value="V2Table0123v2.5"/>
+  <title value="V2 Table: Result Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0123 (Result Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0123-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="O"/>
+    <display value="Order received; specimen not yet received"/>
+    <definition value="Order received; specimen not yet received"/>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="No results available; specimen received, procedure incomplete"/>
+    <definition value="No results available; specimen received, procedure incomplete"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="No results available; procedure scheduled, but not done"/>
+    <definition value="No results available; procedure scheduled, but not done"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="Some, but not all, results available"/>
+    <definition value="Some, but not all, results available"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Preliminary: A verified early result is available, final results not yet obtained"/>
+    <definition value="Preliminary: A verified early result is available, final results not yet obtained"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Correction to results"/>
+    <definition value="Correction to results"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Results stored; not yet verified"/>
+    <definition value="Results stored; not yet verified"/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="Final results; results stored and verified.  Can only be changed with a corrected result."/>
+    <definition value="Final results; results stored and verified.  Can only be changed with a corrected result."/>
+  </concept>
+  <concept>
+    <code value="X"/>
+    <display value="No results available; Order canceled."/>
+    <definition value="No results available; Order canceled."/>
+  </concept>
+  <concept>
+    <code value="Y"/>
+    <display value="No order on record for this test.  (Used only on queries)"/>
+    <definition value="No order on record for this test.  (Used only on queries)"/>
+  </concept>
+  <concept>
+    <code value="Z"/>
+    <display value="No record of this patient. (Used only on queries)"/>
+    <definition value="No record of this patient. (Used only on queries)"/>
+  </concept>
+</CodeSystem>

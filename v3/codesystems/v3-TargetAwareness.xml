@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-TargetAwareness"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-TargetAwareness"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.137"/>
+  </identifier>
+  <name value="TargetAwareness"/>
+  <title value="TargetAwareness"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10313">
+    <code value="D"/>
+    <definition value=" Target person has been informed about the issue but currently denies it."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="denying"/>
+    </designation>
+  </concept>
+  <concept id="10311">
+    <code value="F"/>
+    <definition value=" Target person is fully aware of the issue."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="full awareness"/>
+    </designation>
+  </concept>
+  <concept id="10316">
+    <code value="I"/>
+    <definition value=" Target person is not capable of comprehending the issue."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="incapable"/>
+    </designation>
+  </concept>
+  <concept id="10315">
+    <code value="M"/>
+    <definition value=" Target person is marginally aware of the issue."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="marginal"/>
+    </designation>
+  </concept>
+  <concept id="10314">
+    <code value="P"/>
+    <definition value=" Target person is partially aware of the issue."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="partial"/>
+    </designation>
+  </concept>
+  <concept id="10312">
+    <code value="U"/>
+    <definition value=" Target person has not yet been informed of the issue."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="uninformed"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActSite"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>An anatomical location on an organism which can be the focus of an act.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActSite"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1052"/>
+  </identifier>
+  <name value="ActSite"/>
+  <title value="ActSite"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" An anatomical location on an organism which can be the focus of an act."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="20948">
+    <code value="_HumanActSite"/>
+    <definition value=" An anatomical location on a human which can be the focus of an act."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HumanActSite"/>
+    </designation>
+    <concept id="21534">
+      <code value="_HumanSubstanceAdministrationSite"/>
+      <definition value=" The set of body locations to or through which a drug product may be administered."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="HumanSubstanceAdministrationSite"/>
+      </designation>
+      <concept id="21759">
+        <code value="BE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="bilateral ears"/>
+        </designation>
+      </concept>
+      <concept id="21760">
+        <code value="BN"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="bilateral nares"/>
+        </designation>
+      </concept>
+      <concept id="21761">
+        <code value="BU"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="buttock"/>
+        </designation>
+      </concept>
+      <concept id="21762">
+        <code value="LA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left arm"/>
+        </designation>
+      </concept>
+      <concept id="21763">
+        <code value="LAC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left anterior chest"/>
+        </designation>
+      </concept>
+      <concept id="21764">
+        <code value="LACF"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left antecubital fossa"/>
+        </designation>
+      </concept>
+      <concept id="21765">
+        <code value="LD"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left deltoid"/>
+        </designation>
+      </concept>
+      <concept id="21766">
+        <code value="LE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left ear"/>
+        </designation>
+      </concept>
+      <concept id="21767">
+        <code value="LEJ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left external jugular"/>
+        </designation>
+      </concept>
+      <concept id="21768">
+        <code value="LF"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left foot"/>
+        </designation>
+      </concept>
+      <concept id="21769">
+        <code value="LG"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left gluteus medius"/>
+        </designation>
+      </concept>
+      <concept id="21770">
+        <code value="LH"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left hand"/>
+        </designation>
+      </concept>
+      <concept id="21771">
+        <code value="LIJ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left internal jugular"/>
+        </designation>
+      </concept>
+      <concept id="21772">
+        <code value="LLAQ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left lower abd quadrant"/>
+        </designation>
+      </concept>
+      <concept id="21773">
+        <code value="LLFA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left lower forearm"/>
+        </designation>
+      </concept>
+      <concept id="21774">
+        <code value="LMFA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left mid forearm"/>
+        </designation>
+      </concept>
+      <concept id="21775">
+        <code value="LN"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left naris"/>
+        </designation>
+      </concept>
+      <concept id="21776">
+        <code value="LPC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left posterior chest"/>
+        </designation>
+      </concept>
+      <concept id="21777">
+        <code value="LSC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left subclavian"/>
+        </designation>
+      </concept>
+      <concept id="21778">
+        <code value="LT"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left thigh"/>
+        </designation>
+      </concept>
+      <concept id="21779">
+        <code value="LUA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left upper arm"/>
+        </designation>
+      </concept>
+      <concept id="21780">
+        <code value="LUAQ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left upper abd quadrant"/>
+        </designation>
+      </concept>
+      <concept id="21781">
+        <code value="LUFA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left upper forearm"/>
+        </designation>
+      </concept>
+      <concept id="21782">
+        <code value="LVG"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left ventragluteal"/>
+        </designation>
+      </concept>
+      <concept id="21783">
+        <code value="LVL"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left vastus lateralis"/>
+        </designation>
+      </concept>
+      <concept id="21784">
+        <code value="OD"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right eye"/>
+        </designation>
+      </concept>
+      <concept id="21785">
+        <code value="OS"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="left eye"/>
+        </designation>
+      </concept>
+      <concept id="21786">
+        <code value="OU"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="bilateral eyes"/>
+        </designation>
+      </concept>
+      <concept id="21787">
+        <code value="PA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="perianal"/>
+        </designation>
+      </concept>
+      <concept id="21788">
+        <code value="PERIN"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="perineal"/>
+        </designation>
+      </concept>
+      <concept id="21789">
+        <code value="RA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right arm"/>
+        </designation>
+      </concept>
+      <concept id="21790">
+        <code value="RAC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right anterior chest"/>
+        </designation>
+      </concept>
+      <concept id="21791">
+        <code value="RACF"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right antecubital fossa"/>
+        </designation>
+      </concept>
+      <concept id="21792">
+        <code value="RD"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right deltoid"/>
+        </designation>
+      </concept>
+      <concept id="21793">
+        <code value="RE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right ear"/>
+        </designation>
+      </concept>
+      <concept id="21794">
+        <code value="REJ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right external jugular"/>
+        </designation>
+      </concept>
+      <concept id="21795">
+        <code value="RF"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right foot"/>
+        </designation>
+      </concept>
+      <concept id="21796">
+        <code value="RG"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right gluteus medius"/>
+        </designation>
+      </concept>
+      <concept id="21797">
+        <code value="RH"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right hand"/>
+        </designation>
+      </concept>
+      <concept id="21798">
+        <code value="RIJ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right internal jugular"/>
+        </designation>
+      </concept>
+      <concept id="21799">
+        <code value="RLAQ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right lower abd quadrant"/>
+        </designation>
+      </concept>
+      <concept id="21800">
+        <code value="RLFA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right lower forearm"/>
+        </designation>
+      </concept>
+      <concept id="21801">
+        <code value="RMFA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right mid forearm"/>
+        </designation>
+      </concept>
+      <concept id="23250">
+        <code value="RN"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right naris"/>
+        </designation>
+      </concept>
+      <concept id="21802">
+        <code value="RPC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right posterior chest"/>
+        </designation>
+      </concept>
+      <concept id="21803">
+        <code value="RSC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right subclavian"/>
+        </designation>
+      </concept>
+      <concept id="21804">
+        <code value="RT"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right thigh"/>
+        </designation>
+      </concept>
+      <concept id="21805">
+        <code value="RUA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right upper arm"/>
+        </designation>
+      </concept>
+      <concept id="21806">
+        <code value="RUAQ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right upper abd quadrant"/>
+        </designation>
+      </concept>
+      <concept id="21807">
+        <code value="RUFA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right upper forearm"/>
+        </designation>
+      </concept>
+      <concept id="21808">
+        <code value="RVG"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right ventragluteal"/>
+        </designation>
+      </concept>
+      <concept id="21809">
+        <code value="RVL"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="right vastus lateralis"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="20949">
+      <code value="_InjuryActSite"/>
+      <definition value=" An anatomical location on a human of an injury or disease which is the focus of an act."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="InjuryActSite"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+  </concept>
+  <concept id="20947">
+    <code value="_AnimalActSite"/>
+    <definition value=" An anatomical location on a non-human animal which can be the focus of an act."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="AnimalActSite"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

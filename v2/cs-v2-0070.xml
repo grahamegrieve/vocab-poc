@@ -12,7 +12,7 @@
   <title value="V2 Table: Specimen Source Codes"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="MN"/>
@@ -37,7 +37,7 @@
     <definition value="Amniotic Fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="OTH"/>
@@ -45,7 +45,7 @@
     <definition value="Other"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="TIS"/>
@@ -53,7 +53,7 @@
     <definition value="Tissue"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ABS"/>
@@ -61,7 +61,7 @@
     <definition value="Abscess"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="AMN"/>
@@ -69,7 +69,7 @@
     <definition value="Amniotic fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ASP"/>
@@ -77,7 +77,7 @@
     <definition value="Aspirate"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="BPH"/>
@@ -85,10 +85,10 @@
     <definition value="Basophils"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="ABLD"/>
@@ -96,7 +96,7 @@
     <definition value="Arterial blood"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="BIFL"/>
@@ -104,7 +104,7 @@
     <definition value="Bile fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="BLDA"/>
@@ -112,7 +112,7 @@
     <definition value="Blood  arterial"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="BBL"/>
@@ -120,7 +120,7 @@
     <definition value="Blood bag"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="BLDC"/>
@@ -128,7 +128,7 @@
     <definition value="Blood  capillary"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="BPU"/>
@@ -136,7 +136,7 @@
     <definition value="Blood product unit"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="BLDV"/>
@@ -149,7 +149,7 @@
     <definition value="Bone"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="BRTH"/>
@@ -157,7 +157,7 @@
     <definition value="Breath (use EXHLD)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="BRO"/>
@@ -170,7 +170,7 @@
     <definition value="Burn"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CALC"/>
@@ -178,7 +178,7 @@
     <definition value="Calculus (=Stone)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CDM"/>
@@ -186,7 +186,7 @@
     <definition value="Cardiac muscle"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CNL"/>
@@ -194,7 +194,7 @@
     <definition value="Cannula"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CTP"/>
@@ -207,7 +207,7 @@
     <definition value="Cerebral spinal fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CVM"/>
@@ -220,7 +220,7 @@
     <definition value="Cervix"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="COL"/>
@@ -228,10 +228,10 @@
     <definition value="Colostrum"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="CBLD"/>
@@ -239,7 +239,7 @@
     <definition value="Cord blood"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="BLDCO"/>
@@ -252,7 +252,7 @@
     <definition value="Conjunctiva"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CUR"/>
@@ -260,7 +260,7 @@
     <definition value="Curettage"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CYST"/>
@@ -268,7 +268,7 @@
     <definition value="Cyst"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="DIAF"/>
@@ -276,7 +276,7 @@
     <definition value="Dialysis fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="DOSE"/>
@@ -284,7 +284,7 @@
     <definition value="Dose med or substance"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="DRN"/>
@@ -292,7 +292,7 @@
     <definition value="Drain"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="DUFL"/>
@@ -305,7 +305,7 @@
     <definition value="Ear"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="EARW"/>
@@ -313,7 +313,7 @@
     <definition value="Ear wax (cerumen)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ELT"/>
@@ -321,7 +321,7 @@
     <definition value="Electrode"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ENDC"/>
@@ -329,7 +329,7 @@
     <definition value="Endocardium"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ENDM"/>
@@ -337,7 +337,7 @@
     <definition value="Endometrium"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="EOS"/>
@@ -350,7 +350,7 @@
     <definition value="Erythrocytes"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="EYE"/>
@@ -358,10 +358,10 @@
     <definition value="Eye"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="EXHLD"/>
@@ -369,7 +369,7 @@
     <definition value="Exhaled gas (=breath)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="EXG"/>
@@ -382,7 +382,7 @@
     <definition value="Fibroblasts"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="FLT"/>
@@ -390,7 +390,7 @@
     <definition value="Filter"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="FIST"/>
@@ -398,7 +398,7 @@
     <definition value="Fistula"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="FLU"/>
@@ -406,7 +406,7 @@
     <definition value="Body fluid, unsp"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="GAS"/>
@@ -414,7 +414,7 @@
     <definition value="Gas"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="GAST"/>
@@ -422,7 +422,7 @@
     <definition value="Gastric fluid/contents"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="GEN"/>
@@ -430,7 +430,7 @@
     <definition value="Genital"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="GENC"/>
@@ -438,7 +438,7 @@
     <definition value="Genital cervix"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="GENL"/>
@@ -446,7 +446,7 @@
     <definition value="Genital lochia"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="GENV"/>
@@ -459,7 +459,7 @@
     <definition value="Hair"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="IHG"/>
@@ -467,7 +467,7 @@
     <definition value="Inhaled Gas"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="IT"/>
@@ -475,7 +475,7 @@
     <definition value="Intubation tube"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="ISLT"/>
@@ -483,7 +483,7 @@
     <definition value="Isolate"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="LAM"/>
@@ -496,7 +496,7 @@
     <definition value="Leukocytes"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="LN"/>
@@ -504,7 +504,7 @@
     <definition value="Line"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="LNA"/>
@@ -512,10 +512,10 @@
     <definition value="Line arterial"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="PER"/>
@@ -523,7 +523,7 @@
     <definition value="Peritoneum"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="LNV"/>
@@ -531,7 +531,7 @@
     <definition value="Line venous"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="LIQ"/>
@@ -539,7 +539,7 @@
     <definition value="Liquid NOS"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="LYM"/>
@@ -547,7 +547,7 @@
     <definition value="Lymphocytes"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MAC"/>
@@ -555,7 +555,7 @@
     <definition value="Macrophages"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MAR"/>
@@ -563,7 +563,7 @@
     <definition value="Marrow"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MEC"/>
@@ -571,7 +571,7 @@
     <definition value="Meconium"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MBLD"/>
@@ -579,7 +579,7 @@
     <definition value="Menstrual blood"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MLK"/>
@@ -587,7 +587,7 @@
     <definition value="Milk"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="MILK"/>
@@ -595,7 +595,7 @@
     <definition value="Breast milk"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="NAIL"/>
@@ -608,7 +608,7 @@
     <definition value="Nose (nasal passage)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ORH"/>
@@ -616,7 +616,7 @@
     <definition value="Other"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="PAFL"/>
@@ -624,7 +624,7 @@
     <definition value="Pancreatic fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="PAT"/>
@@ -637,7 +637,7 @@
     <definition value="Peritoneal fluid /ascites"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="PLC"/>
@@ -650,7 +650,7 @@
     <definition value="Plasma"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="PLB"/>
@@ -658,7 +658,7 @@
     <definition value="Plasma bag"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="PLR"/>
@@ -666,7 +666,7 @@
     <definition value="Pleural fluid (thoracentesis fld)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="PMN"/>
@@ -674,7 +674,7 @@
     <definition value="Polymorphonuclear neutrophils"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="PPP"/>
@@ -682,7 +682,7 @@
     <definition value="Platelet poor plasma"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="PRP"/>
@@ -690,7 +690,7 @@
     <definition value="Platelet rich plasma"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="PUS"/>
@@ -698,10 +698,10 @@
     <definition value="Pus"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="TISB"/>
@@ -709,7 +709,7 @@
     <definition value="Tissue bone marrow"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="RT"/>
@@ -722,7 +722,7 @@
     <definition value="Saliva"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="SEM"/>
@@ -730,10 +730,10 @@
     <definition value="Seminal fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="TISL"/>
@@ -741,7 +741,7 @@
     <definition value="Tissue lung"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="SMN"/>
@@ -754,10 +754,10 @@
     <definition value="Serum"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="TISP"/>
@@ -770,7 +770,7 @@
     <definition value="Skin"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SKM"/>
@@ -778,10 +778,10 @@
     <definition value="Skeletal muscle"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.6"/>
     </extension>
     <code value="TISC"/>
@@ -789,7 +789,7 @@
     <definition value="Tissue curettage"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SPRM"/>
@@ -797,7 +797,7 @@
     <definition value="Spermatozoa"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SPT"/>
@@ -805,7 +805,7 @@
     <definition value="Sputum"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SPTC"/>
@@ -813,7 +813,7 @@
     <definition value="Sputum - coughed"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SPTT"/>
@@ -821,7 +821,7 @@
     <definition value="Sputum - tracheal aspirate"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="STON"/>
@@ -844,7 +844,7 @@
     <definition value="Synovial fluid (Joint fluid)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="TEAR"/>
@@ -857,7 +857,7 @@
     <definition value="Throat"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="THRB"/>
@@ -865,7 +865,7 @@
     <definition value="Thrombocyte (platelet)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="TISS"/>
@@ -873,7 +873,7 @@
     <definition value="Tissue"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="TISG"/>
@@ -881,7 +881,7 @@
     <definition value="Tissue gall bladder"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="TLGI"/>
@@ -889,7 +889,7 @@
     <definition value="Tissue large intestine"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="TLNG"/>
@@ -897,7 +897,7 @@
     <definition value="Tissue lung"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="TISPL"/>
@@ -905,7 +905,7 @@
     <definition value="Tissue placenta"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="TSMI"/>
@@ -913,7 +913,7 @@
     <definition value="Tissue small intestine"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="TISU"/>
@@ -921,7 +921,7 @@
     <definition value="Tissue ulcer"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="TUB"/>
@@ -929,7 +929,7 @@
     <definition value="Tube NOS"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="ULC"/>
@@ -942,7 +942,7 @@
     <definition value="Umbilical blood"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="UMED"/>
@@ -960,7 +960,7 @@
     <definition value="Urine"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="URC"/>
@@ -968,7 +968,7 @@
     <definition value="Urine clean catch"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="URT"/>
@@ -976,7 +976,7 @@
     <definition value="Urine catheter"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="URNS"/>
@@ -984,7 +984,7 @@
     <definition value="Urine sediment"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="USUB"/>
@@ -992,7 +992,7 @@
     <definition value="Unknown substance"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="VITF"/>
@@ -1000,7 +1000,7 @@
     <definition value="Vitreous Fluid"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="VOM"/>
@@ -1013,7 +1013,7 @@
     <definition value="Whole blood"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="BDY"/>
@@ -1021,7 +1021,7 @@
     <definition value="Whole body"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="WAT"/>
@@ -1029,7 +1029,7 @@
     <definition value="Water"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="WICK"/>
@@ -1042,7 +1042,7 @@
     <definition value="Wound"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="WNDA"/>
@@ -1050,7 +1050,7 @@
     <definition value="Wound abscess"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="WNDE"/>
@@ -1058,7 +1058,7 @@
     <definition value="Wound exudate"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="WNDD"/>
@@ -1066,7 +1066,7 @@
     <definition value="Wound drainage"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="XXX"/>

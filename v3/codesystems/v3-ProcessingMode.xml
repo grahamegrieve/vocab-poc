@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ProcessingMode"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ProcessingMode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.101"/>
+  </identifier>
+  <name value="ProcessingMode"/>
+  <title value="ProcessingMode"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10121">
+    <code value="A"/>
+    <definition value=" Identifies archive mode of processing."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Archive"/>
+    </designation>
+  </concept>
+  <concept id="10123">
+    <code value="I"/>
+    <definition value=" Identifies initial load mode of processing."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Initial load"/>
+    </designation>
+  </concept>
+  <concept id="10122">
+    <code value="R"/>
+    <definition value=" Identifies restore mode of processing."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Restore from archive"/>
+    </designation>
+  </concept>
+  <concept id="10124">
+    <code value="T"/>
+    <definition value=" Identifies on-line mode of processing."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Current processing"/>
+    </designation>
+  </concept>
+</CodeSystem>

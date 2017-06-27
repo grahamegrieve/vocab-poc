@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0384-2.7.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0384-2.7.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.237"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0384v2.7.1"/>
+  <title value="V2 Table: Substance Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0384 (Substance Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0384-2.7.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="SR"/>
+    <display value="Single Test Reagent"/>
+    <definition value="Single Test Reagent"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="The consumption cannot be tied to orders for a single test"/>
+    </extension>
+    <code value="MR"/>
+    <display value="Multiple Test Reagent"/>
+    <definition value="Multiple Test Reagent"/>
+  </concept>
+  <concept>
+    <code value="DI"/>
+    <display value="Diluent"/>
+    <definition value="Diluent"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Pretreatment"/>
+    <definition value="Pretreatment"/>
+  </concept>
+  <concept>
+    <code value="RC"/>
+    <display value="Reagent Calibrator"/>
+    <definition value="Reagent Calibrator"/>
+  </concept>
+  <concept>
+    <code value="CO"/>
+    <display value="Control"/>
+    <definition value="Control"/>
+  </concept>
+  <concept>
+    <code value="PW"/>
+    <display value="Purified Water"/>
+    <definition value="Purified Water"/>
+  </concept>
+  <concept>
+    <code value="LW"/>
+    <display value="Liquid Waste"/>
+    <definition value="Liquid Waste"/>
+  </concept>
+  <concept>
+    <code value="SW"/>
+    <display value="Solid Waste"/>
+    <definition value="Solid Waste"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="E.g., Pipetting tip"/>
+    </extension>
+    <code value="SC"/>
+    <display value="Countable Solid Item"/>
+    <definition value="Countable Solid Item"/>
+  </concept>
+  <concept>
+    <code value="LI"/>
+    <display value="Measurable Liquid Item"/>
+    <definition value="Measurable Liquid Item"/>
+  </concept>
+  <concept>
+    <code value="OT"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+</CodeSystem>

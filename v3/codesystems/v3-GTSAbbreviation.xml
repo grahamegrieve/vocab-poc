@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-GTSAbbreviation"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-GTSAbbreviation"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1022"/>
+  </identifier>
+  <name value="GTSAbbreviation"/>
+  <title value="GTSAbbreviation"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="appliesTo"/>
+    <description value="Haven&#39;t a clue!"/>
+    <type value="string"/>
+  </property>
+  <concept id="10721">
+    <code value="AM"/>
+    <definition value=" Every morning at institution specified times."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="AM"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="H0600-1200 IST"/>
+    </property>
+  </concept>
+  <concept id="10703">
+    <code value="BID"/>
+    <definition value=" Two times a day at institution specified time"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="BID"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="/(12 h) IST"/>
+    </property>
+  </concept>
+  <concept id="10723">
+    <code value="JB"/>
+    <definition value=" Regular business days (Monday to Friday excluding holidays)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="JB"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="J1-5 \JH"/>
+    </property>
+  </concept>
+  <concept id="10724">
+    <code value="JE"/>
+    <definition value=" Regular weekends (Saturday and Sunday excluding holidays)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="JE"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="J6-7 \JH"/>
+    </property>
+  </concept>
+  <concept id="10725">
+    <code value="JH"/>
+    <definition value=" Holidays"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="GTSAbbreviationHolidays"/>
+    </designation>
+    <concept id="21080">
+      <code value="_GTSAbbreviationHolidaysChristianRoman"/>
+      <definition value=" Christian Holidays (Roman/Gregorian [Western] Tradition.)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="GTSAbbreviationHolidaysChristianRoman"/>
+      </designation>
+      <concept id="10730">
+        <code value="JHCHREAS"/>
+        <definition value=" Easter Sunday.  The Easter date is a rather complex calculation based on Astronomical tables describing full moon dates.  Details can be found at [http://www.assa.org.au/edm.html, and http://aa.usno.navy.mil/AA/faq/docs/easter.html].  Note that the Christian Orthodox Holidays are based on the Julian calendar."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHCHREAS"/>
+        </designation>
+      </concept>
+      <concept id="10731">
+        <code value="JHCHRGFR"/>
+        <definition value=" Good Friday, is the Friday right before Easter Sunday."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHCHRGFR"/>
+        </designation>
+      </concept>
+      <concept id="10729">
+        <code value="JHCHRNEW"/>
+        <definition value=" New Year&#39;s Day (January 1)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHCHRNEW"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0101"/>
+        </property>
+      </concept>
+      <concept id="10732">
+        <code value="JHCHRPEN"/>
+        <definition value=" Pentecost Sunday, is seven weeks after Easter (the 50th day of Easter)."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHCHRPEN"/>
+        </designation>
+      </concept>
+      <concept id="10727">
+        <code value="JHCHRXME"/>
+        <definition value=" Christmas Eve (December 24)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHCHRXME"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M1224"/>
+        </property>
+      </concept>
+      <concept id="10728">
+        <code value="JHCHRXMS"/>
+        <definition value=" Christmas Day (December 25)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHCHRXMS"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M1225"/>
+        </property>
+      </concept>
+    </concept>
+    <concept id="22658">
+      <code value="JHNNL"/>
+      <definition value="  Description:&#xD;&#xA;The Netherlands National Holidays."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="The Netherlands National Holidays"/>
+      </designation>
+      <concept id="22660">
+        <code value="JHNNLLD"/>
+        <definition value="  Description:&#xD;&#xA;Liberation day  (May 5 every five years)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Liberation day (May 5 every five years)"/>
+        </designation>
+      </concept>
+      <concept id="22659">
+        <code value="JHNNLQD"/>
+        <definition value="  Description:&#xD;&#xA;Queen&#39;s day (April 30)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Queen&#39;s day (April 30)"/>
+        </designation>
+      </concept>
+      <concept id="22661">
+        <code value="JHNNLSK"/>
+        <definition value="  Description:&#xD;&#xA;Sinterklaas (December 5)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Sinterklaas (December 5)"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="10733">
+      <code value="JHNUS"/>
+      <definition value=" United States National Holidays (public holidays for federal employees established by U.S. Federal law 5 U.S.C. 6103)."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="GTSAbbreviationHolidaysUSNational"/>
+      </designation>
+      <concept id="10743">
+        <code value="JHNUSCLM"/>
+        <definition value=" Columbus Day, the second Monday in October."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSCLM"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M1008-14 J1"/>
+        </property>
+      </concept>
+      <concept id="10739">
+        <code value="JHNUSIND"/>
+        <definition value=" Independence Day (4th of July)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSIND"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0704"/>
+        </property>
+      </concept>
+      <concept id="10741">
+        <code value="JHNUSIND1"/>
+        <definition value=" Alternative Monday after 4th of July Weekend [5 U.S.C. 6103(b)]."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSIND1"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0705 J1"/>
+        </property>
+      </concept>
+      <concept id="10740">
+        <code value="JHNUSIND5"/>
+        <definition value=" Alternative Friday before 4th of July Weekend [5 U.S.C. 6103(b)]."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSIND5"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0703 J5"/>
+        </property>
+      </concept>
+      <concept id="10742">
+        <code value="JHNUSLBR"/>
+        <definition value=" Labor Day, the first Monday in September."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSLBR"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0901-07 J1"/>
+        </property>
+      </concept>
+      <concept id="10736">
+        <code value="JHNUSMEM"/>
+        <definition value=" Memorial Day, the last Monday in May."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSMEM"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0525-31 J1"/>
+        </property>
+      </concept>
+      <concept id="10737">
+        <code value="JHNUSMEM5"/>
+        <definition value=" Friday before Memorial Day Weekend"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSMEM5"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0522-28 J5"/>
+        </property>
+      </concept>
+      <concept id="10738">
+        <code value="JHNUSMEM6"/>
+        <definition value=" Saturday of Memorial Day Weekend"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSMEM6"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0523-29 J6"/>
+        </property>
+      </concept>
+      <concept id="10734">
+        <code value="JHNUSMLK"/>
+        <definition value=" Dr. Martin Luther King, Jr. Day, the third Monday in January."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSMLK"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0115-21 J1"/>
+        </property>
+      </concept>
+      <concept id="10735">
+        <code value="JHNUSPRE"/>
+        <definition value=" Washington&#39;s Birthday (Presidential Day) the third Monday in February."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSPRE"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M0215-21 J1"/>
+        </property>
+      </concept>
+      <concept id="10745">
+        <code value="JHNUSTKS"/>
+        <definition value=" Thanksgiving Day, the fourth Thursday in November."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSTKS"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M1122-28 J4"/>
+        </property>
+      </concept>
+      <concept id="10746">
+        <code value="JHNUSTKS5"/>
+        <definition value=" Friday after Thanksgiving."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSTKS5"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M1123-29 J5"/>
+        </property>
+      </concept>
+      <concept id="10744">
+        <code value="JHNUSVET"/>
+        <definition value=" Veteran&#39;s Day, November 11."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="JHNUSVET"/>
+        </designation>
+        <property>
+          <code value="appliesTo"/>
+          <valueString value="M1111"/>
+        </property>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="10722">
+    <code value="PM"/>
+    <definition value=" Every afternoon at institution specified times."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PM"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="H1200-1800 IST"/>
+    </property>
+  </concept>
+  <concept id="23746">
+    <code value="Q4H"/>
+    <definition value=" Every 4 hours at institution specified time"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Q4H"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="4 h IST"/>
+    </property>
+  </concept>
+  <concept id="23747">
+    <code value="Q6H"/>
+    <definition value=" Every 6 hours at institution specified time"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Q6H"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="6 h IST"/>
+    </property>
+  </concept>
+  <concept id="23744">
+    <code value="QD"/>
+    <definition value=" Every day at institution specified times."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="QD"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="1 d IST"/>
+    </property>
+  </concept>
+  <concept id="10705">
+    <code value="QID"/>
+    <definition value=" Four times a day at institution specified time"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="QID"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="/(6 h) IST"/>
+    </property>
+  </concept>
+  <concept id="23745">
+    <code value="QOD"/>
+    <definition value=" Every other day at institution specified times."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="QOD"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="2 d IST"/>
+    </property>
+  </concept>
+  <concept id="10704">
+    <code value="TID"/>
+    <definition value=" Three times a day at institution specified time"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TID"/>
+    </designation>
+    <property>
+      <code value="appliesTo"/>
+      <valueString value="/(8 h) IST"/>
+    </property>
+  </concept>
+</CodeSystem>

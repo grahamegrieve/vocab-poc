@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActRelationshipCheckpoint"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipCheckpoint"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.10"/>
+  </identifier>
+  <name value="ActRelationshipCheckpoint"/>
+  <title value="ActRelationshipCheckpoint"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10351">
+    <code value="B"/>
+    <definition value=" Condition is tested every time before execution of the service (WHILE condition DO service)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="beginning"/>
+    </designation>
+  </concept>
+  <concept id="10352">
+    <code value="E"/>
+    <definition value=" Condition is tested at the end of a repeated service execution.  The service is repeated only if the condition is true (DO service WHILE condition)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="end"/>
+    </designation>
+  </concept>
+  <concept id="10350">
+    <code value="S"/>
+    <definition value=" Condition is tested once before the service is executed (IF condition THEN service)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="entry"/>
+    </designation>
+  </concept>
+  <concept id="10353">
+    <code value="T"/>
+    <definition value=" Condition must be true throughout the execution and the service is interrupted (asynchronously) as soon as the condition turns false (asynchronous WHILE loop).  The service must be interruptible."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="through"/>
+    </designation>
+  </concept>
+  <concept id="10354">
+    <code value="X"/>
+    <definition value=" Condition is a loop checkpoint, i.e. it is a step of an activity plan and, if negative causes the containing loop to exit."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="exit"/>
+    </designation>
+  </concept>
+</CodeSystem>

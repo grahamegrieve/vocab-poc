@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0003-2.7"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0003-2.7"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.4"/>
+  </identifier>
+  <version value="8"/>
+  <name value="V2Table0003v2.7"/>
+  <title value="V2 Table: Event Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0003 (Event Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0003-2.7"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A01"/>
+    <display value="ADT/ACK - Admit/visit notification"/>
+    <definition value="ADT/ACK - Admit/visit notification"/>
+  </concept>
+  <concept>
+    <code value="A02"/>
+    <display value="ADT/ACK - Transfer a patient"/>
+    <definition value="ADT/ACK - Transfer a patient"/>
+  </concept>
+  <concept>
+    <code value="A03"/>
+    <display value="ADT/ACK -  Discharge/end visit"/>
+    <definition value="ADT/ACK -  Discharge/end visit"/>
+  </concept>
+  <concept>
+    <code value="A04"/>
+    <display value="ADT/ACK -  Register a patient"/>
+    <definition value="ADT/ACK -  Register a patient"/>
+  </concept>
+  <concept>
+    <code value="A05"/>
+    <display value="ADT/ACK -  Pre-admit a patient"/>
+    <definition value="ADT/ACK -  Pre-admit a patient"/>
+  </concept>
+  <concept>
+    <code value="A06"/>
+    <display value="ADT/ACK -  Change an outpatient to an inpatient"/>
+    <definition value="ADT/ACK -  Change an outpatient to an inpatient"/>
+  </concept>
+  <concept>
+    <code value="A07"/>
+    <display value="ADT/ACK -  Change an inpatient to an outpatient"/>
+    <definition value="ADT/ACK -  Change an inpatient to an outpatient"/>
+  </concept>
+  <concept>
+    <code value="A08"/>
+    <display value="ADT/ACK -  Update patient information"/>
+    <definition value="ADT/ACK -  Update patient information"/>
+  </concept>
+  <concept>
+    <code value="A09"/>
+    <display value="ADT/ACK -  Patient departing - tracking"/>
+    <definition value="ADT/ACK -  Patient departing - tracking"/>
+  </concept>
+  <concept>
+    <code value="A10"/>
+    <display value="ADT/ACK -  Patient arriving - tracking"/>
+    <definition value="ADT/ACK -  Patient arriving - tracking"/>
+  </concept>
+  <concept>
+    <code value="A11"/>
+    <display value="ADT/ACK -  Cancel admit/visit notification"/>
+    <definition value="ADT/ACK -  Cancel admit/visit notification"/>
+  </concept>
+  <concept>
+    <code value="A12"/>
+    <display value="ADT/ACK -  Cancel transfer"/>
+    <definition value="ADT/ACK -  Cancel transfer"/>
+  </concept>
+  <concept>
+    <code value="A13"/>
+    <display value="ADT/ACK -  Cancel discharge/end visit"/>
+    <definition value="ADT/ACK -  Cancel discharge/end visit"/>
+  </concept>
+  <concept>
+    <code value="A14"/>
+    <display value="ADT/ACK -  Pending admit"/>
+    <definition value="ADT/ACK -  Pending admit"/>
+  </concept>
+  <concept>
+    <code value="A15"/>
+    <display value="ADT/ACK -  Pending transfer"/>
+    <definition value="ADT/ACK -  Pending transfer"/>
+  </concept>
+  <concept>
+    <code value="A16"/>
+    <display value="ADT/ACK -  Pending discharge"/>
+    <definition value="ADT/ACK -  Pending discharge"/>
+  </concept>
+  <concept>
+    <code value="A17"/>
+    <display value="ADT/ACK -  Swap patients"/>
+    <definition value="ADT/ACK -  Swap patients"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A18"/>
+    <display value="ADT/ACK -  Merge patient information"/>
+    <definition value="ADT/ACK -  Merge patient information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A19"/>
+    <display value="QRY/ADR -  Patient query"/>
+    <definition value="QRY/ADR -  Patient query"/>
+  </concept>
+  <concept>
+    <code value="A20"/>
+    <display value="ADT/ACK -  Bed status update"/>
+    <definition value="ADT/ACK -  Bed status update"/>
+  </concept>
+  <concept>
+    <code value="A21"/>
+    <display value="ADT/ACK -  Patient goes on a &quot;leave of absence&quot;"/>
+    <definition value="ADT/ACK -  Patient goes on a &quot;leave of absence&quot;"/>
+  </concept>
+  <concept>
+    <code value="A22"/>
+    <display value="ADT/ACK -  Patient returns from a &quot;leave of absence&quot;"/>
+    <definition value="ADT/ACK -  Patient returns from a &quot;leave of absence&quot;"/>
+  </concept>
+  <concept>
+    <code value="A23"/>
+    <display value="ADT/ACK -  Delete a patient record"/>
+    <definition value="ADT/ACK -  Delete a patient record"/>
+  </concept>
+  <concept>
+    <code value="A24"/>
+    <display value="ADT/ACK -  Link patient information"/>
+    <definition value="ADT/ACK -  Link patient information"/>
+  </concept>
+  <concept>
+    <code value="A25"/>
+    <display value="ADT/ACK -  Cancel pending discharge"/>
+    <definition value="ADT/ACK -  Cancel pending discharge"/>
+  </concept>
+  <concept>
+    <code value="A26"/>
+    <display value="ADT/ACK -  Cancel pending transfer"/>
+    <definition value="ADT/ACK -  Cancel pending transfer"/>
+  </concept>
+  <concept>
+    <code value="A27"/>
+    <display value="ADT/ACK -  Cancel pending admit"/>
+    <definition value="ADT/ACK -  Cancel pending admit"/>
+  </concept>
+  <concept>
+    <code value="A28"/>
+    <display value="ADT/ACK -  Add person information"/>
+    <definition value="ADT/ACK -  Add person information"/>
+  </concept>
+  <concept>
+    <code value="A29"/>
+    <display value="ADT/ACK -  Delete person information"/>
+    <definition value="ADT/ACK -  Delete person information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A30"/>
+    <display value="ADT/ACK -  Merge person information"/>
+    <definition value="ADT/ACK -  Merge person information"/>
+  </concept>
+  <concept>
+    <code value="A31"/>
+    <display value="ADT/ACK -  Update person information"/>
+    <definition value="ADT/ACK -  Update person information"/>
+  </concept>
+  <concept>
+    <code value="A32"/>
+    <display value="ADT/ACK -  Cancel patient arriving - tracking"/>
+    <definition value="ADT/ACK -  Cancel patient arriving - tracking"/>
+  </concept>
+  <concept>
+    <code value="A33"/>
+    <display value="ADT/ACK -  Cancel patient departing - tracking"/>
+    <definition value="ADT/ACK -  Cancel patient departing - tracking"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A34"/>
+    <display value="ADT/ACK -  Merge patient information - patient ID only"/>
+    <definition value="ADT/ACK -  Merge patient information - patient ID only"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A35"/>
+    <display value="ADT/ACK -  Merge patient information - account number only"/>
+    <definition value="ADT/ACK -  Merge patient information - account number only"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A36"/>
+    <display value="ADT/ACK -  Merge patient information - patient ID and account number"/>
+    <definition value="ADT/ACK -  Merge patient information - patient ID and account number"/>
+  </concept>
+  <concept>
+    <code value="A37"/>
+    <display value="ADT/ACK -  Unlink patient information"/>
+    <definition value="ADT/ACK -  Unlink patient information"/>
+  </concept>
+  <concept>
+    <code value="A38"/>
+    <display value="ADT/ACK - Cancel pre-admit"/>
+    <definition value="ADT/ACK - Cancel pre-admit"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A39"/>
+    <display value="ADT/ACK - Merge person - patient ID"/>
+    <definition value="ADT/ACK - Merge person - patient ID"/>
+  </concept>
+  <concept>
+    <code value="A40"/>
+    <display value="ADT/ACK - Merge patient - patient identifier list"/>
+    <definition value="ADT/ACK - Merge patient - patient identifier list"/>
+  </concept>
+  <concept>
+    <code value="A41"/>
+    <display value="ADT/ACK - Merge account - patient account number"/>
+    <definition value="ADT/ACK - Merge account - patient account number"/>
+  </concept>
+  <concept>
+    <code value="A42"/>
+    <display value="ADT/ACK - Merge visit - visit number"/>
+    <definition value="ADT/ACK - Merge visit - visit number"/>
+  </concept>
+  <concept>
+    <code value="A43"/>
+    <display value="ADT/ACK - Move patient information - patient identifier list"/>
+    <definition value="ADT/ACK - Move patient information - patient identifier list"/>
+  </concept>
+  <concept>
+    <code value="A44"/>
+    <display value="ADT/ACK - Move account information - patient account number"/>
+    <definition value="ADT/ACK - Move account information - patient account number"/>
+  </concept>
+  <concept>
+    <code value="A45"/>
+    <display value="ADT/ACK - Move visit information - visit number"/>
+    <definition value="ADT/ACK - Move visit information - visit number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A46"/>
+    <display value="ADT/ACK - Change patient ID"/>
+    <definition value="ADT/ACK - Change patient ID"/>
+  </concept>
+  <concept>
+    <code value="A47"/>
+    <display value="ADT/ACK - Change patient identifier list"/>
+    <definition value="ADT/ACK - Change patient identifier list"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="A48"/>
+    <display value="ADT/ACK - Change alternate patient ID"/>
+    <definition value="ADT/ACK - Change alternate patient ID"/>
+  </concept>
+  <concept>
+    <code value="A49"/>
+    <display value="ADT/ACK - Change patient account number"/>
+    <definition value="ADT/ACK - Change patient account number"/>
+  </concept>
+  <concept>
+    <code value="A50"/>
+    <display value="ADT/ACK - Change visit number"/>
+    <definition value="ADT/ACK - Change visit number"/>
+  </concept>
+  <concept>
+    <code value="A51"/>
+    <display value="ADT/ACK - Change alternate visit ID"/>
+    <definition value="ADT/ACK - Change alternate visit ID"/>
+  </concept>
+  <concept>
+    <code value="A52"/>
+    <display value="ADT/ACK - Cancel leave of absence for a patient"/>
+    <definition value="ADT/ACK - Cancel leave of absence for a patient"/>
+  </concept>
+  <concept>
+    <code value="A53"/>
+    <display value="ADT/ACK - Cancel patient returns from a leave of absence"/>
+    <definition value="ADT/ACK - Cancel patient returns from a leave of absence"/>
+  </concept>
+  <concept>
+    <code value="A54"/>
+    <display value="ADT/ACK - Change attending doctor"/>
+    <definition value="ADT/ACK - Change attending doctor"/>
+  </concept>
+  <concept>
+    <code value="A55"/>
+    <display value="ADT/ACK - Cancel change attending doctor"/>
+    <definition value="ADT/ACK - Cancel change attending doctor"/>
+  </concept>
+  <concept>
+    <code value="A60"/>
+    <display value="ADT/ACK - Update allergy information"/>
+    <definition value="ADT/ACK - Update allergy information"/>
+  </concept>
+  <concept>
+    <code value="A61"/>
+    <display value="ADT/ACK - Change consulting doctor"/>
+    <definition value="ADT/ACK - Change consulting doctor"/>
+  </concept>
+  <concept>
+    <code value="A62"/>
+    <display value="ADT/ACK - Cancel change consulting doctor"/>
+    <definition value="ADT/ACK - Cancel change consulting doctor"/>
+  </concept>
+  <concept>
+    <code value="B01"/>
+    <display value="PMU/ACK - Add personnel record"/>
+    <definition value="PMU/ACK - Add personnel record"/>
+  </concept>
+  <concept>
+    <code value="B02"/>
+    <display value="PMU/ACK - Update personnel record"/>
+    <definition value="PMU/ACK - Update personnel record"/>
+  </concept>
+  <concept>
+    <code value="B03"/>
+    <display value="PMU/ACK - Delete personnel re cord"/>
+    <definition value="PMU/ACK - Delete personnel re cord"/>
+  </concept>
+  <concept>
+    <code value="B04"/>
+    <display value="PMU/ACK - Active practicing person"/>
+    <definition value="PMU/ACK - Active practicing person"/>
+  </concept>
+  <concept>
+    <code value="B05"/>
+    <display value="PMU/ACK - Deactivate practicing person"/>
+    <definition value="PMU/ACK - Deactivate practicing person"/>
+  </concept>
+  <concept>
+    <code value="B06"/>
+    <display value="PMU/ACK - Terminate practicing person"/>
+    <definition value="PMU/ACK - Terminate practicing person"/>
+  </concept>
+  <concept>
+    <code value="B07"/>
+    <display value="PMU/ACK - Grant Certificate/Permission"/>
+    <definition value="PMU/ACK - Grant Certificate/Permission"/>
+  </concept>
+  <concept>
+    <code value="B08"/>
+    <display value="PMU/ACK - Revoke Certificate/Permission"/>
+    <definition value="PMU/ACK - Revoke Certificate/Permission"/>
+  </concept>
+  <concept>
+    <code value="C01"/>
+    <display value="CRM - Register a patient on a clinical trial"/>
+    <definition value="CRM - Register a patient on a clinical trial"/>
+  </concept>
+  <concept>
+    <code value="C02"/>
+    <display value="CRM - Cancel a patient registration on clinical trial (for clerical mistakes only)"/>
+    <definition value="CRM - Cancel a patient registration on clinical trial (for clerical mistakes only)"/>
+  </concept>
+  <concept>
+    <code value="C03"/>
+    <display value="CRM - Correct/update registration information"/>
+    <definition value="CRM - Correct/update registration information"/>
+  </concept>
+  <concept>
+    <code value="C04"/>
+    <display value="CRM - Patient has gone off a clinical trial"/>
+    <definition value="CRM - Patient has gone off a clinical trial"/>
+  </concept>
+  <concept>
+    <code value="C05"/>
+    <display value="CRM - Patient enters phase of clinical trial"/>
+    <definition value="CRM - Patient enters phase of clinical trial"/>
+  </concept>
+  <concept>
+    <code value="C06"/>
+    <display value="CRM - Cancel patient entering a phase (clerical mistake)"/>
+    <definition value="CRM - Cancel patient entering a phase (clerical mistake)"/>
+  </concept>
+  <concept>
+    <code value="C07"/>
+    <display value="CRM - Correct/update phase information"/>
+    <definition value="CRM - Correct/update phase information"/>
+  </concept>
+  <concept>
+    <code value="C08"/>
+    <display value="CRM - Patient has gone off phase of clinical trial"/>
+    <definition value="CRM - Patient has gone off phase of clinical trial"/>
+  </concept>
+  <concept>
+    <code value="C09"/>
+    <display value="CSU - Automated time intervals for reporting, like monthly"/>
+    <definition value="CSU - Automated time intervals for reporting, like monthly"/>
+  </concept>
+  <concept>
+    <code value="C10"/>
+    <display value="CSU - Patient completes the clinical trial"/>
+    <definition value="CSU - Patient completes the clinical trial"/>
+  </concept>
+  <concept>
+    <code value="C11"/>
+    <display value="CSU - Patient completes a phase of the clinical trial"/>
+    <definition value="CSU - Patient completes a phase of the clinical trial"/>
+  </concept>
+  <concept>
+    <code value="C12"/>
+    <display value="CSU - Update/correction of patient order/result information"/>
+    <definition value="CSU - Update/correction of patient order/result information"/>
+  </concept>
+  <concept>
+    <code value="CNQ"/>
+    <display value="Cancel Query"/>
+    <definition value="Cancel Query"/>
+  </concept>
+  <concept>
+    <code value="E01"/>
+    <display value="Submit HealthCare Services Invoice"/>
+    <definition value="Submit HealthCare Services Invoice"/>
+  </concept>
+  <concept>
+    <code value="E02"/>
+    <display value="Cancel HealthCare Services Invoice"/>
+    <definition value="Cancel HealthCare Services Invoice"/>
+  </concept>
+  <concept>
+    <code value="E03"/>
+    <display value="HealthCare Services Invoice Status"/>
+    <definition value="HealthCare Services Invoice Status"/>
+  </concept>
+  <concept>
+    <code value="E04"/>
+    <display value="Re-Assess HealthCare Services Invoice Request"/>
+    <definition value="Re-Assess HealthCare Services Invoice Request"/>
+  </concept>
+  <concept>
+    <code value="E10"/>
+    <display value="Edit/Adjudication Results"/>
+    <definition value="Edit/Adjudication Results"/>
+  </concept>
+  <concept>
+    <code value="E12"/>
+    <display value="Request Additional Information"/>
+    <definition value="Request Additional Information"/>
+  </concept>
+  <concept>
+    <code value="E13"/>
+    <display value="Additional Information Response"/>
+    <definition value="Additional Information Response"/>
+  </concept>
+  <concept>
+    <code value="E15"/>
+    <display value="Payment/Remittance Advice"/>
+    <definition value="Payment/Remittance Advice"/>
+  </concept>
+  <concept>
+    <code value="E20"/>
+    <display value="Submit Authorization Request"/>
+    <definition value="Submit Authorization Request"/>
+  </concept>
+  <concept>
+    <code value="E21"/>
+    <display value="Cancel Authorization Request"/>
+    <definition value="Cancel Authorization Request"/>
+  </concept>
+  <concept>
+    <code value="E22"/>
+    <display value="Authorization Request Status"/>
+    <definition value="Authorization Request Status"/>
+  </concept>
+  <concept>
+    <code value="E24"/>
+    <display value="Authorization Response"/>
+    <definition value="Authorization Response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="reserved for future/not yet defined"/>
+    </extension>
+    <code value="E30"/>
+    <display value="Submit Health Document related to Authorization Request"/>
+    <definition value="Submit Health Document related to Authorization Request"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="reserved for future/not yet defined"/>
+    </extension>
+    <code value="E31"/>
+    <display value="Cancel Health Document related to Authorization Request"/>
+    <definition value="Cancel Health Document related to Authorization Request"/>
+  </concept>
+  <concept>
+    <code value="I01"/>
+    <display value="RQI/RPI - Request for insurance information"/>
+    <definition value="RQI/RPI - Request for insurance information"/>
+  </concept>
+  <concept>
+    <code value="I02"/>
+    <display value="RQI/RPL - Request/receipt of patient selection display list"/>
+    <definition value="RQI/RPL - Request/receipt of patient selection display list"/>
+  </concept>
+  <concept>
+    <code value="I03"/>
+    <display value="RQI/RPR - Request/receipt of patient selection list"/>
+    <definition value="RQI/RPR - Request/receipt of patient selection list"/>
+  </concept>
+  <concept>
+    <code value="I04"/>
+    <display value="RQD/RPI - Request for patient demographic data"/>
+    <definition value="RQD/RPI - Request for patient demographic data"/>
+  </concept>
+  <concept>
+    <code value="I05"/>
+    <display value="RQC/RCI - Request for patient clinical information"/>
+    <definition value="RQC/RCI - Request for patient clinical information"/>
+  </concept>
+  <concept>
+    <code value="I06"/>
+    <display value="RQC/RCL - Request/receipt of clinical data listing"/>
+    <definition value="RQC/RCL - Request/receipt of clinical data listing"/>
+  </concept>
+  <concept>
+    <code value="I07"/>
+    <display value="PIN/ACK - Unsolicited insurance information"/>
+    <definition value="PIN/ACK - Unsolicited insurance information"/>
+  </concept>
+  <concept>
+    <code value="I08"/>
+    <display value="RQA/RPA - Request for treatment authorization information"/>
+    <definition value="RQA/RPA - Request for treatment authorization information"/>
+  </concept>
+  <concept>
+    <code value="I09"/>
+    <display value="RQA/RPA - Request for modification to an authorization"/>
+    <definition value="RQA/RPA - Request for modification to an authorization"/>
+  </concept>
+  <concept>
+    <code value="I10"/>
+    <display value="RQA/RPA - Request for resubmission of an authorization"/>
+    <definition value="RQA/RPA - Request for resubmission of an authorization"/>
+  </concept>
+  <concept>
+    <code value="I11"/>
+    <display value="RQA/RPA - Request for cancellation of an authorization"/>
+    <definition value="RQA/RPA - Request for cancellation of an authorization"/>
+  </concept>
+  <concept>
+    <code value="I12"/>
+    <display value="REF/RRI - Patient referral"/>
+    <definition value="REF/RRI - Patient referral"/>
+  </concept>
+  <concept>
+    <code value="I13"/>
+    <display value="REF/RRI - Modify patient referral"/>
+    <definition value="REF/RRI - Modify patient referral"/>
+  </concept>
+  <concept>
+    <code value="I14"/>
+    <display value="REF/RRI - Cancel patient referral"/>
+    <definition value="REF/RRI - Cancel patient referral"/>
+  </concept>
+  <concept>
+    <code value="I15"/>
+    <display value="REF/RRI - Request patient referral status"/>
+    <definition value="REF/RRI - Request patient referral status"/>
+  </concept>
+  <concept>
+    <code value="I16"/>
+    <display value="Collaborative Care Referral"/>
+    <definition value="Collaborative Care Referral"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="I17"/>
+    <display value="Modify Collaborative Care Referral"/>
+    <definition value="Modify Collaborative Care Referral"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="I18"/>
+    <display value="Cancel Collaborative Care Referral"/>
+    <definition value="Cancel Collaborative Care Referral"/>
+  </concept>
+  <concept>
+    <code value="I19"/>
+    <display value="Collaborative Care Query/Collaborative Care Query Update"/>
+    <definition value="Collaborative Care Query/Collaborative Care Query Update"/>
+  </concept>
+  <concept>
+    <code value="I20"/>
+    <display value="Asynchronous Collaborative Care Update"/>
+    <definition value="Asynchronous Collaborative Care Update"/>
+  </concept>
+  <concept>
+    <code value="I21"/>
+    <display value="Collaborative Care Message"/>
+    <definition value="Collaborative Care Message"/>
+  </concept>
+  <concept>
+    <code value="I22"/>
+    <display value="Collaborative Care Fetch / Collaborative Care Information"/>
+    <definition value="Collaborative Care Fetch / Collaborative Care Information"/>
+  </concept>
+  <concept>
+    <code value="J01"/>
+    <display value="QCN/ACK - Cancel query/acknowledge message"/>
+    <definition value="QCN/ACK - Cancel query/acknowledge message"/>
+  </concept>
+  <concept>
+    <code value="J02"/>
+    <display value="QSX/ACK - Cancel subscription/acknowledge message"/>
+    <definition value="QSX/ACK - Cancel subscription/acknowledge message"/>
+  </concept>
+  <concept>
+    <code value="K11"/>
+    <display value="RSP - Segment pattern response in response to QBP^Q11"/>
+    <definition value="RSP - Segment pattern response in response to QBP^Q11"/>
+  </concept>
+  <concept>
+    <code value="K13"/>
+    <display value="RTB - Tabular response in response to QBP^Q13"/>
+    <definition value="RTB - Tabular response in response to QBP^Q13"/>
+  </concept>
+  <concept>
+    <code value="K15"/>
+    <display value="RDY - Display response in response to QBP^Q15"/>
+    <definition value="RDY - Display response in response to QBP^Q15"/>
+  </concept>
+  <concept>
+    <code value="K21"/>
+    <display value="RSP - Get person demographics response"/>
+    <definition value="RSP - Get person demographics response"/>
+  </concept>
+  <concept>
+    <code value="K22"/>
+    <display value="RSP - Find candidates response"/>
+    <definition value="RSP - Find candidates response"/>
+  </concept>
+  <concept>
+    <code value="K23"/>
+    <display value="RSP - Get corresponding identifiers response"/>
+    <definition value="RSP - Get corresponding identifiers response"/>
+  </concept>
+  <concept>
+    <code value="K24"/>
+    <display value="RSP - Allocate identifiers response"/>
+    <definition value="RSP - Allocate identifiers response"/>
+  </concept>
+  <concept>
+    <code value="K25"/>
+    <display value="RSP - Personnel Information by Segment Response"/>
+    <definition value="RSP - Personnel Information by Segment Response"/>
+  </concept>
+  <concept>
+    <code value="K31"/>
+    <display value="RSP -Dispense History Response"/>
+    <definition value="RSP -Dispense History Response"/>
+  </concept>
+  <concept>
+    <code value="K32"/>
+    <display value="Find Candidates including Visit Information Response"/>
+    <definition value="Find Candidates including Visit Information Response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="M01"/>
+    <display value="MFN/MFK - Master file not otherwise specified"/>
+    <definition value="MFN/MFK - Master file not otherwise specified"/>
+  </concept>
+  <concept>
+    <code value="M02"/>
+    <display value="MFN/MFK - Master file - staff practitioner"/>
+    <definition value="MFN/MFK - Master file - staff practitioner"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="M03"/>
+    <display value="MFN/MFK - Master file - test/observation"/>
+    <definition value="MFN/MFK - Master file - test/observation"/>
+  </concept>
+  <concept>
+    <code value="M04"/>
+    <display value="MFN/MFK - Master files charge description"/>
+    <definition value="MFN/MFK - Master files charge description"/>
+  </concept>
+  <concept>
+    <code value="M05"/>
+    <display value="MFN/MFK - Patient location master file"/>
+    <definition value="MFN/MFK - Patient location master file"/>
+  </concept>
+  <concept>
+    <code value="M06"/>
+    <display value="MFN/MFK - Clinical study with phases and schedules master file"/>
+    <definition value="MFN/MFK - Clinical study with phases and schedules master file"/>
+  </concept>
+  <concept>
+    <code value="M07"/>
+    <display value="MFN/MFK - Clinical study without phases but with schedules master file"/>
+    <definition value="MFN/MFK - Clinical study without phases but with schedules master file"/>
+  </concept>
+  <concept>
+    <code value="M08"/>
+    <display value="MFN/MFK - Test/observation (numeric) master file"/>
+    <definition value="MFN/MFK - Test/observation (numeric) master file"/>
+  </concept>
+  <concept>
+    <code value="M09"/>
+    <display value="MFN/MFK - Test/observation (categorical) master file"/>
+    <definition value="MFN/MFK - Test/observation (categorical) master file"/>
+  </concept>
+  <concept>
+    <code value="M10"/>
+    <display value="MFN/MFK - Test /observation batteries master file"/>
+    <definition value="MFN/MFK - Test /observation batteries master file"/>
+  </concept>
+  <concept>
+    <code value="M11"/>
+    <display value="MFN/MFK - Test/calculated observations master file"/>
+    <definition value="MFN/MFK - Test/calculated observations master file"/>
+  </concept>
+  <concept>
+    <code value="M12"/>
+    <display value="MFN/MFK - Master file notification message"/>
+    <definition value="MFN/MFK - Master file notification message"/>
+  </concept>
+  <concept>
+    <code value="M13"/>
+    <display value="MFN/MFK - Master file notification - general"/>
+    <definition value="MFN/MFK - Master file notification - general"/>
+  </concept>
+  <concept>
+    <code value="M14"/>
+    <display value="MFN/MFK - Master file notification - site defined"/>
+    <definition value="MFN/MFK - Master file notification - site defined"/>
+  </concept>
+  <concept>
+    <code value="M15"/>
+    <display value="MFN/MFK - Inventory item master file notification"/>
+    <definition value="MFN/MFK - Inventory item master file notification"/>
+  </concept>
+  <concept>
+    <code value="M16"/>
+    <display value="MFN/MFK - Master File Notification Inventory Item Enhanced"/>
+    <definition value="MFN/MFK - Master File Notification Inventory Item Enhanced"/>
+  </concept>
+  <concept>
+    <code value="M17"/>
+    <display value="DRG Master File Message"/>
+    <definition value="DRG Master File Message"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="N01"/>
+    <display value="NMQ/NMR - Application management query message"/>
+    <definition value="NMQ/NMR - Application management query message"/>
+  </concept>
+  <concept>
+    <code value="N02"/>
+    <display value="NMD/ACK - Application management data message (unsolicited)"/>
+    <definition value="NMD/ACK - Application management data message (unsolicited)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="O01"/>
+    <display value="ORM - Order message (also RDE, RDS, RGV, RAS)"/>
+    <definition value="ORM - Order message (also RDE, RDS, RGV, RAS)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="O02"/>
+    <display value="ORR - Order response (also RRE, RRD, RRG, RRA)"/>
+    <definition value="ORR - Order response (also RRE, RRD, RRG, RRA)"/>
+  </concept>
+  <concept>
+    <code value="O03"/>
+    <display value="OMD - Diet order"/>
+    <definition value="OMD - Diet order"/>
+  </concept>
+  <concept>
+    <code value="O04"/>
+    <display value="ORD - Diet order acknowledgment"/>
+    <definition value="ORD - Diet order acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O05"/>
+    <display value="OMS - Stock requisition order"/>
+    <definition value="OMS - Stock requisition order"/>
+  </concept>
+  <concept>
+    <code value="O06"/>
+    <display value="ORS - Stock requisition acknowledgment"/>
+    <definition value="ORS - Stock requisition acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O07"/>
+    <display value="OMN - Non-stock requisition order"/>
+    <definition value="OMN - Non-stock requisition order"/>
+  </concept>
+  <concept>
+    <code value="O08"/>
+    <display value="ORN - Non-stock requisition acknowledgment"/>
+    <definition value="ORN - Non-stock requisition acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O09"/>
+    <display value="OMP - Pharmacy/treatment order"/>
+    <definition value="OMP - Pharmacy/treatment order"/>
+  </concept>
+  <concept>
+    <code value="O10"/>
+    <display value="ORP - Pharmacy/treatment order acknowledgment"/>
+    <definition value="ORP - Pharmacy/treatment order acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O11"/>
+    <display value="RDE - Pharmacy/treatment encoded order"/>
+    <definition value="RDE - Pharmacy/treatment encoded order"/>
+  </concept>
+  <concept>
+    <code value="O12"/>
+    <display value="RRE - Pharmacy/treatment encoded order acknowledgment"/>
+    <definition value="RRE - Pharmacy/treatment encoded order acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O13"/>
+    <display value="RDS - Pharmacy/treatment dispense"/>
+    <definition value="RDS - Pharmacy/treatment dispense"/>
+  </concept>
+  <concept>
+    <code value="O14"/>
+    <display value="RRD - Pharmacy/treatment dispense acknowledgment"/>
+    <definition value="RRD - Pharmacy/treatment dispense acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O15"/>
+    <display value="RGV - Pharmacy/treatment give"/>
+    <definition value="RGV - Pharmacy/treatment give"/>
+  </concept>
+  <concept>
+    <code value="O16"/>
+    <display value="RRG - Pharmacy/treatment give acknowledgment"/>
+    <definition value="RRG - Pharmacy/treatment give acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O17"/>
+    <display value="RAS - Pharmacy/treatment administration"/>
+    <definition value="RAS - Pharmacy/treatment administration"/>
+  </concept>
+  <concept>
+    <code value="O18"/>
+    <display value="RRA - Pharmacy/treatment administration acknowledgment"/>
+    <definition value="RRA - Pharmacy/treatment administration acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O19"/>
+    <display value="OMG - General clinical order"/>
+    <definition value="OMG - General clinical order"/>
+  </concept>
+  <concept>
+    <code value="O20"/>
+    <display value="ORG/ORL - General clinical order response"/>
+    <definition value="ORG/ORL - General clinical order response"/>
+  </concept>
+  <concept>
+    <code value="O21"/>
+    <display value="OML - Laboratory order"/>
+    <definition value="OML - Laboratory order"/>
+  </concept>
+  <concept>
+    <code value="O22"/>
+    <display value="ORL - General laboratory order response message to any OML"/>
+    <definition value="ORL - General laboratory order response message to any OML"/>
+  </concept>
+  <concept>
+    <code value="O23"/>
+    <display value="OMI - Imaging order"/>
+    <definition value="OMI - Imaging order"/>
+  </concept>
+  <concept>
+    <code value="O24"/>
+    <display value="ORI - Imaging order response message to any OMI"/>
+    <definition value="ORI - Imaging order response message to any OMI"/>
+  </concept>
+  <concept>
+    <code value="O25"/>
+    <display value="RDE - Pharmacy/treatment refill authorization request"/>
+    <definition value="RDE - Pharmacy/treatment refill authorization request"/>
+  </concept>
+  <concept>
+    <code value="O26"/>
+    <display value="RRE - Pharmacy/Treatment Refill Authorization Acknowledgement"/>
+    <definition value="RRE - Pharmacy/Treatment Refill Authorization Acknowledgement"/>
+  </concept>
+  <concept>
+    <code value="O27"/>
+    <display value="OMB - Blood product order"/>
+    <definition value="OMB - Blood product order"/>
+  </concept>
+  <concept>
+    <code value="O28"/>
+    <display value="ORB - Blood product order acknowledgment"/>
+    <definition value="ORB - Blood product order acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O29"/>
+    <display value="BPS - Blood product dispense status"/>
+    <definition value="BPS - Blood product dispense status"/>
+  </concept>
+  <concept>
+    <code value="O30"/>
+    <display value="BRP - Blood product dispense status acknowledgment"/>
+    <definition value="BRP - Blood product dispense status acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O31"/>
+    <display value="BTS - Blood product transfusion/disposition"/>
+    <definition value="BTS - Blood product transfusion/disposition"/>
+  </concept>
+  <concept>
+    <code value="O32"/>
+    <display value="BRT - Blood product transfusion/disposition acknowledgment"/>
+    <definition value="BRT - Blood product transfusion/disposition acknowledgment"/>
+  </concept>
+  <concept>
+    <code value="O33"/>
+    <display value="OML - Laboratory order for multiple orders related to a single specimen"/>
+    <definition value="OML - Laboratory order for multiple orders related to a single specimen"/>
+  </concept>
+  <concept>
+    <code value="O34"/>
+    <display value="ORL - Laboratory order response message to a multiple order related to single specimen OML"/>
+    <definition value="ORL - Laboratory order response message to a multiple order related to single specimen OML"/>
+  </concept>
+  <concept>
+    <code value="O35"/>
+    <display value="OML - Laboratory order for multiple orders related to a single container of a specimen"/>
+    <definition value="OML - Laboratory order for multiple orders related to a single container of a specimen"/>
+  </concept>
+  <concept>
+    <code value="O36"/>
+    <display value="ORL - Laboratory order response message to a single container of a specimen OML"/>
+    <definition value="ORL - Laboratory order response message to a single container of a specimen OML"/>
+  </concept>
+  <concept>
+    <code value="O37"/>
+    <display value="OPL - Population/Location-Based Laboratory Order Message"/>
+    <definition value="OPL - Population/Location-Based Laboratory Order Message"/>
+  </concept>
+  <concept>
+    <code value="O38"/>
+    <display value="OPR - Population/Location-Based Laboratory Order Acknowledgment Message"/>
+    <definition value="OPR - Population/Location-Based Laboratory Order Acknowledgment Message"/>
+  </concept>
+  <concept>
+    <code value="O39"/>
+    <display value="Specimen shipment centric laboratory order"/>
+    <definition value="Specimen shipment centric laboratory order"/>
+  </concept>
+  <concept>
+    <code value="O40"/>
+    <display value="Specimen Shipment Centric Laboratory Order Acknowledgment Message"/>
+    <definition value="Specimen Shipment Centric Laboratory Order Acknowledgment Message"/>
+  </concept>
+  <concept>
+    <code value="P01"/>
+    <display value="BAR/ACK - Add patient accounts"/>
+    <definition value="BAR/ACK - Add patient accounts"/>
+  </concept>
+  <concept>
+    <code value="P02"/>
+    <display value="BAR/ACK - Purge patient accounts"/>
+    <definition value="BAR/ACK - Purge patient accounts"/>
+  </concept>
+  <concept>
+    <code value="P03"/>
+    <display value="DFT/ACK - Post detail financial transaction"/>
+    <definition value="DFT/ACK - Post detail financial transaction"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="P04"/>
+    <display value="QRY/DSP - Generate bill and A/R statements"/>
+    <definition value="QRY/DSP - Generate bill and A/R statements"/>
+  </concept>
+  <concept>
+    <code value="P05"/>
+    <display value="BAR/ACK - Update account"/>
+    <definition value="BAR/ACK - Update account"/>
+  </concept>
+  <concept>
+    <code value="P06"/>
+    <display value="BAR/ACK - End account"/>
+    <definition value="BAR/ACK - End account"/>
+  </concept>
+  <concept>
+    <code value="P07"/>
+    <display value="PEX - Unsolicited initial individual product experience report"/>
+    <definition value="PEX - Unsolicited initial individual product experience report"/>
+  </concept>
+  <concept>
+    <code value="P08"/>
+    <display value="PEX - Unsolicited update individual product experience report"/>
+    <definition value="PEX - Unsolicited update individual product experience report"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="P09"/>
+    <display value="SUR - Summary product experience report"/>
+    <definition value="SUR - Summary product experience report"/>
+  </concept>
+  <concept>
+    <code value="P10"/>
+    <display value="BAR/ACK -Transmit Ambulatory Payment  Classification(APC)"/>
+    <definition value="BAR/ACK -Transmit Ambulatory Payment  Classification(APC)"/>
+  </concept>
+  <concept>
+    <code value="P11"/>
+    <display value="DFT/ACK - Post Detail Financial Transactions - New"/>
+    <definition value="DFT/ACK - Post Detail Financial Transactions - New"/>
+  </concept>
+  <concept>
+    <code value="P12"/>
+    <display value="BAR/ACK - Update Diagnosis/Procedure"/>
+    <definition value="BAR/ACK - Update Diagnosis/Procedure"/>
+  </concept>
+  <concept>
+    <code value="PC1"/>
+    <display value="PPR - PC/ problem add"/>
+    <definition value="PPR - PC/ problem add"/>
+  </concept>
+  <concept>
+    <code value="PC2"/>
+    <display value="PPR - PC/ problem update"/>
+    <definition value="PPR - PC/ problem update"/>
+  </concept>
+  <concept>
+    <code value="PC3"/>
+    <display value="PPR - PC/ problem delete"/>
+    <definition value="PPR - PC/ problem delete"/>
+  </concept>
+  <concept>
+    <code value="PC4"/>
+    <display value="QRY - PC/ problem query"/>
+    <definition value="QRY - PC/ problem query"/>
+  </concept>
+  <concept>
+    <code value="PC5"/>
+    <display value="PRR - PC/ problem response"/>
+    <definition value="PRR - PC/ problem response"/>
+  </concept>
+  <concept>
+    <code value="PC6"/>
+    <display value="PGL - PC/ goal add"/>
+    <definition value="PGL - PC/ goal add"/>
+  </concept>
+  <concept>
+    <code value="PC7"/>
+    <display value="PGL - PC/ goal update"/>
+    <definition value="PGL - PC/ goal update"/>
+  </concept>
+  <concept>
+    <code value="PC8"/>
+    <display value="PGL - PC/ goal delete"/>
+    <definition value="PGL - PC/ goal delete"/>
+  </concept>
+  <concept>
+    <code value="PC9"/>
+    <display value="QRY - PC/ goal query"/>
+    <definition value="QRY - PC/ goal query"/>
+  </concept>
+  <concept>
+    <code value="PCA"/>
+    <display value="PPV - PC/ goal response"/>
+    <definition value="PPV - PC/ goal response"/>
+  </concept>
+  <concept>
+    <code value="PCB"/>
+    <display value="PPP - PC/ pathway (problem-oriented) add"/>
+    <definition value="PPP - PC/ pathway (problem-oriented) add"/>
+  </concept>
+  <concept>
+    <code value="PCC"/>
+    <display value="PPP - PC/ pathway (problem-oriented) update"/>
+    <definition value="PPP - PC/ pathway (problem-oriented) update"/>
+  </concept>
+  <concept>
+    <code value="PCD"/>
+    <display value="PPP - PC/ pathway (problem-oriented) delete"/>
+    <definition value="PPP - PC/ pathway (problem-oriented) delete"/>
+  </concept>
+  <concept>
+    <code value="PCE"/>
+    <display value="QRY - PC/ pathway (problem-oriented) query"/>
+    <definition value="QRY - PC/ pathway (problem-oriented) query"/>
+  </concept>
+  <concept>
+    <code value="PCF"/>
+    <display value="PTR - PC/ pathway (problem-oriented) query response"/>
+    <definition value="PTR - PC/ pathway (problem-oriented) query response"/>
+  </concept>
+  <concept>
+    <code value="PCG"/>
+    <display value="PPG - PC/ pathway (goal-oriented) add"/>
+    <definition value="PPG - PC/ pathway (goal-oriented) add"/>
+  </concept>
+  <concept>
+    <code value="PCH"/>
+    <display value="PPG - PC/ pathway (goal-oriented) update"/>
+    <definition value="PPG - PC/ pathway (goal-oriented) update"/>
+  </concept>
+  <concept>
+    <code value="PCJ"/>
+    <display value="PPG - PC/ pathway (goal-oriented) delete"/>
+    <definition value="PPG - PC/ pathway (goal-oriented) delete"/>
+  </concept>
+  <concept>
+    <code value="PCK"/>
+    <display value="QRY - PC/ pathway (goal-oriented) query"/>
+    <definition value="QRY - PC/ pathway (goal-oriented) query"/>
+  </concept>
+  <concept>
+    <code value="PCL"/>
+    <display value="PPT - PC/ pathway (goal-oriented) query response"/>
+    <definition value="PPT - PC/ pathway (goal-oriented) query response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q01"/>
+    <display value="QRY/DSR - Query sent for immediate response"/>
+    <definition value="QRY/DSR - Query sent for immediate response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q02"/>
+    <display value="QRY/QCK - Query sent for deferred response"/>
+    <definition value="QRY/QCK - Query sent for deferred response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q03"/>
+    <display value="DSR/ACK - Deferred response to a query"/>
+    <definition value="DSR/ACK - Deferred response to a query"/>
+  </concept>
+  <concept>
+    <code value="Q05"/>
+    <display value="UDM/ACK - Unsolicited display update message"/>
+    <definition value="UDM/ACK - Unsolicited display update message"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q06"/>
+    <display value="OSQ/OSR - Query for order status"/>
+    <definition value="OSQ/OSR - Query for order status"/>
+  </concept>
+  <concept>
+    <code value="Q11"/>
+    <display value="QBP - Query by parameter requesting an RSP segment pattern response"/>
+    <definition value="QBP - Query by parameter requesting an RSP segment pattern response"/>
+  </concept>
+  <concept>
+    <code value="Q13"/>
+    <display value="QBP - Query by parameter requesting an  RTB - tabular response"/>
+    <definition value="QBP - Query by parameter requesting an  RTB - tabular response"/>
+  </concept>
+  <concept>
+    <code value="Q15"/>
+    <display value="QBP - Query by parameter requesting an RDY display response"/>
+    <definition value="QBP - Query by parameter requesting an RDY display response"/>
+  </concept>
+  <concept>
+    <code value="Q16"/>
+    <display value="QSB - Create subscription"/>
+    <definition value="QSB - Create subscription"/>
+  </concept>
+  <concept>
+    <code value="Q17"/>
+    <display value="QVR - Query for previous events"/>
+    <definition value="QVR - Query for previous events"/>
+  </concept>
+  <concept>
+    <code value="Q21"/>
+    <display value="QBP - Get person demographics"/>
+    <definition value="QBP - Get person demographics"/>
+  </concept>
+  <concept>
+    <code value="Q22"/>
+    <display value="QBP - Find candidates"/>
+    <definition value="QBP - Find candidates"/>
+  </concept>
+  <concept>
+    <code value="Q23"/>
+    <display value="QBP - Get corresponding identifiers"/>
+    <definition value="QBP - Get corresponding identifiers"/>
+  </concept>
+  <concept>
+    <code value="Q24"/>
+    <display value="QBP - Allocate identifiers"/>
+    <definition value="QBP - Allocate identifiers"/>
+  </concept>
+  <concept>
+    <code value="Q25"/>
+    <display value="QBP - Personnel Information by Segment Query"/>
+    <definition value="QBP - Personnel Information by Segment Query"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q26"/>
+    <display value="ROR - Pharmacy/treatment order response"/>
+    <definition value="ROR - Pharmacy/treatment order response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q27"/>
+    <display value="RAR - Pharmacy/treatment administration information"/>
+    <definition value="RAR - Pharmacy/treatment administration information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q28"/>
+    <display value="RDR - Pharmacy/treatment dispense information"/>
+    <definition value="RDR - Pharmacy/treatment dispense information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q29"/>
+    <display value="RER - Pharmacy/treatment encoded order information"/>
+    <definition value="RER - Pharmacy/treatment encoded order information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="Q30"/>
+    <display value="RGR - Pharmacy/treatment dose information"/>
+    <definition value="RGR - Pharmacy/treatment dose information"/>
+  </concept>
+  <concept>
+    <code value="Q31"/>
+    <display value="QBP Query Dispense history"/>
+    <definition value="QBP Query Dispense history"/>
+  </concept>
+  <concept>
+    <code value="Q32"/>
+    <display value="Find Candidates including Visit Information"/>
+    <definition value="Find Candidates including Visit Information"/>
+  </concept>
+  <concept>
+    <code value="R01"/>
+    <display value="ORU/ACK - Unsolicited transmission of an observation message"/>
+    <definition value="ORU/ACK - Unsolicited transmission of an observation message"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="R02"/>
+    <display value="QRY - Query for results of observation"/>
+    <definition value="QRY - Query for results of observation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="R04"/>
+    <display value="ORF - Response to query; transmission of requested observation"/>
+    <definition value="ORF - Response to query; transmission of requested observation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="ROR"/>
+    <display value="ROR - Pharmacy prescription order query response"/>
+    <definition value="ROR - Pharmacy prescription order query response"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="R21"/>
+    <display value="OUL - Unsolicited laboratory observation"/>
+    <definition value="OUL - Unsolicited laboratory observation"/>
+  </concept>
+  <concept>
+    <code value="R22"/>
+    <display value="OUL - Unsolicited Specimen Oriented Observation Message"/>
+    <definition value="OUL - Unsolicited Specimen Oriented Observation Message"/>
+  </concept>
+  <concept>
+    <code value="R23"/>
+    <display value="OUL - Unsolicited Specimen Container Oriented Observation Message"/>
+    <definition value="OUL - Unsolicited Specimen Container Oriented Observation Message"/>
+  </concept>
+  <concept>
+    <code value="R24"/>
+    <display value="OUL - Unsolicited Order Oriented Observation Message"/>
+    <definition value="OUL - Unsolicited Order Oriented Observation Message"/>
+  </concept>
+  <concept>
+    <code value="R25"/>
+    <display value="OPU - Unsolicited Population/Location-Based Laboratory Observation Message"/>
+    <definition value="OPU - Unsolicited Population/Location-Based Laboratory Observation Message"/>
+  </concept>
+  <concept>
+    <code value="R26"/>
+    <display value="OSM - Unsolicited Specimen Shipment Manifest Message"/>
+    <definition value="OSM - Unsolicited Specimen Shipment Manifest Message"/>
+  </concept>
+  <concept>
+    <code value="R30"/>
+    <display value="ORU - Unsolicited Point-Of-Care Observation Message Without Existing Order - Place An Order"/>
+    <definition value="ORU - Unsolicited Point-Of-Care Observation Message Without Existing Order - Place An Order"/>
+  </concept>
+  <concept>
+    <code value="R31"/>
+    <display value="ORU - Unsolicited New Point-Of-Care Observation Message - Search For An Order"/>
+    <definition value="ORU - Unsolicited New Point-Of-Care Observation Message - Search For An Order"/>
+  </concept>
+  <concept>
+    <code value="R32"/>
+    <display value="ORU - Unsolicited Pre-Ordered Point-Of-Care Observation"/>
+    <definition value="ORU - Unsolicited Pre-Ordered Point-Of-Care Observation"/>
+  </concept>
+  <concept>
+    <code value="R33"/>
+    <display value="ORA - Observation Report Acknowledgement"/>
+    <definition value="ORA - Observation Report Acknowledgement"/>
+  </concept>
+  <concept>
+    <code value="S01"/>
+    <display value="SRM/SRR - Request new appointment booking"/>
+    <definition value="SRM/SRR - Request new appointment booking"/>
+  </concept>
+  <concept>
+    <code value="S02"/>
+    <display value="SRM/SRR - Request appointment rescheduling"/>
+    <definition value="SRM/SRR - Request appointment rescheduling"/>
+  </concept>
+  <concept>
+    <code value="S03"/>
+    <display value="SRM/SRR - Request appointment modification"/>
+    <definition value="SRM/SRR - Request appointment modification"/>
+  </concept>
+  <concept>
+    <code value="S04"/>
+    <display value="SRM/SRR - Request appointment cancellation"/>
+    <definition value="SRM/SRR - Request appointment cancellation"/>
+  </concept>
+  <concept>
+    <code value="S05"/>
+    <display value="SRM/SRR - Request appointment discontinuation"/>
+    <definition value="SRM/SRR - Request appointment discontinuation"/>
+  </concept>
+  <concept>
+    <code value="S06"/>
+    <display value="SRM/SRR - Request appointment deletion"/>
+    <definition value="SRM/SRR - Request appointment deletion"/>
+  </concept>
+  <concept>
+    <code value="S07"/>
+    <display value="SRM/SRR - Request addition of service/resource on appointment"/>
+    <definition value="SRM/SRR - Request addition of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S08"/>
+    <display value="SRM/SRR - Request modification of service/resource on appointment"/>
+    <definition value="SRM/SRR - Request modification of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S09"/>
+    <display value="SRM/SRR - Request cancellation of service/resource on appointment"/>
+    <definition value="SRM/SRR - Request cancellation of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S10"/>
+    <display value="SRM/SRR - Request discontinuation of service/resource on appointment"/>
+    <definition value="SRM/SRR - Request discontinuation of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S11"/>
+    <display value="SRM/SRR - Request deletion of service/resource on appointment"/>
+    <definition value="SRM/SRR - Request deletion of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S12"/>
+    <display value="SIU/ACK - Notification of new appointment booking"/>
+    <definition value="SIU/ACK - Notification of new appointment booking"/>
+  </concept>
+  <concept>
+    <code value="S13"/>
+    <display value="SIU/ACK - Notification of appointment rescheduling"/>
+    <definition value="SIU/ACK - Notification of appointment rescheduling"/>
+  </concept>
+  <concept>
+    <code value="S14"/>
+    <display value="SIU/ACK - Notification of appointment modification"/>
+    <definition value="SIU/ACK - Notification of appointment modification"/>
+  </concept>
+  <concept>
+    <code value="S15"/>
+    <display value="SIU/ACK - Notification of appointment cancellation"/>
+    <definition value="SIU/ACK - Notification of appointment cancellation"/>
+  </concept>
+  <concept>
+    <code value="S16"/>
+    <display value="SIU/ACK - Notification of appointment discontinuation"/>
+    <definition value="SIU/ACK - Notification of appointment discontinuation"/>
+  </concept>
+  <concept>
+    <code value="S17"/>
+    <display value="SIU/ACK - Notification of appointment deletion"/>
+    <definition value="SIU/ACK - Notification of appointment deletion"/>
+  </concept>
+  <concept>
+    <code value="S18"/>
+    <display value="SIU/ACK - Notification of addition of service/resource on appointment"/>
+    <definition value="SIU/ACK - Notification of addition of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S19"/>
+    <display value="SIU/ACK - Notification of modification of service/resource on appointment"/>
+    <definition value="SIU/ACK - Notification of modification of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S20"/>
+    <display value="SIU/ACK - Notification of cancellation of service/resource on appointment"/>
+    <definition value="SIU/ACK - Notification of cancellation of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S21"/>
+    <display value="SIU/ACK - Notification of discontinuation of service/resource on appointment"/>
+    <definition value="SIU/ACK - Notification of discontinuation of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S22"/>
+    <display value="SIU/ACK - Notification of deletion of service/resource on appointment"/>
+    <definition value="SIU/ACK - Notification of deletion of service/resource on appointment"/>
+  </concept>
+  <concept>
+    <code value="S23"/>
+    <display value="SIU/ACK - Notification of blocked schedule time slot(s)"/>
+    <definition value="SIU/ACK - Notification of blocked schedule time slot(s)"/>
+  </concept>
+  <concept>
+    <code value="S24"/>
+    <display value="SIU/ACK - Notification of opened (&quot;unblocked&quot;) schedule time slot(s)"/>
+    <definition value="SIU/ACK - Notification of opened (&quot;unblocked&quot;) schedule time slot(s)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="S25"/>
+    <display value="SQM/SQR - Schedule query message and response"/>
+    <definition value="SQM/SQR - Schedule query message and response"/>
+  </concept>
+  <concept>
+    <code value="S26"/>
+    <display value="SIU/ACK Notification that patient did not show up for schedule appointment"/>
+    <definition value="SIU/ACK Notification that patient did not show up for schedule appointment"/>
+  </concept>
+  <concept>
+    <code value="S27"/>
+    <display value="SIU/ACK - Broadcast Notification of Scheduled Appointments"/>
+    <definition value="SIU/ACK - Broadcast Notification of Scheduled Appointments"/>
+  </concept>
+  <concept>
+    <code value="S28"/>
+    <display value="SLR/SLS - Request new sterilization lot"/>
+    <definition value="SLR/SLS - Request new sterilization lot"/>
+  </concept>
+  <concept>
+    <code value="S29"/>
+    <display value="SLR/SLS - Request Sterilization lot deletion"/>
+    <definition value="SLR/SLS - Request Sterilization lot deletion"/>
+  </concept>
+  <concept>
+    <code value="S30"/>
+    <display value="STI/STS - Request item"/>
+    <definition value="STI/STS - Request item"/>
+  </concept>
+  <concept>
+    <code value="S31"/>
+    <display value="SDR/SDS - Request anti-microbial device data"/>
+    <definition value="SDR/SDS - Request anti-microbial device data"/>
+  </concept>
+  <concept>
+    <code value="S32"/>
+    <display value="SMD/SMS - Request anti-microbial device cycle data"/>
+    <definition value="SMD/SMS - Request anti-microbial device cycle data"/>
+  </concept>
+  <concept>
+    <code value="S33"/>
+    <display value="STC/ACK - Notification of sterilization configuration"/>
+    <definition value="STC/ACK - Notification of sterilization configuration"/>
+  </concept>
+  <concept>
+    <code value="S34"/>
+    <display value="SLN/ACK - Notification of sterilization lot"/>
+    <definition value="SLN/ACK - Notification of sterilization lot"/>
+  </concept>
+  <concept>
+    <code value="S35"/>
+    <display value="SLN/ACK - Notification of sterilization lot deletion"/>
+    <definition value="SLN/ACK - Notification of sterilization lot deletion"/>
+  </concept>
+  <concept>
+    <code value="S36"/>
+    <display value="SDN/ACK - Notification of anti-microbial device data"/>
+    <definition value="SDN/ACK - Notification of anti-microbial device data"/>
+  </concept>
+  <concept>
+    <code value="S37"/>
+    <display value="SCN/ACK - Notification of anti-microbial device cycle data"/>
+    <definition value="SCN/ACK - Notification of anti-microbial device cycle data"/>
+  </concept>
+  <concept>
+    <code value="T01"/>
+    <display value="MDM/ACK - Original document notification"/>
+    <definition value="MDM/ACK - Original document notification"/>
+  </concept>
+  <concept>
+    <code value="T02"/>
+    <display value="MDM/ACK - Original document notification and content"/>
+    <definition value="MDM/ACK - Original document notification and content"/>
+  </concept>
+  <concept>
+    <code value="T03"/>
+    <display value="MDM/ACK - Document status change notification"/>
+    <definition value="MDM/ACK - Document status change notification"/>
+  </concept>
+  <concept>
+    <code value="T04"/>
+    <display value="MDM/ACK - Document status change notification and content"/>
+    <definition value="MDM/ACK - Document status change notification and content"/>
+  </concept>
+  <concept>
+    <code value="T05"/>
+    <display value="MDM/ACK - Document addendum notification"/>
+    <definition value="MDM/ACK - Document addendum notification"/>
+  </concept>
+  <concept>
+    <code value="T06"/>
+    <display value="MDM/ACK - Document addendum notification and content"/>
+    <definition value="MDM/ACK - Document addendum notification and content"/>
+  </concept>
+  <concept>
+    <code value="T07"/>
+    <display value="MDM/ACK - Document edit notification"/>
+    <definition value="MDM/ACK - Document edit notification"/>
+  </concept>
+  <concept>
+    <code value="T08"/>
+    <display value="MDM/ACK - Document edit notification and content"/>
+    <definition value="MDM/ACK - Document edit notification and content"/>
+  </concept>
+  <concept>
+    <code value="T09"/>
+    <display value="MDM/ACK - Document replacement notification"/>
+    <definition value="MDM/ACK - Document replacement notification"/>
+  </concept>
+  <concept>
+    <code value="T10"/>
+    <display value="MDM/ACK - Document replacement notification and content"/>
+    <definition value="MDM/ACK - Document replacement notification and content"/>
+  </concept>
+  <concept>
+    <code value="T11"/>
+    <display value="MDM/ACK - Document cancel notification"/>
+    <definition value="MDM/ACK - Document cancel notification"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="T12"/>
+    <display value="QRY/DOC - Document query"/>
+    <definition value="QRY/DOC - Document query"/>
+  </concept>
+  <concept>
+    <code value="U01"/>
+    <display value="ESU/ACK - Automated equipment status update"/>
+    <definition value="ESU/ACK - Automated equipment status update"/>
+  </concept>
+  <concept>
+    <code value="U02"/>
+    <display value="ESR/ACK - Automated equipment status request"/>
+    <definition value="ESR/ACK - Automated equipment status request"/>
+  </concept>
+  <concept>
+    <code value="U03"/>
+    <display value="SSU/ACK - Specimen status update"/>
+    <definition value="SSU/ACK - Specimen status update"/>
+  </concept>
+  <concept>
+    <code value="U04"/>
+    <display value="SSR/ACK - specimen status request"/>
+    <definition value="SSR/ACK - specimen status request"/>
+  </concept>
+  <concept>
+    <code value="U05"/>
+    <display value="INU/ACK  - Automated equipment inventory update"/>
+    <definition value="INU/ACK  - Automated equipment inventory update"/>
+  </concept>
+  <concept>
+    <code value="U06"/>
+    <display value="INR/ACK - Automated equipment inventory request"/>
+    <definition value="INR/ACK - Automated equipment inventory request"/>
+  </concept>
+  <concept>
+    <code value="U07"/>
+    <display value="EAC/ACK - Automated equipment command"/>
+    <definition value="EAC/ACK - Automated equipment command"/>
+  </concept>
+  <concept>
+    <code value="U08"/>
+    <display value="EAR/ACK - Automated equipment response"/>
+    <definition value="EAR/ACK - Automated equipment response"/>
+  </concept>
+  <concept>
+    <code value="U09"/>
+    <display value="EAN/ACK - Automated equipment notification"/>
+    <definition value="EAN/ACK - Automated equipment notification"/>
+  </concept>
+  <concept>
+    <code value="U10"/>
+    <display value="TCU/ACK - Automated equipment test code settings update"/>
+    <definition value="TCU/ACK - Automated equipment test code settings update"/>
+  </concept>
+  <concept>
+    <code value="U11"/>
+    <display value="TCR/ACK - Automated equipment test code settings request"/>
+    <definition value="TCR/ACK - Automated equipment test code settings request"/>
+  </concept>
+  <concept>
+    <code value="U12"/>
+    <display value="LSU/ACK - Automated equipment log/service update"/>
+    <definition value="LSU/ACK - Automated equipment log/service update"/>
+  </concept>
+  <concept>
+    <code value="U13"/>
+    <display value="LSR/ACK - Automated equipment log/service request"/>
+    <definition value="LSR/ACK - Automated equipment log/service request"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="V01"/>
+    <display value="VXQ - Query for vaccination record"/>
+    <definition value="VXQ - Query for vaccination record"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="V02"/>
+    <display value="VXX - Response to vaccination query returning multiple PID matches"/>
+    <definition value="VXX - Response to vaccination query returning multiple PID matches"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="V03"/>
+    <display value="VXR - Vaccination record response"/>
+    <definition value="VXR - Vaccination record response"/>
+  </concept>
+  <concept>
+    <code value="V04"/>
+    <display value="VXU - Unsolicited vaccination record update"/>
+    <definition value="VXU - Unsolicited vaccination record update"/>
+  </concept>
+  <concept>
+    <code value="Varies"/>
+    <display value="MFQ/MFR - Master files query (use event same as asking for e.g., M05 - location)"/>
+    <definition value="MFQ/MFR - Master files query (use event same as asking for e.g., M05 - location)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="W01"/>
+    <display value="ORU - Waveform result, unsolicited transmission of requested information"/>
+    <definition value="ORU - Waveform result, unsolicited transmission of requested information"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Deprecated"/>
+    </extension>
+    <code value="W02"/>
+    <display value="QRF - Waveform result, response to query"/>
+    <definition value="QRF - Waveform result, response to query"/>
+  </concept>
+</CodeSystem>

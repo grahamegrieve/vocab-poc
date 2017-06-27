@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-OrganizationNameType"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <b>Deprecation Comment:</b> Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.  All of these are maintained under EntityNameType.  This was created in error and should never be used. 
+      </p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="728-20081229"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-OrganizationNameType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1016"/>
+  </identifier>
+  <name value="OrganizationNameType"/>
+  <title value="OrganizationNameType"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  Deprecation Comment:&#xD;&#xA;Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.  All of these are maintained under EntityNameType.  This was created in error and should never be used."/>
+  <content value="complete"/>
+  <concept id="10680">
+    <code value="A"/>
+    <definition value=" An alias, typically a shorter name than the legal name. This is the default."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Alias"/>
+    </designation>
+  </concept>
+  <concept id="10679">
+    <code value="L"/>
+    <definition value=" The full legal name of the organization as used in public records."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Legal"/>
+    </designation>
+  </concept>
+  <concept id="10681">
+    <code value="ST"/>
+    <definition value=" A stock market ticker symbol."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Stock exchange"/>
+    </designation>
+  </concept>
+</CodeSystem>

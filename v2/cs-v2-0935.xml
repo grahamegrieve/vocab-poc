@@ -12,7 +12,7 @@
   <title value="V2 Table: Process Interruption Reason"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:16+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -29,7 +29,7 @@
   <versionNeeded value="false"/>
   <content value="complete"/>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="NRG"/>
@@ -37,7 +37,7 @@
     <definition value="No reason given, donor decided to stop without giving a reason"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="PCD"/>
@@ -45,7 +45,7 @@
     <definition value="Phone Call-Donor"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="DCW"/>
@@ -53,7 +53,7 @@
     <definition value="Couldn&#39;t wait"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="CFT"/>
@@ -61,7 +61,7 @@
     <definition value="Couldn&#39;t follow through with donation (scared)"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="DBB"/>
@@ -69,7 +69,7 @@
     <definition value="Bathroom"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="DNI"/>
@@ -77,7 +77,7 @@
     <definition value="Phlebotomy Issue"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="ASC"/>
@@ -85,7 +85,7 @@
     <definition value="Apheresis Software Crash"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="BSC"/>
@@ -96,7 +96,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="GFE"/>

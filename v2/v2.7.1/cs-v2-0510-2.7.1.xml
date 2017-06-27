@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0510-2.7.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0510-2.7.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.333"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0510v2.7.1"/>
+  <title value="V2 Table: Blood Product Dispense Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0510 (Blood Product Dispense Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0510-2.7.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="RI"/>
+    <display value="Received into inventory (for specified patient)"/>
+    <definition value="Received into inventory (for specified patient)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="RD"/>
+    <display value="Reserved and ready to dispense"/>
+    <definition value="Reserved and ready to dispense"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="RS"/>
+    <display value="Reserved (ordered and product allocated for the patient)"/>
+    <definition value="Reserved (ordered and product allocated for the patient)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Placer or Filler"/>
+    </extension>
+    <code value="RE"/>
+    <display value="Released (no longer allocated for the patient)"/>
+    <definition value="Released (no longer allocated for the patient)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="DS"/>
+    <display value="Dispensed to patient location"/>
+    <definition value="Dispensed to patient location"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="RA"/>
+    <display value="Returned unused/no longer needed"/>
+    <definition value="Returned unused/no longer needed"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="RL"/>
+    <display value="Returned unused/keep linked to patient for possible use later"/>
+    <definition value="Returned unused/keep linked to patient for possible use later"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="WA"/>
+    <display value="Wasted (product no longer viable)"/>
+    <definition value="Wasted (product no longer viable)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="PT"/>
+    <display value="Presumed transfused (dispensed and not returned)"/>
+    <definition value="Presumed transfused (dispensed and not returned)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Filler"/>
+    </extension>
+    <code value="CR"/>
+    <display value="Released into inventory for general availability"/>
+    <definition value="Released into inventory for general availability"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Status determined by Placer"/>
+    </extension>
+    <code value="RQ"/>
+    <display value="Request to dispense blood product"/>
+    <definition value="Request to dispense blood product"/>
+  </concept>
+</CodeSystem>

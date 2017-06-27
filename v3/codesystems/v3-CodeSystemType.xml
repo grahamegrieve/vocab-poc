@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-CodeSystemType"/>
+  <language value="en"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="625-20081219"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-CodeSystemType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1085"/>
+  </identifier>
+  <name value="CodeSystemType"/>
+  <title value="HL7 Code System Type"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="19956">
+    <code value="E"/>
+    <definition value=" Code system is created and maintained by an organization outside of HL7"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="External"/>
+    </designation>
+  </concept>
+  <concept id="19957">
+    <code value="EI"/>
+    <definition value=" Code system is created and updated by an organization outside of HL7, but an internal copy is mainted by HL7 for convenience"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="external-internal"/>
+    </designation>
+  </concept>
+  <concept id="19955">
+    <code value="I"/>
+    <definition value=" Code system is created and maintained by HL7"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Internal"/>
+    </designation>
+  </concept>
+</CodeSystem>

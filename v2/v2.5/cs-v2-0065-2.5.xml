@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0065-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0065-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.25"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0065v2.5"/>
+  <title value="V2 Table: Specimen Action Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0065 (Specimen Action Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0065-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A"/>
+    <display value="Add ordered tests to the existing specimen"/>
+    <definition value="Add ordered tests to the existing specimen"/>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <display value="Generated order; reflex order"/>
+    <definition value="Generated order; reflex order"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Lab to obtain specimen from patient"/>
+    <definition value="Lab to obtain specimen from patient"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Specimen obtained by service other than Lab"/>
+    <definition value="Specimen obtained by service other than Lab"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Pending specimen; Order sent prior to delivery"/>
+    <definition value="Pending specimen; Order sent prior to delivery"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Revised order"/>
+    <definition value="Revised order"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Schedule the tests specified below"/>
+    <definition value="Schedule the tests specified below"/>
+  </concept>
+</CodeSystem>

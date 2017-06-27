@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-HtmlLinkType"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>HtmlLinkType values are drawn from HTML 4.0 and describe the relationship between the current document and the anchor that is the target of the link</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-HtmlLinkType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.58"/>
+  </identifier>
+  <name value="HtmlLinkType"/>
+  <title value="HtmlLinkType"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" HtmlLinkType values are drawn from HTML 4.0 and describe the relationship between the current document and the anchor that is the target of the link"/>
+  <content value="complete"/>
+  <concept id="11018">
+    <code value="alternate"/>
+    <definition value=" Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="alternate"/>
+    </designation>
+  </concept>
+  <concept id="11030">
+    <code value="appendix"/>
+    <definition value=" Refers to a document serving as an appendix in a collection of documents."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="appendix"/>
+    </designation>
+  </concept>
+  <concept id="11032">
+    <code value="bookmark"/>
+    <definition value=" Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="bookmark"/>
+    </designation>
+  </concept>
+  <concept id="11027">
+    <code value="chapter"/>
+    <definition value=" Refers to a document serving as a chapter in a collection of documents."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="chapter"/>
+    </designation>
+  </concept>
+  <concept id="11023">
+    <code value="contents"/>
+    <definition value=" Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from &quot;Table of Contents&quot;)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="contents"/>
+    </designation>
+  </concept>
+  <concept id="11026">
+    <code value="copyright"/>
+    <definition value=" Refers to a copyright statement for the current document."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="copyright"/>
+    </designation>
+  </concept>
+  <concept id="11025">
+    <code value="glossary"/>
+    <definition value=" Refers to a document providing a glossary of terms that pertain to the current document."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="glossary"/>
+    </designation>
+  </concept>
+  <concept id="11031">
+    <code value="help"/>
+    <definition value=" Refers to a document offering help (more information, links to other sources of information, etc.)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="help"/>
+    </designation>
+  </concept>
+  <concept id="11024">
+    <code value="index"/>
+    <definition value=" Refers to a document providing an index for the current document."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="index"/>
+    </designation>
+  </concept>
+  <concept id="11021">
+    <code value="next"/>
+    <definition value=" Refers to the next document in a linear sequence of documents. User agents may choose to preload the &quot;next&quot; document, to reduce the perceived load time."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="next"/>
+    </designation>
+  </concept>
+  <concept id="11022">
+    <code value="prev"/>
+    <definition value=" Refers to the previous document in an ordered series of documents. Some user agents also support the synonym &quot;Previous&quot;."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="prev"/>
+    </designation>
+  </concept>
+  <concept id="11028">
+    <code value="section"/>
+    <definition value=" Refers to a document serving as a section in a collection of documents."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="section"/>
+    </designation>
+  </concept>
+  <concept id="11020">
+    <code value="start"/>
+    <definition value=" Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="start"/>
+    </designation>
+  </concept>
+  <concept id="11019">
+    <code value="stylesheet"/>
+    <definition value=" Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type &quot;Alternate&quot; for user-selectable alternate style sheets."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="stylesheet"/>
+    </designation>
+  </concept>
+  <concept id="11029">
+    <code value="subsection"/>
+    <definition value=" Refers to a document serving as a subsection in a collection of documents."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="subsection"/>
+    </designation>
+  </concept>
+</CodeSystem>

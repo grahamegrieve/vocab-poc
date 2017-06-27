@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-hl7ApprovalStatus"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <b>Description: </b>Codes for concepts describing the approval level of HL7 artifacts.  This code system reflects the concepts expressed in HL7&#39;s Governance &amp; Operations Manual (GOM) past and present.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-hl7ApprovalStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1130"/>
+  </identifier>
+  <name value="hl7ApprovalStatus"/>
+  <title value="HL7ApprovalStatus"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7 International"/>
+  <contact>
+    <name value="Modeling and Methodology Workgroup"/>
+  </contact>
+  <description value="  Description:&#xD;&#xA;Codes for concepts describing the approval level of HL7 artifacts.  This code system reflects the concepts expressed in HL7&#39;s Governance &amp; Operations Manual (GOM) past and present."/>
+  <content value="complete"/>
+  <concept id="23125">
+    <code value="affd"/>
+    <definition value="  Description:&#xD;&#xA;Content that is being presented to an international affiliate for consideration as a realm-specific draft standard for trial use."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="affiliate ballot - DSTU"/>
+    </designation>
+  </concept>
+  <concept id="23126">
+    <code value="affi"/>
+    <definition value="  Description:&#xD;&#xA;Content that is being presented to an international affiliate for consideration as a realm-specific informative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="affiliate ballot - informative"/>
+    </designation>
+  </concept>
+  <concept id="23124">
+    <code value="affn"/>
+    <definition value="  Description:&#xD;&#xA;Content that is being presented to an international affiliate for consideration as a realm-specific normative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="affiliate ballot - normative"/>
+    </designation>
+  </concept>
+  <concept id="23129">
+    <code value="appad"/>
+    <definition value="  Description:&#xD;&#xA;Content that has passed ballot as a realm-specific draft standard for trial use."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="approved affiliate DSTU"/>
+    </designation>
+  </concept>
+  <concept id="23128">
+    <code value="appai"/>
+    <definition value="  Description:&#xD;&#xA;Content that has passed ballot as a realm-specific informative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="approved affiliate informative"/>
+    </designation>
+  </concept>
+  <concept id="23127">
+    <code value="appan"/>
+    <definition value="  Description:&#xD;&#xA;Content that has passed ballot as a realm-specific normative standard"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="approved affiliate normative"/>
+    </designation>
+  </concept>
+  <concept id="23123">
+    <code value="appd"/>
+    <definition value="  Description:&#xD;&#xA;Content that has passed ballot as a draft standard for trial use."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="approved DSTU"/>
+    </designation>
+  </concept>
+  <concept id="23122">
+    <code value="appi"/>
+    <definition value="  Description:&#xD;&#xA;Content that has passed ballot as a normative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="approved informative"/>
+    </designation>
+  </concept>
+  <concept id="23121">
+    <code value="appn"/>
+    <definition value="  Description:&#xD;&#xA;Content that has passed ballot as a normative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="approved normative"/>
+    </designation>
+  </concept>
+  <concept id="23117">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+      <valueString value="1065"/>
+    </extension>
+    <code value="comi"/>
+    <definition value="  Description:&#xD;&#xA;Content prepared by a committee and submitted for internal consideration as an informative standard.   Deprecation Comment&#xD;&#xA;No longer supported as ballot statuses within the HL7 Governance and Operations Manual.  Use normative or informative variants instead."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="committee ballot - informative"/>
+    </designation>
+  </concept>
+  <concept id="23116">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+      <valueString value="1065"/>
+    </extension>
+    <code value="comn"/>
+    <definition value="  Description:&#xD;&#xA;Content prepared by a committee and submitted for internal consideration as an informative standard.   Deprecation Comment&#xD;&#xA;No longer supported as ballot statuses within the HL7 Governance and Operations Manual.  Use normative or informative variants instead."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="committee ballot - normative"/>
+    </designation>
+  </concept>
+  <concept id="23113">
+    <code value="draft"/>
+    <definition value="  Description:&#xD;&#xA;Content that is under development and is not intended to be used."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="draft"/>
+    </designation>
+  </concept>
+  <concept id="23130">
+    <code value="loc"/>
+    <definition value="  Description:&#xD;&#xA;Content that represents an adaption of a implementable balloted material to represent the needs or capabilities of a particular installation."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="localized adaptation"/>
+    </designation>
+  </concept>
+  <concept id="23120">
+    <code value="memd"/>
+    <definition value="  Description:&#xD;&#xA;Content prepared by a committee and submitted for membership consideration as a draft standard for trial use."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="membership ballot - DSTU"/>
+    </designation>
+  </concept>
+  <concept id="23119">
+    <code value="memi"/>
+    <definition value="  Description:&#xD;&#xA;Content prepared by a committee and submitted for membership consideration as an informative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="membership ballot - informative"/>
+    </designation>
+  </concept>
+  <concept id="23118">
+    <code value="memn"/>
+    <definition value="  Description:&#xD;&#xA;Content prepared by a committee and submitted for membership consideration as a normative standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="membership ballot - normative"/>
+    </designation>
+  </concept>
+  <concept id="23114">
+    <code value="ns"/>
+    <definition value="  Description:&#xD;&#xA;Content developed independently by an organization or individual that is declared to be &#39;usable&#39; but for which there is no present intention to submit through the standards submission and review process."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="non-standard - available for use"/>
+    </designation>
+  </concept>
+  <concept id="23115">
+    <code value="prop"/>
+    <definition value="  Description:&#xD;&#xA;Content submitted to a committee for consideration for future inclusion in the standard."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="proposal"/>
+    </designation>
+  </concept>
+  <concept id="23251">
+    <code value="ref"/>
+    <definition value="  Description:&#xD;&#xA;Content intended to support other content that is subject to approval, but which is not itself subject to formal approval."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="reference"/>
+    </designation>
+  </concept>
+  <concept id="23131">
+    <code value="wd"/>
+    <definition value="  Description:&#xD;&#xA;Content that represents an item that was at one point a normative or informative standard, but was subsequently withdrawn."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="withdrawn"/>
+    </designation>
+  </concept>
+</CodeSystem>

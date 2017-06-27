@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0144-2.2"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0144-2.2"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.65"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0144v2.2"/>
+  <title value="V2 Table: Eligibility Source"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0144 (Eligibility Source)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0144-2.2"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Insurance Company"/>
+    <definition value="Insurance Company"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Employer"/>
+    <definition value="Employer"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Insured Presented Policy"/>
+    <definition value="Insured Presented Policy"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Insured Presented Card"/>
+    <definition value="Insured Presented Card"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Signed Statement on File"/>
+    <definition value="Signed Statement on File"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Verbal Information"/>
+    <definition value="Verbal Information"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="None"/>
+    <definition value="None"/>
+  </concept>
+</CodeSystem>

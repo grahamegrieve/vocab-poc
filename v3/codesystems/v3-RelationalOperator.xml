@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-RelationalOperator"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-RelationalOperator"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.105"/>
+  </identifier>
+  <name value="RelationalOperator"/>
+  <title value="RelationalOperator"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10170">
+    <code value="CT"/>
+    <definition value=" Specified set of things includes value being evaluated."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Contains"/>
+    </designation>
+  </concept>
+  <concept id="10164">
+    <code value="EQ"/>
+    <definition value=" Equal condition applied to comparisons."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Equal"/>
+    </designation>
+  </concept>
+  <concept id="10169">
+    <code value="GE"/>
+    <definition value=" Greater than or equal condition applied to comparisons."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Greater than or equal"/>
+    </designation>
+  </concept>
+  <concept id="10171">
+    <code value="GN"/>
+    <definition value=" A generic comparison selects a record for inclusion in the response if the beginning of the designated element value matches the select string."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Generic"/>
+    </designation>
+  </concept>
+  <concept id="10167">
+    <code value="GT"/>
+    <definition value=" Greater than condition applied to comparisons."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Greater than"/>
+    </designation>
+  </concept>
+  <concept id="10168">
+    <code value="LE"/>
+    <definition value=" Less than or equal condition applied to comparisons."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Less than or equal"/>
+    </designation>
+  </concept>
+  <concept id="10166">
+    <code value="LT"/>
+    <definition value=" Less than condition applied to comparisons."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Less than"/>
+    </designation>
+  </concept>
+  <concept id="10165">
+    <code value="NE"/>
+    <definition value=" Not equal condition applied to comparisons."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Not Equal"/>
+    </designation>
+  </concept>
+</CodeSystem>

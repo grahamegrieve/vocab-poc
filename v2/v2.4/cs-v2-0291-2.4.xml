@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0291-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0291-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.181"/>
+  </identifier>
+  <version value="3"/>
+  <name value="V2Table0291v2.4"/>
+  <title value="V2 Table: Subtype of Referenced Data"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0291 (Subtype of Referenced Data)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0291-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="BASIC"/>
+    <display value="ISDN PCM audio data"/>
+    <definition value="ISDN PCM audio data"/>
+  </concept>
+  <concept>
+    <code value="DICOM"/>
+    <display value="Digital Imaging and Communications in Medicine"/>
+    <definition value="Digital Imaging and Communications in Medicine"/>
+  </concept>
+  <concept>
+    <code value="FAX"/>
+    <display value="Facsimile data"/>
+    <definition value="Facsimile data"/>
+  </concept>
+  <concept>
+    <code value="GIF"/>
+    <display value="Graphics Interchange Format"/>
+    <definition value="Graphics Interchange Format"/>
+  </concept>
+  <concept>
+    <code value="HTML"/>
+    <display value="Hypertext Markup Language"/>
+    <definition value="Hypertext Markup Language"/>
+  </concept>
+  <concept>
+    <code value="JOT"/>
+    <display value="Electronic ink data (Jot 1.0 standard)"/>
+    <definition value="Electronic ink data (Jot 1.0 standard)"/>
+  </concept>
+  <concept>
+    <code value="JPEG"/>
+    <display value="Joint Photographic Experts Group"/>
+    <definition value="Joint Photographic Experts Group"/>
+  </concept>
+  <concept>
+    <code value="Octet-stream"/>
+    <display value="Uninterpreted binary data"/>
+    <definition value="Uninterpreted binary data"/>
+  </concept>
+  <concept>
+    <code value="PICT"/>
+    <display value="PICT format image data"/>
+    <definition value="PICT format image data"/>
+  </concept>
+  <concept>
+    <code value="PostScript"/>
+    <display value="PostScript program"/>
+    <definition value="PostScript program"/>
+  </concept>
+  <concept>
+    <code value="RTF"/>
+    <display value="Rich Text Format"/>
+    <definition value="Rich Text Format"/>
+  </concept>
+  <concept>
+    <code value="SGML"/>
+    <display value="Standard Generalized Markup Language (HL7 V2.3.1 and later)"/>
+    <definition value="Standard Generalized Markup Language (HL7 V2.3.1 and later)"/>
+  </concept>
+  <concept>
+    <code value="TIFF"/>
+    <display value="TIFF image data"/>
+    <definition value="TIFF image data"/>
+  </concept>
+  <concept>
+    <code value="x-hl7-cda-level-one"/>
+    <display value="HL7 Clinical Document Architecture Level One document"/>
+    <definition value="HL7 Clinical Document Architecture Level One document"/>
+  </concept>
+  <concept>
+    <code value="XML"/>
+    <display value="Extensible Markup Language (HL7 V2.3.1 and later)"/>
+    <definition value="Extensible Markup Language (HL7 V2.3.1 and later)"/>
+  </concept>
+</CodeSystem>

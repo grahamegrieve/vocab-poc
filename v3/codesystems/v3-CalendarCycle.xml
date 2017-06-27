@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-CalendarCycle"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Calendar cycle identifiers</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-CalendarCycle"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.9"/>
+  </identifier>
+  <name value="CalendarCycle"/>
+  <title value="Calendar Cycle Codes"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Calendar cycle identifiers"/>
+  <content value="complete"/>
+  <concept id="21046">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+      <valueString value="1211-20130629"/>
+    </extension>
+    <code value="_CalendarCycleOneLetter"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="CalendarCycleOneLetter"/>
+    </designation>
+    <concept id="10689">
+      <code value="CW"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="week (continuous)"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="W"/>
+      </designation>
+    </concept>
+    <concept id="10686">
+      <code value="CY"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="year"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="Y"/>
+      </designation>
+    </concept>
+    <concept id="10691">
+      <code value="D"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="day of the month"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="DM"/>
+      </designation>
+    </concept>
+    <concept id="10694">
+      <code value="DW"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="day of the week (begins with Monday)"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="J"/>
+      </designation>
+    </concept>
+    <concept id="10695">
+      <code value="H"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="hour of the day"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="HD"/>
+      </designation>
+    </concept>
+    <concept id="10687">
+      <code value="M"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="month of the year"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="MY"/>
+      </designation>
+    </concept>
+    <concept id="10697">
+      <code value="N"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="minute of the hour"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="NH"/>
+      </designation>
+    </concept>
+    <concept id="10699">
+      <code value="S"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="second of the minute"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="SN"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21047">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+      <valueString value="1211-20130629"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="CW"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="CY"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="D"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="DW"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="H"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="M"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="N"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="S"/>
+    </extension>
+    <code value="_CalendarCycleTwoLetter"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="CalendarCycleTwoLetter"/>
+    </designation>
+    <concept id="21048">
+      <code value="_GregorianCalendarCycle"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="GregorianCalendarCycle"/>
+      </designation>
+    </concept>
+    <concept id="10692">
+      <code value="CD"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="day (continuous)"/>
+      </designation>
+    </concept>
+    <concept id="10696">
+      <code value="CH"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="hour (continuous)"/>
+      </designation>
+    </concept>
+    <concept id="10688">
+      <code value="CM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="month (continuous)"/>
+      </designation>
+    </concept>
+    <concept id="10698">
+      <code value="CN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="minute (continuous)"/>
+      </designation>
+    </concept>
+    <concept id="10700">
+      <code value="CS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="second (continuous)"/>
+      </designation>
+    </concept>
+    <concept id="10693">
+      <code value="DY"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="day of the year"/>
+      </designation>
+    </concept>
+    <concept id="10690">
+      <code value="WY"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="week of the year"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="23532">
+    <code value="WM"/>
+    <definition value=" The week with the month&#39;s first Thursday in it (analagous to the ISO 8601 definition for week of the year)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="week of the month"/>
+    </designation>
+  </concept>
+</CodeSystem>

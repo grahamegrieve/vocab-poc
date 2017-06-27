@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0066-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0066-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.26"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0066v2.4"/>
+  <title value="V2 Table: Employment Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0066 (Employment Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0066-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Full time employed"/>
+    <definition value="Full time employed"/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="Full Time"/>
+    <definition value="Full Time"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Part time employed"/>
+    <definition value="Part time employed"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Part Time"/>
+    <definition value="Part Time"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Self-employed"/>
+    <definition value="Self-employed"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Per Diem"/>
+    <definition value="Per Diem"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Contract, per diem"/>
+    <definition value="Contract, per diem"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Leave of absence (e.g. Family leave, sabbatical, etc.)"/>
+    <definition value="Leave of absence (e.g. Family leave, sabbatical, etc.)"/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="Temporarily unemployed"/>
+    <definition value="Temporarily unemployed"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Unemployed"/>
+    <definition value="Unemployed"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Retired"/>
+    <definition value="Retired"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="On active military duty"/>
+    <definition value="On active military duty"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Unknown"/>
+    <definition value="Unknown"/>
+  </concept>
+</CodeSystem>

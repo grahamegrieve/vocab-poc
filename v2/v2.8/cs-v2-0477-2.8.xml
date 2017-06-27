@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0477-2.8"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0477-2.8"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.304"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0477v2.8"/>
+  <title value="V2 Table: Controlled Substance Schedule"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0477 (Controlled Substance Schedule)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0477-2.8"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Includes drugs that have a high potential for abuse, no currently accepted medical use in the United States and a lack of accepted safety for use under medical supervision."/>
+    </extension>
+    <code value="I"/>
+    <display value="Schedule I"/>
+    <definition value="Schedule I"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Includes drugs having currently accepted medical use in the United States and a high abuse potential, with severe psychological or physical dependence liability."/>
+    </extension>
+    <code value="II"/>
+    <display value="Schedule II"/>
+    <definition value="Schedule II"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Includes drugs having an abuse potential less than that of drugs listed in Schedules I and II. All CS III drugs have a currently accepted medical use in the United States."/>
+    </extension>
+    <code value="III"/>
+    <display value="Schedule III"/>
+    <definition value="Schedule III"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Includes drugs having a lesser potential for abuse than those listed in Schedule III. CS IV drugs have a currently accepted medical use in the United States."/>
+    </extension>
+    <code value="IV"/>
+    <display value="Schedule IV"/>
+    <definition value="Schedule IV"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="Includes drugs having low abuse potential and limited physical or psychological dependence relative to those listed in IV and have an accepted medical use in the United States."/>
+    </extension>
+    <code value="V"/>
+    <display value="Schedule V"/>
+    <definition value="Schedule V"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="State defined"/>
+    </extension>
+    <code value="VI"/>
+    <display value="Schedule VI"/>
+    <definition value="Schedule VI"/>
+  </concept>
+</CodeSystem>

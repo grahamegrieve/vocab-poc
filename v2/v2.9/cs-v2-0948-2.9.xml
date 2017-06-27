@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0948-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0948-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.448"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0948v2.9"/>
+  <title value="V2 Table: Relationship Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0948 (Relationship Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0948-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="CAUS"/>
+    <display value="Causes/caused"/>
+    <definition value="Causes/caused"/>
+  </concept>
+  <concept>
+    <code value="COMP"/>
+    <display value="Component of"/>
+    <definition value="Component of"/>
+  </concept>
+  <concept>
+    <code value="CONCR"/>
+    <display value="Concurrently"/>
+    <definition value="Concurrently"/>
+  </concept>
+  <concept>
+    <code value="EVID"/>
+    <display value="Evidence"/>
+    <definition value="Evidence"/>
+  </concept>
+  <concept>
+    <code value="INTF"/>
+    <display value="Interferes / interfered"/>
+    <definition value="Interferes / interfered"/>
+  </concept>
+  <concept>
+    <code value="LIMIT"/>
+    <display value="Limits/limited"/>
+    <definition value="Limits/limited"/>
+  </concept>
+  <concept>
+    <code value="SUCCD"/>
+    <display value="Succeeds"/>
+    <definition value="Succeeds"/>
+  </concept>
+  <concept>
+    <code value="SVTGT"/>
+    <display value="Service target"/>
+    <definition value="Service target"/>
+  </concept>
+  <concept>
+    <code value="TRIG"/>
+    <display value="Triggers/triggered"/>
+    <definition value="Triggers/triggered"/>
+  </concept>
+</CodeSystem>

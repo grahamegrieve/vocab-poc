@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActStatus"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Codes representing the defined possible states of an Act, as defined by the Act class state machine.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.14"/>
+  </identifier>
+  <name value="ActStatus"/>
+  <title value="ActStatus"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Codes representing the defined possible states of an Act, as defined by the Act class state machine."/>
+  <content value="complete"/>
+  <concept id="15936">
+    <code value="normal"/>
+    <definition value=" Encompasses the expected states of an Act, but excludes &quot;nullified&quot; and &quot;obsolete&quot; which represent unusual terminal states for the life-cycle."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="normal"/>
+    </designation>
+    <concept id="15941">
+      <code value="aborted"/>
+      <definition value=" The Act has been terminated prior to the originally intended completion."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="aborted"/>
+      </designation>
+    </concept>
+    <concept id="15942">
+      <code value="active"/>
+      <definition value=" The Act can be performed or is being performed"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="active"/>
+      </designation>
+    </concept>
+    <concept id="15938">
+      <code value="cancelled"/>
+      <definition value=" The Act has been abandoned before activation."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="cancelled"/>
+      </designation>
+    </concept>
+    <concept id="15940">
+      <code value="completed"/>
+      <definition value=" An Act that has terminated normally after all of its constituents have been performed."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="completed"/>
+      </designation>
+    </concept>
+    <concept id="15937">
+      <code value="held"/>
+      <definition value=" An Act that is still in the preparatory stages has been put aside.  No action can occur until the Act is released."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="held"/>
+      </designation>
+    </concept>
+    <concept id="15943">
+      <code value="new"/>
+      <definition value=" An Act that is in the preparatory stages and may not yet be acted upon"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="new"/>
+      </designation>
+    </concept>
+    <concept id="15939">
+      <code value="suspended"/>
+      <definition value=" An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled.  No further action should be taken against it until it is released"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="suspended"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="15934">
+    <code value="nullified"/>
+    <definition value=" This Act instance was created in error and has been &#39;removed&#39; and is treated as though it never existed.  A record is retained for audit purposes only."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="nullified"/>
+    </designation>
+  </concept>
+  <concept id="15935">
+    <code value="obsolete"/>
+    <definition value=" This Act instance has been replaced by a new instance."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="obsolete"/>
+    </designation>
+  </concept>
+</CodeSystem>

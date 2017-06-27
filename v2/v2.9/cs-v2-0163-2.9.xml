@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0163-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0163-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.81"/>
+  </identifier>
+  <version value="3"/>
+  <name value="V2Table0163v2.9"/>
+  <title value="V2 Table: Body Site"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0163 (Body Site)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0163-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="BE"/>
+    <display value="Bilateral Ears"/>
+    <definition value="Bilateral Ears"/>
+  </concept>
+  <concept>
+    <code value="OU"/>
+    <display value="Bilateral Eyes"/>
+    <definition value="Bilateral Eyes"/>
+  </concept>
+  <concept>
+    <code value="BN"/>
+    <display value="Bilateral Nares"/>
+    <definition value="Bilateral Nares"/>
+  </concept>
+  <concept>
+    <code value="BU"/>
+    <display value="Buttock"/>
+    <definition value="Buttock"/>
+  </concept>
+  <concept>
+    <code value="CT"/>
+    <display value="Chest Tube"/>
+    <definition value="Chest Tube"/>
+  </concept>
+  <concept>
+    <code value="LA"/>
+    <display value="Left Arm"/>
+    <definition value="Left Arm"/>
+  </concept>
+  <concept>
+    <code value="LAC"/>
+    <display value="Left Anterior Chest"/>
+    <definition value="Left Anterior Chest"/>
+  </concept>
+  <concept>
+    <code value="LACF"/>
+    <display value="Left Antecubital Fossa"/>
+    <definition value="Left Antecubital Fossa"/>
+  </concept>
+  <concept>
+    <code value="LD"/>
+    <display value="Left Deltoid"/>
+    <definition value="Left Deltoid"/>
+  </concept>
+  <concept>
+    <code value="LE"/>
+    <display value="Left Ear"/>
+    <definition value="Left Ear"/>
+  </concept>
+  <concept>
+    <code value="LEJ"/>
+    <display value="Left External Jugular"/>
+    <definition value="Left External Jugular"/>
+  </concept>
+  <concept>
+    <code value="OS"/>
+    <display value="Left Eye"/>
+    <definition value="Left Eye"/>
+  </concept>
+  <concept>
+    <code value="LF"/>
+    <display value="Left Foot"/>
+    <definition value="Left Foot"/>
+  </concept>
+  <concept>
+    <code value="LG"/>
+    <display value="Left Gluteus Medius"/>
+    <definition value="Left Gluteus Medius"/>
+  </concept>
+  <concept>
+    <code value="LH"/>
+    <display value="Left Hand"/>
+    <definition value="Left Hand"/>
+  </concept>
+  <concept>
+    <code value="LIJ"/>
+    <display value="Left Internal Jugular"/>
+    <definition value="Left Internal Jugular"/>
+  </concept>
+  <concept>
+    <code value="LLAQ"/>
+    <display value="Left Lower Abd Quadrant"/>
+    <definition value="Left Lower Abd Quadrant"/>
+  </concept>
+  <concept>
+    <code value="LLFA"/>
+    <display value="Left Lower Forearm"/>
+    <definition value="Left Lower Forearm"/>
+  </concept>
+  <concept>
+    <code value="LMFA"/>
+    <display value="Left Mid Forearm"/>
+    <definition value="Left Mid Forearm"/>
+  </concept>
+  <concept>
+    <code value="LN"/>
+    <display value="Left Naris"/>
+    <definition value="Left Naris"/>
+  </concept>
+  <concept>
+    <code value="LPC"/>
+    <display value="Left Posterior Chest"/>
+    <definition value="Left Posterior Chest"/>
+  </concept>
+  <concept>
+    <code value="LSC"/>
+    <display value="Left Subclavian"/>
+    <definition value="Left Subclavian"/>
+  </concept>
+  <concept>
+    <code value="LT"/>
+    <display value="Left Thigh"/>
+    <definition value="Left Thigh"/>
+  </concept>
+  <concept>
+    <code value="LUA"/>
+    <display value="Left Upper Arm"/>
+    <definition value="Left Upper Arm"/>
+  </concept>
+  <concept>
+    <code value="LUAQ"/>
+    <display value="Left Upper Abd Quadrant"/>
+    <definition value="Left Upper Abd Quadrant"/>
+  </concept>
+  <concept>
+    <code value="LUFA"/>
+    <display value="Left Upper Forearm"/>
+    <definition value="Left Upper Forearm"/>
+  </concept>
+  <concept>
+    <code value="LVG"/>
+    <display value="Left Ventragluteal"/>
+    <definition value="Left Ventragluteal"/>
+  </concept>
+  <concept>
+    <code value="LVL"/>
+    <display value="Left Vastus Lateralis"/>
+    <definition value="Left Vastus Lateralis"/>
+  </concept>
+  <concept>
+    <code value="NB"/>
+    <display value="Nebulized"/>
+    <definition value="Nebulized"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Perianal"/>
+    <definition value="Perianal"/>
+  </concept>
+  <concept>
+    <code value="PERIN"/>
+    <display value="Perineal"/>
+    <definition value="Perineal"/>
+  </concept>
+  <concept>
+    <code value="RA"/>
+    <display value="Right Arm"/>
+    <definition value="Right Arm"/>
+  </concept>
+  <concept>
+    <code value="RAC"/>
+    <display value="Right Anterior Chest"/>
+    <definition value="Right Anterior Chest"/>
+  </concept>
+  <concept>
+    <code value="RACF"/>
+    <display value="Right Antecubital Fossa"/>
+    <definition value="Right Antecubital Fossa"/>
+  </concept>
+  <concept>
+    <code value="RD"/>
+    <display value="Right Deltoid"/>
+    <definition value="Right Deltoid"/>
+  </concept>
+  <concept>
+    <code value="RE"/>
+    <display value="Right Ear"/>
+    <definition value="Right Ear"/>
+  </concept>
+  <concept>
+    <code value="REJ"/>
+    <display value="Right External Jugular"/>
+    <definition value="Right External Jugular"/>
+  </concept>
+  <concept>
+    <code value="OD"/>
+    <display value="Right Eye"/>
+    <definition value="Right Eye"/>
+  </concept>
+  <concept>
+    <code value="RF"/>
+    <display value="Right Foot"/>
+    <definition value="Right Foot"/>
+  </concept>
+  <concept>
+    <code value="RG"/>
+    <display value="Right Gluteus Medius"/>
+    <definition value="Right Gluteus Medius"/>
+  </concept>
+  <concept>
+    <code value="RH"/>
+    <display value="Right Hand"/>
+    <definition value="Right Hand"/>
+  </concept>
+  <concept>
+    <code value="RIJ"/>
+    <display value="Right Internal Jugular"/>
+    <definition value="Right Internal Jugular"/>
+  </concept>
+  <concept>
+    <code value="RLAQ"/>
+    <display value="Rt Lower Abd Quadrant"/>
+    <definition value="Rt Lower Abd Quadrant"/>
+  </concept>
+  <concept>
+    <code value="RLFA"/>
+    <display value="Right Lower Forearm"/>
+    <definition value="Right Lower Forearm"/>
+  </concept>
+  <concept>
+    <code value="RMFA"/>
+    <display value="Right Mid Forearm"/>
+    <definition value="Right Mid Forearm"/>
+  </concept>
+  <concept>
+    <code value="RN"/>
+    <display value="Right Naris"/>
+    <definition value="Right Naris"/>
+  </concept>
+  <concept>
+    <code value="RPC"/>
+    <display value="Right Posterior Chest"/>
+    <definition value="Right Posterior Chest"/>
+  </concept>
+  <concept>
+    <code value="RSC"/>
+    <display value="Right Subclavian"/>
+    <definition value="Right Subclavian"/>
+  </concept>
+  <concept>
+    <code value="RT"/>
+    <display value="Right Thigh"/>
+    <definition value="Right Thigh"/>
+  </concept>
+  <concept>
+    <code value="RUA"/>
+    <display value="Right Upper Arm"/>
+    <definition value="Right Upper Arm"/>
+  </concept>
+  <concept>
+    <code value="RUAQ"/>
+    <display value="Right Upper Abd Quadrant"/>
+    <definition value="Right Upper Abd Quadrant"/>
+  </concept>
+  <concept>
+    <code value="RUFA"/>
+    <display value="Right Upper Forearm"/>
+    <definition value="Right Upper Forearm"/>
+  </concept>
+  <concept>
+    <code value="RVL"/>
+    <display value="Right Vastus Lateralis"/>
+    <definition value="Right Vastus Lateralis"/>
+  </concept>
+  <concept>
+    <code value="RVG"/>
+    <display value="Right Ventragluteal"/>
+    <definition value="Right Ventragluteal"/>
+  </concept>
+</CodeSystem>

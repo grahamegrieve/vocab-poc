@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0406-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0406-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.254"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0406v2.9"/>
+  <title value="V2 Table: Participant Organization Unit Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0406 (Participant Organization Unit Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0406-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="H"/>
+    <display value="Home"/>
+    <definition value="Home"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Office"/>
+    <definition value="Office"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="Hospital"/>
+    <definition value="Hospital"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Physician Clinic"/>
+    <definition value="Physician Clinic"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Long Term Care"/>
+    <definition value="Long Term Care"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Acute Care"/>
+    <definition value="Acute Care"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+</CodeSystem>

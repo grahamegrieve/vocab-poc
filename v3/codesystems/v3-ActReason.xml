@@ -1,0 +1,3206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActReason"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type &quot;has reason&quot; linking to another Act.</p>
+                  
+      <p>
+                     
+        <i>Examples:</i> Example reasons that might qualify for being coded in this field might be: &quot;routine requirement&quot;, &quot;infectious disease reporting requirement&quot;, &quot;on patient request&quot;, &quot;required by law&quot;.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.8"/>
+  </identifier>
+  <name value="ActReason"/>
+  <title value="ActReason"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type &quot;has reason&quot; linking to another Act.  Examples:&#xD;&#xA;Example reasons that might qualify for being coded in this field might be: &quot;routine requirement&quot;, &quot;infectious disease reporting requirement&quot;, &quot;on patient request&quot;, &quot;required by law&quot;."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="20937">
+    <code value="_ActAccommodationReason"/>
+    <definition value=" Identifies the reason the patient is assigned to this accommodation type"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActAccommodationReason"/>
+    </designation>
+    <concept id="17429">
+      <code value="ACCREQNA"/>
+      <definition value=" Accommodation requested is not available."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Accommodation Requested Not Available"/>
+      </designation>
+    </concept>
+    <concept id="17430">
+      <code value="FLRCNV"/>
+      <definition value=" Accommodation is assigned for floor convenience."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Floor Convenience"/>
+      </designation>
+    </concept>
+    <concept id="17428">
+      <code value="MEDNEC"/>
+      <definition value=" Required for medical reasons(s)."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Medical Necessity"/>
+      </designation>
+    </concept>
+    <concept id="14880">
+      <code value="PAT"/>
+      <definition value=" The Patient requested the action"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Patient request"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22164">
+    <code value="_ActCoverageReason"/>
+    <definition value="  Description:&#xD;&#xA;Codes used to specify reasons or criteria relating to coverage provided under a policy or program.  May be used to convey reasons pertaining to coverage contractual provisions, including criteria for eligibility, coverage limitations, coverage maximums, or financial participation required of covered parties."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActCoverageReason"/>
+    </designation>
+    <concept id="21493">
+      <code value="_EligibilityActReasonCode"/>
+      <definition value=" Identifies the reason or rational for why a person is eligibile for benefits under an insurance policy or progam.  Examples:&#xD;&#xA;A person is a claimant under an automobile insurance policy are client deceased &amp; adopted client has been given a new policy identifier.  A new employee is eligible for health insurance as an employment benefit.  A person meets a government program eligibility criteria for financial, age or health status."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="EligibilityActReasonCode"/>
+      </designation>
+      <concept id="20940">
+        <code value="_ActIneligibilityReason"/>
+        <definition value=" Identifies the reason or rational for why a person is not eligibile for benefits under an insurance policy. Examples are client deceased &amp; adopted client has been given a new policy identifier."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="ActIneligibilityReason"/>
+        </designation>
+        <concept id="19731">
+          <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-openIssue">
+            <valueString value="Definition seems incomplete. It expresses the circumstances of suspension, but does not clearly state &quot;what it is&quot;."/>
+          </extension>
+          <code value="COVSUS"/>
+          <definition value=" When a client has no contact with the health system for an extended period, coverage is suspended.  Client will be reinstated to original start date upon proof of identification, residency etc. Example: Coverage may be suspended during a strike situation, when employer benefits for employees are not covered (i.e. not in effect)."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="coverage suspended"/>
+          </designation>
+        </concept>
+        <concept id="19729">
+          <code value="DECSD"/>
+          <definition value=" Client deceased."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="deceased"/>
+          </designation>
+        </concept>
+        <concept id="19730">
+          <code value="REGERR"/>
+          <definition value=" Client was registered in error."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="registered in error"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21555">
+        <code value="_CoverageEligibilityReason"/>
+        <definition value=" Definition: Identifies the reason or rational for why a person is eligibile for benefits under an insurance policy or progam.  Examples:&#xD;&#xA;A person is a claimant under an automobile insurance policy are client deceased &amp; adopted client has been given a new policy identifier.  A new employee is eligible for health insurance as an employment benefit.  A person meets a government program eligibility criteria for financial, age or health status."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="CoverageEligibilityReason"/>
+        </designation>
+        <concept id="21565">
+          <code value="AGE"/>
+          <definition value=" A person becomes eligible for a program based on age.  Example:&#xD;&#xA;In the U.S., a person who is 65 years of age or older is eligible for Medicare."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="age eligibility"/>
+          </designation>
+        </concept>
+        <concept id="21558">
+          <code value="CRIME"/>
+          <definition value=" A person becomes eligible for insurance or a program because of crime related health condition or injury.  Example:&#xD;&#xA;A person is a claimant under the U.S. Crime Victims Compensation program."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="crime victim"/>
+          </designation>
+        </concept>
+        <concept id="21560">
+          <code value="DIS"/>
+          <definition value=" A person becomes a claimant under a disability income insurance policy or a disability rehabilitation program because of a health condition or injury which limits the person&#39;s ability to earn an income or function without institutionalization."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="disability"/>
+          </designation>
+        </concept>
+        <concept id="21556">
+          <code value="EMPLOY"/>
+          <definition value=" A person becomes eligible for insurance provided as an employment benefit based on employment status."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="employment benefit"/>
+          </designation>
+        </concept>
+        <concept id="21564">
+          <code value="FINAN"/>
+          <definition value=" A person becomes eligible for a program based on financial criteria.  Example:&#xD;&#xA;A person whose family income is below a financial threshold for eligibility for Medicaid or SCHIP."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="financial eligibility"/>
+          </designation>
+        </concept>
+        <concept id="21562">
+          <code value="HEALTH"/>
+          <definition value=" A person becomes eligible for a program because of a qualifying health condition or injury.  Examples:&#xD;&#xA;A person is determined to have a qualifying health conditions include pregnancy, HIV/AIDs, tuberculosis, end stage renal disease, breast or cervical cancer, or other condition requiring specialized health services, hospice, institutional or community based care provided under a program"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="health status"/>
+          </designation>
+        </concept>
+        <concept id="21566">
+          <code value="MULTI"/>
+          <definition value=" A person becomes eligible for a program based on more than one criterion.  Examples:&#xD;&#xA;In the U.S., a child whose familiy income meets Medicaid financial thresholds and whose age is less than 18 is eligible for the Early and Periodic Screening, Diagnostic, and Treatment program (EPSDT).  A person whose family income meets Medicaid financial thresholds and whose age is 65 years or older is eligible for Medicaid and Medicare, and are referred to as dual eligibles."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="multiple criteria eligibility"/>
+          </designation>
+        </concept>
+        <concept id="21561">
+          <code value="PNC"/>
+          <definition value=" A person becomes a claimant under a property and casualty insurance policy because of a related health condition or injury resulting from a circumstance covered under the terms of the policy.  Example:&#xD;&#xA;A person is a claimant under a homeowners insurance policy because of an injury sustained on the policyholderaTMs premises."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="property and casualty condition"/>
+          </designation>
+        </concept>
+        <concept id="21563">
+          <code value="STATUTORY"/>
+          <definition value=" A person becomes eligible for a program based on statutory criteria.  Examples:&#xD;&#xA;A person is a member of an indigenous group, a veteran of military service, or  in the U.S., a recipient of adoption assistance and foster care under Title IV-E of the Social Security."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="statutory eligibility"/>
+          </designation>
+        </concept>
+        <concept id="21559">
+          <code value="VEHIC"/>
+          <definition value=" A person becomes a claimant under a motor vehicle accident insurance because of a motor vehicle accident related health condition or injury."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="motor vehicle accident victim"/>
+          </designation>
+        </concept>
+        <concept id="21557">
+          <code value="WORK"/>
+          <definition value=" A person becomes eligible for insurance or a program because of a work related health condition or injury.  Example:&#xD;&#xA;A person is a claimant under the U.S. Black Lung Program."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="work related"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="22168">
+      <code value="_ActCoverageProviderReason"/>
+      <definition value="  Description:&#xD;&#xA;Identifies the reason or rationale for coverage of a service or product based on characteristics of the provider, e.g., contractual relationship to payor, such as in or out-of-network; relationship of the covered party to the provider.  Example:&#xD;&#xA;In closed managed care plan, a covered party is assigned a primary care provider who provides primary care services and authorizes referrals and ancillary and non-primary care services."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ActCoverageProviderReason"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+    <concept id="22169">
+      <code value="_ActCoverageServiceReason"/>
+      <definition value="  Description:&#xD;&#xA;Identifies the reason or rationale for coverage of a service or product based on clinical efficacy criteria or practices prescribed by the payor."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ActCoverageServiceReason"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+    <concept id="22165">
+      <code value="_CoverageExclusionReason"/>
+      <definition value="  Definition:&#xD;&#xA;Identifies the reason or rationale for coverage of a service or product based on coverage exclusions related to the risk of adverse selection by covered parties."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CoverageExclusionReason"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+    <concept id="22166">
+      <code value="_CoverageFinancialParticipationReason"/>
+      <definition value="  Description:&#xD;&#xA;Identifies the reason or rationale for coverage of a service or product based on financial participation responsibilities of the covered party."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CoverageFinancialParticipationReason"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+    <concept id="22167">
+      <code value="_CoverageLimitationReason"/>
+      <definition value="  Description:&#xD;&#xA;Identifies the reason or rationale for  limitations on the coverage of a service or product based on coverage contract provisions.  Example:&#xD;&#xA;The maximum cost per unit; or the maximum number of units per period, which is typically the policy or program effective time."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CoverageLimitationReason"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+  </concept>
+  <concept id="22675">
+    <code value="_ActInformationManagementReason"/>
+    <definition value="  Description:&#xD;&#xA;The rationale or purpose for an act relating to information management, such as archiving information for the purpose of complying with an enterprise data retention policy."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActInformationManagementReason"/>
+    </designation>
+    <concept id="22676">
+      <code value="_ActHealthInformationManagementReason"/>
+      <definition value="  Description:&#xD;&#xA;The rationale or purpose for an act relating to health information management, such as archiving information for the purpose of complying with an organization policy or jurisdictional law relating to  data retention."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ActHealthInformationManagementReason"/>
+      </designation>
+      <concept id="22198">
+        <code value="_ActConsentInformationAccessOverrideReason"/>
+        <definition value=" To perform one or more operations on information to which the patient has not consented as deemed necessary by authorized entities for providing care in the best interest of the patient; providing immediately needed health care for an emergent condition;  or for protecting public or third party safety.  Usage Notes:&#xD;&#xA;Used to convey the reason that a provider or other entity may or has accessed personal healthcare information.  Typically, this involves overriding the subject&#39;s consent directives."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="ActConsentInformationAccessOverrideReason"/>
+        </designation>
+        <concept id="22194">
+          <code value="OVRER"/>
+          <definition value=" To perform one or more operations on information to which the patient has not consented by authorized entities for treating a condition which poses an immediate threat to the patient&#39;s health and which requires immediate medical intervention.  Usage Notes:&#xD;&#xA;The patient is unable to provide consent, but the provider determines they have an urgent healthcare related reason to access the record."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="emergency treatment override"/>
+          </designation>
+        </concept>
+        <concept id="22197">
+          <code value="OVRPJ"/>
+          <definition value=" To perform one or more operations on information to which the patient declined to consent for providing health care.  Usage Notes:&#xD;&#xA;The patient, while able to give consent, has not.  However the provider believes it is in the patient&#39;s interest to access the record without patient consent."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="professional judgment override"/>
+          </designation>
+        </concept>
+        <concept id="22195">
+          <code value="OVRPS"/>
+          <definition value=" To perform one or more operations on information to which the patient has not consented for public safety reasons.  Usage Notes:&#xD;&#xA;The patient, while able to give consent, has not.  However, the provider believes that access to masked patient information is justified because of concerns related to public safety."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="public safety override"/>
+          </designation>
+        </concept>
+        <concept id="22196">
+          <code value="OVRTPS"/>
+          <definition value=" To perform one or more operations on information to which the patient has not consented for third party safety.  Usage Notes:&#xD;&#xA;The patient, while able to give consent, has not.  However, the provider believes that access to masked patient information is justified because of concerns related to the health and safety of one or more third parties."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="third party safety override"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="23408">
+        <code value="PurposeOfUse"/>
+        <definition value=" Reason for performing one or more operations on information, which may be permitted by source system&#39;s security policy in accordance with one or more privacy policies and consent directives.  Usage Notes:&#xD;&#xA;The rationale or purpose for an act relating to the management of personal health information, such as collecting personal health information for research or public health purposes."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="purpose of use"/>
+        </designation>
+        <concept id="22678">
+          <code value="HMARKT"/>
+          <definition value=" To perform one or more operations on information for marketing services and products related to health care."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="healthcare marketing"/>
+          </designation>
+        </concept>
+        <concept id="22686">
+          <code value="HOPERAT"/>
+          <definition value=" To perform one or more operations on information used for conducting administrative and contractual activities related to the provision of health care."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="healthcare operations"/>
+          </designation>
+          <concept id="23412">
+            <code value="DONAT"/>
+            <definition value=" To perform one or more operations on information used for cadaveric organ, eye or tissue donation."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="donation"/>
+            </designation>
+          </concept>
+          <concept id="23413">
+            <code value="FRAUD"/>
+            <definition value=" To perform one or more operations on information used for fraud detection and prevention processes."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="fraud"/>
+            </designation>
+          </concept>
+          <concept id="23414">
+            <code value="GOV"/>
+            <definition value=" To perform one or more operations on information used within government processes."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="government"/>
+            </designation>
+          </concept>
+          <concept id="22692">
+            <code value="HACCRED"/>
+            <definition value=" To perform one or more operations on information for conducting activities related to meeting accreditation criteria."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="health accreditation"/>
+            </designation>
+          </concept>
+          <concept id="22689">
+            <code value="HCOMPL"/>
+            <definition value=" To perform one or more operations on information used for conducting activities required to meet a mandate."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="health compliance"/>
+            </designation>
+          </concept>
+          <concept id="23415">
+            <code value="HDECD"/>
+            <definition value=" To perform one or more operations on information used for handling deceased patient matters."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="decedent"/>
+            </designation>
+          </concept>
+          <concept id="23416">
+            <code value="HDIRECT"/>
+            <definition value=" To perform one or more operation operations on information used to manage a patient directory.  Examples:&#xD;&#xA;  facility enterprise payer health information exchange patient directory"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="directory"/>
+            </designation>
+          </concept>
+          <concept id="22690">
+            <code value="HLEGAL"/>
+            <definition value=" To perform one or more operations on information for conducting activities required by legal proceeding."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="legal"/>
+            </designation>
+          </concept>
+          <concept id="22688">
+            <code value="HOUTCOMS"/>
+            <definition value=" To perform one or more operations on information used for assessing results and comparative effectiveness achieved by health care practices and interventions."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="health outcome measure"/>
+            </designation>
+          </concept>
+          <concept id="22691">
+            <code value="HPRGRP"/>
+            <definition value=" To perform one or more operations on information used for conducting activities to meet program accounting requirements."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="health program reporting"/>
+            </designation>
+          </concept>
+          <concept id="22687">
+            <code value="HQUALIMP"/>
+            <definition value=" To perform one or more operations on information used for conducting administrative activities to improve health care quality."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="health quality improvement"/>
+            </designation>
+          </concept>
+          <concept id="22695">
+            <code value="HSYSADMIN"/>
+            <definition value=" To perform one or more operations on information to administer the electronic systems used for the delivery of health care."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="health system administration"/>
+            </designation>
+          </concept>
+          <concept id="22694">
+            <code value="MEMADMIN"/>
+            <definition value=" To perform one or more operations on information to administer health care coverage to an enrollee under a policy or program."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="member administration"/>
+            </designation>
+          </concept>
+          <concept id="22693">
+            <code value="PATADMIN"/>
+            <definition value=" To perform one or more operations on information used for operational activities conducted to administer the delivery of health care to a patient."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="patient administration"/>
+            </designation>
+          </concept>
+          <concept id="22696">
+            <code value="PATSFTY"/>
+            <definition value=" To perform one or more operations on information in processes related to ensuring the safety of health care."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="patient safety"/>
+            </designation>
+          </concept>
+          <concept id="23417">
+            <code value="PERFMSR"/>
+            <definition value=" To perform one or more operations on information used for monitoring performance of recommended health care practices and interventions."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="performance measure"/>
+            </designation>
+          </concept>
+          <concept id="23418">
+            <code value="RECORDMGT"/>
+            <definition value=" To perform one or more operations on information used within the health records management process."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="records management"/>
+            </designation>
+          </concept>
+          <concept id="23419">
+            <code value="TRAIN"/>
+            <definition value=" To perform one or more operations on information used in training and education."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="training"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="22685">
+          <code value="HPAYMT"/>
+          <definition value=" To perform one or more operations on information for conducting financial or contractual activities related to payment for provision of health care."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="healthcare payment"/>
+          </designation>
+          <concept id="23421">
+            <code value="CLMATTCH"/>
+            <definition value=" To perform one or more operations on information for provision of additional clinical evidence in support of a request for coverage or payment for health services."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="claim attachment"/>
+            </designation>
+          </concept>
+          <concept id="23422">
+            <code value="COVAUTH"/>
+            <definition value=" To perform one or more operations on information for conducting prior authorization or predetermination of coverage for services."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="coverage authorization"/>
+            </designation>
+          </concept>
+          <concept id="23456">
+            <code value="COVERAGE"/>
+            <definition value=" To perform one or more operations on information for conducting activities related to coverage under a program or policy."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="coverage under policy or program"/>
+            </designation>
+            <concept id="23420">
+              <code value="ELIGDTRM"/>
+              <definition value=" To perform one or more operations on information used for conducting eligibility determination for coverage in a program or policy.  May entail review of financial status or disability assessment."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="eligibility determination"/>
+              </designation>
+            </concept>
+            <concept id="23457">
+              <code value="ELIGVER"/>
+              <definition value=" To perform one or more operations on information used for conducting eligibility verification of coverage in a program or policy.  May entail provider contacting coverage source (e.g., government health program such as workers compensation or health plan) for confirmation of enrollment, eligibility for specific services, and any applicable copays."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="eligibility verification"/>
+              </designation>
+            </concept>
+            <concept id="23458">
+              <code value="ENROLLM"/>
+              <definition value=" To perform one or more operations on information used for enrolling a covered party in a program or policy.  May entail recording of covered party&#39;s and any dependent&#39;s demographic information and benefit choices."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="enrollment"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="23423">
+            <code value="REMITADV"/>
+            <definition value=" To perform one or more operations on information about the amount remitted for a health care claim."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="remittance advice"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="22679">
+          <code value="HRESCH"/>
+          <definition value=" To perform one or more operations on information for conducting scientific investigations to obtain health care knowledge."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="healthcare research"/>
+          </designation>
+          <concept id="23424">
+            <code value="CLINTRCH"/>
+            <definition value=" To perform one or more operations on information for conducting scientific investigations in accordance with clinical trial protocols to obtain health care knowledge."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="clinical trial research"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="23425">
+          <code value="PATRQT"/>
+          <definition value=" To perform one or more operations on information in response to a patient&#39;s request."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="patient requested"/>
+          </designation>
+          <concept id="23426">
+            <code value="FAMRQT"/>
+            <definition value=" To perform one or more operations on information in response to a request by a family member authorized by the patient."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="family requested"/>
+            </designation>
+          </concept>
+          <concept id="23427">
+            <code value="PWATRNY"/>
+            <definition value=" To perform one or more operations on information in response to a request by a person appointed as the patient&#39;s legal representative."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="power of attorney"/>
+            </designation>
+          </concept>
+          <concept id="23428">
+            <code value="SUPNWK"/>
+            <definition value=" To perform one or more operations on information in response to a request by a person authorized by the patient."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="support network"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="23409">
+          <code value="PUBHLTH"/>
+          <definition value=" To perform one or more operations on information for conducting public health activities, such as the reporting of notifiable conditions."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="public health"/>
+          </designation>
+          <concept id="23410">
+            <code value="DISASTER"/>
+            <definition value=" To perform one or more operations on information used for provision of immediately needed health care to a population of living subjects located in a disaster zone."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="disaster"/>
+            </designation>
+          </concept>
+          <concept id="23411">
+            <code value="THREAT"/>
+            <definition value=" To perform one or more operations on information used to prevent injury or disease to living subjects who may be the target of violence."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="threat"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="22680">
+          <code value="TREAT"/>
+          <definition value=" To perform one or more operations on information for provision of health care."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="treatment"/>
+          </designation>
+          <concept id="22683">
+            <code value="CAREMGT"/>
+            <definition value=" To perform one or more operations on information for provision of health care coordination."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Care Management"/>
+            </designation>
+          </concept>
+          <concept id="22684">
+            <code value="CLINTRL"/>
+            <definition value=" To perform health care as part of the clinical trial protocol."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="clinical trial"/>
+            </designation>
+          </concept>
+          <concept id="22682">
+            <code value="ETREAT"/>
+            <definition value=" To perform one or more operations on information for provision of immediately needed health care for an emergent condition."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Emergency Treatment"/>
+            </designation>
+          </concept>
+          <concept id="22681">
+            <code value="POPHLTH"/>
+            <definition value=" To perform one or more operations on information for provision of health care to a population of living subjects, e.g., needle exchange program."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="population health"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="22677">
+        <code value="_ActHealthInformationPrivacyReason"/>
+        <definition value="  Description:&#xD;&#xA;The rationale or purpose for an act relating to the management of personal health information, such as collecting personal health information for research or public health purposes."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="ActHealthInformationPrivacyReason"/>
+        </designation>
+        <property>
+          <code value="status"/>
+          <valueCode value="retired"/>
+        </property>
+      </concept>
+    </concept>
+    <concept id="22697">
+      <code value="_ActInformationPrivacyReason"/>
+      <definition value="  Description:&#xD;&#xA;The rationale or purpose for an act relating to the management of personal information, such as disclosing personal tax information for the purpose of complying with a court order."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ActInformationPrivacyReason"/>
+      </designation>
+      <concept id="22708">
+        <code value="MARKT"/>
+        <definition value="  Description:&#xD;&#xA;"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="marketing"/>
+        </designation>
+      </concept>
+      <concept id="22699">
+        <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+          <valueCode value="LEGAL"/>
+        </extension>
+        <code value="OPERAT"/>
+        <definition value="  Description:&#xD;&#xA;Administrative and contractual processes required to support an activity, product, or service"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="operations"/>
+        </designation>
+        <concept id="22704">
+          <code value="ACCRED"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities conducted for the purposes of meeting of criteria defined by an accrediting entity for an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="accreditation"/>
+          </designation>
+        </concept>
+        <concept id="22702">
+          <code value="COMPL"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities required to meet a mandate related to an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="compliance"/>
+          </designation>
+        </concept>
+        <concept id="22705">
+          <code value="ENADMIN"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities conducted to administer information relating to entities involves with an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="entity administration"/>
+          </designation>
+        </concept>
+        <concept id="22701">
+          <code value="OUTCOMS"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities conducted for the purposes of assessing the results of an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="outcome measure"/>
+          </designation>
+        </concept>
+        <concept id="22703">
+          <code value="PRGRPT"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities conducted to meet program accounting requirements related to an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="program reporting"/>
+          </designation>
+        </concept>
+        <concept id="22700">
+          <code value="QUALIMP"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities conducted for the purposes of improving the quality of an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="quality improvement"/>
+          </designation>
+        </concept>
+        <concept id="22706">
+          <code value="SYSADMN"/>
+          <definition value="  Description:&#xD;&#xA;Operational activities conducted to administer the electronic systems used for an activity, product, or service"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="system administration"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="22698">
+        <code value="PAYMT"/>
+        <definition value="  Description:&#xD;&#xA;Administrative, financial, and contractual processes related to payment for an activity, product, or service"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="payment"/>
+        </designation>
+      </concept>
+      <concept id="22707">
+        <code value="RESCH"/>
+        <definition value="  Description:&#xD;&#xA;Investigative activities conducted for the purposes of obtaining knowledge"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="research"/>
+        </designation>
+      </concept>
+      <concept id="22709">
+        <code value="SRVC"/>
+        <definition value="  Description:&#xD;&#xA;Provision of a service, product, or capability to an individual or organization"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="service"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="23235">
+    <code value="_ActInvalidReason"/>
+    <definition value="  Description:&#xD;&#xA;Types of reasons why a substance is invalid for use."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActInvalidReason"/>
+    </designation>
+    <concept id="23238">
+      <code value="ADVSTORAGE"/>
+      <definition value="  Description:&#xD;&#xA;Storage conditions caused the substance to be ineffective."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="adverse storage condition"/>
+      </designation>
+      <concept id="23239">
+        <code value="COLDCHNBRK"/>
+        <definition value="  Description:&#xD;&#xA;Cold chain was not maintained for the substance."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="cold chain break"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="23236">
+      <code value="EXPLOT"/>
+      <definition value="  Description:&#xD;&#xA;The lot from which the substance was drawn was expired."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="expired lot"/>
+      </designation>
+    </concept>
+    <concept id="23240">
+      <code value="OUTSIDESCHED"/>
+      <definition value=" The substance was administered outside of the recommended schedule or practice."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="administered outside recommended schedule or practice"/>
+      </designation>
+    </concept>
+    <concept id="23237">
+      <code value="PRODRECALL"/>
+      <definition value="  Description:&#xD;&#xA;The substance was recalled by the manufacturer."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="product recall"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20941">
+    <code value="_ActInvoiceCancelReason"/>
+    <definition value=" Domain specifies the codes used to describe reasons why a Provider is cancelling an Invoice or Invoice Grouping."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActInvoiceCancelReason"/>
+    </designation>
+    <concept id="19733">
+      <code value="INCCOVPTY"/>
+      <definition value=" The covered party (patient) specified with the Invoice is not correct."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="incorrect covered party as patient"/>
+      </designation>
+    </concept>
+    <concept id="19735">
+      <code value="INCINVOICE"/>
+      <definition value=" The billing information, specified in the Invoice Elements, is not correct.  This could include incorrect costing for items included in the Invoice."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="incorrect billing"/>
+      </designation>
+    </concept>
+    <concept id="19734">
+      <code value="INCPOLICY"/>
+      <definition value=" The policy specified with the Invoice is not correct.  For example, it may belong to another Adjudicator or Covered Party."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="incorrect policy"/>
+      </designation>
+    </concept>
+    <concept id="19736">
+      <code value="INCPROV"/>
+      <definition value=" The provider specified with the Invoice is not correct."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="incorrect provider"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21529">
+    <code value="_ActNoImmunizationReason"/>
+    <definition value=" A coded description of the reason for why a patient did not receive a scheduled immunization. (important for public health strategy"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActNoImmunizationReason"/>
+    </designation>
+    <concept id="21745">
+      <code value="IMMUNE"/>
+      <definition value="  Definition:&#xD;&#xA;Testing has shown that the patient already has immunity to the agent targeted by the immunization."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="immunity"/>
+      </designation>
+    </concept>
+    <concept id="21747">
+      <code value="MEDPREC"/>
+      <definition value="  Definition:&#xD;&#xA;The patient currently has a medical condition for which the vaccine is contraindicated or for which precaution is warranted."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="medical precaution"/>
+      </designation>
+    </concept>
+    <concept id="21744">
+      <code value="OSTOCK"/>
+      <definition value="  Definition:&#xD;&#xA;There was no supply of the product on hand to perform the service."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="product out of stock"/>
+      </designation>
+    </concept>
+    <concept id="21740">
+      <code value="PATOBJ"/>
+      <definition value="  Definition:&#xD;&#xA;The patient or their guardian objects to receiving the vaccine."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="patient objection"/>
+      </designation>
+    </concept>
+    <concept id="21742">
+      <code value="PHILISOP"/>
+      <definition value="  Definition:&#xD;&#xA;The patient or their guardian objects to receiving the vaccine because of philosophical beliefs."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="philosophical objection"/>
+      </designation>
+    </concept>
+    <concept id="21741">
+      <code value="RELIG"/>
+      <definition value="  Definition:&#xD;&#xA;The patient or their guardian objects to receiving the vaccine on religious grounds."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="religious objection"/>
+      </designation>
+    </concept>
+    <concept id="21746">
+      <code value="VACEFF"/>
+      <definition value="  Definition:&#xD;&#xA;The intended vaccine has expired or is otherwise believed to no longer be effective.  Example:&#xD;&#xA;Due to temperature exposure."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="vaccine efficacy concerns"/>
+      </designation>
+    </concept>
+    <concept id="21743">
+      <code value="VACSAF"/>
+      <definition value="  Definition:&#xD;&#xA;The patient or their guardian objects to receiving the vaccine because of concerns over its safety."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="vaccine safety concerns"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21530">
+    <code value="_ActSupplyFulfillmentRefusalReason"/>
+    <definition value=" Indicates why a fulfiller refused to fulfill a supply order, and considered it important to notify other providers of their decision.  E.g. &quot;Suspect fraud&quot;, &quot;Possible abuse&quot;, &quot;Contraindicated&quot;. (used when capturing &#39;refusal to fill&#39; annotations)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActSupplyFulfillmentRefusalReason"/>
+    </designation>
+    <concept id="21748">
+      <code value="FRR01"/>
+      <definition value="  Definition:&#xD;&#xA;The order has been stopped by the prescriber but this fact has not necessarily captured electronically.  Example:&#xD;&#xA;A verbal stop, a fax, etc."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="order stopped"/>
+      </designation>
+    </concept>
+    <concept id="21749">
+      <code value="FRR02"/>
+      <definition value="  Definition:&#xD;&#xA;Order has not been fulfilled within a reasonable amount of time, and may not be current."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="stale-dated order"/>
+      </designation>
+    </concept>
+    <concept id="21750">
+      <code value="FRR03"/>
+      <definition value="  Definition:&#xD;&#xA;Data needed to safely act on the order which was expected to become available independent of the order is not yet available  Example:&#xD;&#xA;Lab results, diagnostic imaging, etc."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="incomplete data"/>
+      </designation>
+    </concept>
+    <concept id="21751">
+      <code value="FRR04"/>
+      <definition value="  Definition:&#xD;&#xA;Product not available or manufactured. Cannot supply."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="product unavailable"/>
+      </designation>
+    </concept>
+    <concept id="21752">
+      <code value="FRR05"/>
+      <definition value="  Definition:&#xD;&#xA;The dispenser has ethical, religious or moral objections to fulfilling the order/dispensing the product."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ethical/religious"/>
+      </designation>
+    </concept>
+    <concept id="21753">
+      <code value="FRR06"/>
+      <definition value="  Definition:&#xD;&#xA;Fulfiller not able to provide appropriate care associated with fulfilling the order.  Example:&#xD;&#xA;Therapy requires ongoing monitoring by fulfiller and fulfiller will be ending practice, leaving town, unable to schedule necessary time, etc."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="unable to provide care"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22391">
+    <code value="_ClinicalResearchEventReason"/>
+    <definition value="  Definition:&#xD;&#xA;Specifies the reason that an event occurred in a clinical research study."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ClinicalResearchEventReason"/>
+    </designation>
+    <concept id="21623">
+      <code value="RET"/>
+      <definition value="  Definition:&#xD;&#xA;The event occurred so that a test or observation performed at a prior event could be performed again due to conditions set forth in the protocol."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="retest"/>
+      </designation>
+    </concept>
+    <concept id="21622">
+      <code value="SCH"/>
+      <definition value="  Definition:&#xD;&#xA;The event occurred due to it being scheduled in the research protocol."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="scheduled"/>
+      </designation>
+    </concept>
+    <concept id="21624">
+      <code value="TRM"/>
+      <definition value="  Definition:&#xD;&#xA;The event occurred in order to terminate the subject&#39;s participation in the study."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="termination"/>
+      </designation>
+    </concept>
+    <concept id="21625">
+      <code value="UNS"/>
+      <definition value="  Definition:&#xD;&#xA;The event that occurred was initiated by a study participant (e.g. the subject or the investigator), and did not occur for protocol reasons."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="unscheduled"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22392">
+    <code value="_ClinicalResearchObservationReason"/>
+    <definition value="  Definition:&#xD;&#xA;SSpecifies the reason that a test was performed or observation collected in a clinical research study.  Note:&#xD;&#xA;This set of codes are not strictly reasons, but are used in the currently Normative standard.  Future revisions of the specification will model these as ActRelationships and thes codes may subsequently be retired.  Thus, these codes should not be used for new specifications."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ClinicalResearchObservationReason"/>
+    </designation>
+    <concept id="21628">
+      <code value="NPT"/>
+      <definition value="  Definition:&#xD;&#xA;The observation or test was neither defined or scheduled in the study protocol."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="non-protocol"/>
+      </designation>
+    </concept>
+    <concept id="21626">
+      <code value="PPT"/>
+      <definition value="  Definition:&#xD;&#xA;The observation or test occurred due to it being defined in the research protocol, and during an activity or event that was scheduled in the protocol."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="per protocol"/>
+      </designation>
+    </concept>
+    <concept id="21627">
+      <code value="UPT"/>
+      <definition value="  :&#xD;&#xA;The observation or test occurred as defined in the research protocol, but at a point in time not specified in the study protocol."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="per definition"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22393">
+    <code value="_CombinedPharmacyOrderSuspendReasonCode"/>
+    <definition value="  Description:&#xD;&#xA;Indicates why the prescription should be suspended."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="CombinedPharmacyOrderSuspendReasonCode"/>
+    </designation>
+    <concept id="21691">
+      <code value="ALTCHOICE"/>
+      <definition value="  Description:&#xD;&#xA;This therapy has been ordered as a backup to a preferred therapy.  This order will be released when and if the preferred therapy is unsuccessful."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="try another treatment first"/>
+      </designation>
+    </concept>
+    <concept id="21689">
+      <code value="CLARIF"/>
+      <definition value="  Description:&#xD;&#xA;Clarification is required before the order can be acted upon."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="prescription requires clarification"/>
+      </designation>
+    </concept>
+    <concept id="21694">
+      <code value="DRUGHIGH"/>
+      <definition value="  Description:&#xD;&#xA;The current level of the medication in the patient&#39;s system is too high.  The medication is suspended to allow the level to subside to a safer level."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="drug level too high"/>
+      </designation>
+    </concept>
+    <concept id="21684">
+      <code value="HOSPADM"/>
+      <definition value="  Description:&#xD;&#xA;The patient has been admitted to a care facility and their community medications are suspended until hospital discharge."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="admission to hospital"/>
+      </designation>
+    </concept>
+    <concept id="21687">
+      <code value="LABINT"/>
+      <definition value="  Description:&#xD;&#xA;The therapy would interfere with a planned lab test and the therapy is being withdrawn until the test is completed."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="lab interference issues"/>
+      </designation>
+    </concept>
+    <concept id="21695">
+      <code value="NON-AVAIL"/>
+      <definition value="  Description:&#xD;&#xA;Patient not available for a period of time due to a scheduled therapy, leave of absence or other reason."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="patient not-available"/>
+      </designation>
+    </concept>
+    <concept id="21692">
+      <code value="PREG"/>
+      <definition value="  Description:&#xD;&#xA;The patient is pregnant or breast feeding.  The therapy will be resumed when the pregnancy is complete and the patient is no longer breastfeeding."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="parent is pregnant/breast feeding"/>
+      </designation>
+    </concept>
+    <concept id="21685">
+      <code value="SALG"/>
+      <definition value="  Description:&#xD;&#xA;The patient is believed to be allergic to a substance that is part of the therapy and the therapy is being temporarily withdrawn to confirm."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="allergy"/>
+      </designation>
+    </concept>
+    <concept id="21690">
+      <code value="SDDI"/>
+      <definition value="  Description:&#xD;&#xA;The drug interacts with a short-term treatment that is more urgently required.  This order will be resumed when the short-term treatment is complete."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="drug interacts with another drug"/>
+      </designation>
+    </concept>
+    <concept id="21688">
+      <code value="SDUPTHER"/>
+      <definition value="  Description:&#xD;&#xA;Another short-term co-occurring therapy fulfills the same purpose as this therapy.  This therapy will be resumed when the co-occuring therapy is complete."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="duplicate therapy"/>
+      </designation>
+    </concept>
+    <concept id="21686">
+      <code value="SINTOL"/>
+      <definition value="  Description:&#xD;&#xA;The patient is believed to have an intolerance to a substance that is part of the therapy and the therapy is being temporarily withdrawn to confirm."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="suspected intolerance"/>
+      </designation>
+    </concept>
+    <concept id="21696">
+      <code value="SURG"/>
+      <definition value="  Description:&#xD;&#xA;The drug is contraindicated for patients receiving surgery and the patient is scheduled to be admitted for surgery in the near future.  The drug will be resumed when the patient has sufficiently recovered from the surgery."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="patient scheduled for surgery"/>
+      </designation>
+    </concept>
+    <concept id="21693">
+      <code value="WASHOUT"/>
+      <definition value="  Description:&#xD;&#xA;The patient was previously receiving a medication contraindicated with the current medication.  The current medication will remain on hold until the prior medication has been cleansed from their system."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="waiting for old drug to wash out"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22809">
+    <code value="_ControlActNullificationReasonCode"/>
+    <definition value="  Description:&#xD;&#xA;Identifies reasons for nullifying (retracting) a particular control act."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ControlActNullificationReasonCode"/>
+    </designation>
+    <concept id="22024">
+      <code value="ALTD"/>
+      <definition value="  Description:&#xD;&#xA;The decision on which the recorded information was based was changed before the decision had an effect.  Example:&#xD;&#xA;Aborted prescription before patient left office, released prescription before suspend took effect."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="altered decision"/>
+      </designation>
+    </concept>
+    <concept id="22023">
+      <code value="EIE"/>
+      <definition value="  Description:&#xD;&#xA;The information was recorded incorrectly or was recorded in the wrong record."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="entered in error"/>
+      </designation>
+    </concept>
+    <concept id="22908">
+      <code value="NORECMTCH"/>
+      <definition value="  Description:&#xD;&#xA;There is no match for the record in the database."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="no record match"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="23277">
+    <code value="_ControlActNullificationRefusalReasonType"/>
+    <definition value="  Description:&#xD;&#xA;Reasons to refuse a transaction to be undone."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ControlActNullificationRefusalReasonType"/>
+    </designation>
+    <concept id="23015">
+      <code value="INRQSTATE"/>
+      <definition value=" The record is already in the requested state."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="in requested state"/>
+      </designation>
+    </concept>
+    <concept id="22907">
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="NORECMTCH"/>
+      </extension>
+      <code value="NOMATCH"/>
+      <definition value="  Description:&#xD;&#xA;There is no match."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="no match"/>
+      </designation>
+      <concept id="22909">
+        <code value="NOPRODMTCH"/>
+        <definition value="  Description:&#xD;&#xA;There is no match for the product in the master file repository."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="no product match"/>
+        </designation>
+      </concept>
+      <concept id="22910">
+        <code value="NOSERMTCH"/>
+        <definition value="  Description:&#xD;&#xA;There is no match for the service in the master file repository."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="no service match"/>
+        </designation>
+      </concept>
+      <concept id="23279">
+        <code value="NOVERMTCH"/>
+        <definition value="  Description:&#xD;&#xA;There is no match for the record and version."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="no version match"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="22911">
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="NOUSERPERM"/>
+      </extension>
+      <code value="NOPERM"/>
+      <definition value="  Description:&#xD;&#xA;There is no permission."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="no permission"/>
+      </designation>
+      <concept id="22913">
+        <code value="NOAGNTPERM"/>
+        <definition value="  Description:&#xD;&#xA;The agent does not have permission."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="no agent permission"/>
+        </designation>
+      </concept>
+      <concept id="22912">
+        <code value="NOUSRPERM"/>
+        <definition value="  Description:&#xD;&#xA;The user does not have permission."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="no user permission"/>
+        </designation>
+        <property>
+          <code value="status"/>
+          <valueCode value="retired"/>
+        </property>
+      </concept>
+    </concept>
+    <concept id="23278">
+      <code value="WRNGVER"/>
+      <definition value="  Description:&#xD;&#xA;The record and version requested to update is not the current version."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="wrong version"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21491">
+    <code value="_ControlActReason"/>
+    <definition value=" Identifies why a specific query, request, or other trigger event occurred."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ControlActReason"/>
+    </designation>
+    <concept id="21701">
+      <code value="_MedicationOrderAbortReasonCode"/>
+      <definition value="  Description:&#xD;&#xA;Indicates the reason the medication order should be aborted."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="medication order abort reason"/>
+      </designation>
+      <concept id="21706">
+        <code value="DISCONT"/>
+        <definition value="  Description:&#xD;&#xA;The medication is no longer being manufactured or is otherwise no longer available."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="product discontinued"/>
+        </designation>
+      </concept>
+      <concept id="21703">
+        <code value="INEFFECT"/>
+        <definition value="  Description:&#xD;&#xA;The therapy has been found to not have the desired therapeutic benefit on the patient."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="ineffective"/>
+        </designation>
+      </concept>
+      <concept id="21702">
+        <code value="MONIT"/>
+        <definition value="  Description:&#xD;&#xA;Monitoring the patient while taking the medication, the decision has been made that the therapy is no longer appropriate."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="response to monitoring"/>
+        </designation>
+      </concept>
+      <concept id="21704">
+        <code value="NOREQ"/>
+        <definition value="  Description:&#xD;&#xA;The underlying condition has been resolved or has evolved such that a different treatment is no longer needed."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="no longer required for treatment"/>
+        </designation>
+      </concept>
+      <concept id="21709">
+        <code value="NOTCOVER"/>
+        <definition value="  Description:&#xD;&#xA;The product does not have (or no longer has) coverage under the patientaTMs insurance policy."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="not covered"/>
+        </designation>
+      </concept>
+      <concept id="21710">
+        <code value="PREFUS"/>
+        <definition value="  Description:&#xD;&#xA;The patient refused to take the product."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="patient refuse"/>
+        </designation>
+      </concept>
+      <concept id="21707">
+        <code value="RECALL"/>
+        <definition value="  Description:&#xD;&#xA;The manufacturer or other agency has requested that stocks of a medication be removed from circulation."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="product recalled"/>
+        </designation>
+      </concept>
+      <concept id="23262">
+        <code value="REPLACE"/>
+        <definition value="  Description:&#xD;&#xA;Item in current order is no longer in use as requested and a new one has/will be created to replace it."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="change in order"/>
+        </designation>
+        <concept id="21705">
+          <code value="DOSECHG"/>
+          <definition value="  Description:&#xD;&#xA;The medication is being re-prescribed at a different dosage."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="change in medication/dose"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="23263">
+        <code value="REPLACEFIX"/>
+        <definition value="  Description:&#xD;&#xA;Current order was issued with incorrect data and a new order has/will be created to replace it."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="error in order"/>
+        </designation>
+      </concept>
+      <concept id="21708">
+        <code value="UNABLE"/>
+        <definition value="  Description:&#xD;&#xA;&lt;The patient is not (or is no longer) able to use the medication in a manner prescribed.  Example:&#xD;&#xA;CanaTMt swallow."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="unable to use"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21711">
+      <code value="_MedicationOrderReleaseReasonCode"/>
+      <definition value="  Definition:&#xD;&#xA;A collection of concepts that indicate why the prescription should be released from suspended state."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="medication order release reason"/>
+      </designation>
+      <concept id="21713">
+        <code value="HOLDDONE"/>
+        <definition value="  Definition:&#xD;&#xA;The original reason for suspending the medication has ended."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="suspend reason no longer applies"/>
+        </designation>
+      </concept>
+      <concept id="21712">
+        <code value="HOLDINAP"/>
+        <definition value="  Definition:&#xD;&#xA;"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="suspend reason inappropriate"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="23634">
+      <code value="_ModifyPrescriptionReasonType"/>
+      <definition value=" Types of reason why a prescription is being changed."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ModifyPrescriptionReasonType"/>
+      </designation>
+      <concept id="23635">
+        <code value="ADMINERROR"/>
+        <definition value=" Order was created with incorrect data and is changed to reflect the intended accuracy of the order."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="administrative error in order"/>
+        </designation>
+      </concept>
+      <concept id="23636">
+        <code value="CLINMOD"/>
+        <definition value=" Order is changed based on a clinical reason."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="clinical modification"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="22849">
+      <code value="_PharmacySupplyEventAbortReason"/>
+      <definition value="  Definition:&#xD;&#xA;Identifies why the dispense event was not completed."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="PharmacySupplyEventAbortReason"/>
+      </designation>
+      <concept id="22855">
+        <code value="CONTRA"/>
+        <definition value="  Definition:&#xD;&#xA;Contraindication identified"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="contraindication"/>
+        </designation>
+      </concept>
+      <concept id="22852">
+        <code value="FOABORT"/>
+        <definition value="  Definition:&#xD;&#xA;Order to be fulfilled was aborted"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="order aborted"/>
+        </designation>
+      </concept>
+      <concept id="22853">
+        <code value="FOSUSP"/>
+        <definition value="  Definition:&#xD;&#xA;Order to be fulfilled was suspended"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="order suspended"/>
+        </designation>
+      </concept>
+      <concept id="22850">
+        <code value="NOPICK"/>
+        <definition value="  Definition:&#xD;&#xA;Patient did not come to get medication"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="not picked up"/>
+        </designation>
+      </concept>
+      <concept id="22851">
+        <code value="PATDEC"/>
+        <definition value="  Definition:&#xD;&#xA;Patient changed their mind regarding obtaining medication"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="patient changed mind"/>
+        </designation>
+      </concept>
+      <concept id="22854">
+        <code value="QUANTCHG"/>
+        <definition value="  Definition:&#xD;&#xA;Patient requested a revised quantity of medication"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="change supply quantity"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21721">
+      <code value="_PharmacySupplyEventStockReasonCode"/>
+      <definition value="  Definition:&#xD;&#xA;A collection of concepts that indicates the reason for a &quot;bulk supply&quot; of medication."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="pharmacy supply event stock reason"/>
+      </designation>
+      <concept id="21722">
+        <code value="FLRSTCK"/>
+        <definition value="  Definition:&#xD;&#xA;The bulk supply is issued to replenish a ward for local dispensing.  (Includes both mobile and fixed-location ward stocks.)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="floor stock"/>
+        </designation>
+      </concept>
+      <concept id="21725">
+        <code value="LTC"/>
+        <definition value="  Definition:&#xD;&#xA;The bulk supply will be administered within a long term care facility."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="long term care use"/>
+        </designation>
+      </concept>
+      <concept id="21724">
+        <code value="OFFICE"/>
+        <definition value="  Definition:&#xD;&#xA;The bulk supply is intended for general clinician office use."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="office use"/>
+        </designation>
+      </concept>
+      <concept id="21726">
+        <code value="PHARM"/>
+        <definition value="  Definition:&#xD;&#xA;The bulk supply is being transferred to another dispensing facility to.  Example:&#xD;&#xA;Alleviate a temporary shortage."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="pharmacy transfer"/>
+        </designation>
+      </concept>
+      <concept id="21723">
+        <code value="PROG"/>
+        <definition value="  Definition:&#xD;&#xA;The bulk supply is intended for dispensing according to a specific program.  Example:&#xD;&#xA;Mass immunization."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="program use"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21727">
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="DISCONT"/>
+      </extension>
+      <code value="_PharmacySupplyRequestRenewalRefusalReasonCode"/>
+      <definition value="  Definition:&#xD;&#xA;A collection of concepts that identifies why a renewal prescription has been refused."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="pharmacy supply request renewal refusal reason"/>
+      </designation>
+      <concept id="21732">
+        <code value="ALREADYRX"/>
+        <definition value="  Definition:&#xD;&#xA;Patient has already been given a new (renewal) prescription."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="new prescription exists"/>
+        </designation>
+      </concept>
+      <concept id="21731">
+        <code value="FAMPHYS"/>
+        <definition value="  Definition:&#xD;&#xA;Request for further authorization must be done through patient&#39;s family physician."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="family physician must authorize further fills"/>
+        </designation>
+      </concept>
+      <concept id="21733">
+        <code value="MODIFY"/>
+        <definition value="  Definition:&#xD;&#xA;Therapy has been changed and new prescription issued"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="modified prescription exists"/>
+        </designation>
+      </concept>
+      <concept id="21728">
+        <code value="NEEDAPMT"/>
+        <definition value="  Definition:&#xD;&#xA;Patient must see prescriber prior to further fills."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="patient must make appointment"/>
+        </designation>
+      </concept>
+      <concept id="21730">
+        <code value="NOTAVAIL"/>
+        <definition value="  Definition:&#xD;&#xA;Original prescriber is no longer available to prescribe and no other prescriber has taken responsibility for the patient."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="prescriber not available"/>
+        </designation>
+      </concept>
+      <concept id="21729">
+        <code value="NOTPAT"/>
+        <definition value="  Definition:&#xD;&#xA;Patient no longer or has never been under this prescribers care."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="patient no longer in this practice"/>
+        </designation>
+      </concept>
+      <concept id="21734">
+        <code value="ONHOLD"/>
+        <definition value="  Definition:&#xD;&#xA;This medication is on hold."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="medication on hold"/>
+        </designation>
+      </concept>
+      <concept id="22867">
+        <code value="PRNA"/>
+        <definition value="  Description:&#xD;&#xA;This product is not available or manufactured."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="product not available"/>
+        </designation>
+      </concept>
+      <concept id="23625">
+        <code value="STOPMED"/>
+        <definition value=" Renewing or original prescriber informed patient to stop using the medication."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="prescriber stopped medication for patient"/>
+        </designation>
+      </concept>
+      <concept id="21735">
+        <code value="TOOEARLY"/>
+        <definition value="  Definition:&#xD;&#xA;The patient should have medication remaining."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="too early"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21736">
+      <code value="_SupplyOrderAbortReasonCode"/>
+      <definition value="  Definition:&#xD;&#xA;A collection of concepts that indicates why the prescription should no longer be allowed to be dispensed (but can still administer what is already being dispensed)."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="supply order abort reason"/>
+      </designation>
+      <concept id="21737">
+        <code value="IMPROV"/>
+        <definition value="  Definition:&#xD;&#xA;The patient&#39;s medical condition has nearly abated."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="condition improved"/>
+        </designation>
+      </concept>
+      <concept id="21990">
+        <code value="INTOL"/>
+        <definition value="  Description:&#xD;&#xA;The patient has an intolerance to the medication."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="intolerance"/>
+        </designation>
+      </concept>
+      <concept id="21739">
+        <code value="NEWSTR"/>
+        <definition value="  Definition:&#xD;&#xA;The current medication will be replaced by a new strength of the same medication."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="new strength"/>
+        </designation>
+      </concept>
+      <concept id="21738">
+        <code value="NEWTHER"/>
+        <definition value="  Definition:&#xD;&#xA;A new therapy will be commenced when current supply exhausted."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="new therapy"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21492">
+      <code value="_ControlActReasonConditionNullify"/>
+      <definition value=" Indicates why the ConditionaTMs status was changed to Nullified.Examples&#xD;&#xA;administrative error, diagnostic error."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ControlActReasonConditionNullify"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+  </concept>
+  <concept id="22395">
+    <code value="_GenericUpdateReasonCode"/>
+    <definition value="  Description:&#xD;&#xA;Identifies why a change is being made to a  record."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="GenericUpdateReasonCode"/>
+    </designation>
+    <concept id="21673">
+      <code value="CHGDATA"/>
+      <definition value="  Description:&#xD;&#xA;Information has changed since the record was created."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="information change"/>
+      </designation>
+    </concept>
+    <concept id="21674">
+      <code value="FIXDATA"/>
+      <definition value="  Description:&#xD;&#xA;Previously recorded information was erroneous and is being corrected."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="error correction"/>
+      </designation>
+    </concept>
+    <concept id="23469">
+      <code value="MDATA"/>
+      <definition value=" Information is combined into the record."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="merge data"/>
+      </designation>
+    </concept>
+    <concept id="21672">
+      <code value="NEWDATA"/>
+      <definition value="  Description:&#xD;&#xA;New information has become available to supplement the record."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="new information"/>
+      </designation>
+    </concept>
+    <concept id="23470">
+      <code value="UMDATA"/>
+      <definition value=" Information is separated from the record."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="unmerge data"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21715">
+    <code value="_PatientProfileQueryReasonCode"/>
+    <definition value="  Definition:&#xD;&#xA;A collection of concepts identifying why the patient&#39;s profile is being queried."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="patient profile query reason"/>
+    </designation>
+    <concept id="22221">
+      <code value="ADMREV"/>
+      <definition value="  Definition:&#xD;&#xA;To evaluate for service authorization, payment, reporting, or performance/outcome measures."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="administrative review"/>
+      </designation>
+    </concept>
+    <concept id="21719">
+      <code value="LEGAL"/>
+      <definition value="  Definition:&#xD;&#xA;To provide information as a result of a subpoena."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="subpoena"/>
+      </designation>
+    </concept>
+    <concept id="21717">
+      <code value="PATCAR"/>
+      <definition value="  Definition:&#xD;&#xA;To obtain records as part of patient care."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="patient care"/>
+      </designation>
+    </concept>
+    <concept id="21716">
+      <code value="PATREQ"/>
+      <definition value="  Definition:&#xD;&#xA;Patient requests information from their profile."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="patient request query"/>
+      </designation>
+    </concept>
+    <concept id="21720">
+      <code value="PRCREV"/>
+      <definition value="  Definition:&#xD;&#xA;To evaluate the provider&#39;s current practice for professional-improvement reasons."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="practice review"/>
+      </designation>
+    </concept>
+    <concept id="21991">
+      <code value="REGUL"/>
+      <definition value="  Description:&#xD;&#xA;Review for the purpose of regulatory compliance."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="regulatory review"/>
+      </designation>
+    </concept>
+    <concept id="21718">
+      <code value="RSRCH"/>
+      <definition value="  Definition:&#xD;&#xA;To provide research data, as authorized by the patient."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="research"/>
+      </designation>
+    </concept>
+    <concept id="21992">
+      <code value="VALIDATION"/>
+      <definition value="  Description:&#xD;&#xA;To validate the patient&#39;s record.  Example:&#xD;&#xA;Merging or unmerging records."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="validation review"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22863">
+    <code value="_PharmacySupplyRequestFulfillerRevisionRefusalReasonCode"/>
+    <definition value="  Definition:&#xD;&#xA;Indicates why the request to transfer a prescription from one dispensing facility to another has been refused."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PharmacySupplyRequestFulfillerRevisionRefusalReasonCode"/>
+    </designation>
+    <concept id="22864">
+      <code value="LOCKED"/>
+      <definition value="  Definition:&#xD;&#xA;The prescription may not be reassigned from the original pharmacy."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="locked"/>
+      </designation>
+    </concept>
+    <concept id="22865">
+      <code value="NOUSERPERM"/>
+      <definition value="  Definition:&#xD;&#xA;The user does not have permission"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="no user permission"/>
+      </designation>
+    </concept>
+    <concept id="22866">
+      <code value="UNKWNTARGET"/>
+      <definition value="  Definition:&#xD;&#xA;The target facility does not recognize the dispensing facility."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="unknown target"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22906">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="NOMATCH"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="NOPERM"/>
+    </extension>
+    <code value="_RefusalReasonCode"/>
+    <definition value="  Description:&#xD;&#xA;Identifies why a request to add (or activate) a record is being refused.  Examples include the receiving system not able to match the identifier and find that record in the receiving system, having no permission, or a detected issue exists which precludes the requested action."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RefusalReasonCode"/>
+    </designation>
+  </concept>
+  <concept id="20942">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="PAT"/>
+    </extension>
+    <code value="_SchedulingActReason"/>
+    <definition value=" Reasons for cancelling or rescheduling an Appointment"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SchedulingActReason"/>
+    </designation>
+    <concept id="14885">
+      <code value="BLK"/>
+      <definition value=" The time slots previously allocated are now blocked and no longer available for booking Appointments"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Unexpected Block (of Schedule)"/>
+      </designation>
+    </concept>
+    <concept id="14884">
+      <code value="DEC"/>
+      <definition value=" The Patient is deceased"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Patient Deceased"/>
+      </designation>
+    </concept>
+    <concept id="14882">
+      <code value="FIN"/>
+      <definition value=" Patient unable to pay and not covered by insurance"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="No Financial Backing"/>
+      </designation>
+    </concept>
+    <concept id="14883">
+      <code value="MED"/>
+      <definition value=" The medical condition of the Patient has changed"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Medical Status Altered"/>
+      </designation>
+    </concept>
+    <concept id="14886">
+      <code value="MTG"/>
+      <definition value=" The Physician is in a meeting.  For example, he/she may request administrative time to talk to family after appointment"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="In an outside meeting"/>
+      </designation>
+    </concept>
+    <concept id="14881">
+      <code value="PHY"/>
+      <definition value=" The Physician requested the action"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Physician request"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="23014">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="NORECMTCH"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="INRQSTATE"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="NOUSERPERM"/>
+    </extension>
+    <code value="_StatusRevisionRefusalReasonCode"/>
+    <definition value=" Indicates why the act revision (status update) is being refused."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="StatusRevisionRefusalReasonCode"/>
+    </designation>
+    <concept id="23016">
+      <code value="FILLED"/>
+      <definition value=" Ordered quantity has already been completely fulfilled."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="fully filled"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22856">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="NOUSERPERM"/>
+    </extension>
+    <code value="_SubstanceAdministrationPermissionRefusalReasonCode"/>
+    <definition value="  Definition:&#xD;&#xA;Indicates why the requested authorization to prescribe or dispense a medication has been refused."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SubstanceAdministrationPermissionRefusalReasonCode"/>
+    </designation>
+    <concept id="22858">
+      <code value="PATINELIG"/>
+      <definition value="  Definition:&#xD;&#xA;Patient not eligible for drug"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="patient not eligible"/>
+      </designation>
+    </concept>
+    <concept id="22857">
+      <code value="PROTUNMET"/>
+      <definition value="  Definition:&#xD;&#xA;Patient does not meet required protocol"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="protocol not met"/>
+      </designation>
+    </concept>
+    <concept id="22859">
+      <code value="PROVUNAUTH"/>
+      <definition value="  Definition:&#xD;&#xA;Provider is not authorized to prescribe or dispense"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="provider not authorized"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21531">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="PAT"/>
+    </extension>
+    <code value="_SubstanceAdminSubstitutionNotAllowedReason"/>
+    <definition value=" Reasons why substitution of a substance administration request is not permitted."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SubstanceAdminSubstitutionNotAllowedReason"/>
+    </designation>
+    <concept id="22259">
+      <code value="ALGINT"/>
+      <definition value="  Definition:&#xD;&#xA;Patient has had a prior allergic intolerance response to alternate product or one of its components."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="allergy intolerance"/>
+      </designation>
+    </concept>
+    <concept id="22260">
+      <code value="COMPCON"/>
+      <definition value="  Definition:&#xD;&#xA;Patient has compliance issues with medication such as differing appearance, flavor, size, shape or consistency."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="compliance concern"/>
+      </designation>
+    </concept>
+    <concept id="21815">
+      <code value="THERCHAR"/>
+      <definition value=" The prescribed product has specific clinical release or other therapeutic characteristics not shared by other substitutable medications."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="therapeutic characteristics"/>
+      </designation>
+    </concept>
+    <concept id="22261">
+      <code value="TRIAL"/>
+      <definition value="  Definition:&#xD;&#xA;The specific manufactured drug is part of a clinical trial."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="clinical trial drug"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20943">
+    <code value="_SubstanceAdminSubstitutionReason"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SubstanceAdminSubstitutionReason"/>
+    </designation>
+    <concept id="19989">
+      <code value="CT"/>
+      <definition value=" Indicates that the decision to substitute or to not substitute was driven by a desire to maintain consistency with a pre-existing therapy.  I.e. The performer provided the same item/service as had been previously provided rather than providing exactly what was ordered, or rather than substituting with a lower-cost equivalent."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="continuing therapy"/>
+      </designation>
+    </concept>
+    <concept id="19990">
+      <code value="FP"/>
+      <definition value=" Indicates that the decision to substitute or to not substitute was driven by a policy expressed within the formulary."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="formulary policy"/>
+      </designation>
+    </concept>
+    <concept id="19987">
+      <code value="OS"/>
+      <definition value=" In the case of &#39;substitution&#39;, indicates that the substitution occurred because the ordered item was not in stock.  In the case of &#39;no substitution&#39;, indicates that a cheaper equivalent was not substituted because it was not in stock."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="out of stock"/>
+      </designation>
+    </concept>
+    <concept id="19988">
+      <code value="RR"/>
+      <definition value=" Indicates that the decision to substitute or to not substitute was driven by a jurisdictional regulatory requirement mandating or prohibiting substitution."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="regulatory requirement"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20944">
+    <code value="_TransferActReason"/>
+    <definition value=" The explanation for why a patient is moved from one location to another within the organization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TransferActReason"/>
+    </designation>
+    <concept id="15984">
+      <code value="ER"/>
+      <definition value=" Moved to an error in placing the patient in the original location."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Error"/>
+      </designation>
+    </concept>
+    <concept id="15985">
+      <code value="RQ"/>
+      <definition value=" Moved at the request of the patient."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Request"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20938">
+    <code value="_ActAdjudicationReason"/>
+    <definition value=" Explanatory codes that describe reasons why an Adjudicator has financially adjusted an invoice (claim). A companion domain (ActAdjudicationInformationCode) includes information reasons which do not have a financial impact on an invoice (claim). Example adjudication reason code is  AA-CLAIM-0011 - Only Basic Procedure/Test Eligible. Codes from this domain further rationalizes ActAdjudicationCodes (e.g. AA - Adjudicated with Adjustment), which are used to describe the process of adjudicating an invoice.  For AS - Adjudicated as Submitted, there should be no specification of ActAdjudicationReason codes, as there are no financial adjustments against the invoice."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActAdjudicationReason"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22209">
+    <code value="_ActBillableServiceReason"/>
+    <definition value="  Definition:&#xD;&#xA;This domain is used to document reasons for providing a billable service; the billable services may include both clinical services and social services."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActBillableServiceReason"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <concept id="20939">
+      <code value="_ActBillableClinicalServiceReason"/>
+      <definition value=" Reason for Clinical Service being performed. This domain excludes reasons specified by diagnosed conditions. Examples of values from this domain include duplicate therapy and fraudulent prescription."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="ActBillableClinicalServiceReason"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+      <concept id="22210">
+        <code value="_MedicallyNecessaryDuplicateProcedureReason"/>
+        <definition value="  Definition:&#xD;&#xA;This domain is used to document why the procedure is a duplicate of one ordered/charged previously for the same patient within the same date of service and has been determined to be medically necessary.  Example:&#xD;&#xA;A doctor needs a different view in a chest X-Ray."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="MedicallyNecessaryDuplicateProcedureReason"/>
+        </designation>
+        <property>
+          <code value="status"/>
+          <valueCode value="retired"/>
+        </property>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="22081">
+    <code value="_ActCoverageLevelRasonCode"/>
+    <definition value="  Description:&#xD;&#xA;Represents the reason for the level of coverage provided under the policy or program in terms of the types of entities that may play covered parties based on their personal relationships or employment status."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActCoverageLevelRasonCode"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22077">
+    <code value="_ActImmunizationReason"/>
+    <definition value="  Description:&#xD;&#xA;A coded description of the reason for why a patient was administered an immunization.  Examples:&#xD;&#xA;Post Exposure - Reason, Universal Immunization Program, Outbreak Control, Universal School Program"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActImmunizationReason"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22394">
+    <code value="_ConrolActNullificationReasonCode"/>
+    <definition value="  Description:&#xD;&#xA;Identifies reasons for nullifying (retracting) a particular control act.  Examples:&#xD;&#xA;&quot;Entered in error&quot;, &quot;altered decision&quot;, etc."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ConrolActNullificationReasonCode"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="21569">
+    <code value="_NonPerformanceReasonCode"/>
+    <definition value=" The reason the action wasn&#39;t performed, e.g. why the medication was not taken. If an action wasn&quot;t performed, it is often clinically important to know why the action wasn&quot;t taken.  Examples:&#xD;&#xA;Patient refused, clinically inappropriate, absolute contraindication etc."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="NonPerformanceReasonCode"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="21408">
+    <code value="_ReasonForNotEvaluatingDevice"/>
+    <definition value=" Code assigned to indicate the rationale for not performing an evaluation investigation on a device for which a defect has been reported. Examples include: device received in a condition that made analysis impossible, device evaluation anticipated but not yet begun, device not made by company."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ReasonForNotEvaluatingDevice"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="21568">
+    <code value="_ReferralReasonCode"/>
+    <definition value=" The reason a referral was made.  Examples:&#xD;&#xA;Specialized Medical Assistance, Other Care Requirements."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ReferralReasonCode"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="17436">
+    <code value="BONUS"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22082">
+    <code value="CHD"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available only to children"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Children only"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22083">
+    <code value="DEP"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available only to a subscriber&#39;s dependents."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Dependents only"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22084">
+    <code value="ECH"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available to an employee and his or her children."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Employee and children"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="17438">
+    <code value="EDU"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22085">
+    <code value="EMP"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available only to an employee."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Employee only"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22086">
+    <code value="ESP"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available to an employee and his or her spouse."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Employee and spouse"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22087">
+    <code value="FAM"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available to a subscriber&#39;s family."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Family"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22088">
+    <code value="IND"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available to an individual."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Individual"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="19726">
+    <code value="INVOICE"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="17435">
+    <code value="PROA"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="17437">
+    <code value="RECOV"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="17434">
+    <code value="RETRO"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22089">
+    <code value="SPC"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available to a subscriber&#39;s spouse and children"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Spouse and children"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="22090">
+    <code value="SPO"/>
+    <definition value="  Description:&#xD;&#xA;The level of coverage under the policy or program is available only to a subscribers spouse"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Spouse only"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="19727">
+    <code value="TRAN"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

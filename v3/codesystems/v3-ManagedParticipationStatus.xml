@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ManagedParticipationStatus"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Codes representing the defined possible states of a Managed Participation, as defined by the Managed Participation class state machine.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ManagedParticipationStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1062"/>
+  </identifier>
+  <name value="ManagedParticipationStatus"/>
+  <title value="ManagedParticipationStatus"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Codes representing the defined possible states of a Managed Participation, as defined by the Managed Participation class state machine."/>
+  <content value="complete"/>
+  <concept id="15993">
+    <code value="normal"/>
+    <definition value=" The &#39;typical&#39; state. Excludes &quot;nullified&quot; which represents the termination state of a participation instance that was created in error."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="normal"/>
+    </designation>
+    <concept id="15996">
+      <code value="active"/>
+      <definition value=" The state representing the fact that the Participation is in progress."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="active"/>
+      </designation>
+    </concept>
+    <concept id="15995">
+      <code value="cancelled"/>
+      <definition value=" The terminal state resulting from cancellation of the Participation prior to activation."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="cancelled"/>
+      </designation>
+    </concept>
+    <concept id="15997">
+      <code value="completed"/>
+      <definition value=" The terminal state representing the successful completion of the Participation."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="completed"/>
+      </designation>
+    </concept>
+    <concept id="15994">
+      <code value="pending"/>
+      <definition value=" The state representing that fact that the Participation has not yet become active."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="pending"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="15998">
+    <code value="nullified"/>
+    <definition value=" The state representing the termination of a Participation instance that was created in error."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="nullified"/>
+    </designation>
+  </concept>
+</CodeSystem>

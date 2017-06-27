@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0048-2.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0048-2.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.20"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0048v2.1"/>
+  <title value="V2 Table: What subject filter"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0048 (What subject filter)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0048-2.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ADV"/>
+    <display value="Advice/Diagnosis"/>
+    <definition value="Advice/Diagnosis"/>
+  </concept>
+  <concept>
+    <code value="ANU"/>
+    <display value="Nursing Unit Look up"/>
+    <definition value="Nursing Unit Look up"/>
+  </concept>
+  <concept>
+    <code value="APN"/>
+    <display value="Patient name look up"/>
+    <definition value="Patient name look up"/>
+  </concept>
+  <concept>
+    <code value="CAN"/>
+    <display value="Cancel. Used to cancel a query"/>
+    <definition value="Cancel. Used to cancel a query"/>
+  </concept>
+  <concept>
+    <code value="DEM"/>
+    <display value="Demographics"/>
+    <definition value="Demographics"/>
+  </concept>
+  <concept>
+    <code value="MRI"/>
+    <display value="Most recent inpatient"/>
+    <definition value="Most recent inpatient"/>
+  </concept>
+  <concept>
+    <code value="MRO"/>
+    <display value="Most recent outpatient"/>
+    <definition value="Most recent outpatient"/>
+  </concept>
+  <concept>
+    <code value="OTH"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+  <concept>
+    <code value="PRO"/>
+    <display value="Procedure"/>
+    <definition value="Procedure"/>
+  </concept>
+  <concept>
+    <code value="RES"/>
+    <display value="Result"/>
+    <definition value="Result"/>
+  </concept>
+  <concept>
+    <code value="STA"/>
+    <display value="Status"/>
+    <definition value="Status"/>
+  </concept>
+</CodeSystem>

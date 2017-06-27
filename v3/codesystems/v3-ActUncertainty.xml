@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActUncertainty"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <i>OpenIssue: </i>Missing Description
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActUncertainty"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1053"/>
+  </identifier>
+  <name value="ActUncertainty"/>
+  <title value="ActUncertainty"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  OpenIssue:&#xD;&#xA;Missing Description"/>
+  <content value="complete"/>
+  <concept id="16900">
+    <code value="N"/>
+    <definition value=" Specifies that the act statement is made without explicit tagging of uncertainty. This is the normal statement, meaning that it is not free of errors and uncertainty may still exist."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="stated with no assertion of uncertainty"/>
+    </designation>
+  </concept>
+  <concept id="16901">
+    <code value="U"/>
+    <definition value=" Specifies that the originator of the Act statement does not have full confidence in the applicability (i.e., in event mood: factual truth) of the statement."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="stated with uncertainty"/>
+    </designation>
+  </concept>
+</CodeSystem>

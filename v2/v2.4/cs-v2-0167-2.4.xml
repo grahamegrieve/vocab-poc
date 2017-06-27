@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0167-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0167-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.85"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0167v2.4"/>
+  <title value="V2 Table: Substitution Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0167 (Substitution Status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0167-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="N"/>
+    <display value="No substitute was dispensed.  This is equivalent to the default (null) value."/>
+    <definition value="No substitute was dispensed.  This is equivalent to the default (null) value."/>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <display value="A generic substitution was dispensed."/>
+    <definition value="A generic substitution was dispensed."/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="A therapeutic substitution was dispensed."/>
+    <definition value="A therapeutic substitution was dispensed."/>
+  </concept>
+  <concept>
+    <code value="0"/>
+    <display value="No product selection indicated"/>
+    <definition value="No product selection indicated"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="Substitution not allowed by prescriber"/>
+    <definition value="Substitution not allowed by prescriber"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Substitution allowed - patient requested product dispensed"/>
+    <definition value="Substitution allowed - patient requested product dispensed"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Substitution allowed - pharmacist selected product dispensed"/>
+    <definition value="Substitution allowed - pharmacist selected product dispensed"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Substitution allowed - generic drug not in stock"/>
+    <definition value="Substitution allowed - generic drug not in stock"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Substitution allowed - brand drug dispensed as a generic"/>
+    <definition value="Substitution allowed - brand drug dispensed as a generic"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Substitution not allowed - brand drug mandated by law"/>
+    <definition value="Substitution not allowed - brand drug mandated by law"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Substitution allowed - generic drug not available in marketplace"/>
+    <definition value="Substitution allowed - generic drug not available in marketplace"/>
+  </concept>
+</CodeSystem>

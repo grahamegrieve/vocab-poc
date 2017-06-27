@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActPriority"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen. </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActPriority"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.7"/>
+  </identifier>
+  <name value="ActPriority"/>
+  <title value="ActPriority"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen."/>
+  <content value="complete"/>
+  <concept id="16868">
+    <code value="A"/>
+    <definition value=" As soon as possible, next highest priority after stat."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ASAP"/>
+    </designation>
+  </concept>
+  <concept id="16876">
+    <code value="CR"/>
+    <definition value=" Filler should contact the placer as soon as results are available, even for preliminary results.  (Was &quot;C&quot; in HL7 version 2.3&#39;s reporting priority.)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="callback results"/>
+    </designation>
+  </concept>
+  <concept id="16871">
+    <code value="CS"/>
+    <definition value=" Filler should contact the placer (or target) to schedule the service.  (Was &quot;C&quot; in HL7 version 2.3&#39;s TQ-priority component.)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="callback for scheduling"/>
+    </designation>
+    <concept id="16872">
+      <code value="CSP"/>
+      <definition value=" Filler should contact the placer to schedule the service.  (Was &quot;C&quot; in HL7 version 2.3&#39;s TQ-priority component.)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="callback placer for scheduling"/>
+      </designation>
+    </concept>
+    <concept id="16873">
+      <code value="CSR"/>
+      <definition value=" Filler should contact the service recipient (target) to schedule the service.  (Was &quot;C&quot; in HL7 version 2.3&#39;s TQ-priority component.)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="contact recipient for scheduling"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="12239">
+    <code value="EL"/>
+    <definition value=" Beneficial to the patient but not essential for survival."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="elective"/>
+    </designation>
+  </concept>
+  <concept id="12241">
+    <code value="EM"/>
+    <definition value=" An unforeseen combination of circumstances or the resulting state that calls for immediate action."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="emergency"/>
+    </designation>
+  </concept>
+  <concept id="16870">
+    <code value="P"/>
+    <definition value=" Used to indicate that a service is to be performed prior to a scheduled surgery.  When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service.  When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="preop"/>
+    </designation>
+  </concept>
+  <concept id="16875">
+    <code value="PRN"/>
+    <definition value=" An &quot;as needed&quot; order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="as needed"/>
+    </designation>
+  </concept>
+  <concept id="16869">
+    <code value="R"/>
+    <definition value=" Routine service, do at usual work hours."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="routine"/>
+    </designation>
+  </concept>
+  <concept id="16877">
+    <code value="RR"/>
+    <definition value=" A report should be prepared and sent as quickly as possible."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rush reporting"/>
+    </designation>
+  </concept>
+  <concept id="16867">
+    <code value="S"/>
+    <definition value=" With highest priority (e.g., emergency)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="stat"/>
+    </designation>
+  </concept>
+  <concept id="16874">
+    <code value="T"/>
+    <definition value=" It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="timing critical"/>
+    </designation>
+  </concept>
+  <concept id="20843">
+    <code value="UD"/>
+    <definition value=" Drug is to be used as directed by the prescriber."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="use as directed"/>
+    </designation>
+  </concept>
+  <concept id="12240">
+    <code value="UR"/>
+    <definition value=" Calls for prompt action."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="urgent"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0088-2.8.2"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0088-2.8.2"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:null"/>
+  </identifier>
+  <name value="V2Table0088v2.8.2"/>
+  <title value="V2 Table: Procedure Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0088 (Procedure Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0088-2.8.2"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="C4"/>
+    <display value="CPT-4"/>
+    <definition value="CPT-4"/>
+  </concept>
+  <concept>
+    <code value="C5"/>
+    <display value="CPT-5"/>
+    <definition value="CPT-5"/>
+  </concept>
+  <concept>
+    <code value="HCPCS"/>
+    <display value="CMS (formerly HCFA)  Common Procedure Coding System"/>
+    <definition value="CMS (formerly HCFA)  Common Procedure Coding System"/>
+  </concept>
+  <concept>
+    <code value="HPC"/>
+    <display value="CMS (formerly HCFA )Procedure Codes (HCPCS)"/>
+    <definition value="CMS (formerly HCFA )Procedure Codes (HCPCS)"/>
+  </concept>
+  <concept>
+    <code value="I10P"/>
+    <display value="ICD-10  Procedure Codes"/>
+    <definition value="ICD-10  Procedure Codes"/>
+  </concept>
+  <concept>
+    <code value="SCT"/>
+    <display value="SNOMED CT"/>
+    <definition value="SNOMED CT"/>
+  </concept>
+</CodeSystem>

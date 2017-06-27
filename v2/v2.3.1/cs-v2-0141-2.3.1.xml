@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0141-2.3.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0141-2.3.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.63"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0141v2.3.1"/>
+  <title value="V2 Table: Military Rank/Grade"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0141 (Military Rank/Grade)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0141-2.3.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="O1"/>
+    <display value="Officers 1"/>
+    <definition value="Officers 1"/>
+  </concept>
+  <concept>
+    <code value="O10"/>
+    <display value="Officers 10"/>
+    <definition value="Officers 10"/>
+  </concept>
+  <concept>
+    <code value="O2"/>
+    <display value="Officers 2"/>
+    <definition value="Officers 2"/>
+  </concept>
+  <concept>
+    <code value="O3"/>
+    <display value="Officers 3"/>
+    <definition value="Officers 3"/>
+  </concept>
+  <concept>
+    <code value="O4"/>
+    <display value="Officers 4"/>
+    <definition value="Officers 4"/>
+  </concept>
+  <concept>
+    <code value="O5"/>
+    <display value="Officers 5"/>
+    <definition value="Officers 5"/>
+  </concept>
+  <concept>
+    <code value="O6"/>
+    <display value="Officers 6"/>
+    <definition value="Officers 6"/>
+  </concept>
+  <concept>
+    <code value="O7"/>
+    <display value="Officers 7"/>
+    <definition value="Officers 7"/>
+  </concept>
+  <concept>
+    <code value="O8"/>
+    <display value="Officers 8"/>
+    <definition value="Officers 8"/>
+  </concept>
+  <concept>
+    <code value="O9"/>
+    <display value="Officers 9"/>
+    <definition value="Officers 9"/>
+  </concept>
+  <concept>
+    <code value="W1"/>
+    <display value="Warrant Officers 1"/>
+    <definition value="Warrant Officers 1"/>
+  </concept>
+  <concept>
+    <code value="W2"/>
+    <display value="Warrant Officers 2"/>
+    <definition value="Warrant Officers 2"/>
+  </concept>
+  <concept>
+    <code value="W3"/>
+    <display value="Warrant Officers 3"/>
+    <definition value="Warrant Officers 3"/>
+  </concept>
+  <concept>
+    <code value="W4"/>
+    <display value="Warrant Officers 4"/>
+    <definition value="Warrant Officers 4"/>
+  </concept>
+  <concept>
+    <code value="E1"/>
+    <display value="Enlisted 1"/>
+    <definition value="Enlisted 1"/>
+  </concept>
+  <concept>
+    <code value="E1 ... E9"/>
+    <display value="Enlisted"/>
+    <definition value="Enlisted"/>
+  </concept>
+  <concept>
+    <code value="E2"/>
+    <display value="Enlisted 2"/>
+    <definition value="Enlisted 2"/>
+  </concept>
+  <concept>
+    <code value="E3"/>
+    <display value="Enlisted 3"/>
+    <definition value="Enlisted 3"/>
+  </concept>
+  <concept>
+    <code value="E4"/>
+    <display value="Enlisted 4"/>
+    <definition value="Enlisted 4"/>
+  </concept>
+  <concept>
+    <code value="E5"/>
+    <display value="Enlisted 5"/>
+    <definition value="Enlisted 5"/>
+  </concept>
+  <concept>
+    <code value="E6"/>
+    <display value="Enlisted 6"/>
+    <definition value="Enlisted 6"/>
+  </concept>
+  <concept>
+    <code value="E7"/>
+    <display value="Enlisted 7"/>
+    <definition value="Enlisted 7"/>
+  </concept>
+  <concept>
+    <code value="E8"/>
+    <display value="Enlisted 8"/>
+    <definition value="Enlisted 8"/>
+  </concept>
+  <concept>
+    <code value="E9"/>
+    <display value="Enlisted 9"/>
+    <definition value="Enlisted 9"/>
+  </concept>
+  <concept>
+    <code value="O1 ... O10"/>
+    <display value="Officers"/>
+    <definition value="Officers"/>
+  </concept>
+  <concept>
+    <code value="W1 ... W4"/>
+    <display value="Warrant Officers"/>
+    <definition value="Warrant Officers"/>
+  </concept>
+</CodeSystem>

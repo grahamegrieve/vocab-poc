@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-hl7Realm"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <b>Description: </b>Coded concepts representing Binding Realms (used for Context Binding of terminology in HL7 models)  and/or Namespace Realms (used to help ensure unique identification of HL7 artifacts). This code system is partitioned into three sections: Affiliate realms, Binding realms and Namespace realms.  All affiliate realm codes may automatically be used as both binding realms and namespace realms.  Furthermore, affiliate realms are the only realms that have authority over the creation of binding realms.  (Note that &#39;affiliate&#39; includes the idea of both international affiliates and the HL7 International organization.)  All other codes must be associated with an owning affiliate realm and must appear as a specialization of _BindingRealm or _NamespaceRealm.  For affiliates whose concepts align with nations, the country codes from ISO 3166-1 2-character alpha are used for the code when possible so these codes should not be used for other realm types.  It is recommended that binding realm and namespace codes submitted by affiliates use the realm code as a prefix to avoid possible collisions with ISO codes.  However, tooling does not currently support namepace realm codes greater than 2 characters.
+      </p>
+                  
+      <p>
+                     
+        <i>Open Issue: </i>The name of the concept property &quot;owningAffiliate&quot; should be changed to better reflect that the property value is the human readable name of the organizational entity that manages the Realm identified by the Realm Code.
+      </p>
+                  
+      <p>
+                     
+        <i>Open Issue: </i>In spite of the inability of tooling to process codes longer than 2 characters, there is at least one realm codes (&#39;SOA&#39;) that was added that is 3 characters in length.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1124"/>
+  </identifier>
+  <name value="hl7Realm"/>
+  <title value="HL7Realm"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7"/>
+  <contact>
+    <name value="Health Level Seven, Inc."/>
+  </contact>
+  <description value="  Description:&#xD;&#xA;Coded concepts representing Binding Realms (used for Context Binding of terminology in HL7 models)  and/or Namespace Realms (used to help ensure unique identification of HL7 artifacts). This code system is partitioned into three sections: Affiliate realms, Binding realms and Namespace realms.  All affiliate realm codes may automatically be used as both binding realms and namespace realms.  Furthermore, affiliate realms are the only realms that have authority over the creation of binding realms.  (Note that &#39;affiliate&#39; includes the idea of both international affiliates and the HL7 International organization.)  All other codes must be associated with an owning affiliate realm and must appear as a specialization of _BindingRealm or _NamespaceRealm.  For affiliates whose concepts align with nations, the country codes from ISO 3166-1 2-character alpha are used for the code when possible so these codes should not be used for other realm types.  It is recommended that binding realm and namespace codes submitted by affiliates use the realm code as a prefix to avoid possible collisions with ISO codes.  However, tooling does not currently support namepace realm codes greater than 2 characters.  Open Issue:&#xD;&#xA;The name of the concept property &quot;owningAffiliate&quot; should be changed to better reflect that the property value is the human readable name of the organizational entity that manages the Realm identified by the Realm Code.  Open Issue:&#xD;&#xA;In spite of the inability of tooling to process codes longer than 2 characters, there is at least one realm codes (&#39;SOA&#39;) that was added that is 3 characters in length."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-relationshipKind">
+      <valueCode value="Other"/>
+    </extension>
+    <code value="OwningAffiliate"/>
+    <description value="Identifies the affiliate responsible for a binding realm or namespace realm code.  Must be specified for all codes that are not specializations of AffiliateRealms. ConceptRelationshipProperties: [relationshipKind: other; isNavigable: false; functionalism: functional; reflexivity: irreflexive; symmetry: antisymetric; connected: false; transitivity: antitransitive; allowedForTargets: all codes from the hl7PublishingSection code system; requiredForSources: all codes which are not equal to ZZ and are not specializations of the abstract code AffiliateRealms; allowedForTargets: all codes which are specializations of the abstract code AffiliateRealms;]"/>
+    <type value="Coding"/>
+  </property>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="23214">
+    <code value="BindingRealms"/>
+    <definition value="  Description:&#xD;&#xA;Concepts that can be used as Binding Realms when creating Binding Statements.  These codes are permitted to appear in the InfrastructureRoot.realmCode attribute."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="binding realms"/>
+    </designation>
+    <concept id="22941">
+      <code value="AffiliateRealms"/>
+      <definition value="  Description:&#xD;&#xA;Realm codes for official HL7 organizational bodies.  This includes both the HL7 International organization as well as all recognized international affiliates (past and present).  These groups have the ability to bind vocabulary and develop artifacts.  As well, they have the ability to have &quot;ownership&quot; over other binding realms and namespace realms via the owningAffiliate property of those other realm codes."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Affiliate Realms"/>
+      </designation>
+      <concept id="22942">
+        <code value="AR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Argentina"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Argentina"/>
+        </designation>
+      </concept>
+      <concept id="22943">
+        <code value="AT"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Austria"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Austria"/>
+        </designation>
+      </concept>
+      <concept id="22944">
+        <code value="AU"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Australia"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Australia"/>
+        </designation>
+      </concept>
+      <concept id="22945">
+        <code value="BR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Brazil"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Brazil"/>
+        </designation>
+      </concept>
+      <concept id="22946">
+        <code value="CA"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Canada"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Canada"/>
+        </designation>
+      </concept>
+      <concept id="22947">
+        <code value="CH"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Switzerland"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Switzerland"/>
+        </designation>
+      </concept>
+      <concept id="22948">
+        <code value="CL"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Chile"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Chile"/>
+        </designation>
+      </concept>
+      <concept id="22949">
+        <code value="CN"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of China"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="China"/>
+        </designation>
+      </concept>
+      <concept id="22977">
+        <code value="CO"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Localized Version"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Columbia"/>
+        </designation>
+      </concept>
+      <concept id="22950">
+        <code value="CZ"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Czech Republic"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Czech Republic"/>
+        </designation>
+      </concept>
+      <concept id="22951">
+        <code value="DE"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Germany"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Germany"/>
+        </designation>
+      </concept>
+      <concept id="22952">
+        <code value="DK"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Denmark"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Denmark"/>
+        </designation>
+      </concept>
+      <concept id="22953">
+        <code value="ES"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Spain"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Spain"/>
+        </designation>
+      </concept>
+      <concept id="22954">
+        <code value="FI"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Finland"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Finland"/>
+        </designation>
+      </concept>
+      <concept id="22955">
+        <code value="FR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of France"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="France"/>
+        </designation>
+      </concept>
+      <concept id="22956">
+        <code value="GR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Greece"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Greece"/>
+        </designation>
+      </concept>
+      <concept id="22957">
+        <code value="HR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Croatia"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Croatia"/>
+        </designation>
+      </concept>
+      <concept id="22958">
+        <code value="IE"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Ireland"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Ireland"/>
+        </designation>
+      </concept>
+      <concept id="22959">
+        <code value="IN"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of India"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="India"/>
+        </designation>
+      </concept>
+      <concept id="22960">
+        <code value="IT"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Italy"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Italy"/>
+        </designation>
+      </concept>
+      <concept id="22961">
+        <code value="JP"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Japan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Japan"/>
+        </designation>
+      </concept>
+      <concept id="22962">
+        <code value="KR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Korea"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Korea"/>
+        </designation>
+      </concept>
+      <concept id="22963">
+        <code value="LT"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Lithuania"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Lithuania"/>
+        </designation>
+      </concept>
+      <concept id="22964">
+        <code value="MX"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Mexico"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Mexico"/>
+        </designation>
+      </concept>
+      <concept id="22965">
+        <code value="NL"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of The Netherlands"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="The Netherlands"/>
+        </designation>
+      </concept>
+      <concept id="22966">
+        <code value="NZ"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of New Zealand"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="New Zealand"/>
+        </designation>
+      </concept>
+      <concept id="22967">
+        <code value="RO"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Romania"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Romania"/>
+        </designation>
+      </concept>
+      <concept id="22968">
+        <code value="RU"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Russian Federation"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Russian Federation"/>
+        </designation>
+      </concept>
+      <concept id="22969">
+        <code value="SE"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Sweden"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Sweden"/>
+        </designation>
+      </concept>
+      <concept id="22978">
+        <code value="SG"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Localized Version"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Singapore"/>
+        </designation>
+      </concept>
+      <concept id="22970">
+        <code value="SOA"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Southern Africa"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Southern Africa"/>
+        </designation>
+      </concept>
+      <concept id="22971">
+        <code value="TR"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Turkey"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Turkey"/>
+        </designation>
+      </concept>
+      <concept id="22972">
+        <code value="TW"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Taiwan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Taiwan"/>
+        </designation>
+      </concept>
+      <concept id="22973">
+        <code value="UK"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of United Kingdom"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="United Kingdom"/>
+        </designation>
+      </concept>
+      <concept id="22975">
+        <code value="US"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of United States of America"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="United States of America"/>
+        </designation>
+      </concept>
+      <concept id="22939">
+        <code value="UV"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Universal realm or context, used in every instance"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Universal"/>
+        </designation>
+      </concept>
+      <concept id="22976">
+        <code value="UY"/>
+        <definition value="  Description:&#xD;&#xA;Realm code for use of Uruguay"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Uruguay"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="22937">
+      <code value="C1"/>
+      <definition value="  Description:&#xD;&#xA;Realm code for use of Unclassified Realm"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Unclassified Realm"/>
+      </designation>
+      <property>
+        <code value="OwningAffiliate"/>
+        <valueCoding>
+          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <code value="UV"/>
+        </valueCoding>
+      </property>
+    </concept>
+    <concept id="22974">
+      <code value="GB"/>
+      <definition value="  Description:&#xD;&#xA;Realm code for use of Great Britain"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Great Britain"/>
+      </designation>
+      <property>
+        <code value="OwningAffiliate"/>
+        <valueCoding>
+          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <code value="UK"/>
+        </valueCoding>
+      </property>
+    </concept>
+    <concept id="22938">
+      <code value="R1"/>
+      <definition value="  Description:&#xD;&#xA;Realm code for use of Representative Realm"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Representative Realm"/>
+      </designation>
+      <property>
+        <code value="OwningAffiliate"/>
+        <valueCoding>
+          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <code value="UV"/>
+        </valueCoding>
+      </property>
+    </concept>
+    <concept id="22940">
+      <code value="X1"/>
+      <definition value="  Description:&#xD;&#xA;Realm code for use of Example Realm"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Example Realm"/>
+      </designation>
+      <property>
+        <code value="OwningAffiliate"/>
+        <valueCoding>
+          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <code value="UV"/>
+        </valueCoding>
+      </property>
+    </concept>
+  </concept>
+  <concept id="23215">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="AffiliateRealms"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="GB"/>
+    </extension>
+    <code value="NamespaceRealms"/>
+    <definition value="  Description:&#xD;&#xA;Codes that can be used in the &quot;realm&quot; portion of HL7 v3 artifact identifiers."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="namespace realms"/>
+    </designation>
+    <concept id="22935">
+      <code value="ZZ"/>
+      <definition value="  Description:&#xD;&#xA;An artifact created for local use only.  This realm namespace has no owning affiliate.  Its use is uncontrolled, i.e. anyone can create artifacts using this realm namespace.  Because of this, there is a significant likelihood of artifact identifier collisions.  Implementers are encouraged to register their artifacts under an affiliate owned and controlled namespace to avoid such collision problems where possible."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Localized Version"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22936">
+    <code value="SpecialRealms"/>
+    <definition value="  Description:&#xD;&#xA;Realm code for use of Special Realms"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Special Realms"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

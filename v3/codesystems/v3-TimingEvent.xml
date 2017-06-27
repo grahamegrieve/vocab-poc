@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-TimingEvent"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-TimingEvent"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.139"/>
+  </identifier>
+  <name value="TimingEvent"/>
+  <title value="TimingEvent"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10708">
+    <code value="AC"/>
+    <definition value=" before meal (from lat. ante cibus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="AC"/>
+    </designation>
+  </concept>
+  <concept id="10712">
+    <code value="ACD"/>
+    <definition value=" before lunch (from lat. ante cibus diurnus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ACD"/>
+    </designation>
+  </concept>
+  <concept id="10711">
+    <code value="ACM"/>
+    <definition value=" before breakfast (from lat. ante cibus matutinus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ACM"/>
+    </designation>
+  </concept>
+  <concept id="10713">
+    <code value="ACV"/>
+    <definition value=" before dinner (from lat. ante cibus vespertinus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ACV"/>
+    </designation>
+  </concept>
+  <concept id="22717">
+    <code value="C"/>
+    <definition value="  Description:&#xD;&#xA;meal (from lat. ante cibus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="C"/>
+    </designation>
+    <concept id="22719">
+      <code value="CD"/>
+      <definition value="  Description:&#xD;&#xA;lunch (from lat. cibus diurnus)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CD"/>
+      </designation>
+    </concept>
+    <concept id="22718">
+      <code value="CM"/>
+      <definition value="  Description:&#xD;&#xA;breakfast (from lat. cibus matutinus)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CM"/>
+      </designation>
+    </concept>
+    <concept id="22720">
+      <code value="CV"/>
+      <definition value="  Description:&#xD;&#xA;dinner (from lat. cibus vespertinus)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CV"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="10707">
+    <code value="HS"/>
+    <definition value="  Description:&#xD;&#xA;Prior to beginning a regular period of extended sleep (this would exclude naps).  Note that this might occur at different times of day depending on a person&#39;s regular sleep schedule."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HS"/>
+    </designation>
+  </concept>
+  <concept id="10710">
+    <code value="IC"/>
+    <definition value=" between meals (from lat. inter cibus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="IC"/>
+    </designation>
+  </concept>
+  <concept id="10718">
+    <code value="ICD"/>
+    <definition value=" between lunch and dinner"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ICD"/>
+    </designation>
+  </concept>
+  <concept id="10717">
+    <code value="ICM"/>
+    <definition value=" between breakfast and lunch"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ICM"/>
+    </designation>
+  </concept>
+  <concept id="10719">
+    <code value="ICV"/>
+    <definition value=" between dinner and the hour of sleep"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ICV"/>
+    </designation>
+  </concept>
+  <concept id="10709">
+    <code value="PC"/>
+    <definition value=" after meal (from lat. post cibus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PC"/>
+    </designation>
+  </concept>
+  <concept id="10715">
+    <code value="PCD"/>
+    <definition value=" after lunch (from lat. post cibus diurnus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PCD"/>
+    </designation>
+  </concept>
+  <concept id="10714">
+    <code value="PCM"/>
+    <definition value=" after breakfast (from lat. post cibus matutinus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PCM"/>
+    </designation>
+  </concept>
+  <concept id="10716">
+    <code value="PCV"/>
+    <definition value=" after dinner (from lat. post cibus vespertinus)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PCV"/>
+    </designation>
+  </concept>
+  <concept id="22721">
+    <code value="WAKE"/>
+    <definition value="  Description:&#xD;&#xA;Upon waking up from a regular period of sleep, in order to start regular activities (this would exclude waking up from a nap or temporarily waking up during a period of sleep)  Usage Notes:&#xD;&#xA;e.g. Take pulse rate on waking in management of thyrotoxicosis. Take BP on waking in management of hypertension Take basal body temperature on waking in establishing date of ovulation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="WAKE"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-RoleLinkStatus"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <b>Description:</b>Codes representing possible states of a RoleLink, as defined by the RoleLink class state machine.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-RoleLinkStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1137"/>
+  </identifier>
+  <name value="RoleLinkStatus"/>
+  <title value="RoleLinkStatus"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7 International"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  Description:&#xD;&#xA;Codes representing possible states of a RoleLink, as defined by the RoleLink class state machine."/>
+  <content value="complete"/>
+  <concept id="23254">
+    <code value="NORMAL"/>
+    <definition value="  Description:&#xD;&#xA;The &#39;typical&#39; state. Excludes &quot;nullified&quot; which represents the termination state of a RoleLink instance that was created in error."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="normal"/>
+    </designation>
+    <concept id="23255">
+      <code value="ACTIVE"/>
+      <definition value="  Description:&#xD;&#xA;The state indicates the RoleLink is in progress."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="active"/>
+      </designation>
+    </concept>
+    <concept id="23256">
+      <code value="CANCELLED"/>
+      <definition value="  Description:&#xD;&#xA;The terminal state resulting from abandoning the RoleLink prior to or after activation."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="cancelled"/>
+      </designation>
+    </concept>
+    <concept id="23257">
+      <code value="COMPLETED"/>
+      <definition value="  Description:&#xD;&#xA;The terminal state representing the successful completion of the RoleLink."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="completed"/>
+      </designation>
+    </concept>
+    <concept id="23258">
+      <code value="PENDING"/>
+      <definition value="  Description:&#xD;&#xA;The state indicates the RoleLink has not yet become active."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="pending"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="23259">
+    <code value="NULLIFIED"/>
+    <definition value="  Description:&#xD;&#xA;The state representing the termination of a RoleLink instance that was created in error."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="nullified"/>
+    </designation>
+  </concept>
+</CodeSystem>

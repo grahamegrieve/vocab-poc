@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-RoleStatus"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Codes representing the defined possible states of an Role, as defined by the Role class state machine.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-RoleStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1068"/>
+  </identifier>
+  <name value="RoleStatus"/>
+  <title value="RoleStatus"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Codes representing the defined possible states of an Role, as defined by the Role class state machine."/>
+  <content value="complete"/>
+  <concept id="16000">
+    <code value="normal"/>
+    <definition value=" The &#39;typical&#39; state. Excludes &quot;nullified&quot; which represents the termination state of a Role instance that was created in error."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="normal"/>
+    </designation>
+    <concept id="16001">
+      <code value="active"/>
+      <definition value=" The state representing the fact that the Entity is currently active in the Role."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="active"/>
+      </designation>
+    </concept>
+    <concept id="21306">
+      <code value="cancelled"/>
+      <definition value=" The terminal state resulting from cancellation of the role prior to activation."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="cancelled"/>
+      </designation>
+    </concept>
+    <concept id="21305">
+      <code value="pending"/>
+      <definition value=" The state representing that fact that the role has not yet become active."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="pending"/>
+      </designation>
+    </concept>
+    <concept id="16002">
+      <code value="suspended"/>
+      <definition value=" The state that represents a suspension of the Entity playing the Role. This state is arrived at from the &quot;active&quot; state."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="suspended"/>
+      </designation>
+    </concept>
+    <concept id="16003">
+      <code value="terminated"/>
+      <definition value=" The state representing the successful termination of the Role."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="terminated"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="16004">
+    <code value="nullified"/>
+    <definition value=" The state representing the termination of a Role instance that was created in error."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="nullified"/>
+    </designation>
+  </concept>
+</CodeSystem>

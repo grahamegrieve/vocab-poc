@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-VaccineType"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>The kind of vaccine.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-VaccineType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.145"/>
+  </identifier>
+  <name value="VaccineType"/>
+  <title value="VaccineType"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" The kind of vaccine."/>
+  <content value="complete"/>
+  <concept id="11179">
+    <code value="1"/>
+    <definition value=" diphtheria, tetanus toxoids and pertussis vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DTP"/>
+    </designation>
+  </concept>
+  <concept id="11210">
+    <code value="10"/>
+    <definition value=" poliovirus vaccine, inactivated"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="IPV"/>
+    </designation>
+  </concept>
+  <concept id="11230">
+    <code value="100"/>
+    <definition value=" pneumococcal conjugate vaccine, polyvalent"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="pneumococcal conjugate"/>
+    </designation>
+  </concept>
+  <concept id="11257">
+    <code value="101"/>
+    <definition value=" Typhoid Vi capsular polysaccharide vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="typhoid, ViCPs"/>
+    </designation>
+  </concept>
+  <concept id="11227">
+    <code value="11"/>
+    <definition value=" pertussis vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="pertussis"/>
+    </designation>
+  </concept>
+  <concept id="11175">
+    <code value="12"/>
+    <definition value=" diphtheria antitoxin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="diphtheria antitoxin"/>
+    </designation>
+  </concept>
+  <concept id="11248">
+    <code value="13"/>
+    <definition value=" tetanus immune globulin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TIG"/>
+    </designation>
+  </concept>
+  <concept id="11206">
+    <code value="14"/>
+    <definition value=" immune globulin, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="IG, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11207">
+    <code value="15"/>
+    <definition value=" influenza virus vaccine, split virus (incl. purified surface antigen)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="influenza, split (incl. purified surface antigen)"/>
+    </designation>
+  </concept>
+  <concept id="11208">
+    <code value="16"/>
+    <definition value=" influenza virus vaccine, whole virus"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="influenza, whole"/>
+    </designation>
+  </concept>
+  <concept id="11200">
+    <code value="17"/>
+    <definition value=" Haemophilus influenzae type b vaccine, conjugate NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hib, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11232">
+    <code value="18"/>
+    <definition value=" rabies vaccine, for intramuscular injection"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rabies, intramuscular injection"/>
+    </designation>
+  </concept>
+  <concept id="11170">
+    <code value="19"/>
+    <definition value=" Bacillus Calmette-Guerin vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="BCG"/>
+    </designation>
+  </concept>
+  <concept id="11211">
+    <code value="2"/>
+    <definition value=" poliovirus vaccine, live, oral"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="OPV"/>
+    </designation>
+  </concept>
+  <concept id="11177">
+    <code value="20"/>
+    <definition value=" diphtheria, tetanus toxoids and acellular pertussis vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DTaP"/>
+    </designation>
+  </concept>
+  <concept id="11260">
+    <code value="21"/>
+    <definition value=" varicella virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="varicella"/>
+    </designation>
+  </concept>
+  <concept id="11180">
+    <code value="22"/>
+    <definition value=" DTP-Haemophilus influenzae type b conjugate vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DTP-Hib"/>
+    </designation>
+  </concept>
+  <concept id="11228">
+    <code value="23"/>
+    <definition value=" plague vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="plague"/>
+    </designation>
+  </concept>
+  <concept id="11169">
+    <code value="24"/>
+    <definition value=" anthrax vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Anthrax"/>
+    </designation>
+  </concept>
+  <concept id="11254">
+    <code value="25"/>
+    <definition value=" typhoid vaccine, live, oral"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="typhoid, oral"/>
+    </designation>
+  </concept>
+  <concept id="11172">
+    <code value="26"/>
+    <definition value=" cholera vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Cholera"/>
+    </designation>
+  </concept>
+  <concept id="11171">
+    <code value="27"/>
+    <definition value=" botulinum antitoxin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="botulinum antitoxin"/>
+    </designation>
+  </concept>
+  <concept id="11176">
+    <code value="28"/>
+    <definition value=" diphtheria and tetanus toxoids, adsorbed for pediatric use"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DT (pediatric)"/>
+    </designation>
+  </concept>
+  <concept id="11173">
+    <code value="29"/>
+    <definition value=" cytomegalovirus immune globulin, intravenous"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="CMVIG"/>
+    </designation>
+  </concept>
+  <concept id="11218">
+    <code value="3"/>
+    <definition value=" measles, mumps and rubella virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="MMR"/>
+    </designation>
+  </concept>
+  <concept id="11187">
+    <code value="30"/>
+    <definition value=" hepatitis B immune globulin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HBIG"/>
+    </designation>
+  </concept>
+  <concept id="11185">
+    <code value="31"/>
+    <definition value=" hepatitis A vaccine, pediatric dosage, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep A, pediatric, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11224">
+    <code value="32"/>
+    <definition value=" meningococcal polysaccharide vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="meningococcal"/>
+    </designation>
+  </concept>
+  <concept id="11229">
+    <code value="33"/>
+    <definition value=" pneumococcal  polysaccharide vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="pneumococcal"/>
+    </designation>
+  </concept>
+  <concept id="11237">
+    <code value="34"/>
+    <definition value=" rabies immune globulin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RIG"/>
+    </designation>
+  </concept>
+  <concept id="11246">
+    <code value="35"/>
+    <definition value=" tetanus toxoid"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="tetanus toxoid"/>
+    </designation>
+  </concept>
+  <concept id="11264">
+    <code value="36"/>
+    <definition value=" varicella zoster immune globulin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VZIG"/>
+    </designation>
+  </concept>
+  <concept id="11265">
+    <code value="37"/>
+    <definition value=" yellow fever vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="yellow fever"/>
+    </designation>
+  </concept>
+  <concept id="11242">
+    <code value="38"/>
+    <definition value=" rubella and mumps virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rubella/mumps"/>
+    </designation>
+  </concept>
+  <concept id="11213">
+    <code value="39"/>
+    <definition value=" Japanese encephalitis vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Japanese encephalitis"/>
+    </designation>
+  </concept>
+  <concept id="11219">
+    <code value="4"/>
+    <definition value=" measles and rubella virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="M/R"/>
+    </designation>
+  </concept>
+  <concept id="11233">
+    <code value="40"/>
+    <definition value=" rabies vaccine, for intradermal injection"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rabies, intradermal injection"/>
+    </designation>
+  </concept>
+  <concept id="11255">
+    <code value="41"/>
+    <definition value=" typhoid vaccine, parenteral, other than acetone-killed, dried"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="typhoid, parenteral"/>
+    </designation>
+  </concept>
+  <concept id="11189">
+    <code value="42"/>
+    <definition value=" hepatitis B vaccine, adolescent/high risk infant dosage"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep B, adolescent/high risk infant"/>
+    </designation>
+  </concept>
+  <concept id="11190">
+    <code value="43"/>
+    <definition value=" hepatitis B vaccine, adult dosage"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep B, adult"/>
+    </designation>
+  </concept>
+  <concept id="11191">
+    <code value="44"/>
+    <definition value=" hepatitis B vaccine, dialysis patient dosage"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep B, dialysis"/>
+    </designation>
+  </concept>
+  <concept id="11192">
+    <code value="45"/>
+    <definition value=" hepatitis B vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep B, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11196">
+    <code value="46"/>
+    <definition value=" Haemophilus influenzae type b vaccine, PRP-D conjugate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hib (PRP-D)"/>
+    </designation>
+  </concept>
+  <concept id="11197">
+    <code value="47"/>
+    <definition value=" Haemophilus influenzae type b vaccine, HbOC conjugate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hib (HbOC)"/>
+    </designation>
+  </concept>
+  <concept id="11198">
+    <code value="48"/>
+    <definition value=" Haemophilus influenzae type b vaccine, PRP-T conjugate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hib (PRP-T)"/>
+    </designation>
+  </concept>
+  <concept id="11199">
+    <code value="49"/>
+    <definition value=" Haemophilus influenzae type b vaccine, PRP-OMP conjugate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hib (PRP-OMP)"/>
+    </designation>
+  </concept>
+  <concept id="11222">
+    <code value="5"/>
+    <definition value=" measles virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="measles"/>
+    </designation>
+  </concept>
+  <concept id="11178">
+    <code value="50"/>
+    <definition value=" DTaP-Haemophilus influenzae type b conjugate vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DTaPHib"/>
+    </designation>
+  </concept>
+  <concept id="11201">
+    <code value="51"/>
+    <definition value=" Haemophilus influenzae type b conjugate and Hepatitis B vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hib-Hep B"/>
+    </designation>
+  </concept>
+  <concept id="11182">
+    <code value="52"/>
+    <definition value=" hepatitis A vaccine, adult dosage"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep A, adult"/>
+    </designation>
+  </concept>
+  <concept id="11256">
+    <code value="53"/>
+    <definition value=" typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="typhoid, parenteral, AKD (U.S. military)"/>
+    </designation>
+  </concept>
+  <concept id="11166">
+    <code value="54"/>
+    <definition value=" adenovirus vaccine, type 4, live, oral"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="adenovirus, type 4"/>
+    </designation>
+  </concept>
+  <concept id="11167">
+    <code value="55"/>
+    <definition value=" adenovirus vaccine, type 7, live, oral"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="adenovirus, type 7"/>
+    </designation>
+  </concept>
+  <concept id="11174">
+    <code value="56"/>
+    <definition value=" dengue fever vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="dengue fever"/>
+    </designation>
+  </concept>
+  <concept id="11181">
+    <code value="57"/>
+    <definition value=" hantavirus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hantavirus"/>
+    </designation>
+  </concept>
+  <concept id="11193">
+    <code value="58"/>
+    <definition value=" hepatitis C vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep C"/>
+    </designation>
+  </concept>
+  <concept id="11194">
+    <code value="59"/>
+    <definition value=" hepatitis E vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep E"/>
+    </designation>
+  </concept>
+  <concept id="11241">
+    <code value="6"/>
+    <definition value=" rubella virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rubella"/>
+    </designation>
+  </concept>
+  <concept id="11195">
+    <code value="60"/>
+    <definition value=" herpes simplex virus, type 2 vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="herpes simplex 2"/>
+    </designation>
+  </concept>
+  <concept id="11202">
+    <code value="61"/>
+    <definition value=" human immunodeficiency virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HIV"/>
+    </designation>
+  </concept>
+  <concept id="11203">
+    <code value="62"/>
+    <definition value=" human papilloma virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HPV"/>
+    </designation>
+  </concept>
+  <concept id="11214">
+    <code value="63"/>
+    <definition value=" Junin virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Junin virus"/>
+    </designation>
+  </concept>
+  <concept id="11215">
+    <code value="64"/>
+    <definition value=" leishmaniasis vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="leishmaniasis"/>
+    </designation>
+  </concept>
+  <concept id="11216">
+    <code value="65"/>
+    <definition value=" leprosy vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="leprosy"/>
+    </designation>
+  </concept>
+  <concept id="11217">
+    <code value="66"/>
+    <definition value=" Lyme disease vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Lyme disease"/>
+    </designation>
+  </concept>
+  <concept id="11221">
+    <code value="67"/>
+    <definition value=" malaria vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="malaria"/>
+    </designation>
+  </concept>
+  <concept id="11223">
+    <code value="68"/>
+    <definition value=" melanoma vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="melanoma"/>
+    </designation>
+  </concept>
+  <concept id="11226">
+    <code value="69"/>
+    <definition value=" parainfluenza-3 virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="parainfluenza-3"/>
+    </designation>
+  </concept>
+  <concept id="11225">
+    <code value="7"/>
+    <definition value=" mumps virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="mumps"/>
+    </designation>
+  </concept>
+  <concept id="11231">
+    <code value="70"/>
+    <definition value=" Q fever vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Q fever"/>
+    </designation>
+  </concept>
+  <concept id="11239">
+    <code value="71"/>
+    <definition value=" respiratory syncytial virus immune globulin, intravenous"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RSV-IGIV"/>
+    </designation>
+  </concept>
+  <concept id="11235">
+    <code value="72"/>
+    <definition value=" rheumatic fever vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rheumatic fever"/>
+    </designation>
+  </concept>
+  <concept id="11236">
+    <code value="73"/>
+    <definition value=" Rift Valley fever vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Rift Valley fever"/>
+    </designation>
+  </concept>
+  <concept id="11238">
+    <code value="74"/>
+    <definition value=" rotavirus vaccine, tetravalent, live, oral"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rotavirus"/>
+    </designation>
+  </concept>
+  <concept id="11243">
+    <code value="75"/>
+    <definition value=" smallpox vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="smallpox"/>
+    </designation>
+  </concept>
+  <concept id="11244">
+    <code value="76"/>
+    <definition value=" Staphylococcus bacteriophage lysate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Staphylococcus bacterio lysate"/>
+    </designation>
+  </concept>
+  <concept id="11247">
+    <code value="77"/>
+    <definition value=" tick-borne encephalitis vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="tick-borne encephalitis"/>
+    </designation>
+  </concept>
+  <concept id="11253">
+    <code value="78"/>
+    <definition value=" tularemia vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="tularemia vaccine"/>
+    </designation>
+  </concept>
+  <concept id="11259">
+    <code value="79"/>
+    <definition value=" vaccinia immune globulin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="vaccinia immune globulin"/>
+    </designation>
+  </concept>
+  <concept id="11188">
+    <code value="8"/>
+    <definition value=" hepatitis B vaccine, pediatric or pediatric/adolescent dosage"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep B, adolescent or pediatric"/>
+    </designation>
+  </concept>
+  <concept id="11262">
+    <code value="80"/>
+    <definition value=" Venezuelan equine encephalitis, live, attenuated"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VEE, live"/>
+    </designation>
+  </concept>
+  <concept id="11261">
+    <code value="81"/>
+    <definition value=" Venezuelan equine encephalitis, inactivated"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VEE, inactivated"/>
+    </designation>
+  </concept>
+  <concept id="11168">
+    <code value="82"/>
+    <definition value=" adenovirus vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="adenovirus, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11183">
+    <code value="83"/>
+    <definition value=" hepatitis A vaccine, pediatric/adolescent dosage, 2 dose schedule"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep A, ped/adol, 2 dose"/>
+    </designation>
+  </concept>
+  <concept id="11184">
+    <code value="84"/>
+    <definition value=" hepatitis A vaccine, pediatric/adolescent dosage, 3 dose schedule"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep A, ped/adol, 3 dose"/>
+    </designation>
+  </concept>
+  <concept id="11186">
+    <code value="85"/>
+    <definition value=" hepatitis A vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hep A, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11204">
+    <code value="86"/>
+    <definition value=" immune globulin, intramuscular"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="IG"/>
+    </designation>
+  </concept>
+  <concept id="11205">
+    <code value="87"/>
+    <definition value=" immune globulin, intravenous"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="IGIV"/>
+    </designation>
+  </concept>
+  <concept id="11209">
+    <code value="88"/>
+    <definition value=" influenza virus vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="influenza, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11212">
+    <code value="89"/>
+    <definition value=" poliovirus vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="polio, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11245">
+    <code value="9"/>
+    <definition value=" tetanus and diphtheria toxoids, adsorbed for adult use"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Td (adult)"/>
+    </designation>
+  </concept>
+  <concept id="11234">
+    <code value="90"/>
+    <definition value=" rabies vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rabies, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11258">
+    <code value="91"/>
+    <definition value=" typhoid vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="typhoid, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11263">
+    <code value="92"/>
+    <definition value=" Venezuelan equine encephalitis vaccine, NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VEE, NOS"/>
+    </designation>
+  </concept>
+  <concept id="11240">
+    <code value="93"/>
+    <definition value=" respiratory syncytial virus monoclonal antibody (palivizumab), intramuscular"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RSV-Mab"/>
+    </designation>
+  </concept>
+  <concept id="11220">
+    <code value="94"/>
+    <definition value=" measles, mumps, rubella, and varicella virus vaccine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="MMRV"/>
+    </designation>
+  </concept>
+  <concept id="11249">
+    <code value="95"/>
+    <definition value=" tuberculin skin test; old tuberculin, multipuncture device"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TST-OT tine test"/>
+    </designation>
+  </concept>
+  <concept id="11250">
+    <code value="96"/>
+    <definition value=" tuberculin skin test; purified protein derivative solution, intradermal"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TST-PPD intradermal"/>
+    </designation>
+  </concept>
+  <concept id="11251">
+    <code value="97"/>
+    <definition value=" tuberculin skin test; purified protein derivative, multipuncture device"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TST-PPD tine test"/>
+    </designation>
+  </concept>
+  <concept id="11252">
+    <code value="98"/>
+    <definition value=" tuberculin skin test; NOS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="TST, NOS"/>
+    </designation>
+  </concept>
+</CodeSystem>

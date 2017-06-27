@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0038-2.8.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0038-2.8.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.18"/>
+  </identifier>
+  <version value="3"/>
+  <name value="V2Table0038v2.8.1"/>
+  <title value="V2 Table: Order status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0038 (Order status)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0038-2.8.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="A"/>
+    <display value="Some, but not all, results available"/>
+    <definition value="Some, but not all, results available"/>
+  </concept>
+  <concept>
+    <code value="CA"/>
+    <display value="Order was canceled"/>
+    <definition value="Order was canceled"/>
+  </concept>
+  <concept>
+    <code value="CM"/>
+    <display value="Order is completed"/>
+    <definition value="Order is completed"/>
+  </concept>
+  <concept>
+    <code value="DC"/>
+    <display value="Order was discontinued"/>
+    <definition value="Order was discontinued"/>
+  </concept>
+  <concept>
+    <code value="ER"/>
+    <display value="Error, order not found"/>
+    <definition value="Error, order not found"/>
+  </concept>
+  <concept>
+    <code value="HD"/>
+    <display value="Order is on hold"/>
+    <definition value="Order is on hold"/>
+  </concept>
+  <concept>
+    <code value="IP"/>
+    <display value="In process, unspecified"/>
+    <definition value="In process, unspecified"/>
+  </concept>
+  <concept>
+    <code value="RP"/>
+    <display value="Order has been replaced"/>
+    <definition value="Order has been replaced"/>
+  </concept>
+  <concept>
+    <code value="SC"/>
+    <display value="In process, scheduled"/>
+    <definition value="In process, scheduled"/>
+  </concept>
+</CodeSystem>

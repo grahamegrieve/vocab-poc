@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-TableCellScope"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>These values are defined within the XHTML 4.0 Table Model</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-TableCellScope"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.132"/>
+  </identifier>
+  <name value="TableCellScope"/>
+  <title value="TableCellScope"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" These values are defined within the XHTML 4.0 Table Model"/>
+  <content value="complete"/>
+  <concept id="11013">
+    <code value="col"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="col"/>
+    </designation>
+  </concept>
+  <concept id="11014">
+    <code value="colgroup"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="colgroup"/>
+    </designation>
+  </concept>
+  <concept id="11015">
+    <code value="row"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="row"/>
+    </designation>
+  </concept>
+  <concept id="11016">
+    <code value="rowgroup"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rowgroup"/>
+    </designation>
+  </concept>
+</CodeSystem>

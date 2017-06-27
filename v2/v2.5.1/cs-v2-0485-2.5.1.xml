@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0485-2.5.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0485-2.5.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.310"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0485v2.5.1"/>
+  <title value="V2 Table: Extended Priority Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0485 (Extended Priority Codes)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0485-2.5.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="S"/>
+    <display value="Stat"/>
+    <definition value="Stat"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="ASAP"/>
+    <definition value="ASAP"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Routine"/>
+    <definition value="Routine"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Preop"/>
+    <definition value="Preop"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Callback"/>
+    <definition value="Callback"/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="Timing critical"/>
+    <definition value="Timing critical"/>
+  </concept>
+  <concept>
+    <code value="PRN"/>
+    <display value="As needed"/>
+    <definition value="As needed"/>
+  </concept>
+</CodeSystem>

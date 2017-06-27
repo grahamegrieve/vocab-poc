@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0409-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0409-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.255"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0409v2.9"/>
+  <title value="V2 Table: Application Change Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0409 (Application Change Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0409-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="SU"/>
+    <display value="Start up"/>
+    <definition value="Start up"/>
+  </concept>
+  <concept>
+    <code value="SD"/>
+    <display value="Shut down"/>
+    <definition value="Shut down"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Migrates to different CPU"/>
+    <definition value="Migrates to different CPU"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0078-2.3"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0078-2.3"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.31"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0078v2.3"/>
+  <title value="V2 Table: Abnormal Flags"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0078 (Abnormal Flags)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0078-2.3"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="&lt;"/>
+    <display value="Below absolute low-off instrument scale"/>
+    <definition value="Below absolute low-off instrument scale"/>
+  </concept>
+  <concept>
+    <code value="&gt;"/>
+    <display value="Above absolute high-off instrument scale"/>
+    <definition value="Above absolute high-off instrument scale"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="Abnormal (applies to non-numeric results)"/>
+    <definition value="Abnormal (applies to non-numeric results)"/>
+  </concept>
+  <concept>
+    <code value="AA"/>
+    <display value="Very abnormal (applies to non-numeric units, analagous to panic limits for numeric units)"/>
+    <definition value="Very abnormal (applies to non-numeric units, analagous to panic limits for numeric units)"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Better--use when direction not relevant"/>
+    <definition value="Better--use when direction not relevant"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Significant change down"/>
+    <definition value="Significant change down"/>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="Above high normal"/>
+    <definition value="Above high normal"/>
+  </concept>
+  <concept>
+    <code value="HH"/>
+    <display value="Above upper panic limits"/>
+    <definition value="Above upper panic limits"/>
+  </concept>
+  <concept>
+    <code value="I"/>
+    <display value="Intermediate (microbiology sensitivies only)"/>
+    <definition value="Intermediate (microbiology sensitivies only)"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Below low normal"/>
+    <definition value="Below low normal"/>
+  </concept>
+  <concept>
+    <code value="LL"/>
+    <display value="Below lower panic limits"/>
+    <definition value="Below lower panic limits"/>
+  </concept>
+  <concept>
+    <code value="MS"/>
+    <display value="Moderately sensitive (microbiology sensitivies only)"/>
+    <definition value="Moderately sensitive (microbiology sensitivies only)"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Normal (applies to non-numeric results)"/>
+    <definition value="Normal (applies to non-numeric results)"/>
+  </concept>
+  <concept>
+    <code value="null"/>
+    <display value="No range defined, or normal ranges don&#39;t apply"/>
+    <definition value="No range defined, or normal ranges don&#39;t apply"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Resistant (microbiology sensitivies only)"/>
+    <definition value="Resistant (microbiology sensitivies only)"/>
+  </concept>
+  <concept>
+    <code value="S"/>
+    <display value="Sensitive (microbiology sensitivies only)"/>
+    <definition value="Sensitive (microbiology sensitivies only)"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Significant change up"/>
+    <definition value="Significant change up"/>
+  </concept>
+  <concept>
+    <code value="VS"/>
+    <display value="Very sensitive (microbiology sensitivies only)"/>
+    <definition value="Very sensitive (microbiology sensitivies only)"/>
+  </concept>
+  <concept>
+    <code value="W"/>
+    <display value="Worse--use when direction not relevant"/>
+    <definition value="Worse--use when direction not relevant"/>
+  </concept>
+</CodeSystem>

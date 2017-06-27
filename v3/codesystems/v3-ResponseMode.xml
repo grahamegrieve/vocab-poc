@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ResponseMode"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ResponseMode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1126"/>
+  </identifier>
+  <name value="ResponseMode"/>
+  <title value="ResponseMode"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7"/>
+  <description value=" Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities."/>
+  <content value="complete"/>
+  <concept id="21433">
+    <code value="D"/>
+    <definition value=" The receiver may respond in a non-immediate manner. Note: this will be the default value."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="deferred"/>
+    </designation>
+  </concept>
+  <concept id="21432">
+    <code value="I"/>
+    <definition value=" The receiver is required to assume that the sender is blocking and behave appropriately by sending an immediate response."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="immediate"/>
+    </designation>
+  </concept>
+  <concept id="21434">
+    <code value="Q"/>
+    <definition value=" The receiver shall keep any application responses in a queue until such time as the queue is polled."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="queue"/>
+    </designation>
+  </concept>
+</CodeSystem>

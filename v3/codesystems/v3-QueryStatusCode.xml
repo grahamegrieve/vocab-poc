@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-QueryStatusCode"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A code specifying the state of the Query.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-QueryStatusCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.103"/>
+  </identifier>
+  <name value="QueryStatusCode"/>
+  <title value="QueryStatusCode"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7 International"/>
+  <contact>
+    <name value="HL7 Modeling and Methodology Workgroup"/>
+  </contact>
+  <description value=" A code specifying the state of the Query."/>
+  <content value="complete"/>
+  <concept id="19301">
+    <code value="aborted"/>
+    <definition value=" Query status aborted"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="aborted"/>
+    </designation>
+  </concept>
+  <concept id="19302">
+    <code value="deliveredResponse"/>
+    <definition value=" Query Status delivered response"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="deliveredResponse"/>
+    </designation>
+  </concept>
+  <concept id="19303">
+    <code value="executing"/>
+    <definition value=" Query Status executing"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="executing"/>
+    </designation>
+  </concept>
+  <concept id="19304">
+    <code value="new"/>
+    <definition value=" Query Status new"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="new"/>
+    </designation>
+  </concept>
+  <concept id="19305">
+    <code value="waitContinuedQueryResponse"/>
+    <definition value=" Query Status wait continued"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="waitContinuedQueryResponse"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0387-2.7"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0387-2.7"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.238"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0387v2.7"/>
+  <title value="V2 Table: Command Response"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0387 (Command Response)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0387-2.7"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="OK"/>
+    <display value="Command completed successfully"/>
+    <definition value="Command completed successfully"/>
+  </concept>
+  <concept>
+    <code value="TI"/>
+    <display value="Command cannot be completed within requested completion time"/>
+    <definition value="Command cannot be completed within requested completion time"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="See response parameters."/>
+    </extension>
+    <code value="ER"/>
+    <display value="Command cannot be completed because of error condition"/>
+    <definition value="Command cannot be completed because of error condition"/>
+  </concept>
+  <concept>
+    <code value="ST"/>
+    <display value="Command cannot be completed because of the status of the requested equipment"/>
+    <definition value="Command cannot be completed because of the status of the requested equipment"/>
+  </concept>
+  <concept>
+    <code value="UN"/>
+    <display value="Command cannot be completed for unknown reasons"/>
+    <definition value="Command cannot be completed for unknown reasons"/>
+  </concept>
+</CodeSystem>

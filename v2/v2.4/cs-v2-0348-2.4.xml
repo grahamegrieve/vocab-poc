@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0348-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0348-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:null"/>
+  </identifier>
+  <name value="V2Table0348v2.4"/>
+  <title value="V2 Table: Special Program Indicator"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0348 (Special Program Indicator)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0348-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="EPSDT-CHAP"/>
+    <definition value="EPSDT-CHAP"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Physically handicapped children&#39;s program"/>
+    <definition value="Physically handicapped children&#39;s program"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Special federal funding"/>
+    <definition value="Special federal funding"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="Family planning"/>
+    <definition value="Family planning"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Disability"/>
+    <definition value="Disability"/>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="PPV/Medicare 100% payment"/>
+    <definition value="PPV/Medicare 100% payment"/>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Induced abortion-danger to life"/>
+    <definition value="Induced abortion-danger to life"/>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Induced abortion victim rape/incest"/>
+    <definition value="Induced abortion victim rape/incest"/>
+  </concept>
+</CodeSystem>

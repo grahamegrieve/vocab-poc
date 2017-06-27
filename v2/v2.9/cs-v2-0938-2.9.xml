@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0938-2.9"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0938-2.9"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.441"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0938v2.9"/>
+  <title value="V2 Table: Collection Event/Process Step Limit"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0938 (Collection Event/Process Step Limit)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0938-2.9"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="At time of placing the order"/>
+    </extension>
+    <code value="ORD"/>
+    <display value="Placing the order"/>
+    <definition value="Placing the order"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
+      <valueString value="When the specimen is collected (e.g. fasting status)"/>
+    </extension>
+    <code value="DRW"/>
+    <display value="Collecting the specimen"/>
+    <definition value="Collecting the specimen"/>
+  </concept>
+</CodeSystem>

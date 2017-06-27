@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0043-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0043-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.19"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0043v2.4"/>
+  <title value="V2 Table: Condition Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0043 (Condition Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0043-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="01"/>
+    <display value="Military service related"/>
+    <definition value="Military service related"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="Condition is employment related"/>
+    <definition value="Condition is employment related"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="Patient covered by insurance not reflected here"/>
+    <definition value="Patient covered by insurance not reflected here"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="HMO enrollee"/>
+    <definition value="HMO enrollee"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="Lien has been filed"/>
+    <definition value="Lien has been filed"/>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="ESRD patient in first 18 months of entitlement covered by employer group health insurance"/>
+    <definition value="ESRD patient in first 18 months of entitlement covered by employer group health insurance"/>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="Treatment of non-terminal condition for hospice patient"/>
+    <definition value="Treatment of non-terminal condition for hospice patient"/>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="Beneficiary would not provide information concerning other insurance coverage"/>
+    <definition value="Beneficiary would not provide information concerning other insurance coverage"/>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="Neither patient nor spouse is employed"/>
+    <definition value="Neither patient nor spouse is employed"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Patient and/or spouse is employed but no EGHP exists"/>
+    <definition value="Patient and/or spouse is employed but no EGHP exists"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Disabled beneficiary but no LGHP"/>
+    <definition value="Disabled beneficiary but no LGHP"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Payer codes."/>
+    <definition value="Payer codes."/>
+  </concept>
+  <concept>
+    <code value="12 ... 16"/>
+    <display value="Payer codes."/>
+    <definition value="Payer codes."/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Payer codes."/>
+    <definition value="Payer codes."/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="Payer codes."/>
+    <definition value="Payer codes."/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="Payer codes."/>
+    <definition value="Payer codes."/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="Payer codes."/>
+    <definition value="Payer codes."/>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <display value="Maiden name retained"/>
+    <definition value="Maiden name retained"/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="Child retains mother&#39;s name"/>
+    <definition value="Child retains mother&#39;s name"/>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <display value="Beneficiary requested billing"/>
+    <definition value="Beneficiary requested billing"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="Billing for Denial Notice"/>
+    <definition value="Billing for Denial Notice"/>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <display value="VA eligible patient chooses to receive services in a Medicare certified facility"/>
+    <definition value="VA eligible patient chooses to receive services in a Medicare certified facility"/>
+  </concept>
+  <concept>
+    <code value="27"/>
+    <display value="Patient referred to a sole community hospital for a diagnostic laboratory test"/>
+    <definition value="Patient referred to a sole community hospital for a diagnostic laboratory test"/>
+  </concept>
+  <concept>
+    <code value="28"/>
+    <display value="Patient and/or spouse&#39;s EGHP is secondary to Medicare"/>
+    <definition value="Patient and/or spouse&#39;s EGHP is secondary to Medicare"/>
+  </concept>
+  <concept>
+    <code value="29"/>
+    <display value="Disabled beneficiary and/or family member&#39;s LGHP is secondary to Medicare"/>
+    <definition value="Disabled beneficiary and/or family member&#39;s LGHP is secondary to Medicare"/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="Patient is student (full time-day)"/>
+    <definition value="Patient is student (full time-day)"/>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <display value="Patient is student (cooperative/work study program)"/>
+    <definition value="Patient is student (cooperative/work study program)"/>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <display value="Patient is student (full time-night)"/>
+    <definition value="Patient is student (full time-night)"/>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <display value="Patient is student (Part time)"/>
+    <definition value="Patient is student (Part time)"/>
+  </concept>
+  <concept>
+    <code value="36"/>
+    <display value="General care patient in a special unit"/>
+    <definition value="General care patient in a special unit"/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="Ward accommodation as patient request"/>
+    <definition value="Ward accommodation as patient request"/>
+  </concept>
+  <concept>
+    <code value="38"/>
+    <display value="Semi-private room not available"/>
+    <definition value="Semi-private room not available"/>
+  </concept>
+  <concept>
+    <code value="39"/>
+    <display value="Private room medically necessary"/>
+    <definition value="Private room medically necessary"/>
+  </concept>
+  <concept>
+    <code value="40"/>
+    <display value="Same day transfer"/>
+    <definition value="Same day transfer"/>
+  </concept>
+  <concept>
+    <code value="41"/>
+    <display value="Partial hospitalization"/>
+    <definition value="Partial hospitalization"/>
+  </concept>
+  <concept>
+    <code value="46"/>
+    <display value="Non-availability statement on file"/>
+    <definition value="Non-availability statement on file"/>
+  </concept>
+  <concept>
+    <code value="48"/>
+    <display value="Psychiatric residential treatment centers for children and adolescents"/>
+    <definition value="Psychiatric residential treatment centers for children and adolescents"/>
+  </concept>
+  <concept>
+    <code value="55"/>
+    <display value="SNF bed not available"/>
+    <definition value="SNF bed not available"/>
+  </concept>
+  <concept>
+    <code value="56"/>
+    <display value="Medical appropriateness"/>
+    <definition value="Medical appropriateness"/>
+  </concept>
+  <concept>
+    <code value="57"/>
+    <display value="SNF readmission"/>
+    <definition value="SNF readmission"/>
+  </concept>
+  <concept>
+    <code value="60"/>
+    <display value="Day outlier"/>
+    <definition value="Day outlier"/>
+  </concept>
+  <concept>
+    <code value="61"/>
+    <display value="Cost outlier"/>
+    <definition value="Cost outlier"/>
+  </concept>
+  <concept>
+    <code value="62"/>
+    <display value="Payer code"/>
+    <definition value="Payer code"/>
+  </concept>
+  <concept>
+    <code value="66"/>
+    <display value="Provider does not wish cost outlier payment"/>
+    <definition value="Provider does not wish cost outlier payment"/>
+  </concept>
+  <concept>
+    <code value="67"/>
+    <display value="Beneficiary elects not to use life time reserve (LTR) days"/>
+    <definition value="Beneficiary elects not to use life time reserve (LTR) days"/>
+  </concept>
+  <concept>
+    <code value="68"/>
+    <display value="Beneficiary elects to use life time reserve (LTR) days"/>
+    <definition value="Beneficiary elects to use life time reserve (LTR) days"/>
+  </concept>
+  <concept>
+    <code value="70"/>
+    <display value="Self-administered EPO"/>
+    <definition value="Self-administered EPO"/>
+  </concept>
+  <concept>
+    <code value="71"/>
+    <display value="Full care in unit"/>
+    <definition value="Full care in unit"/>
+  </concept>
+  <concept>
+    <code value="72"/>
+    <display value="Self-care in unit"/>
+    <definition value="Self-care in unit"/>
+  </concept>
+  <concept>
+    <code value="73"/>
+    <display value="Self-care training"/>
+    <definition value="Self-care training"/>
+  </concept>
+  <concept>
+    <code value="74"/>
+    <display value="Home"/>
+    <definition value="Home"/>
+  </concept>
+  <concept>
+    <code value="75"/>
+    <display value="Home - 100% reimbursement"/>
+    <definition value="Home - 100% reimbursement"/>
+  </concept>
+  <concept>
+    <code value="76"/>
+    <display value="Back-up in facility dialysis"/>
+    <definition value="Back-up in facility dialysis"/>
+  </concept>
+  <concept>
+    <code value="77"/>
+    <display value="Provider accepts or is obligated/required due to a contractual arrangement or law to accept payment by a primary payer as payment in full"/>
+    <definition value="Provider accepts or is obligated/required due to a contractual arrangement or law to accept payment by a primary payer as payment in full"/>
+  </concept>
+  <concept>
+    <code value="78"/>
+    <display value="New coverage not implemented by HMO"/>
+    <definition value="New coverage not implemented by HMO"/>
+  </concept>
+  <concept>
+    <code value="79"/>
+    <display value="Corf services provided off-site"/>
+    <definition value="Corf services provided off-site"/>
+  </concept>
+  <concept>
+    <code value="80"/>
+    <display value="Pregnant"/>
+    <definition value="Pregnant"/>
+  </concept>
+</CodeSystem>

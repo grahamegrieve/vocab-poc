@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-TableFrame"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>These values are defined within the XHTML 4.0 Table Model</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-TableFrame"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.134"/>
+  </identifier>
+  <name value="TableFrame"/>
+  <title value="TableFrame"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" These values are defined within the XHTML 4.0 Table Model"/>
+  <content value="complete"/>
+  <concept id="10993">
+    <code value="above"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="above"/>
+    </designation>
+  </concept>
+  <concept id="10994">
+    <code value="below"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="below"/>
+    </designation>
+  </concept>
+  <concept id="10995">
+    <code value="border"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="border"/>
+    </designation>
+  </concept>
+  <concept id="10996">
+    <code value="box"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="box"/>
+    </designation>
+  </concept>
+  <concept id="10997">
+    <code value="hsides"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="hsides"/>
+    </designation>
+  </concept>
+  <concept id="10998">
+    <code value="lhs"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="lhs"/>
+    </designation>
+  </concept>
+  <concept id="10999">
+    <code value="rhs"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rhs"/>
+    </designation>
+  </concept>
+  <concept id="11000">
+    <code value="void"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="void"/>
+    </designation>
+  </concept>
+  <concept id="11001">
+    <code value="vsides"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="vsides"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0234-2.3.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0234-2.3.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.133"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0234v2.3.1"/>
+  <title value="V2 Table: Report Timing"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0234 (Report Timing)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0234-2.3.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="CO"/>
+    <display value="Correction"/>
+    <definition value="Correction"/>
+  </concept>
+  <concept>
+    <code value="AD"/>
+    <display value="Additional information"/>
+    <definition value="Additional information"/>
+  </concept>
+  <concept>
+    <code value="RQ"/>
+    <display value="Requested information"/>
+    <definition value="Requested information"/>
+  </concept>
+  <concept>
+    <code value="DE"/>
+    <display value="Device evaluation"/>
+    <definition value="Device evaluation"/>
+  </concept>
+  <concept>
+    <code value="PD"/>
+    <display value="Periodic"/>
+    <definition value="Periodic"/>
+  </concept>
+  <concept>
+    <code value="3D"/>
+    <display value="3 day report"/>
+    <definition value="3 day report"/>
+  </concept>
+  <concept>
+    <code value="7D"/>
+    <display value="7 day report"/>
+    <definition value="7 day report"/>
+  </concept>
+  <concept>
+    <code value="10D"/>
+    <display value="10 day report"/>
+    <definition value="10 day report"/>
+  </concept>
+  <concept>
+    <code value="15D"/>
+    <display value="15 day report"/>
+    <definition value="15 day report"/>
+  </concept>
+  <concept>
+    <code value="30D"/>
+    <display value="30 day report"/>
+    <definition value="30 day report"/>
+  </concept>
+</CodeSystem>

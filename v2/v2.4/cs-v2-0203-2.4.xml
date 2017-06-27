@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0203-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0203-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.108"/>
+  </identifier>
+  <version value="3"/>
+  <name value="V2Table0203v2.4"/>
+  <title value="V2 Table: Identifier Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0203 (Identifier Type)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0203-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AM"/>
+    <display value="American Express"/>
+    <definition value="American Express"/>
+  </concept>
+  <concept>
+    <code value="AN"/>
+    <display value="Account number"/>
+    <definition value="Account number"/>
+  </concept>
+  <concept>
+    <code value="BA"/>
+    <display value="Bank Account Number"/>
+    <definition value="Bank Account Number"/>
+  </concept>
+  <concept>
+    <code value="BR"/>
+    <display value="Birth registry number"/>
+    <definition value="Birth registry number"/>
+  </concept>
+  <concept>
+    <code value="BRN"/>
+    <display value="Breed Registry Number"/>
+    <definition value="Breed Registry Number"/>
+  </concept>
+  <concept>
+    <code value="DI"/>
+    <display value="Diner&#39;s Club card"/>
+    <definition value="Diner&#39;s Club card"/>
+  </concept>
+  <concept>
+    <code value="DL"/>
+    <display value="Driver&#39;s license number"/>
+    <definition value="Driver&#39;s license number"/>
+  </concept>
+  <concept>
+    <code value="DN"/>
+    <display value="Doctor number"/>
+    <definition value="Doctor number"/>
+  </concept>
+  <concept>
+    <code value="DR"/>
+    <display value="Donor Registration Number"/>
+    <definition value="Donor Registration Number"/>
+  </concept>
+  <concept>
+    <code value="DS"/>
+    <display value="Discover Card"/>
+    <definition value="Discover Card"/>
+  </concept>
+  <concept>
+    <code value="EI"/>
+    <display value="Employee number"/>
+    <definition value="Employee number"/>
+  </concept>
+  <concept>
+    <code value="EN"/>
+    <display value="Employer number"/>
+    <definition value="Employer number"/>
+  </concept>
+  <concept>
+    <code value="FI"/>
+    <display value="Facility ID"/>
+    <definition value="Facility ID"/>
+  </concept>
+  <concept>
+    <code value="GI"/>
+    <display value="Guarantor internal identifier"/>
+    <definition value="Guarantor internal identifier"/>
+  </concept>
+  <concept>
+    <code value="GN"/>
+    <display value="Guarantor external  identifier"/>
+    <definition value="Guarantor external  identifier"/>
+  </concept>
+  <concept>
+    <code value="HC"/>
+    <display value="Health Card Number"/>
+    <definition value="Health Card Number"/>
+  </concept>
+  <concept>
+    <code value="JHN"/>
+    <display value="Jurisdictional health number (Canada)"/>
+    <definition value="Jurisdictional health number (Canada)"/>
+  </concept>
+  <concept>
+    <code value="LN"/>
+    <display value="License number"/>
+    <definition value="License number"/>
+  </concept>
+  <concept>
+    <code value="LR"/>
+    <display value="Local Registry ID"/>
+    <definition value="Local Registry ID"/>
+  </concept>
+  <concept>
+    <code value="MA"/>
+    <display value="Medicaid number"/>
+    <definition value="Medicaid number"/>
+  </concept>
+  <concept>
+    <code value="MC"/>
+    <display value="Medicare number"/>
+    <definition value="Medicare number"/>
+  </concept>
+  <concept>
+    <code value="MCN"/>
+    <display value="Microchip Number"/>
+    <definition value="Microchip Number"/>
+  </concept>
+  <concept>
+    <code value="MR"/>
+    <display value="Medical record number"/>
+    <definition value="Medical record number"/>
+  </concept>
+  <concept>
+    <code value="MS"/>
+    <display value="MasterCard"/>
+    <definition value="MasterCard"/>
+  </concept>
+  <concept>
+    <code value="NE"/>
+    <display value="National employer identifier"/>
+    <definition value="National employer identifier"/>
+  </concept>
+  <concept>
+    <code value="NH"/>
+    <display value="National Health Plan Identifier"/>
+    <definition value="National Health Plan Identifier"/>
+  </concept>
+  <concept>
+    <code value="NI"/>
+    <display value="National unique individual identifier"/>
+    <definition value="National unique individual identifier"/>
+  </concept>
+  <concept>
+    <code value="NNxxx"/>
+    <display value="National Person Identifier where the xxx is the ISO table 3166  3-character (alphabetic) country code"/>
+    <definition value="National Person Identifier where the xxx is the ISO table 3166  3-character (alphabetic) country code"/>
+  </concept>
+  <concept>
+    <code value="NPI"/>
+    <display value="National provider identifier"/>
+    <definition value="National provider identifier"/>
+  </concept>
+  <concept>
+    <code value="PEN"/>
+    <display value="Pension Number"/>
+    <definition value="Pension Number"/>
+  </concept>
+  <concept>
+    <code value="PI"/>
+    <display value="Patient internal identifier"/>
+    <definition value="Patient internal identifier"/>
+  </concept>
+  <concept>
+    <code value="PN"/>
+    <display value="Person number"/>
+    <definition value="Person number"/>
+  </concept>
+  <concept>
+    <code value="PRN"/>
+    <display value="Provider number"/>
+    <definition value="Provider number"/>
+  </concept>
+  <concept>
+    <code value="PT"/>
+    <display value="Patient external identifier"/>
+    <definition value="Patient external identifier"/>
+  </concept>
+  <concept>
+    <code value="RR"/>
+    <display value="Railroad Retirement number"/>
+    <definition value="Railroad Retirement number"/>
+  </concept>
+  <concept>
+    <code value="RRI"/>
+    <display value="Regional registry ID"/>
+    <definition value="Regional registry ID"/>
+  </concept>
+  <concept>
+    <code value="SL"/>
+    <display value="State license"/>
+    <definition value="State license"/>
+  </concept>
+  <concept>
+    <code value="SR"/>
+    <display value="State registry ID"/>
+    <definition value="State registry ID"/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="Social Security number"/>
+    <definition value="Social Security number"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Unspecified"/>
+    <definition value="Unspecified"/>
+  </concept>
+  <concept>
+    <code value="UPIN"/>
+    <display value="Medicare/HCFA&#39;s Universal Physician Identification numbers"/>
+    <definition value="Medicare/HCFA&#39;s Universal Physician Identification numbers"/>
+  </concept>
+  <concept>
+    <code value="VN"/>
+    <display value="Visit number"/>
+    <definition value="Visit number"/>
+  </concept>
+  <concept>
+    <code value="VS"/>
+    <display value="VISA"/>
+    <definition value="VISA"/>
+  </concept>
+  <concept>
+    <code value="WC"/>
+    <display value="WIC identifier"/>
+    <definition value="WIC identifier"/>
+  </concept>
+  <concept>
+    <code value="WCN"/>
+    <display value="Workers&#39; Comp Number"/>
+    <definition value="Workers&#39; Comp Number"/>
+  </concept>
+  <concept>
+    <code value="XX"/>
+    <display value="Organization identifier"/>
+    <definition value="Organization identifier"/>
+  </concept>
+</CodeSystem>

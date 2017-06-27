@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-EntityNamePartQualifier"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <i>OpenIssue: </i>Needs description
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.43"/>
+  </identifier>
+  <name value="EntityNamePartQualifier"/>
+  <title value="EntityNamePartQualifier"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  OpenIssue:&#xD;&#xA;Needs description"/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="21072">
+    <code value="_OrganizationNamePartQualifier"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="OrganizationNamePartQualifier"/>
+    </designation>
+    <concept id="10668">
+      <code value="AC"/>
+      <definition value=" Indicates that a prefix like &quot;Dr.&quot; or a suffix like &quot;M.D.&quot; or &quot;Ph.D.&quot; is an academic title."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="academic"/>
+      </designation>
+    </concept>
+    <concept id="21320">
+      <code value="AD"/>
+      <definition value=" The name the person was given at the time of adoption."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="adopted"/>
+      </designation>
+    </concept>
+    <concept id="10661">
+      <code value="BR"/>
+      <definition value=" A name that a person had shortly after being born. Usually for family names but may be used to mark given names at birth that may have changed later."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="birth"/>
+      </designation>
+    </concept>
+    <concept id="10673">
+      <code value="CL"/>
+      <definition value=" A callme name is (usually a given name) that is preferred when a person is directly addressed."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="callme"/>
+      </designation>
+    </concept>
+    <concept id="17938">
+      <code value="IN"/>
+      <definition value=" Indicates that a name part is just an initial. Initials do not imply a trailing period since this would not work with non-Latin scripts.  Initials may consist of more than one letter, e.g., &quot;Ph.&quot; could stand for &quot;Philippe&quot; or &quot;Th.&quot; for &quot;Thomas&quot;."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="initial"/>
+      </designation>
+    </concept>
+    <concept id="15890">
+      <code value="LS"/>
+      <definition value=" For organizations a suffix indicating the legal status, e.g., &quot;Inc.&quot;, &quot;Co.&quot;, &quot;AG&quot;, &quot;GmbH&quot;, &quot;B.V.&quot; &quot;S.A.&quot;,  &quot;Ltd.&quot; etc."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Legal status"/>
+      </designation>
+    </concept>
+    <concept id="10670">
+      <code value="NB"/>
+      <definition value=" In Europe and Asia, there are still people with nobility titles (aristocrats).  German &quot;von&quot; is generally a nobility title, not a mere voorvoegsel.  Others are &quot;Earl of&quot; or &quot;His Majesty King of...&quot; etc.  Rarely used nowadays, but some systems do keep track of this."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="nobility"/>
+      </designation>
+    </concept>
+    <concept id="10669">
+      <code value="PR"/>
+      <definition value=" Primarily in the British Imperial culture people tend to have an abbreviation of their professional organization as part of their credential suffices."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="professional"/>
+      </designation>
+    </concept>
+    <concept id="10665">
+      <code value="SP"/>
+      <definition value=" The name assumed from the partner in a marital relationship (hence the &quot;SP&quot;). Usually the spouse&#39;s family name. Note that no inference about gender can be made from the existence of spouse names."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="spouse"/>
+      </designation>
+    </concept>
+    <concept id="21462">
+      <code value="TITLE"/>
+      <definition value=" Indicates that a prefix or a suffix is a title that applies to the whole name, not just the adjacent name part."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="title"/>
+      </designation>
+    </concept>
+    <concept id="10667">
+      <code value="VV"/>
+      <definition value=" A Dutch &quot;voorvoegsel&quot; is something like &quot;van&quot; or &quot;de&quot; that might have indicated nobility in the past but no longer so. Similar prefixes exist in other languages such as Spanish, French or Portugese."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="voorvoegsel"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22979">
+    <code value="PharmaceuticalEntityNamePartQualifiers"/>
+    <definition value="  Description:&#xD;&#xA;Medication Name Parts are a means of specifying a range of acceptable &quot;official&quot; forms of the name of a product.  They are used as patterns against which input name strings may be matched for automatic identification of products from input text reports.   While they cover the concepts held under &quot;doseForm&quot; or &quot;route&quot; or &quot;strength&quot; the name parts are not the same and do not fit into a controlled vocabulary in the same way. By specifying up to 8 name parts a much larger range of possible names can be generated."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PharmaceuticalEntityNamePartQualifiers"/>
+    </designation>
+    <concept id="22985">
+      <code value="CON"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the container if present in the medicinal product name. EXAMPLES:   For Optaflu suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell culture) (2007/2008 season): pre-filled syringe"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="container name"/>
+      </designation>
+    </concept>
+    <concept id="22986">
+      <code value="DEV"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the qualifiers in the name for devices and is at the moment mainly applicable to insulins and inhalation products. EXAMPLES:   For the medicinal product Actrapid FlexPen 100 IU/ml Solution for injection Subcutaneous use: FlexPen."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="device name"/>
+      </designation>
+    </concept>
+    <concept id="23314">
+      <code value="FLAV"/>
+      <definition value="  Description:&#xD;&#xA;This refers to a flavor of the medicinal product if present in the medicinal product name.  Examples:&#xD;&#xA;  For &#39;CoughCure Linctus Orange Flavor&#39;, the flavor part is &quot;Orange&quot; For &#39;Wonderdrug Syrup Cherry Flavor&#39;, the flavor part is &quot;Cherry&quot;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="FlavorName"/>
+      </designation>
+    </concept>
+    <concept id="23312">
+      <code value="FORMUL"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the formulation of the medicinal product if present in the medicinal product name.  Examples:&#xD;&#xA;  For &#39;SpecialMed Sugar Free Cough Syrup&#39;, the formulation name part is &quot;Sugar Free&quot; For &#39;QuickCure Gluten-free Bulk Fibre&#39;, the formulation name part is &quot;gluten-free&quot;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="FormulationPartName"/>
+      </designation>
+    </concept>
+    <concept id="22983">
+      <code value="FRM"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the pharmaceutical form/ if present in the medicinal product name. EXAMPLES:   For Agenerase 50 mg soft capsules: Soft Capsules  For Ludiomil 25mg-Filmtabletten: Filmtabletten  For Optaflu suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell culture) (2007/2008 season): suspension for injection"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="form name"/>
+      </designation>
+    </concept>
+    <concept id="22980">
+      <code value="INV"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the product name without the trademark or the name of the marketing authorization holder or any other descriptor reflected in the product name and, if appropriate, whether it is intended e.g. for babies, children or adults. EXAMPLES:   Agenerase  Optaflu  Ludiomil"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="invented name"/>
+      </designation>
+    </concept>
+    <concept id="23311">
+      <code value="POPUL"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the target population for the medicinal product if present in the medicinal product name  Examples:&#xD;&#xA;  For &#39;Broncho-Drug 3.5 mg-capsules for children&#39;, the target population part is &quot;children&quot; For &#39;Adult Chesty Cough Syrup&#39;, the target population part is &quot;adult&quot;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="TargetPopulationName"/>
+      </designation>
+    </concept>
+    <concept id="22981">
+      <code value="SCI"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the product common or scientific name without the trademark or the name of the marketing authorization holder or any other descriptor reflected in the product name. EXAMPLES:   For Agenerase: N/A  For Optaflu: Influenza vaccine (surface antigen, inactivated, prepared in cell culture) (2007/2008 season)  For Ludiomil: N/A"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="scientific name"/>
+      </designation>
+    </concept>
+    <concept id="22982">
+      <code value="STR"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the strength if present in the medicinal product name. The use of decimal points should be accommodated if required. EXAMPLES:   For Agenerase 50 mg soft capsules: 50mg  For Ludiomil 25mg-Filmtabletten: 25 mg  For Optaflu suspension for injection in pre-filled syringe Influenza vaccine (surface antigen, inactivated, prepared in cell culture) (2007/2008 season): N/A"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="strength name"/>
+      </designation>
+    </concept>
+    <concept id="23313">
+      <code value="TIME"/>
+      <definition value="  Description:&#xD;&#xA;This refers to a time or time period that may be specified in the text of the medicinal product name  Example:&#xD;&#xA;  For an influenza vaccine &#39;Drug-FLU season 2008/2009&#39;, the time/period part is &quot;2008/2009 season&quot;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="TimeOrPeriodName"/>
+      </designation>
+    </concept>
+    <concept id="22987">
+      <code value="TMK"/>
+      <definition value="  Description:&#xD;&#xA;This refers to trademark/company element if present in the medicinal product name. EXAMPLES:   for Insulin Human Winthrop Comb 15: Winthrop"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="trademark name"/>
+      </designation>
+    </concept>
+    <concept id="22984">
+      <code value="USE"/>
+      <definition value="  Description:&#xD;&#xA;This refers to the intended use if present in the medicinal product name without the trademark or the name of the marketing authorization holder or any other descriptor reflected in the product name.  Examples:&#xD;&#xA;  For &#39;Drug-BI Caplets - Heartburn Relief&#39;, the intended use part is: &quot;Heartburn Relief&quot; For &#39;Medicine Honey Syrup for Soothing Coughs&#39; the intended use part is &quot;Soothing Coughs&quot;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="intended use name"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21076">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="IN"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+      <valueCode value="TITLE"/>
+    </extension>
+    <code value="_PersonNamePartQualifier"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="PersonNamePartQualifier"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <concept id="21073">
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="AC"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="NB"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="PR"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="VV"/>
+      </extension>
+      <code value="_PersonNamePartAffixTypes"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="PersonNamePartAffixTypes"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+    <concept id="21074">
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="AD"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="BR"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="SP"/>
+      </extension>
+      <code value="_PersonNamePartChangeQualifier"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="PersonNamePartChangeQualifier"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+    <concept id="21075">
+      <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+        <valueCode value="CL"/>
+      </extension>
+      <code value="_PersonNamePartMiscQualifier"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="PersonNamePartMiscQualifier"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+  </concept>
+</CodeSystem>

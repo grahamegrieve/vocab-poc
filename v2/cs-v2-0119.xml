@@ -12,7 +12,7 @@
   <title value="V2 Table: Order Control Codes"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-27T20:18:15+10:00"/>
+  <date value="2016-03-11"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications.&lt;p&gt;AF is a response to RF where the placer authorizing a refill or quantity of refills."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="AF"/>
@@ -67,7 +67,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications.&#xD;&#xA;The control code CP &#x2013; Cancel process step should be used in the ORC-1 for communication Filler-to-Filler, e.g., LIS-to-Analyzer, to differentiate from code CA (Placer-to-Filler).&#xD;&#xA;The Filler should response with an acceptance of the cancellation using ORC-1 = CR and ORC-5 = CA."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
     <code value="CP"/>
@@ -78,7 +78,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler or Placer Applications.&lt;p&gt;A response by the filler or placer application that a request to cancel (CA by the placer application) was performed successfully."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="CR"/>
@@ -105,7 +105,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications.&#xD;&#xA;In response to a Filler application requesting refill authorization (RF), DF indicates that the placer does not authorize refills for the order. ORC-16 Order Control Code reason may be used to indicate the reason for the request denial. Some suggested values include:&#xD;&#xA;AA&#x9;Patient unknown to the provider&#xD;&#xA;AB&#x9;Patient never under provider care&#xD;&#xA;AC&#x9;Patient no longer under provider care&#xD;&#xA;AD&#x9;Patient has requested refill too soon&#xD;&#xA;AE&#x9;Medication never prescribed for the patient&#xD;&#xA;AF&#x9;Patient should contact provider first&#xD;&#xA;AG&#x9;Refill not appropriate&#xD;&#xA;Note that these values originate from the NCPDP SCRIPT Response Segment Code List Qualifiers. Materials Reproduced with the consent of &#xA9;National Council for Prescription Drug Programs, Inc. 1988, 1992, 2002 NCPDP."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="DF"/>
@@ -124,7 +124,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications.&lt;p&gt;FU notifies the placer that the filler issued a refill for the order at the patient&#39;s request."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="FU"/>
@@ -151,7 +151,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer or Filler Applications.&lt;p&gt;Refer to Chapter 12 Patient Care for complete discussion."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="LI"/>
@@ -162,7 +162,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="applies to DFT^P03^DFT_P03 and DFT^P11^DFT_P11"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
     <code value="MC"/>
@@ -178,7 +178,7 @@
     <definition value="Number assigned"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="NR"/>
@@ -197,7 +197,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="OC"/>
@@ -216,7 +216,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="OE"/>
@@ -227,7 +227,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications.&lt;p&gt;OF directly responds to the placer system&#39;s request for a refill."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="OF"/>
@@ -238,7 +238,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="OH"/>
@@ -257,7 +257,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications.&#xD;&#xA;These order control codes are used to communicate an order between systems where the order is intended for informational purposes. For example, an order that will be performed by a vendor outside the enterprise of communicating systems. The communicating systems may need to maintain information relative to the order for clinical continuity, but no actions to perform the ordered service are intended.&#xD;&#xA;OP represents an informational version of NW, PY represents the informational-only version of RO. NW and RO table notes also apply to OP and PY, respectively."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="OP"/>
@@ -284,7 +284,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications.&#xD;&#xA;PR indicates that this ORC is part of an ORU structure containing previous observation, which is embedded in the order.&#xD;&#xA;&#xD;&#xA;At least two main use cases require that the complete results of the previous observations be transmitted with the order. &#xD;&#xA;&#xD;&#xA;&#x2022;&#x9;Diagnostic laboratories referring tests to another lab for either confirmation of results (HIV, etc.) or due to not being equipped to do the tests (genetic testing, etc.). &#xD;&#xA;&#xD;&#xA;&#x2022;&#x9;Diagnostic laboratories sending test results to Knowledge Bases for the automated generation of diagnostic comments for inclusion into the lab report."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
     <code value="PR"/>
@@ -295,7 +295,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications.&lt;p&gt;See comments for OP - Notification of order for outside dispense."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
     <code value="PY"/>
@@ -303,7 +303,7 @@
     <definition value="Notification of replacement order for outside dispense"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="RA"/>
@@ -311,7 +311,7 @@
     <definition value="Recommendation Accepted"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="RC"/>
@@ -319,7 +319,7 @@
     <definition value="Recommended Change"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
     <code value="RD"/>
@@ -338,7 +338,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer or Filler Applications.&#xD;&#xA;RF accommodates requests by either the filler or the placer. The filler may be requesting refill authorization from the placer. A placer system may be requesting a refill to be done by the filler system.&#xD;&#xA;&#xD;&#xA;Typical responses include, but are not limited to: For a Filler request AF &#x2013; Order/service refill request approval, DF &#x2013; Order/service refill request denied; for a Placer request RE &#x2013; Observations/Performed Service to follow, UF &#x2013; Unable to refill."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="RF"/>
@@ -349,7 +349,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="RL"/>
@@ -376,7 +376,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications.&#xD;&#xA;A replacement is the substitution of one or more orders for one or more previously ordered services. See comment 1 on RO &#x2013; Replacement Order for further discussion.&#xD;&#xA;&#xD;&#xA;The order replace request code permits the order filler to replace one or more new orders with one or more new orders, at the request of the placer application.&#xD;&#xA;&#xD;&#xA;The replacement order code is sent by the filler application to another application indicating the exact replacement ordered service. It is used with the RP and RU order control codes as described above.&#xD;&#xA;&#xD;&#xA;The rules for the order numbers in ORC segments with an order control value of RO are determined by the replacement type (RP or RU).&#xD;&#xA;&#xD;&#xA;In the case of the RU type (i.e., unsolicited replacement by the filler), the filler order number is generated as usual by the filler application. The placer order number is identical to the placer order number of the first transmitted ORC with an order control value of RU.&#xD;&#xA;&#xD;&#xA;In the case of the RP type (i.e., a replacement request from another application to the filler), the placer order number is generated by the placer application using the procedure for new orders. The filler order number is generated by the filler application using the procedure identical for new orders.&#xD;&#xA;&#xD;&#xA;If a replacement sequence is used in an ORU message (i.e., during results reporting), the following are the recommended segments to be used for the replacement orders:&#xD;&#xA;&#xD;&#xA;a) ORC with an order control value of RO&#xD;&#xA;&#xD;&#xA;b) Any OBR segments (can be replaced by any order detail segments)&#xD;&#xA;&#xD;&#xA;c) Optionally followed by observation result segments (OBX)&#xD;&#xA;&#xD;&#xA;d) NTE segments can appear after the OBR (or any order detail segment) or after an OBX segment as in a regular ORU message"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="RQ"/>
@@ -403,7 +403,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer or Filler Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SC"/>
@@ -422,7 +422,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="SR"/>
@@ -441,7 +441,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications.&#xD;&#xA;An unable to accept code is used when a new order cannot be accepted by the filler. Possible reasons include requesting a prescription for a drug which the patient is allergic to or for an order which requires certain equipment resources which are not available such that the order cannot be filled. Note that this is different from the communication level acceptance as defined within the MSA segment."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="UA"/>
@@ -452,7 +452,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler or Placer Applications.&#xD;&#xA;An unable-to-cancel code is used when the ordered service is at a point that it cannot be canceled by the placer or filler or when local rules prevent cancellation by the filler. The use of this code is dependent on the value of ORC-6-response flag.&#xD;&#xA;If the filler initiated the request to cancel and the placer is unable to cancel while the filler cannot proceed with the fulfillment of that order, then the necessary communication to resolve the conflict is outside the scope of these messages."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="UC"/>
@@ -471,7 +471,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications.&lt;p&gt;Negative response to RF Refill order/service request, indicating that the receiving application was not able to complete the refill request."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
     <code value="UF"/>
@@ -490,7 +490,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Filler Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="UM"/>
@@ -501,7 +501,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer or Filler Applications.&lt;p&gt;Refer to Chapter 12 Patient Care for complete discussion."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
     <code value="UN"/>
@@ -528,7 +528,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
     <code value="XO"/>

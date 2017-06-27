@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0493-2.5.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0493-2.5.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.317"/>
+  </identifier>
+  <version value="2"/>
+  <name value="V2Table0493v2.5.1"/>
+  <title value="V2 Table: Specimen Condition"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0493 (Specimen Condition)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0493-2.5.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="AUT"/>
+    <display value="Autolyzed"/>
+    <definition value="Autolyzed"/>
+  </concept>
+  <concept>
+    <code value="CLOT"/>
+    <display value="Clotted"/>
+    <definition value="Clotted"/>
+  </concept>
+  <concept>
+    <code value="CON"/>
+    <display value="Contaminated"/>
+    <definition value="Contaminated"/>
+  </concept>
+  <concept>
+    <code value="COOL"/>
+    <display value="Cool"/>
+    <definition value="Cool"/>
+  </concept>
+  <concept>
+    <code value="FROZ"/>
+    <display value="Frozen"/>
+    <definition value="Frozen"/>
+  </concept>
+  <concept>
+    <code value="HEM"/>
+    <display value="Hemolyzed"/>
+    <definition value="Hemolyzed"/>
+  </concept>
+  <concept>
+    <code value="LIVE"/>
+    <display value="Live"/>
+    <definition value="Live"/>
+  </concept>
+  <concept>
+    <code value="ROOM"/>
+    <display value="Room temperature"/>
+    <definition value="Room temperature"/>
+  </concept>
+  <concept>
+    <code value="SNR"/>
+    <display value="Sample not received"/>
+    <definition value="Sample not received"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0469-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0469-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.298"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0469v2.5"/>
+  <title value="V2 Table: Packaging Status Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0469 (Packaging Status Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0469-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="0"/>
+    <display value="Not packaged"/>
+    <definition value="Not packaged"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="Packaged service (status indicator N, or no HCPCS code and certain revenue codes)"/>
+    <definition value="Packaged service (status indicator N, or no HCPCS code and certain revenue codes)"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Packaged as part of partial hospitalization per diem or daily mental health service per diem"/>
+    <definition value="Packaged as part of partial hospitalization per diem or daily mental health service per diem"/>
+  </concept>
+</CodeSystem>

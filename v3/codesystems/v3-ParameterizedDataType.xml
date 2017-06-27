@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ParameterizedDataType"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <b>Deprecation Comment:</b> Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.
+      </p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="691-20081229"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ParameterizedDataType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.87"/>
+  </identifier>
+  <name value="ParameterizedDataType"/>
+  <title value="ParameterizedDataType"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  Deprecation Comment:&#xD;&#xA;Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used."/>
+  <content value="complete"/>
+  <concept id="10763">
+    <code value="BAG&lt;T&gt;"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bag"/>
+    </designation>
+  </concept>
+  <concept id="10762">
+    <code value="LIST&lt;T&gt;"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Sequence"/>
+    </designation>
+  </concept>
+  <concept id="10761">
+    <code value="SET&lt;T&gt;"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Set"/>
+    </designation>
+    <concept id="10766">
+      <code value="EIVL&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Event Related Interval"/>
+      </designation>
+    </concept>
+    <concept id="10764">
+      <code value="IVL&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Interval"/>
+      </designation>
+    </concept>
+    <concept id="10765">
+      <code value="PIVL&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Periodic Interval"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="10760">
+    <code value="T"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Type"/>
+    </designation>
+    <concept id="10767">
+      <code value="ANT&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Annotated"/>
+      </designation>
+    </concept>
+    <concept id="10768">
+      <code value="HXIT&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Historical"/>
+      </designation>
+    </concept>
+    <concept id="10771">
+      <code value="NPPD&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Non Parametric Probability Distribution"/>
+      </designation>
+    </concept>
+    <concept id="10772">
+      <code value="PPD&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Parametric Probability Distribution"/>
+      </designation>
+    </concept>
+    <concept id="10769">
+      <code value="UVN&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Uncertain Value Narrative"/>
+      </designation>
+    </concept>
+    <concept id="10770">
+      <code value="UVP&lt;T&gt;"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Uncertain Value Probabilistic"/>
+      </designation>
+    </concept>
+  </concept>
+</CodeSystem>

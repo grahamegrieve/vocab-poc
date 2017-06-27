@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-substanceAdminSubstitution"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-substanceAdminSubstitution"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1070"/>
+  </identifier>
+  <name value="substanceAdminSubstitution"/>
+  <title value="Substance Admin Substitution"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided."/>
+  <content value="complete"/>
+  <concept id="21284">
+    <code value="_ActSubstanceAdminSubstitutionCode"/>
+    <definition value="  Description:&#xD;&#xA;Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActSubstanceAdminSubstitutionCode"/>
+    </designation>
+    <concept id="23107">
+      <code value="E"/>
+      <definition value="  Description:&#xD;&#xA;Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="equivalent"/>
+      </designation>
+      <concept id="23108">
+        <code value="EC"/>
+        <definition value="  Description:&#xD;&#xA; Substitution occurred or is permitted with another product that is a:  pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration  Examples:&#xD;&#xA;   Pharmaceutical alternative:Erythromycin Ethylsuccinate for Erythromycin Stearate  Pharmaceutical equivalent:Lisonpril for Zestril"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="equivalent composition"/>
+        </designation>
+        <concept id="23109">
+          <code value="BC"/>
+          <definition value="  Description:&#xD;&#xA; Substitution occurred or is permitted between equivalent Brands but not Generics  Examples:&#xD;&#xA;  Zestril  for Prinivil Coumadin for Jantoven"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="brand composition"/>
+          </designation>
+        </concept>
+        <concept id="16623">
+          <code value="G"/>
+          <definition value="  Description:&#xD;&#xA;Substitution occurred or is permitted between equivalent Generics but not Brands  Examples:&#xD;&#xA;  Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="generic composition"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="16624">
+        <code value="TE"/>
+        <definition value="  Description:&#xD;&#xA;Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.  Examples:&#xD;&#xA;  ranitidine for Tagamet"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="therapeutic alternative"/>
+        </designation>
+        <concept id="23105">
+          <code value="TB"/>
+          <definition value="  Description:&#xD;&#xA;Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics&gt; Examples:&#xD;&#xA;  Zantac for Tagamet"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="therapeutic brand"/>
+          </designation>
+        </concept>
+        <concept id="23106">
+          <code value="TG"/>
+          <definition value="  Description:&#xD;&#xA;Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands&gt; Examples:&#xD;&#xA;  Ranitidine  for cimetidine"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="therapeutic generic"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="16625">
+      <code value="F"/>
+      <definition value="  Description:&#xD;&#xA;This substitution was performed or is permitted based on formulary guidelines."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="formulary"/>
+      </designation>
+    </concept>
+    <concept id="16622">
+      <code value="N"/>
+      <definition value=" No substitution occurred or is permitted."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="none"/>
+      </designation>
+    </concept>
+  </concept>
+</CodeSystem>

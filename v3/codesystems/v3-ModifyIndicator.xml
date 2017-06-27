@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ModifyIndicator"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ModifyIndicator"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.81"/>
+  </identifier>
+  <name value="ModifyIndicator"/>
+  <title value="ModifyIndicator"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="10149">
+    <code value="M"/>
+    <definition value=" Modified subscription to a query server."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Modified subscription"/>
+    </designation>
+  </concept>
+  <concept id="10148">
+    <code value="N"/>
+    <definition value=" New subscription to a query server."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="New subscription"/>
+    </designation>
+  </concept>
+</CodeSystem>

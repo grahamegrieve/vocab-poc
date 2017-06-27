@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-QueryQuantityUnit"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Values in this domain specify the units of a query quantity limited request.</p>
+                  
+      <p>
+                     
+        <b>Deprecation Comment:</b> Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.  This is a holdover.  It is not referenced.  It is superseded by QueryRequestLimit. 
+      </p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="729-20081229"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-QueryQuantityUnit"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1066"/>
+  </identifier>
+  <name value="QueryQuantityUnit"/>
+  <title value="QueryQuantityUnit"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" Values in this domain specify the units of a query quantity limited request.  Deprecation Comment:&#xD;&#xA;Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.  This is a holdover.  It is not referenced.  It is superseded by QueryRequestLimit."/>
+  <content value="complete"/>
+  <concept id="16016">
+    <code value="CH"/>
+    <definition value=" Used where size of input buffer has limitations."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Characters"/>
+    </designation>
+  </concept>
+  <concept id="16017">
+    <code value="LI"/>
+    <definition value=" Used where lines of respone has limitations."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Lines"/>
+    </designation>
+  </concept>
+  <concept id="16018">
+    <code value="PG"/>
+    <definition value=" Used where pages of response has limitations."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Pages"/>
+    </designation>
+  </concept>
+  <concept id="16019">
+    <code value="RD"/>
+    <definition value=" Used where number of records or instances of items in the query response result set has limitations."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Records"/>
+    </designation>
+  </concept>
+</CodeSystem>

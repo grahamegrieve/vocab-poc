@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-PersonDisabilityType"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A code identifying a person&#39;s disability.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-PersonDisabilityType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.93"/>
+  </identifier>
+  <name value="PersonDisabilityType"/>
+  <title value="PersonDisabilityType"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" A code identifying a person&#39;s disability."/>
+  <content value="complete"/>
+  <concept id="10182">
+    <code value="1"/>
+    <definition value=" Vision impaired"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Vision impaired"/>
+    </designation>
+  </concept>
+  <concept id="10183">
+    <code value="2"/>
+    <definition value=" Hearing impaired"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hearing impaired"/>
+    </designation>
+  </concept>
+  <concept id="10184">
+    <code value="3"/>
+    <definition value=" Speech impaired"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Speech impaired"/>
+    </designation>
+  </concept>
+  <concept id="10185">
+    <code value="4"/>
+    <definition value=" Mentally impaired"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mentally impaired"/>
+    </designation>
+  </concept>
+  <concept id="10186">
+    <code value="5"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mobility impaired"/>
+    </designation>
+    <concept id="15951">
+      <code value="CB"/>
+      <definition value=" A crib is required to move the person"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Requires crib"/>
+      </designation>
+    </concept>
+    <concept id="15947">
+      <code value="CR"/>
+      <definition value=" Person requires crutches to ambulate"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Requires crutches"/>
+      </designation>
+    </concept>
+    <concept id="15950">
+      <code value="G"/>
+      <definition value=" A gurney is required to move the person"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Requires gurney"/>
+      </designation>
+    </concept>
+    <concept id="15949">
+      <code value="WC"/>
+      <definition value=" Person requires a wheelchair to be ambulatory"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Requires wheelchair"/>
+      </designation>
+    </concept>
+    <concept id="15948">
+      <code value="WK"/>
+      <definition value=" Person requires a walker to ambulate"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Requires walker"/>
+      </designation>
+    </concept>
+  </concept>
+</CodeSystem>

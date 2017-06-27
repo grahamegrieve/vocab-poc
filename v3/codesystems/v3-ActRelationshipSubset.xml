@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActRelationshipSubset"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>&lt;ns1:p&gt;Used to indicate that the target of the relationship will be a filtered subset of the total related set of targets.&lt;/ns1:p&gt;&lt;ns1:p&gt;Used when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtered or calculated subset.&lt;/ns1:p&gt;</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipSubset"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1099"/>
+  </identifier>
+  <name value="ActRelationshipSubset"/>
+  <title value="ActRelationshipSubset"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" &lt;ns1:p&gt;Used to indicate that the target of the relationship will be a filtered subset of the total related set of targets.&lt;/ns1:p&gt;&lt;ns1:p&gt;Used when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtered or calculated subset.&lt;/ns1:p&gt;"/>
+  <content value="complete"/>
+  <concept id="21567">
+    <code value="_ParticipationSubset"/>
+    <definition value=" Used to indicate that the participation is a filtered subset of the total participations of the same type owned by the Act. Used when there is a need to limit the participations to the first, the last, the next or some other filtered subset."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ParticipationSubset"/>
+    </designation>
+    <concept id="21368">
+      <code value="FUTURE"/>
+      <definition value=" An occurrence that is scheduled to occur in the future. An Act whose effective time is greater than &#39;now&#39;, where &#39;now&#39; is the time the instance is authored."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="expected future"/>
+      </designation>
+      <concept id="21379">
+        <code value="FUTSUM"/>
+        <definition value=" Represents a &#39;summary&#39; of all acts that are scheduled to occur in the future (whose effective time is greater than &#39;now&#39; where is the time the instance is authored.). The effectiveTime represents the outer boundary of all occurrences, repeatNumber represents the total number of repetitions, etc."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="future summary"/>
+        </designation>
+      </concept>
+      <concept id="21378">
+        <code value="LAST"/>
+        <definition value=" Restricted to the latest known occurrence that is scheduled to occur. The Act with the highest known effective time."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="expected last"/>
+        </designation>
+      </concept>
+      <concept id="21377">
+        <code value="NEXT"/>
+        <definition value=" Restricted to the nearest recent known occurrence scheduled to occur in the future. The Act with the lowest effective time, still greater than &#39;now&#39;. (&#39;now&#39; is the time the instance is authored.)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="expected next"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21367">
+      <code value="PAST"/>
+      <definition value=" An occurrence that occurred or was scheduled to occur in the past. An Act whose effective time is less than &#39;now&#39;. (&#39;now&#39; is the time the instance is authored.)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="previous"/>
+      </designation>
+      <concept id="21373">
+        <code value="FIRST"/>
+        <definition value=" Restricted to the earliest known occurrence that occurred or was scheduled to occur in the past. The Act with the lowest effective time. (&#39;now&#39; is the time the instance is authored.)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="first known"/>
+        </designation>
+      </concept>
+      <concept id="21375">
+        <code value="PREVSUM"/>
+        <definition value=" Represents a &#39;summary&#39; of all acts that previously occurred or were scheduled to occur. The effectiveTime represents the outer boundary of all occurrences, repeatNumber represents the total number of repetitions, etc. (&#39;now&#39; is the time the instance is authored.)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="previous summary"/>
+        </designation>
+      </concept>
+      <concept id="21374">
+        <code value="RECENT"/>
+        <definition value=" Restricted to the most recent known occurrence that occurred or was scheduled to occur in the past. The Act with the most recent effective time, still less than &#39;now&#39;. (&#39;now&#39; is the time the instance is authored.)"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="most recent"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21371">
+      <code value="SUM"/>
+      <definition value=" Represents a &#39;summary&#39; of all acts that have occurred or were scheduled to occur and which are scheduled to occur in the future. The effectiveTime represents the outer boundary of all occurrences, repeatNumber represents the total number of repetitions, etc."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="summary"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21376">
+    <code value="ActRelationshipExpectedSubset"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActRelationshipExpectedSubset"/>
+    </designation>
+  </concept>
+  <concept id="21372">
+    <code value="ActRelationshipPastSubset"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ActRelationshipPastSubset"/>
+    </designation>
+  </concept>
+  <concept id="21370">
+    <code value="MAX"/>
+    <definition value=" The occurrence whose value attribute is greater than all other occurrences at the time the instance is created."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="maximum"/>
+    </designation>
+  </concept>
+  <concept id="21369">
+    <code value="MIN"/>
+    <definition value=" The occurrence whose value attribute is less than all other occurrences at the time the instance is created."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="minimum"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-SpecimenType"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-SpecimenType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.129"/>
+  </identifier>
+  <name value="SpecimenType"/>
+  <title value="SpecimenType"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="21283">
+    <code value="_SpecimenEntityType"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SpecimenEntityType"/>
+    </designation>
+    <concept id="10446">
+      <code value="ABS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Abcess"/>
+      </designation>
+    </concept>
+    <concept id="10447">
+      <code value="AMN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Amniotic fluid"/>
+      </designation>
+    </concept>
+    <concept id="10448">
+      <code value="ASP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Aspirate"/>
+      </designation>
+    </concept>
+    <concept id="10452">
+      <code value="BBL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Blood bag"/>
+      </designation>
+    </concept>
+    <concept id="10562">
+      <code value="BDY"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Whole body"/>
+      </designation>
+    </concept>
+    <concept id="10450">
+      <code value="BIFL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Bile fluid"/>
+      </designation>
+    </concept>
+    <concept id="10561">
+      <code value="BLD"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Whole blood"/>
+      </designation>
+    </concept>
+    <concept id="10451">
+      <code value="BLDA"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Blood arterial"/>
+      </designation>
+    </concept>
+    <concept id="10453">
+      <code value="BLDC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Blood capillary"/>
+      </designation>
+    </concept>
+    <concept id="10454">
+      <code value="BLDCO"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Blood - cord"/>
+      </designation>
+    </concept>
+    <concept id="10456">
+      <code value="BLDV"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Blood venous"/>
+      </designation>
+    </concept>
+    <concept id="10457">
+      <code value="BON"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Bone"/>
+      </designation>
+    </concept>
+    <concept id="10449">
+      <code value="BPH"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Basophils"/>
+      </designation>
+    </concept>
+    <concept id="10455">
+      <code value="BPU"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Blood product unit"/>
+      </designation>
+    </concept>
+    <concept id="10460">
+      <code value="BRN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Burn"/>
+      </designation>
+    </concept>
+    <concept id="10459">
+      <code value="BRO"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Bronchial"/>
+      </designation>
+    </concept>
+    <concept id="10458">
+      <code value="BRTH"/>
+      <display value="Breath (use EXG)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Exhaled gas (=breath)"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="EXG"/>
+      </designation>
+    </concept>
+    <concept id="10461">
+      <code value="CALC"/>
+      <display value="Stone (use CALC)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Calculus (=Stone)"/>
+      </designation>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="synonym"/>
+        </use>
+        <value value="STON"/>
+      </designation>
+    </concept>
+    <concept id="10462">
+      <code value="CDM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cardiac muscle"/>
+      </designation>
+    </concept>
+    <concept id="10469">
+      <code value="CNJT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Conjunctiva"/>
+      </designation>
+    </concept>
+    <concept id="10463">
+      <code value="CNL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cannula"/>
+      </designation>
+    </concept>
+    <concept id="10468">
+      <code value="COL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Colostrum"/>
+      </designation>
+    </concept>
+    <concept id="10471">
+      <code value="CRN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cornea"/>
+      </designation>
+    </concept>
+    <concept id="10465">
+      <code value="CSF"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cerebral spinal fluid"/>
+      </designation>
+    </concept>
+    <concept id="10464">
+      <code value="CTP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Catheter tip"/>
+      </designation>
+    </concept>
+    <concept id="10470">
+      <code value="CUR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Curettage"/>
+      </designation>
+    </concept>
+    <concept id="10466">
+      <code value="CVM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cervical mucus"/>
+      </designation>
+    </concept>
+    <concept id="10467">
+      <code value="CVX"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cervix"/>
+      </designation>
+    </concept>
+    <concept id="10472">
+      <code value="CYST"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cyst"/>
+      </designation>
+    </concept>
+    <concept id="10473">
+      <code value="DIAF"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Dialysis fluid"/>
+      </designation>
+    </concept>
+    <concept id="10474">
+      <code value="DOSE"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Dose med or substance"/>
+      </designation>
+    </concept>
+    <concept id="10475">
+      <code value="DRN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Drain"/>
+      </designation>
+    </concept>
+    <concept id="10476">
+      <code value="DUFL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Duodenal fluid"/>
+      </designation>
+    </concept>
+    <concept id="10477">
+      <code value="EAR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Ear"/>
+      </designation>
+    </concept>
+    <concept id="10478">
+      <code value="EARW"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Ear wax (cerumen)"/>
+      </designation>
+    </concept>
+    <concept id="10479">
+      <code value="ELT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Electrode"/>
+      </designation>
+    </concept>
+    <concept id="10480">
+      <code value="ENDC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Endocardium"/>
+      </designation>
+    </concept>
+    <concept id="10481">
+      <code value="ENDM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Endometrium"/>
+      </designation>
+    </concept>
+    <concept id="10482">
+      <code value="EOS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Eosinophils"/>
+      </designation>
+    </concept>
+    <concept id="10484">
+      <code value="EYE"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Eye"/>
+      </designation>
+    </concept>
+    <concept id="10485">
+      <code value="FIB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Fibroblasts"/>
+      </designation>
+    </concept>
+    <concept id="10487">
+      <code value="FIST"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Fistula"/>
+      </designation>
+    </concept>
+    <concept id="10486">
+      <code value="FLT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Filter"/>
+      </designation>
+    </concept>
+    <concept id="10488">
+      <code value="FLU"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Body fluid, unsp"/>
+      </designation>
+    </concept>
+    <concept id="10489">
+      <code value="FOOD"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Food sample"/>
+      </designation>
+    </concept>
+    <concept id="10490">
+      <code value="GAS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Gas"/>
+      </designation>
+    </concept>
+    <concept id="10491">
+      <code value="GAST"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Gastric fluid/contents"/>
+      </designation>
+    </concept>
+    <concept id="10492">
+      <code value="GEN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Genital"/>
+      </designation>
+    </concept>
+    <concept id="10493">
+      <code value="GENC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Genital cervix"/>
+      </designation>
+    </concept>
+    <concept id="10494">
+      <code value="GENF"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Genital fluid"/>
+      </designation>
+    </concept>
+    <concept id="10495">
+      <code value="GENL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Genital lochia"/>
+      </designation>
+    </concept>
+    <concept id="10496">
+      <code value="GENV"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Genital vaginal"/>
+      </designation>
+    </concept>
+    <concept id="10497">
+      <code value="HAR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Hair"/>
+      </designation>
+    </concept>
+    <concept id="10498">
+      <code value="IHG"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Inhaled Gas"/>
+      </designation>
+    </concept>
+    <concept id="10500">
+      <code value="ISLT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Isolate"/>
+      </designation>
+    </concept>
+    <concept id="10499">
+      <code value="IT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Intubation tube"/>
+      </designation>
+    </concept>
+    <concept id="10501">
+      <code value="LAM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Lamella"/>
+      </designation>
+    </concept>
+    <concept id="10506">
+      <code value="LIQ"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Liquid NOS"/>
+      </designation>
+    </concept>
+    <concept id="10503">
+      <code value="LN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Line"/>
+      </designation>
+    </concept>
+    <concept id="10504">
+      <code value="LNA"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Line arterial"/>
+      </designation>
+    </concept>
+    <concept id="10505">
+      <code value="LNV"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Line venous"/>
+      </designation>
+    </concept>
+    <concept id="10507">
+      <code value="LYM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Lymphocytes"/>
+      </designation>
+    </concept>
+    <concept id="10508">
+      <code value="MAC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Macrophages"/>
+      </designation>
+    </concept>
+    <concept id="10509">
+      <code value="MAR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Marrow (bone)"/>
+      </designation>
+    </concept>
+    <concept id="10511">
+      <code value="MBLD"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Menstrual blood"/>
+      </designation>
+    </concept>
+    <concept id="10510">
+      <code value="MEC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Meconium"/>
+      </designation>
+    </concept>
+    <concept id="10513">
+      <code value="MILK"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Breast milk"/>
+      </designation>
+    </concept>
+    <concept id="10512">
+      <code value="MLK"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Milk"/>
+      </designation>
+    </concept>
+    <concept id="10514">
+      <code value="NAIL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Nail"/>
+      </designation>
+    </concept>
+    <concept id="10515">
+      <code value="NOS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Nose (nasal passage)"/>
+      </designation>
+    </concept>
+    <concept id="10516">
+      <code value="PAFL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Pancreatic fluid"/>
+      </designation>
+    </concept>
+    <concept id="10517">
+      <code value="PAT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Patient"/>
+      </designation>
+    </concept>
+    <concept id="10520">
+      <code value="PLAS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Plasma"/>
+      </designation>
+    </concept>
+    <concept id="10521">
+      <code value="PLB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Plasma bag"/>
+      </designation>
+    </concept>
+    <concept id="10519">
+      <code value="PLC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Placenta"/>
+      </designation>
+    </concept>
+    <concept id="10522">
+      <code value="PLR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Pleural fluid (thoracentesis fld)"/>
+      </designation>
+    </concept>
+    <concept id="10523">
+      <code value="PMN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Polymorphonuclear neutrophils"/>
+      </designation>
+    </concept>
+    <concept id="10524">
+      <code value="PPP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Platelet poor plasma"/>
+      </designation>
+    </concept>
+    <concept id="10525">
+      <code value="PRP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Platelet rich plasma"/>
+      </designation>
+    </concept>
+    <concept id="10518">
+      <code value="PRT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Peritoneal fluid /ascites"/>
+      </designation>
+    </concept>
+    <concept id="10526">
+      <code value="PUS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Pus"/>
+      </designation>
+    </concept>
+    <concept id="10483">
+      <code value="RBC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Erythrocytes"/>
+      </designation>
+    </concept>
+    <concept id="10527">
+      <code value="SAL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Saliva"/>
+      </designation>
+    </concept>
+    <concept id="10530">
+      <code value="SER"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Serum"/>
+      </designation>
+    </concept>
+    <concept id="10532">
+      <code value="SKM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Skeletal muscle"/>
+      </designation>
+    </concept>
+    <concept id="10531">
+      <code value="SKN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Skin"/>
+      </designation>
+    </concept>
+    <concept id="10528">
+      <code value="SMN"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Seminal fluid"/>
+      </designation>
+    </concept>
+    <concept id="10529">
+      <code value="SMPLS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Seminal plasma"/>
+      </designation>
+    </concept>
+    <concept id="10539">
+      <code value="SNV"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Synovial fluid (Joint fluid)"/>
+      </designation>
+    </concept>
+    <concept id="10533">
+      <code value="SPRM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Spermatozoa"/>
+      </designation>
+    </concept>
+    <concept id="10534">
+      <code value="SPT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Sputum"/>
+      </designation>
+    </concept>
+    <concept id="10535">
+      <code value="SPTC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Sputum - coughed"/>
+      </designation>
+    </concept>
+    <concept id="10536">
+      <code value="SPTT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Sputum - tracheal aspirate"/>
+      </designation>
+    </concept>
+    <concept id="10537">
+      <code value="STL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Stool = Fecal"/>
+      </designation>
+    </concept>
+    <concept id="10538">
+      <code value="SWT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Sweat"/>
+      </designation>
+    </concept>
+    <concept id="10540">
+      <code value="TEAR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tears"/>
+      </designation>
+    </concept>
+    <concept id="10542">
+      <code value="THRB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Thrombocyte (platelet)"/>
+      </designation>
+    </concept>
+    <concept id="10541">
+      <code value="THRT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Throat"/>
+      </designation>
+    </concept>
+    <concept id="10544">
+      <code value="TISG"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue gall bladder"/>
+      </designation>
+    </concept>
+    <concept id="10547">
+      <code value="TISPL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue placenta"/>
+      </designation>
+    </concept>
+    <concept id="10543">
+      <code value="TISS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue, unspecified"/>
+      </designation>
+    </concept>
+    <concept id="10549">
+      <code value="TISU"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue ulcer"/>
+      </designation>
+    </concept>
+    <concept id="10545">
+      <code value="TLGI"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue large intestine"/>
+      </designation>
+    </concept>
+    <concept id="10546">
+      <code value="TLNG"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue lung"/>
+      </designation>
+    </concept>
+    <concept id="10548">
+      <code value="TSMI"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tissue small intestine Tissue ulcer"/>
+      </designation>
+    </concept>
+    <concept id="10550">
+      <code value="TUB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tube, unspecified"/>
+      </designation>
+    </concept>
+    <concept id="10551">
+      <code value="ULC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Ulcer"/>
+      </designation>
+    </concept>
+    <concept id="10552">
+      <code value="UMB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Umbilical blood"/>
+      </designation>
+    </concept>
+    <concept id="10553">
+      <code value="UMED"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Unknown medicine"/>
+      </designation>
+    </concept>
+    <concept id="10555">
+      <code value="UR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Urine"/>
+      </designation>
+    </concept>
+    <concept id="10556">
+      <code value="URC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Urine clean catch"/>
+      </designation>
+    </concept>
+    <concept id="10558">
+      <code value="URNS"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Urine sediment"/>
+      </designation>
+    </concept>
+    <concept id="10557">
+      <code value="URT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Urine catheter"/>
+      </designation>
+    </concept>
+    <concept id="10554">
+      <code value="URTH"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Urethra"/>
+      </designation>
+    </concept>
+    <concept id="10559">
+      <code value="USUB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Unknown substance"/>
+      </designation>
+    </concept>
+    <concept id="10560">
+      <code value="VOM"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Vomitus"/>
+      </designation>
+    </concept>
+    <concept id="10563">
+      <code value="WAT"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Water"/>
+      </designation>
+    </concept>
+    <concept id="10502">
+      <code value="WBC"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Leukocytes"/>
+      </designation>
+    </concept>
+    <concept id="10564">
+      <code value="WICK"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wick"/>
+      </designation>
+    </concept>
+    <concept id="10565">
+      <code value="WND"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wound"/>
+      </designation>
+    </concept>
+    <concept id="10566">
+      <code value="WNDA"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wound abscess"/>
+      </designation>
+    </concept>
+    <concept id="10568">
+      <code value="WNDD"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wound drainage"/>
+      </designation>
+    </concept>
+    <concept id="10567">
+      <code value="WNDE"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wound exudate"/>
+      </designation>
+    </concept>
+  </concept>
+</CodeSystem>

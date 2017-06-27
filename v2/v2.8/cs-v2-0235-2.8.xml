@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0235-2.8"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0235-2.8"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.134"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0235v2.8"/>
+  <title value="V2 Table: Report Source"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0235 (Report Source)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0235-2.8"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="C"/>
+    <display value="Clinical trial"/>
+    <definition value="Clinical trial"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Literature"/>
+    <definition value="Literature"/>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="Health professional"/>
+    <definition value="Health professional"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Regulatory agency"/>
+    <definition value="Regulatory agency"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Database/registry/poison control center"/>
+    <definition value="Database/registry/poison control center"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Non-healthcare professional"/>
+    <definition value="Non-healthcare professional"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Patient"/>
+    <definition value="Patient"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Manufacturer/marketing authority holder"/>
+    <definition value="Manufacturer/marketing authority holder"/>
+  </concept>
+  <concept>
+    <code value="E"/>
+    <display value="Distributor"/>
+    <definition value="Distributor"/>
+  </concept>
+  <concept>
+    <code value="O"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+  </concept>
+</CodeSystem>

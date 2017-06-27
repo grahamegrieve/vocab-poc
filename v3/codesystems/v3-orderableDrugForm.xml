@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-orderableDrugForm"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <i>OpenIssue: </i>Missing description.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-orderableDrugForm"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.85"/>
+  </identifier>
+  <name value="orderableDrugForm"/>
+  <title value="Orderable Drug Form"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  OpenIssue:&#xD;&#xA;Missing description."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="21101">
+    <code value="_AdministrableDrugForm"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="AdministrableDrugForm"/>
+    </designation>
+    <concept id="14572">
+      <code value="APPFUL"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Applicatorful"/>
+      </designation>
+    </concept>
+    <concept id="14420">
+      <code value="DROP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Drops"/>
+      </designation>
+      <concept id="14422">
+        <code value="NDROP"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Nasal Drops"/>
+        </designation>
+      </concept>
+      <concept id="14421">
+        <code value="OPDROP"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Ophthalmic Drops"/>
+        </designation>
+      </concept>
+      <concept id="14423">
+        <code value="ORDROP"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Oral Drops"/>
+        </designation>
+      </concept>
+      <concept id="14424">
+        <code value="OTDROP"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Otic Drops"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="14571">
+      <code value="PUFF"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Puff"/>
+      </designation>
+    </concept>
+    <concept id="14574">
+      <code value="SCOOP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Scoops"/>
+      </designation>
+    </concept>
+    <concept id="14573">
+      <code value="SPRY"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Sprays"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21102">
+    <code value="_DispensableDrugForm"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DispensableDrugForm"/>
+    </designation>
+    <concept id="21103">
+      <code value="_GasDrugForm"/>
+      <definition value=" Any elastic aeriform fluid in which the molecules are separated from one another and have free paths."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="GasDrugForm"/>
+      </designation>
+      <concept id="14569">
+        <code value="GASINHL"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Gas for Inhalation"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21104">
+      <code value="_GasLiquidMixture"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="GasLiquidMixture"/>
+      </designation>
+      <concept id="14551">
+        <code value="AER"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Aerosol"/>
+        </designation>
+        <concept id="14553">
+          <code value="BAINHL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Breath Activated Inhaler"/>
+          </designation>
+        </concept>
+        <concept id="14555">
+          <code value="INHLSOL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Inhalant Solution"/>
+          </designation>
+        </concept>
+        <concept id="14552">
+          <code value="MDINHL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Metered Dose Inhaler"/>
+          </designation>
+        </concept>
+        <concept id="14554">
+          <code value="NASSPRY"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Nasal Spray"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14556">
+        <code value="DERMSPRY"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Dermal Spray"/>
+        </designation>
+      </concept>
+      <concept id="14546">
+        <code value="FOAM"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Foam"/>
+        </designation>
+        <concept id="14547">
+          <code value="FOAMAPL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Foam with Applicator"/>
+          </designation>
+        </concept>
+        <concept id="14548">
+          <code value="RECFORM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Rectal foam"/>
+          </designation>
+        </concept>
+        <concept id="14549">
+          <code value="VAGFOAM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Vaginal foam"/>
+          </designation>
+          <concept id="14550">
+            <code value="VAGFOAMAPL"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Vaginal foam with applicator"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="14557">
+        <code value="RECSPRY"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Rectal Spray"/>
+        </designation>
+      </concept>
+      <concept id="14558">
+        <code value="VAGSPRY"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Vaginal Spray"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21105">
+      <code value="_GasSolidSpray"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="GasSolidSpray"/>
+      </designation>
+      <concept id="14560">
+        <code value="INHL"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Inhalant"/>
+        </designation>
+        <concept id="14562">
+          <code value="BAINHLPWD"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Breath Activated Powder Inhaler"/>
+          </designation>
+        </concept>
+        <concept id="14561">
+          <code value="INHLPWD"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Inhalant Powder"/>
+          </designation>
+        </concept>
+        <concept id="14563">
+          <code value="MDINHLPWD"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Metered Dose Powder Inhaler"/>
+          </designation>
+        </concept>
+        <concept id="14564">
+          <code value="NASINHL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Nasal Inhalant"/>
+          </designation>
+        </concept>
+        <concept id="14565">
+          <code value="ORINHL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Oral Inhalant"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14567">
+        <code value="PWDSPRY"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Powder Spray"/>
+        </designation>
+      </concept>
+      <concept id="14566">
+        <code value="SPRYADAPT"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Spray with Adaptor"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21106">
+      <code value="_Liquid"/>
+      <definition value=" A state of substance that is an intermediate one entered into as matter goes from solid to gas; liquids are also intermediate in that they have neither the orderliness of a crystal nor the randomness of a gas. (Note: This term should not be used to describe solutions, only pure chemicals in their liquid state.)"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Liquid"/>
+      </designation>
+      <concept id="14414">
+        <code value="LIQCLN"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Liquid Cleanser"/>
+        </designation>
+        <concept id="14415">
+          <code value="LIQSOAP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Medicated Liquid Soap"/>
+          </designation>
+        </concept>
+        <concept id="14416">
+          <code value="SHMP"/>
+          <definition value=" A liquid soap or detergent used to clean the hair and scalp and is often used as a vehicle for dermatologic agents."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Shampoo"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14417">
+        <code value="OIL"/>
+        <definition value=" An unctuous, combustible substance which is liquid, or easily liquefiable, on warming, and is soluble in ether but insoluble in water. Such substances, depending on their origin, are classified as animal, mineral, or vegetable oils."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Oil"/>
+        </designation>
+        <concept id="14418">
+          <code value="TOPOIL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Oil"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14419">
+        <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+          <valueCode value="DROP"/>
+        </extension>
+        <code value="SOL"/>
+        <definition value=" A liquid preparation that contains one or more chemical substances dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture of mutually miscible solvents."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Solution"/>
+        </designation>
+        <concept id="14425">
+          <code value="IPSOL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Intraperitoneal Solution"/>
+          </designation>
+        </concept>
+        <concept id="14427">
+          <code value="IRSOL"/>
+          <definition value=" A sterile solution intended to bathe or flush open wounds or body cavities; they&#39;re used topically, never parenterally."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Irrigation Solution"/>
+          </designation>
+          <concept id="14428">
+            <code value="DOUCHE"/>
+            <definition value=" A liquid preparation, intended for the irrigative cleansing of the vagina, that is prepared from powders, liquid solutions, or liquid concentrates and contains one or more chemical substances dissolved in a suitable solvent or mutually miscible solvents."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Douche"/>
+            </designation>
+          </concept>
+          <concept id="14429">
+            <code value="ENEMA"/>
+            <definition value=" A rectal preparation for therapeutic, diagnostic, or nutritive purposes."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Enema"/>
+            </designation>
+          </concept>
+          <concept id="14430">
+            <code value="OPIRSOL"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Ophthalmic Irrigation Solution"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="14426">
+          <code value="IVSOL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Intravenous Solution"/>
+          </designation>
+        </concept>
+        <concept id="14431">
+          <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+            <valueCode value="ORDROP"/>
+          </extension>
+          <code value="ORALSOL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Oral Solution"/>
+          </designation>
+          <concept id="14432">
+            <code value="ELIXIR"/>
+            <definition value=" A clear, pleasantly flavored, sweetened hydroalcoholic liquid containing dissolved medicinal agents; it is intended for oral use."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Elixir"/>
+            </designation>
+          </concept>
+          <concept id="14434">
+            <code value="RINSE"/>
+            <definition value=" An aqueous solution which is most often used for its deodorant, refreshing, or antiseptic effect."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Mouthwash/Rinse"/>
+            </designation>
+          </concept>
+          <concept id="14433">
+            <code value="SYRUP"/>
+            <definition value=" An oral solution containing high concentrations of sucrose or other sugars; the term has also been used to include any other liquid dosage form prepared in a sweet and viscid vehicle, including oral suspensions."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Syrup"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="14436">
+          <code value="RECSOL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Rectal Solution"/>
+          </designation>
+        </concept>
+        <concept id="14437">
+          <code value="TOPSOL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Solution"/>
+          </designation>
+          <concept id="14438">
+            <code value="LIN"/>
+            <definition value=" A solution or mixture of various substances in oil, alcoholic solutions of soap, or emulsions intended for external application."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Liniment"/>
+            </designation>
+          </concept>
+          <concept id="14440">
+            <code value="MUCTOPSOL"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Mucous Membrane Topical Solution"/>
+            </designation>
+          </concept>
+          <concept id="14439">
+            <code value="TINC"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Tincture"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21107">
+      <code value="_LiquidLiquidEmulsion"/>
+      <definition value=" A two-phase system in which one liquid is dispersed throughout another liquid in the form of small droplets."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="LiquidLiquidEmulsion"/>
+      </designation>
+      <concept id="14466">
+        <code value="CRM"/>
+        <definition value=" A semisolid dosage form containing one or more drug substances dissolved or dispersed in a suitable base; more recently, the term has been restricted to products consisting of oil-in-water emulsions or aqueous microcrystalline dispersions of long chain fatty acids or alcohols that are water washable and more cosmetically and aesthetically acceptable."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cream"/>
+        </designation>
+        <concept id="14467">
+          <code value="NASCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Nasal Cream"/>
+          </designation>
+        </concept>
+        <concept id="14468">
+          <code value="OPCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Ophthalmic Cream"/>
+          </designation>
+        </concept>
+        <concept id="14469">
+          <code value="ORCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Oral Cream"/>
+          </designation>
+        </concept>
+        <concept id="14470">
+          <code value="OTCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Otic Cream"/>
+          </designation>
+        </concept>
+        <concept id="14471">
+          <code value="RECCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Rectal Cream"/>
+          </designation>
+        </concept>
+        <concept id="14472">
+          <code value="TOPCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Cream"/>
+          </designation>
+        </concept>
+        <concept id="14473">
+          <code value="VAGCRM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Vaginal Cream"/>
+          </designation>
+          <concept id="14474">
+            <code value="VAGCRMAPL"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Vaginal Cream with Applicator"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="14464">
+        <code value="LTN"/>
+        <definition value=" The term &quot;lotion&quot; has been used to categorize many topical suspensions, solutions and emulsions intended for application to the skin."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Lotion"/>
+        </designation>
+        <concept id="14465">
+          <code value="TOPLTN"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Lotion"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14475">
+        <code value="OINT"/>
+        <definition value=" A semisolid preparation intended for external application to the skin or mucous membranes."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Ointment"/>
+        </designation>
+        <concept id="14479">
+          <code value="NASOINT"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Nasal Ointment"/>
+          </designation>
+        </concept>
+        <concept id="14476">
+          <code value="OINTAPL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Ointment with Applicator"/>
+          </designation>
+        </concept>
+        <concept id="14477">
+          <code value="OPOINT"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Ophthalmic Ointment"/>
+          </designation>
+        </concept>
+        <concept id="14478">
+          <code value="OTOINT"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Otic Ointment"/>
+          </designation>
+        </concept>
+        <concept id="14480">
+          <code value="RECOINT"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Rectal Ointment"/>
+          </designation>
+        </concept>
+        <concept id="14481">
+          <code value="TOPOINT"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Ointment"/>
+          </designation>
+        </concept>
+        <concept id="14482">
+          <code value="VAGOINT"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Vaginal Ointment"/>
+          </designation>
+          <concept id="14483">
+            <code value="VAGOINTAPL"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Vaginal Ointment with Applicator"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21108">
+      <code value="_LiquidSolidSuspension"/>
+      <definition value=" A liquid preparation which consists of solid particles dispersed throughout a liquid phase in which the particles are not soluble."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="LiquidSolidSuspension"/>
+      </designation>
+      <concept id="14442">
+        <code value="GEL"/>
+        <definition value=" A semisolid system consisting of either suspensions made up of small inorganic particles or large organic molecules interpenetrated by a liquid."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Gel"/>
+        </designation>
+        <concept id="14443">
+          <code value="GELAPL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Gel with Applicator"/>
+          </designation>
+        </concept>
+        <concept id="14444">
+          <code value="NASGEL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Nasal Gel"/>
+          </designation>
+        </concept>
+        <concept id="14445">
+          <code value="OPGEL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Ophthalmic Gel"/>
+          </designation>
+        </concept>
+        <concept id="14446">
+          <code value="OTGEL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Otic Gel"/>
+          </designation>
+        </concept>
+        <concept id="14447">
+          <code value="TOPGEL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Gel"/>
+          </designation>
+        </concept>
+        <concept id="14448">
+          <code value="URETHGEL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Urethral Gel"/>
+          </designation>
+        </concept>
+        <concept id="14449">
+          <code value="VAGGEL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Vaginal Gel"/>
+          </designation>
+          <concept id="14450">
+            <code value="VGELAPL"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Vaginal Gel with Applicator"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="14451">
+        <code value="PASTE"/>
+        <definition value=" A semisolid dosage form that contains one or more drug substances intended for topical application."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Paste"/>
+        </designation>
+        <concept id="14453">
+          <code value="PUD"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Pudding"/>
+          </designation>
+        </concept>
+        <concept id="14452">
+          <code value="TPASTE"/>
+          <definition value=" A paste formulation intended to clean and/or polish the teeth, and which may contain certain additional agents."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Toothpaste"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14454">
+        <code value="SUSP"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Suspension"/>
+        </designation>
+        <concept id="14455">
+          <code value="ITSUSP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Intrathecal Suspension"/>
+          </designation>
+        </concept>
+        <concept id="14456">
+          <code value="OPSUSP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Ophthalmic Suspension"/>
+          </designation>
+        </concept>
+        <concept id="14457">
+          <code value="ORSUSP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Oral Suspension"/>
+          </designation>
+          <concept id="14458">
+            <code value="ERSUSP"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Extended-Release Suspension"/>
+            </designation>
+            <concept id="14459">
+              <code value="ERSUSP12"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="12 Hour Extended-Release Suspension"/>
+              </designation>
+            </concept>
+            <concept id="14460">
+              <code value="ERSUSP24"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="24 Hour Extended Release Suspension"/>
+              </designation>
+            </concept>
+          </concept>
+        </concept>
+        <concept id="14461">
+          <code value="OTSUSP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Otic Suspension"/>
+          </designation>
+        </concept>
+        <concept id="14462">
+          <code value="RECSUSP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Rectal Suspension"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21109">
+      <code value="_SolidDrugForm"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="SolidDrugForm"/>
+      </designation>
+      <concept id="14485">
+        <code value="BAR"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Bar"/>
+        </designation>
+        <concept id="14486">
+          <code value="BARSOAP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Bar Soap"/>
+          </designation>
+          <concept id="14487">
+            <code value="MEDBAR"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Medicated Bar Soap"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="14488">
+          <code value="CHEWBAR"/>
+          <definition value=" A solid dosage form usually in the form of a rectangle that is meant to be chewed."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Chewable Bar"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14489">
+        <code value="BEAD"/>
+        <definition value=" A solid dosage form in the shape of a small ball."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Beads"/>
+        </designation>
+      </concept>
+      <concept id="14490">
+        <code value="CAKE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cake"/>
+        </designation>
+      </concept>
+      <concept id="14491">
+        <code value="CEMENT"/>
+        <definition value=" A substance that serves to produce solid union between two surfaces."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cement"/>
+        </designation>
+      </concept>
+      <concept id="14492">
+        <code value="CRYS"/>
+        <definition value=" A naturally produced angular solid of definite form in which the ultimate units from which it is built up are systematically arranged; they are usually evenly spaced on a regular space lattice."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Crystals"/>
+        </designation>
+      </concept>
+      <concept id="14493">
+        <code value="DISK"/>
+        <definition value=" A circular plate-like organ or structure."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Disk"/>
+        </designation>
+      </concept>
+      <concept id="14494">
+        <code value="FLAKE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Flakes"/>
+        </designation>
+      </concept>
+      <concept id="14495">
+        <code value="GRAN"/>
+        <definition value=" A small particle or grain."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Granules"/>
+        </designation>
+      </concept>
+      <concept id="14496">
+        <code value="GUM"/>
+        <definition value=" A sweetened and flavored insoluble plastic material of various shapes which when chewed, releases a drug substance into the oral cavity."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="ChewingGum"/>
+        </designation>
+      </concept>
+      <concept id="14497">
+        <code value="PAD"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Pad"/>
+        </designation>
+        <concept id="14498">
+          <code value="MEDPAD"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Medicated Pad"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14499">
+        <code value="PATCH"/>
+        <definition value=" A drug delivery system that contains an adhesived backing and that permits its ingredients to diffuse from some portion of it (e.g., the backing itself, a reservoir, the adhesive, or some other component) into the body from the external site where it is applied."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Patch"/>
+        </designation>
+        <concept id="14500">
+          <code value="TPATCH"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Transdermal Patch"/>
+          </designation>
+          <concept id="14501">
+            <code value="TPATH16"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="16 Hour Transdermal Patch"/>
+            </designation>
+          </concept>
+          <concept id="14502">
+            <code value="TPATH24"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="24 Hour Transdermal Patch"/>
+            </designation>
+          </concept>
+          <concept id="14505">
+            <code value="TPATH2WK"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Biweekly Transdermal Patch"/>
+            </designation>
+          </concept>
+          <concept id="14503">
+            <code value="TPATH72"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="72 Hour Transdermal Patch"/>
+            </designation>
+          </concept>
+          <concept id="14504">
+            <code value="TPATHWK"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Weekly Transdermal Patch"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="14533">
+        <code value="PELLET"/>
+        <definition value=" A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation of granules, or by compression and molding."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Pellet"/>
+        </designation>
+      </concept>
+      <concept id="14506">
+        <code value="PILL"/>
+        <definition value=" A small, round solid dosage form containing a medicinal agent intended for oral administration."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Pill"/>
+        </designation>
+        <concept id="14507">
+          <code value="CAP"/>
+          <definition value=" A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or &quot;shell&quot; made from a suitable form of gelatin."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Capsule"/>
+          </designation>
+          <concept id="14508">
+            <code value="ORCAP"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Oral Capsule"/>
+            </designation>
+            <concept id="14509">
+              <code value="ENTCAP"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Enteric Coated Capsule"/>
+              </designation>
+              <concept id="14510">
+                <code value="ERENTCAP"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Extended Release Enteric Coated Capsule"/>
+                </designation>
+              </concept>
+            </concept>
+            <concept id="14511">
+              <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+                <valueCode value="ERENTCAP"/>
+              </extension>
+              <code value="ERCAP"/>
+              <definition value=" A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin, and which releases a drug (or drugs) in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Extended Release Capsule"/>
+              </designation>
+              <concept id="14513">
+                <code value="ERCAP12"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="12 Hour Extended Release Capsule"/>
+                </designation>
+              </concept>
+              <concept id="14514">
+                <code value="ERCAP24"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="24 Hour Extended Release Capsule"/>
+                </designation>
+              </concept>
+              <concept id="14512">
+                <code value="ERECCAP"/>
+                <definition value="  Rationale:Duplicate of code ERENTCAP. Use code ERENTCAP instead."/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Extended Release Enteric Coated Capsule"/>
+                </designation>
+                <property>
+                  <code value="status"/>
+                  <valueCode value="retired"/>
+                </property>
+              </concept>
+            </concept>
+          </concept>
+        </concept>
+        <concept id="14515">
+          <code value="TAB"/>
+          <definition value=" A solid dosage form containing medicinal substances with or without suitable diluents."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Tablet"/>
+          </designation>
+          <concept id="14516">
+            <code value="ORTAB"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Oral Tablet"/>
+            </designation>
+            <concept id="14518">
+              <code value="BUCTAB"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Buccal Tablet"/>
+              </designation>
+              <concept id="14519">
+                <code value="SRBUCTAB"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Sustained Release Buccal Tablet"/>
+                </designation>
+              </concept>
+            </concept>
+            <concept id="14517">
+              <code value="CAPLET"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Caplet"/>
+              </designation>
+            </concept>
+            <concept id="14520">
+              <code value="CHEWTAB"/>
+              <definition value=" A solid dosage form containing medicinal substances with or without suitable diluents that is intended to be chewed, producing a pleasant tasting residue in the oral cavity that is easily swallowed and does not leave a bitter or unpleasant after-taste."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Chewable Tablet"/>
+              </designation>
+            </concept>
+            <concept id="14521">
+              <code value="CPTAB"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Coated Particles Tablet"/>
+              </designation>
+            </concept>
+            <concept id="14523">
+              <code value="DISINTAB"/>
+              <definition value=" A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds, when placed upon the tongue."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Disintegrating Tablet"/>
+              </designation>
+            </concept>
+            <concept id="14522">
+              <code value="DRTAB"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Delayed Release Tablet"/>
+              </designation>
+            </concept>
+            <concept id="14524">
+              <code value="ECTAB"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Enteric Coated Tablet"/>
+              </designation>
+              <concept id="14525">
+                <code value="ERECTAB"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Extended Release Enteric Coated Tablet"/>
+                </designation>
+              </concept>
+            </concept>
+            <concept id="14526">
+              <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-subsumes">
+                <valueCode value="ERECTAB"/>
+              </extension>
+              <code value="ERTAB"/>
+              <definition value=" A solid dosage form containing a drug which allows at least a reduction in dosing frequency as compared to that drug presented in conventional dosage form."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Extended Release Tablet"/>
+              </designation>
+              <concept id="14528">
+                <code value="ERTAB12"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="12 Hour Extended Release Tablet"/>
+                </designation>
+              </concept>
+              <concept id="14527">
+                <code value="ERTAB24"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="24 Hour Extended Release Tablet"/>
+                </designation>
+              </concept>
+            </concept>
+            <concept id="14530">
+              <code value="ORTROCHE"/>
+              <definition value=" A solid preparation containing one or more medicaments, usually in a flavored, sweetened base which is intended to dissolve or disintegrate slowly in the mouth."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Lozenge/Oral Troche"/>
+              </designation>
+            </concept>
+            <concept id="14531">
+              <code value="SLTAB"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Sublingual Tablet"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="14532">
+            <code value="VAGTAB"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Vaginal Tablet"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="14534">
+        <code value="POWD"/>
+        <definition value=" An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Powder"/>
+        </designation>
+        <concept id="14535">
+          <code value="TOPPWD"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Topical Powder"/>
+          </designation>
+          <concept id="14536">
+            <code value="RECPWD"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Rectal Powder"/>
+            </designation>
+          </concept>
+          <concept id="14537">
+            <code value="VAGPWD"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Vaginal Powder"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="14538">
+        <code value="SUPP"/>
+        <definition value=" A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Suppository"/>
+        </designation>
+        <concept id="14539">
+          <code value="RECSUPP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Rectal Suppository"/>
+          </designation>
+        </concept>
+        <concept id="14541">
+          <code value="URETHSUPP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Urethral suppository"/>
+          </designation>
+        </concept>
+        <concept id="14540">
+          <code value="VAGSUPP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Vaginal Suppository"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14542">
+        <code value="SWAB"/>
+        <definition value=" A wad of absorbent material usually wound around one end of a small stick and used for applying medication or for removing material from an area."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Swab"/>
+        </designation>
+        <concept id="14543">
+          <code value="MEDSWAB"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Medicated swab"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="14544">
+        <code value="WAFER"/>
+        <definition value=" A thin slice of material containing a medicinal agent."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Wafer"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+</CodeSystem>

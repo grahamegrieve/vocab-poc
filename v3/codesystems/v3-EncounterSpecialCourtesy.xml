@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-EncounterSpecialCourtesy"/>
+  <language value="en"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-EncounterSpecialCourtesy"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.40"/>
+  </identifier>
+  <name value="EncounterSpecialCourtesy"/>
+  <title value="EncounterSpecialCourtesy"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <content value="complete"/>
+  <concept id="12244">
+    <code value="EXT"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="extended courtesy"/>
+    </designation>
+  </concept>
+  <concept id="12243">
+    <code value="NRM"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="normal courtesy"/>
+    </designation>
+  </concept>
+  <concept id="12245">
+    <code value="PRF"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="professional courtesy"/>
+    </designation>
+  </concept>
+  <concept id="12247">
+    <code value="STF"/>
+    <definition value=" Courtesies extended to the staff of the entity providing service."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="staff"/>
+    </designation>
+  </concept>
+  <concept id="12246">
+    <code value="VIP"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="very important person"/>
+    </designation>
+  </concept>
+</CodeSystem>

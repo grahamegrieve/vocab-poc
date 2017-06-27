@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0916-2.7.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0916-2.7.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.422"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0916v2.7.1"/>
+  <title value="V2 Table: Relevant Clincial Information"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0916 (Relevant Clincial Information)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0916-2.7.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="F"/>
+    <display value="Patient was fasting prior to the procedure."/>
+    <definition value="Patient was fasting prior to the procedure."/>
+  </concept>
+  <concept>
+    <code value="NF"/>
+    <display value="The patient indicated they did not fast prior to the procedure."/>
+    <definition value="The patient indicated they did not fast prior to the procedure."/>
+  </concept>
+  <concept>
+    <code value="NG"/>
+    <display value="Not Given - Patient was not asked at the time of the procedure."/>
+    <definition value="Not Given - Patient was not asked at the time of the procedure."/>
+  </concept>
+  <concept>
+    <code value="FNA"/>
+    <display value="Fasting not asked of the patient at time of procedure."/>
+    <definition value="Fasting not asked of the patient at time of procedure."/>
+  </concept>
+</CodeSystem>

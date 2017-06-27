@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-EducationLevel"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>Years of education that a person has completed</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-EducationLevel"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1077"/>
+  </identifier>
+  <name value="EducationLevel"/>
+  <title value="Education Level"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="HL7"/>
+  <contact>
+    <name value="Health Level Seven, Inc."/>
+  </contact>
+  <description value=" Years of education that a person has completed"/>
+  <content value="complete"/>
+  <concept id="19180">
+    <code value="ASSOC"/>
+    <definition value=" Associate&#39;s or technical degree complete"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Associate&#39;s or technical degree complete"/>
+    </designation>
+  </concept>
+  <concept id="19181">
+    <code value="BD"/>
+    <definition value=" College or baccalaureate degree complete"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="College or baccalaureate degree complete"/>
+    </designation>
+  </concept>
+  <concept id="19176">
+    <code value="ELEM"/>
+    <definition value=" Elementary School"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Elementary School"/>
+    </designation>
+  </concept>
+  <concept id="19183">
+    <code value="GD"/>
+    <definition value=" Graduate or professional Degree complete"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Graduate or professional Degree complete"/>
+    </designation>
+  </concept>
+  <concept id="19178">
+    <code value="HS"/>
+    <definition value=" High School or secondary school degree complete"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="High School or secondary school degree complete"/>
+    </designation>
+  </concept>
+  <concept id="19182">
+    <code value="PB"/>
+    <definition value=" Some post-baccalaureate education"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Some post-baccalaureate education"/>
+    </designation>
+  </concept>
+  <concept id="19184">
+    <code value="POSTG"/>
+    <definition value=" Doctoral or post graduate education"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Doctoral or post graduate education"/>
+    </designation>
+  </concept>
+  <concept id="19179">
+    <code value="SCOL"/>
+    <definition value=" Some College education"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Some College education"/>
+    </designation>
+  </concept>
+  <concept id="19177">
+    <code value="SEC"/>
+    <definition value=" Some secondary or high school education"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Some secondary or high school education"/>
+    </designation>
+  </concept>
+</CodeSystem>

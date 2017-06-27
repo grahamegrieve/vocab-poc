@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0236-2.5"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0236-2.5"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.135"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0236v2.5"/>
+  <title value="V2 Table: Event Reported To"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0236 (Event Reported To)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0236-2.5"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="M"/>
+    <display value="Manufacturer"/>
+    <definition value="Manufacturer"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="Local facility/user facility"/>
+    <definition value="Local facility/user facility"/>
+  </concept>
+  <concept>
+    <code value="R"/>
+    <display value="Regulatory agency"/>
+    <definition value="Regulatory agency"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Distributor"/>
+    <definition value="Distributor"/>
+  </concept>
+</CodeSystem>

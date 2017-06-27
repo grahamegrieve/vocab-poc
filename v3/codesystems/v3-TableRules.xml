@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-TableRules"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>These values are defined within the XHTML 4.0 Table Model</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-TableRules"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.136"/>
+  </identifier>
+  <name value="TableRules"/>
+  <title value="TableRules"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" These values are defined within the XHTML 4.0 Table Model"/>
+  <content value="complete"/>
+  <concept id="11003">
+    <code value="all"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="all"/>
+    </designation>
+  </concept>
+  <concept id="11004">
+    <code value="cols"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="cols"/>
+    </designation>
+  </concept>
+  <concept id="11005">
+    <code value="groups"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="groups"/>
+    </designation>
+  </concept>
+  <concept id="11006">
+    <code value="none"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="none"/>
+    </designation>
+  </concept>
+  <concept id="11007">
+    <code value="rows"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="rows"/>
+    </designation>
+  </concept>
+</CodeSystem>

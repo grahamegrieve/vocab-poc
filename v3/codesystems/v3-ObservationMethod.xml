@@ -1,0 +1,3492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ObservationMethod"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>A code that provides additional detail about the means or technique used to ascertain the observation.</p>
+                  
+      <p>
+                     
+        <i>Examples:</i> Blood pressure measurement method: arterial puncture vs. sphygmomanometer (Riva-Rocci), sitting vs. supine position, etc. 
+      </p>
+                  
+      <p>
+                     
+        <i>OpenIssue: </i>Description copied from Concept Domain of same name.  Must be verified.  Note that the Domain has a full discussion about use of the attribute and constraining that is not appropriate for the code system description.  Needs to be improved.
+      </p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-ObservationMethod"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.84"/>
+  </identifier>
+  <name value="ObservationMethod"/>
+  <title value="ObservationMethod"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" A code that provides additional detail about the means or technique used to ascertain the observation.  Examples:&#xD;&#xA;Blood pressure measurement method: arterial puncture vs. sphygmomanometer (Riva-Rocci), sitting vs. supine position, etc.  OpenIssue:&#xD;&#xA;Description copied from Concept Domain of same name.  Must be verified.  Note that the Domain has a full discussion about use of the attribute and constraining that is not appropriate for the code system description.  Needs to be improved."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="howApplies"/>
+    <description value="Haven&#39;t a clue!"/>
+    <type value="string"/>
+  </property>
+  <concept id="21094">
+    <code value="_DecisionObservationMethod"/>
+    <definition value=" Provides codes for decision methods, initially for assessing the causality of events."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="DecisionObservationMethod"/>
+    </designation>
+    <concept id="19992">
+      <code value="ALGM"/>
+      <definition value=" Reaching a decision through the application of an algorithm designed to weigh the different factors involved."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="algorithm"/>
+      </designation>
+      <concept id="19993">
+        <code value="BYCL"/>
+        <definition value=" Reaching a decision through the use of Bayesian statistical analysis."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="bayesian calculation"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="19991">
+      <code value="GINT"/>
+      <definition value=" Reaching a decision by consideration of the totality of factors involved in order to reach a judgement."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="global introspection"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="22644">
+    <code value="_GeneticObservationMethod"/>
+    <definition value=" A code that provides additional detail about the means or technique used to ascertain the genetic analysis. Example, PCR, Micro Array"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="GeneticObservationMethod"/>
+    </designation>
+    <concept id="22645">
+      <code value="PCR"/>
+      <definition value="  Description:&#xD;&#xA;Polymerase Chain Reaction"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="PCR"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="23444">
+    <code value="_ObservationMethodAggregate"/>
+    <definition value=" Provides additional detail about the aggregation methods used to compute the aggregated values for an observation. This is an abstract code."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="observation method aggregate"/>
+    </designation>
+    <concept id="23447">
+      <code value="AVERAGE"/>
+      <definition value=" Average of non-null values in the referenced set of values"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="average"/>
+      </designation>
+    </concept>
+    <concept id="23445">
+      <code value="COUNT"/>
+      <definition value=" Count of non-null values in the referenced set of values"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="count"/>
+      </designation>
+    </concept>
+    <concept id="23453">
+      <code value="MAX"/>
+      <definition value=" Largest of all non-null values in the referenced set of values."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="maxima"/>
+      </designation>
+    </concept>
+    <concept id="23454">
+      <code value="MEDIAN"/>
+      <definition value=" The median of all non-null values in the referenced set of values."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="median"/>
+      </designation>
+    </concept>
+    <concept id="23452">
+      <code value="MIN"/>
+      <definition value=" Smallest of all non-null values in the referenced set of values."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="minima"/>
+      </designation>
+    </concept>
+    <concept id="23455">
+      <code value="MODE"/>
+      <definition value=" The most common value of all non-null values in the referenced set of values."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="mode"/>
+      </designation>
+    </concept>
+    <concept id="23450">
+      <code value="STDEV.P"/>
+      <definition value=" Standard Deviation of the values in the referenced set of values, computed over the population."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="population standard deviation"/>
+      </designation>
+    </concept>
+    <concept id="23448">
+      <code value="STDEV.S"/>
+      <definition value=" Standard Deviation of the values in the referenced set of values, computed over a sample of the population."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="sample standard deviation"/>
+      </designation>
+    </concept>
+    <concept id="23446">
+      <code value="SUM"/>
+      <definition value=" Sum of non-null values in the referenced set of values"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="sum"/>
+      </designation>
+    </concept>
+    <concept id="23451">
+      <code value="VARIANCE.P"/>
+      <definition value=" Variance of the values in the referenced set of values, computed over the population."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="population variance"/>
+      </designation>
+    </concept>
+    <concept id="23449">
+      <code value="VARIANCE.S"/>
+      <definition value=" Variance of the values in the referenced set of values, computed over a sample of the population."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="sample variance"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21512">
+    <code value="_VerificationMethod"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VerificationMethod"/>
+    </designation>
+    <concept id="21515">
+      <code value="VDOC"/>
+      <definition value=" Verification by means of document.  Example:&#xD;&#xA;Fax, letter, attachment to e-mail."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="document verification"/>
+      </designation>
+    </concept>
+    <concept id="21514">
+      <code value="VREG"/>
+      <definition value=" verification by means of  a response to an electronic query  Example:&#xD;&#xA;query message to a Covered Party registry application or Coverage Administrator."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="registry verification"/>
+      </designation>
+    </concept>
+    <concept id="21513">
+      <code value="VTOKEN"/>
+      <definition value=" Verification by means of electronic token.  Example:&#xD;&#xA;smartcard, magnetic swipe card, RFID device."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="electronic token verification"/>
+      </designation>
+    </concept>
+    <concept id="21516">
+      <code value="VVOICE"/>
+      <definition value=" Verification by means of voice.  Example:&#xD;&#xA;By speaking with or calling the Coverage Administrator or Covered Party"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="voice-based verification"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="14080">
+    <code value="0001"/>
+    <definition value=" Complement fixation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Complement fixation"/>
+    </designation>
+  </concept>
+  <concept id="14081">
+    <code value="0002"/>
+    <definition value=" Computed axial tomography"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Computed axial tomography"/>
+    </designation>
+  </concept>
+  <concept id="14082">
+    <code value="0003"/>
+    <definition value=" Susceptibility, High Level Aminoglycoside Resistance agar test"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="HLAR agar test"/>
+    </designation>
+  </concept>
+  <concept id="14083">
+    <code value="0004"/>
+    <definition value=" Visual, Macroscopic observation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Macroscopic observation"/>
+    </designation>
+  </concept>
+  <concept id="14084">
+    <code value="0005"/>
+    <definition value=" Computed, Magnetic resonance"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Magnetic resonance"/>
+    </designation>
+  </concept>
+  <concept id="14085">
+    <code value="0006"/>
+    <definition value=" Computed, Morphometry"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Morphometry"/>
+    </designation>
+  </concept>
+  <concept id="14086">
+    <code value="0007"/>
+    <definition value=" Computed, Positron emission tomography"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Positron emission tomography"/>
+    </designation>
+  </concept>
+  <concept id="14087">
+    <code value="0008"/>
+    <definition value=" SAMHSA drug assay confirmation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SAMHSA confirmation"/>
+    </designation>
+  </concept>
+  <concept id="14088">
+    <code value="0009"/>
+    <definition value=" SAMHSA drug assay screening"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SAMHSA screening"/>
+    </designation>
+  </concept>
+  <concept id="14089">
+    <code value="0010"/>
+    <definition value=" Serum Neutralization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Serum Neutralization"/>
+    </designation>
+  </concept>
+  <concept id="14090">
+    <code value="0011"/>
+    <definition value=" Titration"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Titration"/>
+    </designation>
+  </concept>
+  <concept id="14091">
+    <code value="0012"/>
+    <definition value=" Ultrasound"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Ultrasound"/>
+    </designation>
+  </concept>
+  <concept id="14092">
+    <code value="0013"/>
+    <definition value=" X-ray crystallography"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="X-ray crystallography"/>
+    </designation>
+  </concept>
+  <concept id="14093">
+    <code value="0014"/>
+    <definition value=" Agglutination"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14094">
+    <code value="0015"/>
+    <definition value=" Agglutination, Buffered acidified plate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Buffered acidified plate agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14095">
+    <code value="0016"/>
+    <definition value=" Agglutination, Card"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Card agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14096">
+    <code value="0017"/>
+    <definition value=" Agglutination, Hemagglutination"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hemagglutination"/>
+    </designation>
+  </concept>
+  <concept id="14097">
+    <code value="0018"/>
+    <definition value=" Agglutination, Hemagglutination inhibition"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hemagglutination inhibition"/>
+    </designation>
+  </concept>
+  <concept id="14098">
+    <code value="0019"/>
+    <definition value=" Agglutination, Latex"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Latex agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14099">
+    <code value="0020"/>
+    <definition value=" Agglutination, Plate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Plate agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14100">
+    <code value="0021"/>
+    <definition value=" Agglutination, Rapid Plate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Rapid agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14101">
+    <code value="0022"/>
+    <definition value=" Agglutination, RBC"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RBC agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14102">
+    <code value="0023"/>
+    <definition value=" Agglutination, Rivanol"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Rivanol agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14103">
+    <code value="0024"/>
+    <definition value=" Agglutination, Tube"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Tube agglutination"/>
+    </designation>
+  </concept>
+  <concept id="14104">
+    <code value="0025"/>
+    <definition value=" Bioassay"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bioassay"/>
+    </designation>
+  </concept>
+  <concept id="14105">
+    <code value="0026"/>
+    <definition value=" Bioassay, Animal Inoculation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Animal Inoculation"/>
+    </designation>
+  </concept>
+  <concept id="14106">
+    <code value="0027"/>
+    <definition value=" Bioassay, Cytotoxicity"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Cytotoxicity"/>
+    </designation>
+  </concept>
+  <concept id="14107">
+    <code value="0028"/>
+    <definition value=" Bioassay, Embryo Infective Dose 50"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Embryo infective dose 50"/>
+    </designation>
+  </concept>
+  <concept id="14108">
+    <code value="0029"/>
+    <definition value=" Bioassay, Embryo Lethal Dose 50"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Embryo lethal dose 50"/>
+    </designation>
+  </concept>
+  <concept id="14109">
+    <code value="0030"/>
+    <definition value=" Bioassay, Mouse intercerebral inoculation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mouse intercerebral inoculation"/>
+    </designation>
+  </concept>
+  <concept id="14110">
+    <code value="0031"/>
+    <definition value=" Bioassay, qualitative"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bioassay, qualitative"/>
+    </designation>
+  </concept>
+  <concept id="14111">
+    <code value="0032"/>
+    <definition value=" Bioassay, quantitative"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bioassay, quantitative"/>
+    </designation>
+  </concept>
+  <concept id="14112">
+    <code value="0033"/>
+    <definition value=" Chemical"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Chemical method"/>
+    </designation>
+  </concept>
+  <concept id="14113">
+    <code value="0034"/>
+    <definition value=" Chemical, Differential light absorption"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Differential light absorption chemical test"/>
+    </designation>
+  </concept>
+  <concept id="14114">
+    <code value="0035"/>
+    <definition value=" Chemical, Dipstick"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Dipstick"/>
+    </designation>
+  </concept>
+  <concept id="14115">
+    <code value="0036"/>
+    <definition value=" Chemical, Dipstick colorimetric laboratory test"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Dipstick colorimetric laboratory test"/>
+    </designation>
+  </concept>
+  <concept id="14116">
+    <code value="0037"/>
+    <definition value=" Chemical, Test strip"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Test strip"/>
+    </designation>
+  </concept>
+  <concept id="14117">
+    <code value="0038"/>
+    <definition value=" Chromatography"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Chromatography"/>
+    </designation>
+  </concept>
+  <concept id="14118">
+    <code value="0039"/>
+    <definition value=" Chromatography, Affinity"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Affinity chromatography"/>
+    </designation>
+  </concept>
+  <concept id="14119">
+    <code value="0040"/>
+    <definition value=" Chromatography, Gas liquid"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Gas liquid chromatography"/>
+    </designation>
+  </concept>
+  <concept id="14120">
+    <code value="0041"/>
+    <definition value=" Chromatography, High performance liquid"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="High performance liquid chromatography"/>
+    </designation>
+  </concept>
+  <concept id="14121">
+    <code value="0042"/>
+    <definition value=" Chromatography, Liquid"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Liquid Chromatography"/>
+    </designation>
+  </concept>
+  <concept id="14122">
+    <code value="0043"/>
+    <definition value=" Chromatography, Protein A affinity"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Protein A affinity chromatography"/>
+    </designation>
+  </concept>
+  <concept id="14123">
+    <code value="0044"/>
+    <definition value=" Coagulation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Coagulation"/>
+    </designation>
+  </concept>
+  <concept id="14124">
+    <code value="0045"/>
+    <definition value=" Coagulation, Tilt tube"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Tilt tube coagulation time"/>
+    </designation>
+  </concept>
+  <concept id="14125">
+    <code value="0046"/>
+    <definition value=" Coagulation, Tilt tube reptilase induced"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Tilt tube reptilase induced coagulation"/>
+    </designation>
+  </concept>
+  <concept id="14126">
+    <code value="0047"/>
+    <definition value=" Count, Automated"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Automated count"/>
+    </designation>
+  </concept>
+  <concept id="14127">
+    <code value="0048"/>
+    <definition value=" Count, Manual"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Manual cell count"/>
+    </designation>
+  </concept>
+  <concept id="14128">
+    <code value="0049"/>
+    <definition value=" Count, Platelet, Rees-Ecker"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Platelet count, Rees-Ecker"/>
+    </designation>
+  </concept>
+  <concept id="14129">
+    <code value="0050"/>
+    <definition value=" Culture, Aerobic"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Aerobic Culture"/>
+    </designation>
+  </concept>
+  <concept id="14130">
+    <code value="0051"/>
+    <definition value=" Culture, Anaerobic"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Anaerobic Culture"/>
+    </designation>
+  </concept>
+  <concept id="14131">
+    <code value="0052"/>
+    <definition value=" Culture, Chicken Embryo"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Chicken embryo culture"/>
+    </designation>
+  </concept>
+  <concept id="14132">
+    <code value="0053"/>
+    <definition value=" Culture, Delayed secondary enrichment"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Delayed secondary enrichment"/>
+    </designation>
+  </concept>
+  <concept id="14133">
+    <code value="0054"/>
+    <definition value=" Culture, Microaerophilic"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Microaerophilic Culture"/>
+    </designation>
+  </concept>
+  <concept id="14134">
+    <code value="0055"/>
+    <definition value=" Culture, Quantitative microbial, cup"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quantitative microbial culture, cup"/>
+    </designation>
+  </concept>
+  <concept id="14135">
+    <code value="0056"/>
+    <definition value=" Culture, Quantitative microbial, droplet"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quantitative microbial culture, droplet"/>
+    </designation>
+  </concept>
+  <concept id="14136">
+    <code value="0057"/>
+    <definition value=" Culture, Quantitative microbial, filter paper"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quantitative microbial culture, filter paper"/>
+    </designation>
+  </concept>
+  <concept id="14137">
+    <code value="0058"/>
+    <definition value=" Culture, Quantitative microbial, pad"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quantitative microbial culture, pad culture"/>
+    </designation>
+  </concept>
+  <concept id="14138">
+    <code value="0059"/>
+    <definition value=" Culture, Quantitative microbial, pour plate"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quantitative microbial culture, pour plate"/>
+    </designation>
+  </concept>
+  <concept id="14139">
+    <code value="0060"/>
+    <definition value=" Culture, Quantitative microbial, surface streak"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quantitative microbial culture, surface streak"/>
+    </designation>
+  </concept>
+  <concept id="14140">
+    <code value="0061"/>
+    <definition value=" Culture, Somatic Cell"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Somatic Cell culture"/>
+    </designation>
+  </concept>
+  <concept id="14141">
+    <code value="0062"/>
+    <definition value=" Diffusion, Agar"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Agar diffusion"/>
+    </designation>
+  </concept>
+  <concept id="14142">
+    <code value="0063"/>
+    <definition value=" Diffusion, Agar Gel Immunodiffusion"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Agar Gel Immunodiffusion"/>
+    </designation>
+  </concept>
+  <concept id="14143">
+    <code value="0064"/>
+    <definition value=" Electrophoresis"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electrophoresis"/>
+    </designation>
+  </concept>
+  <concept id="14144">
+    <code value="0065"/>
+    <definition value=" Electrophoresis, Agaorse gel"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Agaorse gel electrophoresis"/>
+    </designation>
+  </concept>
+  <concept id="14145">
+    <code value="0066"/>
+    <definition value=" Electrophoresis, citrate agar"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electrophoresis, citrate agar"/>
+    </designation>
+  </concept>
+  <concept id="14146">
+    <code value="0067"/>
+    <definition value=" Electrophoresis, Immuno"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoelectrophoresis"/>
+    </designation>
+  </concept>
+  <concept id="14147">
+    <code value="0068"/>
+    <definition value=" Electrophoresis, Polyacrylamide gel"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Polyacrylamide gel electrophoresis"/>
+    </designation>
+  </concept>
+  <concept id="14148">
+    <code value="0069"/>
+    <definition value=" Electrophoresis, Starch gel"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Starch gel electrophoresis"/>
+    </designation>
+  </concept>
+  <concept id="14149">
+    <code value="0070"/>
+    <definition value=" ELISA"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ELISA"/>
+    </designation>
+  </concept>
+  <concept id="14150">
+    <code value="0071"/>
+    <definition value=" ELISA, antigen capture"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ELISA, antigen capture"/>
+    </designation>
+  </concept>
+  <concept id="14151">
+    <code value="0072"/>
+    <definition value=" ELISA, avidin biotin peroxidase complex"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ELISA, avidin biotin peroxidase complex"/>
+    </designation>
+  </concept>
+  <concept id="14152">
+    <code value="0073"/>
+    <definition value=" ELISA, Kinetic"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Kinetic ELISA"/>
+    </designation>
+  </concept>
+  <concept id="14153">
+    <code value="0074"/>
+    <definition value=" ELISA, peroxidase-antiperoxidase"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ELISA, peroxidase-antiperoxidase"/>
+    </designation>
+  </concept>
+  <concept id="14154">
+    <code value="0075"/>
+    <definition value=" Identification, API 20 Strep"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API 20 Strep"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux - streptococcis and enterococci"/>
+    </property>
+  </concept>
+  <concept id="14155">
+    <code value="0076"/>
+    <definition value=" Identification, API 20A"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API 20A"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux - 24hr anaerobic ID"/>
+    </property>
+  </concept>
+  <concept id="14156">
+    <code value="0077"/>
+    <definition value=" Identification, API 20C AUX"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API 20C AUX"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux - identification of yeast"/>
+    </property>
+  </concept>
+  <concept id="14157">
+    <code value="0078"/>
+    <definition value=" Identification, API 20E"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API 20E"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux -identification of Enterobacteriacae; non-fermenting GNB"/>
+    </property>
+  </concept>
+  <concept id="14158">
+    <code value="0079"/>
+    <definition value=" Identification, API 20NE"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API 20NE"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux - gram negative non-Enterobacteriaeciae"/>
+    </property>
+  </concept>
+  <concept id="14159">
+    <code value="0080"/>
+    <definition value=" Identification, API 50 CH"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API 50 CH"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14160">
+    <code value="0081"/>
+    <definition value=" Identification, API An-IDENT"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API An-IDENT"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14161">
+    <code value="0082"/>
+    <definition value=" Identification, API Coryne"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API Coryne"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14162">
+    <code value="0083"/>
+    <definition value=" Identification, API Rapid 20E"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API Rapid 20E"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux - 4 hour identification of Enterobacteriaciae"/>
+    </property>
+  </concept>
+  <concept id="14163">
+    <code value="0084"/>
+    <definition value=" Identification, API Staph"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API Staph"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14164">
+    <code value="0085"/>
+    <definition value=" Identification, API ZYM"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="API ZYM"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14165">
+    <code value="0086"/>
+    <definition value=" Identification, Bacterial"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bacterial identification"/>
+    </designation>
+  </concept>
+  <concept id="14166">
+    <code value="0087"/>
+    <definition value=" Identification, mini VIDAS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="mini VIDAS"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14167">
+    <code value="0088"/>
+    <definition value=" Identification, Phage susceptibility typing"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Phage susceptibility typing"/>
+    </designation>
+  </concept>
+  <concept id="14168">
+    <code value="0089"/>
+    <definition value=" Identification, Quad-FERM+"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quad-FERM+"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux - 2-hour identification of Neisseria"/>
+    </property>
+  </concept>
+  <concept id="14169">
+    <code value="0090"/>
+    <definition value=" Identification, RAPIDEC Staph"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="RAPIDEC Staph"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14170">
+    <code value="0091"/>
+    <definition value=" Identification, Staphaurex"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Staphaurex"/>
+    </designation>
+  </concept>
+  <concept id="14171">
+    <code value="0092"/>
+    <definition value=" Identification, VIDAS"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VIDAS"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14172">
+    <code value="0093"/>
+    <definition value=" Identification, Vitek"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Vitek"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14173">
+    <code value="0094"/>
+    <definition value=" Identification, VITEK 2"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="VITEK 2"/>
+    </designation>
+    <property>
+      <code value="howApplies"/>
+      <valueString value="bioMerieux"/>
+    </property>
+  </concept>
+  <concept id="14174">
+    <code value="0095"/>
+    <definition value=" Immune stain"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immune stain"/>
+    </designation>
+  </concept>
+  <concept id="14175">
+    <code value="0096"/>
+    <definition value=" Immune stain, Immunofluorescent antibody, direct"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunofluorescent antibody, direct"/>
+    </designation>
+  </concept>
+  <concept id="14176">
+    <code value="0097"/>
+    <definition value=" Immune stain, Immunofluorescent antibody, indirect"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunofluorescent antibody, indirect"/>
+    </designation>
+  </concept>
+  <concept id="14177">
+    <code value="0098"/>
+    <definition value=" Immune stain, Immunoperoxidase, Avidin-Biotin Complex"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoperoxidase, Avidin-Biotin Complex"/>
+    </designation>
+  </concept>
+  <concept id="14178">
+    <code value="0099"/>
+    <definition value=" Immune stain, Immunoperoxidase, Peroxidase anti-peroxidase complex"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoperoxidase, Peroxidase anti-peroxidase complex"/>
+    </designation>
+  </concept>
+  <concept id="14179">
+    <code value="0100"/>
+    <definition value=" Immune stain, Immunoperoxidase, Protein A-peroxidase complex"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoperoxidase, Protein A-peroxidase complex"/>
+    </designation>
+  </concept>
+  <concept id="14180">
+    <code value="0101"/>
+    <definition value=" Immunoassay"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoassay"/>
+    </designation>
+  </concept>
+  <concept id="14181">
+    <code value="0102"/>
+    <definition value=" Immunoassay, qualitative, multiple step"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoassay, qualitative, multiple step"/>
+    </designation>
+  </concept>
+  <concept id="14182">
+    <code value="0103"/>
+    <definition value=" Immunoassay, qualitative, single step"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoassay, qualitative, single step"/>
+    </designation>
+  </concept>
+  <concept id="14183">
+    <code value="0104"/>
+    <definition value=" Immunoassay, Radioimmunoassay"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Radioimmunoassay"/>
+    </designation>
+  </concept>
+  <concept id="14184">
+    <code value="0105"/>
+    <definition value=" Immunoassay, semi-quantitative, multiple step"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoassay, semi-quantitative, multiple step"/>
+    </designation>
+  </concept>
+  <concept id="14185">
+    <code value="0106"/>
+    <definition value=" Immunoassay, semi-quantitative, single step"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoassay, semi-quantitative, single step"/>
+    </designation>
+  </concept>
+  <concept id="14186">
+    <code value="0107"/>
+    <definition value=" Microscopy"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Microscopy"/>
+    </designation>
+  </concept>
+  <concept id="14187">
+    <code value="0108"/>
+    <definition value=" Microscopy, Darkfield"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Darkfield microscopy"/>
+    </designation>
+  </concept>
+  <concept id="14188">
+    <code value="0109"/>
+    <definition value=" Microscopy, Electron"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electron microscopy"/>
+    </designation>
+  </concept>
+  <concept id="14189">
+    <code value="0110"/>
+    <definition value=" Microscopy, Electron microscopy tomography"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electron microscopy tomography"/>
+    </designation>
+  </concept>
+  <concept id="14190">
+    <code value="0111"/>
+    <definition value=" Microscopy, Electron, negative stain"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electron microscopy, negative stain"/>
+    </designation>
+  </concept>
+  <concept id="14191">
+    <code value="0112"/>
+    <definition value=" Microscopy, Electron, thick section transmission"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electron microscopy, thick section"/>
+    </designation>
+  </concept>
+  <concept id="14192">
+    <code value="0113"/>
+    <definition value=" Microscopy, Electron, thin section transmission"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Electron microscopy, thin section"/>
+    </designation>
+  </concept>
+  <concept id="14193">
+    <code value="0114"/>
+    <definition value=" Microscopy, Light"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Microscopy, Light"/>
+    </designation>
+  </concept>
+  <concept id="14194">
+    <code value="0115"/>
+    <definition value=" Microscopy, Polarized light"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Polarizing light microscopy"/>
+    </designation>
+  </concept>
+  <concept id="14195">
+    <code value="0116"/>
+    <definition value=" Microscopy, Scanning electron"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Scanning electron microscopy"/>
+    </designation>
+  </concept>
+  <concept id="14196">
+    <code value="0117"/>
+    <definition value=" Microscopy, Transmission electron"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Transmission electron microscopy"/>
+    </designation>
+  </concept>
+  <concept id="14197">
+    <code value="0118"/>
+    <definition value=" Microscopy, Transparent tape direct examination"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Transparent tape direct examination"/>
+    </designation>
+  </concept>
+  <concept id="14198">
+    <code value="0119"/>
+    <definition value=" Molecular, 3 Self-Sustaining Sequence Replication"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="3 Self-Sustaining Sequence Replication"/>
+    </designation>
+  </concept>
+  <concept id="14199">
+    <code value="0120"/>
+    <definition value=" Molecular, Branched Chain DNA"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Branched Chain DNA"/>
+    </designation>
+  </concept>
+  <concept id="14200">
+    <code value="0121"/>
+    <definition value=" Molecular, Hybridization Protection Assay"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hybridization Protection Assay"/>
+    </designation>
+  </concept>
+  <concept id="14201">
+    <code value="0122"/>
+    <definition value=" Molecular, Immune blot"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immune blot"/>
+    </designation>
+  </concept>
+  <concept id="14202">
+    <code value="0123"/>
+    <definition value=" Molecular, In-situ hybridization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="In-situ hybridization"/>
+    </designation>
+  </concept>
+  <concept id="14203">
+    <code value="0124"/>
+    <definition value=" Molecular, Ligase Chain Reaction"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Ligase Chain Reaction"/>
+    </designation>
+  </concept>
+  <concept id="14204">
+    <code value="0125"/>
+    <definition value=" Molecular, Ligation Activated Transcription"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Ligation Activated Transcription"/>
+    </designation>
+  </concept>
+  <concept id="14205">
+    <code value="0126"/>
+    <definition value=" Molecular, Nucleic Acid Probe"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nucleic Acid Probe"/>
+    </designation>
+  </concept>
+  <concept id="14207">
+    <code value="0128"/>
+    <definition value=" Molecular, Nucleic acid probe with amplification  Rationale:Duplicate of code 0126. Use code 0126 instead."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nucleic acid probe with amplification"/>
+    </designation>
+  </concept>
+  <concept id="14208">
+    <code value="0129"/>
+    <definition value=" Molecular, Nucleic acid probe with target amplification"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nucleic acid probe with target amplification"/>
+    </designation>
+  </concept>
+  <concept id="14209">
+    <code value="0130"/>
+    <definition value=" Molecular, Nucleic acid reverse transcription"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nucleic acid reverse transcription"/>
+    </designation>
+  </concept>
+  <concept id="14210">
+    <code value="0131"/>
+    <definition value=" Molecular, Nucleic Acid Sequence Based Analysis"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nucleic Acid Sequence Based Analysis"/>
+    </designation>
+  </concept>
+  <concept id="14211">
+    <code value="0132"/>
+    <definition value=" Molecular, Polymerase chain reaction"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Polymerase chain reaction"/>
+    </designation>
+  </concept>
+  <concept id="14212">
+    <code value="0133"/>
+    <definition value=" Molecular, Q-Beta Replicase or probe amplification category method"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Q-Beta Replicase or probe amplification category method"/>
+    </designation>
+  </concept>
+  <concept id="14213">
+    <code value="0134"/>
+    <definition value=" Molecular, Restriction Fragment Length Polymorphism"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Restriction Fragment Length Polymorphism"/>
+    </designation>
+  </concept>
+  <concept id="14214">
+    <code value="0135"/>
+    <definition value=" Molecular, Southern Blot"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Southern Blot"/>
+    </designation>
+  </concept>
+  <concept id="14215">
+    <code value="0136"/>
+    <definition value=" Molecular, Strand Displacement Amplification"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Strand Displacement Amplification"/>
+    </designation>
+  </concept>
+  <concept id="14216">
+    <code value="0137"/>
+    <definition value=" Molecular, Transcription Mediated Amplification"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Transcription Mediated Amplification"/>
+    </designation>
+  </concept>
+  <concept id="14217">
+    <code value="0138"/>
+    <definition value=" Molecular, Western Blot"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Western Blot"/>
+    </designation>
+  </concept>
+  <concept id="14218">
+    <code value="0139"/>
+    <definition value=" Precipitation, Flocculation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Flocculation"/>
+    </designation>
+  </concept>
+  <concept id="14219">
+    <code value="0140"/>
+    <definition value=" Precipitation, Immune precipitation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immune precipitation"/>
+    </designation>
+  </concept>
+  <concept id="14220">
+    <code value="0141"/>
+    <definition value=" Precipitation, Milk ring test"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Milk ring test"/>
+    </designation>
+  </concept>
+  <concept id="14221">
+    <code value="0142"/>
+    <definition value=" Precipitation, Precipitin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Precipitin"/>
+    </designation>
+  </concept>
+  <concept id="14222">
+    <code value="0143"/>
+    <definition value=" Stain, Acid fast"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Acid fast stain"/>
+    </designation>
+  </concept>
+  <concept id="14223">
+    <code value="0144"/>
+    <definition value=" Stain, Acid fast, fluorochrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Acid fast stain, fluorochrome"/>
+    </designation>
+  </concept>
+  <concept id="14224">
+    <code value="0145"/>
+    <definition value=" Stain, Acid fast, Kinyoun&#39;s cold carbolfuchsin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Acid fast stain, Kinyoun&#39;s cold carbolfuchsin"/>
+    </designation>
+  </concept>
+  <concept id="14225">
+    <code value="0146"/>
+    <definition value=" Stain, Acid fast, Ziehl-Neelsen"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Acid fast stain, Ziehl-Neelsen"/>
+    </designation>
+  </concept>
+  <concept id="14226">
+    <code value="0147"/>
+    <definition value=" Stain, Acid phosphatase"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Acid phosphatase stain"/>
+    </designation>
+  </concept>
+  <concept id="14227">
+    <code value="0148"/>
+    <definition value=" Stain, Acridine orange"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Acridine orange stain"/>
+    </designation>
+  </concept>
+  <concept id="14228">
+    <code value="0149"/>
+    <definition value=" Stain, Active brilliant orange KH"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Active brilliant orange KH stain"/>
+    </designation>
+  </concept>
+  <concept id="14229">
+    <code value="0150"/>
+    <definition value=" Stain, Alazarin red S"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Alazarin red S stain"/>
+    </designation>
+  </concept>
+  <concept id="14230">
+    <code value="0151"/>
+    <definition value=" Stain, Alcian blue"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Alcian blue stain"/>
+    </designation>
+  </concept>
+  <concept id="14231">
+    <code value="0152"/>
+    <definition value=" Stain, Alcian blue with Periodic acid Schiff"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Alcian blue with Periodic acid Schiff stain"/>
+    </designation>
+  </concept>
+  <concept id="14232">
+    <code value="0153"/>
+    <definition value=" Stain, Argentaffin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Argentaffin stain"/>
+    </designation>
+  </concept>
+  <concept id="14233">
+    <code value="0154"/>
+    <definition value=" Stain, Argentaffin silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Argentaffin silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14234">
+    <code value="0155"/>
+    <definition value=" Stain, Azure-eosin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Azure-eosin stain"/>
+    </designation>
+  </concept>
+  <concept id="14235">
+    <code value="0156"/>
+    <definition value=" Stain, Basic Fuschin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Basic Fuschin stain"/>
+    </designation>
+  </concept>
+  <concept id="14236">
+    <code value="0157"/>
+    <definition value=" Stain, Bennhold"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bennhold stain"/>
+    </designation>
+  </concept>
+  <concept id="14237">
+    <code value="0158"/>
+    <definition value=" Stain, Bennhold&#39;s Congo red"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bennhold&#39;s Congo red stain"/>
+    </designation>
+  </concept>
+  <concept id="14238">
+    <code value="0159"/>
+    <definition value=" Stain, Bielschowsky"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bielschowsky stain"/>
+    </designation>
+  </concept>
+  <concept id="14239">
+    <code value="0160"/>
+    <definition value=" Stain, Bielschowsky&#39;s silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bielschowsky&#39;s silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14240">
+    <code value="0161"/>
+    <definition value=" Stain, Bleach"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bleach stain"/>
+    </designation>
+  </concept>
+  <concept id="14241">
+    <code value="0162"/>
+    <definition value=" Stain, Bodian"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Bodian stain"/>
+    </designation>
+  </concept>
+  <concept id="14242">
+    <code value="0163"/>
+    <definition value=" Stain, Brown-Brenn"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Brown-Brenn stain"/>
+    </designation>
+  </concept>
+  <concept id="14243">
+    <code value="0164"/>
+    <definition value=" Stain, Butyrate-esterase"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Butyrate-esterase stain"/>
+    </designation>
+  </concept>
+  <concept id="14244">
+    <code value="0165"/>
+    <definition value=" Stain, Calcofluor white fluorescent"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Calcofluor white fluorescent stain"/>
+    </designation>
+  </concept>
+  <concept id="14245">
+    <code value="0166"/>
+    <definition value=" Stain, Carbol-fuchsin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Carbol-fuchsin stain"/>
+    </designation>
+  </concept>
+  <concept id="14246">
+    <code value="0167"/>
+    <definition value=" Stain, Carmine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Carmine stain"/>
+    </designation>
+  </concept>
+  <concept id="14247">
+    <code value="0168"/>
+    <definition value=" Stain, Churukian-Schenk"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Churukian-Schenk stain"/>
+    </designation>
+  </concept>
+  <concept id="14248">
+    <code value="0169"/>
+    <definition value=" Stain, Congo red"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Congo red stain"/>
+    </designation>
+  </concept>
+  <concept id="14249">
+    <code value="0170"/>
+    <definition value=" Stain, Cresyl echt violet"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Cresyl echt violet stain"/>
+    </designation>
+  </concept>
+  <concept id="14250">
+    <code value="0171"/>
+    <definition value=" Stain, Crystal violet"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Crystal violet stain"/>
+    </designation>
+  </concept>
+  <concept id="14251">
+    <code value="0172"/>
+    <definition value=" Stain, De Galantha"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="De Galantha stain"/>
+    </designation>
+  </concept>
+  <concept id="14252">
+    <code value="0173"/>
+    <definition value=" Stain, Dieterle silver impregnation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Dieterle silver impregnation stain"/>
+    </designation>
+  </concept>
+  <concept id="14253">
+    <code value="0174"/>
+    <definition value=" Stain, Fite-Farco"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Fite-Farco stain"/>
+    </designation>
+  </concept>
+  <concept id="14254">
+    <code value="0175"/>
+    <definition value=" Stain, Fontana-Masson silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Fontana-Masson silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14255">
+    <code value="0176"/>
+    <definition value=" Stain, Fouchet"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Fouchet stain"/>
+    </designation>
+  </concept>
+  <concept id="14256">
+    <code value="0177"/>
+    <definition value=" Stain, Gomori"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Gomori stain"/>
+    </designation>
+  </concept>
+  <concept id="14257">
+    <code value="0178"/>
+    <definition value=" Stain, Gomori methenamine silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Gomori methenamine silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14258">
+    <code value="0179"/>
+    <definition value=" Stain, Gomori-Wheatly trichrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Gomori-Wheatly trichrome stain"/>
+    </designation>
+  </concept>
+  <concept id="14259">
+    <code value="0180"/>
+    <definition value=" Stain, Gridley"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Gridley stain"/>
+    </designation>
+  </concept>
+  <concept id="14260">
+    <code value="0181"/>
+    <definition value=" Stain, Grimelius silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Grimelius silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14261">
+    <code value="0182"/>
+    <definition value=" Stain, Grocott"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Grocott stain"/>
+    </designation>
+  </concept>
+  <concept id="14262">
+    <code value="0183"/>
+    <definition value=" Stain, Grocott methenamine silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Grocott methenamine silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14263">
+    <code value="0184"/>
+    <definition value=" Stain, Hale&#39;s colloidal ferric oxide"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hale&#39;s colloidal ferric oxide stain"/>
+    </designation>
+  </concept>
+  <concept id="14264">
+    <code value="0185"/>
+    <definition value=" Stain, Hale&#39;s colloidal iron"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hale&#39;s colloidal iron stain"/>
+    </designation>
+  </concept>
+  <concept id="14265">
+    <code value="0186"/>
+    <definition value=" Stain, Hansel"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hansel stain"/>
+    </designation>
+  </concept>
+  <concept id="14266">
+    <code value="0187"/>
+    <definition value=" Stain, Harris regressive hematoxylin and eosin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Harris regressive hematoxylin and eosin stain"/>
+    </designation>
+  </concept>
+  <concept id="14267">
+    <code value="0188"/>
+    <definition value=" Stain, Hematoxylin and eosin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hematoxylin and eosin stain"/>
+    </designation>
+  </concept>
+  <concept id="14268">
+    <code value="0189"/>
+    <definition value=" Stain, Highman"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Highman stain"/>
+    </designation>
+  </concept>
+  <concept id="14269">
+    <code value="0190"/>
+    <definition value=" Stain, Holzer"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Holzer stain"/>
+    </designation>
+  </concept>
+  <concept id="14270">
+    <code value="0191"/>
+    <definition value=" Stain, Iron hematoxylin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Iron hematoxylin stain"/>
+    </designation>
+  </concept>
+  <concept id="14271">
+    <code value="0192"/>
+    <definition value=" Stain, Jones"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Jones stain"/>
+    </designation>
+  </concept>
+  <concept id="14272">
+    <code value="0193"/>
+    <definition value=" Stain, Jones methenamine silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Jones methenamine silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14273">
+    <code value="0194"/>
+    <definition value=" Stain, Kossa"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Kossa stain"/>
+    </designation>
+  </concept>
+  <concept id="14274">
+    <code value="0195"/>
+    <definition value=" Stain, Lawson-Van Gieson"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Lawson-Van Gieson stain"/>
+    </designation>
+  </concept>
+  <concept id="14275">
+    <code value="0196"/>
+    <definition value=" Stain, Loeffler methylene blue"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Loeffler methylene blue stain"/>
+    </designation>
+  </concept>
+  <concept id="14276">
+    <code value="0197"/>
+    <definition value=" Stain, Luxol fast blue with cresyl violet"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Luxol fast blue with cresyl violet stain"/>
+    </designation>
+  </concept>
+  <concept id="14277">
+    <code value="0198"/>
+    <definition value=" Stain, Luxol fast blue with Periodic acid-Schiff"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Luxol fast blue with Periodic acid-Schiff stain"/>
+    </designation>
+  </concept>
+  <concept id="14278">
+    <code value="0199"/>
+    <definition value=" Stain, MacNeal&#39;s tetrachrome blood"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="MacNeal&#39;s tetrachrome blood stain"/>
+    </designation>
+  </concept>
+  <concept id="14279">
+    <code value="0200"/>
+    <definition value=" Stain, Mallory-Heidenhain"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mallory-Heidenhain stain"/>
+    </designation>
+  </concept>
+  <concept id="14280">
+    <code value="0201"/>
+    <definition value=" Stain, Masson trichrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Masson trichrome stain"/>
+    </designation>
+  </concept>
+  <concept id="14281">
+    <code value="0202"/>
+    <definition value=" Stain, Mayer mucicarmine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mayer mucicarmine stain"/>
+    </designation>
+  </concept>
+  <concept id="14282">
+    <code value="0203"/>
+    <definition value=" Stain, Mayers progressive hematoxylin and eosin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mayers progressive hematoxylin and eosin stain"/>
+    </designation>
+  </concept>
+  <concept id="14283">
+    <code value="0204"/>
+    <definition value=" Stain, May-Grunwald Giemsa"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="May-Grunwald Giemsa stain"/>
+    </designation>
+  </concept>
+  <concept id="14284">
+    <code value="0205"/>
+    <definition value=" Stain, Methyl green"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Methyl green stain"/>
+    </designation>
+  </concept>
+  <concept id="14285">
+    <code value="0206"/>
+    <definition value=" Stain, Methyl green pyronin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Methyl green pyronin stain"/>
+    </designation>
+  </concept>
+  <concept id="14286">
+    <code value="0207"/>
+    <definition value=" Stain, Modified Gomori-Wheatly trichrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Modified Gomori-Wheatly trichrome stain"/>
+    </designation>
+  </concept>
+  <concept id="14287">
+    <code value="0208"/>
+    <definition value=" Stain, Modified Masson trichrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Modified Masson trichrome stain"/>
+    </designation>
+  </concept>
+  <concept id="14288">
+    <code value="0209"/>
+    <definition value=" Stain, Modified trichrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Modified trichrome stain"/>
+    </designation>
+  </concept>
+  <concept id="14289">
+    <code value="0210"/>
+    <definition value=" Stain, Movat pentachrome"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Movat pentachrome stain"/>
+    </designation>
+  </concept>
+  <concept id="14290">
+    <code value="0211"/>
+    <definition value=" Stain, Mucicarmine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Mucicarmine stain"/>
+    </designation>
+  </concept>
+  <concept id="14291">
+    <code value="0212"/>
+    <definition value=" Stain, Neutral red"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Neutral red stain"/>
+    </designation>
+  </concept>
+  <concept id="14292">
+    <code value="0213"/>
+    <definition value=" Stain, Night blue"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Night blue stain"/>
+    </designation>
+  </concept>
+  <concept id="14293">
+    <code value="0214"/>
+    <definition value=" Stain, Non-specific esterase"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Non-specific esterase stain"/>
+    </designation>
+  </concept>
+  <concept id="14294">
+    <code value="0215"/>
+    <definition value=" Stain, Oil red-O"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Oil red-O stain"/>
+    </designation>
+  </concept>
+  <concept id="14295">
+    <code value="0216"/>
+    <definition value=" Stain, Orcein"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Orcein stain"/>
+    </designation>
+  </concept>
+  <concept id="14296">
+    <code value="0217"/>
+    <definition value=" Stain, Perls&#39;"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Perls&#39; stain"/>
+    </designation>
+  </concept>
+  <concept id="14297">
+    <code value="0218"/>
+    <definition value=" Stain, Phosphotungstic acid-hematoxylin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Phosphotungstic acid-hematoxylin stain"/>
+    </designation>
+  </concept>
+  <concept id="14298">
+    <code value="0219"/>
+    <definition value=" Stain, Potassium ferrocyanide"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Potassium ferrocyanide stain"/>
+    </designation>
+  </concept>
+  <concept id="14299">
+    <code value="0220"/>
+    <definition value=" Stain, Prussian blue"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Prussian blue stain"/>
+    </designation>
+  </concept>
+  <concept id="14300">
+    <code value="0221"/>
+    <definition value=" Stain, Putchler modified Bennhold"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Putchler modified Bennhold stain"/>
+    </designation>
+  </concept>
+  <concept id="14301">
+    <code value="0222"/>
+    <definition value=" Stain, Quinacrine fluorescent"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Quinacrine fluorescent stain"/>
+    </designation>
+  </concept>
+  <concept id="14302">
+    <code value="0223"/>
+    <definition value=" Stain, Reticulin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Reticulin stain"/>
+    </designation>
+  </concept>
+  <concept id="14303">
+    <code value="0224"/>
+    <definition value=" Stain, Rhodamine"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Rhodamine stain"/>
+    </designation>
+  </concept>
+  <concept id="14304">
+    <code value="0225"/>
+    <definition value=" Stain, Safranin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Safranin stain"/>
+    </designation>
+  </concept>
+  <concept id="14305">
+    <code value="0226"/>
+    <definition value=" Stain, Schmorl"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Schmorl stain"/>
+    </designation>
+  </concept>
+  <concept id="14306">
+    <code value="0227"/>
+    <definition value=" Stain, Seiver-Munger"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Seiver-Munger stain"/>
+    </designation>
+  </concept>
+  <concept id="14307">
+    <code value="0228"/>
+    <definition value=" Stain, Silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14308">
+    <code value="0229"/>
+    <definition value=" Stain, Specific esterase"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Specific esterase stain"/>
+    </designation>
+  </concept>
+  <concept id="14309">
+    <code value="0230"/>
+    <definition value=" Stain, Steiner silver"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Steiner silver stain"/>
+    </designation>
+  </concept>
+  <concept id="14310">
+    <code value="0231"/>
+    <definition value=" Stain, Sudan III"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Sudan III stain"/>
+    </designation>
+  </concept>
+  <concept id="14311">
+    <code value="0232"/>
+    <definition value=" Stain, Sudan IVI"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Sudan IVI stain"/>
+    </designation>
+  </concept>
+  <concept id="14312">
+    <code value="0233"/>
+    <definition value=" Stain, Sulfated alcian blue"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Sulfated alcian blue stain"/>
+    </designation>
+  </concept>
+  <concept id="14313">
+    <code value="0234"/>
+    <definition value=" Stain, Supravital"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Supravital stain"/>
+    </designation>
+  </concept>
+  <concept id="14314">
+    <code value="0235"/>
+    <definition value=" Stain, Thioflavine-S"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Thioflavine-S stain"/>
+    </designation>
+  </concept>
+  <concept id="14315">
+    <code value="0236"/>
+    <definition value=" Stain, Three micron Giemsa"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Three micron Giemsa stain"/>
+    </designation>
+  </concept>
+  <concept id="14316">
+    <code value="0237"/>
+    <definition value=" Stain, Vassar-Culling"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Vassar-Culling stain"/>
+    </designation>
+  </concept>
+  <concept id="14317">
+    <code value="0238"/>
+    <definition value=" Stain, Vital"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Vital Stain"/>
+    </designation>
+  </concept>
+  <concept id="14318">
+    <code value="0239"/>
+    <definition value=" Stain, von Kossa"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="von Kossa stain"/>
+    </designation>
+  </concept>
+  <concept id="14322">
+    <code value="0243"/>
+    <definition value=" Susceptibility, Minimum bactericidal concentration, macrodilution"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Minimum bactericidal concentration test, macrodilution"/>
+    </designation>
+  </concept>
+  <concept id="14323">
+    <code value="0244"/>
+    <definition value=" Susceptibility, Minimum bactericidal concentration, microdilution"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Minimum bactericidal concentration test, microdilution"/>
+    </designation>
+  </concept>
+  <concept id="14326">
+    <code value="0247"/>
+    <definition value=" Turbidometric"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Turbidometric"/>
+    </designation>
+  </concept>
+  <concept id="14327">
+    <code value="0248"/>
+    <definition value=" Turbidometric, Refractometric"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Refractometric"/>
+    </designation>
+  </concept>
+  <concept id="14328">
+    <code value="0249"/>
+    <definition value=" Chromatography, Thin Layer"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Thin layer chromatography (TLC)"/>
+    </designation>
+  </concept>
+  <concept id="14329">
+    <code value="0250"/>
+    <definition value=" Immunoassay, enzyme-multiplied technique (EMIT)"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="EMIT"/>
+    </designation>
+  </concept>
+  <concept id="14330">
+    <code value="0251"/>
+    <definition value=" Flow Cytometry"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Flow cytometry (FC)"/>
+    </designation>
+  </concept>
+  <concept id="14331">
+    <code value="0252"/>
+    <definition value=" Radial Immunodiffusion"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Radial immunodiffusion (RID)"/>
+    </designation>
+  </concept>
+  <concept id="14332">
+    <code value="0253"/>
+    <definition value=" Immunoassay, Fluorescence Polarization"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Fluorescence polarization immunoassay (FPIA)"/>
+    </designation>
+  </concept>
+  <concept id="14333">
+    <code value="0254"/>
+    <definition value=" Electrophoresis, Immunofixation"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunofixation electrophoresis (IFE)"/>
+    </designation>
+  </concept>
+  <concept id="14334">
+    <code value="0255"/>
+    <definition value=" Dialysis, Direct Equilibrium"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Equilibrium dialysis"/>
+    </designation>
+  </concept>
+  <concept id="14335">
+    <code value="0256"/>
+    <definition value=" Acid Elution, Kleihauer-Betke Method"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Kleihauer-Betke acid elution"/>
+    </designation>
+  </concept>
+  <concept id="14336">
+    <code value="0257"/>
+    <definition value=" Immunofluorescence, Anti-Complement"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Anti-complement immunofluorescence (ACIF)"/>
+    </designation>
+  </concept>
+  <concept id="14337">
+    <code value="0258"/>
+    <definition value=" Gas Chromatography/Mass Spectroscopy"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="GC/MS"/>
+    </designation>
+  </concept>
+  <concept id="14338">
+    <code value="0259"/>
+    <definition value=" Light Scatter, Nephelometry"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nephelometry"/>
+    </designation>
+  </concept>
+  <concept id="14339">
+    <code value="0260"/>
+    <definition value=" Immunoassay, IgE Antibody Test"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="IgE immunoassay antibody"/>
+    </designation>
+  </concept>
+  <concept id="14340">
+    <code value="0261"/>
+    <definition value=" Lymphocyte Microcytotoxicity Assay"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Lymphocyte Microcytotoxicity Assay"/>
+    </designation>
+  </concept>
+  <concept id="14341">
+    <code value="0262"/>
+    <definition value=" Spectrophotometry"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Spectrophotometry"/>
+    </designation>
+  </concept>
+  <concept id="14342">
+    <code value="0263"/>
+    <definition value=" Spectrophotometry, Atomic Absorption"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Atomic absorption spectrophotometry (AAS)"/>
+    </designation>
+  </concept>
+  <concept id="14343">
+    <code value="0264"/>
+    <definition value=" Electrochemical, Ion Selective Electrode"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Ion selective electrode (ISE)"/>
+    </designation>
+  </concept>
+  <concept id="14344">
+    <code value="0265"/>
+    <definition value=" Chromatography, Gas"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Gas chromatography (GC)"/>
+    </designation>
+  </concept>
+  <concept id="14345">
+    <code value="0266"/>
+    <definition value=" Isoelectric Focusing"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Isoelectric focusing (IEF)"/>
+    </designation>
+  </concept>
+  <concept id="14346">
+    <code value="0267"/>
+    <definition value=" Immunoassay, Chemiluminescent"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunochemiluminescence"/>
+    </designation>
+  </concept>
+  <concept id="14347">
+    <code value="0268"/>
+    <definition value=" Immunoassay, Microparticle Enzyme"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Microparticle enzyme immunoassay (MEIA)"/>
+    </designation>
+  </concept>
+  <concept id="14348">
+    <code value="0269"/>
+    <definition value=" Inductively-Coupled Plasma/Mass Spectrometry"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="ICP/MS"/>
+    </designation>
+  </concept>
+  <concept id="14349">
+    <code value="0270"/>
+    <definition value=" Immunoassay, Immunoradiometric Assay"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Immunoradiometric assay (IRMA)"/>
+    </designation>
+  </concept>
+  <concept id="14350">
+    <code value="0271"/>
+    <definition value=" Coagulation, Photo Optical Clot Detection"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Photo optical clot detection"/>
+    </designation>
+  </concept>
+  <concept id="21454">
+    <code value="0280"/>
+    <definition value=" Test methods designed to determine a microorganismaTMs susceptibility to being killed by an antibiotic."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Susceptibility Testing"/>
+    </designation>
+    <concept id="14319">
+      <code value="0240"/>
+      <definition value=" Susceptibility, Antibiotic sensitivity, disk"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Antibiotic sensitivity, disk"/>
+      </designation>
+    </concept>
+    <concept id="14320">
+      <code value="0241"/>
+      <definition value=" Susceptibility, BACTEC susceptibility test"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="BACTEC susceptibility test"/>
+      </designation>
+    </concept>
+    <concept id="14321">
+      <code value="0242"/>
+      <definition value=" Susceptibility, Disk dilution"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Disk dilution"/>
+      </designation>
+    </concept>
+    <concept id="21445">
+      <code value="0272"/>
+      <definition value=" Testing to measure the minimum concentration of the antibacterial agent in a given culture medium below which bacterial growth is not inhibited."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Minimum Inhibitory Concentration"/>
+      </designation>
+      <concept id="14324">
+        <code value="0245"/>
+        <definition value=" Susceptibility, Minimum Inhibitory concentration, macrodilution"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Minimum Inhibitory Concentration, macrodilution"/>
+        </designation>
+      </concept>
+      <concept id="14325">
+        <code value="0246"/>
+        <definition value=" Susceptibility, Minimum Inhibitory concentration, microdilution"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Minimum Inhibitory Concentration, microdilution"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21446">
+      <code value="0273"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Viral Genotype Susceptibility"/>
+      </designation>
+    </concept>
+    <concept id="21447">
+      <code value="0274"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Viral Phenotype Susceptibility"/>
+      </designation>
+    </concept>
+    <concept id="21448">
+      <code value="0275"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Gradient Strip"/>
+      </designation>
+    </concept>
+    <concept id="21449">
+      <code value="0275a"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Minimum Lethal Concentration (MLC)"/>
+      </designation>
+    </concept>
+    <concept id="21450">
+      <code value="0276"/>
+      <definition value=" Testing to measure the minimum concentration of the antibacterial agent in a given culture medium below which bacterial growth is not inhibited."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Slow Mycobacteria Susceptibility"/>
+      </designation>
+    </concept>
+    <concept id="21451">
+      <code value="0277"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Serum bactericidal titer"/>
+      </designation>
+    </concept>
+    <concept id="21452">
+      <code value="0278"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Agar screen"/>
+      </designation>
+    </concept>
+    <concept id="21453">
+      <code value="0279"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Disk induction"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21943">
+    <code value="_AllergyTestObservationMethod"/>
+    <definition value="  Description:&#xD;&#xA;Provides additional methodology information not present in the associated AllergyTestCode term."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="allergy test observation"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="21944">
+    <code value="_CommonClinicalObservationMethod"/>
+    <definition value="  Description:&#xD;&#xA;Used in a patient care message to value simple clinical (non-lab) observation methods, such as found in SOAP (subjective, objective, assessment, plan) progress notes: subjective section (used for history from patient and other informants); objective section (used for physical exam, lab, and other common results), and assessment section (used for the clinicians assessment of the implications of subjective and objective sections)."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="common clinical observation"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+  <concept id="14206">
+    <code value="0127"/>
+    <definition value=" Molecular, Nucleic acid probe"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nucleic acid probe"/>
+    </designation>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+  </concept>
+</CodeSystem>

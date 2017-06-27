@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-AmericanIndianAlaskaNativeLanguages"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>American Indian and Alaska Native languages currently being used in the United States.</p>
+               
+    </text>
+  </text>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1054"/>
+  </identifier>
+  <name value="AmericanIndianAlaskaNativeLanguages"/>
+  <title value="AmericanIndianAlaskaNativeLanguages"/>
+  <status value="active"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value=" American Indian and Alaska Native languages currently being used in the United States."/>
+  <content value="complete"/>
+  <concept id="20952">
+    <code value="_Algic"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Algic"/>
+    </designation>
+    <concept id="20953">
+      <code value="_Algonquian"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Algonquian"/>
+      </designation>
+      <concept id="20955">
+        <code value="_Arapahoan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Arapahoan"/>
+        </designation>
+        <concept id="20956">
+          <code value="_ArapahoGrosVentre"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="ArapahoGrosVentre"/>
+          </designation>
+          <concept id="18151">
+            <code value="x-ARP"/>
+            <display value="Arrapahoe"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Arapaho"/>
+            </designation>
+          </concept>
+          <concept id="18144">
+            <code value="x-ATS"/>
+            <display value="White Clay People"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Gros Ventre"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="20972">
+        <code value="_CreeMontagnais"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="CreeMontagnais"/>
+        </designation>
+        <concept id="20971">
+          <code value="_Cree"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Cree"/>
+          </designation>
+          <concept id="18137">
+            <code value="x-CRP"/>
+            <display value="Woods Cree"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Western Cree"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="20979">
+        <code value="_EasternAlgonquin"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="EasternAlgonquin"/>
+        </designation>
+        <concept id="20950">
+          <code value="_Abenakian"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Abenakian"/>
+          </designation>
+          <concept id="18177">
+            <code value="x-AAQ"/>
+            <display value="Penobscot"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Eastern Abenaki"/>
+            </designation>
+          </concept>
+          <concept id="18180">
+            <code value="x-ABE"/>
+            <display value="St. Francis"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Western Abenaki"/>
+            </designation>
+          </concept>
+          <concept id="18175">
+            <code value="x-MAC"/>
+            <display value="Malecite-Passamaquoddy"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Maliseet-Passamaquoddy"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="20975">
+          <code value="_Delawaran"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Delawaran"/>
+          </designation>
+          <concept id="18185">
+            <code value="x-DEL"/>
+            <display value="Lenni-Lenape"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Unami Delaware"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="18172">
+          <code value="x-MIC"/>
+          <display value="Restigouche"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Micmac"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21003">
+        <code value="_Ojibwayan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Ojibwayan"/>
+        </designation>
+        <concept id="18157">
+          <code value="x-OJB"/>
+          <display value="Western Ojibwa"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Southern Ojibwa"/>
+          </designation>
+        </concept>
+        <concept id="18162">
+          <code value="x-POT"/>
+          <display value="Pottawotomi"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Potawatami"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21016">
+        <code value="_SaukFoxKickapoo"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="SaukFoxKickapoo"/>
+        </designation>
+        <concept id="18168">
+          <code value="x-KIC"/>
+          <display value="Kikapu"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Kickapoo"/>
+          </designation>
+        </concept>
+        <concept id="18165">
+          <code value="x-SAC"/>
+          <display value="Sauk-Fox"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Mesquakie"/>
+          </designation>
+        </concept>
+        <concept id="18170">
+          <code value="x-SJW"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Shawnee"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="18133">
+        <code value="x-BLC"/>
+        <display value="Pikanii"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Blackfoot"/>
+        </designation>
+      </concept>
+      <concept id="18153">
+        <code value="x-CHY"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cheyenne"/>
+        </designation>
+      </concept>
+      <concept id="18154">
+        <code value="x-MEZ"/>
+        <display value="Menomini"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Menominee"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21012">
+      <code value="_Ritwan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Ritwan"/>
+      </designation>
+      <concept id="18190">
+        <code value="x-YUR"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Yurok"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="20959">
+    <code value="_Caddoan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Caddoan"/>
+    </designation>
+    <concept id="21000">
+      <code value="_NorthernCaddoan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="NorthernCaddoan"/>
+      </designation>
+      <concept id="18225">
+        <code value="x-ARI"/>
+        <display value="Ris"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Arikara"/>
+        </designation>
+      </concept>
+      <concept id="18231">
+        <code value="x-PAW"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Pawnee"/>
+        </designation>
+      </concept>
+      <concept id="18232">
+        <code value="x-WIC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Wichita"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21023">
+      <code value="_SouthernCaddoan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="SouthernCaddoan"/>
+      </designation>
+      <concept id="18234">
+        <code value="x-CAD"/>
+        <display value="Kadohadacho"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Caddo"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="20966">
+    <code value="_Chimakuan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Chimakuan"/>
+    </designation>
+    <concept id="18239">
+      <code value="x-QUI"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Quileute"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20982">
+    <code value="_EskimoAleut"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="EskimoAleut"/>
+    </designation>
+    <concept id="20951">
+      <code value="_Aleut"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Aleut"/>
+      </designation>
+      <concept id="18222">
+        <code value="x-ALW"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Aleut"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="20983">
+      <code value="_Eskimoan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Eskimoan"/>
+      </designation>
+      <concept id="20986">
+        <code value="_InuitInupiaq"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="InuitInupiaq"/>
+        </designation>
+        <concept id="18211">
+          <code value="x-ESI"/>
+          <display value="North Alaskan Inupiaq"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="North Alaskan Inuktitut"/>
+          </designation>
+        </concept>
+        <concept id="18217">
+          <code value="x-ESK"/>
+          <display value="Seward Peninsula Inupiaq"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Northwest Alaska Inuktitut"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21021">
+        <code value="_SirenikskiYupik"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="SirenikskiYupik"/>
+        </designation>
+        <concept id="18199">
+          <code value="x-EMS"/>
+          <display value="Suk"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Pacific Yupik Gulf"/>
+          </designation>
+        </concept>
+        <concept id="18194">
+          <code value="x-ESS"/>
+          <display value="St. Lawrence Island Eskimo"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Central Siberian Yupik"/>
+          </designation>
+        </concept>
+        <concept id="18196">
+          <code value="x-ESU"/>
+          <display value="West Alaska Eskimo"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Central Alaskan Yupik"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="20984">
+    <code value="_Hokan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Hokan"/>
+    </designation>
+    <concept id="20969">
+      <code value="_CochimiYuman"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CochimiYuman"/>
+      </designation>
+      <concept id="21045">
+        <code value="_Yuman"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Yuman"/>
+        </designation>
+        <concept id="20976">
+          <code value="_DeltaCalifornia"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="DeltaCalifornia"/>
+          </designation>
+          <concept id="20978">
+            <code value="_Diegueno"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Diegueno"/>
+            </designation>
+            <concept id="18293">
+              <code value="x-DIH"/>
+              <display value="Kumi&#xE1;i"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Kumeyaay"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="18298">
+            <code value="x-COC"/>
+            <display value="Kwikapa"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Cocopa"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="21006">
+          <code value="_Pai"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Pai"/>
+          </designation>
+          <concept id="18277">
+            <code value="x-YUF"/>
+            <display value="Yavapai"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Havasupai"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="21013">
+          <code value="_River"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="River"/>
+          </designation>
+          <concept id="18289">
+            <code value="x-MOV"/>
+            <display value="Mojave"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Mohave"/>
+            </designation>
+          </concept>
+          <concept id="18287">
+            <code value="x-MRC"/>
+            <display value="Cocomaricopa"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Maricopa"/>
+            </designation>
+          </concept>
+          <concept id="18283">
+            <code value="x-YUM"/>
+            <display value="Yuma"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Quechan"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21007">
+      <code value="_Palaihnihan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Palaihnihan"/>
+      </designation>
+      <concept id="18249">
+        <code value="x-ACH"/>
+        <display value="Pitt River"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Achumawi"/>
+        </designation>
+      </concept>
+      <concept id="18252">
+        <code value="x-ATW"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Atsugewi"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21011">
+      <code value="_Pomoan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Pomoan"/>
+      </designation>
+      <concept id="18272">
+        <code value="x-KJU"/>
+        <display value="Southwestern Pomo"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Kashaya"/>
+        </designation>
+      </concept>
+      <concept id="18254">
+        <code value="x-PEF"/>
+        <display value="Salt Pomo"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Northeastern Pomo"/>
+        </designation>
+      </concept>
+      <concept id="18256">
+        <code value="x-PEO"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Southeastern Pomo"/>
+        </designation>
+      </concept>
+      <concept id="18270">
+        <code value="x-PEQ"/>
+        <display value="Lower Lake Pomo"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Southern Pomo"/>
+        </designation>
+      </concept>
+      <concept id="18257">
+        <code value="x-POO"/>
+        <display value="Yokaia"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Central Pomo"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21018">
+      <code value="_Shasta"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Shasta"/>
+      </designation>
+      <concept id="18245">
+        <code value="x-SHT"/>
+        <display value="Shastan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Shasta"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="18242">
+      <code value="x-KYH"/>
+      <display value="Karuk"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Karok"/>
+      </designation>
+    </concept>
+    <concept id="18304">
+      <code value="x-WAS"/>
+      <display value="Washo"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Washoe"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20987">
+    <code value="_Iroquoian"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Iroquoian"/>
+    </designation>
+    <concept id="21001">
+      <code value="_NorthernIroquoian"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="NorthernIroquoian"/>
+      </designation>
+      <concept id="18310">
+        <code value="x-CAY"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cayuga"/>
+        </designation>
+      </concept>
+      <concept id="18313">
+        <code value="x-MOH"/>
+        <display value="Kanien&#39;kehaka"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Mohawk"/>
+        </designation>
+      </concept>
+      <concept id="18315">
+        <code value="x-ONE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Oneida"/>
+        </designation>
+      </concept>
+      <concept id="18311">
+        <code value="x-ONO"/>
+        <display value="Onandaga"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Onondaga"/>
+        </designation>
+      </concept>
+      <concept id="18309">
+        <code value="x-SEE"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Seneca"/>
+        </designation>
+      </concept>
+      <concept id="18308">
+        <code value="x-TUS"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Tuscarora"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="18316">
+      <code value="x-CER"/>
+      <display value="Tslagi"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Cherokee"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20989">
+    <code value="_Keresan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Keresan"/>
+    </designation>
+    <concept id="18324">
+      <code value="x-KEE"/>
+      <display value="Eastern Keresan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Rio Grande Keresan"/>
+      </designation>
+    </concept>
+    <concept id="18320">
+      <code value="x-KJQ"/>
+      <display value="Western Keresan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Acoma-Laguna"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20990">
+    <code value="_KiowaTanoan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="KiowaTanoan"/>
+    </designation>
+    <concept id="21031">
+      <code value="_Tiwa"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tiwa"/>
+      </designation>
+      <concept id="18332">
+        <code value="x-TAO"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Northern Tiwa"/>
+        </designation>
+      </concept>
+      <concept id="18333">
+        <code value="x-TIX"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Southern Tiwa"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="18328">
+      <code value="x-KIO"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Kiowa"/>
+      </designation>
+    </concept>
+    <concept id="18334">
+      <code value="x-TEW"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tewa"/>
+      </designation>
+    </concept>
+    <concept id="18329">
+      <code value="x-TOW"/>
+      <display value="Towa"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Jemez"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20997">
+    <code value="_Muskogean"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Muskogean"/>
+    </designation>
+    <concept id="20963">
+      <code value="_CentralMuskogean"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CentralMuskogean"/>
+      </designation>
+      <concept id="18343">
+        <code value="x-AKZ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Alabama"/>
+        </designation>
+      </concept>
+      <concept id="18348">
+        <code value="x-CKU"/>
+        <display value="Coushatta"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Koasati"/>
+        </designation>
+      </concept>
+      <concept id="18344">
+        <code value="x-MIK"/>
+        <display value="Mikasuki Seminole"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Mikasuki"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21040">
+      <code value="_WesternMuskogean"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="WesternMuskogean"/>
+      </designation>
+      <concept id="18341">
+        <code value="x-CCT"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Choctaw"/>
+        </designation>
+      </concept>
+      <concept id="18340">
+        <code value="x-CIC"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Chickasaw"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="18350">
+      <code value="x-CRK"/>
+      <display value="Muskogee"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Creek"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="20998">
+    <code value="_Nadene"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Nadene"/>
+    </designation>
+    <concept id="20958">
+      <code value="_AthapaskanEyak"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="AthapaskanEyak"/>
+      </designation>
+      <concept id="20957">
+        <code value="_Athapaskan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Athapaskan"/>
+        </designation>
+        <concept id="20954">
+          <code value="_Apachean"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Apachean"/>
+          </designation>
+          <concept id="20980">
+            <code value="_EasternApachean"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="EasternApachean"/>
+            </designation>
+            <concept id="18408">
+              <code value="x-APJ"/>
+              <display value="Jicarilla Apache"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Jicarilla"/>
+              </designation>
+            </concept>
+            <concept id="18410">
+              <code value="x-APL"/>
+              <display value="Lipan Apache"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Lipan"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="21038">
+            <code value="_WesternApachean"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="WesternApachean"/>
+            </designation>
+            <concept id="18406">
+              <code value="x-APM"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Mescalero-Chiricahua"/>
+              </designation>
+            </concept>
+            <concept id="18404">
+              <code value="x-APW"/>
+              <display value="Coyotero"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Western Apache"/>
+              </designation>
+            </concept>
+            <concept id="18401">
+              <code value="x-NAV"/>
+              <display value="Navajo"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Dine"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="18412">
+            <code value="x-APK"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Kiowa Apache"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="20962">
+          <code value="_CentralAlaskaYukon"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="CentralAlaskaYukon"/>
+          </designation>
+          <concept id="20991">
+            <code value="_KoyukonIngalik"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="KoyukonIngalik"/>
+            </designation>
+            <concept id="18368">
+              <code value="x-HOI"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Holikachuk"/>
+              </designation>
+            </concept>
+            <concept id="18367">
+              <code value="x-ING"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Degexit&#39;an"/>
+              </designation>
+            </concept>
+            <concept id="18369">
+              <code value="x-KOY"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Koyukon"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="20992">
+            <code value="_KutchinHan"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="KutchinHan"/>
+            </designation>
+            <concept id="18382">
+              <code value="x-HAA"/>
+              <display value="Moosehide"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Han"/>
+              </designation>
+            </concept>
+            <concept id="18380">
+              <code value="x-KUC"/>
+              <display value="Gwich&#39;in"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Kutchin"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="21028">
+            <code value="_TananaTutchone"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="TananaTutchone"/>
+            </designation>
+            <concept id="21027">
+              <code value="_Tanana"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Tanana"/>
+              </designation>
+              <concept id="18375">
+                <code value="x-TAA"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Lower Tanana"/>
+                </designation>
+              </concept>
+              <concept id="18377">
+                <code value="x-TAU"/>
+                <display value="Nabesna"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Upper Tanana"/>
+                </designation>
+              </concept>
+              <concept id="18376">
+                <code value="x-TCB"/>
+                <designation>
+                  <use>
+                    <system value="http://something...?"/>
+                    <code value="deprecated alias"/>
+                  </use>
+                  <value value="Tanacross"/>
+                </designation>
+              </concept>
+            </concept>
+            <concept id="18372">
+              <code value="x-KUU"/>
+              <display value="Mcgrath Ingalik"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Upper Kuskokwim"/>
+              </designation>
+            </concept>
+          </concept>
+        </concept>
+        <concept id="21005">
+          <code value="_PacificCoastAthapaskan"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="PacificCoastAthapaskan"/>
+          </designation>
+          <concept id="20961">
+            <code value="_CaliforniaAthapaskan"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="CaliforniaAthapaskan"/>
+            </designation>
+            <concept id="18392">
+              <code value="x-HUP"/>
+              <display value="Hoopa"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Hupa"/>
+              </designation>
+            </concept>
+            <concept id="18394">
+              <code value="x-KTW"/>
+              <display value="Tlokeang"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Cahto"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="21004">
+            <code value="_OregonAthapaskan"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="OregonAthapaskan"/>
+            </designation>
+            <concept id="18389">
+              <code value="x-TOL"/>
+              <display value="Smith River"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Tolowa"/>
+              </designation>
+            </concept>
+            <concept id="18388">
+              <code value="x-TUU"/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="Tututni"/>
+              </designation>
+            </concept>
+          </concept>
+        </concept>
+        <concept id="21022">
+          <code value="_SouthernAlaska"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="SouthernAlaska"/>
+          </designation>
+          <concept id="18360">
+            <code value="x-AHT"/>
+            <display value="Copper River"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Ahtna"/>
+            </designation>
+          </concept>
+          <concept id="18364">
+            <code value="x-TFN"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Tanaina"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="18357">
+        <code value="x-EYA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Eyak"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="18353">
+      <code value="x-TLI"/>
+      <display value="Tlinkit"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tlingit"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21008">
+    <code value="_Penutian"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Penutian"/>
+    </designation>
+    <concept id="20967">
+      <code value="_Chinookan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Chinookan"/>
+      </designation>
+      <concept id="21034">
+        <code value="_UpperChinook"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="UpperChinook"/>
+        </designation>
+        <concept id="18416">
+          <code value="x-WAC"/>
+          <display value="Wasco-Wishram"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Kiksht"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="20970">
+      <code value="_Coosan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Coosan"/>
+      </designation>
+      <concept id="18422">
+        <code value="x-COS"/>
+        <display value="Coos"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Hanis"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="20993">
+      <code value="_Maiduan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Maiduan"/>
+      </designation>
+      <concept id="18438">
+        <code value="x-MAI"/>
+        <display value="Yuba"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Northwest Maidu"/>
+        </designation>
+      </concept>
+      <concept id="18436">
+        <code value="x-NMU"/>
+        <display value="Mountain Maidu"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Northeast Maidu"/>
+        </designation>
+      </concept>
+      <concept id="18452">
+        <code value="x-NSZ"/>
+        <display value="Wapumni"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Nisenan"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21010">
+      <code value="_PlateauPenutian"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="PlateauPenutian"/>
+      </designation>
+      <concept id="21014">
+        <code value="_Sahaptian"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Sahaptian"/>
+        </designation>
+        <concept id="18503">
+          <code value="x-UMA"/>
+          <display value="Columbia River Sahaptin"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Umatilla"/>
+          </designation>
+        </concept>
+        <concept id="18505">
+          <code value="x-WAA"/>
+          <display value="Northeast Sahaptin"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Walla Walla"/>
+          </designation>
+        </concept>
+        <concept id="18501">
+          <code value="x-WAR"/>
+          <display value="Warm Springs"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Tenino"/>
+          </designation>
+        </concept>
+        <concept id="18507">
+          <code value="x-YAK"/>
+          <display value="Yakima And Klikitat"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Yakima"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="18499">
+        <code value="x-KLA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Klamath-Modoc"/>
+        </designation>
+      </concept>
+      <concept id="18510">
+        <code value="x-NEZ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Nez Perce"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21025">
+      <code value="_Takelman"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Takelman"/>
+      </designation>
+      <concept id="20988">
+        <code value="_Kalapuyan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Kalapuyan"/>
+        </designation>
+        <concept id="18426">
+          <code value="x-KAL"/>
+          <display value="Wapatu"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Central Kalapuyan"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21033">
+      <code value="_Tsimshianic"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tsimshianic"/>
+      </designation>
+      <concept id="18512">
+        <code value="x-TSI"/>
+        <display value="Zimshian"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Coast Tsimshain"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21035">
+      <code value="_Utian"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Utian"/>
+      </designation>
+      <concept id="20996">
+        <code value="_Miwokan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Miwokan"/>
+        </designation>
+        <concept id="20981">
+          <code value="_EasternMiwok"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="EasternMiwok"/>
+          </designation>
+          <concept id="18467">
+            <code value="x-CSM"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Central Sierra Miwok"/>
+            </designation>
+          </concept>
+          <concept id="18466">
+            <code value="x-NSQ"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Northern Sierra Miwok"/>
+            </designation>
+          </concept>
+          <concept id="18464">
+            <code value="x-PMW"/>
+            <display value="Valley Miwok"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Plains Miwok"/>
+            </designation>
+          </concept>
+          <concept id="18468">
+            <code value="x-SKD"/>
+            <display value="Talutui"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Southern Sierra Miwok"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="21039">
+          <code value="_WesternMiwok"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="WesternMiwok"/>
+          </designation>
+          <concept id="18461">
+            <code value="x-CSI"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Coast Miwok"/>
+            </designation>
+          </concept>
+          <concept id="18462">
+            <code value="x-LMW"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Lake Miwok"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21042">
+      <code value="_Wintuan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wintuan"/>
+      </designation>
+      <concept id="18432">
+        <code value="x-WIT"/>
+        <display value="Wintun"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Wintu-Nomlaki"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21043">
+      <code value="_Yokutsan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Yokutsan"/>
+      </designation>
+      <concept id="18489">
+        <code value="x-ENH"/>
+        <display value="Kocheyali"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Kings River"/>
+        </designation>
+      </concept>
+      <concept id="18480">
+        <code value="x-GSH"/>
+        <display value="Goshowi"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Gashowu"/>
+        </designation>
+      </concept>
+      <concept id="18495">
+        <code value="x-PYL"/>
+        <display value="Paleuyami"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Poso Creek"/>
+        </designation>
+      </concept>
+      <concept id="18483">
+        <code value="x-TKH"/>
+        <display value="Yokod"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Tule-Kaweah"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="21009">
+    <code value="_Pidgin"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Pidgin"/>
+    </designation>
+    <concept id="18519">
+      <code value="x-CHH"/>
+      <display value="Tshinuk Wawa"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Chinook Wawa"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21015">
+    <code value="_Salishan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Salishan"/>
+    </designation>
+    <concept id="20965">
+      <code value="_CentralSalish"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="CentralSalish"/>
+      </designation>
+      <concept id="18528">
+        <code value="x-CLM"/>
+        <display value="S&#39;klallam"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Clallam"/>
+        </designation>
+      </concept>
+      <concept id="18532">
+        <code value="x-LUT"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Lushootseed"/>
+        </designation>
+      </concept>
+      <concept id="18525">
+        <code value="x-STR"/>
+        <display value="Straits Salish"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Northern Straits"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="20985">
+      <code value="_InteriorSalish"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="InteriorSalish"/>
+      </designation>
+      <concept id="18545">
+        <code value="x-COL"/>
+        <display value="Wenatchee-Columbia"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Columbian"/>
+        </designation>
+      </concept>
+      <concept id="18544">
+        <code value="x-CRD"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Coeur D&#39;alene"/>
+        </designation>
+      </concept>
+      <concept id="18541">
+        <code value="x-FLA"/>
+        <display value="Kalispel-Flathead"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Kalispel"/>
+        </designation>
+      </concept>
+      <concept id="18548">
+        <code value="x-OKA"/>
+        <display value="Okanogan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Okanagan"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="21032">
+      <code value="_Tsamosan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tsamosan"/>
+      </designation>
+      <concept id="18535">
+        <code value="x-CEA"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Lower Chehalis"/>
+        </designation>
+      </concept>
+      <concept id="18536">
+        <code value="x-CJH"/>
+        <display value="Chehalis"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Upper Chehalis"/>
+        </designation>
+      </concept>
+      <concept id="18538">
+        <code value="x-COW"/>
+        <display value="Lower Cowlitz"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cowlitz"/>
+        </designation>
+      </concept>
+      <concept id="18534">
+        <code value="x-QUN"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Quinault"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="21020">
+    <code value="_SiouanCatawba"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="SiouanCatawba"/>
+    </designation>
+    <concept id="21019">
+      <code value="_Siouan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Siouan"/>
+      </designation>
+      <concept id="20994">
+        <code value="_MississippiValley"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="MississippiValley"/>
+        </designation>
+        <concept id="20968">
+          <code value="_ChiwereWinnebago"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="ChiwereWinnebago"/>
+          </designation>
+          <concept id="18594">
+            <code value="x-IOW"/>
+            <display value="Iowa-Otoe"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Chiwere"/>
+            </designation>
+          </concept>
+          <concept id="18597">
+            <code value="x-WIN"/>
+            <display value="Winnebago"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Hocak"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="20974">
+          <code value="_Dakotan"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Dakotan"/>
+          </designation>
+          <concept id="18577">
+            <code value="x-ASB"/>
+            <display value="Hohe"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Assiniboine"/>
+            </designation>
+          </concept>
+          <concept id="18568">
+            <code value="x-DHG"/>
+            <display value="Sioux"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Dakota"/>
+            </designation>
+          </concept>
+          <concept id="18564">
+            <code value="x-LKT"/>
+            <display value="Lakhota"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Lakota"/>
+            </designation>
+          </concept>
+          <concept id="18573">
+            <code value="x-NKT"/>
+            <display value="Yankton-Yanktonais"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Nakota"/>
+            </designation>
+          </concept>
+        </concept>
+        <concept id="20977">
+          <code value="_Dhegiha"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Dhegiha"/>
+          </designation>
+          <concept id="18584">
+            <code value="x-KAA"/>
+            <display value="Konze"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Kansa"/>
+            </designation>
+          </concept>
+          <concept id="18581">
+            <code value="x-OMA"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Omaha-Ponca"/>
+            </designation>
+          </concept>
+          <concept id="18582">
+            <code value="x-OSA"/>
+            <display value="Wazhazhe"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Osage"/>
+            </designation>
+          </concept>
+          <concept id="18588">
+            <code value="x-QUA"/>
+            <display value="Ogaxpa"/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="Quapaw"/>
+            </designation>
+          </concept>
+        </concept>
+      </concept>
+      <concept id="20995">
+        <code value="_MissouriRiver"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="MissouriRiver"/>
+        </designation>
+        <concept id="18559">
+          <code value="x-CRO"/>
+          <display value="Apsaaloke"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Crow"/>
+          </designation>
+        </concept>
+        <concept id="18555">
+          <code value="x-HID"/>
+          <display value="Minitari"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Hidatsa"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="18561">
+        <code value="x-MHQ"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Mandan"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="21036">
+    <code value="_UtoAztecan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="UtoAztecan"/>
+    </designation>
+    <concept id="21002">
+      <code value="_Numic"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Numic"/>
+      </designation>
+      <concept id="20964">
+        <code value="_CentralNumic"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="CentralNumic"/>
+        </designation>
+        <concept id="18616">
+          <code value="x-COM"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Comanche"/>
+          </designation>
+        </concept>
+        <concept id="18612">
+          <code value="x-PAR"/>
+          <display value="Koso"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Panamint"/>
+          </designation>
+        </concept>
+        <concept id="18614">
+          <code value="x-SHH"/>
+          <display value="Shoshoni"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Shoshone"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21024">
+        <code value="_SouthernNumic"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="SouthernNumic"/>
+        </designation>
+        <concept id="18618">
+          <code value="x-KAW"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Kawaiisu"/>
+          </designation>
+        </concept>
+        <concept id="18619">
+          <code value="x-UTE"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Ute-Southern Paiute"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21041">
+        <code value="_WesternNumic"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="WesternNumic"/>
+        </designation>
+        <concept id="18608">
+          <code value="x-MON"/>
+          <display value="Paviotso"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Mono"/>
+          </designation>
+        </concept>
+        <concept id="18609">
+          <code value="x-PAO"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Northern Paiute-Bannock"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21026">
+      <code value="_Takic"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Takic"/>
+      </designation>
+      <concept id="20973">
+        <code value="_Cupan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cupan"/>
+        </designation>
+        <concept id="18625">
+          <code value="x-CHL"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Cahuilla"/>
+          </designation>
+        </concept>
+        <concept id="18626">
+          <code value="x-CUP"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Cupeno"/>
+          </designation>
+        </concept>
+        <concept id="18627">
+          <code value="x-LUI"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Luiseno"/>
+          </designation>
+        </concept>
+      </concept>
+      <concept id="21017">
+        <code value="_SerranoGabrielino"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="SerranoGabrielino"/>
+        </designation>
+        <concept id="18623">
+          <code value="x-SER"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Serrano"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21029">
+      <code value="_Taracahitan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Taracahitan"/>
+      </designation>
+      <concept id="20960">
+        <code value="_Cahitan"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Cahitan"/>
+        </designation>
+        <concept id="18638">
+          <code value="x-YAQ"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="Yaqui"/>
+          </designation>
+        </concept>
+      </concept>
+    </concept>
+    <concept id="21030">
+      <code value="_Tepiman"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tepiman"/>
+      </designation>
+      <concept id="18630">
+        <code value="x-PAP"/>
+        <display value="Upper Piman"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Papago-Pima"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="18628">
+      <code value="x-HOP"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Hopi"/>
+      </designation>
+    </concept>
+    <concept id="18620">
+      <code value="x-TUB"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Tubatululabal"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="21037">
+    <code value="_Wakashan"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Wakashan"/>
+    </designation>
+    <concept id="20999">
+      <code value="_Nootkan"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Nootkan"/>
+      </designation>
+      <concept id="18643">
+        <code value="x-MYH"/>
+        <display value="Kwe-Nee-Chee-Aht"/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Makah"/>
+        </designation>
+      </concept>
+    </concept>
+  </concept>
+  <concept id="21044">
+    <code value="_Yukian"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Yukian"/>
+    </designation>
+    <concept id="18648">
+      <code value="x-WAO"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Wappo"/>
+      </designation>
+    </concept>
+    <concept id="18647">
+      <code value="x-YUK"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="Yuki"/>
+      </designation>
+    </concept>
+  </concept>
+  <concept id="18240">
+    <code value="x-HAI"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Haida"/>
+    </designation>
+  </concept>
+  <concept id="18335">
+    <code value="x-KUN"/>
+    <display value="Kutenai"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Kootenai"/>
+    </designation>
+  </concept>
+  <concept id="18651">
+    <code value="x-PSD"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Plains Indian Sign Language"/>
+    </designation>
+  </concept>
+  <concept id="18639">
+    <code value="x-YUC"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Yuchi"/>
+    </designation>
+  </concept>
+  <concept id="18649">
+    <code value="x-ZUN"/>
+    <display value="Zu&#xF1;i"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Zuni"/>
+    </designation>
+  </concept>
+</CodeSystem>

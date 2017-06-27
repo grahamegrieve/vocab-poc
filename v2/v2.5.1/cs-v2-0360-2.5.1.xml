@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0360-2.5.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0360-2.5.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.220"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0360v2.5.1"/>
+  <title value="V2 Table: Degree/License/Certificate"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0360 (Degree/License/Certificate)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0360-2.5.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="PN"/>
+    <display value="Advanced Practice Nurse"/>
+    <definition value="Advanced Practice Nurse"/>
+  </concept>
+  <concept>
+    <code value="AAS"/>
+    <display value="Associate of Applied Science"/>
+    <definition value="Associate of Applied Science"/>
+  </concept>
+  <concept>
+    <code value="AA"/>
+    <display value="Associate of Arts"/>
+    <definition value="Associate of Arts"/>
+  </concept>
+  <concept>
+    <code value="ABA"/>
+    <display value="Associate of Business Administration"/>
+    <definition value="Associate of Business Administration"/>
+  </concept>
+  <concept>
+    <code value="AE"/>
+    <display value="Associate of Engineering"/>
+    <definition value="Associate of Engineering"/>
+  </concept>
+  <concept>
+    <code value="AS"/>
+    <display value="Associate of Science"/>
+    <definition value="Associate of Science"/>
+  </concept>
+  <concept>
+    <code value="BA"/>
+    <display value="Bachelor of Arts"/>
+    <definition value="Bachelor of Arts"/>
+  </concept>
+  <concept>
+    <code value="BBA"/>
+    <display value="Bachelor of Business Administration"/>
+    <definition value="Bachelor of Business Administration"/>
+  </concept>
+  <concept>
+    <code value="BE"/>
+    <display value="Bachelor or Engineering"/>
+    <definition value="Bachelor or Engineering"/>
+  </concept>
+  <concept>
+    <code value="BFA"/>
+    <display value="Bachelor of Fine Arts"/>
+    <definition value="Bachelor of Fine Arts"/>
+  </concept>
+  <concept>
+    <code value="BN"/>
+    <display value="Bachelor of Nursing"/>
+    <definition value="Bachelor of Nursing"/>
+  </concept>
+  <concept>
+    <code value="BS"/>
+    <display value="Bachelor of Science"/>
+    <definition value="Bachelor of Science"/>
+  </concept>
+  <concept>
+    <code value="BSL"/>
+    <display value="Bachelor of Science - Law"/>
+    <definition value="Bachelor of Science - Law"/>
+  </concept>
+  <concept>
+    <code value="BSN"/>
+    <display value="Bachelor on Science - Nursing"/>
+    <definition value="Bachelor on Science - Nursing"/>
+  </concept>
+  <concept>
+    <code value="BT"/>
+    <display value="Bachelor of Theology"/>
+    <definition value="Bachelor of Theology"/>
+  </concept>
+  <concept>
+    <code value="CER"/>
+    <display value="Certificate"/>
+    <definition value="Certificate"/>
+  </concept>
+  <concept>
+    <code value="CANP"/>
+    <display value="Certified Adult Nurse Practitioner"/>
+    <definition value="Certified Adult Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <code value="CMA"/>
+    <display value="Certified Medical Assistant"/>
+    <definition value="Certified Medical Assistant"/>
+  </concept>
+  <concept>
+    <code value="CNP"/>
+    <display value="Certified Nurse Practitioner"/>
+    <definition value="Certified Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <code value="CNM"/>
+    <display value="Certified Nurse Midwife"/>
+    <definition value="Certified Nurse Midwife"/>
+  </concept>
+  <concept>
+    <code value="CRN"/>
+    <display value="Certified Registered Nurse"/>
+    <definition value="Certified Registered Nurse"/>
+  </concept>
+  <concept>
+    <code value="CNS"/>
+    <display value="Certified Nurse Specialist"/>
+    <definition value="Certified Nurse Specialist"/>
+  </concept>
+  <concept>
+    <code value="CPNP"/>
+    <display value="Certified Pediatric Nurse Practitioner"/>
+    <definition value="Certified Pediatric Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <code value="DIP"/>
+    <display value="Diploma"/>
+    <definition value="Diploma"/>
+  </concept>
+  <concept>
+    <code value="DBA"/>
+    <display value="Doctor of Business Administration"/>
+    <definition value="Doctor of Business Administration"/>
+  </concept>
+  <concept>
+    <code value="DED"/>
+    <display value="Doctor of Education"/>
+    <definition value="Doctor of Education"/>
+  </concept>
+  <concept>
+    <code value="PharmD"/>
+    <display value="Doctor of Pharmacy"/>
+    <definition value="Doctor of Pharmacy"/>
+  </concept>
+  <concept>
+    <code value="PHE"/>
+    <display value="Doctor of Engineering"/>
+    <definition value="Doctor of Engineering"/>
+  </concept>
+  <concept>
+    <code value="PHD"/>
+    <display value="Doctor of Philosophy"/>
+    <definition value="Doctor of Philosophy"/>
+  </concept>
+  <concept>
+    <code value="PHS"/>
+    <display value="Doctor of Science"/>
+    <definition value="Doctor of Science"/>
+  </concept>
+  <concept>
+    <code value="MD"/>
+    <display value="Doctor of Medicine"/>
+    <definition value="Doctor of Medicine"/>
+  </concept>
+  <concept>
+    <code value="DO"/>
+    <display value="Doctor of Osteopathy"/>
+    <definition value="Doctor of Osteopathy"/>
+  </concept>
+  <concept>
+    <code value="EMT"/>
+    <display value="Emergency Medical Technician"/>
+    <definition value="Emergency Medical Technician"/>
+  </concept>
+  <concept>
+    <code value="EMTP"/>
+    <display value="Emergency Medical Technician - Paramedic"/>
+    <definition value="Emergency Medical Technician - Paramedic"/>
+  </concept>
+  <concept>
+    <code value="FPNP"/>
+    <display value="Family Practice Nurse Practitioner"/>
+    <definition value="Family Practice Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <code value="HS"/>
+    <display value="High School Graduate"/>
+    <definition value="High School Graduate"/>
+  </concept>
+  <concept>
+    <code value="JD"/>
+    <display value="Juris Doctor"/>
+    <definition value="Juris Doctor"/>
+  </concept>
+  <concept>
+    <code value="MA"/>
+    <display value="Master of Arts"/>
+    <definition value="Master of Arts"/>
+  </concept>
+  <concept>
+    <code value="MBA"/>
+    <display value="Master of Business Administration"/>
+    <definition value="Master of Business Administration"/>
+  </concept>
+  <concept>
+    <code value="MCE"/>
+    <display value="Master of Civil Engineering"/>
+    <definition value="Master of Civil Engineering"/>
+  </concept>
+  <concept>
+    <code value="MDI"/>
+    <display value="Master of Divinity"/>
+    <definition value="Master of Divinity"/>
+  </concept>
+  <concept>
+    <code value="MED"/>
+    <display value="Master of Education"/>
+    <definition value="Master of Education"/>
+  </concept>
+  <concept>
+    <code value="MEE"/>
+    <display value="Master of Electrical Engineering"/>
+    <definition value="Master of Electrical Engineering"/>
+  </concept>
+  <concept>
+    <code value="ME"/>
+    <display value="Master of Engineering"/>
+    <definition value="Master of Engineering"/>
+  </concept>
+  <concept>
+    <code value="MFA"/>
+    <display value="Master of Fine Arts"/>
+    <definition value="Master of Fine Arts"/>
+  </concept>
+  <concept>
+    <code value="MME"/>
+    <display value="Master of Mechanical Engineering"/>
+    <definition value="Master of Mechanical Engineering"/>
+  </concept>
+  <concept>
+    <code value="MS"/>
+    <display value="Master of Science"/>
+    <definition value="Master of Science"/>
+  </concept>
+  <concept>
+    <code value="MSL"/>
+    <display value="Master of Science - Law"/>
+    <definition value="Master of Science - Law"/>
+  </concept>
+  <concept>
+    <code value="MSN"/>
+    <display value="Master of Science - Nursing"/>
+    <definition value="Master of Science - Nursing"/>
+  </concept>
+  <concept>
+    <code value="MT"/>
+    <display value="Master of Theology"/>
+    <definition value="Master of Theology"/>
+  </concept>
+  <concept>
+    <code value="MDA"/>
+    <display value="Medical Assistant"/>
+    <definition value="Medical Assistant"/>
+  </concept>
+  <concept>
+    <code value="NG"/>
+    <display value="Non-Graduate"/>
+    <definition value="Non-Graduate"/>
+  </concept>
+  <concept>
+    <code value="NP"/>
+    <display value="Nurse Practitioner"/>
+    <definition value="Nurse Practitioner"/>
+  </concept>
+  <concept>
+    <code value="PA"/>
+    <display value="Physician Assistant"/>
+    <definition value="Physician Assistant"/>
+  </concept>
+  <concept>
+    <code value="RMA"/>
+    <display value="Registered Medical Assistant"/>
+    <definition value="Registered Medical Assistant"/>
+  </concept>
+  <concept>
+    <code value="RPH"/>
+    <display value="Registered Pharmacist"/>
+    <definition value="Registered Pharmacist"/>
+  </concept>
+  <concept>
+    <code value="SEC"/>
+    <display value="Secretarial Certificate"/>
+    <definition value="Secretarial Certificate"/>
+  </concept>
+  <concept>
+    <code value="TS"/>
+    <display value="Trade School Graduate"/>
+    <definition value="Trade School Graduate"/>
+  </concept>
+</CodeSystem>

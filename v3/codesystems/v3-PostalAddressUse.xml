@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-PostalAddressUse"/>
+  <language value="en"/>
+  <text>
+    <text xmlns="http://www.w3.org/1999/xhtml">
+                  
+      <p>
+                     
+        <i>Deprecation Comment: </i>This code system was deprecated as of the November 2007 harmonization meeting. The content was folded into AddressUse (2.16.840.1.113883.5.1119), which replaces this code system.
+      </p>
+               
+    </text>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
+    <valueString value="620-20081216"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/v3-PostalAddressUse"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.5.1012"/>
+  </identifier>
+  <name value="PostalAddressUse"/>
+  <title value="PostalAddressUse"/>
+  <status value="retired"/>
+  <date value="2016-11-11"/>
+  <publisher value="Health Level 7"/>
+  <contact>
+    <name value="Health Level Seven"/>
+  </contact>
+  <description value="  Deprecation Comment:&#xD;&#xA;This code system was deprecated as of the November 2007 harmonization meeting. The content was folded into AddressUse (2.16.840.1.113883.5.1119), which replaces this code system."/>
+  <content value="complete"/>
+  <property>
+    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-mandatory">
+      <valueBoolean value="false"/>
+    </extension>
+    <code value="status"/>
+    <description value="Designation of a concept&#39;s state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <concept id="21112">
+    <code value="_AddressUse"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="AddressUse"/>
+    </designation>
+    <concept id="10641">
+      <code value="BAD"/>
+      <definition value=" A flag indicating that the address is bad, in fact, useless."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="bad address"/>
+      </designation>
+    </concept>
+    <concept id="10628">
+      <code value="H"/>
+      <definition value=" A communication address at a home, attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call.  Typically used with urgent cases, or if no other contacts are available."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="home address"/>
+      </designation>
+      <concept id="10629">
+        <code value="HP"/>
+        <definition value=" The primary home, to reach a person after business hours."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="primary home"/>
+        </designation>
+      </concept>
+      <concept id="10630">
+        <code value="HV"/>
+        <definition value=" A vacation home, to reach a person while on vacation."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="vacation home"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="10640">
+      <code value="TMP"/>
+      <definition value=" A temporary address, may be good for visit or mailing.  Note that an address history can provide more detailed information."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="temporary address"/>
+      </designation>
+    </concept>
+    <concept id="10631">
+      <code value="WP"/>
+      <definition value=" An office address.  First choice for business related contacts during business hours."/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="work place"/>
+      </designation>
+      <concept id="21426">
+        <code value="DIR"/>
+        <definition value=" Indicates a work place address or telecommunication address that reaches the individual or organization directly without intermediaries. For phones, often referred to as a &#39;private line&#39;."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Direct"/>
+        </designation>
+      </concept>
+      <concept id="21427">
+        <code value="PUB"/>
+        <definition value=" Indicates a work place address or telecommunication address that is a &#39;standard&#39; address which may reach a reception service, mail-room, or other intermediary prior to the target entity."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="Public"/>
+        </designation>
+      </concept>
+    </concept>
+    <concept id="12211">
+      <code value="BIR"/>
+      <designation>
+        <use>
+          <system value="http://something...?"/>
+          <code value="deprecated alias"/>
+        </use>
+        <value value="birthplace"/>
+      </designation>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+    </concept>
+  </concept>
+  <concept id="10638">
+    <code value="PHYS"/>
+    <definition value=" Used primarily to visit an address."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="physical visit address"/>
+    </designation>
+  </concept>
+  <concept id="10639">
+    <code value="PST"/>
+    <definition value=" Used to send mail."/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="postal address"/>
+    </designation>
+  </concept>
+</CodeSystem>

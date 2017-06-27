@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0211-2.3"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0211-2.3"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.116"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0211v2.3"/>
+  <title value="V2 Table: Alternate Character Sets"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0211 (Alternate Character Sets)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0211-2.3"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="8859/1"/>
+    <display value="The printable characters from the ISO 8859/1 Character set"/>
+    <definition value="The printable characters from the ISO 8859/1 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/2"/>
+    <display value="The printable characters from the ISO 8859/2 Character set"/>
+    <definition value="The printable characters from the ISO 8859/2 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/3"/>
+    <display value="The printable characters from the ISO 8859/3 Character set"/>
+    <definition value="The printable characters from the ISO 8859/3 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/4"/>
+    <display value="The printable characters from the ISO 8859/4 Character set"/>
+    <definition value="The printable characters from the ISO 8859/4 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/5"/>
+    <display value="The printable characters from the ISO 8859/5 Character set"/>
+    <definition value="The printable characters from the ISO 8859/5 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/6"/>
+    <display value="The printable characters from the ISO 8859/6 Character set"/>
+    <definition value="The printable characters from the ISO 8859/6 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/7"/>
+    <display value="The printable characters from the ISO 8859/7 Character set"/>
+    <definition value="The printable characters from the ISO 8859/7 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/8"/>
+    <display value="The printable characters from the ISO 8859/8 Character set"/>
+    <definition value="The printable characters from the ISO 8859/8 Character set"/>
+  </concept>
+  <concept>
+    <code value="8859/9"/>
+    <display value="The printable characters from the ISO 8859/9 Character set"/>
+    <definition value="The printable characters from the ISO 8859/9 Character set"/>
+  </concept>
+  <concept>
+    <code value="ASCII"/>
+    <display value="The printable 7-bit ASCII character set . (This is the default if this field is omitted)"/>
+    <definition value="The printable 7-bit ASCII character set . (This is the default if this field is omitted)"/>
+  </concept>
+  <concept>
+    <code value="JAS2020"/>
+    <display value="A subset of ISO2020 used for most Kanjii transmissions"/>
+    <definition value="A subset of ISO2020 used for most Kanjii transmissions"/>
+  </concept>
+  <concept>
+    <code value="JIS X 0202"/>
+    <display value="ISO 2022 with escape sequences for Kanjii"/>
+    <definition value="ISO 2022 with escape sequences for Kanjii"/>
+  </concept>
+  <concept>
+    <code value="UNICODE"/>
+    <display value="&lt;needs document reference&gt;"/>
+    <definition value="&lt;needs document reference&gt;"/>
+  </concept>
+</CodeSystem>

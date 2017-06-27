@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0339-2.8.1"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0339-2.8.1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.209"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0339v2.8.1"/>
+  <title value="V2 Table: Advanced Beneficiary Notice Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2016-03-11"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0339 (Advanced Beneficiary Notice Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0339-2.8.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Service is subject to medical necessity procedures"/>
+    <definition value="Service is subject to medical necessity procedures"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Patient has been informed of responsibility, and agrees to pay for service"/>
+    <definition value="Patient has been informed of responsibility, and agrees to pay for service"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Patient has been informed of responsibility, and asks that the payer be billed"/>
+    <definition value="Patient has been informed of responsibility, and asks that the payer be billed"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Advanced Beneficiary Notice has not been signed"/>
+    <definition value="Advanced Beneficiary Notice has not been signed"/>
+  </concept>
+</CodeSystem>
