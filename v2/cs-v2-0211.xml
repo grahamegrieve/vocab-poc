@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0211"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.211"/>
+    <value value="urn:oid:2.16.840.1.113883.18.116"/>
   </identifier>
+  <version value="5"/>
   <name value="V2Table0211"/>
   <title value="V2 Table: Alternate Character Sets"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:41+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -34,9 +35,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
       <valueString value="2.9"/>
     </extension>
-    <code value="JIS X 0202"/>
-    <display value="ISO 2022 with escape sequences for Kanjii"/>
-    <definition value="ISO 2022 with escape sequences for Kanjii"/>
+    <code value="JAS2020"/>
+    <display value="A subset of ISO2020 used for most Kanjii transmissions"/>
+    <definition value="A subset of ISO2020 used for most Kanjii transmissions"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -45,9 +46,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
       <valueString value="2.9"/>
     </extension>
-    <code value="JAS2020"/>
-    <display value="A subset of ISO2020 used for most Kanjii transmissions"/>
-    <definition value="A subset of ISO2020 used for most Kanjii transmissions"/>
+    <code value="JIS X 0202"/>
+    <display value="ISO 2022 with escape sequences for Kanjii"/>
+    <definition value="ISO 2022 with escape sequences for Kanjii"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">

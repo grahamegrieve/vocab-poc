@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0912"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.912"/>
+    <value value="urn:oid:2.16.840.1.113883.18.420"/>
   </identifier>
+  <version value="2"/>
   <name value="V2Table0912"/>
   <title value="V2 Table: Participation"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:55+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -27,6 +28,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="AAP"/>
+    <display value="Alert Acknowledging Provider"/>
+    <definition value="Alert Acknowledging Provider"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.8"/>
+    </extension>
+    <code value="AC"/>
+    <display value="Administration Cosigner"/>
+    <definition value="Administration Cosigner"/>
+  </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="PV1-17 Admitting doctor"/>
@@ -78,14 +95,14 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="ORC-19 Action By"/>
+      <valueString value="Replaces ORC-19 Action By"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.7"/>
     </extension>
     <code value="AUT"/>
-    <display value="AUT Author/Event Initiator"/>
-    <definition value="AUT Author/Event Initiator"/>
+    <display value="Author/Event Initiator"/>
+    <definition value="Author/Event Initiator"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -108,14 +125,14 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="ORC-10 Entered By"/>
+      <valueString value="Replaces ORC-10 Entered By"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.7"/>
     </extension>
     <code value="EP"/>
-    <display value="Entering Provider (probably not the same as transcriptionist)"/>
-    <definition value="Entering Provider (probably not the same as transcriptionist)"/>
+    <display value="Entering Person"/>
+    <definition value="Entering Person"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -176,14 +193,14 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="RXE-14 Pharmacist/Treatment Supplier&#39;s Verifier ID"/>
+      <valueString value="Replaces RXE-14 Pharmacist/Treatment Supplier&#39;s Verifier ID"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.7"/>
     </extension>
     <code value="PH"/>
-    <display value="Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
-    <definition value="Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier&#39;s Verifier ID)"/>
+    <display value="Pharmacist"/>
+    <definition value="Pharmacist"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -216,6 +233,14 @@
     <code value="PP"/>
     <display value="Primary Care Provider"/>
     <definition value="Primary Care Provider"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="PPH"/>
+    <display value="Patient Preferred Pharmacy"/>
+    <definition value="Patient Preferred Pharmacy"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -300,14 +325,14 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="ORC-11 Verified By"/>
+      <valueString value="Replaces ORC-11 Verified By"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.7"/>
     </extension>
     <code value="VP"/>
-    <display value="Verifying Provider"/>
-    <definition value="Verifying Provider"/>
+    <display value="Verifier (Verifying Person)"/>
+    <definition value="Verifier (Verifying Person)"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">

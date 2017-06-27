@@ -7,11 +7,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.12.227"/>
   </identifier>
+  <version value="ext"/>
   <name value="V2Table0227"/>
   <title value="V2 Table: Manufacturers of Vaccines (code=MVX)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:42+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -34,6 +35,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="AB"/>
     <display value="Abbott Laboratories"/>
     <definition value="Abbott Laboratories"/>
@@ -42,6 +46,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="AD"/>
     <display value="Adams Laboratories, Inc."/>
     <definition value="Adams Laboratories, Inc."/>
@@ -49,6 +56,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="ALP"/>
     <display value="Alpha Therapeutic Corporation"/>
@@ -61,6 +71,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="AR"/>
     <display value="Armour"/>
     <definition value="Armour"/>
@@ -72,6 +85,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="AVB"/>
     <display value="Aventis Behring L.L.C."/>
     <definition value="Aventis Behring L.L.C."/>
@@ -79,6 +95,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="AVI"/>
     <display value="Aviron"/>
@@ -91,6 +110,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="BA"/>
     <display value="Baxter Healthcare Corporation"/>
     <definition value="Baxter Healthcare Corporation"/>
@@ -101,6 +123,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="BAH"/>
     <display value="Baxter Healthcare Corporation"/>
@@ -113,6 +138,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="BAY"/>
     <display value="Bayer Corporation"/>
     <definition value="Bayer Corporation"/>
@@ -123,6 +151,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="BP"/>
     <display value="Berna Products"/>
@@ -135,6 +166,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="BPC"/>
     <display value="Berna Products Corporation"/>
     <definition value="Berna Products Corporation"/>
@@ -145,6 +179,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="MIP"/>
     <display value="Bioport Corporation"/>
@@ -157,6 +194,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="CNJ"/>
     <display value="Cangene Corporation"/>
     <definition value="Cangene Corporation"/>
@@ -167,6 +207,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="CMP"/>
     <display value="Celltech Medeva Pharmaceuticals"/>
@@ -179,6 +222,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="CEN"/>
     <display value="Centeon L.L.C."/>
     <definition value="Centeon L.L.C."/>
@@ -189,6 +235,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="CHI"/>
     <display value="Chiron Corporation"/>
@@ -201,6 +250,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="CON"/>
     <display value="Connaught"/>
     <definition value="Connaught"/>
@@ -211,6 +263,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="DVC"/>
     <display value="DynPort Vaccine Company, LLC"/>
@@ -223,6 +278,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="EVN"/>
     <display value="Evans Medical Limited"/>
     <definition value="Evans Medical Limited"/>
@@ -233,6 +291,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="GEO"/>
     <display value="GeoVax Labs, Inc."/>
@@ -245,6 +306,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="SKB"/>
     <display value="GlaxoSmithKline"/>
     <definition value="GlaxoSmithKline"/>
@@ -252,6 +316,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="GRE"/>
     <display value="Greer Laboratories, Inc."/>
@@ -264,6 +331,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="IAG"/>
     <display value="Immuno International AG"/>
     <definition value="Immuno International AG"/>
@@ -272,6 +342,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="IUS"/>
     <display value="Immuno-U.S., Inc."/>
     <definition value="Immuno-U.S., Inc."/>
@@ -279,6 +352,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="KGC"/>
     <display value="Korea Green Cross Corporation"/>
@@ -291,6 +367,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="LED"/>
     <display value="Lederle"/>
     <definition value="Lederle"/>
@@ -301,6 +380,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="MBL"/>
     <display value="Massachusetts Biologic Laboratories"/>
@@ -313,6 +395,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="MA"/>
     <display value="Massachusetts Public Health Biologic Laboratories"/>
     <definition value="Massachusetts Public Health Biologic Laboratories"/>
@@ -321,6 +406,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="MED"/>
     <display value="MedImmune, Inc."/>
     <definition value="MedImmune, Inc."/>
@@ -328,6 +416,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="MSD"/>
     <display value="Merck &amp; Co., Inc."/>
@@ -340,6 +431,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="IM"/>
     <display value="Merieux"/>
     <definition value="Merieux"/>
@@ -350,6 +444,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="MIL"/>
     <display value="Miles"/>
@@ -362,6 +459,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="NAB"/>
     <display value="NABI"/>
     <definition value="NABI"/>
@@ -369,6 +469,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="NYB"/>
     <display value="New York Blood Center"/>
@@ -381,6 +484,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="NAV"/>
     <display value="North American Vaccine, Inc."/>
     <definition value="North American Vaccine, Inc."/>
@@ -391,6 +497,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="NOV"/>
     <display value="Novartis Pharmaceutical Corporation"/>
@@ -403,6 +512,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="NVX"/>
     <display value="Novavax, Inc."/>
     <definition value="Novavax, Inc."/>
@@ -410,6 +522,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="OTC"/>
     <display value="Organon Teknika Corporation"/>
@@ -422,6 +537,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="ORT"/>
     <display value="Ortho-Clinical Diagnostics"/>
     <definition value="Ortho-Clinical Diagnostics"/>
@@ -432,6 +550,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="PD"/>
     <display value="Parkedale Pharmaceuticals"/>
@@ -444,6 +565,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="PWJ"/>
     <display value="PowderJect Pharmaceuticals"/>
     <definition value="PowderJect Pharmaceuticals"/>
@@ -454,6 +578,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="PRX"/>
     <display value="Praxis Biologics"/>
@@ -466,6 +593,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="PMC"/>
     <display value="sanofi pasteur"/>
     <definition value="sanofi pasteur"/>
@@ -477,6 +607,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="JPN"/>
     <display value="The Research Foundation for Microbial Diseases of Osaka University"/>
     <definition value="The Research Foundation for Microbial Diseases of Osaka University"/>
@@ -484,6 +617,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="SCL"/>
     <display value="Sclavo, Inc."/>
@@ -496,6 +632,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="SOL"/>
     <display value="Solvay Pharmaceuticals"/>
     <definition value="Solvay Pharmaceuticals"/>
@@ -506,6 +645,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="SI"/>
     <display value="Swiss Serum and Vaccine Inst."/>
@@ -518,6 +660,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="TAL"/>
     <display value="Talecris Biotherapeutics"/>
     <definition value="Talecris Biotherapeutics"/>
@@ -525,6 +670,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="USA"/>
     <display value="United States Army Medical Research and Material Command"/>
@@ -537,6 +685,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="VXG"/>
     <display value="VaxGen"/>
     <definition value="VaxGen"/>
@@ -547,6 +698,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="WA"/>
     <display value="Wyeth-Ayerst"/>
@@ -559,6 +713,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="WAL"/>
     <display value="Wyeth-Ayerst"/>
     <definition value="Wyeth-Ayerst"/>
@@ -570,6 +727,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="ZLB"/>
     <display value="ZLB Behring"/>
     <definition value="ZLB Behring"/>
@@ -578,6 +738,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="OTH"/>
     <display value="Other manufacturer"/>
     <definition value="Other manufacturer"/>
@@ -585,6 +748,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="UNK"/>
     <display value="Unknown manufacturer"/>

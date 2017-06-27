@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0164"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0164"/>
+  <version value="1"/>
   <name value="V2Table0164VersionMaster"/>
   <title value="V2 Table 0164 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:38+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,42 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0164"/>
-      <concept>
-        <code value="AP"/>
-        <display value="Applicator"/>
-      </concept>
-      <concept>
-        <code value="BT"/>
-        <display value="Buretrol"/>
-      </concept>
-      <concept>
-        <code value="HL"/>
-        <display value="Heparin Lock"/>
-      </concept>
-      <concept>
-        <code value="IPPB"/>
-        <display value="IPPB"/>
-      </concept>
-      <concept>
-        <code value="IVP"/>
-        <display value="IV Pump"/>
-      </concept>
-      <concept>
-        <code value="IVS"/>
-        <display value="IV Soluset"/>
-      </concept>
-      <concept>
-        <code value="MI"/>
-        <display value="Metered Inhaler"/>
-      </concept>
-      <concept>
-        <code value="NEB"/>
-        <display value="Nebulizer"/>
-      </concept>
-      <concept>
-        <code value="PCA"/>
-        <display value="PCA Pump"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

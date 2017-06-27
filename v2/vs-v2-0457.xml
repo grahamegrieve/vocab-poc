@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0457"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0457"/>
+  <version value="1"/>
   <name value="V2Table0457VersionMaster"/>
   <title value="V2 Table 0457 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:50+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,26 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0457"/>
-      <concept>
-        <code value="0"/>
-        <display value="No edits present on claim"/>
-      </concept>
-      <concept>
-        <code value="1"/>
-        <display value="Only edits present are for line item denial or rejection"/>
-      </concept>
-      <concept>
-        <code value="2"/>
-        <display value="Multiple-day claim with one or more days denied or rejected"/>
-      </concept>
-      <concept>
-        <code value="3"/>
-        <display value="Claim denied, rejected, suspended or returned to provider with only post payment edits"/>
-      </concept>
-      <concept>
-        <code value="4"/>
-        <display value="Claim denied, rejected, suspended or returned to provider with only pre payment edits"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

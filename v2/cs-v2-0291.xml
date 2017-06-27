@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0291"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.291"/>
+    <value value="urn:oid:2.16.840.1.113883.18.181"/>
   </identifier>
+  <version value="4"/>
   <name value="V2Table0291"/>
   <title value="V2 Table: Subtype of Referenced Data"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:44+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -31,17 +32,31 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
-    <code value="PICT"/>
-    <display value="PICT format image data"/>
-    <definition value="PICT format image data"/>
-  </concept>
-  <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.3"/>
-    </extension>
     <code value="BASIC"/>
     <display value="ISDN PCM audio data"/>
     <definition value="ISDN PCM audio data"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="..."/>
+    <display value="Source RFC 2046"/>
+    <definition value="Source RFC 2046"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.7.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="&#x2026;"/>
+    <display value="Source RFC 2046"/>
+    <definition value="Source RFC 2046"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -71,6 +86,14 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <code value="HTML"/>
+    <display value="Hypertext Markup Language"/>
+    <definition value="Hypertext Markup Language"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
     <code value="JOT"/>
     <display value="Electronic ink data (Jot 1.0 standard)"/>
     <definition value="Electronic ink data (Jot 1.0 standard)"/>
@@ -87,9 +110,17 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
-    <code value="TIFF"/>
-    <display value="TIFF image data"/>
-    <definition value="TIFF image data"/>
+    <code value="Octet-stream"/>
+    <display value="Uninterpreted binary data"/>
+    <definition value="Uninterpreted binary data"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="PICT"/>
+    <display value="PICT format image data"/>
+    <definition value="PICT format image data"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
@@ -109,22 +140,6 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.3"/>
-    </extension>
-    <code value="Octet-stream"/>
-    <display value="Uninterpreted binary data"/>
-    <definition value="Uninterpreted binary data"/>
-  </concept>
-  <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.3"/>
-    </extension>
-    <code value="HTML"/>
-    <display value="Hypertext Markup Language"/>
-    <definition value="Hypertext Markup Language"/>
-  </concept>
-  <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
     <code value="SGML"/>
@@ -133,33 +148,19 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="TIFF"/>
+    <display value="TIFF image data"/>
+    <definition value="TIFF image data"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
     <code value="XML"/>
     <display value="Extensible Markup Language (HL7 V2.3.1 and later)"/>
     <definition value="Extensible Markup Language (HL7 V2.3.1 and later)"/>
-  </concept>
-  <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.6"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
-      <valueString value="2.9"/>
-    </extension>
-    <code value="..."/>
-    <display value="Source RFC 2046"/>
-    <definition value="Source RFC 2046"/>
-  </concept>
-  <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.7.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
-      <valueString value="2.9"/>
-    </extension>
-    <code value="&#x2026;"/>
-    <display value="Source RFC 2046"/>
-    <definition value="Source RFC 2046"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">

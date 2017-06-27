@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0536"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0536"/>
+  <version value="1"/>
   <name value="V2Table0536VersionMaster"/>
   <title value="V2 Table 0536 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:53+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,26 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0536"/>
-      <concept>
-        <code value="P"/>
-        <display value="Provisional"/>
-      </concept>
-      <concept>
-        <code value="R"/>
-        <display value="Revoked"/>
-      </concept>
-      <concept>
-        <code value="V"/>
-        <display value="Active/Valid"/>
-      </concept>
-      <concept>
-        <code value="E"/>
-        <display value="Expired"/>
-      </concept>
-      <concept>
-        <code value="I"/>
-        <display value="Inactive"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

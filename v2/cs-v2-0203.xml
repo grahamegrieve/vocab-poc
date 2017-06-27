@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0203"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.203"/>
+    <value value="urn:oid:2.16.840.1.113883.18.108"/>
   </identifier>
+  <version value="8"/>
   <name value="V2Table0203"/>
   <title value="V2 Table: Identifier Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:41+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -699,7 +700,7 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="Class: Insurance&lt;p&gt;In the US, the Assigning Authority for this value is typically CMS, but it may be used by all providers and insurance companies in HIPAA related transactions."/>
+      <valueString value="Class: Insurance&#xD;&#xA;In the US, the Assigning Authority for this value is typically CMS, but it may be used by all providers and insurance companies in HIPAA related transactions."/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
@@ -710,7 +711,7 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="Class: Insurance&lt;p&gt;In Germany a national identifier for an insurance company. It is printed on the insurance card (health card). It is not to be confused with the health card number itself.&lt;p&gt;Krankenkassen-ID der KV-Karte"/>
+      <valueString value="Class: Insurance&#xD;&#xA;In Germany a national identifier for an insurance company. It is printed on the insurance card (health card). It is not to be confused with the health card number itself.&lt;p&gt;Krankenkassen-ID der KV-Karte"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
@@ -721,7 +722,7 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="Class: Insurance&lt;p&gt;In Germany the insurance identifier addressed as the payor.&lt;p&gt;Krankenkassen-ID des Rechnungsempf&#xE4;ngers&lt;p&gt;Use case: a subdivision issues the card with their identifier, but the main division is going to pay the invoices."/>
+      <valueString value="Class: Insurance&#xD;&#xA;In Germany the insurance identifier addressed as the payor.&lt;p&gt;Krankenkassen-ID des Rechnungsempf&#xE4;ngers&lt;p&gt;Use case: a subdivision issues the card with their identifier, but the main division is going to pay the invoices."/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
@@ -751,7 +752,7 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
-      <valueString value="Class: Insurance&lt;p&gt;In the US, the Assigning Authority for this value is typically CMS, but it may be used by all providers and insurance companies in HIPAA related transactions."/>
+      <valueString value="Class: Insurance&#xD;&#xA;In the US, the Assigning Authority for this value is typically CMS, but it may be used by all providers and insurance companies in HIPAA related transactions."/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
@@ -1091,6 +1092,14 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.9"/>
     </extension>
+    <code value="TRL"/>
+    <display value="Training License Number"/>
+    <definition value="Training License Number"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
     <code value="UDI"/>
     <display value="Universal Device Identifier"/>
     <definition value="Universal Device Identifier"/>
@@ -1115,14 +1124,6 @@
     <definition value="Medicare/CMS (formerly HCFA)&#39;s Universal Physician Identification numbers"/>
   </concept>
   <concept>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.3"/>
-    </extension>
-    <code value="VN"/>
-    <display value="Visit number"/>
-    <definition value="Visit number"/>
-  </concept>
-  <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A unique identifier for a specimen."/>
     </extension>
@@ -1132,6 +1133,14 @@
     <code value="USID"/>
     <display value="Unique Specimen ID"/>
     <definition value="Unique Specimen ID"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3"/>
+    </extension>
+    <code value="VN"/>
+    <display value="Visit number"/>
+    <definition value="Visit number"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1181,6 +1190,14 @@
     <code value="WP"/>
     <display value="Work Permit"/>
     <definition value="Work Permit"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="XV"/>
+    <display value="Health Plan Identifier"/>
+    <definition value="Health Plan Identifier"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">

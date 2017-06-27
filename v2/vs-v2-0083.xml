@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0083"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0083"/>
+  <version value="1"/>
   <name value="V2Table0083VersionMaster"/>
   <title value="V2 Table 0083 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:34+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,14 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0083"/>
-      <concept>
-        <code value="D"/>
-        <display value="Outlier days"/>
-      </concept>
-      <concept>
-        <code value="C"/>
-        <display value="Outlier cost"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

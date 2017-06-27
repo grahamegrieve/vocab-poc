@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0234"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0234"/>
+  <version value="1"/>
   <name value="V2Table0234VersionMaster"/>
   <title value="V2 Table 0234 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:42+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,46 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0234"/>
-      <concept>
-        <code value="CO"/>
-        <display value="Correction"/>
-      </concept>
-      <concept>
-        <code value="AD"/>
-        <display value="Additional information"/>
-      </concept>
-      <concept>
-        <code value="RQ"/>
-        <display value="Requested information"/>
-      </concept>
-      <concept>
-        <code value="DE"/>
-        <display value="Device evaluation"/>
-      </concept>
-      <concept>
-        <code value="PD"/>
-        <display value="Periodic"/>
-      </concept>
-      <concept>
-        <code value="3D"/>
-        <display value="3 day report"/>
-      </concept>
-      <concept>
-        <code value="7D"/>
-        <display value="7 day report"/>
-      </concept>
-      <concept>
-        <code value="10D"/>
-        <display value="10 day report"/>
-      </concept>
-      <concept>
-        <code value="15D"/>
-        <display value="15 day report"/>
-      </concept>
-      <concept>
-        <code value="30D"/>
-        <display value="30 day report"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

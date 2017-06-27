@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0004"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0004"/>
+  <version value="3"/>
   <name value="V2Table0004VersionMaster"/>
   <title value="V2 Table 0004 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:32+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,42 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0004"/>
-      <concept>
-        <code value="E"/>
-        <display value="Emergency"/>
-      </concept>
-      <concept>
-        <code value="I"/>
-        <display value="Inpatient"/>
-      </concept>
-      <concept>
-        <code value="O"/>
-        <display value="Outpatient"/>
-      </concept>
-      <concept>
-        <code value="P"/>
-        <display value="Preadmit"/>
-      </concept>
-      <concept>
-        <code value="R"/>
-        <display value="Recurring patient"/>
-      </concept>
-      <concept>
-        <code value="B"/>
-        <display value="Obstetrics"/>
-      </concept>
-      <concept>
-        <code value="C"/>
-        <display value="Commercial Account"/>
-      </concept>
-      <concept>
-        <code value="N"/>
-        <display value="Not Applicable"/>
-      </concept>
-      <concept>
-        <code value="U"/>
-        <display value="Unknown"/>
-      </concept>
+      <version value="3"/>
     </include>
   </compose>
 </ValueSet>

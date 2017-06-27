@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0425"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0425"/>
+  <version value="1"/>
   <name value="V2Table0425VersionMaster"/>
   <title value="V2 Table 0425 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:49+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,26 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0425"/>
-      <concept>
-        <code value="5"/>
-        <display value="Born at home"/>
-      </concept>
-      <concept>
-        <code value="3"/>
-        <display value="Born en route"/>
-      </concept>
-      <concept>
-        <code value="1"/>
-        <display value="Born in facility"/>
-      </concept>
-      <concept>
-        <code value="4"/>
-        <display value="Other"/>
-      </concept>
-      <concept>
-        <code value="2"/>
-        <display value="Transfer in"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

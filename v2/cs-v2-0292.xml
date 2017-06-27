@@ -7,11 +7,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.12.292"/>
   </identifier>
+  <version value="ext"/>
   <name value="V2Table0292"/>
-  <title value="V2 Table: Vaccines Administered (code = CVX) (parenteral, un"/>
+  <title value="V2 Table: Vaccines Administered"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:44+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -19,7 +20,7 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0292 (Vaccines Administered (code = CVX) (parenteral, un)"/>
+  <description value="Underlying Code System for V2 table 0292 (Vaccines Administered)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="false"/>
   <valueSet value="http://hl7.org/fhir/ValueSet/v2-0292"/>
@@ -34,6 +35,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="54"/>
     <display value="adenovirus, type 4"/>
     <definition value="adenovirus, type 4"/>
@@ -44,6 +48,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="55"/>
     <display value="adenovirus, type 7"/>
@@ -56,6 +63,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="82"/>
     <display value="adenovirus, NOS1"/>
     <definition value="adenovirus, NOS1"/>
@@ -66,6 +76,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="24"/>
     <display value="anthrax"/>
@@ -78,6 +91,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="19"/>
     <display value="BCG"/>
     <definition value="BCG"/>
@@ -88,6 +104,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="27"/>
     <display value="botulinum antitoxin"/>
@@ -100,6 +119,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="26"/>
     <display value="cholera"/>
     <definition value="cholera"/>
@@ -110,6 +132,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="29"/>
     <display value="CMVIG"/>
@@ -122,6 +147,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="56"/>
     <display value="dengue fever"/>
     <definition value="dengue fever"/>
@@ -132,6 +160,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="12"/>
     <display value="diphtheria antitoxin"/>
@@ -144,6 +175,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="28"/>
     <display value="DT (pediatric)"/>
     <definition value="DT (pediatric)"/>
@@ -154,6 +188,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="20"/>
     <display value="DTaP"/>
@@ -166,6 +203,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="106"/>
     <display value="DTaP, 5 pertussis antigens6"/>
     <definition value="DTaP, 5 pertussis antigens6"/>
@@ -176,6 +216,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="107"/>
     <display value="DTaP, NOS"/>
@@ -188,6 +231,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="110"/>
     <display value="DTaP-Hep B-IPV"/>
     <definition value="DTaP-Hep B-IPV"/>
@@ -198,6 +244,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="50"/>
     <display value="DTaP-Hib"/>
@@ -210,6 +259,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="120"/>
     <display value="DTaP-Hib-IPV"/>
     <definition value="DTaP-Hib-IPV"/>
@@ -220,6 +272,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="01"/>
     <display value="DTP"/>
@@ -232,6 +287,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="22"/>
     <display value="DTP-Hib"/>
     <definition value="DTP-Hib"/>
@@ -242,6 +300,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="102"/>
     <display value="DTP-Hib-Hep B"/>
@@ -254,6 +315,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="57"/>
     <display value="hantavirus"/>
     <definition value="hantavirus"/>
@@ -264,6 +328,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="52"/>
     <display value="Hep A, adult"/>
@@ -276,6 +343,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="83"/>
     <display value="Hep A, ped/adol, 2 dose"/>
     <definition value="Hep A, ped/adol, 2 dose"/>
@@ -286,6 +356,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="84"/>
     <display value="Hep A, ped/adol, 3 dose"/>
@@ -298,6 +371,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="31"/>
     <display value="Hep A, pediatric, NOS"/>
     <definition value="Hep A, pediatric, NOS"/>
@@ -308,6 +384,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="85"/>
     <display value="Hep A, NOS"/>
@@ -320,6 +399,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="104"/>
     <display value="Hep A-Hep B"/>
     <definition value="Hep A-Hep B"/>
@@ -330,6 +412,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="30"/>
     <display value="HBIG"/>
@@ -342,6 +427,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="08"/>
     <display value="Hep B, adolescent or pediatric"/>
     <definition value="Hep B, adolescent or pediatric"/>
@@ -352,6 +440,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="42"/>
     <display value="Hep B, adolescent/high risk infant2"/>
@@ -364,6 +455,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="43"/>
     <display value="Hep B, adult4"/>
     <definition value="Hep B, adult4"/>
@@ -374,6 +468,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="44"/>
     <display value="Hep B, dialysis"/>
@@ -386,6 +483,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="45"/>
     <display value="Hep B, NOS"/>
     <definition value="Hep B, NOS"/>
@@ -396,6 +496,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="58"/>
     <display value="Hep C"/>
@@ -408,6 +511,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="59"/>
     <display value="Hep E"/>
     <definition value="Hep E"/>
@@ -418,6 +524,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="60"/>
     <display value="herpes simplex 2"/>
@@ -430,6 +539,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="46"/>
     <display value="Hib (PRP-D)"/>
     <definition value="Hib (PRP-D)"/>
@@ -440,6 +552,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="47"/>
     <display value="Hib (HbOC)"/>
@@ -452,6 +567,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="48"/>
     <display value="Hib (PRP-T)"/>
     <definition value="Hib (PRP-T)"/>
@@ -462,6 +580,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="49"/>
     <display value="Hib (PRP-OMP)"/>
@@ -474,6 +595,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="17"/>
     <display value="Hib, NOS"/>
     <definition value="Hib, NOS"/>
@@ -484,6 +608,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="51"/>
     <display value="Hib-Hep B"/>
@@ -496,6 +623,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="61"/>
     <display value="HIV"/>
     <definition value="HIV"/>
@@ -506,6 +636,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="118"/>
     <display value="HPV, bivalent"/>
@@ -518,6 +651,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="62"/>
     <display value="HPV, quadrivalent"/>
     <definition value="HPV, quadrivalent"/>
@@ -528,6 +664,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="86"/>
     <display value="IG"/>
@@ -540,6 +679,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="87"/>
     <display value="IGIV"/>
     <definition value="IGIV"/>
@@ -550,6 +692,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="14"/>
     <display value="IG, NOS"/>
@@ -562,6 +707,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="111"/>
     <display value="influenza, live, intranasal"/>
     <definition value="influenza, live, intranasal"/>
@@ -572,6 +720,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="15"/>
     <display value="influenza, split (incl. purified surface antigen)"/>
@@ -584,6 +735,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="16"/>
     <display value="influenza, whole"/>
     <definition value="influenza, whole"/>
@@ -594,6 +748,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="88"/>
     <display value="influenza, NOS"/>
@@ -606,6 +763,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="10"/>
     <display value="IPV"/>
     <definition value="IPV"/>
@@ -616,6 +776,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="02"/>
     <display value="OPV"/>
@@ -628,6 +791,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="89"/>
     <display value="polio, NOS"/>
     <definition value="polio, NOS"/>
@@ -638,6 +804,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="39"/>
     <display value="Japanese encephalitis"/>
@@ -650,6 +819,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="63"/>
     <display value="Junin virus"/>
     <definition value="Junin virus"/>
@@ -660,6 +832,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="64"/>
     <display value="leishmaniasis"/>
@@ -672,6 +847,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="65"/>
     <display value="leprosy"/>
     <definition value="leprosy"/>
@@ -682,6 +860,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="66"/>
     <display value="Lyme disease"/>
@@ -694,6 +875,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="03"/>
     <display value="MMR"/>
     <definition value="MMR"/>
@@ -704,6 +888,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="04"/>
     <display value="M/R"/>
@@ -716,6 +903,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="94"/>
     <display value="MMRV"/>
     <definition value="MMRV"/>
@@ -726,6 +916,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="67"/>
     <display value="malaria"/>
@@ -738,6 +931,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="05"/>
     <display value="measles"/>
     <definition value="measles"/>
@@ -748,6 +944,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="68"/>
     <display value="melanoma"/>
@@ -760,6 +959,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="32"/>
     <display value="meningococcal"/>
     <definition value="meningococcal"/>
@@ -770,6 +972,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="103"/>
     <display value="meningococcal C conjugate"/>
@@ -782,6 +987,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="114"/>
     <display value="meningococcal A,C,Y,W-135 diphtheria conjugate"/>
     <definition value="meningococcal A,C,Y,W-135 diphtheria conjugate"/>
@@ -792,6 +1000,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="108"/>
     <display value="meningococcal, NOS"/>
@@ -804,6 +1015,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="07"/>
     <display value="mumps"/>
     <definition value="mumps"/>
@@ -814,6 +1028,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="69"/>
     <display value="parainfluenza-3"/>
@@ -826,6 +1043,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="11"/>
     <display value="pertussis"/>
     <definition value="pertussis"/>
@@ -836,6 +1056,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="23"/>
     <display value="plague"/>
@@ -848,6 +1071,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="33"/>
     <display value="pneumococcal"/>
     <definition value="pneumococcal"/>
@@ -858,6 +1084,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="100"/>
     <display value="pneumococcal conjugate"/>
@@ -870,6 +1099,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="109"/>
     <display value="pneumococcal, NOS"/>
     <definition value="pneumococcal, NOS"/>
@@ -880,6 +1112,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="70"/>
     <display value="Q fever"/>
@@ -892,6 +1127,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="18"/>
     <display value="rabies, intramuscular injection"/>
     <definition value="rabies, intramuscular injection"/>
@@ -902,6 +1140,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="40"/>
     <display value="rabies, intradermal injection"/>
@@ -914,6 +1155,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="90"/>
     <display value="rabies, NOS"/>
     <definition value="rabies, NOS"/>
@@ -924,6 +1168,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="72"/>
     <display value="rheumatic fever"/>
@@ -936,6 +1183,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="73"/>
     <display value="Rift Valley fever"/>
     <definition value="Rift Valley fever"/>
@@ -946,6 +1196,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="34"/>
     <display value="RIG"/>
@@ -958,6 +1211,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="119"/>
     <display value="rotavirus, monovalent"/>
     <definition value="rotavirus, monovalent"/>
@@ -968,6 +1224,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="122"/>
     <display value="rotavirus, NOS1"/>
@@ -980,6 +1239,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="116"/>
     <display value="rotavirus, pentavalent"/>
     <definition value="rotavirus, pentavalent"/>
@@ -990,6 +1252,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="74"/>
     <display value="rotavirus, tetravalent"/>
@@ -1002,6 +1267,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="71"/>
     <display value="RSV-IGIV"/>
     <definition value="RSV-IGIV"/>
@@ -1012,6 +1280,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="93"/>
     <display value="RSV-MAb"/>
@@ -1024,6 +1295,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="06"/>
     <display value="rubella"/>
     <definition value="rubella"/>
@@ -1034,6 +1308,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="38"/>
     <display value="rubella/mumps"/>
@@ -1046,6 +1323,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="76"/>
     <display value="Staphylococcus bacterio lysate"/>
     <definition value="Staphylococcus bacterio lysate"/>
@@ -1056,6 +1336,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="113"/>
     <display value="Td (adult)"/>
@@ -1068,6 +1351,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="09"/>
     <display value="Td (adult)"/>
     <definition value="Td (adult)"/>
@@ -1078,6 +1364,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="115"/>
     <display value="Tdap"/>
@@ -1090,6 +1379,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="35"/>
     <display value="tetanus toxoid"/>
     <definition value="tetanus toxoid"/>
@@ -1100,6 +1392,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="112"/>
     <display value="tetanus toxoid, NOS"/>
@@ -1112,6 +1407,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="77"/>
     <display value="tick-borne encephalitis"/>
     <definition value="tick-borne encephalitis"/>
@@ -1122,6 +1420,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="13"/>
     <display value="TIG"/>
@@ -1134,6 +1435,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="95"/>
     <display value="TST-OT tine test"/>
     <definition value="TST-OT tine test"/>
@@ -1144,6 +1448,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="96"/>
     <display value="TST-PPD intradermal"/>
@@ -1156,6 +1463,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="97"/>
     <display value="TST-PPD tine test"/>
     <definition value="TST-PPD tine test"/>
@@ -1166,6 +1476,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="98"/>
     <display value="TST, NOS"/>
@@ -1178,6 +1491,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="78"/>
     <display value="tularemia vaccine"/>
     <definition value="tularemia vaccine"/>
@@ -1188,6 +1504,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="91"/>
     <display value="typhoid, NOS"/>
@@ -1200,6 +1519,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="25"/>
     <display value="typhoid, oral"/>
     <definition value="typhoid, oral"/>
@@ -1210,6 +1532,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="41"/>
     <display value="typhoid, parenteral"/>
@@ -1222,6 +1547,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="53"/>
     <display value="typhoid, parenteral, AKD (U.S. military)"/>
     <definition value="typhoid, parenteral, AKD (U.S. military)"/>
@@ -1232,6 +1560,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="101"/>
     <display value="typhoid, ViCPs"/>
@@ -1244,6 +1575,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="75"/>
     <display value="vaccinia (smallpox)"/>
     <definition value="vaccinia (smallpox)"/>
@@ -1254,6 +1588,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="105"/>
     <display value="vaccinia (smallpox) diluted"/>
@@ -1266,6 +1603,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="79"/>
     <display value="vaccinia immune globulin"/>
     <definition value="vaccinia immune globulin"/>
@@ -1276,6 +1616,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="21"/>
     <display value="varicella"/>
@@ -1288,6 +1631,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="81"/>
     <display value="VEE, inactivated"/>
     <definition value="VEE, inactivated"/>
@@ -1298,6 +1644,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="80"/>
     <display value="VEE, live"/>
@@ -1310,6 +1659,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3.1"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="92"/>
     <display value="VEE, NOS"/>
     <definition value="VEE, NOS"/>
@@ -1320,6 +1672,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="36"/>
     <display value="VZIG"/>
@@ -1332,6 +1687,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="117"/>
     <display value="VZIG (IND)"/>
     <definition value="VZIG (IND)"/>
@@ -1342,6 +1700,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.3"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="37"/>
     <display value="yellow fever"/>
@@ -1354,6 +1715,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="121"/>
     <display value="zoster"/>
     <definition value="zoster"/>
@@ -1364,6 +1728,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="998"/>
     <display value="no vaccine administered5"/>
@@ -1376,6 +1743,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="999"/>
     <display value="unknown"/>
     <definition value="unknown"/>
@@ -1386,6 +1756,9 @@
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.4"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="99"/>
     <display value="RESERVED - do not use3"/>

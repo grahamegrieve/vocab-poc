@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0905"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0905"/>
+  <version value="1"/>
   <name value="V2Table0905VersionMaster"/>
   <title value="V2 Table 0905 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:55+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,30 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0905"/>
-      <concept>
-        <code value="ONH"/>
-        <display value="On Hold"/>
-      </concept>
-      <concept>
-        <code value="INV"/>
-        <display value="Inventoried"/>
-      </concept>
-      <concept>
-        <code value="PRC"/>
-        <display value="Processing"/>
-      </concept>
-      <concept>
-        <code value="REJ"/>
-        <display value="Rejected"/>
-      </concept>
-      <concept>
-        <code value="TTL"/>
-        <display value="Triaged to Lab"/>
-      </concept>
-      <concept>
-        <code value="TRN"/>
-        <display value="In Transit"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

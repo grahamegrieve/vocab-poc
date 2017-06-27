@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0158"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0158"/>
+  <version value="1"/>
   <name value="V2Table0158VersionMaster"/>
   <title value="V2 Table 0158 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:38+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,22 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0158"/>
-      <concept>
-        <code value="1ST"/>
-        <display value="First value within range"/>
-      </concept>
-      <concept>
-        <code value="ALL"/>
-        <display value="All values within the range"/>
-      </concept>
-      <concept>
-        <code value="LST"/>
-        <display value="Last value within the range"/>
-      </concept>
-      <concept>
-        <code value="REV"/>
-        <display value="All values within the range returned in reverse chronological order (This is the default if not otherwise specified.)"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

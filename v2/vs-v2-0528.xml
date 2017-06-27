@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0528"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0528"/>
+  <version value="1"/>
   <name value="V2Table0528VersionMaster"/>
   <title value="V2 Table 0528 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:52+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,58 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0528"/>
-      <concept>
-        <code value="HS"/>
-        <display value="the hour of sleep (e.g., H18-22)"/>
-      </concept>
-      <concept>
-        <code value="AC"/>
-        <display value="before meal (from lat. ante cibus)"/>
-      </concept>
-      <concept>
-        <code value="PC"/>
-        <display value="after meal (from lat. post cibus)"/>
-      </concept>
-      <concept>
-        <code value="IC"/>
-        <display value="between meals (from lat. inter cibus)"/>
-      </concept>
-      <concept>
-        <code value="ACM"/>
-        <display value="before breakfast (from lat. ante cibus matutinus)"/>
-      </concept>
-      <concept>
-        <code value="ACD"/>
-        <display value="before lunch (from lat. ante cibus diurnus)"/>
-      </concept>
-      <concept>
-        <code value="ACV"/>
-        <display value="before dinner (from lat. ante cibus vespertinus)"/>
-      </concept>
-      <concept>
-        <code value="PCM"/>
-        <display value="after breakfast (from lat. post cibus matutinus)"/>
-      </concept>
-      <concept>
-        <code value="PCD"/>
-        <display value="after lunch (from lat. post cibus diurnus)"/>
-      </concept>
-      <concept>
-        <code value="PCV"/>
-        <display value="after dinner (from lat. post cibus vespertinus)"/>
-      </concept>
-      <concept>
-        <code value="ICM"/>
-        <display value="between breakfast and lunch"/>
-      </concept>
-      <concept>
-        <code value="ICD"/>
-        <display value="between lunch and dinner"/>
-      </concept>
-      <concept>
-        <code value="ICV"/>
-        <display value="between dinner and the hour of sleep"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

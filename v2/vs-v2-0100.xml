@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0100"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0100"/>
+  <version value="1"/>
   <name value="V2Table0100VersionMaster"/>
   <title value="V2 Table 0100 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:34+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,26 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0100"/>
-      <concept>
-        <code value="D"/>
-        <display value="On discharge"/>
-      </concept>
-      <concept>
-        <code value="O"/>
-        <display value="On receipt of order"/>
-      </concept>
-      <concept>
-        <code value="R"/>
-        <display value="At time service is completed"/>
-      </concept>
-      <concept>
-        <code value="S"/>
-        <display value="At time service is started"/>
-      </concept>
-      <concept>
-        <code value="T"/>
-        <display value="At a designated date/time"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

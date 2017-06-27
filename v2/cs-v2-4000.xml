@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-4000"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-4000"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.436"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table4000"/>
+  <title value="V2 Table: Name/address representation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 4000 (Name/address representation)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-4000"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="I"/>
+    <display value="Ideographic (i.e., Kanji)"/>
+    <definition value="Ideographic (i.e., Kanji)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="A"/>
+    <display value="Alphabetic (i.e., Default or some single-byte)"/>
+    <definition value="Alphabetic (i.e., Default or some single-byte)"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.3.1"/>
+    </extension>
+    <code value="P"/>
+    <display value="Phonetic (i.e., ASCII, Katakana, Hiragana, etc.)"/>
+    <definition value="Phonetic (i.e., ASCII, Katakana, Hiragana, etc.)"/>
+  </concept>
+</CodeSystem>

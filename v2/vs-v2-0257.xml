@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0257"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0257"/>
+  <version value="1"/>
   <name value="V2Table0257VersionMaster"/>
   <title value="V2 Table 0257 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:43+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,18 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0257"/>
-      <concept>
-        <code value="CFST"/>
-        <display value="Fasting (no calorie intake) for the period specified in the time component of the term, e.g., 1H POST CFST"/>
-      </concept>
-      <concept>
-        <code value="EXCZ"/>
-        <display value="Exercise undertaken as challenge (can be quantified)"/>
-      </concept>
-      <concept>
-        <code value="FFST"/>
-        <display value="No fluid intake for the period specified in the time component of the term"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

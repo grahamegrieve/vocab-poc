@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0470"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0470"/>
+  <version value="1"/>
   <name value="V2Table0470VersionMaster"/>
   <title value="V2 Table 0470 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:50+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -15,51 +16,12 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="V2 Table 0470 Version Master (- Reimbursement Type Code)"/>
+  <description value="V2 Table 0470 Version Master (Reimbursement Type Code)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0470"/>
-      <concept>
-        <code value="OPPS"/>
-        <display value="Outpatient Prospective Payment System"/>
-      </concept>
-      <concept>
-        <code value="Pckg"/>
-        <display value="Packaged APC"/>
-      </concept>
-      <concept>
-        <code value="Lab"/>
-        <display value="Clinical Laboratory APC"/>
-      </concept>
-      <concept>
-        <code value="Thrpy"/>
-        <display value="Therapy APC"/>
-      </concept>
-      <concept>
-        <code value="DME"/>
-        <display value="Durable Medical Equipment"/>
-      </concept>
-      <concept>
-        <code value="EPO"/>
-        <display value="Epotein"/>
-      </concept>
-      <concept>
-        <code value="Mamm"/>
-        <display value="Screening Mammography APC"/>
-      </concept>
-      <concept>
-        <code value="PartH"/>
-        <display value="Partial Hospitalization APC"/>
-      </concept>
-      <concept>
-        <code value="Crnl"/>
-        <display value="Corneal Tissue APC"/>
-      </concept>
-      <concept>
-        <code value="NoPay"/>
-        <display value="This APC is not paid"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

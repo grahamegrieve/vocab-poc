@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0208"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.208"/>
+    <value value="urn:oid:2.16.840.1.113883.18.113"/>
   </identifier>
+  <version value="2"/>
   <name value="V2Table0208"/>
   <title value="V2 Table: Query Response Status"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:41+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -58,5 +59,21 @@
     <code value="AR"/>
     <display value="Application reject"/>
     <definition value="Application reject"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="TM"/>
+    <display value="Too much data found"/>
+    <definition value="Too much data found"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="PD"/>
+    <display value="Protected data"/>
+    <definition value="Protected data"/>
   </concept>
 </CodeSystem>

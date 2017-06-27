@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0299"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0299"/>
+  <version value="1"/>
   <name value="V2Table0299VersionMaster"/>
   <title value="V2 Table 0299 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:44+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,18 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0299"/>
-      <concept>
-        <code value="A"/>
-        <display value="No encoding - data are displayable ASCII characters."/>
-      </concept>
-      <concept>
-        <code value="Hex"/>
-        <display value="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets."/>
-      </concept>
-      <concept>
-        <code value="Base64"/>
-        <display value="Encoding as defined by MIME (Multipurpose Internet Mail Extensions) standard RFC 1521. Four consecutive ASCII characters represent three consecutive octets of binary data. Base64 utilizes a 65-character subset of US-ASCII, consisting of both the upper and"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

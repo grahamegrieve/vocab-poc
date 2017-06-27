@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0123"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0123"/>
+  <version value="4"/>
   <name value="V2Table0123VersionMaster"/>
   <title value="V2 Table 0123 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:36+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,58 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0123"/>
-      <concept>
-        <code value="O"/>
-        <display value="Order received; specimen not yet received"/>
-      </concept>
-      <concept>
-        <code value="I"/>
-        <display value="No results available; specimen received, procedure incomplete"/>
-      </concept>
-      <concept>
-        <code value="S"/>
-        <display value="No results available; procedure scheduled, but not done"/>
-      </concept>
-      <concept>
-        <code value="A"/>
-        <display value="Some, but not all, results available"/>
-      </concept>
-      <concept>
-        <code value="P"/>
-        <display value="Preliminary"/>
-      </concept>
-      <concept>
-        <code value="C"/>
-        <display value="Corrected, final"/>
-      </concept>
-      <concept>
-        <code value="R"/>
-        <display value="Results stored; not yet verified"/>
-      </concept>
-      <concept>
-        <code value="F"/>
-        <display value="Final results"/>
-      </concept>
-      <concept>
-        <code value="X"/>
-        <display value="No results available; Order canceled"/>
-      </concept>
-      <concept>
-        <code value="Y"/>
-        <display value="No order on record for this test"/>
-      </concept>
-      <concept>
-        <code value="Z"/>
-        <display value="No record of this patient"/>
-      </concept>
-      <concept>
-        <code value="M"/>
-        <display value="Corrected, not final"/>
-      </concept>
-      <concept>
-        <code value="N"/>
-        <display value="Procedure completed, results pending"/>
-      </concept>
+      <version value="4"/>
     </include>
   </compose>
 </ValueSet>

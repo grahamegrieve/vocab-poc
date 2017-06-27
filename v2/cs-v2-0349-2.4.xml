@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0349-2.4"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0349-2.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.447"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0349"/>
+  <title value="V2 Table: PSRO/UR Approval Indicator"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0349 (PSRO/UR Approval Indicator)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0349-2.4"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Approved by the PSRO/UR as billed"/>
+    <definition value="Approved by the PSRO/UR as billed"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Automatic approval as billed based on focused review"/>
+    <definition value="Automatic approval as billed based on focused review"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Partial approval"/>
+    <definition value="Partial approval"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Admission denied"/>
+    <definition value="Admission denied"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Postpayment review applicable"/>
+    <definition value="Postpayment review applicable"/>
+  </concept>
+</CodeSystem>

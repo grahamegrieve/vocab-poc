@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0561"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0561"/>
+  <version value="1"/>
   <name value="V2Table0561VersionMaster"/>
   <title value="V2 Table 0561 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:54+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,34 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0561"/>
-      <concept>
-        <code value="DTCTR"/>
-        <display value="Data Center Number"/>
-      </concept>
-      <concept>
-        <code value="SEQ"/>
-        <display value="Sequence Number"/>
-      </concept>
-      <concept>
-        <code value="DGAPP"/>
-        <display value="Diagnostic Approval Number"/>
-      </concept>
-      <concept>
-        <code value="CLCTR"/>
-        <display value="Claim Center"/>
-      </concept>
-      <concept>
-        <code value="ENC"/>
-        <display value="Encounter Number"/>
-      </concept>
-      <concept>
-        <code value="OOP"/>
-        <display value="Out of Province Indicator"/>
-      </concept>
-      <concept>
-        <code value="GFTH"/>
-        <display value="Good Faith Indicator"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

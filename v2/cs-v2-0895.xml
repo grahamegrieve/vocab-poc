@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0895"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.895"/>
+    <value value="urn:oid:2.16.840.1.113883.6.301.11"/>
   </identifier>
+  <version value="1"/>
   <name value="V2Table0895"/>
   <title value="V2 Table: Present On Admission (POA) Indicator"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:55+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -31,6 +32,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="Y"/>
     <display value="Yes"/>
     <definition value="Yes"/>
@@ -38,6 +42,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="N"/>
     <display value="No"/>
@@ -47,6 +54,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
@@ -55,6 +65,9 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
+    </extension>
     <code value="W"/>
     <display value="Not applicable"/>
     <definition value="Not applicable"/>
@@ -62,6 +75,9 @@
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.6"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.9"/>
     </extension>
     <code value="E"/>
     <display value="Exempt"/>

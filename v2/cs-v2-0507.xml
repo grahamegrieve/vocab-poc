@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0507"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.507"/>
+    <value value="urn:oid:2.16.840.1.113883.18.331"/>
   </identifier>
+  <version value="3"/>
   <name value="V2Table0507"/>
   <title value="V2 Table: Observation Result Handling"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:52+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -55,22 +56,16 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.7.1"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="CC"/>
-    <display value="Copies Requested"/>
-    <definition value="Copies Requested"/>
+    <display value="Copies requested"/>
+    <definition value="Copies requested"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
       <valueString value="2.7.1"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="BCC"/>
-    <display value="Blind Copy"/>
-    <definition value="Blind Copy"/>
+    <display value="Blind copy"/>
+    <definition value="Blind copy"/>
   </concept>
 </CodeSystem>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0033"/>
+  <url value="http://hl7.org/fhir/CodeSystem/v2-0033"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.18.16"/>
+  </identifier>
+  <version value="1"/>
+  <name value="V2Table0033"/>
+  <title value="V2 Table: ROUTE"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
+  <publisher value="HL7, Inc"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/grahamegrieve/vocab-poc"/>
+    </telecom>
+  </contact>
+  <description value="Underlying Code System for V2 table 0033 (ROUTE)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/v2-0033"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="AP"/>
+    <display value="Apply externally"/>
+    <definition value="Apply externally"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="CH"/>
+    <display value="Chew"/>
+    <definition value="Chew"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="DU"/>
+    <display value="Dust"/>
+    <definition value="Dust"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="EA"/>
+    <display value="Ear"/>
+    <definition value="Ear"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="EY"/>
+    <display value="Eye"/>
+    <definition value="Eye"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IA"/>
+    <display value="Intro-arterial"/>
+    <definition value="Intro-arterial"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="ID"/>
+    <display value="Intra-dermal"/>
+    <definition value="Intra-dermal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IF"/>
+    <display value="Infiltrate"/>
+    <definition value="Infiltrate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IH"/>
+    <display value="Inhalation"/>
+    <definition value="Inhalation"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IM"/>
+    <display value="Intra-muscular"/>
+    <definition value="Intra-muscular"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IN"/>
+    <display value="Intra-nasal"/>
+    <definition value="Intra-nasal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IR"/>
+    <display value="Irrigate"/>
+    <definition value="Irrigate"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IS"/>
+    <display value="Inserted"/>
+    <definition value="Inserted"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IT"/>
+    <display value="Intrathecal"/>
+    <definition value="Intrathecal"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="IV"/>
+    <display value="Intravenous"/>
+    <definition value="Intravenous"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NB"/>
+    <display value="Nebulized"/>
+    <definition value="Nebulized"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="NG"/>
+    <display value="Nathogasic"/>
+    <definition value="Nathogasic"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PA"/>
+    <display value="Peri-anally"/>
+    <definition value="Peri-anally"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PT"/>
+    <display value="Paint"/>
+    <definition value="Paint"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="PU"/>
+    <display value="IV push"/>
+    <definition value="IV push"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="RC"/>
+    <display value="Rectally"/>
+    <definition value="Rectally"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SH"/>
+    <display value="Shampoo"/>
+    <definition value="Shampoo"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SL"/>
+    <display value="Sublingual"/>
+    <definition value="Sublingual"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SO"/>
+    <display value="Soak"/>
+    <definition value="Soak"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="SS"/>
+    <display value="IV soluset"/>
+    <definition value="IV soluset"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="TP"/>
+    <display value="Topically"/>
+    <definition value="Topically"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WA"/>
+    <display value="Wash"/>
+    <definition value="Wash"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
+      <valueString value="2.2"/>
+    </extension>
+    <code value="WI"/>
+    <display value="Wipe"/>
+    <definition value="Wipe"/>
+  </concept>
+</CodeSystem>

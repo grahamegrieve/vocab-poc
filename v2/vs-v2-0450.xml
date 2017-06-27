@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0450"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0450"/>
+  <version value="1"/>
   <name value="V2Table0450VersionMaster"/>
   <title value="V2 Table 0450 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:50+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,14 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0450"/>
-      <concept>
-        <code value="LOG"/>
-        <display value="Log Event"/>
-      </concept>
-      <concept>
-        <code value="SER"/>
-        <display value="Service Event"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

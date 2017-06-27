@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0392"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0392"/>
+  <version value="1"/>
   <name value="V2Table0392VersionMaster"/>
   <title value="V2 Table 0392 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:46+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,22 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0392"/>
-      <concept>
-        <code value="DB"/>
-        <display value="Match on Date of Birth"/>
-      </concept>
-      <concept>
-        <code value="NA"/>
-        <display value="Match on Name (Alpha Match)"/>
-      </concept>
-      <concept>
-        <code value="NP"/>
-        <display value="Match on Name (Phonetic Match)"/>
-      </concept>
-      <concept>
-        <code value="SS"/>
-        <display value="Match on Social Security Number"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

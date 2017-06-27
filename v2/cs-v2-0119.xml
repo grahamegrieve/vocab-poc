@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0119"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.119"/>
+    <value value="urn:oid:2.16.840.1.113883.18.48"/>
   </identifier>
+  <version value="8"/>
   <name value="V2Table0119"/>
   <title value="V2 Table: Order Control Codes"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:36+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -300,6 +301,30 @@
     <code value="PY"/>
     <display value="Notification of replacement order for outside dispense"/>
     <definition value="Notification of replacement order for outside dispense"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="RA"/>
+    <display value="Recommendation Accepted"/>
+    <definition value="Recommendation Accepted"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="RC"/>
+    <display value="Recommended Change"/>
+    <definition value="Recommended Change"/>
+  </concept>
+  <concept>
+    <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
+      <valueString value="2.9"/>
+    </extension>
+    <code value="RD"/>
+    <display value="Recommendation Declined"/>
+    <definition value="Recommendation Declined"/>
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">

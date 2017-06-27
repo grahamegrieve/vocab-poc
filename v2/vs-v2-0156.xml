@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0156"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0156"/>
+  <version value="2"/>
   <name value="V2Table0156VersionMaster"/>
   <title value="V2 Table 0156 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:38+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,34 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0156"/>
-      <concept>
-        <code value="CAN"/>
-        <display value="Cancellation date/time"/>
-      </concept>
-      <concept>
-        <code value="ANY"/>
-        <display value="Any date/time within a range"/>
-      </concept>
-      <concept>
-        <code value="COL"/>
-        <display value="Collection date/time, equivalent to film or sample collection date/time"/>
-      </concept>
-      <concept>
-        <code value="ORD"/>
-        <display value="Order date/time"/>
-      </concept>
-      <concept>
-        <code value="RCT"/>
-        <display value="Specimen receipt date/time, receipt of specimen in filling ancillary (Lab)"/>
-      </concept>
-      <concept>
-        <code value="REP"/>
-        <display value="Report date/time, report date/time at filling ancillary (i.e., Lab)"/>
-      </concept>
-      <concept>
-        <code value="SCHED"/>
-        <display value="Schedule date/time"/>
-      </concept>
+      <version value="2"/>
     </include>
   </compose>
 </ValueSet>

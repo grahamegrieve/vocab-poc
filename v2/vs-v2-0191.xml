@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0191"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0191"/>
+  <version value="4"/>
   <name value="V2Table0191VersionMaster"/>
   <title value="V2 Table 0191 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:40+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,58 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0191"/>
-      <concept>
-        <code value="AP"/>
-        <display value="Other application data, typically uninterpreted binary data (HL7 V2.3 and later)"/>
-      </concept>
-      <concept>
-        <code value="AU"/>
-        <display value="Audio data (HL7 V2.3 and later)"/>
-      </concept>
-      <concept>
-        <code value="FT"/>
-        <display value="Formatted text (HL7 V2.2 only)"/>
-      </concept>
-      <concept>
-        <code value="IM"/>
-        <display value="Image data (HL7 V2.3 and later)"/>
-      </concept>
-      <concept>
-        <code value="multipart"/>
-        <display value="MIME multipart package"/>
-      </concept>
-      <concept>
-        <code value="NS"/>
-        <display value="Non-scanned image (HL7 V2.2 only)"/>
-      </concept>
-      <concept>
-        <code value="SD"/>
-        <display value="Scanned document (HL7 V2.2 only)"/>
-      </concept>
-      <concept>
-        <code value="SI"/>
-        <display value="Scanned image (HL7 V2.2 only)"/>
-      </concept>
-      <concept>
-        <code value="Image"/>
-        <display value="Image data  (HL7 V2.3 and later)"/>
-      </concept>
-      <concept>
-        <code value="TEXT"/>
-        <display value="Machine readable text document (HL7 V2.3.1 and later)"/>
-      </concept>
-      <concept>
-        <code value="Audio"/>
-        <display value="Audio data  (HL7 V2.3 and later)"/>
-      </concept>
-      <concept>
-        <code value="TX"/>
-        <display value="Machine readable text document (HL7 V2.2 only)"/>
-      </concept>
-      <concept>
-        <code value="Application"/>
-        <display value="Other application data, typically uninterpreted binary data  (HL7 V2.3 and later)"/>
-      </concept>
+      <version value="4"/>
     </include>
   </compose>
 </ValueSet>

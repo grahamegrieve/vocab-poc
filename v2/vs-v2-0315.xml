@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0315"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0315"/>
+  <version value="1"/>
   <name value="V2Table0315VersionMaster"/>
   <title value="V2 Table 0315 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:44+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,26 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0315"/>
-      <concept>
-        <code value="Y"/>
-        <display value="Yes, patient has a living will"/>
-      </concept>
-      <concept>
-        <code value="F"/>
-        <display value="Yes, patient has a living will but it is not on file"/>
-      </concept>
-      <concept>
-        <code value="N"/>
-        <display value="No, patient does not have a living will and no information was provided"/>
-      </concept>
-      <concept>
-        <code value="I"/>
-        <display value="No, patient does not have a living will but information was provided"/>
-      </concept>
-      <concept>
-        <code value="U"/>
-        <display value="Unknown"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

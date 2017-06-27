@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0544"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0544"/>
+  <version value="1"/>
   <name value="V2Table0544VersionMaster"/>
   <title value="V2 Table 0544 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:53+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,94 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0544"/>
-      <concept>
-        <code value="..."/>
-        <display value="No suggested values"/>
-      </concept>
-      <concept>
-        <code value="XC37"/>
-        <display value="Not Body temperature"/>
-      </concept>
-      <concept>
-        <code value="XAMB"/>
-        <display value="Not Ambient temperature"/>
-      </concept>
-      <concept>
-        <code value="XCAMB"/>
-        <display value="Not Critical ambient temperature"/>
-      </concept>
-      <concept>
-        <code value="XREF"/>
-        <display value="Not Refrigerated temperature"/>
-      </concept>
-      <concept>
-        <code value="XCREF"/>
-        <display value="Not Critical refrigerated temperature"/>
-      </concept>
-      <concept>
-        <code value="XFRZ"/>
-        <display value="Not Frozen temperature"/>
-      </concept>
-      <concept>
-        <code value="XCFRZ"/>
-        <display value="Not Critical frozen temperature"/>
-      </concept>
-      <concept>
-        <code value="XDFRZ"/>
-        <display value="Not Deep frozen"/>
-      </concept>
-      <concept>
-        <code value="XUFRZ"/>
-        <display value="Not Ultra frozen"/>
-      </concept>
-      <concept>
-        <code value="XNTR"/>
-        <display value="Not Liquid nitrogen"/>
-      </concept>
-      <concept>
-        <code value="XPRTL"/>
-        <display value="Not Protected from light"/>
-      </concept>
-      <concept>
-        <code value="XCATM"/>
-        <display value="Exposed to Air"/>
-      </concept>
-      <concept>
-        <code value="XDRY"/>
-        <display value="Not Dry"/>
-      </concept>
-      <concept>
-        <code value="XPSO"/>
-        <display value="Exposed to shock"/>
-      </concept>
-      <concept>
-        <code value="XPSA"/>
-        <display value="Shaken"/>
-      </concept>
-      <concept>
-        <code value="XUPR"/>
-        <display value="Not Upright"/>
-      </concept>
-      <concept>
-        <code value="XMTLF"/>
-        <display value="Metal Exposed"/>
-      </concept>
-      <concept>
-        <code value="SB"/>
-        <display value="Seal Broken"/>
-      </concept>
-      <concept>
-        <code value="CC"/>
-        <display value="Container Cracked"/>
-      </concept>
-      <concept>
-        <code value="CT"/>
-        <display value="Container Torn"/>
-      </concept>
-      <concept>
-        <code value="CL"/>
-        <display value="Container Leaking"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

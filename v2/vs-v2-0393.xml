@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0393"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0393"/>
+  <version value="1"/>
   <name value="V2Table0393VersionMaster"/>
   <title value="V2 Table 0393 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:46+10:00"/>
+  <date value="2017-06-27T20:18:16+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,14 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0393"/>
-      <concept>
-        <code value="LINKSOFT_2.01"/>
-        <display value="Proprietary algorithm for LinkSoft v2.01"/>
-      </concept>
-      <concept>
-        <code value="MATCHWARE_1.2"/>
-        <display value="Proprietary algorithm for MatchWare v1.2"/>
-      </concept>
+      <version value="1"/>
     </include>
   </compose>
 </ValueSet>

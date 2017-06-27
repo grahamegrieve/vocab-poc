@@ -5,13 +5,14 @@
   <url value="http://hl7.org/fhir/CodeSystem/v2-0076"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.12.76"/>
+    <value value="urn:oid:2.16.840.1.113883.18.30"/>
   </identifier>
+  <version value="12"/>
   <name value="V2Table0076"/>
   <title value="V2 Table: Message Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:34+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -1176,7 +1177,7 @@
   </concept>
   <concept>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-defined">
-      <valueString value="2.3"/>
+      <valueString value="2.3.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/v2-version-deprecated">
       <valueString value="2.9"/>

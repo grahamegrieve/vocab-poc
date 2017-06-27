@@ -3,11 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="v2-0278"/>
   <url value="http://hl7.org/fhir/ValueSet/v2-0278"/>
+  <version value="2"/>
   <name value="V2Table0278VersionMaster"/>
   <title value="V2 Table 0278 Version Master"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2017-06-26T20:46:44+10:00"/>
+  <date value="2017-06-27T20:18:15+10:00"/>
   <publisher value="HL7, Inc"/>
   <contact>
     <telecom>
@@ -20,86 +21,7 @@
   <compose>
     <include>
       <system value="http://hl7.org/fhir/CodeSystem/v2-0278"/>
-      <concept>
-        <code value="PENDING"/>
-        <display value="Pending"/>
-      </concept>
-      <concept>
-        <code value="OVERBOOK"/>
-        <display value="Overbook"/>
-      </concept>
-      <concept>
-        <code value="DELETED"/>
-        <display value="Deleted"/>
-      </concept>
-      <concept>
-        <code value="STARTED"/>
-        <display value="Started"/>
-      </concept>
-      <concept>
-        <code value="CANCELLED"/>
-        <display value="Cancelled"/>
-      </concept>
-      <concept>
-        <code value="BOOKED"/>
-        <display value="Booked"/>
-      </concept>
-      <concept>
-        <code value="BLOCKED"/>
-        <display value="Blocked"/>
-      </concept>
-      <concept>
-        <code value="COMPLETE"/>
-        <display value="Complete"/>
-      </concept>
-      <concept>
-        <code value="WAITLIST"/>
-        <display value="Waitlist"/>
-      </concept>
-      <concept>
-        <code value="Pending"/>
-        <display value="Pending"/>
-      </concept>
-      <concept>
-        <code value="Waitlist"/>
-        <display value="Waitlist"/>
-      </concept>
-      <concept>
-        <code value="Booked"/>
-        <display value="Booked"/>
-      </concept>
-      <concept>
-        <code value="Started"/>
-        <display value="Started"/>
-      </concept>
-      <concept>
-        <code value="Complete"/>
-        <display value="Complete"/>
-      </concept>
-      <concept>
-        <code value="Cancelled"/>
-        <display value="Cancelled"/>
-      </concept>
-      <concept>
-        <code value="Discontinued"/>
-        <display value="Discontinued"/>
-      </concept>
-      <concept>
-        <code value="Deleted"/>
-        <display value="Deleted"/>
-      </concept>
-      <concept>
-        <code value="Blocked"/>
-        <display value="Blocked"/>
-      </concept>
-      <concept>
-        <code value="Overbook"/>
-        <display value="Overbook"/>
-      </concept>
-      <concept>
-        <code value="Noshow"/>
-        <display value="Noshow"/>
-      </concept>
+      <version value="2"/>
     </include>
   </compose>
 </ValueSet>
