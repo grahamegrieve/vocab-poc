@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-CareModel"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-CareModel"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.61"/>
+  </identifier>
+  <version value="20160903"/>
+  <name value="CCDACareModel"/>
+  <title value="Care Model"/>
+  <date value="2016-09-03"/>
+  <description value="Concepts representing care management styles"/>
+  <purpose value="Finding"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;A value set of SNOMED-CT codes representing care management styles (e.g., shared care, full care) descending from &quot;&quot;170932006&quot;&quot; &quot;&quot;Chronic disease - care arrangement&quot;&quot;.&quot;"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;170938005"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:8d87b9dd-a5c4-405b-88b6-6d9907dcd226"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="170935008"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="170936009"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="170937000"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="170940000"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="170941001"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="268529002"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="170939002"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="268528005"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2.16.840.1.113883.6.96"/>
+      <code value="Shared care: health visitor and GP not included&quot;"/>
+      <display value="370985002"/>
+    </contains>
+  </expansion>
+</ValueSet>

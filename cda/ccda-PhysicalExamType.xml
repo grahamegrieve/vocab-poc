@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PhysicalExamType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PhysicalExamType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.65"/>
+  </identifier>
+  <version value="20161104"/>
+  <name value="CCDAPhysicalExamType"/>
+  <title value="Physical Exam Type"/>
+  <date value="2016-11-04"/>
+  <description value="Document section types that may be used under the Physical Examination section of C-CDA."/>
+  <purpose value="C-CDA r2.1 Component in Physical Exam Section (V3)[section: identifier urn:hl7ii:2.16.840.1.113883.10.20.2.10:2015-08-01 (open)] STATIC"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Specified LOINC Physical Findings concepts with Class: Nad"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Only as in inclusion"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:0c7c0642-299e-4cda-af85-4cdf1d0556e3"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10191-5"/>
+      <display value="Physical findings of Abdomen Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10192-3"/>
+      <display value="Physical findings of Back Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10193-1"/>
+      <display value="Physical findings of Breasts Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10195-6"/>
+      <display value="Physical findings of Ear Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10196-4"/>
+      <display value="Physical findings of Extremities Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10198-0"/>
+      <display value="Physical findings of Genitourinary tract Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10201-2"/>
+      <display value="Physical findings of Mouth and Throat and Teeth Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10203-8"/>
+      <display value="Physical findings of Nose Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10206-1"/>
+      <display value="Physical findings of Skin Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10207-9"/>
+      <display value="Physical findings of Thorax and Lungs Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10208-7"/>
+      <display value="Physical findings of Vessels Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10211-1"/>
+      <display value="Physical findings of Sense of touch Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10212-9"/>
+      <display value="Physical findings of Strength Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11385-2"/>
+      <display value="Physical findings of Ankle Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11386-0"/>
+      <display value="Physical findings of Upper arm Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11390-2"/>
+      <display value="Physical findings of Cardiovascular system Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11392-8"/>
+      <display value="Physical findings of Chest wall Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11398-5"/>
+      <display value="Physical findings of Forearm Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11401-7"/>
+      <display value="Physical findings of Female genitalia Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11402-5"/>
+      <display value="Physical findings of Male genitalia Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11403-3"/>
+      <display value="Physical findings of Groin Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11406-6"/>
+      <display value="Physical findings of Hip Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11410-8"/>
+      <display value="Physical findings of Musculoskeletal system Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11411-6"/>
+      <display value="Physical findings of Neck Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11413-2"/>
+      <display value="Physical findings of Shoulder Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11414-0"/>
+      <display value="Physical findings of Thigh Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11415-7"/>
+      <display value="Physical findings of Wrist Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="47420-5"/>
+      <display value="Functional status assessment note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="51850-6"/>
+      <display value="Physical findings of Head and Ears and Eyes and Nose and Throat"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8716-3"/>
+      <display value="Vital signs"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10190-7"/>
+      <display value="Mental status Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10194-9"/>
+      <display value="Physical findings of Neurologic deep tendon reflexes Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10197-2"/>
+      <display value="Physical findings of Eye Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10199-8"/>
+      <display value="Physical findings of Head Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10200-4"/>
+      <display value="Physical findings of Heart Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10202-0"/>
+      <display value="Physical findings of Nervous system Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10204-6"/>
+      <display value="Physical findings of Pelvis Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10205-3"/>
+      <display value="Physical findings of Rectum Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10209-5"/>
+      <display value="Physical findings of Neurologic balance and Coordination Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="10210-3"/>
+      <display value="Physical findings of General status Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11384-5"/>
+      <display value="Physical examination by organ systems"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11387-8"/>
+      <display value="Physical findings of Axilla Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11388-6"/>
+      <display value="Physical findings of Buttocks Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11389-4"/>
+      <display value="Physical findings of Calf Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11391-0"/>
+      <display value="Physical findings of Chest Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11393-6"/>
+      <display value="Physical findings of Ears and Nose and Mouth and Throat Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11394-4"/>
+      <display value="Physical findings of Elbow Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11397-7"/>
+      <display value="Physical findings of Foot Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11399-3"/>
+      <display value="Physical findings of Gastrointestinal system Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11400-9"/>
+      <display value="Physical findings of Genitalia Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11404-1"/>
+      <display value="Physical findings of Hand Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11407-4"/>
+      <display value="Physical findings of Knee Narrative"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11447-0"/>
+      <display value="Physical findings of Hematologic and Lymphatic and Immunologic System Narrative"/>
+    </contains>
+  </expansion>
+</ValueSet>

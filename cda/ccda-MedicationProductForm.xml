@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-MedicationProductForm"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-MedicationProductForm"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.8.11"/>
+  </identifier>
+  <version value="20161010"/>
+  <name value="CCDAMedicationProductForm"/>
+  <title value="Medication Product Form"/>
+  <date value="2016-10-10"/>
+  <description value="This is the physical form of the medicinal product as presented to the individual. This value set is defined by the US Federal Drug Administration."/>
+  <purpose value="Medicinal drug form"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;Selected concepts that are descendent of C42636 as determined by the FDA. These concepts are linked to &quot;&quot;Structured Product Labeling Pharmaceutical Dosage Form Terminology (Code C54456)&quot;&quot; by Concept_In_Subset.&quot;"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Navigational concepts and any concept excluded from the FDA SPL list"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:b9c3105f-1358-43c9-ad6d-d39085efaee9"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C100103"/>
+      <display value="Cellular Sheet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42679"/>
+      <display value="Douche Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42887"/>
+      <display value="Aerosol Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42890"/>
+      <display value="Bead Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42894"/>
+      <display value="Chewing Gum Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42895"/>
+      <display value="Coated Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42897"/>
+      <display value="Coated Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42898"/>
+      <display value="Concentrated Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42903"/>
+      <display value="Delayed Release Granule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42904"/>
+      <display value="Delayed Release Pellet in Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42907"/>
+      <display value="Dentifrice Paste Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42908"/>
+      <display value="Dentifrice Powder Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42910"/>
+      <display value="Effervescent Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42913"/>
+      <display value="Emulsion Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42916"/>
+      <display value="Extended Release Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42917"/>
+      <display value="Extended Release Coated Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42918"/>
+      <display value="Extended Release Coated Pellet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42920"/>
+      <display value="Extended Release Film Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42921"/>
+      <display value="Extended Release Granule for Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42922"/>
+      <display value="Extended Release Insert Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42925"/>
+      <display value="Extended Release Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42926"/>
+      <display value="Injectable Extended Release Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42929"/>
+      <display value="Extract Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42930"/>
+      <display value="Film Coated Extended Release Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42932"/>
+      <display value="Film Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42933"/>
+      <display value="Gas Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42936"/>
+      <display value="Gelatin Coated Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42937"/>
+      <display value="Globule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42949"/>
+      <display value="Liniment Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42950"/>
+      <display value="Injectable Lipid Complex Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42954"/>
+      <display value="Liquid Filled Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42955"/>
+      <display value="Lozenge Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42958"/>
+      <display value="Lyophilized Powder for Injectable Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42959"/>
+      <display value="Lyophilized Powder for Injectable Liposomal Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42961"/>
+      <display value="Metered Powder Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42962"/>
+      <display value="Metered Spray Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42964"/>
+      <display value="Multilayered Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42967"/>
+      <display value="Paste Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42968"/>
+      <display value="Patch Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42971"/>
+      <display value="Powder Aerosol Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42973"/>
+      <display value="Powder for Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42975"/>
+      <display value="Powder for Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42976"/>
+      <display value="Powder for Injectable Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42979"/>
+      <display value="Rinse Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42981"/>
+      <display value="Shampoo Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42983"/>
+      <display value="Soap Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42985"/>
+      <display value="Soluble Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42987"/>
+      <display value="Solution for Slush Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42989"/>
+      <display value="Spray Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42992"/>
+      <display value="Sugar Coated Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42993"/>
+      <display value="Suppository Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42994"/>
+      <display value="Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42995"/>
+      <display value="Injectable Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42999"/>
+      <display value="Orally Disintegrating Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C43000"/>
+      <display value="Tincture Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C43001"/>
+      <display value="Troche Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47892"/>
+      <display value="Tampon Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47913"/>
+      <display value="Poultice Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47914"/>
+      <display value="Strip Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47915"/>
+      <display value="Intrauterine Device Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60891"/>
+      <display value="Concentrated Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60897"/>
+      <display value="Augmented Cream Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60926"/>
+      <display value="Extended Release Fiber Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60927"/>
+      <display value="Dosage Form for Solution"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60928"/>
+      <display value="Dosage Form for Suspension"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60929"/>
+      <display value="Extended Release Dosage Form for Suspension"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60930"/>
+      <display value="Metered Gel Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60931"/>
+      <display value="Liposomal Injection Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60933"/>
+      <display value="Insert Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60958"/>
+      <display value="Lotion Shampoo Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60992"/>
+      <display value="Drop Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60994"/>
+      <display value="Gel Forming Drop Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60995"/>
+      <display value="Drop Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60997"/>
+      <display value="Tablet Coated Particle Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C61005"/>
+      <display value="Tablet for Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C61006"/>
+      <display value="Orally Disintegrating Delayed Release Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C64884"/>
+      <display value="Effervescent Powder Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C69067"/>
+      <display value="Extended Release Granule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87536"/>
+      <display value="Smoke Stick Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87537"/>
+      <display value="Smoke Paper Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87538"/>
+      <display value="Extended Release Intraruminal Device Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87539"/>
+      <display value="Tag Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87540"/>
+      <display value="Delayed Release Granule for Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87541"/>
+      <display value="Lyophilized Powder Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C113106"/>
+      <display value="Injectable Foam Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C124794"/>
+      <display value="Extended Release Chewable Tablet"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C17423"/>
+      <display value="Drug Delivery System"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C25158"/>
+      <display value="Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C25394"/>
+      <display value="Pill Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C28944"/>
+      <display value="Cream Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C29167"/>
+      <display value="Lotion Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C29269"/>
+      <display value="Mouthwash Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42763"/>
+      <display value="Dressing Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42888"/>
+      <display value="Aerosol Foam Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42889"/>
+      <display value="Aerosol Spray Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42892"/>
+      <display value="Chewable Bar Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42893"/>
+      <display value="Chewable Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42896"/>
+      <display value="Coated Pellet in Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42899"/>
+      <display value="Concentrated Injectable Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42901"/>
+      <display value="Crystal Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42902"/>
+      <display value="Delayed Release Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42905"/>
+      <display value="Delayed Release Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42906"/>
+      <display value="Dentifrice Gel Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42909"/>
+      <display value="Effervescent Granule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42911"/>
+      <display value="Electrically Controlled Extended Release Patch Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42912"/>
+      <display value="Elixir Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42914"/>
+      <display value="Emulsion for Injection Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42915"/>
+      <display value="Enema Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42923"/>
+      <display value="Extended Release Patch Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42924"/>
+      <display value="Extended Release Suppository Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42927"/>
+      <display value="Extended Release Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42928"/>
+      <display value="Extended Release Film Coated Capsule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42931"/>
+      <display value="Film Coated Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42934"/>
+      <display value="Gel Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42935"/>
+      <display value="Extended Release Gel Forming Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42938"/>
+      <display value="Granule Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42939"/>
+      <display value="Granule for Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42940"/>
+      <display value="Granule for Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42942"/>
+      <display value="Implant Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42943"/>
+      <display value="Implantable Pellet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42944"/>
+      <display value="Inhalant Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42945"/>
+      <display value="Injectable Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42946"/>
+      <display value="Injectable Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42947"/>
+      <display value="Irrigant Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42948"/>
+      <display value="Jelly Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42951"/>
+      <display value="Injectable Liposomal Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42952"/>
+      <display value="Lipstick Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42953"/>
+      <display value="Liquid Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42956"/>
+      <display value="Lyophilized Powder for Extended Release Injectable Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42957"/>
+      <display value="Lyophilized Powder for Injectable Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42960"/>
+      <display value="Metered Aerosol Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42963"/>
+      <display value="Multilayered Extended Release Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42965"/>
+      <display value="Oil Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42966"/>
+      <display value="Ointment Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42969"/>
+      <display value="Pellet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42970"/>
+      <display value="Plaster Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42972"/>
+      <display value="Powder Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42974"/>
+      <display value="Powder for Injectable Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42977"/>
+      <display value="Powder for Injectable Extended Release Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42980"/>
+      <display value="Salve Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42982"/>
+      <display value="Shampoo Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42984"/>
+      <display value="Soluble Film Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42986"/>
+      <display value="Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42988"/>
+      <display value="Injectable Sonicated Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42990"/>
+      <display value="Spray Suspension Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42991"/>
+      <display value="Stick Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42996"/>
+      <display value="Syrup Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42997"/>
+      <display value="Delayed Release Particle Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C42998"/>
+      <display value="Tablet Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C43003"/>
+      <display value="Wafer Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C43525"/>
+      <display value="Disc Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47897"/>
+      <display value="Tape Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47898"/>
+      <display value="Swab Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47912"/>
+      <display value="Sponge Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C47916"/>
+      <display value="Kit Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C48624"/>
+      <display value="Dosage Form Not Applicable"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60884"/>
+      <display value="Cloth Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60934"/>
+      <display value="Extended Release Liquid Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60957"/>
+      <display value="Augmented Lotion Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60984"/>
+      <display value="Augmented Ointment Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60985"/>
+      <display value="Pastille Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C60988"/>
+      <display value="Ring Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C61004"/>
+      <display value="Tablet for Solution Dosage Form"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C87542"/>
+      <display value="Pendant Dosage Form"/>
+    </contains>
+  </expansion>
+</ValueSet>

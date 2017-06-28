@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-Ability"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-Ability"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.46"/>
+  </identifier>
+  <version value="20160712"/>
+  <name value="CCDAAbility"/>
+  <title value="Ability"/>
+  <date value="2016-07-12"/>
+  <description value="A value set containing SNOMED-CT codes for level of dependence."/>
+  <purpose value="qualifier that describes current level of function for a functional ability"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Direct Children of SCT Interpretation value (qualifier value) [442499005], plus selected other concepts that are further descendants of these children concepts."/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Concepts in the Interpretation value (qualifier value) [442499005] hierarchy deemed not of use."/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:1d58ed5b-f689-4d90-a1f3-9af9bcb557ab"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371151008"/>
+      <display value="Unable (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371152001"/>
+      <display value="Assisted (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371157007"/>
+      <display value="Able with difficulty (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371150009"/>
+      <display value="Able (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371153006"/>
+      <display value="Independent (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371154000"/>
+      <display value="Dependent (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371155004"/>
+      <display value="Able to and does (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="385640009"/>
+      <display value="Does (qualifier value)"/>
+    </contains>
+  </expansion>
+</ValueSet>

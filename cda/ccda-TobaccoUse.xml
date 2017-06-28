@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-TobaccoUse"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-TobaccoUse"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.41"/>
+  </identifier>
+  <version value="20151210"/>
+  <name value="CCDATobaccoUse"/>
+  <title value="Tobacco Use"/>
+  <date value="2015-12-10"/>
+  <description value="Detailed classification of a patient&#39;s smoking behavior"/>
+  <purpose value="Condition"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Contains all values descending from the SNOMED CT 365980008 tobacco use and exposure - finding hierarchy."/>
+      </extension>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:f50e070d-0bf7-4e09-a266-42d893604d0d"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160603005"/>
+      <display value="Light cigarette smoker (1-9 cigs/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160604004"/>
+      <display value="Moderate cigarette smoker (10-19 cigs/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160612007"/>
+      <display value="Keeps trying to stop smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160617001"/>
+      <display value="Stopped smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160618006"/>
+      <display value="Current non-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="169940006"/>
+      <display value="Maternal tobacco abuse (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="221000119102"/>
+      <display value="Never smoked any substance (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228491005"/>
+      <display value="Does not use snuff (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228499007"/>
+      <display value="Finding relating to moist tobacco use (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228502006"/>
+      <display value="Never used moist powdered tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228503001"/>
+      <display value="Ex-user of moist powdered tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228504007"/>
+      <display value="User of moist powdered tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228511006"/>
+      <display value="Does not chew tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228524006"/>
+      <display value="Exposed to tobacco smoke at home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="230059006"/>
+      <display value="Occasional cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="230062009"/>
+      <display value="Moderate cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266920004"/>
+      <display value="Trivial cigarette smoker (less than one cigarette/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266921000"/>
+      <display value="Ex-trivial cigarette smoker (&lt;1/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266922007"/>
+      <display value="Ex-light cigarette smoker (1-9/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266928006"/>
+      <display value="Ex-cigarette smoker amount unknown (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266929003"/>
+      <display value="Smoking started (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="281018007"/>
+      <display value="Ex-cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="308438006"/>
+      <display value="Smoking restarted (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="360929005"/>
+      <display value="Intolerant non-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365982000"/>
+      <display value="Finding of tobacco smoking consumption (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="394871007"/>
+      <display value="Thinking about stopping smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="394872000"/>
+      <display value="Ready to stop smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428071000124103"/>
+      <display value="Heavy tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="43381005"/>
+      <display value="Passive smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="446172000"/>
+      <display value="Failed attempt to stop smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449369001"/>
+      <display value="Stopped smoking before pregnancy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449867007"/>
+      <display value="Uses moist tobacco occasionally (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449868002"/>
+      <display value="Smokes tobacco daily (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449869005"/>
+      <display value="Uses moist tobacco daily (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="48031000119106"/>
+      <display value="Ex-smoker for more than 1 year (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="56578002"/>
+      <display value="Moderate smoker (20 or less per day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="698289004"/>
+      <display value="Hookah pipe smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="702975009"/>
+      <display value="Ex-tobacco user (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="711563001"/>
+      <display value="No known exposure to tobacco smoke (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="82302008"/>
+      <display value="Pipe smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="8392000"/>
+      <display value="Non-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="8517006"/>
+      <display value="Ex-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="87739003"/>
+      <display value="Tolerant non-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105539002"/>
+      <display value="Non-smoker for personal reasons (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105540000"/>
+      <display value="Non-smoker for religious reasons (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105541001"/>
+      <display value="Non-smoker for medical reasons (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="110483000"/>
+      <display value="Tobacco user (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="134406006"/>
+      <display value="Smoking reduced (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160605003"/>
+      <display value="Heavy cigarette smoker (20-39 cigs/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160606002"/>
+      <display value="Very heavy cigarette smoker (40+ cigs/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160613002"/>
+      <display value="Admitted tobacco consumption possibly untrue (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160614008"/>
+      <display value="Tobacco consumption unknown (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160616005"/>
+      <display value="Trying to give up smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160619003"/>
+      <display value="Rolls own cigarettes (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160620009"/>
+      <display value="Ex-pipe smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160621008"/>
+      <display value="Ex-cigar smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228492003"/>
+      <display value="Never used snuff (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228493008"/>
+      <display value="Ex-snuff user (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228494002"/>
+      <display value="Snuff user (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228501004"/>
+      <display value="Does not use moist powdered tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228509002"/>
+      <display value="Finding relating to tobacco chewing (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228512004"/>
+      <display value="Never chewed tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228513009"/>
+      <display value="Ex-tobacco chewer (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228514003"/>
+      <display value="Chews plug tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228515002"/>
+      <display value="Chews twist tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228516001"/>
+      <display value="Chews loose leaf tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228517005"/>
+      <display value="Chews fine cut tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228518000"/>
+      <display value="Chews products containing tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228523000"/>
+      <display value="Exposed to tobacco smoke at work (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228525007"/>
+      <display value="Exposed to tobacco smoke in public places (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="230060001"/>
+      <display value="Light cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="230063004"/>
+      <display value="Heavy cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="230064005"/>
+      <display value="Very heavy cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="230065006"/>
+      <display value="Chain smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266919005"/>
+      <display value="Never smoked tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266923002"/>
+      <display value="Ex-moderate cigarette smoker (10-19/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266924008"/>
+      <display value="Ex-heavy cigarette smoker (20-39/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266925009"/>
+      <display value="Ex-very heavy cigarette smoker (40+/day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266927001"/>
+      <display value="Tobacco smoking consumption unknown (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="360890004"/>
+      <display value="Intolerant ex-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="360900008"/>
+      <display value="Aggressive ex-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="360918006"/>
+      <display value="Aggressive non-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365981007"/>
+      <display value="Finding of tobacco smoking behavior (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365983005"/>
+      <display value="Finding of snuff use (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="394873005"/>
+      <display value="Not interested in stopping smoking (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="405746006"/>
+      <display value="Current non smoker but past smoking history unknown (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="427189007"/>
+      <display value="Maternal tobacco use (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428041000124106"/>
+      <display value="Occasional tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428061000124105"/>
+      <display value="Light tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428081000124100"/>
+      <display value="Former heavy tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428091000124102"/>
+      <display value="Former light tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449345000"/>
+      <display value="Smoked before confirmation of pregnancy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449368009"/>
+      <display value="Stopped smoking during pregnancy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="53896009"/>
+      <display value="Tolerant ex-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="56771006"/>
+      <display value="Heavy smoker (over 20 per day) (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="59978006"/>
+      <display value="Cigar smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="65568007"/>
+      <display value="Cigarette smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="702979003"/>
+      <display value="Never used tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="77176002"/>
+      <display value="Smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="81703003"/>
+      <display value="Chews tobacco (finding)"/>
+    </contains>
+  </expansion>
+</ValueSet>

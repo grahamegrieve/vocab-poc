@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-MentalandFunctionalStatusResponse"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-MentalandFunctionalStatusResponse"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.44"/>
+  </identifier>
+  <version value="20161104"/>
+  <name value="CCDAMentalandFunctionalStatusResponse"/>
+  <title value="Mental and Functional Status Response"/>
+  <date value="2016-11-04"/>
+  <description value="SNOMED-CT qualifier codes that are common responses to mental and functional ability queries."/>
+  <purpose value="Value code in Sensory Status template [observation: identifier urn:oid:2.16.840.1.113883.10.20.22.4.127 (open)] for @Code in Sensory Status Problem Type"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Limited to specific concepts identified"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="unclear"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:e67d3b87-f4a6-4a19-afcd-156925f8a55e"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="260379002"/>
+      <display value="Impaired (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="30714006"/>
+      <display value="Resistant (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="35105006"/>
+      <display value="Increased (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="41277001"/>
+      <display value="Lacking (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="11163003"/>
+      <display value="Intact (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="1250004"/>
+      <display value="Decreased (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="18043004"/>
+      <display value="Thin (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="18307000"/>
+      <display value="Altered (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="20572008"/>
+      <display value="Good (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="272520006"/>
+      <display value="Degree findings (qualifier value)"/>
+    </contains>
+  </expansion>
+</ValueSet>

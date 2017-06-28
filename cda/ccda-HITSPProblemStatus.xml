@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-HITSPProblemStatus"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-HITSPProblemStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.80.68"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAHITSPProblemStatus"/>
+  <title value="HITSP Problem Status"/>
+  <date value="2015-04-24"/>
+  <description value="The clinical status of a problem"/>
+  <expansion>
+    <identifier value="urn:uuid:7b98f407-a588-4083-8502-96a739049899"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="55561003"/>
+      <display value="Active (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="413322009"/>
+      <display value="Problem resolved (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="73425007"/>
+      <display value="Inactive (qualifier value)"/>
+    </contains>
+  </expansion>
+</ValueSet>

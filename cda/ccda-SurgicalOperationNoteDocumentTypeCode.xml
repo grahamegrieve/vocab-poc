@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-SurgicalOperationNoteDocumentTypeCode"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-SurgicalOperationNoteDocumentTypeCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.1.1"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDASurgicalOperationNoteDocumentTypeCode"/>
+  <title value="SurgicalOperationNoteDocumentTypeCode"/>
+  <date value="2015-04-24"/>
+  <description value="Surgical operation note kind classified by author specialization"/>
+  <expansion>
+    <identifier value="urn:uuid:af93ac86-1cbc-4dac-b024-048a11ba4807"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11504-8"/>
+      <display value="Surgical operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="28573-4"/>
+      <display value="Physician, Operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34818-5"/>
+      <display value="Otolaryngology Surgical operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="28583-3"/>
+      <display value="Dentist Operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="28624-5"/>
+      <display value="Podiatry Operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34137-0"/>
+      <display value="Outpatient Surgical operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34868-0"/>
+      <display value="Orthopaedic surgery Surgical operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34870-6"/>
+      <display value="Plastic surgery Surgical operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34874-8"/>
+      <display value="Surgery Surgical operation note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34877-1"/>
+      <display value="Urology Surgical operation note"/>
+    </contains>
+  </expansion>
+</ValueSet>

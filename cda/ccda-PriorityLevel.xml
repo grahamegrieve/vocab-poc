@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PriorityLevel"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PriorityLevel"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.60"/>
+  </identifier>
+  <version value="20160712"/>
+  <name value="CCDAPriorityLevel"/>
+  <title value="Priority Level"/>
+  <date value="2016-07-12"/>
+  <description value="Qualifier representing the priority of an action"/>
+  <purpose value="qualifier for an action"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="selected concepts for priority"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="only concepts identified"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:470d3adf-4a68-459e-a5d2-3ae084da8061"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="394848005"/>
+      <display value="Normal priority (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="441808003"/>
+      <display value="Delayed priority (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="394849002"/>
+      <display value="High priority (qualifier value)"/>
+    </contains>
+  </expansion>
+</ValueSet>

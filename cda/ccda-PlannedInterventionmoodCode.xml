@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PlannedInterventionmoodCode"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PlannedInterventionmoodCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.54"/>
+  </identifier>
+  <version value="20161104"/>
+  <name value="CCDAPlannedInterventionmoodCode"/>
+  <title value="Planned Intervention moodCode"/>
+  <date value="2016-11-04"/>
+  <description value="moodCode values that can be used for a planned Intervention"/>
+  <purpose value="&quot;C-CDA r2.1 @moodCode in Planned Intervention Act (V2) [act: identifier urn:hl7ii:2.16.840.1.113883.10.20.22.4.146:2015-08-01 (open)] DYNAMIC&quot;"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Selected codes as noted"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="unclear"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:644e8363-4424-453a-ab12-23c2c1f8d781"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="APT"/>
+      <display value="appointment"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ARQ"/>
+      <display value="appointment request"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRMS"/>
+      <display value="promise"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRP"/>
+      <display value="proposal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="INT"/>
+      <display value="intent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="RQO"/>
+      <display value="request"/>
+    </contains>
+  </expansion>
+</ValueSet>

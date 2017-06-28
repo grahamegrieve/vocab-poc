@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-SocialHistoryTypeSetDefinition"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-SocialHistoryTypeSetDefinition"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.80.60"/>
+  </identifier>
+  <version value="20150407"/>
+  <name value="CCDASocialHistoryTypeSetDefinition"/>
+  <title value="Social History Type Set Definition"/>
+  <date value="2015-04-07"/>
+  <description value="Classification of questions bearing on a patient&#39;s behavior, achievement, and exogenous health factors"/>
+  <expansion>
+    <identifier value="urn:uuid:966e2169-6c91-4b91-b8ec-6c780d5038de"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="228272008"/>
+      <display value="Health-related behavior (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="229819007"/>
+      <display value="Tobacco use and exposure (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="256235009"/>
+      <display value="Exercise (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="364393001"/>
+      <display value="Nutritional observable (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105421008"/>
+      <display value="Educational achievement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160573003"/>
+      <display value="Alcohol intake (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="363908000"/>
+      <display value="Details of drug misuse behavior (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="364703007"/>
+      <display value="Employment detail (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="425400000"/>
+      <display value="Toxic exposure status (observable entity)"/>
+    </contains>
+  </expansion>
+</ValueSet>

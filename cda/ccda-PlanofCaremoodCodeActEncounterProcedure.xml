@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PlanofCaremoodCodeActEncounterProcedure"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PlanofCaremoodCodeActEncounterProcedure"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.23"/>
+  </identifier>
+  <version value="20150417"/>
+  <name value="CCDAPlanofCaremoodCodeActEncounterProcedure"/>
+  <title value="Plan of Care moodCode (Act/Encounter/Procedure)"/>
+  <date value="2015-04-17"/>
+  <description value="Mood values appropriate to planned activities"/>
+  <expansion>
+    <identifier value="urn:uuid:18f3dac8-3ac2-4090-8be2-835bbadf4a40"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="INT"/>
+      <display value="intent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRMS"/>
+      <display value="promise"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRP"/>
+      <display value="proposal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="RQO"/>
+      <display value="request"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ARQ"/>
+      <display value="appointment request"/>
+    </contains>
+  </expansion>
+</ValueSet>

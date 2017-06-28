@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-HITSPVitalSignResultType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-HITSPVitalSignResultType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.80.62"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAHITSPVitalSignResultType"/>
+  <title value="HITSP Vital Sign Result Type"/>
+  <date value="2015-04-24"/>
+  <description value="A clinical observation classified as a vital sign, optionally including a method"/>
+  <expansion>
+    <identifier value="urn:uuid:b8a1361f-612f-4c3d-be55-7f9f8271f7a2"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="3140-1"/>
+      <display value="Body surface area Derived from formula"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="3141-9"/>
+      <display value="Body weight Measured"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8302-2"/>
+      <display value="Body height"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8306-3"/>
+      <display value="Body height --lying"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8462-4"/>
+      <display value="Diastolic blood pressure"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="9279-1"/>
+      <display value="Respiratory rate"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="39156-5"/>
+      <display value="Body mass index (BMI) [Ratio]"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8287-5"/>
+      <display value="Head Occipital-frontal circumference by Tape measure"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8310-5"/>
+      <display value="Body temperature"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8480-6"/>
+      <display value="Systolic blood pressure"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="8867-4"/>
+      <display value="Heart rate"/>
+    </contains>
+  </expansion>
+</ValueSet>

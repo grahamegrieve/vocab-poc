@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-CoverageRoleTypeValueSet"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-CoverageRoleTypeValueSet"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.18877"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDACoverageRoleTypeValueSet"/>
+  <title value="Coverage Role Type Value Set"/>
+  <date value="2015-04-24"/>
+  <description value="The role of the covered patient with respect to the coverage holder"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="descendants of _CoverageRoleType [abstract term] in RoleCode 2.16.840.1.113883.5.111"/>
+      </extension>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:28d7d32b-9be6-480e-a7fc-1ce48b698f97"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FAMDEP"/>
+      <display value="family dependent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FSTUD"/>
+      <display value="full-time student"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HANDIC"/>
+      <display value="handicapped dependent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SPON"/>
+      <display value="sponsored dependent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STUD"/>
+      <display value="student"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="INJ"/>
+      <display value="injured plaintiff"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PSTUD"/>
+      <display value="part-time student"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SELF"/>
+      <display value="self"/>
+    </contains>
+  </expansion>
+</ValueSet>

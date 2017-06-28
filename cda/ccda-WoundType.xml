@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-WoundType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-WoundType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.20.2.6"/>
+  </identifier>
+  <version value="20160712"/>
+  <name value="CCDAWoundType"/>
+  <title value="Wound Type"/>
+  <date value="2016-07-12"/>
+  <description value="&quot;&quot;&quot;High level&quot;&quot; concepts representing &quot;&quot;wound codes terms&quot;&quot; commonly used in long term care.&quot;"/>
+  <purpose value="condition"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="?"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="?"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:5ff1c0fb-d860-4f72-9a2a-1eadaa7134b7"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="125643001"/>
+      <display value="Open wound (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="19429009"/>
+      <display value="Chronic ulcer of skin (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="262557004"/>
+      <display value="Deep wound (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="416886008"/>
+      <display value="Closed wound (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="420324007"/>
+      <display value="Pressure ulcer stage 2 (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="420597008"/>
+      <display value="Pressure ulcer stage 4 (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="421076008"/>
+      <display value="Pressure ulcer stage 1 (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="421594008"/>
+      <display value="Nonstageable pressure ulcer (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="421927004"/>
+      <display value="Pressure ulcer stage 3 (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="422183001"/>
+      <display value="Skin ulcer associated with diabetes mellitus (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="283396008"/>
+      <display value="Incised wound (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="425144005"/>
+      <display value="Minor open wound (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="46742003"/>
+      <display value="Skin ulcer (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="95346009"/>
+      <display value="Mucocutaneous ulcer (disorder)"/>
+    </contains>
+  </expansion>
+</ValueSet>

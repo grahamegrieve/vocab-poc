@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-ResidenceandAccommodationType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-ResidenceandAccommodationType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.49"/>
+  </identifier>
+  <version value="20160712"/>
+  <name value="CCDAResidenceandAccommodationType"/>
+  <title value="Residence and Accommodation Type"/>
+  <date value="2016-07-12"/>
+  <description value="&quot;A value set of SNOMED-CT codes descending from &quot;&quot;365508006&quot;&quot; &quot;&quot;Residence and accommodation circumstances - finding&quot;&quot; reflecting type of residence, status of accommodations, living situation and environment.&quot;"/>
+  <purpose value="element that is used to describe housing situation"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="All descendants of 365508006"/>
+      </extension>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:bf726e58-0fe2-4fa3-b994-fea817ed1239"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105526001"/>
+      <display value="Homeless family (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105527005"/>
+      <display value="Living in residence with poor sanitation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105530003"/>
+      <display value="Living in residential institution (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105532006"/>
+      <display value="Overcrowded in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105536009"/>
+      <display value="Living in housing without electricity (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105537000"/>
+      <display value="Living in housing with technical defects (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="113165003"/>
+      <display value="Duplex home living (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160700001"/>
+      <display value="Homeless single person (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160701002"/>
+      <display value="Social migrant (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160702009"/>
+      <display value="Illegal migrant (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160708008"/>
+      <display value="Stairs in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160716004"/>
+      <display value="House liable to vandalism (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160729004"/>
+      <display value="Lives in sheltered housing (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160734000"/>
+      <display value="Lives in a nursing home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160736003"/>
+      <display value="Lives in a welfare home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160737007"/>
+      <display value="Lives in an old peoples home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160745002"/>
+      <display value="Lives in lodgings (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160751007"/>
+      <display value="Eviction from dwelling (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160754004"/>
+      <display value="Tenant evicted (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160936008"/>
+      <display value="Houseowner - no mortgage (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160937004"/>
+      <display value="Houseowner with mortgage (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160938009"/>
+      <display value="House rented from council (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160939001"/>
+      <display value="House rented from housing association (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160943002"/>
+      <display value="Lives in own home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="161036002"/>
+      <display value="Housing adequate (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="185956004"/>
+      <display value="On housing list (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224211003"/>
+      <display value="Does not own home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224213000"/>
+      <display value="Lives in rented accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224218009"/>
+      <display value="Lives in hotel (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224219001"/>
+      <display value="Lives in independent group home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224220007"/>
+      <display value="Lives in supported home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224221006"/>
+      <display value="Lives in warden controlled accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224223009"/>
+      <display value="Lives in accommodation with visiting warden (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224225002"/>
+      <display value="Lives in hospital (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224228000"/>
+      <display value="Living rough (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224231004"/>
+      <display value="Sleeping in night shelter (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224233001"/>
+      <display value="Sleeping in vehicle (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224234007"/>
+      <display value="Home repossessed (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224236009"/>
+      <display value="Not eligible for accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224239002"/>
+      <display value="On waiting list for accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224246006"/>
+      <display value="Private areas available in accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224248007"/>
+      <display value="Lack of space for privacy in accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224251000"/>
+      <display value="Problem with condensation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224254008"/>
+      <display value="Wet patches on wall in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224255009"/>
+      <display value="Mold growth in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224258006"/>
+      <display value="Mold on bedding in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224260008"/>
+      <display value="Hazards in the home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224264004"/>
+      <display value="Living space sufficient for needs (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224266002"/>
+      <display value="Home well personalized (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224267006"/>
+      <display value="Home poorly personalized (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224269009"/>
+      <display value="Clean home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224270005"/>
+      <display value="Dirty home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224271009"/>
+      <display value="Lives in squalid conditions (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224274001"/>
+      <display value="Home untidy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224276004"/>
+      <display value="Newly decorated accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="26533002"/>
+      <display value="Apartment building living (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266939009"/>
+      <display value="Lives in residential hostel (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="270469004"/>
+      <display value="Lives in warden attended accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="275643002"/>
+      <display value="Housing - awaiting action (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="276051005"/>
+      <display value="Fixed equipment in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="302145009"/>
+      <display value="Owns own home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="308899009"/>
+      <display value="Unsatisfactory living conditions (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="309683008"/>
+      <display value="Slum housing (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="32911000"/>
+      <display value="Homeless (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="360875003"/>
+      <display value="Moving to new residence (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365512000"/>
+      <display value="Finding of characteristics of home environment (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365513005"/>
+      <display value="Finding of state of repair of house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365515003"/>
+      <display value="Finding of personalization of home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365516002"/>
+      <display value="Finding of cleanliness of home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365517006"/>
+      <display value="Finding of tidiness of home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365519009"/>
+      <display value="Finding related to decoration of home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365521004"/>
+      <display value="Finding of presence of communal areas in accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365522006"/>
+      <display value="Finding of waiting list for accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="394923006"/>
+      <display value="Lives in a residential home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="397756006"/>
+      <display value="Lives in damp conditions (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="398081001"/>
+      <display value="Damp in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="406132007"/>
+      <display value="Living temporarily with relatives (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="413287003"/>
+      <display value="More than 3 address changes in 12 months (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="413304006"/>
+      <display value="Inadequate cooking facilities (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="413305007"/>
+      <display value="Inadequate safety equipment (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="414418009"/>
+      <display value="Housed (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="422712008"/>
+      <display value="Housing contains unsafe equipment (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="422883004"/>
+      <display value="Housing contains unsafe appliance (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423098009"/>
+      <display value="Steep stairs in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423527000"/>
+      <display value="Unsafe floor covering (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423798004"/>
+      <display value="Lack of cooling in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423859003"/>
+      <display value="Crowded living space (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423961006"/>
+      <display value="Unsafe storage of dangerous objects (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="424415008"/>
+      <display value="Dirty living conditions (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="424771006"/>
+      <display value="Insufficient means of residential exit (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="425205008"/>
+      <display value="Unsafe stairs in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="425326006"/>
+      <display value="Insufficient means of residential entrance (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="429063000"/>
+      <display value="Lives in bungalow (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="5549007"/>
+      <display value="Living in temporary quarters (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="5794003"/>
+      <display value="Country dweller (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="60585007"/>
+      <display value="Slum area living (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609241003"/>
+      <display value="Lives in apartment with elevator access (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609243000"/>
+      <display value="Lives in semidetached house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="62709005"/>
+      <display value="Suburban dweller (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="65421000"/>
+      <display value="Living in tent (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="700209003"/>
+      <display value="Lives on boat (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="70147002"/>
+      <display value="Living in trailer (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="71092004"/>
+      <display value="Living in retirement community (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="714085000"/>
+      <display value="No stairs in residence (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="78153003"/>
+      <display value="City dweller (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="82876001"/>
+      <display value="Living in mobile home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105529008"/>
+      <display value="Lives alone (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105531004"/>
+      <display value="Housing unsatisfactory (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="105535008"/>
+      <display value="Lack of heat in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160703004"/>
+      <display value="Vagrant (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160706007"/>
+      <display value="Lack of space in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160712002"/>
+      <display value="Multiple occupancy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160715000"/>
+      <display value="House infested (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160718003"/>
+      <display value="Children not allowed in house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160720000"/>
+      <display value="Harassment by landlord (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160721001"/>
+      <display value="Housing unsuited to needs (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160724009"/>
+      <display value="Independent housing, not alone (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160725005"/>
+      <display value="Lives alone - help available (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160726006"/>
+      <display value="Lives alone -no help available (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160727002"/>
+      <display value="Lives alone needs housekeeper (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160732001"/>
+      <display value="Resident in part III accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160738002"/>
+      <display value="Lives in a children&#39;s home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160744003"/>
+      <display value="Lives in bed and breakfast accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160746001"/>
+      <display value="Lives in a bedsit (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160750008"/>
+      <display value="Rehoused (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160752000"/>
+      <display value="Eviction notice served (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160753005"/>
+      <display value="Evicted forcibly from house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="160940004"/>
+      <display value="House rented from private landlord (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="161056001"/>
+      <display value="In care (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="185955000"/>
+      <display value="On urgent housing list (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="185957008"/>
+      <display value="Awaiting housing improvement (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="185960001"/>
+      <display value="Housing problem solved (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="185961002"/>
+      <display value="House fumigated (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224212005"/>
+      <display value="Home owned by family member (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224214006"/>
+      <display value="Lives in furnished rented accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224215007"/>
+      <display value="Lives in unfurnished rented accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224216008"/>
+      <display value="Lives under a landlady scheme (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224217004"/>
+      <display value="Lives in tied accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224222004"/>
+      <display value="Lives in accommodation with resident warden (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224224003"/>
+      <display value="Lives in staffed home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224226001"/>
+      <display value="No fixed abode (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224229008"/>
+      <display value="Sleeping out (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224232006"/>
+      <display value="Sleeping at friends home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224237000"/>
+      <display value="Eligible for accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224241001"/>
+      <display value="Not on waiting list for accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224243003"/>
+      <display value="Communal areas in accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224244009"/>
+      <display value="No communal areas in accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224247002"/>
+      <display value="Has own room (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224250004"/>
+      <display value="Satisfactory living conditions (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224252007"/>
+      <display value="Rising damp in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224253002"/>
+      <display value="Penetrating damp in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224256005"/>
+      <display value="Mold on surfaces in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224257001"/>
+      <display value="Mold on clothing in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224259003"/>
+      <display value="Home subject to flooding (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224262000"/>
+      <display value="House in good repair (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224273007"/>
+      <display value="Home tidy (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="224277008"/>
+      <display value="Accommodation not decorated recently (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266935003"/>
+      <display value="Housing lack (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266936002"/>
+      <display value="House in poor repair (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266940006"/>
+      <display value="Lives in squat (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="271364002"/>
+      <display value="Finding relating to awaiting housing or re-housing (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="276053008"/>
+      <display value="Tenure of accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="276055001"/>
+      <display value="Access to or within the residence (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="309681005"/>
+      <display value="Lives in furnished rented flat (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="310869005"/>
+      <display value="Planning to move (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="360885002"/>
+      <display value="Change of residence status (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365508006"/>
+      <display value="Finding of residence and accommodation circumstances (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365509003"/>
+      <display value="Finding of housing ownership and tenure (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365510008"/>
+      <display value="Finding of temporary shelter arrangements (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365511007"/>
+      <display value="Finding of eligibility for accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365514004"/>
+      <display value="Finding of adequacy of living space (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="365520003"/>
+      <display value="Finding of opportunity for privacy in accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="412769006"/>
+      <display value="Lives in mother and baby unit (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="422491004"/>
+      <display value="Housing contains exposed wiring (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423155007"/>
+      <display value="Housing contains structural barriers to movement (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="423824003"/>
+      <display value="Housing structurally unsound (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="424160003"/>
+      <display value="Unsafe storage of dangerous substances (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="424465004"/>
+      <display value="Obstructed means of residential exit (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="424661000"/>
+      <display value="Cluttered living space (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="424948003"/>
+      <display value="Obstructed means of residential entrance (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="425017003"/>
+      <display value="Inadequate residential safety device (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="425203001"/>
+      <display value="Presence of lead-based paint (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="443218005"/>
+      <display value="Telecommunications device for the deaf installed in home (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="443314009"/>
+      <display value="Lives as illegal tenant (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609239004"/>
+      <display value="Lives in noninstitutional accommodation (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609240002"/>
+      <display value="Lives in ground floor apartment (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609242005"/>
+      <display value="Lives in apartment without elevator access (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609244006"/>
+      <display value="Lives in terraced house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="609245007"/>
+      <display value="Lives in detached house (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="67972000"/>
+      <display value="Single home living (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="71099008"/>
+      <display value="Living in residence with no sanitation (finding)"/>
+    </contains>
+  </expansion>
+</ValueSet>

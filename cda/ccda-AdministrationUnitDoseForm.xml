@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-AdministrationUnitDoseForm"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-AdministrationUnitDoseForm"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113762.1.4.1021.30"/>
+  </identifier>
+  <version value="20161010"/>
+  <name value="CCDAAdministrationUnitDoseForm"/>
+  <title value="AdministrationUnitDoseForm"/>
+  <date value="2016-10-10"/>
+  <description value="&quot;Codes that are similar to a drug &quot;&quot;form&quot;&quot; but limited to those used as units when describing drug administration when the drug item is a physical form that is continuous and therefore not administered as an &quot;&quot;each&quot;&quot; of the physical form, or is not using standard measurement units (inch, ounce, gram, etc.) This set does not include unit concepts that mimic &quot;&quot;physical form&quot;&quot; concepts that can be counted using &quot;&quot;each&quot;&quot;, such as tablet, bar, lozenge, packet, etc.&quot;"/>
+  <purpose value="C-CDA substanceAdministration/administrationUnitCode"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;Unit concepts describing drug administration when the drug item is not administered as an &quot;&quot;each&quot;&quot; of the physical form, or is not using standard measurement units (inch, ounce, gram, etc.)&quot;"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;This set does not include unit concepts that mimic &quot;&quot;physical form&quot;&quot; concepts that can be counted using &quot;&quot;each&quot;&quot;, such as tablet, bar, lozenge, packet, etc. Does not include standard measurement units (inch, ounce, gram, etc.)&quot;"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:8f68a826-445b-4c99-b6f3-414d43482aa8"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C102405"/>
+      <display value="Capful Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C122629"/>
+      <display value="Actuation Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C122631"/>
+      <display value="Dropperful Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C25397"/>
+      <display value="Application Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C44278"/>
+      <display value="Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C48536"/>
+      <display value="Scoopful Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C48537"/>
+      <display value="Spray Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C65060"/>
+      <display value="Puff Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C71204"/>
+      <display value="Nebule Dosing Unit"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C48491"/>
+      <display value="Metric Drop"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <version value="2016"/>
+      <code value="C48501"/>
+      <display value="Inhalation Dosing Unit"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-AdvanceDirectiveTypeCode"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-AdvanceDirectiveTypeCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.20.2"/>
+  </identifier>
+  <version value="20150528"/>
+  <name value="CCDAAdvanceDirectiveTypeCode"/>
+  <title value="Advance Directive Type Code"/>
+  <date value="2015-05-28"/>
+  <description value="Kinds of intervention addressed by an advance directive"/>
+  <expansion>
+    <identifier value="urn:uuid:f410688a-fb53-457c-af1c-d8d2897f6bf4"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="281789004"/>
+      <display value="Antibiotic therapy (procedure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="304251008"/>
+      <display value="Resuscitation status (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="61420007"/>
+      <display value="Tube feeding of patient (regime/therapy)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="52765003"/>
+      <display value="Intubation (procedure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="71388002"/>
+      <display value="Procedure (procedure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="78823007"/>
+      <display value="Life support procedure (procedure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="89666000"/>
+      <display value="Cardiopulmonary resuscitation (procedure)"/>
+    </contains>
+  </expansion>
+</ValueSet>

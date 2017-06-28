@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-INDRoleclassCodes"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-INDRoleclassCodes"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.33"/>
+  </identifier>
+  <version value="20150310"/>
+  <name value="CCDAINDRoleclassCodes"/>
+  <title value="INDRoleclassCodes"/>
+  <date value="2015-03-10"/>
+  <description value="The relationship between a patient and a document participant"/>
+  <expansion>
+    <identifier value="urn:uuid:e9af9a2e-c310-4adc-ad76-fea967f4e12b"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ECON"/>
+      <display value="emergency contact"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NOK"/>
+      <display value="next of kin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRS"/>
+      <display value="personal relationship"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="AGNT"/>
+      <display value="agent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CAREGIVER"/>
+      <display value="caregiver"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GUAR"/>
+      <display value="guarantor"/>
+    </contains>
+  </expansion>
+</ValueSet>

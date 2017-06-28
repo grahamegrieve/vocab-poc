@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-ConsultDocumentType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-ConsultDocumentType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.31"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAConsultDocumentType"/>
+  <title value="ConsultDocumentType"/>
+  <date value="2015-04-24"/>
+  <description value="A classification of a document by the author&#39;s specialty, role, setting, or some combination of these properties"/>
+  <expansion>
+    <identifier value="urn:uuid:d21f7925-85a4-422d-b5fa-d3038da596d5"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34099-2"/>
+      <display value="Cardiology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34100-8"/>
+      <display value="Intensive care unit Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34101-6"/>
+      <display value="General medicine Outpatient Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34102-4"/>
+      <display value="Psychiatry Hospital Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34103-2"/>
+      <display value="Pulmonary Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34749-2"/>
+      <display value="Anesthesiology Outpatient Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34760-9"/>
+      <display value="Diabetology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34761-7"/>
+      <display value="Gastroenterology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34764-1"/>
+      <display value="General medicine Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34776-5"/>
+      <display value="Geriatric medicine Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34777-3"/>
+      <display value="Obstetrics and Gynecology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34779-9"/>
+      <display value="Hematology+Medical oncology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34781-5"/>
+      <display value="Infectious disease Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34791-4"/>
+      <display value="Psychology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34800-3"/>
+      <display value="Nutrition and dietetics Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34807-8"/>
+      <display value="Ophthalmology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34814-4"/>
+      <display value="Orthopaedic surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34820-1"/>
+      <display value="Pharmacology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34826-8"/>
+      <display value="Plastic surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34831-8"/>
+      <display value="Radiation oncology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34837-5"/>
+      <display value="Respiratory therapy Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34849-0"/>
+      <display value="Cardiothoracic surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34853-2"/>
+      <display value="Vascular surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34855-7"/>
+      <display value="Occupational therapy Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11488-4"/>
+      <display value="Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34104-0"/>
+      <display value="Hospital Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34756-7"/>
+      <display value="Dentistry Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34758-3"/>
+      <display value="Dermatology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34783-1"/>
+      <display value="Kinesiotherapy Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34785-6"/>
+      <display value="Mental health Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34788-0"/>
+      <display value="Psychiatry Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34795-5"/>
+      <display value="Nephrology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34797-1"/>
+      <display value="Neurology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34798-9"/>
+      <display value="Neurological surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34803-7"/>
+      <display value="Occupational medicine Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34805-2"/>
+      <display value="Oncology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34810-2"/>
+      <display value="Optometry Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34812-8"/>
+      <display value="Oral and Maxillofacial Surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34816-9"/>
+      <display value="Otolaryngology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34822-7"/>
+      <display value="Physical medicine and rehab Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34824-3"/>
+      <display value="Physical therapy Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34828-4"/>
+      <display value="Podiatry Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34833-4"/>
+      <display value="Recreational therapy Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34839-1"/>
+      <display value="Rheumatology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34841-7"/>
+      <display value="Social work Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34845-8"/>
+      <display value="Speech-language pathology+Audiology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34847-4"/>
+      <display value="Surgery Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34851-6"/>
+      <display value="Urology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34879-7"/>
+      <display value="Endocrinology Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="51845-6"/>
+      <display value="Outpatient Consult note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="51846-4"/>
+      <display value="Emergency department Consult note"/>
+    </contains>
+  </expansion>
+</ValueSet>

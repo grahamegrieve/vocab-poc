@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-HPDocumentType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-HPDocumentType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.20.22"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAHPDocumentType"/>
+  <title value="HPDocumentType"/>
+  <date value="2015-04-24"/>
+  <description value="Subclassification of history &amp; physical document by setting, author role, and author specialty"/>
+  <expansion>
+    <identifier value="urn:uuid:9e1ac574-938d-4769-b776-6e20d17b4d0c"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11492-6"/>
+      <display value="Provider-unspecifed, History and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34115-6"/>
+      <display value="Medical student Hospital History and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34116-4"/>
+      <display value="Physician Nursing facility History and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="47039-3"/>
+      <display value="Hospital Admission history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="51849-8"/>
+      <display value="Admission history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="28626-0"/>
+      <display value="Physician History and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34094-3"/>
+      <display value="Cardiology Hospital Admission history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34095-0"/>
+      <display value="Comprehensive history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34096-8"/>
+      <display value="Nursing facility Comprehensive history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34117-2"/>
+      <display value="History and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34138-8"/>
+      <display value="Targeted history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34763-3"/>
+      <display value="General medicine Admission history and physical note"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34774-0"/>
+      <display value="Surgery History and physical note"/>
+    </contains>
+  </expansion>
+</ValueSet>

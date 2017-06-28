@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-ActStatus"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-ActStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.15933"/>
+  </identifier>
+  <version value="20161012"/>
+  <name value="CCDAActStatus"/>
+  <title value="ActStatus"/>
+  <date value="2016-10-12"/>
+  <description value="Contains the names (codes) for each of the states in the state-machine of the RIM Act class."/>
+  <purpose value="status of an act"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="All codes in the HL7 ActStatus code system"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="none"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:453415e6-cd40-4515-9fcf-0e326fc05926"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="active"/>
+      <display value="active"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="completed"/>
+      <display value="completed"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="new"/>
+      <display value="new"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="normal"/>
+      <display value="normal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="nullified"/>
+      <display value="nullified"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="aborted"/>
+      <display value="aborted"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="cancelled"/>
+      <display value="cancelled"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="held"/>
+      <display value="held"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="obsolete"/>
+      <display value="obsolete"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="suspended"/>
+      <display value="suspended"/>
+    </contains>
+  </expansion>
+</ValueSet>

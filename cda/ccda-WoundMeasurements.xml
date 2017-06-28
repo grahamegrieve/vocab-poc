@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-WoundMeasurements"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-WoundMeasurements"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.20.2.5"/>
+  </identifier>
+  <version value="20160712"/>
+  <name value="CCDAWoundMeasurements"/>
+  <title value="Wound Measurements"/>
+  <date value="2016-07-12"/>
+  <description value="Concepts that represent the observables for the dimensions of a wound."/>
+  <purpose value="observable"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="the selected set"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="only as selected in inclusion criteria"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:050cdbf3-b6ef-4b6d-af5b-df4423aac066"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="39126-8"/>
+      <display value="Length of Wound"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="39127-6"/>
+      <display value="Depth of Wound"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="39125-0"/>
+      <display value="Width of Wound"/>
+    </contains>
+  </expansion>
+</ValueSet>

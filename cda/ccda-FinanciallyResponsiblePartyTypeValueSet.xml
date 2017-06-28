@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-FinanciallyResponsiblePartyTypeValueSet"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-FinanciallyResponsiblePartyTypeValueSet"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.10416"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAFinanciallyResponsiblePartyTypeValueSet"/>
+  <title value="Financially Responsible Party Type Value Set"/>
+  <date value="2015-04-24"/>
+  <description value="A relationship between two entities that is formally recognized, frequently by a contract or similar agreement"/>
+  <expansion>
+    <identifier value="urn:uuid:75b215ec-df05-4015-8327-449c8a37c0b0"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="AGNT"/>
+      <display value="agent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ASSIGNED"/>
+      <display value="assigned entity"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CIT"/>
+      <display value="citizen"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="COMPAR"/>
+      <display value="commissioning party"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CRINV"/>
+      <display value="clinical research investigator"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="EMP"/>
+      <display value="employee"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GUAR"/>
+      <display value="guarantor"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GUARD"/>
+      <display value="guardian"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="LIC"/>
+      <display value="licensed entity"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NOK"/>
+      <display value="next of kin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NOT"/>
+      <display value="notary public"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="RESBJ"/>
+      <display value="research subject"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CON"/>
+      <display value="contact"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="COVPTY"/>
+      <display value="covered party"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CRSPNSR"/>
+      <display value="clinical research sponsor"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ECON"/>
+      <display value="emergency contact"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="INVSBJ"/>
+      <display value="Investigation Subject"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MIL"/>
+      <display value="military person"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PAT"/>
+      <display value="patient"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PAYEE"/>
+      <display value="payee"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PAYOR"/>
+      <display value="invoice payor"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="POLHOLD"/>
+      <display value="policy holder"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PROV"/>
+      <display value="healthcare provider"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="QUAL"/>
+      <display value="qualified entity"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SGNOFF"/>
+      <display value="signing authority or officer"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SPNSR"/>
+      <display value="coverage sponsor"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STD"/>
+      <display value="student"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="UNDWRT"/>
+      <display value="underwriter"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PressurePoint"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PressurePoint"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.36"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAPressurePoint"/>
+  <title value="Pressure Point"/>
+  <date value="2015-04-24"/>
+  <description value="Locations on the body commonly associated with pressure ulcer development"/>
+  <expansion>
+    <identifier value="urn:uuid:db1d98b8-a48c-4906-9cbe-23b72d040e77"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="113179006"/>
+      <display value="Skin structure of nose (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="23747009"/>
+      <display value="Skin structure of chin (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="49812005"/>
+      <display value="Skin structure of hip (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="50938007"/>
+      <display value="Skin structure of sacrococcygeal region (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="63464009"/>
+      <display value="Skin structure of knee (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="76552005"/>
+      <display value="Skin structure of shoulder (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="1797002"/>
+      <display value="Structure of anterior naris (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="1902009"/>
+      <display value="Skin structure of ear (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="22180002"/>
+      <display value="Skin structure of buttock (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="286591006"/>
+      <display value="Skin of lumbar region (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="29850006"/>
+      <display value="Iliac crest structure (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="304037003"/>
+      <display value="Thoracic region back structure (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="36141000"/>
+      <display value="Skin structure of cheek (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="45980000"/>
+      <display value="Skin structure of scapular region of back (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="51027004"/>
+      <display value="Skin structure of sacral region (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="67269001"/>
+      <display value="Skin structure of ankle (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="74757004"/>
+      <display value="Skin structure of elbow (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="79951008"/>
+      <display value="Skin of occipital region (body structure)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="84607009"/>
+      <display value="Skin structure of heel (body structure)"/>
+    </contains>
+  </expansion>
+</ValueSet>

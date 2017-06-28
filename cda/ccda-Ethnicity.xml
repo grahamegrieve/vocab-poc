@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-Ethnicity"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-Ethnicity"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.114222.4.11.837"/>
+  </identifier>
+  <version value="20121025"/>
+  <name value="CCDAEthnicity"/>
+  <title value="Ethnicity"/>
+  <date value="2012-10-25"/>
+  <expansion>
+    <identifier value="urn:uuid:5bcd0cba-1dee-4f47-8c59-186e2bb69a43"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <version value="1.1"/>
+      <code value="2135-2"/>
+      <display value="Hispanic or Latino"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <version value="1.1"/>
+      <code value="2186-5"/>
+      <display value="Not Hispanic or Latino"/>
+    </contains>
+  </expansion>
+</ValueSet>

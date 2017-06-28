@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-TelecomUseUSRealmHeader"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-TelecomUseUSRealmHeader"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.20"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDATelecomUseUSRealmHeader"/>
+  <title value="Telecom Use (US Realm Header)"/>
+  <date value="2015-04-24"/>
+  <description value="The purpose for which an entity is assigned a telecom address"/>
+  <expansion>
+    <identifier value="urn:uuid:6c377e7e-3b9b-4917-9af6-ba248b41e0c9"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HP"/>
+      <display value="primary home"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HV"/>
+      <display value="vacation home"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MC"/>
+      <display value="mobile contact)"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="WP"/>
+      <display value="work place"/>
+    </contains>
+  </expansion>
+</ValueSet>

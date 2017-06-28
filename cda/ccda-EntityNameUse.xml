@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-EntityNameUse"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-EntityNameUse"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.15913"/>
+  </identifier>
+  <version value="20150310"/>
+  <name value="CCDAEntityNameUse"/>
+  <title value="EntityNameUse"/>
+  <date value="2015-03-10"/>
+  <description value="The purpose for which a name is assigned to an entity"/>
+  <expansion>
+    <identifier value="urn:uuid:6993b2da-2989-46d1-b958-043eae70ea3b"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="A"/>
+      <display value="Artist/Stage"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="R"/>
+      <display value="Religious"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SNDX"/>
+      <display value="Soundex"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SRCH"/>
+      <display value="search"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SYL"/>
+      <display value="Syllabic"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ABC"/>
+      <display value="Alphabetic"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ASGN"/>
+      <display value="assigned"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="C"/>
+      <display value="License"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="I"/>
+      <display value="Indigenous/Tribal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="IDE"/>
+      <display value="Ideographic"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="L"/>
+      <display value="Legal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="P"/>
+      <display value="pseudonym"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNameUse"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PHON"/>
+      <display value="phonetic"/>
+    </contains>
+  </expansion>
+</ValueSet>

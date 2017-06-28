@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PersonalRelationshipRoleType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PersonalRelationshipRoleType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.19563"/>
+  </identifier>
+  <version value="20161112"/>
+  <name value="CCDAPersonalRelationshipRoleType"/>
+  <title value="Personal Relationship Role Type"/>
+  <date value="2016-11-12"/>
+  <description value="The role of a person in relation to another person"/>
+  <purpose value="C-CDA r1.1 @code for roles of family members related to patient."/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;Union of: (Descendants of _PersonalRelationshipRoleType&quot;"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Only as in inclusion. Does not include Responsible Party descendants"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:3747ce5d-8c9f-4742-a59f-a3e6b54c8da9"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ADOPTF"/>
+      <display value="adoptive father"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="BRO"/>
+      <display value="brother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="BROINLAW"/>
+      <display value="brother-in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CHLDFOST"/>
+      <display value="foster child"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CHLDINLAW"/>
+      <display value="child-in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="DAUADOPT"/>
+      <display value="adopted daughter"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="DAUFOST"/>
+      <display value="foster daughter"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FTWIN"/>
+      <display value="fraternal twin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GESTM"/>
+      <display value="gestational mother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GGRFTH"/>
+      <display value="great grandfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GGRMTH"/>
+      <display value="great grandmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GGRPRN"/>
+      <display value="great grandparent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GRFTH"/>
+      <display value="grandfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GRMTH"/>
+      <display value="grandmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GRNDCHILD"/>
+      <display value="grandchild"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GRNDDAU"/>
+      <display value="granddaughter"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GRNDSON"/>
+      <display value="grandson"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="GRPRN"/>
+      <display value="grandparent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HSIS"/>
+      <display value="half-sister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HUSB"/>
+      <display value="husband"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ITWINBRO"/>
+      <display value="identical twin brother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ITWINSIS"/>
+      <display value="identical twin sister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MCOUSN"/>
+      <display value="maternal cousin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MGGRFTH"/>
+      <display value="maternal great-grandfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MGRMTH"/>
+      <display value="maternal grandmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MGRPRN"/>
+      <display value="maternal grandparent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MTHINLAW"/>
+      <display value="mother-in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NBRO"/>
+      <display value="natural brother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NFTH"/>
+      <display value="natural father"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NFTHF"/>
+      <display value="natural father of fetus"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NMTH"/>
+      <display value="natural mother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NMTHF"/>
+      <display value="natural mother of fetus"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NPRN"/>
+      <display value="natural parent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NSIS"/>
+      <display value="natural sister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ONESELF"/>
+      <display value="self"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PAUNT"/>
+      <display value="paternal aunt"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PGGRFTH"/>
+      <display value="paternal great-grandfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PGRFTH"/>
+      <display value="paternal grandfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRN"/>
+      <display value="parent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRNFOST"/>
+      <display value="foster parent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ROOM"/>
+      <display value="Roommate"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SIBINLAW"/>
+      <display value="sibling in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SIGOTHR"/>
+      <display value="significant other"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SIS"/>
+      <display value="sister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SON"/>
+      <display value="natural son"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SONADOPT"/>
+      <display value="adopted son"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SONC"/>
+      <display value="son"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SONINLAW"/>
+      <display value="son in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SPS"/>
+      <display value="spouse"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPBRO"/>
+      <display value="stepbrother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPFTH"/>
+      <display value="stepfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPMTH"/>
+      <display value="stepmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPPRN"/>
+      <display value="step parent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="WIFE"/>
+      <display value="wife"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ADOPTM"/>
+      <display value="adoptive mother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ADOPTP"/>
+      <display value="adoptive parent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="AUNT"/>
+      <display value="aunt"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CHILD"/>
+      <display value="child"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="CHLDADOPT"/>
+      <display value="adopted child"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="COUSN"/>
+      <display value="cousin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="DAU"/>
+      <display value="natural daughter"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="DAUC"/>
+      <display value="daughter"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="DAUINLAW"/>
+      <display value="daughter in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="DOMPART"/>
+      <display value="domestic partner"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="EXT"/>
+      <display value="extended family member"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FAMMEMB"/>
+      <display value="family member"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FMRSPS"/>
+      <display value="former spouse"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FRND"/>
+      <display value="unrelated friend"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FTH"/>
+      <display value="father"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FTHFOST"/>
+      <display value="foster father"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FTHINLAW"/>
+      <display value="father-in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FTWINBRO"/>
+      <display value="fraternal twin brother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="FTWINSIS"/>
+      <display value="fraternal twin sister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HBRO"/>
+      <display value="half-brother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="HSIB"/>
+      <display value="half-sibling"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="INLAW"/>
+      <display value="inlaw"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="ITWIN"/>
+      <display value="identical twin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MAUNT"/>
+      <display value="maternal aunt"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MGGRMTH"/>
+      <display value="maternal great-grandmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MGGRPRN"/>
+      <display value="maternal great-grandparent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MGRFTH"/>
+      <display value="maternal grandfather"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MTH"/>
+      <display value="mother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MTHFOST"/>
+      <display value="foster mother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="MUNCLE"/>
+      <display value="maternal uncle"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NBOR"/>
+      <display value="neighbor"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NCHILD"/>
+      <display value="natural child"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NEPHEW"/>
+      <display value="nephew"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NIECE"/>
+      <display value="niece"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NIENEPH"/>
+      <display value="niece/nephew"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="NSIB"/>
+      <display value="natural sibling"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PCOUSN"/>
+      <display value="paternal cousin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PGGRMTH"/>
+      <display value="paternal great-grandmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PGGRPRN"/>
+      <display value="paternal great-grandparent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PGRMTH"/>
+      <display value="paternal grandmother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PGRPRN"/>
+      <display value="paternal grandparent"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRNINLAW"/>
+      <display value="parent in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PUNCLE"/>
+      <display value="paternal uncle"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SIB"/>
+      <display value="sibling"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SISINLAW"/>
+      <display value="sister-in-law"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SONFOST"/>
+      <display value="foster son"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPCHLD"/>
+      <display value="step child"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPDAU"/>
+      <display value="stepdaughter"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPSIB"/>
+      <display value="step sibling"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPSIS"/>
+      <display value="stepsister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="STPSON"/>
+      <display value="stepson"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="TWIN"/>
+      <display value="twin"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="TWINBRO"/>
+      <display value="twin brother"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="TWINSIS"/>
+      <display value="twin sister"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="UNCLE"/>
+      <display value="uncle"/>
+    </contains>
+  </expansion>
+</ValueSet>

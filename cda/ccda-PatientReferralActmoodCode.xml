@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-PatientReferralActmoodCode"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-PatientReferralActmoodCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.66"/>
+  </identifier>
+  <version value="20161104"/>
+  <name value="CCDAPatientReferralActmoodCode"/>
+  <title value="Patient Referral Act moodCode"/>
+  <date value="2016-11-04"/>
+  <description value="Contains all the moodCode values it is possible to have for an Patient Referral Act."/>
+  <purpose value="@Moodcode in Patient Referral Act [act: identifier urn:oid:2.16.840.1.113883.10.20.22.4.140 (open)] Static"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="Only two codes allowed"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="as specified in inclusion list"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:1454b2ef-6347-41c6-92f3-c7d0d48513db"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="RQO"/>
+      <display value="request"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="INT"/>
+      <display value="intent"/>
+    </contains>
+  </expansion>
+</ValueSet>

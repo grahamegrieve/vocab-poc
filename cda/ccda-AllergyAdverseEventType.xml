@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-AllergyAdverseEventType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-AllergyAdverseEventType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.6.2"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAAllergyAdverseEventType"/>
+  <title value="Allergy/Adverse Event Type"/>
+  <date value="2015-04-24"/>
+  <description value="The class of substance and intolerance suffered by the patient"/>
+  <expansion>
+    <identifier value="urn:uuid:fde7ebdb-5b89-47bd-a851-f8148a25543c"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="235719002"/>
+      <display value="Food intolerance (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="418038007"/>
+      <display value="Propensity to adverse reactions to substance (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="419199007"/>
+      <display value="Allergy to substance (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="419511003"/>
+      <display value="Propensity to adverse reactions to drug (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="59037007"/>
+      <display value="Drug intolerance (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="414285001"/>
+      <display value="Food allergy (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="416098002"/>
+      <display value="Drug allergy (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="418471000"/>
+      <display value="Propensity to adverse reactions to food (disorder)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="420134006"/>
+      <display value="Propensity to adverse reactions (disorder)"/>
+    </contains>
+  </expansion>
+</ValueSet>

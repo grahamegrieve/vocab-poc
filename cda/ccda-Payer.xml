@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-Payer"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-Payer"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.114222.4.11.3591"/>
+  </identifier>
+  <version value="20161108"/>
+  <name value="CCDAPayer"/>
+  <title value="Payer"/>
+  <date value="2016-11-08"/>
+  <description value="Categories of types of health care payor entities as defined by the US Public Health Data Consortium SOP code system"/>
+  <purpose value="@code in CCDA r2.1 template Planned Coverage [act: identifier urn:oid:2.16.840.1.113883.10.20.22.4.129 (open)] DYNAMIC"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="All codes in the code system"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="none"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:35177f4b-5799-4ee2-88ba-839d632bc9a8"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="1"/>
+      <display value="MEDICARE"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="11"/>
+      <display value="Medicare (Managed Care)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="111"/>
+      <display value="Medicare HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="112"/>
+      <display value="Medicare PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="119"/>
+      <display value="Medicare Managed Care Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="12"/>
+      <display value="Medicare (Non-managed Care)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="122"/>
+      <display value="Medicare Drug Benefit"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="123"/>
+      <display value="Medicare Medical Savings Account (MSA)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="129"/>
+      <display value="Medicare Non-managed Care Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="13"/>
+      <display value="Medicare Hospice"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="14"/>
+      <display value="Dual Eligibility Medicare/Medicaid Organization"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="2"/>
+      <display value="MEDICAID"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="21"/>
+      <display value="Medicaid (Managed Care)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="219"/>
+      <display value="Medicaid Managed Care Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="23"/>
+      <display value="Medicaid/SCHIP"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="29"/>
+      <display value="Medicaid Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="291"/>
+      <display value="Medicaid Pharmacy Benefit Manager"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="311"/>
+      <display value="TRICARE (CHAMPUS)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3111"/>
+      <display value="TRICARE Prime--HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3112"/>
+      <display value="TRICARE Extra--PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3116"/>
+      <display value="Uniformed Services Family Health Plan (USFHP) -- HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3119"/>
+      <display value="Department of Defense - (other)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32"/>
+      <display value="Department of Veterans Affairs"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="321"/>
+      <display value="Veteran care--Care provided to Veterans"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3211"/>
+      <display value="Direct Care--Care provided in VA facilities"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32122"/>
+      <display value="Foreign Fee/Foreign Medical Program(FMP)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32123"/>
+      <display value="Contract Nursing Home/Community Nursing Home"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32126"/>
+      <display value="Other Federal Agency"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3221"/>
+      <display value="Civilian Health and Medical Program for the VA (CHAMPVA)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3222"/>
+      <display value="Spina Bifida Health Care Program (SB)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3229"/>
+      <display value="Other non-veteran care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="33"/>
+      <display value="Indian Health Service or Tribe"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="34"/>
+      <display value="HRSA Program"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="341"/>
+      <display value="Title V (MCH Block Grant)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="342"/>
+      <display value="Migrant Health Program"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="35"/>
+      <display value="Black Lung"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="36"/>
+      <display value="State Government"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="361"/>
+      <display value="State SCHIP program (codes for individual states)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="362"/>
+      <display value="Specific state programs (list/ local code)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3712"/>
+      <display value="PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="372"/>
+      <display value="FFS/Indemnity"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="379"/>
+      <display value="Local, not otherwise specified (other local, county)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="38"/>
+      <display value="Other Government (Federal, State, Local not specified)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3813"/>
+      <display value="Federal, State, Local not specified - POS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="382"/>
+      <display value="Federal, State, Local not specified - FFS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="389"/>
+      <display value="Federal, State, Local not specified - Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="44"/>
+      <display value="Corrections Unknown Level"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="5"/>
+      <display value="PRIVATE HEALTH INSURANCE"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="51"/>
+      <display value="Managed Care (Private)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="512"/>
+      <display value="Commercial Managed Care - PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="513"/>
+      <display value="Commercial Managed Care - POS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="515"/>
+      <display value="Gatekeeper PPO (GPPO)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="516"/>
+      <display value="Commercial Managed Care - Pharmacy Benefit Manager"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="521"/>
+      <display value="Commercial Indemnity"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="529"/>
+      <display value="Private health insurance--other commercial Indemnity"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="53"/>
+      <display value="Managed Care (private) or private health insurance (indemnity), not otherwise specified"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="55"/>
+      <display value="Small Employer Purchasing Group"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="56"/>
+      <display value="Specialized Stand Alone Plan"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="561"/>
+      <display value="Dental"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="562"/>
+      <display value="Vision"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="61"/>
+      <display value="BC Managed Care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="611"/>
+      <display value="BC Managed Care -- HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="612"/>
+      <display value="BC Managed Care -- PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="613"/>
+      <display value="BC Managed Care -- POS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="62"/>
+      <display value="BC Indemnity"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="63"/>
+      <display value="BC (Indemnity or Managed Care) - Out of State"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="64"/>
+      <display value="BC (Indemnity or Managed Care) - Unspecified"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="7"/>
+      <display value="MANAGED CARE, UNSPECIFIED (to be used only if one can&#39;t distinguish public from private)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="71"/>
+      <display value="HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="8"/>
+      <display value="NO PAYMENT from an Organization/Agency/Program/Private Payer Listed"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="822"/>
+      <display value="Professional Courtesy"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="83"/>
+      <display value="Refusal to Pay/Bad Debt"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="85"/>
+      <display value="Research/Donor"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="89"/>
+      <display value="No Payment, Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="93"/>
+      <display value="Disability Insurance"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="954"/>
+      <display value="Worker&#39;s Comp Other Managed Care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="959"/>
+      <display value="Worker&#39;s Comp, Other unspecified"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="96"/>
+      <display value="Auto Insurance (includes no fault)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="9999"/>
+      <display value="Unavailable / No Payer Specified / Blank"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="113"/>
+      <display value="Medicare POS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="121"/>
+      <display value="Medicare FFS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="19"/>
+      <display value="Medicare Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="191"/>
+      <display value="Medicare Pharmacy Benefit Manager"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="211"/>
+      <display value="Medicaid HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="212"/>
+      <display value="Medicaid PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="213"/>
+      <display value="Medicaid PCCM (Primary Care Case Management)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="22"/>
+      <display value="Medicaid (Non-managed Care Plan)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="24"/>
+      <display value="Medicaid Applicant"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="25"/>
+      <display value="Medicaid - Out of State"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="26"/>
+      <display value="Medicaid -- Long Term Care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3"/>
+      <display value="OTHER GOVERNMENT (Federal/State/Local) (excluding Department of Corrections)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="31"/>
+      <display value="Department of Defense"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3113"/>
+      <display value="TRICARE Standard - Fee For Service"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3114"/>
+      <display value="TRICARE For Life--Medicare Supplement"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3115"/>
+      <display value="TRICARE Reserve Select"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="312"/>
+      <display value="Military Treatment Facility"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3121"/>
+      <display value="Enrolled Prime--HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3122"/>
+      <display value="Non-enrolled Space Available"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3123"/>
+      <display value="TRICARE For Life (TFL)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="313"/>
+      <display value="Dental --Stand Alone"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3212"/>
+      <display value="Indirect Care--Care provided outside VA facilities"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32121"/>
+      <display value="Fee Basis"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32124"/>
+      <display value="State Veterans Home"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="32125"/>
+      <display value="Sharing Agreements"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="322"/>
+      <display value="Non-veteran care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3223"/>
+      <display value="Children of Women Vietnam Veterans (CWVV)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="331"/>
+      <display value="Indian Health Service -- Regular"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="332"/>
+      <display value="Indian Health Service -- Contract"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="333"/>
+      <display value="Indian Health Service - Managed Care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="334"/>
+      <display value="Indian Tribe - Sponsored Coverage"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="343"/>
+      <display value="Ryan White Act"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="349"/>
+      <display value="Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="369"/>
+      <display value="State, not otherwise specified (other state)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="37"/>
+      <display value="Local Government"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="371"/>
+      <display value="Local - Managed care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3711"/>
+      <display value="HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3713"/>
+      <display value="POS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="381"/>
+      <display value="Federal, State, Local not specified managed care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3811"/>
+      <display value="Federal, State, Local not specified - HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3812"/>
+      <display value="Federal, State, Local not specified - PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="3819"/>
+      <display value="Federal, State, Local not specified - not specified managed care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="39"/>
+      <display value="Other Federal"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="4"/>
+      <display value="DEPARTMENTS OF CORRECTIONS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="41"/>
+      <display value="Corrections Federal"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="42"/>
+      <display value="Corrections State"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="43"/>
+      <display value="Corrections Local"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="511"/>
+      <display value="Commercial Managed Care - HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="514"/>
+      <display value="Exclusive Provider Organization"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="519"/>
+      <display value="Managed Care, Other (non HMO)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="52"/>
+      <display value="Private Health Insurance - Indemnity"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="522"/>
+      <display value="Self-insured (ERISA) Administrative Services Only (ASO) plan"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="523"/>
+      <display value="Medicare supplemental policy (as second payer)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="54"/>
+      <display value="Organized Delivery System"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="59"/>
+      <display value="Other Private Insurance"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="6"/>
+      <display value="BLUE CROSS/BLUE SHIELD"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="619"/>
+      <display value="BC Managed Care -- Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="69"/>
+      <display value="BC (Indemnity or Managed Care) - Other"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="72"/>
+      <display value="PPO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="73"/>
+      <display value="POS"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="79"/>
+      <display value="Other Managed Care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="81"/>
+      <display value="Self-pay"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="82"/>
+      <display value="No Charge"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="821"/>
+      <display value="Charity"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="823"/>
+      <display value="Research/Clinical Trial"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="84"/>
+      <display value="Hill Burton Free Care"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="9"/>
+      <display value="MISCELLANEOUS/OTHER"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="91"/>
+      <display value="Foreign National"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="92"/>
+      <display value="Other (Non-government)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="94"/>
+      <display value="Long-term Care Insurance"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="95"/>
+      <display value="Worker&#39;s Compensation"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="951"/>
+      <display value="Worker&#39;s Comp HMO"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="953"/>
+      <display value="Worker&#39;s Comp Fee-for-Service"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="97"/>
+      <display value="Legal Liability / Liability Insurance"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="98"/>
+      <display value="Other specified but not otherwise classifiable (includes Hospice - Unspecified plan)"/>
+    </contains>
+    <contains>
+      <system value="http://phdsc.org/standards/payer-typology.asp"/>
+      <version value="6.0"/>
+      <code value="99"/>
+      <display value="No Typology Code available for payment source"/>
+    </contains>
+  </expansion>
+</ValueSet>

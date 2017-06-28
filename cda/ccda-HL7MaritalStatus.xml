@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-HL7MaritalStatus"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-HL7MaritalStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.12212"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAHL7MaritalStatus"/>
+  <title value="HL7 Marital Status"/>
+  <date value="2015-04-24"/>
+  <description value="The domestic partnership status of a person."/>
+  <expansion>
+    <identifier value="urn:uuid:477eb4a7-f8f2-4fc7-af73-6226b2bffc4c"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="A"/>
+      <display value="Annulled"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="D"/>
+      <display value="Divorced"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="S"/>
+      <display value="Never Married"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="T"/>
+      <display value="Domestic partner"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="W"/>
+      <display value="Widowed"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="I"/>
+      <display value="Interlocutory"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="L"/>
+      <display value="Legally Separated"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="M"/>
+      <display value="Married"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-MaritalStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="P"/>
+      <display value="Polygamous"/>
+    </contains>
+  </expansion>
+</ValueSet>

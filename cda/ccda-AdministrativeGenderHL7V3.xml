@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-AdministrativeGenderHL7V3"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-AdministrativeGenderHL7V3"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.1"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAAdministrativeGenderHL7V3"/>
+  <title value="Administrative Gender (HL7 V3)"/>
+  <date value="2015-04-24"/>
+  <description value="The gender of a person used for adminstrative purposes (as opposed to clinical gender)"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="All codes in the Hl7 V3 AdministrativeGender code system"/>
+      </extension>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:94751d6d-d8bc-4196-be2c-fd9ef9f6dda7"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AdministrativeGender"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="F"/>
+      <display value="Female"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AdministrativeGender"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="M"/>
+      <display value="Male"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-AdministrativeGender"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="UN"/>
+      <display value="Undifferentiated"/>
+    </contains>
+  </expansion>
+</ValueSet>

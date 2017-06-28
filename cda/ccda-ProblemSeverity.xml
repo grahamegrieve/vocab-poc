@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-ProblemSeverity"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-ProblemSeverity"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.6.8"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAProblemSeverity"/>
+  <title value="Problem Severity"/>
+  <date value="2015-04-24"/>
+  <description value="The disorder&#39;s degree of physiological impact on the patient"/>
+  <expansion>
+    <identifier value="urn:uuid:1344e179-7727-4901-b671-0b530e1147d8"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="24484000"/>
+      <display value="Severe (severity modifier) (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="255604002"/>
+      <display value="Mild (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371924009"/>
+      <display value="Moderate to severe (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="399166001"/>
+      <display value="Fatal (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="6736007"/>
+      <display value="Moderate (severity modifier) (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="371923003"/>
+      <display value="Mild to moderate (qualifier value)"/>
+    </contains>
+  </expansion>
+</ValueSet>

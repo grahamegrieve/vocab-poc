@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-ProblemType"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-ProblemType"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.7.2"/>
+  </identifier>
+  <version value="20150826"/>
+  <name value="CCDAProblemType"/>
+  <title value="Problem Type"/>
+  <date value="2015-08-26"/>
+  <description value="A categorization of the medical judgment used to determine the existence of a problem"/>
+  <expansion>
+    <identifier value="urn:uuid:5cec43a3-6854-4351-a139-92f14a3578b4"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="29308-4"/>
+      <display value="Diagnosis"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75312-9"/>
+      <display value="Clinical finding family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75314-5"/>
+      <display value="Diagnosis family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75315-2"/>
+      <display value="Condition family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75316-0"/>
+      <display value="Functional performance family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75317-8"/>
+      <display value="Symptom family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75318-6"/>
+      <display value="Problem family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75319-4"/>
+      <display value="Mental function family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75321-0"/>
+      <display value="Clinical finding"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75325-1"/>
+      <display value="Symptom"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75326-9"/>
+      <display value="Problem"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75275-8"/>
+      <display value="Cognitive function [Interpretation]"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75313-7"/>
+      <display value="Complaint family member"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75322-8"/>
+      <display value="Complaint"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="75323-6"/>
+      <display value="Condition"/>
+    </contains>
+  </expansion>
+</ValueSet>

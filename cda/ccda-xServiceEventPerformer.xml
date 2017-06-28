@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-xServiceEventPerformer"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-xServiceEventPerformer"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.1.11.19601"/>
+  </identifier>
+  <version value="20170426"/>
+  <name value="CCDAxServiceEventPerformer"/>
+  <title value="x_ServiceEventPerformer"/>
+  <date value="2017-04-26"/>
+  <description value="Characterize the degree of responsibility of the event performer"/>
+  <purpose value="Performer type code per C-CDA r2.1 CONF:1198- 14840"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="only selected codes"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="only selected codes"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:2315e6f0-019d-4bb6-b7ab-c67fffd94a86"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PPRF"/>
+      <display value="primary performer"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="SPRF"/>
+      <display value="secondary performer"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="PRF"/>
+      <display value="performer"/>
+    </contains>
+  </expansion>
+</ValueSet>

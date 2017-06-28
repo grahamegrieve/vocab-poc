@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-DischargeSummaryDocumentTypeCode"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-DischargeSummaryDocumentTypeCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.4.1"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDADischargeSummaryDocumentTypeCode"/>
+  <title value="DischargeSummaryDocumentTypeCode"/>
+  <date value="2015-04-24"/>
+  <description value="Kind of discharge summary document classified by author role"/>
+  <expansion>
+    <identifier value="urn:uuid:e107cbfd-4764-4e1a-bc58-3e2d74c32a0c"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="11490-0"/>
+      <display value="Physician Discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="18842-5"/>
+      <display value="Discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="29761-4"/>
+      <display value="Dentistry Discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34106-5"/>
+      <display value="Physician Hospital Discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34745-0"/>
+      <display value="Nurse Discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="28655-9"/>
+      <display value="Physician attending Discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://loinc.org"/>
+      <version value="2.58"/>
+      <code value="34105-7"/>
+      <display value="Hospital Discharge summary"/>
+    </contains>
+  </expansion>
+</ValueSet>

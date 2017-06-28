@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-ProcedureActStatusCode"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-ProcedureActStatusCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.22"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAProcedureActStatusCode"/>
+  <title value="ProcedureActStatusCode"/>
+  <date value="2015-04-24"/>
+  <description value="Status of a procedure activity"/>
+  <expansion>
+    <identifier value="urn:uuid:255d610c-ba30-4c3c-9e2e-04f52301ff08"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="aborted"/>
+      <display value="aborted"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="active"/>
+      <display value="active"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="cancelled"/>
+      <display value="cancelled"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="completed"/>
+      <display value="completed"/>
+    </contains>
+  </expansion>
+</ValueSet>

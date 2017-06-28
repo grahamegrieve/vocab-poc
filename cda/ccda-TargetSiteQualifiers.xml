@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-TargetSiteQualifiers"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-TargetSiteQualifiers"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.37"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDATargetSiteQualifiers"/>
+  <title value="TargetSite Qualifiers"/>
+  <date value="2015-04-24"/>
+  <description value="Spatial refinements to anatomical site concepts"/>
+  <expansion>
+    <identifier value="urn:uuid:a37b5412-441f-4883-a482-f8a03c5aad22"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="24028007"/>
+      <display value="Right (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="255551008"/>
+      <display value="Posterior (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="255561001"/>
+      <display value="Medial (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="255549009"/>
+      <display value="Anterior (qualifier value)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="7771000"/>
+      <display value="Left (qualifier value)"/>
+    </contains>
+  </expansion>
+</ValueSet>

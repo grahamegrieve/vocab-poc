@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-GoalAchievement"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-GoalAchievement"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.55"/>
+  </identifier>
+  <version value="20170106"/>
+  <name value="CCDAGoalAchievement"/>
+  <title value="Goal Achievement"/>
+  <date value="2017-01-06"/>
+  <description value="The Goal Achievement value set contains concepts that describe a patient&#39;s progression (or lack thereof) toward a goal."/>
+  <purpose value="Goal attribute value in C-CDA template observation: identifier urn:oid:2.16.840.1.113883.10.20.22.4.110"/>
+  <compose>
+    <include>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="&quot;The following concepts from SNOMED CT 390802008 Goal achieved 390801001 Goal not achieved and all its direct children&quot;"/>
+      </extension>
+    </include>
+    <exclude>
+      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
+        <valueString value="only as noted in inclusion criteria"/>
+      </extension>
+    </exclude>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:4b6e986d-c060-4838-aab5-de8a7461dc85"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="390801001"/>
+      <display value="Goal not achieved (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="390802008"/>
+      <display value="Goal achieved (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="706905005"/>
+      <display value="Goal not attainable (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="706906006"/>
+      <display value="No progress toward goal (finding)"/>
+    </contains>
+  </expansion>
+</ValueSet>

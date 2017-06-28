@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-MedicationFillStatus"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-MedicationFillStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.80.64"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDAMedicationFillStatus"/>
+  <title value="Medication Fill Status"/>
+  <date value="2015-04-24"/>
+  <description value="Whether the medication has been fulfilled"/>
+  <expansion>
+    <identifier value="urn:uuid:0fb080ac-211f-49c2-a5f5-6eda57b46dff"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="aborted"/>
+      <display value="aborted"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <version value="HL7V3.0_2016-07"/>
+      <code value="completed"/>
+      <display value="completed"/>
+    </contains>
+  </expansion>
+</ValueSet>

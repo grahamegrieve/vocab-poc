@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-SmokingStatus"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-SmokingStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.38"/>
+  </identifier>
+  <version value="20150819"/>
+  <name value="CCDASmokingStatus"/>
+  <title value="Smoking Status"/>
+  <date value="2015-08-19"/>
+  <description value="Classification of a patient&#39;s smoking behavior"/>
+  <expansion>
+    <identifier value="urn:uuid:02103e20-5cdc-4191-938c-4df44d8a4cb7"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266919005"/>
+      <display value="Never smoked tobacco (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="266927001"/>
+      <display value="Tobacco smoking consumption unknown (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="77176002"/>
+      <display value="Smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="8517006"/>
+      <display value="Ex-smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428041000124106"/>
+      <display value="Occasional tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428061000124105"/>
+      <display value="Light tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="428071000124103"/>
+      <display value="Heavy tobacco smoker (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="449868002"/>
+      <display value="Smokes tobacco daily (finding)"/>
+    </contains>
+  </expansion>
+</ValueSet>

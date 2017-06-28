@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ccda-DIRQuantityMeasurementTypeCodes"/>
+  <url value="http://hl7.org/fhir/ValueSet/ccda-DIRQuantityMeasurementTypeCodes"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.11.20.9.29"/>
+  </identifier>
+  <version value="20150424"/>
+  <name value="CCDADIRQuantityMeasurementTypeCodes"/>
+  <title value="DIRQuantityMeasurementTypeCodes"/>
+  <date value="2015-04-24"/>
+  <description value="The specific dimension of a structure measured by the associated physical quantity"/>
+  <expansion>
+    <identifier value="urn:uuid:f590dae5-8c9a-4497-b1f2-519030421c64"/>
+    <timestamp value="2017-06-09"/>
+    <parameter>
+      <name value="CCDA Version"/>
+      <valueString value="C-CDA R2.1"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439429003"/>
+      <display value="Radius of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439749006"/>
+      <display value="Volume of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439932008"/>
+      <display value="Length of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439934009"/>
+      <display value="Depth of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439982003"/>
+      <display value="Major axis length of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="440357003"/>
+      <display value="Width of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="440433004"/>
+      <display value="Perimeter of noncircular structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439428006"/>
+      <display value="Short axis length of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439746004"/>
+      <display value="Area of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439747008"/>
+      <display value="Circumference of circular structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439748003"/>
+      <display value="Diameter of circular structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439933003"/>
+      <display value="Long axis length of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439983008"/>
+      <display value="Minor axis length of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439984002"/>
+      <display value="Diameter of structure by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="439985001"/>
+      <display value="Area of body region by imaging measurement (observable entity)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="2017-03"/>
+      <code value="440356007"/>
+      <display value="Perpendicular axis length of structure by imaging measurement (observable entity)"/>
+    </contains>
+  </expansion>
+</ValueSet>
