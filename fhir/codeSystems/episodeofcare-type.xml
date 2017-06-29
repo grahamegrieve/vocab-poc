@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="episodeofcare-type"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>EpisodeOfCareType</h2>
+      <div>
+        <p>This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.</p>
+
+      </div>
+      <p>This code system http://hl7.org/fhir/episodeofcare-type defines the following codes:</p>
+      <table class="codes">
+        <tr>
+          <td>
+            <b>Code</b>
+          </td>
+          <td>
+            <b>Display</b>
+          </td>
+          <td>
+            <b>Definition</b>
+          </td>
+        </tr>
+        <tr>
+          <td>hacc
+            <a name="episodeofcare-type-hacc"> </a>
+          </td>
+          <td>Home and Community Care</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>pac
+            <a name="episodeofcare-type-pac"> </a>
+          </td>
+          <td>Post Acute Care</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>diab
+            <a name="episodeofcare-type-diab"> </a>
+          </td>
+          <td>Post co-ordinated diabetes program</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>da
+            <a name="episodeofcare-type-da"> </a>
+          </td>
+          <td>Drug and alcohol rehabilitation</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>cacp
+            <a name="episodeofcare-type-cacp"> </a>
+          </td>
+          <td>Community-based aged care</td>
+          <td/>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://hl7.org/fhir/episodeofcare-type"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.1.651"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="EpisodeOfCareType"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="FHIR Project team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/episodeofcare-type"/>
+  <content value="complete"/>
+  <concept>
+    <code value="hacc"/>
+    <display value="Home and Community Care"/>
+  </concept>
+  <concept>
+    <code value="pac"/>
+    <display value="Post Acute Care"/>
+  </concept>
+  <concept>
+    <code value="diab"/>
+    <display value="Post co-ordinated diabetes program"/>
+  </concept>
+  <concept>
+    <code value="da"/>
+    <display value="Drug and alcohol rehabilitation"/>
+  </concept>
+  <concept>
+    <code value="cacp"/>
+    <display value="Community-based aged care"/>
+  </concept>
+</CodeSystem>

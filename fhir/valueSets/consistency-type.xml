@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="consistency-type"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Fluid Consistency Type Codes</h2>
+      <div>
+        <p>FluidConsistencyType :  Codes used to represent the consistency of fluids and liquids provided to the patient. This value set includes all the 
+          <a href="http://snomed.info/sct">SNOMED CT</a>(US Extension) where concept is a 435681000124103  (Dietary liquid consistency diet (regime/therapy)). It is provided as a suggestive example.
+        </p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+      </p>
+      <p>This value set includes codes from the following code systems:</p>
+      <ul>
+        <li>Include these codes as defined in 
+          <a href="http://www.snomed.org/">
+            <code>http://snomed.info/sct</code>
+          </a>
+          <table class="none">
+            <tr>
+              <td>
+                <b>Code</b>
+              </td>
+              <td>
+                <b>Display</b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=439031000124108">439031000124108</a>
+              </td>
+              <td>honey thick liquid</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=439021000124105">439021000124105</a>
+              </td>
+              <td>nectar thick liquid</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=439041000124103">439041000124103</a>
+              </td>
+              <td>spoon thick liquid</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=439081000124109">439081000124109</a>
+              </td>
+              <td>thin liquid</td>
+              <td/>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/consistency-type"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.376"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Fluid Consistency Type Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="FHIR NutritionOrder team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="FluidConsistencyType :  Codes used to represent the consistency of fluids and liquids provided to the patient. This value set includes all the [SNOMED CT](http://snomed.info/sct)(US Extension) where concept is a 435681000124103  (Dietary liquid consistency diet (regime/therapy)). It is provided as a suggestive example."/>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/731000124108"/>
+      <concept>
+        <code value="439031000124108"/>
+        <display value="honey thick liquid"/>
+      </concept>
+      <concept>
+        <code value="439021000124105"/>
+        <display value="nectar thick liquid"/>
+      </concept>
+      <concept>
+        <code value="439041000124103"/>
+        <display value="spoon thick liquid"/>
+      </concept>
+      <concept>
+        <code value="439081000124109"/>
+        <display value="thin liquid"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

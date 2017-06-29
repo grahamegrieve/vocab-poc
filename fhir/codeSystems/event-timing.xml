@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="event-timing"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>EventTiming</h2>
+      <div>
+        <p>Real world event relating to the schedule.</p>
+
+      </div>
+      <p>This code system http://hl7.org/fhir/event-timing defines the following codes:</p>
+      <table class="codes">
+        <tr>
+          <td>
+            <b>Code</b>
+          </td>
+          <td>
+            <b>Display</b>
+          </td>
+          <td>
+            <b>Definition</b>
+          </td>
+        </tr>
+        <tr>
+          <td>MORN
+            <a name="event-timing-MORN"> </a>
+          </td>
+          <td>Morning</td>
+          <td>event occurs during the morning</td>
+        </tr>
+        <tr>
+          <td>AFT
+            <a name="event-timing-AFT"> </a>
+          </td>
+          <td>Afternoon</td>
+          <td>event occurs during the afternoon</td>
+        </tr>
+        <tr>
+          <td>EVE
+            <a name="event-timing-EVE"> </a>
+          </td>
+          <td>Evening</td>
+          <td>event occurs during the evening</td>
+        </tr>
+        <tr>
+          <td>NIGHT
+            <a name="event-timing-NIGHT"> </a>
+          </td>
+          <td>Night</td>
+          <td>event occurs during the night</td>
+        </tr>
+        <tr>
+          <td>PHS
+            <a name="event-timing-PHS"> </a>
+          </td>
+          <td>After Sleep</td>
+          <td>event occurs [offset] after subject goes to sleep</td>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/event-timing"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.1.69"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="EventTiming"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="HL7 (FHIR Project)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fhir@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="Real world event relating to the schedule."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/event-timing"/>
+  <content value="complete"/>
+  <concept>
+    <code value="MORN"/>
+    <display value="Morning"/>
+    <definition value="event occurs during the morning"/>
+  </concept>
+  <concept>
+    <code value="AFT"/>
+    <display value="Afternoon"/>
+    <definition value="event occurs during the afternoon"/>
+  </concept>
+  <concept>
+    <code value="EVE"/>
+    <display value="Evening"/>
+    <definition value="event occurs during the evening"/>
+  </concept>
+  <concept>
+    <code value="NIGHT"/>
+    <display value="Night"/>
+    <definition value="event occurs during the night"/>
+  </concept>
+  <concept>
+    <code value="PHS"/>
+    <display value="After Sleep"/>
+    <definition value="event occurs [offset] after subject goes to sleep"/>
+  </concept>
+</CodeSystem>

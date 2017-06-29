@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="claim-type"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Example Claim Type Codes</h2>
+      <div>
+        <p>This value set includes sample Claim Type codes.</p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This is an example set.
+      </p>
+      <p>This value set includes codes from the following code systems:</p>
+      <ul>
+        <li>Include all codes defined in 
+          <a href="codesystem-claim-type.html">
+            <code>http://hl7.org/fhir/ex-claimtype</code>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/claim-type"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.550"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Example Claim Type Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Claim Type codes."/>
+  <immutable value="true"/>
+  <copyright value="This is an example set."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/ex-claimtype"/>
+    </include>
+  </compose>
+</ValueSet>

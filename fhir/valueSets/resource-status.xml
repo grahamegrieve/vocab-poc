@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="resource-status"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Canonical Status Codes for FHIR Resources</h2>
+      
+      <div>
+        
+        <p>The master set of status codes used through out FHIR. All status codes are mapped to one of these codes.</p>
+
+      
+      </div>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include all codes defined in 
+          
+          <a href="codesystem-resource-status.html">
+            
+            <code>http://hl7.org/fhir/resource-status</code>
+          
+          </a>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/resource-status"/>
+  <name value="Canonical Status Codes for FHIR Resources"/>
+  <status value="draft"/>
+  <publisher value="FHIR Project"/>
+  <description value="The master set of status codes used through out FHIR. All status codes are mapped to one of these codes."/>
+  <extensible value="false"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/resource-status"/>
+    </include>
+  </compose>
+</ValueSet>

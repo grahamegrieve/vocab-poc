@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="adverse-event-causality-method"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>AdverseEventCausalityMethod</h2>
+      <div>
+        <p>TODO</p>
+
+      </div>
+      <p>This code system http://hl7.org/fhir/adverse-event-causality-method defines the following codes:</p>
+      <table class="codes">
+        <tr>
+          <td>
+            <b>Code</b>
+          </td>
+          <td>
+            <b>Display</b>
+          </td>
+          <td>
+            <b>Definition</b>
+          </td>
+        </tr>
+        <tr>
+          <td>ProbabilityScale
+            <a name="adverse-event-causality-method-ProbabilityScale"> </a>
+          </td>
+          <td>Probability Scale</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>Bayesian
+            <a name="adverse-event-causality-method-Bayesian"> </a>
+          </td>
+          <td>Bayesian</td>
+          <td/>
+        </tr>
+        <tr>
+          <td>Checklist
+            <a name="adverse-event-causality-method-Checklist"> </a>
+          </td>
+          <td>Checklist</td>
+          <td/>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://hl7.org/fhir/adverse-event-causality-method"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.1.818"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="AdverseEventCausalityMethod"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="HL7 (FHIR Project)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fhir@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="TODO"/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/adverse-event-causality-method"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ProbabilityScale"/>
+    <display value="Probability Scale"/>
+  </concept>
+  <concept>
+    <code value="Bayesian"/>
+    <display value="Bayesian"/>
+  </concept>
+  <concept>
+    <code value="Checklist"/>
+    <display value="Checklist"/>
+  </concept>
+</CodeSystem>

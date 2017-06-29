@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="provider-taxonomy"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <p>
+        This value set includes all possible NUCC Health Care Provider Taxonomy codes.
+      </p>
+      
+      <p> 
+        The NUCC Health Care Provider Taxonomy codes are copyright &#xA9; 2017, American Medical Association.
+     </p>
+    
+    
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/provider-taxonomy"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.902"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Provider Taxonomy Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="FHIR Project team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="NUCC Healthcare Provider Taxonomy codes"/>
+  <copyright value="The NUCC Health Care Provider Taxonomy codes are copyright &#xA9; 2017, American Medical Association."/>
+  <compose>
+    <include>
+      <system value="http://nucc.org/provider-taxonomy"/>
+    </include>
+  </compose>
+</ValueSet>

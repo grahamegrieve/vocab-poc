@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="contract-actorrole"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Contract Actor Role Codes</h2>
+      <div>
+        <p>This value set includes sample Contract Actor Role codes.</p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This is an example set.
+      </p>
+      <p>This code system http://www.hl7.org/fhir/contractactorrole defines the following codes:</p>
+      <table class="codes">
+        <tr>
+          <td>
+            <b>Code</b>
+          </td>
+          <td>
+            <b>Display</b>
+          </td>
+          <td>
+            <b>Definition</b>
+          </td>
+        </tr>
+        <tr>
+          <td>practitioner
+            <a name="contract-actorrole-practitioner"> </a>
+          </td>
+          <td>Practitioner</td>
+          <td>Someone who provides health care related services to people or animals including both clinical and support services.</td>
+        </tr>
+        <tr>
+          <td>patient
+            <a name="contract-actorrole-patient"> </a>
+          </td>
+          <td>Patient</td>
+          <td>A receiver, human or animal, of health care related goods and services.</td>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://www.hl7.org/fhir/contractactorrole"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.1.730"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Contract Actor Role Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="CBCC"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Contract Actor Role codes."/>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/contract-actorrole"/>
+  <content value="complete"/>
+  <concept>
+    <code value="practitioner"/>
+    <display value="Practitioner"/>
+    <definition value="Someone who provides health care related services to people or animals including both clinical and support services."/>
+  </concept>
+  <concept>
+    <code value="patient"/>
+    <display value="Patient"/>
+    <definition value="A receiver, human or animal, of health care related goods and services."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="texture-code"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Texture Modifier Codes</h2>
+      <div>
+        <p>TextureModifier: Codes for food consistency types or texture modifications to apply to foods. This value set is composed of SNOMED CT (US Extension and Core) Concepts from SCTID 229961002 Food consistency types (substance) hierarchy and is provided as a suggestive example.</p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+      </p>
+      <p>This value set includes codes from the following code systems:</p>
+      <ul>
+        <li>Include these codes as defined in 
+          <a href="http://www.snomed.org/">
+            <code>http://snomed.info/sct</code>
+          </a>
+          <table class="none">
+            <tr>
+              <td>
+                <b>Code</b>
+              </td>
+              <td>
+                <b>Display</b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228053002">228053002</a>
+              </td>
+              <td>Cut-up food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=439091000124107">439091000124107</a>
+              </td>
+              <td>Easy to chew food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228049004">228049004</a>
+              </td>
+              <td>Chopped food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=441881000124103">441881000124103</a>
+              </td>
+              <td>Ground food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=441761000124103">441761000124103</a>
+              </td>
+              <td>Minced food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=441751000124100">441751000124100</a>
+              </td>
+              <td>Mashed food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228059003">228059003</a>
+              </td>
+              <td>Soft food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=441791000124106">441791000124106</a>
+              </td>
+              <td>Strained food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228055009">228055009</a>
+              </td>
+              <td>Liquidized food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228056005">228056005</a>
+              </td>
+              <td>Lumpy food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=441771000124105">441771000124105</a>
+              </td>
+              <td>Moist food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228057001">228057001</a>
+              </td>
+              <td>Semi-solid food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228058006">228058006</a>
+              </td>
+              <td>Single texture food</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=228060008">228060008</a>
+              </td>
+              <td>Solid food</td>
+              <td/>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/texture-code"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.374"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Texture Modifier Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="FHIR NutritionOrder team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="TextureModifier: Codes for food consistency types or texture modifications to apply to foods. This value set is composed of SNOMED CT (US Extension and Core) Concepts from SCTID 229961002 Food consistency types (substance) hierarchy and is provided as a suggestive example."/>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/731000124108"/>
+      <concept>
+        <code value="228053002"/>
+        <display value="Cut-up food"/>
+      </concept>
+      <concept>
+        <code value="439091000124107"/>
+        <display value="Easy to chew food"/>
+      </concept>
+      <concept>
+        <code value="228049004"/>
+        <display value="Chopped food"/>
+      </concept>
+      <concept>
+        <code value="441881000124103"/>
+        <display value="Ground food"/>
+      </concept>
+      <concept>
+        <code value="441761000124103"/>
+        <display value="Minced food"/>
+      </concept>
+      <concept>
+        <code value="441751000124100"/>
+        <display value="Mashed food"/>
+      </concept>
+      <concept>
+        <code value="228059003"/>
+        <display value="Soft food"/>
+      </concept>
+      <concept>
+        <code value="441791000124106"/>
+        <display value="Strained food"/>
+      </concept>
+      <concept>
+        <code value="228055009"/>
+        <display value="Liquidized food"/>
+      </concept>
+      <concept>
+        <code value="228056005"/>
+        <display value="Lumpy food"/>
+      </concept>
+      <concept>
+        <code value="441771000124105"/>
+        <display value="Moist food"/>
+      </concept>
+      <concept>
+        <code value="228057001"/>
+        <display value="Semi-solid food"/>
+      </concept>
+      <concept>
+        <code value="228058006"/>
+        <display value="Single texture food"/>
+      </concept>
+      <concept>
+        <code value="228060008"/>
+        <display value="Solid food"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

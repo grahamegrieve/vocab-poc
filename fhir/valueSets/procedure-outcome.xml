@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="procedure-outcome"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Procedure Outcome Codes (SNOMED CT)</h2>
+      <div>
+        <p>Procedure Outcome code: A selection of relevant SNOMED CT codes.</p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+      </p>
+      <p>This value set includes codes from the following code systems:</p>
+      <ul>
+        <li>Include these codes as defined in 
+          <a href="http://www.snomed.org/">
+            <code>http://snomed.info/sct</code>
+          </a>
+          <table class="none">
+            <tr>
+              <td>
+                <b>Code</b>
+              </td>
+              <td>
+                <b>Display</b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385669000">385669000</a>
+              </td>
+              <td>Successful</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385671000">385671000</a>
+              </td>
+              <td>Unsuccessful</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385670004">385670004</a>
+              </td>
+              <td>Partially successful</td>
+              <td/>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/procedure-outcome"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.419"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Procedure Outcome Codes (SNOMED CT)"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="FHIR Project team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="Procedure Outcome code: A selection of relevant SNOMED CT codes."/>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="385669000"/>
+      </concept>
+      <concept>
+        <code value="385671000"/>
+      </concept>
+      <concept>
+        <code value="385670004"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

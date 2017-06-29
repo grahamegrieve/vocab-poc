@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="process-outcome"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Process Outcome Codes</h2>
+      <div>
+        <p>This value set includes sample Process Outcome codes.</p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This is an example set.
+      </p>
+      <p>This code system http://hl7.org/fhir/processoutcomecodes defines the following codes:</p>
+      <table class="codes">
+        <tr>
+          <td>
+            <b>Code</b>
+          </td>
+          <td>
+            <b>Display</b>
+          </td>
+          <td>
+            <b>Definition</b>
+          </td>
+        </tr>
+        <tr>
+          <td>complete
+            <a name="process-outcome-complete"> </a>
+          </td>
+          <td>Complete</td>
+          <td>The requested processing has completed.</td>
+        </tr>
+        <tr>
+          <td>pended
+            <a name="process-outcome-pended"> </a>
+          </td>
+          <td>Pended</td>
+          <td>The requested processing has been suspended.</td>
+        </tr>
+        <tr>
+          <td>error
+            <a name="process-outcome-error"> </a>
+          </td>
+          <td>Error</td>
+          <td>The requested processing has terminated with some errors being found.</td>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/processoutcomecodes"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.1.678"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Process Outcome Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Process Outcome codes."/>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/process-outcome"/>
+  <content value="complete"/>
+  <concept>
+    <code value="complete"/>
+    <display value="Complete"/>
+    <definition value="The requested processing has completed."/>
+  </concept>
+  <concept>
+    <code value="pended"/>
+    <display value="Pended"/>
+    <definition value="The requested processing has been suspended."/>
+  </concept>
+  <concept>
+    <code value="error"/>
+    <display value="Error"/>
+    <definition value="The requested processing has terminated with some errors being found."/>
+  </concept>
+</CodeSystem>

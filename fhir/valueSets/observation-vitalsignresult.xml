@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="observation-vitalsignresult"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Vital Signs</h2>
+      <div>
+        <p>This value set indicates the allowed vital sign result types.   The concept Vitals signs panel (85353-1) is a grouping structure for a set of vital signs and includes related links (with type=has-member) to the Observations in this set (e.g. respiratory rate, heart rate, BP).  The Blood pressure panel (85354-9) is used to group the component observations Systolic blood pressure (8480-6) and Diastolic blood pressure (8462-4).</p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This content from LOINC&#xAE; is copyright &#xA9; 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use
+      </p>
+      <p>This value set includes codes from the following code systems:</p>
+      <ul>
+        <li>Include these codes as defined in 
+          <a href="http://loinc.org">
+            <code>http://loinc.org</code>
+          </a>
+          <table class="none">
+            <tr>
+              <td>
+                <b>Code</b>
+              </td>
+              <td>
+                <b>Display</b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/85353-1.html">85353-1</a>
+              </td>
+              <td>Vital signs, weight, height, head circumference, oxygen saturation &amp; BMI panel</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/9279-1.html">9279-1</a>
+              </td>
+              <td>Respiratory rate</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8867-4.html">8867-4</a>
+              </td>
+              <td>Heart rate</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/59408-5.html">59408-5</a>
+              </td>
+              <td>Oxygen saturation in Arterial blood by Pulse oximetry</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8310-5.html">8310-5</a>
+              </td>
+              <td>Body temperature</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8302-2.html">8302-2</a>
+              </td>
+              <td>Body height</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8306-3.html">8306-3</a>
+              </td>
+              <td>Body height --lying</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8287-5.html">8287-5</a>
+              </td>
+              <td>Head Occipital-frontal circumference by Tape measure</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/29463-7.html">29463-7</a>
+              </td>
+              <td>Body weight</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/39156-5.html">39156-5</a>
+              </td>
+              <td>Body mass index (BMI) [Ratio]</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/85354-9.html">85354-9</a>
+              </td>
+              <td>lood pressure panel with all children optional</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8480-6.html">8480-6</a>
+              </td>
+              <td>Systolic blood pressure</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8462-4.html">8462-4</a>
+              </td>
+              <td>Diastolic blood pressure</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://details.loinc.org/LOINC/8478-0.html">8478-0</a>
+              </td>
+              <td>Mean blood pressure</td>
+              <td/>
+            </tr>
+          </table>
+        </li>
+      </ul>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/observation-vitalsignresult"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.3.88.12.80.62"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Vital Signs"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="FHIR project team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="This value set indicates the allowed vital sign result types.   The concept Vitals signs panel (85353-1) is a grouping structure for a set of vital signs and includes related links (with type=has-member) to the Observations in this set (e.g. respiratory rate, heart rate, BP).  The Blood pressure panel (85354-9) is used to group the component observations Systolic blood pressure (8480-6) and Diastolic blood pressure (8462-4)."/>
+  <copyright value="This content from LOINC&#xAE; is copyright &#xA9; 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="85353-1"/>
+      </concept>
+      <concept>
+        <code value="9279-1"/>
+      </concept>
+      <concept>
+        <code value="8867-4"/>
+      </concept>
+      <concept>
+        <code value="59408-5"/>
+      </concept>
+      <concept>
+        <code value="8310-5"/>
+      </concept>
+      <concept>
+        <code value="8302-2"/>
+      </concept>
+      <concept>
+        <code value="8306-3"/>
+      </concept>
+      <concept>
+        <code value="8287-5"/>
+      </concept>
+      <concept>
+        <code value="29463-7"/>
+      </concept>
+      <concept>
+        <code value="39156-5"/>
+      </concept>
+      <concept>
+        <code value="85354-9"/>
+      </concept>
+      <concept>
+        <code value="8480-6"/>
+      </concept>
+      <concept>
+        <code value="8462-4"/>
+      </concept>
+      <concept>
+        <code value="8478-0"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

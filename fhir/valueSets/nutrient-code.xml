@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nutrient-code"/>
+  <meta>
+    <lastUpdated value="2017-06-29T06:51:32.642+10:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <h2>Nutrient Modifier Codes</h2>
+      <div>
+        <p>NutrientModifier :  Codes for types of nutrient that is being modified such as carbohydrate or sodium.  This value set includes codes from 
+          <a href="http://snomed.info/sct">SNOMED CT</a> where concept is-a 226355009 (Nutrients(substance)), and the concepts for Sodium, Potassium and Fluid. It is provided as a suggestive example.
+        </p>
+
+      </div>
+      <p>
+        <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+      </p>
+      <p>This value set includes codes from the following code systems:</p>
+      <ul>
+        <li>Include these codes as defined in 
+          <a href="http://www.snomed.org/">
+            <code>http://snomed.info/sct</code>
+          </a>
+          <table class="none">
+            <tr>
+              <td>
+                <b>Code</b>
+              </td>
+              <td>
+                <b>Display</b>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33463005">33463005</a>
+              </td>
+              <td>Fluid</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=39972003">39972003</a>
+              </td>
+              <td>Sodium</td>
+              <td/>
+            </tr>
+            <tr>
+              <td>
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=88480006">88480006</a>
+              </td>
+              <td>Potassium</td>
+              <td/>
+            </tr>
+          </table>
+        </li>
+        <li>Include codes from 
+          <a href="http://www.snomed.org/">
+            <code>http://snomed.info/sct</code>
+          </a> where concept  is-a  226355009 (Nutrients)
+        </li>
+      </ul>
+    </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+    <valueString value="Informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ValueSet/nutrient-code"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.4.642.3.373"/>
+  </identifier>
+  <version value="3.1.0"/>
+  <name value="Nutrient Modifier Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2017-06-29T06:51:32+10:00"/>
+  <publisher value="FHIR NutritionOrder team"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="NutrientModifier :  Codes for types of nutrient that is being modified such as carbohydrate or sodium.  This value set includes codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 226355009 (Nutrients(substance)), and the concepts for Sodium, Potassium and Fluid. It is provided as a suggestive example."/>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="33463005"/>
+        <display value="Fluid"/>
+      </concept>
+      <concept>
+        <code value="39972003"/>
+        <display value="Sodium"/>
+      </concept>
+      <concept>
+        <code value="88480006"/>
+        <display value="Potassium"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="226355009"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>
