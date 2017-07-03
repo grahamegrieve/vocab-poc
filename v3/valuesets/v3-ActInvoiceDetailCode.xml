@@ -4,11 +4,12 @@
   <id value="v3-ActInvoiceDetailCode"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Codes representing a service or product that is being invoiced (billed).  The code can represent such concepts as &quot;office visit&quot;, &quot;drug X&quot;, &quot;wheelchair&quot; and other billable items such as taxes, service charges and discounts.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActInvoiceDetailCode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActInvoiceDetailCode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19401"/>
@@ -38,7 +39,7 @@
   <description value=" Codes representing a service or product that is being invoiced (billed).  The code can represent such concepts as &quot;office visit&quot;, &quot;drug X&quot;, &quot;wheelchair&quot; and other billable items such as taxes, service charges and discounts."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActCode"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>
@@ -46,22 +47,22 @@
       </filter>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-ActInvoiceDetailDrugProductCode"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActInvoiceDetailDrugProductCode"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-ActInvoiceDetailClinicalProductCode"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActInvoiceDetailClinicalProductCode"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-ActInvoiceDetailPreferredAccommodationCode"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActInvoiceDetailPreferredAccommodationCode"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-ActInvoiceDetailGenericCode"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActInvoiceDetailGenericCode"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-x_ActInvoiceDetailPharmacyCode"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-xActInvoiceDetailPharmacyCode"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-x_ActInvoiceDetailPreferredAccommodationCode"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-xActInvoiceDetailPreferredAccommodationCode"/>
     </include>
   </compose>
 </ValueSet>

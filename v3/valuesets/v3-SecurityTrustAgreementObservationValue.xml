@@ -4,13 +4,14 @@
   <id value="v3-SecurityTrustAgreementObservationValue"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Type of security metadata observation made about security requirements for a security domain. [ISO IEC 10181-1]
 Definition Is Immutable: true
 </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -29,7 +30,7 @@ Definition Is Immutable: true
       <valueString value="Add ActTrustPolicyType concept domain to ActPolicyType branch of the ActCode concept domain.  Add TrustPolicy concept codes to the Act.code system.  Add 15 value sets binding c:TrustPolicy to 15 Concept Domains."/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-SecurityTrustAgreementObservationValue"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-SecurityTrustAgreementObservationValue"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20544"/>
@@ -40,7 +41,7 @@ Definition Is Immutable: true
   <description value=" Type of security metadata observation made about security requirements for a security domain. [ISO IEC 10181-1]&#xA;Definition Is Immutable: true"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ObservationValue"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ObservationValue"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

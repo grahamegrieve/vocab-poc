@@ -4,11 +4,12 @@
   <id value="v3-PharmacyServiceProviderTechnicianHIPAA"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>(1) A person with specialized training in a narrow field of expertise whose occupation requires training and is skilled in specific technical processes and procedures. (2) An individual having special skill or practical knowledge in an area, such as operation and maintenance of equipment or performance of laboratory procedures involving biochemical analyses. Special technical qualifications are normally required, though an increasing number or technicians also possess university degrees in science, and occasionally doctorate degrees. The distinction between technician and technologist in the health care field is not always clear.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -30,7 +31,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1194-20130307"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-PharmacyServiceProviderTechnicianHIPAA"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-PharmacyServiceProviderTechnicianHIPAA"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.13361"/>
@@ -41,7 +42,7 @@
   <description value=" (1) A person with specialized training in a narrow field of expertise whose occupation requires training and is skilled in specific technical processes and procedures. (2) An individual having special skill or practical knowledge in an area, such as operation and maintenance of equipment or performance of laboratory procedures involving biochemical analyses. Special technical qualifications are normally required, though an increasing number or technicians also possess university degrees in science, and occasionally doctorate degrees. The distinction between technician and technologist in the health care field is not always clear."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="1847P3400N"/>
       </concept>

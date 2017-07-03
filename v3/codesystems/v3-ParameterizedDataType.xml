@@ -4,14 +4,15 @@
   <id value="v3-ParameterizedDataType"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
         <b>Deprecation Comment:</b> Deprecated as per 11/2008 Harmonization cleanup; internal and obsolete HL7 usage, no longer used.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -33,7 +34,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="691-20081229"/>
   </extension>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-ParameterizedDataType"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParameterizedDataType"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.87"/>

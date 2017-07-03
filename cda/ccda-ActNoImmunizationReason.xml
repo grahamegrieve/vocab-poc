@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-ActNoImmunizationReason"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-ActNoImmunizationReason"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ActNoImmunizationReason"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19717"/>
@@ -13,56 +13,56 @@
   <date value="2015-04-24"/>
   <description value="Rationale for not administering indicated immunization"/>
   <expansion>
-    <identifier value="urn:uuid:2ff2afed-b98c-4ad1-9b26-53ce23edb1d6"/>
+    <identifier value="urn:uuid:55fd6e9b-4027-431c-8321-be034eb5c983"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="MEDPREC"/>
       <display value="medical precaution"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="OSTOCK"/>
       <display value="product out of stock"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="VACEFF"/>
       <display value="vaccine efficacy concerns"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="IMMUNE"/>
       <display value="immunity"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PATOBJ"/>
       <display value="patient objection"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PHILISOP"/>
       <display value="philosophical objection"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RELIG"/>
       <display value="religious objection"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActReason"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActReason"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="VACSAF"/>
       <display value="vaccine safety concerns"/>

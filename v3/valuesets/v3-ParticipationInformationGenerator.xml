@@ -4,11 +4,12 @@
   <id value="v3-ParticipationInformationGenerator"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Parties that may or should contribute or have contributed information to the Act. Such information includes information leading to the decision to perform the Act and how to perform the Act (e.g., consultant), information that the Act itself seeks to reveal (e.g., informant of clinical history), or information about what Act was performed (e.g., informant witness).</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ParticipationInformationGenerator"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ParticipationInformationGenerator"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.10251"/>
@@ -38,7 +39,7 @@
   <description value=" Parties that may or should contribute or have contributed information to the Act. Such information includes information leading to the decision to perform the Act and how to perform the Act (e.g., consultant), information that the Act itself seeks to reveal (e.g., informant of clinical history), or information about what Act was performed (e.g., informant witness)."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

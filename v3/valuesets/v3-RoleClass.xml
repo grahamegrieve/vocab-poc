@@ -4,7 +4,8 @@
   <id value="v3-RoleClass"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>This table includes codes for the Role class hierarchy.  The values in this hierarchy, represent a Role which is an association or relationship between two entities - the entity that plays the role and the entity that scopes the role.  Roles names are derived from the name of the playing entity in that role.</p>
                   
@@ -88,7 +89,7 @@
                   
       <p>The hierarchy discussed above is represented In the current vocabulary tables as a set of abstract domains, with the exception of the  &quot;Personal relationship&quot; which is a leaf concept.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -107,7 +108,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-RoleClass"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-RoleClass"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.11555"/>

@@ -4,7 +4,8 @@
   <id value="v3-ActClassCoverage"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>When used in the EVN mood, this concept means with respect to a covered party:</p>
                   
@@ -40,7 +41,7 @@
                   
       </ul>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -59,7 +60,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassCoverage"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassCoverage"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20208"/>
@@ -70,7 +71,7 @@
   <description value=" When used in the EVN mood, this concept means with respect to a covered party:   A health care insurance policy or plan that is contractually binding between two or more parties; or  A health care program, usually administered by government entities, that provides coverage to persons determined eligible under the terms of the program.   When used in the definition (DEF) mood, COV means potential coverage for a patient who may or may not be a covered party.  The concept&#39;s meaning is fully specified by the choice of ActCoverageTypeCode (abstract) ActProgramCode or ActInsurancePolicyCode."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

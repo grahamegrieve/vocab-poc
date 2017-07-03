@@ -4,7 +4,8 @@
   <id value="v3-UnitOfMeasurePrefix"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">Decimal multipliers for units of measure
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">Decimal multipliers for units of measure
       <p>
                      
         <b>Deprecation Comment:</b> This code system was created in error.  Implementations should use the code system UCUM with OID 2.16.840.1.113883.6.8
@@ -12,7 +13,7 @@
                   
       <p>Note that due to some tooling issues, some of the synonym codes that differed only in case (upper/lower) were not being assembled into MIF correctly, therefore they have been removed as a workaround for these tooling issues.  This should have limited effect as this system has been deprecated for 8 years, and retired for 4 years, and will be removed soon.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -34,7 +35,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="620-20081216"/>
   </extension>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-UnitOfMeasurePrefix"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-UnitOfMeasurePrefix"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.1072"/>

@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-RaceCategoryExcludingNulls"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-RaceCategoryExcludingNulls"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-RaceCategoryExcludingNulls"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.3.2074.1.1.3"/>
@@ -26,38 +26,38 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:1225457d-a755-46b3-a2e7-637fbdeb3ed7"/>
+    <identifier value="urn:uuid:982c054a-1aad-4c62-b498-878b45b81072"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="1002-5"/>
       <display value="American Indian or Alaska Native"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2028-9"/>
       <display value="Asian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2076-8"/>
       <display value="Native Hawaiian or Other Pacific Islander"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2106-3"/>
       <display value="White"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2054-5"/>
       <display value="Black or African American"/>

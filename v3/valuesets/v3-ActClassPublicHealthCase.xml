@@ -4,11 +4,12 @@
   <id value="v3-ActClassPublicHealthCase"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A public health case is an Observation representing a condition or event that has a specific significance for public health. Typically it involves an instance or instances of a reportable infectious disease or other condition. The public health case can include a health-related event concerning a single individual or it may refer to multiple health-related events that are occurrences of the same disease or condition of interest to public health. An outbreak involving multiple individuals may be considered as a type of public health case. A public health case definition (Act.moodCode = &quot;definition&quot;) includes the description of the clinical, laboratory, and epidemiologic indicators associated with a disease or condition of interest to public health. There are case definitions for conditions that are reportable, as well as for those that are not. There are also case definitions for outbreaks. A public health case definition is a construct used by public health for the purpose of counting cases, and should not be used as clinical indications for treatment. Examples include AIDS, toxic-shock syndrome, and salmonellosis and their associated indicators that are used to define a case.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -30,7 +31,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1176-20121109"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassPublicHealthCase"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassPublicHealthCase"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.11530"/>
@@ -41,7 +42,7 @@
   <description value=" A public health case is an Observation representing a condition or event that has a specific significance for public health. Typically it involves an instance or instances of a reportable infectious disease or other condition. The public health case can include a health-related event concerning a single individual or it may refer to multiple health-related events that are occurrences of the same disease or condition of interest to public health. An outbreak involving multiple individuals may be considered as a type of public health case. A public health case definition (Act.moodCode = &quot;definition&quot;) includes the description of the clinical, laboratory, and epidemiologic indicators associated with a disease or condition of interest to public health. There are case definitions for conditions that are reportable, as well as for those that are not. There are also case definitions for outbreaks. A public health case definition is a construct used by public health for the purpose of counting cases, and should not be used as clinical indications for treatment. Examples include AIDS, toxic-shock syndrome, and salmonellosis and their associated indicators that are used to define a case."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

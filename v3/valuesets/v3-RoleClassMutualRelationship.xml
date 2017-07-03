@@ -4,13 +4,14 @@
   <id value="v3-RoleClassMutualRelationship"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A relationship that is based on mutual behavior of the two Entities as being related. The basis of such relationship may be agreements (e.g., spouses, contract parties) or they may be 
         <i>de facto</i> behavior (e.g. friends) or may be an incidental involvement with each other (e.g. parties over a dispute, siblings, children).
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -29,7 +30,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-RoleClassMutualRelationship"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-RoleClassMutualRelationship"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19316"/>
@@ -40,7 +41,7 @@
   <description value=" A relationship that is based on mutual behavior of the two Entities as being related. The basis of such relationship may be agreements (e.g., spouses, contract parties) or they may bede facto&#xD;&#xA;behavior (e.g. friends) or may be an incidental involvement with each other (e.g. parties over a dispute, siblings, children)."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

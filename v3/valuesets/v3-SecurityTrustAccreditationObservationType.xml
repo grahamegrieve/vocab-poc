@@ -4,11 +4,12 @@
   <id value="v3-SecurityTrustAccreditationObservationType"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Type of security metadata observation made about the formal declaration by an authority or neutral third party that validates the technical, security, trust, and business practice conformance of Trust Agents to facilitate security, interoperability, and trust among participants within a security domain or trust framework.  </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Add ActTrustPolicyType concept domain to ActPolicyType branch of the ActCode concept domain.  Add TrustPolicy concept codes to the Act.code system.  Add 15 value sets binding c:TrustPolicy to 15 Concept Domains."/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-SecurityTrustAccreditationObservationType"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-SecurityTrustAccreditationObservationType"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20532"/>
@@ -38,7 +39,7 @@
   <description value=" Type of security metadata observation made about the formal declaration by an authority or neutral third party that validates the technical, security, trust, and business practice conformance of Trust Agents to facilitate security, interoperability, and trust among participants within a security domain or trust framework."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActCode"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

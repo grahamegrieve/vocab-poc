@@ -4,7 +4,8 @@
   <id value="v3-ActRelationshipUpdate"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -17,7 +18,7 @@
         <b>Deprecation Comment: </b>Was mis-named, and a proper representation has been provided.  Replaced by value set ActRelationshipCompliesWith.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -39,7 +40,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1082-20110315"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActRelationshipUpdate"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActRelationshipUpdate"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20349"/>
@@ -50,7 +51,7 @@
   <description value="  Description:&#xD;&#xA;  Deprecation Comment:&#xD;&#xA;Was mis-named, and a proper representation has been provided.  Replaced by value set ActRelationshipCompliesWith."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

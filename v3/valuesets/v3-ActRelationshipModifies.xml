@@ -4,7 +4,8 @@
   <id value="v3-ActRelationshipModifies"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Definition: Used to link a newer version or &#39;snapshot&#39; of a business object (source) to an older version or &#39;snapshot&#39; of the same business object (target).</p>
                   
@@ -17,7 +18,7 @@
                   
       <p>Name from target to source = &quot;modifiesByNew&quot;</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -36,7 +37,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActRelationshipModifies"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActRelationshipModifies"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19992"/>
@@ -47,7 +48,7 @@
   <description value=" Definition: Used to link a newer version or &#39;snapshot&#39; of a business object (source) to an older version or &#39;snapshot&#39; of the same business object (target).  Usage:&#xD;&#xA;The identifier of the Act should be the same for both source and target. If the identifiers are distinct, RPLC should be used instead. Name from source to target = &quot;modifiesPrior&quot; Name from target to source = &quot;modifiesByNew&quot;"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

@@ -4,7 +4,8 @@
   <id value="v3-DiseaseProgram"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -16,7 +17,7 @@
         <b>Example:</b> Reproductive health, sexually transmitted disease, and end renal disease programs.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -35,7 +36,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-DiseaseProgram"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-DiseaseProgram"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19863"/>
@@ -46,7 +47,7 @@
   <description value="  Definition:&#xD;&#xA;A public or government health program that administers and funds coverage for health and social services to assist program eligible who meet financial and health status criteria related to a particular disease.  Example:&#xD;&#xA;Reproductive health, sexually transmitted disease, and end renal disease programs."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActCode"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

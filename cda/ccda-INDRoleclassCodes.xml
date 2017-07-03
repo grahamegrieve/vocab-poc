@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-INDRoleclassCodes"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-INDRoleclassCodes"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-INDRoleclassCodes"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.33"/>
@@ -13,44 +13,44 @@
   <date value="2015-03-10"/>
   <description value="The relationship between a patient and a document participant"/>
   <expansion>
-    <identifier value="urn:uuid:3df8c6a7-6e03-49bc-8101-95e546db931b"/>
+    <identifier value="urn:uuid:5efb0a4b-3399-40f1-bef0-e87eb733dc4e"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ECON"/>
       <display value="emergency contact"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="NOK"/>
       <display value="next of kin"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PRS"/>
       <display value="personal relationship"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AGNT"/>
       <display value="agent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="CAREGIVER"/>
       <display value="caregiver"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="GUAR"/>
       <display value="guarantor"/>

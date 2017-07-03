@@ -4,11 +4,12 @@
   <id value="v3-HL7ITSVersionCode"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>HL7 implementation technology specification versions. These codes will document the ITS type and version for message encoding. The code will appear in the instances based upon rules expressed in the ITS, and do not appear in the abstract message, either as it is presented to received from the ITS.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-HL7ITSVersionCode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-HL7ITSVersionCode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19449"/>
@@ -38,7 +39,7 @@
   <description value=" HL7 implementation technology specification versions. These codes will document the ITS type and version for message encoding. The code will appear in the instances based upon rules expressed in the ITS, and do not appear in the abstract message, either as it is presented to received from the ITS."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-hl7ITSVersionCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-hl7ITSVersionCode"/>
       <concept>
         <code value="XMLV1PR1"/>
       </concept>

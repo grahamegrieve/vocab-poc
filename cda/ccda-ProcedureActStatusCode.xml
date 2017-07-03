@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-ProcedureActStatusCode"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-ProcedureActStatusCode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ProcedureActStatusCode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.22"/>
@@ -13,32 +13,32 @@
   <date value="2015-04-24"/>
   <description value="Status of a procedure activity"/>
   <expansion>
-    <identifier value="urn:uuid:15b815a2-5625-4d29-b760-b67be0a23bb4"/>
+    <identifier value="urn:uuid:d59afde6-c331-486d-a547-bc6cfd08c4e1"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="aborted"/>
       <display value="aborted"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="active"/>
       <display value="active"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="cancelled"/>
       <display value="cancelled"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="completed"/>
       <display value="completed"/>

@@ -4,11 +4,12 @@
   <id value="v3-ParticipationPhysicalPerformer"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A person  who actually and principally carries out the action.  Need not be the principal responsible actor, e.g. a surgery resident operating under supervision of attending surgeon, and may be the patient in self-care, e.g. fingerstick blood sugar.  The traditional order filler is a performer. This information should accompany every service event.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ParticipationPhysicalPerformer"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ParticipationPhysicalPerformer"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.10248"/>
@@ -38,7 +39,7 @@
   <description value=" A person  who actually and principally carries out the action.  Need not be the principal responsible actor, e.g. a surgery resident operating under supervision of attending surgeon, and may be the patient in self-care, e.g. fingerstick blood sugar.  The traditional order filler is a performer. This information should accompany every service event."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

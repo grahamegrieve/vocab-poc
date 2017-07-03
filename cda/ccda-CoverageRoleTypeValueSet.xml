@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-CoverageRoleTypeValueSet"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-CoverageRoleTypeValueSet"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-CoverageRoleTypeValueSet"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.18877"/>
@@ -20,56 +20,56 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:ad5db71e-e59a-452d-a74c-7946f1f96f4e"/>
+    <identifier value="urn:uuid:f2a84b79-e615-4604-8a3f-379d0d3661f3"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="FAMDEP"/>
       <display value="family dependent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="FSTUD"/>
       <display value="full-time student"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="HANDIC"/>
       <display value="handicapped dependent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SPON"/>
       <display value="sponsored dependent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="STUD"/>
       <display value="student"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="INJ"/>
       <display value="injured plaintiff"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PSTUD"/>
       <display value="part-time student"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SELF"/>
       <display value="self"/>

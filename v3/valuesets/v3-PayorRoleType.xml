@@ -4,7 +4,8 @@
   <id value="v3-PayorRoleType"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -16,7 +17,7 @@
         <b>Examples:</b>A Payor that is a TPA may administer a managed care plan without underwriting the risk.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -35,7 +36,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-PayorRoleType"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-PayorRoleType"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19853"/>
@@ -46,7 +47,7 @@
   <description value="  Description:&#xD;&#xA;PayorRoleType for a particular type of policy or program benefit package or plan where more detail about the coverage administration role of the Payor is required.  The functions performed by a Payor qualified by a PayorRoleType may be specified by the PayorParticpationFunction value set.  Examples:&#xD;&#xA;A Payor that is a TPA may administer a managed care plan without underwriting the risk."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleCode"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

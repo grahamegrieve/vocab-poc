@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-AdministrationUnitDoseForm"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-AdministrationUnitDoseForm"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-AdministrationUnitDoseForm"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113762.1.4.1021.30"/>
@@ -26,74 +26,74 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:eaf54404-8719-46ee-b024-22f309365a10"/>
+    <identifier value="urn:uuid:651c4583-b224-4175-bcf4-c0326b63b050"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C102405"/>
       <display value="Capful Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C122629"/>
       <display value="Actuation Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C122631"/>
       <display value="Dropperful Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C25397"/>
       <display value="Application Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C44278"/>
       <display value="Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C48536"/>
       <display value="Scoopful Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C48537"/>
       <display value="Spray Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C65060"/>
       <display value="Puff Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C71204"/>
       <display value="Nebule Dosing Unit"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C48491"/>
       <display value="Metric Drop"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-nciThesaurus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
       <version value="2016"/>
       <code value="C48501"/>
       <display value="Inhalation Dosing Unit"/>

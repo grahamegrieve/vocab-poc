@@ -1,0 +1,37 @@
+{
+	"canonicalBase": "http://hl7.org/fhir/ig/vocab-poc",
+	"tool": "jekyll",
+	"paths": {
+		"output": "../../output",
+		"resources": ["resources", "../../v2", "../../v3/codeSystems", "../../v3/valueSets"], 
+    "more" : ["../../cda", "../../cimi", "../../fhir/codeSystems", "../../fhir/valueSets", "../../other"],
+		"specification": "http://build.fhir.org",
+		"pages": ["pages"],
+		"qa": "qa",
+		"txCache": "txCache",
+		"temp": "temp"
+	},
+	"broken-links": "warning",
+	"resources": {
+    "*" : true
+	},
+	"status": "draft",
+	"do-transforms": "false",
+	"defaults": {
+		"ValueSet": {
+			"template-base": "vs.html"
+		},
+		"CodeSystem": {
+			"template-base": "cs.html"
+		},
+		"ConceptMap": {
+			"template-base": "cm.html"
+		}
+	},
+	"version": "3.0.1",
+	"source": "ig.xml",
+	"gen-examples": "false",
+	"title": "Vocabulary Maintenance PoC",
+  "sct-edition" : "http://snomed.info/sct/900000000000207008",
+	"publisher": "HL7 Intl (Vocab)"
+}

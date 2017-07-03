@@ -4,7 +4,8 @@
   <id value="v3-ActClassAcquisitionExposure"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -19,7 +20,7 @@
         <b>Constraints:</b>  The Acquisition Exposure inherits the participation constraints that apply to Exposure with the following exception.  The EXPSRC (exposure source) participation must never be associated with the Transmission Exposure either directly or via context conduction.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -38,7 +39,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassAcquisitionExposure"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassAcquisitionExposure"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20198"/>
@@ -49,7 +50,7 @@
   <description value="  Description:&#xD;&#xA; An acquisition exposure act describes the proximity (location and time) through which the participating entity was potentially exposed to a physical (including energy), chemical or biological agent from another entity.  The acquisition exposure act is used in conjunction with transmission exposure acts as part of an analysis technique for contact tracing.  Although an exposure can be decomposed into transmission and acquisition exposures, there is no requirement that all exposures be treated in this fashion.  Constraints:&#xD;&#xA;The Acquisition Exposure inherits the participation constraints that apply to Exposure with the following exception.  The EXPSRC (exposure source) participation must never be associated with the Transmission Exposure either directly or via context conduction."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

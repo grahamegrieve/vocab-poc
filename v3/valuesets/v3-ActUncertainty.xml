@@ -4,7 +4,8 @@
   <id value="v3-ActUncertainty"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A code indicating whether the Act statement as a whole, with its subordinate components has been asserted to be uncertain in any way. </p>
                   
@@ -25,7 +26,7 @@
                   
       <p>Note that very vague uncertainty may be thought related to negationInd, however, the two concepts are really independent. One may be very uncertain about an event, but that does not mean that one is certain about the negation of the event.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -44,7 +45,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActUncertainty"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActUncertainty"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.16899"/>

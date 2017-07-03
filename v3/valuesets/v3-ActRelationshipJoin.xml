@@ -4,7 +4,8 @@
   <id value="v3-ActRelationshipJoin"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A code specifying how concurrent Acts are resynchronized in a parallel branch construct.</p>
                   
@@ -17,7 +18,7 @@
                   
       <p>A kill branch is only executed if there is at least one active wait (or exclusive wait) branch. If there is no other wait branch active, a kill branch is not started at all (rather than being aborted shortly after it is started.) Since a detached branch is unrelated to all other branches, active detached branches do not protect a kill-branch from being aborted.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -36,7 +37,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActRelationshipJoin"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActRelationshipJoin"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.10360"/>

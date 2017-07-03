@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-PostalAddressUse"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-PostalAddressUse"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-PostalAddressUse"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.10637"/>
@@ -13,68 +13,68 @@
   <date value="2015-04-17"/>
   <description value="The purpose for which a location is assigned the associated postal address"/>
   <expansion>
-    <identifier value="urn:uuid:008bc482-0460-4571-ac5f-b440559e2cd6"/>
+    <identifier value="urn:uuid:c87f3e0a-a0fa-4daf-97da-dbab9352afd3"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="BAD"/>
       <display value="bad address"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="DIR"/>
       <display value="direct"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="HP"/>
       <display value="primary home"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PHYS"/>
       <display value="physical visit address"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="WP"/>
       <display value="work place"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="H"/>
       <display value="home address"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="HV"/>
       <display value="vacation home"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PST"/>
       <display value="postal address"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PUB"/>
       <display value="public"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="TMP"/>
       <display value="temporary address"/>

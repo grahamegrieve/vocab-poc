@@ -4,11 +4,12 @@
   <id value="v3-ObservationLivingDependencyValue"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Continued living in private residence requires functional and health care assistance from spouse or life partner.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ObservationLivingDependencyValue"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ObservationLivingDependencyValue"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19921"/>
@@ -38,7 +39,7 @@
   <description value=" Continued living in private residence requires functional and health care assistance from spouse or life partner."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ObservationValue"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ObservationValue"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

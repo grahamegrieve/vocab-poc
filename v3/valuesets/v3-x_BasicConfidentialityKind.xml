@@ -4,7 +4,8 @@
   <id value="v3-x_BasicConfidentialityKind"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -16,7 +17,7 @@
         <i>Usage Note:</i>x_BasicConfidentialityKind is a subset of Confidentiality codes that are used as metadata indicating the receiver responsibility to comply with normally applicable jurisdictional privacy law or disclosure authorization; that the receiver may not disclose this information except as directed by the information custodian, who may be the information subject; or that the receiver may not disclose this information except as directed by the information custodian, who may be the information subject.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -35,7 +36,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-x_BasicConfidentialityKind"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-x_BasicConfidentialityKind"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.16926"/>
@@ -46,19 +47,19 @@
   <description value="  Description:&#xD;&#xA;Used to enumerate the typical confidentiality constraints placed upon a clinical document.  Usage Note:&#xD;&#xA;x_BasicConfidentialityKind is a subset of Confidentiality codes that are used as metadata indicating the receiver responsibility to comply with normally applicable jurisdictional privacy law or disclosure authorization; that the receiver may not disclose this information except as directed by the information custodian, who may be the information subject; or that the receiver may not disclose this information except as directed by the information custodian, who may be the information subject."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-Confidentiality"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
       <concept>
         <code value="N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-Confidentiality"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
       <concept>
         <code value="R"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-Confidentiality"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
       <concept>
         <code value="V"/>
       </concept>

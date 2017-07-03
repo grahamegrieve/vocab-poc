@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-xServiceEventPerformer"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-xServiceEventPerformer"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-xServiceEventPerformer"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19601"/>
@@ -26,26 +26,26 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:13d3de48-ffd9-493b-8cd7-450c0393d5da"/>
+    <identifier value="urn:uuid:9d1aa007-9a1d-43a0-bb1a-21e49ad87e58"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PPRF"/>
       <display value="primary performer"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SPRF"/>
       <display value="secondary performer"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PRF"/>
       <display value="performer"/>

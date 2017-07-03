@@ -4,7 +4,8 @@
   <id value="v3-ParticipationAuthorOriginator"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -36,7 +37,7 @@
                   
       <p>A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -55,7 +56,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ParticipationAuthorOriginator"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ParticipationAuthorOriginator"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20064"/>
@@ -66,7 +67,7 @@
   <description value="  Definition:&#xD;&#xA;A party that originates the Act and therefore has responsibility for the information given in the Act and ownership of this Act.  Example:&#xD;&#xA;the report writer, the person writing the act definition, the guideline author, the placer of an order, the EKG cart (device) creating a report etc. Every Act should have an author. Authorship is regardless of mood always actual authorship. Examples of such policies might include:   The author and anyone they explicitly delegate may update the report;  All administrators within the same clinic may cancel and reschedule appointments created by other administrators within that clinic; A party that is neither an author nor a party who is extended authorship maintenance rights by policy, may only amend, reverse, override, replace, or follow up in other ways on this Act, whereby the Act remains intact and is linked to another Act authored by that other party."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

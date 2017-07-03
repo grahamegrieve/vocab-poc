@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-TelecomUseUSRealmHeader"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-TelecomUseUSRealmHeader"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-TelecomUseUSRealmHeader"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.20"/>
@@ -13,32 +13,32 @@
   <date value="2015-04-24"/>
   <description value="The purpose for which an entity is assigned a telecom address"/>
   <expansion>
-    <identifier value="urn:uuid:d843e69e-7f7c-4c94-889a-f0aea8fef621"/>
+    <identifier value="urn:uuid:155a4005-1371-4311-abac-a886c4dd536e"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="HP"/>
       <display value="primary home"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="HV"/>
       <display value="vacation home"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="MC"/>
       <display value="mobile contact)"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AddressUse"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="WP"/>
       <display value="work place"/>

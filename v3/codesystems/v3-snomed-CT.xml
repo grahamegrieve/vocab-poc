@@ -4,7 +4,8 @@
   <id value="v3-snomed-CT"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>SNOMED CT is a concept-based, scientifically validated terminology that provides a unique and permanent concept identifier that can be included in multiple HL7 data types including CD and CE.  The concepts are managed to avoid &quot;semantic drift&quot; so the meaning remains constant.  If the concept is found to be ambiguous or the meaning changes, the concept is inactivated but still retained and the identifier is never reused.</p>
                   
@@ -12,9 +13,9 @@
                   
       <p>SNOMED CT concepts have a unique &quot;fully-specified name,&quot; a preferred term, and, optionally, synonyms.  The descriptions include English, Spanish, and German.</p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-snomed-CT"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-snomed-CT"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.6.96"/>

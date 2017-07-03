@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-MoodCodeEvnInt"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-MoodCodeEvnInt"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-MoodCodeEvnInt"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.18"/>
@@ -13,20 +13,20 @@
   <date value="2015-03-10"/>
   <description value="Subset of HL7 ActMood codes, constrained to represent event (EVN) and intent (INT) moods."/>
   <expansion>
-    <identifier value="urn:uuid:19fb4ac8-cfbe-4e4d-900d-7b8f95c37665"/>
+    <identifier value="urn:uuid:ce3393b9-eafc-447b-a7ca-f24f6140e229"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="INT"/>
       <display value="intent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="EVN"/>
       <display value="event (occurrence)"/>

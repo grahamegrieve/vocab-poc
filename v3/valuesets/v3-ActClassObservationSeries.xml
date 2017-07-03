@@ -4,11 +4,12 @@
   <id value="v3-ActClassObservationSeries"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Container for Correlated Observation Sequences sharing a common frame of reference.  All Observations of the same cd must be comparable and relative to the common frame of reference.  For example, a 3-channel ECG device records a 12-lead ECG in 4 steps (3 leads at a time).  Each of the separate 3-channel recordings would be in their own &quot;OBSCOR&quot;.  And, all 4 OBSCOR would be contained in one OBSSER because all the times are relative to the same origin (beginning of the recording) and all the ECG signals were from a fixed set of electrodes.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassObservationSeries"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassObservationSeries"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.18875"/>
@@ -38,7 +39,7 @@
   <description value=" Container for Correlated Observation Sequences sharing a common frame of reference.  All Observations of the same cd must be comparable and relative to the common frame of reference.  For example, a 3-channel ECG device records a 12-lead ECG in 4 steps (3 leads at a time).  Each of the separate 3-channel recordings would be in their own &quot;OBSCOR&quot;.  And, all 4 OBSCOR would be contained in one OBSSER because all the times are relative to the same origin (beginning of the recording) and all the ECG signals were from a fixed set of electrodes."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

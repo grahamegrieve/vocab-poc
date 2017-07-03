@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-HL7ReligiousAffiliation"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-HL7ReligiousAffiliation"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HL7ReligiousAffiliation"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19185"/>
@@ -20,500 +20,500 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:9d8c1cb9-12dc-46ff-bcb9-21af83bc947b"/>
+    <identifier value="urn:uuid:c2bafe72-223f-48c0-8b6e-5070346a5fa6"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1002"/>
       <display value="African Religions"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1003"/>
       <display value="Afro-Caribbean Religions"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1005"/>
       <display value="Anglican"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1006"/>
       <display value="Animism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1008"/>
       <display value="Babi &amp; Baha&#39;I faiths"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1009"/>
       <display value="Baptist"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1011"/>
       <display value="Cao Dai"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1012"/>
       <display value="Celticism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1015"/>
       <display value="Cyberculture Religions"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1017"/>
       <display value="Fourth Way"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1018"/>
       <display value="Free Daism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1020"/>
       <display value="Hinduism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1023"/>
       <display value="Islam"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1024"/>
       <display value="Jainism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1026"/>
       <display value="Judaism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1028"/>
       <display value="Lutheran"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1034"/>
       <display value="non-Roman Catholic"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1038"/>
       <display value="Pentecostal"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1040"/>
       <display value="Reformed/Presbyterian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1041"/>
       <display value="Roman Catholic Church"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1043"/>
       <display value="Scientology"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1050"/>
       <display value="Taoism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1052"/>
       <display value="Unitarian-Universalism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1053"/>
       <display value="Universal Life Church"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1054"/>
       <display value="Vajrayana (Tibetan)"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1055"/>
       <display value="Veda"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1056"/>
       <display value="Voodoo"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1057"/>
       <display value="Wicca"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1059"/>
       <display value="Zen Buddhism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1060"/>
       <display value="Zoroastrianism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1063"/>
       <display value="Christian Scientist"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1064"/>
       <display value="Church of Christ"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1066"/>
       <display value="Congregational"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1067"/>
       <display value="Disciples of Christ"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1068"/>
       <display value="Eastern Orthodox"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1070"/>
       <display value="Evangelical Covenant"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1074"/>
       <display value="Native American"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1076"/>
       <display value="Presbyterian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1078"/>
       <display value="Protestant, No Denomination"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1001"/>
       <display value="Adventist"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1004"/>
       <display value="Agnosticism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1007"/>
       <display value="Atheism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1010"/>
       <display value="Bon"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1013"/>
       <display value="Christian (non-Catholic, non-specific)"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1014"/>
       <display value="Confucianism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1016"/>
       <display value="Divination"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1019"/>
       <display value="Gnosis"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1021"/>
       <display value="Humanism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1022"/>
       <display value="Independent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1025"/>
       <display value="Jehovah&#39;s Witnesses"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1027"/>
       <display value="Latter Day Saints"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1029"/>
       <display value="Mahayana"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1030"/>
       <display value="Meditation"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1031"/>
       <display value="Messianic Judaism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1032"/>
       <display value="Mitraism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1033"/>
       <display value="New Age"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1035"/>
       <display value="Occult"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1036"/>
       <display value="Orthodox"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1037"/>
       <display value="Paganism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1039"/>
       <display value="Process, The"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1042"/>
       <display value="Satanism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1044"/>
       <display value="Shamanism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1045"/>
       <display value="Shiite (Islam)"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1046"/>
       <display value="Shinto"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1047"/>
       <display value="Sikism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1048"/>
       <display value="Spiritualism"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1049"/>
       <display value="Sunni (Islam)"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1051"/>
       <display value="Theravada"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1058"/>
       <display value="Yaohushua"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1061"/>
       <display value="Assembly of God"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1062"/>
       <display value="Brethren"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1065"/>
       <display value="Church of God"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1069"/>
       <display value="Episcopalian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1071"/>
       <display value="Friends"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1072"/>
       <display value="Full Gospel"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1073"/>
       <display value="Methodist"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1075"/>
       <display value="Nazarene"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1077"/>
       <display value="Protestant"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1079"/>
       <display value="Reformed"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1080"/>
       <display value="Salvation Army"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1081"/>
       <display value="Unitarian Universalist"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ReligiousAffiliation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ReligiousAffiliation"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="1082"/>
       <display value="United Church of Christ"/>

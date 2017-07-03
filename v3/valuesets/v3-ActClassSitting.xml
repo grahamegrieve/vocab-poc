@@ -4,14 +4,15 @@
   <id value="v3-ActClassSitting"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
         <b>Deprecation Comment:</b> This value set has been deprecated because its root code was deprecated in an earlier vocabulary release.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -33,7 +34,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="909-20091020"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassSitting"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassSitting"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20250"/>
@@ -44,7 +45,7 @@
   <description value="  Deprecation Comment:&#xD;&#xA;This value set has been deprecated because its root code was deprecated in an earlier vocabulary release."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

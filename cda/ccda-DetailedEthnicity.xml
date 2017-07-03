@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-DetailedEthnicity"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-DetailedEthnicity"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-DetailedEthnicity"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.114222.4.11.877"/>
@@ -26,266 +26,266 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:b59e4cfa-bd35-4bcd-95ac-0d5e4b6d3446"/>
+    <identifier value="urn:uuid:2d1e1a1f-6bbd-4f80-9681-119a5b4585e6"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2135-2"/>
       <display value="Hispanic or Latino"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2140-2"/>
       <display value="Castillian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2142-8"/>
       <display value="Belearic Islander"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2145-1"/>
       <display value="Canarian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2151-9"/>
       <display value="Chicano"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2152-7"/>
       <display value="La Raza"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2153-5"/>
       <display value="Mexican American Indian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2157-6"/>
       <display value="Guatemalan"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2158-4"/>
       <display value="Honduran"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2162-6"/>
       <display value="Central American Indian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2163-4"/>
       <display value="Canal Zone"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2167-5"/>
       <display value="Bolivian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2168-3"/>
       <display value="Chilean"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2169-1"/>
       <display value="Colombian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2171-7"/>
       <display value="Paraguayan"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2173-3"/>
       <display value="Uruguayan"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2174-1"/>
       <display value="Venezuelan"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2175-8"/>
       <display value="South American Indian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2176-6"/>
       <display value="Criollo"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2178-2"/>
       <display value="Latin American"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2186-5"/>
       <display value="Not Hispanic or Latino"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2137-8"/>
       <display value="Spaniard"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2138-6"/>
       <display value="Andalusian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2139-4"/>
       <display value="Asturian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2141-0"/>
       <display value="Catalonian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2143-6"/>
       <display value="Gallego"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2144-4"/>
       <display value="Valencian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2146-9"/>
       <display value="Spanish Basque"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2148-5"/>
       <display value="Mexican"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2149-3"/>
       <display value="Mexican American"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2150-1"/>
       <display value="Mexicano"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2155-0"/>
       <display value="Central American"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2156-8"/>
       <display value="Costa Rican"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2159-2"/>
       <display value="Nicaraguan"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2160-0"/>
       <display value="Panamanian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2161-8"/>
       <display value="Salvadoran"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2165-9"/>
       <display value="South American"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2166-7"/>
       <display value="Argentinean"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2170-9"/>
       <display value="Ecuadorian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2172-5"/>
       <display value="Peruvian"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2180-8"/>
       <display value="Puerto Rican"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2182-4"/>
       <display value="Cuban"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-PH_RaceAndEthnicity_CDC"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
       <version value="1.1"/>
       <code value="2184-0"/>
       <display value="Dominican"/>

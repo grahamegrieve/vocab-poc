@@ -4,13 +4,14 @@
   <id value="v3-ContextControl"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A code that specifies how an ActRelationship or Participation contributes to the context of an Act, and whether it may be propagated to descendent Acts whose association allows such propagation (see also attributes Participation.contextControlCode, ActRelationship.contextControlCode, ActRelationship.contextConductionInd).</p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-ContextControl"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ContextControl"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.1057"/>

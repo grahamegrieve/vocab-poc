@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-AdministrativeGenderHL7V3"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-AdministrativeGenderHL7V3"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-AdministrativeGenderHL7V3"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.1"/>
@@ -20,26 +20,26 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:dbc28a63-6ff0-4893-a433-e2d479174f6d"/>
+    <identifier value="urn:uuid:04e0596d-9287-445e-8807-35118afc88d3"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AdministrativeGender"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="F"/>
       <display value="Female"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AdministrativeGender"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="M"/>
       <display value="Male"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-AdministrativeGender"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="UN"/>
       <display value="Undifferentiated"/>

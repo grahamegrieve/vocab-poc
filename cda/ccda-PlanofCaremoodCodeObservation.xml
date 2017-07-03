@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-PlanofCaremoodCodeObservation"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-PlanofCaremoodCodeObservation"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-PlanofCaremoodCodeObservation"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.25"/>
@@ -13,38 +13,38 @@
   <date value="2015-04-17"/>
   <description value="Mood values appropriate to planned observations"/>
   <expansion>
-    <identifier value="urn:uuid:ac1f94cf-bf1a-4073-ae52-452923d3eb30"/>
+    <identifier value="urn:uuid:14c9cc6d-4785-4bdd-81d4-4b9aec3bdc51"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="GOL"/>
       <display value="Goal"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PRMS"/>
       <display value="promise"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PRP"/>
       <display value="proposal"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RQO"/>
       <display value="request"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActMood"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="INT"/>
       <display value="intent"/>

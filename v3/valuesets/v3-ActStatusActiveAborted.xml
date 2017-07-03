@@ -4,7 +4,8 @@
   <id value="v3-ActStatusActiveAborted"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">** none supplied **</text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">** none supplied **</div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -23,7 +24,7 @@
       <valueString value="Create two new value sets with specific enumerated ActStatus codes."/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActStatusActiveAborted"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActStatusActiveAborted"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20524"/>
@@ -34,13 +35,13 @@
   <description value="** none supplied **"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <concept>
         <code value="aborted"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <concept>
         <code value="active"/>
       </concept>

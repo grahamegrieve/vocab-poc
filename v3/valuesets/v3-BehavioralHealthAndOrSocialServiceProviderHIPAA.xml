@@ -4,11 +4,12 @@
   <id value="v3-BehavioralHealthAndOrSocialServiceProviderHIPAA"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Broad classification aggregating providers who are trained and educated to perform services related to behavioral health, mental health, and counseling and may be licensed or practice within the scope or licensure or training.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -30,7 +31,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1194-20130307"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-BehavioralHealthAndOrSocialServiceProviderHIPAA"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-BehavioralHealthAndOrSocialServiceProviderHIPAA"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.13131"/>
@@ -41,31 +42,31 @@
   <description value=" Broad classification aggregating providers who are trained and educated to perform services related to behavioral health, mental health, and counseling and may be licensed or practice within the scope or licensure or training."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="106H00000N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="225CA2500N"/>
       </concept>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-BehavioralHealthAndOrSocialServiceCounselorHIPAA"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-BehavioralHealthAndOrSocialServiceCounselorHIPAA"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-NeuropsychologistHIPAA"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-NeuropsychologistHIPAA"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-PsychoanalystHIPAA"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-PsychoanalystHIPAA"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-PsychologistHIPAA"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-PsychologistHIPAA"/>
     </include>
     <include>
-      <valueSet value="http://hl7.org/fhir/ValueSet/v3-SocialWorkerHIPAA"/>
+      <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-SocialWorkerHIPAA"/>
     </include>
   </compose>
 </ValueSet>

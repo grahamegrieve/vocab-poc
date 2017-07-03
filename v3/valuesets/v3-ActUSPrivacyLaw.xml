@@ -4,7 +4,8 @@
   <id value="v3-ActUSPrivacyLaw"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -15,7 +16,7 @@
         </b>Content moved to ActCode, and is now represented in value set ActPrivacyLaw.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -37,7 +38,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1357-20160312"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActUSPrivacyLaw"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActUSPrivacyLaw"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20427"/>
@@ -48,7 +49,7 @@
   <description value="   Deprecation Comment:&#xD;&#xA;Content moved to ActCode, and is now represented in value set ActPrivacyLaw."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActUSPrivacyLaw"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActUSPrivacyLaw"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

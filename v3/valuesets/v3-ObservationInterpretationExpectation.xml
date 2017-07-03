@@ -4,13 +4,14 @@
   <id value="v3-ObservationInterpretationExpectation"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Observation interpretation codes for expected results based on additional information (contraindicators) about the patient&#39;s situation.</p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ObservationInterpretationExpectation"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ObservationInterpretationExpectation"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20548"/>
@@ -21,7 +22,7 @@
   <description value=" Observation interpretation codes for expected results based on additional information (contraindicators) about the patient&#39;s situation."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ObservationInterpretation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ObservationInterpretation"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

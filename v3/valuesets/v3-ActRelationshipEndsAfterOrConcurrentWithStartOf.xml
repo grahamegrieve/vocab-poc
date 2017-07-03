@@ -4,11 +4,12 @@
   <id value="v3-ActRelationshipEndsAfterOrConcurrentWithStartOf"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Pro-forma value set for each head code in the ActRelationshipType code system; all codes present and future below the head code.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Pro-forma value set creation."/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActRelationshipEndsAfterOrConcurrentWithStartOf"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActRelationshipEndsAfterOrConcurrentWithStartOf"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20519"/>
@@ -38,7 +39,7 @@
   <description value=" Pro-forma value set for each head code in the ActRelationshipType code system; all codes present and future below the head code."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

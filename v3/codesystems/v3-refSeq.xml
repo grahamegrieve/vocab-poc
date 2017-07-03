@@ -4,7 +4,8 @@
   <id value="v3-refSeq"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>The Reference Sequence (RefSeq) is one of the NCBI projects, the RefSeq collection aims to provide a comprehensive, integrated, non-redundant, well-annotated set of sequences, including genomic DNA, transcripts, and proteins. ReqSeq is accessible via BLAST, Entrez, and the NCBI FTP site.  Information is also available in Entrez Genomes and Entrez Gene, and for some genomes additional information is available in the Map Viewer.</p>
                   
@@ -18,9 +19,9 @@
                   
       <p>RefSeq is a free database for the public.</p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-refSeq"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-refSeq"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.6.280"/>

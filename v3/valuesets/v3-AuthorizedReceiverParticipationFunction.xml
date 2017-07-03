@@ -4,11 +4,12 @@
   <id value="v3-AuthorizedReceiverParticipationFunction"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>This code is used to specify the exact function an actor is authorized to have as a receiver of information that is the subject of a consent directive or consent override.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-AuthorizedReceiverParticipationFunction"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-AuthorizedReceiverParticipationFunction"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19932"/>
@@ -38,7 +39,7 @@
   <description value=" This code is used to specify the exact function an actor is authorized to have as a receiver of information that is the subject of a consent directive or consent override."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

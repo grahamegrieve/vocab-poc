@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-LanguageAbilityProficiency"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-LanguageAbilityProficiency"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-LanguageAbilityProficiency"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.12199"/>
@@ -13,32 +13,32 @@
   <date value="2015-04-24"/>
   <description value="A person&#39;s level of proficiency in a language"/>
   <expansion>
-    <identifier value="urn:uuid:f5b718f1-677b-46fb-8526-18a9b971a0d0"/>
+    <identifier value="urn:uuid:6b48aee9-468e-41ac-9a41-8d62c6ef2e41"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityProficiency"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="E"/>
       <display value="Excellent"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityProficiency"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="F"/>
       <display value="Fair"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityProficiency"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="G"/>
       <display value="Good"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityProficiency"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="P"/>
       <display value="Poor"/>

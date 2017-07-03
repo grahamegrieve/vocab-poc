@@ -4,14 +4,15 @@
   <id value="v3-TelecommunicationAddressUse"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
         <i>Deprecation Comment: </i>This code system was deprecated as of the November 2007 harmonization meeting. The content was folded into AddressUse (2.16.840.1.113883.5.1119), which replaces this code system.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -33,7 +34,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="620-20081216"/>
   </extension>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-TelecommunicationAddressUse"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-TelecommunicationAddressUse"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.1011"/>

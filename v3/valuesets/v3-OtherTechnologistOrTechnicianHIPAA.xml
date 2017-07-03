@@ -4,11 +4,12 @@
   <id value="v3-OtherTechnologistOrTechnicianHIPAA"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>General classification identifying individuals trained on specific equipment and technical procedures in one of a collection of miscellaneous healthcare disciplines.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -30,7 +31,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1194-20130307"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-OtherTechnologistOrTechnicianHIPAA"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-OtherTechnologistOrTechnicianHIPAA"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.13673"/>
@@ -41,85 +42,85 @@
   <description value=" General classification identifying individuals trained on specific equipment and technical procedures in one of a collection of miscellaneous healthcare disciplines."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZA2600N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZB0301N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZB0302N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZB0500N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZB0600N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZE0500N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZE0600N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZF0200N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZG0701N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZG1000N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZI1000N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZN0300N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZS0400N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246ZV0500N"/>
       </concept>

@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-ParticipationFunction"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-ParticipationFunction"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ParticipationFunction"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.10267"/>
@@ -13,296 +13,296 @@
   <date value="2015-04-17"/>
   <description value="This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE)."/>
   <expansion>
-    <identifier value="urn:uuid:51329ea9-9281-461f-be8e-694fe17ff2e1"/>
+    <identifier value="urn:uuid:4f51f400-5876-4da8-bd36-722bf949ceac"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ADMPHYS"/>
       <display value="admitting physician"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ANEST"/>
       <display value="anesthesist"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ANRS"/>
       <display value="anesthesia nurse"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ASSEMBLER"/>
       <display value="assembly software"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AUCG"/>
       <display value="caregiver information receiver"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AUCOV"/>
       <display value="consent overrider"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AULR"/>
       <display value="legitimate relationship information receiver"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AUTM"/>
       <display value="care team information receiver"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AUWA"/>
       <display value="work area information receiver"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="CLMADJ"/>
       <display value="claims adjudication"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="FULINRD"/>
       <display value="fully insured"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="GRDCON"/>
       <display value="legal guardian consent author"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PAYORCNTR"/>
       <display value="payor contracting"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="REINS"/>
       <display value="reinsures"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RETROCES"/>
       <display value="retrocessionaires"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RNDPHYS"/>
       <display value="rounding physician"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SNRS"/>
       <display value="scrub nurse"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SUBCON"/>
       <display value="subject of consent author"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SUBCTRT"/>
       <display value="subcontracting risk"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_AuthorizedParticipationFunction"/>
       <display value="AuthorizedParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_ConsenterParticipationFunction"/>
       <display value="ConsenterParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_CoverageParticipationFunction"/>
       <display value="CoverageParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_SponsorParticipationFunction"/>
       <display value="SponsorParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ATTPHYS"/>
       <display value="attending physician"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AUEMROV"/>
       <display value="emergency overrider"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="DISPHYS"/>
       <display value="discharging physician"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ENROLL"/>
       <display value="enrollment broker"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="FASST"/>
       <display value="first assistant surgeon"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="FFSMGT"/>
       <display value="ffs management"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="MCMGT"/>
       <display value="managed care management"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="MDWF"/>
       <display value="midwife"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="NASST"/>
       <display value="nurse assistant"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PCP"/>
       <display value="primary care physician"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="POACON"/>
       <display value="healthcare power of attorney consent author"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PRCON"/>
       <display value="personal representative consent author"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PRISURG"/>
       <display value="primary surgeon"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PROMSK"/>
       <display value="authorized provider masking author"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PROVMGT"/>
       <display value="provider management"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="REVIEWER"/>
       <display value="reviewer"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SASST"/>
       <display value="second assistant surgeon"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SELFINRD"/>
       <display value="self insured"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="TASST"/>
       <display value="third assistant"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="UMGT"/>
       <display value="utilization management"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="UNDERWRTNG"/>
       <display value="underwriting"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_AuthorizedReceiverParticipationFunction"/>
       <display value="AuthorizedReceiverParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_OverriderParticipationFunction"/>
       <display value="OverriderParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_PayorParticipationFunction"/>
       <display value="PayorParticipationFunction"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationFunction"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationFunction"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="_UnderwriterParticipationFunction"/>
       <display value="UnderwriterParticipationFunction"/>

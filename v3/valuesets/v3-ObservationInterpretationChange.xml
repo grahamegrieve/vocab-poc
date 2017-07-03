@@ -4,11 +4,12 @@
   <id value="v3-ObservationInterpretationChange"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Interpretations of change of quantity and/or severity, such as &quot;better&quot;, &quot;worse&quot;, &quot;increased&quot;, etc.  At most one of B or W and one of U or D allowed.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ObservationInterpretationChange"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ObservationInterpretationChange"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.10214"/>
@@ -38,7 +39,7 @@
   <description value=" Interpretations of change of quantity and/or severity, such as &quot;better&quot;, &quot;worse&quot;, &quot;increased&quot;, etc.  At most one of B or W and one of U or D allowed."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ObservationInterpretation"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ObservationInterpretation"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-HL7LanguageAbilityMode"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-HL7LanguageAbilityMode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HL7LanguageAbilityMode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.12249"/>
@@ -13,44 +13,44 @@
   <date value="2015-04-24"/>
   <description value="Channels for expressing and receiving human language"/>
   <expansion>
-    <identifier value="urn:uuid:7677c530-aaa8-4ff8-89c8-659b7b4e8e5b"/>
+    <identifier value="urn:uuid:7ff094a3-12f4-4cfd-ae28-2fc10ec3ea84"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ESP"/>
       <display value="Expressed spoken"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="EWR"/>
       <display value="Expressed written"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RSP"/>
       <display value="Received spoken"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RWR"/>
       <display value="Received written"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="ESGN"/>
       <display value="Expressed signed"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-LanguageAbilityMode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RSGN"/>
       <display value="Received signed"/>

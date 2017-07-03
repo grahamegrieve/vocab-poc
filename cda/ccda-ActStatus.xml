@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-ActStatus"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-ActStatus"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ActStatus"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.15933"/>
@@ -26,68 +26,68 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:222438d7-36ce-40bc-a398-747c3c9248f2"/>
+    <identifier value="urn:uuid:c23740f2-dfba-48e0-86a2-6f97fe1672e7"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="active"/>
       <display value="active"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="completed"/>
       <display value="completed"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="new"/>
       <display value="new"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="normal"/>
       <display value="normal"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="nullified"/>
       <display value="nullified"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="aborted"/>
       <display value="aborted"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="cancelled"/>
       <display value="cancelled"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="held"/>
       <display value="held"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="obsolete"/>
       <display value="obsolete"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="suspended"/>
       <display value="suspended"/>

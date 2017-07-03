@@ -4,11 +4,12 @@
   <id value="v3-x_EncounterParticipant"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>Clones using this x_domain should have a name &quot;encounterParticipant&quot;.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -27,7 +28,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-x_EncounterParticipant"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-x_EncounterParticipant"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19600"/>
@@ -38,31 +39,31 @@
   <description value=" Clones using this x_domain should have a name &quot;encounterParticipant&quot;."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <concept>
         <code value="ADM"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <concept>
         <code value="ATND"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <concept>
         <code value="CON"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <concept>
         <code value="DIS"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ParticipationType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationType"/>
       <concept>
         <code value="REF"/>
       </concept>

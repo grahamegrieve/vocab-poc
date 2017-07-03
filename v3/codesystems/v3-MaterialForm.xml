@@ -4,17 +4,18 @@
   <id value="v3-MaterialForm"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A value representing the state (solid, liquid, gas) and nature of the material.</p>
                   
       <i>Open Issue: </i> There exist no codes in the repository for this coding system; should it be removed?
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1130-20120315"/>
   </extension>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-MaterialForm"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-MaterialForm"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.1127"/>

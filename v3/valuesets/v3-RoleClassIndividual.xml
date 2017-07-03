@@ -4,7 +4,8 @@
   <id value="v3-RoleClassIndividual"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -21,7 +22,7 @@
         <b>Example:</b> The individual insured under a comprehensive automobile, disability, or property and casualty policy that is the policy holder.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -40,7 +41,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-RoleClassIndividual"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-RoleClassIndividual"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20141"/>
@@ -51,7 +52,7 @@
   <description value="  Description:&#xD;&#xA;A role played by a party covered under a policy as the policy holder.  An individual may be either a person or an organization.  Note:&#xD;&#xA;The party playing the role of an individual insured is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant).  However, a named insured may make a claim under a policy, e.g., a party that is the named insured and policy holder under a comprehensive automobile insurance policy may become the claimant for coverage under that policy if injured in an automobile accident and there is no liable third party.  In the case of an individual insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that an individual insured has filed a claim for a loss.  Example:&#xD;&#xA;The individual insured under a comprehensive automobile, disability, or property and casualty policy that is the policy holder."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-RoleClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

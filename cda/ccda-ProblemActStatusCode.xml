@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-ProblemActStatusCode"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-ProblemActStatusCode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ProblemActStatusCode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.19"/>
@@ -14,32 +14,32 @@
   <description value="This describes the state of care giver or system interest in the associated health concern."/>
   <purpose value="StatusCode which tracks the interest in continued tracking of AllergyConcernAct or ProblemConcernAct"/>
   <expansion>
-    <identifier value="urn:uuid:227892cf-4853-4b48-abee-656b84145cfc"/>
+    <identifier value="urn:uuid:a3b0930e-ba5f-41a0-b1db-587255abf0c3"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="aborted"/>
       <display value="aborted"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="completed"/>
       <display value="completed"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="active"/>
       <display value="active"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActStatus"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="suspended"/>
       <display value="suspended"/>

@@ -4,7 +4,8 @@
   <id value="v3-NUCCProviderCodes"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>In the absence of an all-encompassing Provider Classification System, both X12N and the National Provider System Workgroup from the Centers for Medicare and Medicaid Services (CMS) commenced work on identifying and coding an external provider table that would be able to codify provider type and provider area of specialization for all medical related providers. CMS&#39; intent was to provide a single coding structure to support work on the National Provider System, while X12N needed a single common table for trading partner use. The two projects worked independently to some extent until April 1996 when the lists were coordinated and a single taxonomy was proposed. A sub-group of the X12N TG2 WG 15 was charged with resolving differences in the two proposed taxonomies.  Their work resulted in a single taxonomy that both CMS and members of X12N found meaningful, easy to use, and functional for electronic transactions.</p>
                   
@@ -12,7 +13,7 @@
                   
       <p>In 2001, ANSI ASC X12N asked the NUCC to become the official maintainer of the Health Care Provider Taxonomy List.  The NUCC has a formal operating protocol and its membership includes representation from key provider and payer organizations, as well as state and federal agencies, standard development organizations and the National Uniform Billing Committee (NUBC). Criteria for membership includes a national scope and representation of a unique constituency affected by health care electronic commerce, with an emphasis on maintaining a provider/payer balance.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -31,7 +32,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-NUCCProviderCodes"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-NUCCProviderCodes"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.19465"/>

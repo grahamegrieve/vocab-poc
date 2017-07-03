@@ -4,11 +4,12 @@
   <id value="v3-NeuropsychologistHIPAA"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>An individual with a doctorate degree, licensure in clinical psychology and specialized training or board certification in neuropsychology who practices or adheres to the principles of neuropsychology; a specialty within the field of psychology focusing primarily on neurobehavioral functioning.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -30,7 +31,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1194-20130307"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-NeuropsychologistHIPAA"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-NeuropsychologistHIPAA"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.13147"/>
@@ -41,7 +42,7 @@
   <description value=" An individual with a doctorate degree, licensure in clinical psychology and specialized training or board certification in neuropsychology who practices or adheres to the principles of neuropsychology; a specialty within the field of psychology focusing primarily on neurobehavioral functioning."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="103GC0700N"/>
       </concept>

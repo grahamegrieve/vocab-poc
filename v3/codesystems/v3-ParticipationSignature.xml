@@ -4,7 +4,8 @@
   <id value="v3-ParticipationSignature"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A set of codes specifying whether and how the participant has attested his participation through a signature and or whether such a signature is needed.</p>
                   
@@ -13,9 +14,9 @@
         <i>Examples:</i> A surgical Procedure act object (representing a procedure report) requires a signature of the performing and responsible surgeon, and possibly other participants. (See also: Participation.signatureText.)
       </p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-ParticipationSignature"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ParticipationSignature"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.89"/>

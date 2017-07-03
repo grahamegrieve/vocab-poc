@@ -4,7 +4,8 @@
   <id value="v3-ActClassInform"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>The act  of transmitting information and understanding about a topic to a subject where the participation association must be SBJ.</p>
                   
@@ -13,7 +14,7 @@
         <b>Discussion:</b> This act may be used to request that a patient or provider be informed about an Act, or to indicate that a person was informed about a particular act.
       </p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -32,7 +33,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassInform"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassInform"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20222"/>
@@ -43,7 +44,7 @@
   <description value=" The act  of transmitting information and understanding about a topic to a subject where the participation association must be SBJ.  Discussion:&#xD;&#xA;This act may be used to request that a patient or provider be informed about an Act, or to indicate that a person was informed about a particular act."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

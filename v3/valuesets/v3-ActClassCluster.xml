@@ -4,7 +4,8 @@
   <id value="v3-ActClassCluster"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A group of entries within a composition, topic or category that have a logical association with one another. </p>
                   
@@ -14,7 +15,7 @@
                   
       <p>A cluster may contain batteries and/or individual entries</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -33,7 +34,7 @@
       <valueString value="Lock all vaue sets untouched since 2014-03-26 to trackingId 2014T1_2014_03_26"/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-ActClassCluster"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-ActClassCluster"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20204"/>
@@ -44,7 +45,7 @@
   <description value=" A group of entries within a composition, topic or category that have a logical association with one another. The representation of a single observation or action might itself be multi-part. The data might need to be represented as a nested set of values, as a table, list, or as a time series. The Cluster class permits such aggregation within an entry for such compound data. Examples include &quot;Haematology investigations&quot; which might include two or more distinct batteries. A cluster may contain batteries and/or individual entries"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

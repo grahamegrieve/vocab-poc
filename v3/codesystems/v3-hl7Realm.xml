@@ -4,7 +4,8 @@
   <id value="v3-hl7Realm"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>
                      
@@ -21,9 +22,9 @@
         <i>Open Issue: </i>In spite of the inability of tooling to process codes longer than 2 characters, there is at least one realm codes (&#39;SOA&#39;) that was added that is 3 characters in length.
       </p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-hl7Realm"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.1124"/>
@@ -495,7 +496,7 @@
       <property>
         <code value="OwningAffiliate"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-hl7Realm"/>
           <code value="UV"/>
         </valueCoding>
       </property>
@@ -513,7 +514,7 @@
       <property>
         <code value="OwningAffiliate"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-hl7Realm"/>
           <code value="UK"/>
         </valueCoding>
       </property>
@@ -531,7 +532,7 @@
       <property>
         <code value="OwningAffiliate"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-hl7Realm"/>
           <code value="UV"/>
         </valueCoding>
       </property>
@@ -549,7 +550,7 @@
       <property>
         <code value="OwningAffiliate"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-hl7Realm"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-hl7Realm"/>
           <code value="UV"/>
         </valueCoding>
       </property>

@@ -4,11 +4,12 @@
   <id value="v3-PathologyTechnicianHIPAA"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>An individual with knowledge of specific techniques and instruments who performs all of the routine tests in a medical laboratory and who has the ability to discriminate between similar factors that directly affect procedures and results.</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -30,7 +31,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
     <valueString value="1194-20130307"/>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-PathologyTechnicianHIPAA"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-PathologyTechnicianHIPAA"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.13711"/>
@@ -41,19 +42,19 @@
   <description value=" An individual with knowledge of specific techniques and instruments who performs all of the routine tests in a medical laboratory and who has the ability to discriminate between similar factors that directly affect procedures and results."/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246RH0600N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246RM2200N"/>
       </concept>
     </include>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-HealthcareProviderTaxonomyHIPAA"/>
       <concept>
         <code value="246RP1900N"/>
       </concept>

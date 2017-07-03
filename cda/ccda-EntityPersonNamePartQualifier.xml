@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-EntityPersonNamePartQualifier"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-EntityPersonNamePartQualifier"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-EntityPersonNamePartQualifier"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.26"/>
@@ -13,68 +13,68 @@
   <date value="2015-03-10"/>
   <description value="Classification of a name part by source or purpose"/>
   <expansion>
-    <identifier value="urn:uuid:14c220d7-b8a4-4d49-b940-355b273ea179"/>
+    <identifier value="urn:uuid:b56a7332-4773-45c5-80f4-da96979ac0e9"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AC"/>
       <display value="academic"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="BR"/>
       <display value="birth"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="CL"/>
       <display value="callme"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="NB"/>
       <display value="nobility"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="PR"/>
       <display value="professional"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="SP"/>
       <display value="spouse"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="TITLE"/>
       <display value="title"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="VV"/>
       <display value="voorvoegsel"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="AD"/>
       <display value="adopted"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-EntityNamePartQualifier"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNamePartQualifier"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="IN"/>
       <display value="initial"/>

@@ -4,7 +4,8 @@
   <id value="v3-ActCode"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A code specifying the particular kind of Act that the Act-instance represents within its class.</p>
                   
@@ -17,9 +18,9 @@
                   
       <p>Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code &quot;potassium&quot; together with and Act.classCode for &quot;laboratory observation&quot; to somehow mean &quot;potassium laboratory observation&quot; and then use the same Act.code for &quot;potassium&quot; together with Act.classCode for &quot;medication&quot; to mean &quot;substitution of potassium&quot;. This mutually modifying use of Act.code and Act.classCode is not permitted.</p>
                
-    </text>
+    </div>
   </text>
-  <url value="http://hl7.org/fhir/CodeSystem/v3-ActCode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActCode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.5.4"/>
@@ -63,7 +64,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="ACCT"/>
       </valueCoding>
     </property>
@@ -188,7 +189,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="ADJUD"/>
       </valueCoding>
     </property>
@@ -205,7 +206,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="ADJUD"/>
         </valueCoding>
       </property>
@@ -531,7 +532,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="ROIBND"/>
       </valueCoding>
     </property>
@@ -571,7 +572,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="PCPR"/>
       </valueCoding>
     </property>
@@ -588,7 +589,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="PCPR"/>
         </valueCoding>
       </property>
@@ -605,7 +606,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="PCPR"/>
           </valueCoding>
         </property>
@@ -1041,7 +1042,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="PCPR"/>
           </valueCoding>
         </property>
@@ -1489,7 +1490,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="ENC"/>
         </valueCoding>
       </property>
@@ -1794,7 +1795,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="CATEGORY"/>
       </valueCoding>
     </property>
@@ -1900,7 +1901,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="CONS"/>
       </valueCoding>
     </property>
@@ -2017,7 +2018,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="CONTREG"/>
       </valueCoding>
     </property>
@@ -2112,7 +2113,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="OBS"/>
       </valueCoding>
     </property>
@@ -2177,7 +2178,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="COV"/>
       </valueCoding>
     </property>
@@ -2194,7 +2195,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="COV"/>
         </valueCoding>
       </property>
@@ -2280,7 +2281,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="COV"/>
       </valueCoding>
     </property>
@@ -2297,7 +2298,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="COV"/>
         </valueCoding>
       </property>
@@ -2429,7 +2430,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="COV"/>
       </valueCoding>
     </property>
@@ -2452,7 +2453,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="POLICY"/>
         </valueCoding>
       </property>
@@ -3087,7 +3088,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="ALRT"/>
       </valueCoding>
     </property>
@@ -3113,7 +3114,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="ALRT"/>
           </valueCoding>
         </property>
@@ -3412,7 +3413,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="EXPOS"/>
       </valueCoding>
     </property>
@@ -3616,7 +3617,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="XACT"/>
       </valueCoding>
     </property>
@@ -3656,7 +3657,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="INC"/>
       </valueCoding>
     </property>
@@ -4008,7 +4009,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="DOC"/>
       </valueCoding>
     </property>
@@ -4158,7 +4159,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="INVE"/>
       </valueCoding>
     </property>
@@ -4874,7 +4875,7 @@
           <property>
             <code value="ClassifiesClassCode"/>
             <valueCoding>
-              <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+              <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
               <code value="ACCM"/>
             </valueCoding>
           </property>
@@ -4891,7 +4892,7 @@
             <property>
               <code value="ClassifiesClassCode"/>
               <valueCoding>
-                <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+                <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
                 <code value="ACCM"/>
               </valueCoding>
             </property>
@@ -5072,7 +5073,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="INVE"/>
         </valueCoding>
       </property>
@@ -5089,7 +5090,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="INVE"/>
           </valueCoding>
         </property>
@@ -5184,7 +5185,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="INVE"/>
           </valueCoding>
         </property>
@@ -5349,7 +5350,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="INVE"/>
       </valueCoding>
     </property>
@@ -5366,7 +5367,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="INVE"/>
         </valueCoding>
       </property>
@@ -5792,7 +5793,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="INVE"/>
         </valueCoding>
       </property>
@@ -6130,7 +6131,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="INVE"/>
         </valueCoding>
       </property>
@@ -6257,7 +6258,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="INVE"/>
       </valueCoding>
     </property>
@@ -6440,7 +6441,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="LIST"/>
       </valueCoding>
     </property>
@@ -6456,7 +6457,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="LIST"/>
         </valueCoding>
       </property>
@@ -6540,7 +6541,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="LIST"/>
         </valueCoding>
       </property>
@@ -6557,7 +6558,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="LIST"/>
           </valueCoding>
         </property>
@@ -6680,7 +6681,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="MPROT"/>
       </valueCoding>
     </property>
@@ -6790,7 +6791,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="ACT"/>
       </valueCoding>
     </property>
@@ -6863,7 +6864,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="VERIF"/>
       </valueCoding>
     </property>
@@ -6899,7 +6900,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="XACT"/>
       </valueCoding>
     </property>
@@ -6961,7 +6962,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="SPLY"/>
       </valueCoding>
     </property>
@@ -7264,7 +7265,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="POLICY"/>
       </valueCoding>
     </property>
@@ -8543,7 +8544,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="SPLY"/>
       </valueCoding>
     </property>
@@ -8605,7 +8606,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="TRNS"/>
       </valueCoding>
     </property>
@@ -8656,7 +8657,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="SPCTRT"/>
       </valueCoding>
     </property>
@@ -8761,7 +8762,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="SBADM"/>
       </valueCoding>
     </property>
@@ -8848,7 +8849,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="ACT"/>
       </valueCoding>
     </property>
@@ -9273,7 +9274,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="TRNS"/>
       </valueCoding>
     </property>
@@ -9290,7 +9291,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="TRNS"/>
         </valueCoding>
       </property>
@@ -9454,7 +9455,7 @@
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
-        <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+        <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
         <code value="OBS"/>
       </valueCoding>
     </property>
@@ -9471,7 +9472,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="SPCOBS"/>
         </valueCoding>
       </property>
@@ -9766,7 +9767,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="OBS"/>
         </valueCoding>
       </property>
@@ -9861,7 +9862,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="OBS"/>
         </valueCoding>
       </property>
@@ -9933,7 +9934,7 @@
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
-          <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+          <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
           <code value="OBS"/>
         </valueCoding>
       </property>
@@ -10697,7 +10698,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="OBSSER"/>
           </valueCoding>
         </property>
@@ -11108,7 +11109,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="ALRT"/>
           </valueCoding>
         </property>
@@ -11403,7 +11404,7 @@
         <property>
           <code value="ClassifiesClassCode"/>
           <valueCoding>
-            <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+            <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
             <code value="ALRT"/>
           </valueCoding>
         </property>
@@ -11420,7 +11421,7 @@
           <property>
             <code value="ClassifiesClassCode"/>
             <valueCoding>
-              <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+              <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
               <code value="ALRT"/>
             </valueCoding>
           </property>
@@ -11436,7 +11437,7 @@
             <property>
               <code value="ClassifiesClassCode"/>
               <valueCoding>
-                <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+                <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
                 <code value="ALRT"/>
               </valueCoding>
             </property>
@@ -11452,7 +11453,7 @@
               <property>
                 <code value="ClassifiesClassCode"/>
                 <valueCoding>
-                  <system value="http://hl7.org/fhir/CodeSystem/v3-ActClass"/>
+                  <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>
                   <code value="ALRT"/>
                 </valueCoding>
               </property>

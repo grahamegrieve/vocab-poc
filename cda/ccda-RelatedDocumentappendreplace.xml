@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-RelatedDocumentappendreplace"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-RelatedDocumentappendreplace"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-RelatedDocumentappendreplace"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.11.20.9.62"/>
@@ -26,20 +26,20 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:01d88d12-7d76-456f-a5be-57573f0bf9d6"/>
+    <identifier value="urn:uuid:dd35ecdc-cea9-420c-b2f9-4ee65ac6b073"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="APND"/>
       <display value="is appendage"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActRelationshipType"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="RPLC"/>
       <display value="replaces"/>

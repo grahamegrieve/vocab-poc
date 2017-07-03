@@ -2,7 +2,7 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="ccda-HL7BasicConfidentialityKind"/>
-  <url value="http://hl7.org/fhir/ValueSet/ccda-HL7BasicConfidentialityKind"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HL7BasicConfidentialityKind"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.16926"/>
@@ -13,26 +13,26 @@
   <date value="2015-03-10"/>
   <description value="Commonly used confidentiality constraints placed upon clinical documents"/>
   <expansion>
-    <identifier value="urn:uuid:45ed633b-9f89-49fb-8ad5-61b6da77c623"/>
+    <identifier value="urn:uuid:9e4d304b-bafb-4e4e-b67c-b2b6c1ad1ba2"/>
     <timestamp value="2017-06-09"/>
     <parameter>
       <name value="CCDA Version"/>
       <valueString value="C-CDA R2.1"/>
     </parameter>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-Confidentiality"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="N"/>
       <display value="normal"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-Confidentiality"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="V"/>
       <display value="very restricted"/>
     </contains>
     <contains>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-Confidentiality"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
       <version value="HL7V3.0_2016-07"/>
       <code value="R"/>
       <display value="restricted"/>

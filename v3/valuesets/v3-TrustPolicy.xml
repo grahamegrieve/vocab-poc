@@ -4,7 +4,8 @@
   <id value="v3-TrustPolicy"/>
   <language value="en"/>
   <text>
-    <text xmlns="http://www.w3.org/1999/xhtml">
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
                   
       <p>A mandate, obligation, requirement, rule, or expectation conveyed as security metadata between senders and receivers required to establish the reliability, authenticity, and trustworthiness of their transactions.</p>
                   
@@ -12,7 +13,7 @@
                   
       <p>Trust applicable to IT resources is established and maintained in and among security domains, and may be comprised of observations about the domain&#xE2;&#x20AC;&#x2122;s trust authority, trust framework, trust policy, trust interaction rules, means for assessing and monitoring adherence to trust policies, mechanisms that enforce trust, and quality and reliability measures of assurance in those mechanisms. [Based on ISO IEC 10181-1 and NIST SP 800-63-2]</p>
                
-    </text>
+    </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-history">
     <extension url="date">
@@ -31,7 +32,7 @@
       <valueString value="Add ActTrustPolicyType concept domain to ActPolicyType branch of the ActCode concept domain.  Add TrustPolicy concept codes to the Act.code system.  Add 15 value sets binding c:TrustPolicy to 15 Concept Domains."/>
     </extension>
   </extension>
-  <url value="http://hl7.org/fhir/ValueSet/v3-TrustPolicy"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v3-TrustPolicy"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.1.11.20530"/>
@@ -42,7 +43,7 @@
   <description value=" A mandate, obligation, requirement, rule, or expectation conveyed as security metadata between senders and receivers required to establish the reliability, authenticity, and trustworthiness of their transactions. Trust security metadata are observation made about aspects of trust applicable to an IT resource (data, information object, service, or system capability). Trust applicable to IT resources is established and maintained in and among security domains, and may be comprised of observations about the domain&#xE2;&#x20AC;&#x2122;s trust authority, trust framework, trust policy, trust interaction rules, means for assessing and monitoring adherence to trust policies, mechanisms that enforce trust, and quality and reliability measures of assurance in those mechanisms. [Based on ISO IEC 10181-1 and NIST SP 800-63-2]"/>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/CodeSystem/v3-ActCode"/>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActCode"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>
