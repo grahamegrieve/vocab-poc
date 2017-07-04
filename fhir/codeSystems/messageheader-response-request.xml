@@ -8,53 +8,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>messageheader-response-request</h2>
+      
       <div>
+        
         <p>HL7-defined table of codes which identify conditions under which acknowledgments are required to be returned in response to a message.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/messageheader-response-request defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>always
+            
             <a name="messageheader-response-request-always"> </a>
+          
           </td>
+          
           <td>Always</td>
+          
           <td>initiator expects a response for this message</td>
+        
         </tr>
+        
         <tr>
+          
           <td>on-error
+            
             <a name="messageheader-response-request-on-error"> </a>
+          
           </td>
+          
           <td>Error/reject conditions only</td>
+          
           <td>initiator expects a response only if in error</td>
+        
         </tr>
+        
         <tr>
+          
           <td>never
+            
             <a name="messageheader-response-request-never"> </a>
+          
           </td>
+          
           <td>Never</td>
+          
           <td>initiator does not expect a response</td>
+        
         </tr>
+        
         <tr>
+          
           <td>on-success
+            
             <a name="messageheader-response-request-on-success"> </a>
+          
           </td>
+          
           <td>Successful completion only</td>
+          
           <td>initiator expects a response only if successful</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -63,7 +110,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/messageheader-response-request"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/messageheader-response-request"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.844"/>

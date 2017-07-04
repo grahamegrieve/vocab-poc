@@ -9,74 +9,142 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>DiagnosisRole</h2>
+      
       <div>
+        
         <p>This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/diagnosis-role defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>AD
+            
             <a name="diagnosis-role-AD"> </a>
+          
           </td>
+          
           <td>Admission diagnosis</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>DD
+            
             <a name="diagnosis-role-DD"> </a>
+          
           </td>
+          
           <td>Discharge diagnosis</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>CC
+            
             <a name="diagnosis-role-CC"> </a>
+          
           </td>
+          
           <td>Chief complaint</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>CM
+            
             <a name="diagnosis-role-CM"> </a>
+          
           </td>
+          
           <td>Comorbidity diagnosis</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>pre-op
+            
             <a name="diagnosis-role-pre-op"> </a>
+          
           </td>
+          
           <td>pre-op diagnosis</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>post-op
+            
             <a name="diagnosis-role-post-op"> </a>
+          
           </td>
+          
           <td>post-op diagnosis</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>billing
+            
             <a name="diagnosis-role-billing"> </a>
+          
           </td>
+          
           <td>Billing</td>
+          
           <td/>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -88,7 +156,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
   </extension>
-  <url value="http://hl7.org/fhir/diagnosis-role"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/diagnosis-role"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.49"/>

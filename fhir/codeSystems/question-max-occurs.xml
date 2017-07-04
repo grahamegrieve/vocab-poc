@@ -8,32 +8,58 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>MaxOccurs</h2>
+      
       <div>
+        
         <p>Flags an element as having unlimited repetitions</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/question-max-occurs defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>*
+            
             <a name="question-max-occurs-.42"> </a>
+          
           </td>
+          
           <td>Repeating</td>
+          
           <td>Element can repeat an unlimited number of times</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -42,7 +68,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/question-max-occurs"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/question-max-occurs"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.847"/>

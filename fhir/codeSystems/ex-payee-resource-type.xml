@@ -8,53 +8,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>ClaimPayeeResourceType</h2>
+      
       <div>
+        
         <p>The type of Claim payee Resource</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/ex-payee-resource-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>organization
+            
             <a name="ex-payee-resource-type-organization"> </a>
+          
           </td>
+          
           <td>Organization</td>
+          
           <td>Organization resource</td>
+        
         </tr>
+        
         <tr>
+          
           <td>patient
+            
             <a name="ex-payee-resource-type-patient"> </a>
+          
           </td>
+          
           <td>Patient</td>
+          
           <td>Patient resource</td>
+        
         </tr>
+        
         <tr>
+          
           <td>practitioner
+            
             <a name="ex-payee-resource-type-practitioner"> </a>
+          
           </td>
+          
           <td>Practitioner</td>
+          
           <td>Practitioner resource</td>
+        
         </tr>
+        
         <tr>
+          
           <td>relatedperson
+            
             <a name="ex-payee-resource-type-relatedperson"> </a>
+          
           </td>
+          
           <td>RelatedPerson</td>
+          
           <td>RelatedPerson resource</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -66,7 +113,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fm"/>
   </extension>
-  <url value="http://hl7.org/fhir/ex-payee-resource-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/ex-payee-resource-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.577"/>

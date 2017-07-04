@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>ConditionState</h2>
+      
       <div>
+        
         <p>Enumeration indicating whether the condition is currently active, inactive, or has been resolved.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/condition-state defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>active
+            
             <a name="condition-state-active"> </a>
+          
           </td>
+          
           <td>Active</td>
+          
           <td>The condition is active.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>inactive
+            
             <a name="condition-state-inactive"> </a>
+          
           </td>
+          
           <td>Inactive</td>
+          
           <td>The condition is inactive, but not resolved.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>resolved
+            
             <a name="condition-state-resolved"> </a>
+          
           </td>
+          
           <td>Resolved</td>
+          
           <td>The condition is resolved.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -56,7 +96,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/condition-state"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/condition-state"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.878"/>

@@ -3,8 +3,8 @@
 	"tool": "jekyll",
 	"paths": {
 		"output": "../../output",
-		"resources": ["resources", "../../v2", "../../v3/codesystems", "../../v3/valuesets"], 
-    "more" : ["../../cda",  "../../cimi", "../../fhir/codeSystems", "../../fhir/valueSets", "../../other"],
+		"resources": ["resources", "../../v2", "../../v3/codesystems", "../../v3/valuesets", "../../fhir/codeSystems"], 
+    "more" : ["../../cda",  "../../cimi", "../../fhir/valueSets", "../../other"],
 		"specification": "http://build.fhir.org",
 		"pages": ["pages"],
 		"qa": "qa",
@@ -19,7 +19,8 @@
 	"do-transforms": "false",
 	"defaults": {
 		"ValueSet": {
-			"template-base": "vs.html"
+			"template-base": "vs.html",
+      "expansion" : false
 		},
 		"CodeSystem": {
 			"template-base": "cs.html"
@@ -28,6 +29,7 @@
 			"template-base": "cm.html"
 		}
 	},
+  "suppress-qa" : "true",
 	"version": "3.0.1",
 	"source": "ig.xml",
 	"gen-examples": "false",

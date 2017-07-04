@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>MessageTransport</h2>
+      
       <div>
+        
         <p>The protocol used for message transport.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/message-transport defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>http
+            
             <a name="message-transport-http"> </a>
+          
           </td>
+          
           <td>HTTP</td>
+          
           <td>The application sends or receives messages using HTTP POST (may be over http: or https:).</td>
+        
         </tr>
+        
         <tr>
+          
           <td>ftp
+            
             <a name="message-transport-ftp"> </a>
+          
           </td>
+          
           <td>FTP</td>
+          
           <td>The application sends or receives messages using File Transfer Protocol.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>mllp
+            
             <a name="message-transport-mllp"> </a>
+          
           </td>
+          
           <td>MLLP</td>
+          
           <td>The application sends or receives messages using HL7&#39;s Minimal Lower Level Protocol.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/message-transport"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/message-transport"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.175"/>

@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>DefinitionTopic</h2>
+      
       <div>
+        
         <p>High-level categorization of the definition, used for searching, sorting, and filtering</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/definition-topic defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>treatment
+            
             <a name="definition-topic-treatment"> </a>
+          
           </td>
+          
           <td>Treatment</td>
+          
           <td>The definition is related to treatment of the patient</td>
+        
         </tr>
+        
         <tr>
+          
           <td>education
+            
             <a name="definition-topic-education"> </a>
+          
           </td>
+          
           <td>Education</td>
+          
           <td>The definition is related to education of the patient</td>
+        
         </tr>
+        
         <tr>
+          
           <td>assessment
+            
             <a name="definition-topic-assessment"> </a>
+          
           </td>
+          
           <td>Assessment</td>
+          
           <td>The definition is related to assessment of the patient</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cds"/>
   </extension>
-  <url value="http://hl7.org/fhir/definition-topic"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/definition-topic"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.778"/>

@@ -8,39 +8,72 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>ConstraintSeverity</h2>
+      
       <div>
+        
         <p>SHALL applications comply with this constraint?</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/constraint-severity defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>error
+            
             <a name="constraint-severity-error"> </a>
+          
           </td>
+          
           <td>Error</td>
+          
           <td>If the constraint is violated, the resource is not conformant.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>warning
+            
             <a name="constraint-severity-warning"> </a>
+          
           </td>
+          
           <td>Warning</td>
+          
           <td>If the constraint is violated, the resource is conformant, but it is not necessarily following best practice.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -52,7 +85,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/constraint-severity"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/constraint-severity"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.75"/>

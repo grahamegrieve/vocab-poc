@@ -8,53 +8,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>QualityOfEvidenceRating</h2>
+      
       <div>
+        
         <p>A rating system that describes the quality of evidence such as the GRADE, DynaMed, or Oxford CEBM systems</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/evidence-quality defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>high
+            
             <a name="cqif-evidence-quality-high"> </a>
+          
           </td>
+          
           <td>High quality</td>
+          
           <td>High quality evidence</td>
+        
         </tr>
+        
         <tr>
+          
           <td>moderate
+            
             <a name="cqif-evidence-quality-moderate"> </a>
+          
           </td>
+          
           <td>Moderate quality</td>
+          
           <td>Moderate quality evidence</td>
+        
         </tr>
+        
         <tr>
+          
           <td>low
+            
             <a name="cqif-evidence-quality-low"> </a>
+          
           </td>
+          
           <td>Low quality</td>
+          
           <td>Low quality evidence</td>
+        
         </tr>
+        
         <tr>
+          
           <td>very-low
+            
             <a name="cqif-evidence-quality-very-low"> </a>
+          
           </td>
+          
           <td>Very low quality</td>
+          
           <td>Very low quality evidence</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -63,7 +110,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/evidence-quality"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/cqif-evidence-quality"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.887"/>

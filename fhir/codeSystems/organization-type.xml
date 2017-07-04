@@ -9,102 +9,198 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>OrganizationType</h2>
+      
       <div>
+        
         <p>This example value set defines a set of codes that can be used to indicate a type of organization.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/organization-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>prov
+            
             <a name="organization-type-prov"> </a>
+          
           </td>
+          
           <td>Healthcare Provider</td>
+          
           <td>An organization that provides healthcare services.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>dept
+            
             <a name="organization-type-dept"> </a>
+          
           </td>
+          
           <td>Hospital Department</td>
+          
           <td>A department or ward within a hospital (Generally is not applicable to top level organizations)</td>
+        
         </tr>
+        
         <tr>
+          
           <td>team
+            
             <a name="organization-type-team"> </a>
+          
           </td>
+          
           <td>Organizational team</td>
+          
           <td>An organizational team is usually a grouping of practitioners that perform a specific function within an organization (which could be a top level organization, or a department).</td>
+        
         </tr>
+        
         <tr>
+          
           <td>govt
+            
             <a name="organization-type-govt"> </a>
+          
           </td>
+          
           <td>Government</td>
+          
           <td>A political body, often used when including organization records for government bodies such as a Federal Government, State or Local Government.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>ins
+            
             <a name="organization-type-ins"> </a>
+          
           </td>
+          
           <td>Insurance Company</td>
+          
           <td>A company that provides insurance to its subscribers that may include healthcare related policies.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>edu
+            
             <a name="organization-type-edu"> </a>
+          
           </td>
+          
           <td>Educational Institute</td>
+          
           <td>An educational institution that provides education or research facilities.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>reli
+            
             <a name="organization-type-reli"> </a>
+          
           </td>
+          
           <td>Religious Institution</td>
+          
           <td>An organization that is identified as a part of a religious institution.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>crs
+            
             <a name="organization-type-crs"> </a>
+          
           </td>
+          
           <td>Clinical Research Sponsor</td>
+          
           <td>An organization that is identified as a Pharmaceutical/Clinical Research Sponsor.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>cg
+            
             <a name="organization-type-cg"> </a>
+          
           </td>
+          
           <td>Community Group</td>
+          
           <td>An un-incorporated community group.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>bus
+            
             <a name="organization-type-bus"> </a>
+          
           </td>
+          
           <td>Non-Healthcare Business or Corporation</td>
+          
           <td>An organization that is a registered business or corporation but not identified by other types.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>other
+            
             <a name="organization-type-other"> </a>
+          
           </td>
+          
           <td>Other</td>
+          
           <td>Other type of organization not already specified.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -116,7 +212,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
   </extension>
-  <url value="http://hl7.org/fhir/organization-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/organization-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.404"/>

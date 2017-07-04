@@ -8,81 +8,156 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>DeviceSpecificationSpecType</h2>
+      
       <div>
+        
         <p>Codes for device specification types such as serial number, part number, hardware revision, software revision, etc.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/specification-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>unspecified
+            
             <a name="specification-type-unspecified"> </a>
+          
           </td>
+          
           <td>Unspecified Production Specification</td>
+          
           <td>Unspecified Production Specification - MDC_ID_PROD_SPEC_UNSPECIFIED</td>
+        
         </tr>
+        
         <tr>
+          
           <td>serial-number
+            
             <a name="specification-type-serial-number"> </a>
+          
           </td>
+          
           <td>Serial Number</td>
+          
           <td>Serial Number - MDC_ID_PROD_SPEC_SERIAL</td>
+        
         </tr>
+        
         <tr>
+          
           <td>part-number
+            
             <a name="specification-type-part-number"> </a>
+          
           </td>
+          
           <td>Part Number</td>
+          
           <td>Part Number - MDC_ID_PROD_SPEC_PART</td>
+        
         </tr>
+        
         <tr>
+          
           <td>hardware-revision
+            
             <a name="specification-type-hardware-revision"> </a>
+          
           </td>
+          
           <td>Hardware Revision</td>
+          
           <td>Hardware Revision - MDC_ID_PROD_SPEC_HW</td>
+        
         </tr>
+        
         <tr>
+          
           <td>software-revision
+            
             <a name="specification-type-software-revision"> </a>
+          
           </td>
+          
           <td>Software Revision</td>
+          
           <td>Software Revision - MDC_ID_PROD_SPEC_SW</td>
+        
         </tr>
+        
         <tr>
+          
           <td>firmware-revision
+            
             <a name="specification-type-firmware-revision"> </a>
+          
           </td>
+          
           <td>Firmware Revision</td>
+          
           <td>Firmware Revision - MDC_ID_PROD_SPEC_FW</td>
+        
         </tr>
+        
         <tr>
+          
           <td>protocol-revision
+            
             <a name="specification-type-protocol-revision"> </a>
+          
           </td>
+          
           <td>Protocol Revision</td>
+          
           <td>Protocol Revision - MDC_ID_PROD_SPEC_PROTOCOL</td>
+        
         </tr>
+        
         <tr>
+          
           <td>gmdn
+            
             <a name="specification-type-gmdn"> </a>
+          
           </td>
+          
           <td>GMDN</td>
+          
           <td>GMDN - MDC_ID_PROD_SPEC_GMDN</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -94,7 +169,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="dev"/>
   </extension>
-  <url value="http://hl7.org/fhir/specification-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/specification-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.898"/>

@@ -9,39 +9,72 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Supply Item Type</h2>
+      
       <div>
+        
         <p>This value sets refers to a specific supply item.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/supply-item-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>medication
+            
             <a name="supplydelivery-type-medication"> </a>
+          
           </td>
+          
           <td>Medication</td>
+          
           <td>Supply is a kind of medication.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>device
+            
             <a name="supplydelivery-type-device"> </a>
+          
           </td>
+          
           <td>Device</td>
+          
           <td>What is supplied (or requested) is a device.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -53,7 +86,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="oo"/>
   </extension>
-  <url value="http://hl7.org/fhir/supply-item-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/supplydelivery-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.689"/>

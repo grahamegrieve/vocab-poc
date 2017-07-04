@@ -9,42 +9,78 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Adjudication Error Codes</h2>
+      
       <div>
+        
         <p>This value set includes a smattering of adjudication codes.</p>
 
+      
       </div>
+      
       <p>
+        
         <b>Copyright Statement:</b> This is an example set.
+      
       </p>
+      
       <p>This code system http://hl7.org/fhir/adjudication-error defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>a001
+            
             <a name="adjudication-error-a001"> </a>
+          
           </td>
+          
           <td>Missing Identifier</td>
+          
           <td>Missing Identifier</td>
+        
         </tr>
+        
         <tr>
+          
           <td>a002
+            
             <a name="adjudication-error-a002"> </a>
+          
           </td>
+          
           <td>Missing Creation Date</td>
+          
           <td>Missing Creation Date</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -56,7 +92,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fm"/>
   </extension>
-  <url value="http://hl7.org/fhir/adjudication-error"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/adjudication-error"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.39"/>

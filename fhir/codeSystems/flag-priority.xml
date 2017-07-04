@@ -9,53 +9,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Flag Priority Codes</h2>
+      
       <div>
+        
         <p>This value set is provided as an exemplar. The value set is driven by IHE Table B.8-4: Abnormal Flags, Alert Priority.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/flag-priority-code defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>PN
+            
             <a name="flag-priority-PN"> </a>
+          
           </td>
+          
           <td>No alarm</td>
+          
           <td>No alarm.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>PL
+            
             <a name="flag-priority-PL"> </a>
+          
           </td>
+          
           <td>Low priority</td>
+          
           <td>Low priority.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>PM
+            
             <a name="flag-priority-PM"> </a>
+          
           </td>
+          
           <td>Medium priority</td>
+          
           <td>Medium priority.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>PH
+            
             <a name="flag-priority-PH"> </a>
+          
           </td>
+          
           <td>High priority</td>
+          
           <td>High priority.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -64,7 +111,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/flag-priority-code"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/flag-priority"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.868"/>

@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>ActivityDefinitionCategory</h2>
+      
       <div>
+        
         <p>High-level categorization of the type of activity</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/activity-definition-category defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>treatment
+            
             <a name="activity-definition-category-treatment"> </a>
+          
           </td>
+          
           <td>Treatment</td>
+          
           <td>The activity is intended to provide or is related to treatment of the patient</td>
+        
         </tr>
+        
         <tr>
+          
           <td>education
+            
             <a name="activity-definition-category-education"> </a>
+          
           </td>
+          
           <td>Education</td>
+          
           <td>The activity is intended to provide or is related to education of the patient</td>
+        
         </tr>
+        
         <tr>
+          
           <td>assessment
+            
             <a name="activity-definition-category-assessment"> </a>
+          
           </td>
+          
           <td>Assessment</td>
+          
           <td>The activity is intended to perform or is related to assessment of the patient</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -56,7 +96,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/activity-definition-category"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/activity-definition-category"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.776"/>

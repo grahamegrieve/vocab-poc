@@ -9,32 +9,58 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Marital Status Codes</h2>
+      
       <div>
+        
         <p>This value set defines the set of codes that can be used to indicate the marital status of a person.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/marital-status defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>U
+            
             <a name="marital-status-U"> </a>
+          
           </td>
+          
           <td>Unmarried</td>
+          
           <td>The person is not presently married. The marital history is not known or stated.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -46,7 +72,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
   </extension>
-  <url value="http://hl7.org/fhir/marital-status"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/marital-status"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.29"/>

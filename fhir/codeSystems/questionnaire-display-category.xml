@@ -9,39 +9,72 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Questionnaire Text Categories</h2>
+      
       <div>
+        
         <p>Codes defining the purpose of a Questionnaire item of type &#39;text&#39;.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/questionnaire-display-category defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>instructions
+            
             <a name="questionnaire-display-category-instructions"> </a>
+          
           </td>
+          
           <td>Instructions</td>
+          
           <td>The text provides guidances on how to populate or use a portion of the questionnaire (or the questionnaire as a whole).</td>
+        
         </tr>
+        
         <tr>
+          
           <td>security
+            
             <a name="questionnaire-display-category-security"> </a>
+          
           </td>
+          
           <td>Security</td>
+          
           <td>The text provides guidance on how the information should be or will be handled from a security/confidentiality/access control perspective when completed</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -50,7 +83,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/questionnaire-display-category"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/questionnaire-display-category"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.853"/>

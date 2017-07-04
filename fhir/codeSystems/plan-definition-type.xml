@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>PlanDefinitionType</h2>
+      
       <div>
+        
         <p>The type of PlanDefinition</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/plan-definition-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>order-set
+            
             <a name="plan-definition-type-order-set"> </a>
+          
           </td>
+          
           <td>Order Set</td>
+          
           <td>A pre-defined and approved group of orders related to a particular clinical condition (e.g. hypertension treatment and monitoring) or stage of care (e.g. hospital admission to Coronary Care Unit). An order set is used as a checklist for the clinician when managing a patient with a specific condition. It is a structured collection of orders relevant to that condition and presented to the clinician in a computerized provider order entry (CPOE) system</td>
+        
         </tr>
+        
         <tr>
+          
           <td>protocol
+            
             <a name="plan-definition-type-protocol"> </a>
+          
           </td>
+          
           <td>Protocol</td>
+          
           <td>A set of activities that can be performed that have relationships in terms of order, pre-conditions, etc.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>eca-rule
+            
             <a name="plan-definition-type-eca-rule"> </a>
+          
           </td>
+          
           <td>ECA Rule</td>
+          
           <td>A decision support rule of the form [on Event] if Condition then Action. It is intended to be a shareable, computable definition of actions that should be taken whenever some condition is met in response to a particular event or events</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cds"/>
   </extension>
-  <url value="http://hl7.org/fhir/plan-definition-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/plan-definition-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.781"/>

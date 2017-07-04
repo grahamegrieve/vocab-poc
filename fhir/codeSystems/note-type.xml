@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>NoteType</h2>
+      
       <div>
+        
         <p>The presentation types of notes.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/note-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>display
+            
             <a name="note-type-display"> </a>
+          
           </td>
+          
           <td>Display</td>
+          
           <td>Display the note.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>print
+            
             <a name="note-type-print"> </a>
+          
           </td>
+          
           <td>Print (Form)</td>
+          
           <td>Print the note on the form.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>printoper
+            
             <a name="note-type-printoper"> </a>
+          
           </td>
+          
           <td>Print (Operator)</td>
+          
           <td>Print the note for the operator.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fm"/>
   </extension>
-  <url value="http://hl7.org/fhir/note-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/note-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.16"/>

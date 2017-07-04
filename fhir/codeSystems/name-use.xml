@@ -8,84 +8,162 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>NameUse</h2>
+      
       <div>
+        
         <p>The use of a human name</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/name-use defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Lvl</b>
+          
           </td>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>1</td>
+          
           <td>usual
+            
             <a name="name-use-usual"> </a>
+          
           </td>
+          
           <td>Usual</td>
+          
           <td>Known as/conventional/the one you normally use</td>
+        
         </tr>
+        
         <tr>
+          
           <td>1</td>
+          
           <td>official
+            
             <a name="name-use-official"> </a>
+          
           </td>
+          
           <td>Official</td>
+          
           <td>The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>1</td>
+          
           <td>temp
+            
             <a name="name-use-temp"> </a>
+          
           </td>
+          
           <td>Temp</td>
+          
           <td>A temporary name. Name.period can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>1</td>
+          
           <td>nickname
+            
             <a name="name-use-nickname"> </a>
+          
           </td>
+          
           <td>Nickname</td>
+          
           <td>A name that is used to address the person in an informal manner, but is not part of their formal or usual name</td>
+        
         </tr>
+        
         <tr>
+          
           <td>1</td>
+          
           <td>anonymous
+            
             <a name="name-use-anonymous"> </a>
+          
           </td>
+          
           <td>Anonymous</td>
+          
           <td>Anonymous assigned name, alias, or pseudonym (used to protect a person&#39;s identity for privacy reasons)</td>
+        
         </tr>
+        
         <tr>
+          
           <td>1</td>
+          
           <td>old
+            
             <a name="name-use-old"> </a>
+          
           </td>
+          
           <td>Old</td>
+          
           <td>This name is no longer in use (or was never correct, but retained for records)</td>
+        
         </tr>
+        
         <tr>
+          
           <td>2</td>
+          
           <td>&#xA0;&#xA0;maiden
+            
             <a name="name-use-maiden"> </a>
+          
           </td>
+          
           <td>Name changed for Marriage</td>
+          
           <td>A name used prior to changing name because of marriage. This name use is for use by applications that collect and store names that were used prior to a marriage. Marriage naming customs vary greatly around the world, and are constantly changing. This term is not gender specific. The use of this term does not imply any particular history for a person&#39;s name</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -97,7 +175,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/name-use"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/name-use"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.59"/>

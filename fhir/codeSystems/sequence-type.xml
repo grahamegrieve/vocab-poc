@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>sequenceType</h2>
+      
       <div>
+        
         <p>Type if a sequence -- DNA, RNA, or amino acid sequence</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/sequence-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>aa
+            
             <a name="sequence-type-aa"> </a>
+          
           </td>
+          
           <td>AA Sequence</td>
+          
           <td>Amino acid sequence</td>
+        
         </tr>
+        
         <tr>
+          
           <td>dna
+            
             <a name="sequence-type-dna"> </a>
+          
           </td>
+          
           <td>DNA Sequence</td>
+          
           <td>DNA Sequence</td>
+        
         </tr>
+        
         <tr>
+          
           <td>rna
+            
             <a name="sequence-type-rna"> </a>
+          
           </td>
+          
           <td>RNA Sequence</td>
+          
           <td>RNA Sequence</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cg"/>
   </extension>
-  <url value="http://hl7.org/fhir/sequence-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/sequence-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.215"/>

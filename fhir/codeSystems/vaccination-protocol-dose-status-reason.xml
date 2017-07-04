@@ -9,60 +9,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Vaccination Protocol Dose Status Reason codes</h2>
+      
       <div>
+        
         <p>The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why an administered dose has been assigned a particular status. Often, this reason describes why a dose is considered invalid. This value set is provided as a suggestive example.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/vaccination-protocol-dose-status-reason defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>advstorage
+            
             <a name="vaccination-protocol-dose-status-reason-advstorage"> </a>
+          
           </td>
+          
           <td>Adverse storage condition</td>
+          
           <td>The product was stored in a manner inconsistent with manufacturer guidelines potentially reducing the effectiveness of the product.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>coldchbrk
+            
             <a name="vaccination-protocol-dose-status-reason-coldchbrk"> </a>
+          
           </td>
+          
           <td>Cold chain break</td>
+          
           <td>The product was stored at a temperature inconsistent with manufacturer guidelines potentially reducing the effectiveness of the product.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>explot
+            
             <a name="vaccination-protocol-dose-status-reason-explot"> </a>
+          
           </td>
+          
           <td>Expired lot</td>
+          
           <td>The product was administered after the expiration date associated with lot of vaccine.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>outsidesched
+            
             <a name="vaccination-protocol-dose-status-reason-outsidesched"> </a>
+          
           </td>
+          
           <td>Administered outside recommended schedule</td>
+          
           <td>The product was administered at a time inconsistent with the documented schedule.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>prodrecall
+            
             <a name="vaccination-protocol-dose-status-reason-prodrecall"> </a>
+          
           </td>
+          
           <td>Product recall</td>
+          
           <td>The product administered has been recalled by the manufacturer.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -74,7 +128,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pher"/>
   </extension>
-  <url value="http://hl7.org/fhir/vaccination-protocol-dose-status-reason"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/vaccination-protocol-dose-status-reason"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.291"/>

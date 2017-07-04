@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>AdverseEventSeverity</h2>
+      
       <div>
+        
         <p>The severity of the adverse event itself, in direct relation to the subject</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/adverse-event-severity defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>Mild
+            
             <a name="adverse-event-severity-Mild"> </a>
+          
           </td>
+          
           <td>Mild</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>Moderate
+            
             <a name="adverse-event-severity-Moderate"> </a>
+          
           </td>
+          
           <td>Moderate</td>
+          
           <td/>
+        
         </tr>
+        
         <tr>
+          
           <td>Severe
+            
             <a name="adverse-event-severity-Severe"> </a>
+          
           </td>
+          
           <td>Severe</td>
+          
           <td/>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pc"/>
   </extension>
-  <url value="http://hl7.org/fhir/adverse-event-severity"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/adverse-event-severity"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.907"/>

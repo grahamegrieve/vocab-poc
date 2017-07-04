@@ -8,53 +8,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>MeasureScoring</h2>
+      
       <div>
+        
         <p>The scoring type of the measure</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/measure-scoring defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>proportion
+            
             <a name="measure-scoring-proportion"> </a>
+          
           </td>
+          
           <td>Proportion</td>
+          
           <td>The measure score is defined using a proportion</td>
+        
         </tr>
+        
         <tr>
+          
           <td>ratio
+            
             <a name="measure-scoring-ratio"> </a>
+          
           </td>
+          
           <td>Ratio</td>
+          
           <td>The measure score is defined using a ratio</td>
+        
         </tr>
+        
         <tr>
+          
           <td>continuous-variable
+            
             <a name="measure-scoring-continuous-variable"> </a>
+          
           </td>
+          
           <td>Continuous Variable</td>
+          
           <td>The score is defined by a calculation of some quantity</td>
+        
         </tr>
+        
         <tr>
+          
           <td>cohort
+            
             <a name="measure-scoring-cohort"> </a>
+          
           </td>
+          
           <td>Cohort</td>
+          
           <td>The measure is a cohort definition</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -66,7 +113,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cqi"/>
   </extension>
-  <url value="http://hl7.org/fhir/measure-scoring"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/measure-scoring"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.752"/>

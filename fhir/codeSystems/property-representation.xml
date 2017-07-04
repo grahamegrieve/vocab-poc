@@ -8,60 +8,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>PropertyRepresentation</h2>
+      
       <div>
+        
         <p>How a property is represented when serialized.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/property-representation defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>xmlAttr
+            
             <a name="property-representation-xmlAttr"> </a>
+          
           </td>
+          
           <td>XML Attribute</td>
+          
           <td>In XML, this property is represented as an attribute not an element.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>xmlText
+            
             <a name="property-representation-xmlText"> </a>
+          
           </td>
+          
           <td>XML Text</td>
+          
           <td>This element is represented using the XML text attribute (primitives only)</td>
+        
         </tr>
+        
         <tr>
+          
           <td>typeAttr
+            
             <a name="property-representation-typeAttr"> </a>
+          
           </td>
+          
           <td>Type Attribute</td>
+          
           <td>The type of this element is indicated using xsi:type</td>
+        
         </tr>
+        
         <tr>
+          
           <td>cdaText
+            
             <a name="property-representation-cdaText"> </a>
+          
           </td>
+          
           <td>CDA Text Format</td>
+          
           <td>Use CDA narrative instead of XHTML</td>
+        
         </tr>
+        
         <tr>
+          
           <td>xhtml
+            
             <a name="property-representation-xhtml"> </a>
+          
           </td>
+          
           <td>XHTML</td>
+          
           <td>The property is represented using XHTML</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -73,7 +127,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/property-representation"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/property-representation"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.81"/>

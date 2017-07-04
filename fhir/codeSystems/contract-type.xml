@@ -9,63 +9,120 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Contract Type Codes</h2>
+      
       <div>
+        
         <p>This value set includes sample Contract Type codes.</p>
 
+      
       </div>
+      
       <p>
+        
         <b>Copyright Statement:</b> This is an example set.
+      
       </p>
+      
       <p>This code system http://hl7.org/fhir/contracttypecodes defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>privacy
+            
             <a name="contract-type-privacy"> </a>
+          
           </td>
+          
           <td>Privacy</td>
+          
           <td>Privacy policy.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>disclosure
+            
             <a name="contract-type-disclosure"> </a>
+          
           </td>
+          
           <td>Disclosure</td>
+          
           <td>Information disclosure policy.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>healthinsurance
+            
             <a name="contract-type-healthinsurance"> </a>
+          
           </td>
+          
           <td>Health Insurance</td>
+          
           <td>Health Insurance policy.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>supply
+            
             <a name="contract-type-supply"> </a>
+          
           </td>
+          
           <td>Supply Contract</td>
+          
           <td>Contract to supply goods or services.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>consent
+            
             <a name="contract-type-consent"> </a>
+          
           </td>
+          
           <td>Consent</td>
+          
           <td>Consent Directive.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -77,7 +134,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fm"/>
   </extension>
-  <url value="http://hl7.org/fhir/contracttypecodes"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/contract-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.718"/>

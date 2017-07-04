@@ -8,81 +8,142 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>AdverseEventCausalityAssessment</h2>
+      
       <div>
+        
         <p>TODO</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/adverse-event-causality-assess defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>Certain
+            
             <a name="adverse-event-causality-assess-Certain"> </a>
+          
           </td>
+          
           <td>Certain</td>
+          
           <td>i) Event or laboratory test abnormality, with plausible time relationship to drug intake
 ii) Cannot be explained by disease or other drugs
 iii) Response to withdrawal plausible (pharmacologically, pathologically)
 iv) Event definitive pharmacologically or phenomenologically (i.e. an objective and specific medical disorder or a recognized pharmacological phenomenon)
 v) Re-challenge satisfactory, if necessary</td>
+        
         </tr>
+        
         <tr>
+          
           <td>Probably-Likely
+            
             <a name="adverse-event-causality-assess-Probably-Likely"> </a>
+          
           </td>
+          
           <td>Probably/Likely</td>
+          
           <td>i) Event or laboratory test abnormality, with reasonable time relationship to drug intake
 ii) Unlikely to be attributed to disease or other drugs
 iii) Response to withdrawal clinically reasonable
 iv) Re-challenge not required</td>
+        
         </tr>
+        
         <tr>
+          
           <td>Possible
+            
             <a name="adverse-event-causality-assess-Possible"> </a>
+          
           </td>
+          
           <td>Possible</td>
+          
           <td>i) Event or laboratory test abnormality, with reasonable time relationship to drug intake
 ii) Could also be explained by disease or other drugs
 iii) Information on drug withdrawal may be lacking or unclear</td>
+        
         </tr>
+        
         <tr>
+          
           <td>Unlikely
+            
             <a name="adverse-event-causality-assess-Unlikely"> </a>
+          
           </td>
+          
           <td>Unlikely</td>
+          
           <td>i) Event or laboratory test abnormality, with a time to drug intake that makes a relationship improbable (but not impossible)
 ii) Disease or other drugs provide plausible explanations</td>
+        
         </tr>
+        
         <tr>
+          
           <td>Conditional-Classified
+            
             <a name="adverse-event-causality-assess-Conditional-Classified"> </a>
+          
           </td>
+          
           <td>Conditional/Classified</td>
+          
           <td>i) Event or laboratory test abnormality
 ii) More data for proper assessment needed, or
 iii) Additional data under examination</td>
+        
         </tr>
+        
         <tr>
+          
           <td>Unassessable-Unclassifiable
+            
             <a name="adverse-event-causality-assess-Unassessable-Unclassifiable"> </a>
+          
           </td>
+          
           <td>Unassessable/Unclassifiable</td>
+          
           <td>i) Report suggesting an adverse reaction
 ii) Cannot be judged because information is insufficient or contradictory
 iii) Data cannot be supplemented or verified</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -94,7 +155,7 @@ iii) Data cannot be supplemented or verified</td>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pc"/>
   </extension>
-  <url value="http://hl7.org/fhir/adverse-event-causality-assess"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/adverse-event-causality-assess"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.816"/>

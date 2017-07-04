@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>MedicationAdministrationCategory</h2>
+      
       <div>
+        
         <p>A coded concept describing where the medication administered is expected to occur</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/medication-admin-category defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>inpatient
+            
             <a name="medication-admin-category-inpatient"> </a>
+          
           </td>
+          
           <td>Inpatient</td>
+          
           <td>Includes administrations in an inpatient or acute care setting</td>
+        
         </tr>
+        
         <tr>
+          
           <td>outpatient
+            
             <a name="medication-admin-category-outpatient"> </a>
+          
           </td>
+          
           <td>Outpatient</td>
+          
           <td>Includes administrations in an outpatient setting (for example, Emergency Department, Outpatient Clinic, Outpatient Surgery, Doctor&#39;s office)</td>
+        
         </tr>
+        
         <tr>
+          
           <td>community
+            
             <a name="medication-admin-category-community"> </a>
+          
           </td>
+          
           <td>Community</td>
+          
           <td>Includes administrations by the patient in their home (this would include long term care or nursing homes, hospices, etc)</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="phx"/>
   </extension>
-  <url value="http://hl7.org/fhir/medication-admin-category"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/medication-admin-category"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.338"/>

@@ -9,49 +9,92 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Funds Reservation Codes</h2>
+      
       <div>
+        
         <p>This value set includes sample funds reservation type codes.</p>
 
+      
       </div>
+      
       <p>
+        
         <b>Copyright Statement:</b> This is an example set.
+      
       </p>
+      
       <p>This code system http://hl7.org/fhir/fundsreserve defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>patient
+            
             <a name="fundsreserve-patient"> </a>
+          
           </td>
+          
           <td>Patient</td>
+          
           <td>The payor is requested to reserve funds for the provision of the named services by any provider for settlement of future claims related to this request.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>provider
+            
             <a name="fundsreserve-provider"> </a>
+          
           </td>
+          
           <td>Provider</td>
+          
           <td>The payor is requested to reserve funds solely for the named provider for settlement of future claims related to this request.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>none
+            
             <a name="fundsreserve-none"> </a>
+          
           </td>
+          
           <td>None</td>
+          
           <td>The payor is not being requested to reserve any funds for the settlement of future claims.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -63,7 +106,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fm"/>
   </extension>
-  <url value="http://hl7.org/fhir/fundsreserve"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/fundsreserve"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.33"/>

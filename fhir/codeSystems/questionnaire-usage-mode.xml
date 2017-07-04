@@ -8,60 +8,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>QuestionnaireItemUsageMode</h2>
+      
       <div>
+        
         <p>Identifies the modes of usage of a questionnaire that should enable a particular questionnaire item</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/questionnaire-usage-mode defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>capture-display
+            
             <a name="questionnaire-usage-mode-capture-display"> </a>
+          
           </td>
+          
           <td>Capture &amp; Display</td>
+          
           <td>Render the item regardless of usage mode</td>
+        
         </tr>
+        
         <tr>
+          
           <td>capture
+            
             <a name="questionnaire-usage-mode-capture"> </a>
+          
           </td>
+          
           <td>Capture Only</td>
+          
           <td>Render the item only when capturing data</td>
+        
         </tr>
+        
         <tr>
+          
           <td>display
+            
             <a name="questionnaire-usage-mode-display"> </a>
+          
           </td>
+          
           <td>Display Only</td>
+          
           <td>Render the item only when displaying a completed form</td>
+        
         </tr>
+        
         <tr>
+          
           <td>display-non-empty
+            
             <a name="questionnaire-usage-mode-display-non-empty"> </a>
+          
           </td>
+          
           <td>Display when Answered</td>
+          
           <td>Render the item only when displaying a completed form and the item has been answered (or has child items that have been answered)</td>
+        
         </tr>
+        
         <tr>
+          
           <td>capture-display-non-empty
+            
             <a name="questionnaire-usage-mode-capture-display-non-empty"> </a>
+          
           </td>
+          
           <td>Capture or, if answered, Display</td>
+          
           <td>Render the item when capturing data or when displaying a completed form and the item has been answered (or has child items that have been answered)</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -70,7 +124,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/questionnaire-usage-mode"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/questionnaire-usage-mode"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.855"/>

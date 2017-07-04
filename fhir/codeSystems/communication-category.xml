@@ -8,53 +8,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>CommunicationCategory</h2>
+      
       <div>
+        
         <p>Codes for general categories of communications such as alerts, instruction, etc.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/communication-category defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>alert
+            
             <a name="communication-category-alert"> </a>
+          
           </td>
+          
           <td>Alert</td>
+          
           <td>The communication conveys an alert.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>notification
+            
             <a name="communication-category-notification"> </a>
+          
           </td>
+          
           <td>Notification</td>
+          
           <td>The communication conveys a notification.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>reminder
+            
             <a name="communication-category-reminder"> </a>
+          
           </td>
+          
           <td>Reminder</td>
+          
           <td>The communication conveys a reminder.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>instruction
+            
             <a name="communication-category-instruction"> </a>
+          
           </td>
+          
           <td>Instruction</td>
+          
           <td>The communication conveys instruction.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -66,7 +113,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pc"/>
   </extension>
-  <url value="http://hl7.org/fhir/communication-category"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/communication-category"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.163"/>

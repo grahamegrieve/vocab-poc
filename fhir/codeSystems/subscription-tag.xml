@@ -8,39 +8,72 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>SubscriptionTag</h2>
+      
       <div>
+        
         <p>Tags to put on a resource after subscriptions have been sent.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/subscription-tag defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>queued
+            
             <a name="subscription-tag-queued"> </a>
+          
           </td>
+          
           <td>Queued</td>
+          
           <td>The message has been queued for processing on a destination systems.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>delivered
+            
             <a name="subscription-tag-delivered"> </a>
+          
           </td>
+          
           <td>Delivered</td>
+          
           <td>The message has been delivered to its intended recipient.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -52,7 +85,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/subscription-tag"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/subscription-tag"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.498"/>

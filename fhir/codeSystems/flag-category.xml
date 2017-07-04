@@ -9,60 +9,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Flag Category</h2>
+      
       <div>
+        
         <p>Example list of general categories for flagged issues. (Not complete or necessarily appropriate.)</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/flag-category defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>diet
+            
             <a name="flag-category-diet"> </a>
+          
           </td>
+          
           <td>Diet</td>
+          
           <td>Flags related to the subject&#39;s dietary needs.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>drug
+            
             <a name="flag-category-drug"> </a>
+          
           </td>
+          
           <td>Drug</td>
+          
           <td>Flags related to the patient&#39;s medications.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>lab
+            
             <a name="flag-category-lab"> </a>
+          
           </td>
+          
           <td>Lab</td>
+          
           <td>Flags related to performing laboratory tests and related processes (e.g. phlebotomy).</td>
+        
         </tr>
+        
         <tr>
+          
           <td>admin
+            
             <a name="flag-category-admin"> </a>
+          
           </td>
+          
           <td>Administrative</td>
+          
           <td>Flags related to administrative and financial processes.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>contact
+            
             <a name="flag-category-contact"> </a>
+          
           </td>
+          
           <td>Subject contact</td>
+          
           <td>Flags related to coming into contact with the patient.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -74,7 +128,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pc"/>
   </extension>
-  <url value="http://hl7.org/fhir/flag-category"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/flag-category"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.113"/>

@@ -8,60 +8,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>DiscriminatorType</h2>
+      
       <div>
+        
         <p>How an element value is interpreted when discrimination is evaluated</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/discriminator-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>value
+            
             <a name="discriminator-type-value"> </a>
+          
           </td>
+          
           <td>Value</td>
+          
           <td>The slices have different values in the nominated element</td>
+        
         </tr>
+        
         <tr>
+          
           <td>exists
+            
             <a name="discriminator-type-exists"> </a>
+          
           </td>
+          
           <td>Exists</td>
+          
           <td>The slices are differentiated by the presence or absence of the nominated element</td>
+        
         </tr>
+        
         <tr>
+          
           <td>pattern
+            
             <a name="discriminator-type-pattern"> </a>
+          
           </td>
+          
           <td>Pattern</td>
+          
           <td>The slices have different values in the nominated element, as determined by testing them against the applicable ElementDefinition.pattern[x]</td>
+        
         </tr>
+        
         <tr>
+          
           <td>type
+            
             <a name="discriminator-type-type"> </a>
+          
           </td>
+          
           <td>Type</td>
+          
           <td>The slices are differentiated by type of the nominated element to a specifed profile</td>
+        
         </tr>
+        
         <tr>
+          
           <td>profile
+            
             <a name="discriminator-type-profile"> </a>
+          
           </td>
+          
           <td>Profile</td>
+          
           <td>The slices are differentiated by conformance of the nominated element to a specifed profile</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -73,7 +127,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/discriminator-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/discriminator-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.85"/>

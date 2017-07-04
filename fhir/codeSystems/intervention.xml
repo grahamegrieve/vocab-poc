@@ -9,42 +9,78 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Intervention Codes</h2>
+      
       <div>
+        
         <p>This value set includes sample Intervention codes.</p>
 
+      
       </div>
+      
       <p>
+        
         <b>Copyright Statement:</b> This is an example set.
+      
       </p>
+      
       <p>This code system http://hl7.org/fhir/intervention defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>unknown
+            
             <a name="intervention-unknown"> </a>
+          
           </td>
+          
           <td>Unknown</td>
+          
           <td>Unknown</td>
+        
         </tr>
+        
         <tr>
+          
           <td>other
+            
             <a name="intervention-other"> </a>
+          
           </td>
+          
           <td>Other</td>
+          
           <td>Other</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -53,7 +89,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/intervention"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/intervention"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.525"/>

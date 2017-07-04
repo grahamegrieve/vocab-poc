@@ -8,60 +8,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>ReferralMethod</h2>
+      
       <div>
+        
         <p>The methods of referral can be used when referring to a specific HealthCareService resource.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/service-referral-method defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>fax
+            
             <a name="service-referral-method-fax"> </a>
+          
           </td>
+          
           <td>Fax</td>
+          
           <td>Referrals may be accepted by fax.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>phone
+            
             <a name="service-referral-method-phone"> </a>
+          
           </td>
+          
           <td>Phone</td>
+          
           <td>Referrals may be accepted over the phone from a practitioner.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>elec
+            
             <a name="service-referral-method-elec"> </a>
+          
           </td>
+          
           <td>Secure Messaging</td>
+          
           <td>Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>semail
+            
             <a name="service-referral-method-semail"> </a>
+          
           </td>
+          
           <td>Secure Email</td>
+          
           <td>Referrals may be accepted via a secure email. To send please encrypt with the services public key.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>mail
+            
             <a name="service-referral-method-mail"> </a>
+          
           </td>
+          
           <td>Mail</td>
+          
           <td>Referrals may be accepted via regular postage (or hand delivered).</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -73,7 +127,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="pa"/>
   </extension>
-  <url value="http://hl7.org/fhir/service-referral-method"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/service-referral-method"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.505"/>

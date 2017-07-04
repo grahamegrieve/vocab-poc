@@ -8,60 +8,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>EventTiming</h2>
+      
       <div>
+        
         <p>Real world event relating to the schedule.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/event-timing defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>MORN
+            
             <a name="event-timing-MORN"> </a>
+          
           </td>
+          
           <td>Morning</td>
+          
           <td>event occurs during the morning</td>
+        
         </tr>
+        
         <tr>
+          
           <td>AFT
+            
             <a name="event-timing-AFT"> </a>
+          
           </td>
+          
           <td>Afternoon</td>
+          
           <td>event occurs during the afternoon</td>
+        
         </tr>
+        
         <tr>
+          
           <td>EVE
+            
             <a name="event-timing-EVE"> </a>
+          
           </td>
+          
           <td>Evening</td>
+          
           <td>event occurs during the evening</td>
+        
         </tr>
+        
         <tr>
+          
           <td>NIGHT
+            
             <a name="event-timing-NIGHT"> </a>
+          
           </td>
+          
           <td>Night</td>
+          
           <td>event occurs during the night</td>
+        
         </tr>
+        
         <tr>
+          
           <td>PHS
+            
             <a name="event-timing-PHS"> </a>
+          
           </td>
+          
           <td>After Sleep</td>
+          
           <td>event occurs [offset] after subject goes to sleep</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -73,7 +127,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/event-timing"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/event-timing"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.69"/>

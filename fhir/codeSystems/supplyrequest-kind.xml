@@ -9,39 +9,72 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Supply Type</h2>
+      
       <div>
+        
         <p>This value sets refers to a Category of supply.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/supply-kind defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>central
+            
             <a name="supplyrequest-kind-central"> </a>
+          
           </td>
+          
           <td>Central Supply</td>
+          
           <td>Supply is stored and requested from central supply.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>nonstock
+            
             <a name="supplyrequest-kind-nonstock"> </a>
+          
           </td>
+          
           <td>Non-Stock</td>
+          
           <td>Supply is not onsite and must be requested from an outside vendor using a non-stock requisition.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -53,7 +86,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="oo"/>
   </extension>
-  <url value="http://hl7.org/fhir/supply-kind"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/supplyrequest-kind"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.680"/>

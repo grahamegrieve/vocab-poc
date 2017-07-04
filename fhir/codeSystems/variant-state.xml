@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>sequenceStatus</h2>
+      
       <div>
+        
         <p>Codes providing the status of the variant test result</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/variant-state defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>positive
+            
             <a name="variant-state-positive"> </a>
+          
           </td>
+          
           <td>positive</td>
+          
           <td>the variant is detected</td>
+        
         </tr>
+        
         <tr>
+          
           <td>negative
+            
             <a name="variant-state-negative"> </a>
+          
           </td>
+          
           <td>negative</td>
+          
           <td>no variant is detected</td>
+        
         </tr>
+        
         <tr>
+          
           <td>absent
+            
             <a name="variant-state-absent"> </a>
+          
           </td>
+          
           <td>absent</td>
+          
           <td>result of the variant is missing</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -56,7 +96,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0"/>
   </extension>
-  <url value="http://hl7.org/fhir/variant-state"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/variant-state"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.211"/>

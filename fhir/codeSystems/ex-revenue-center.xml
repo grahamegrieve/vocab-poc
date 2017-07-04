@@ -9,91 +9,176 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>Example Revenue Center Codes</h2>
+      
       <div>
+        
         <p>This value set includes sample Revenue Center codes.</p>
 
+      
       </div>
+      
       <p>
+        
         <b>Copyright Statement:</b> This is an example set.
+      
       </p>
+      
       <p>This code system http://hl7.org/fhir/ex-revenue-center defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>0370
+            
             <a name="ex-revenue-center-0370"> </a>
+          
           </td>
+          
           <td>Anaesthesia</td>
+          
           <td>Anaesthesia.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0420
+            
             <a name="ex-revenue-center-0420"> </a>
+          
           </td>
+          
           <td>Physical Therapy</td>
+          
           <td>Physical Therapy.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0421
+            
             <a name="ex-revenue-center-0421"> </a>
+          
           </td>
+          
           <td>Physical Therapy - </td>
+          
           <td>Physical Therapy - visit charge.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0440
+            
             <a name="ex-revenue-center-0440"> </a>
+          
           </td>
+          
           <td>Speech-Language Pathology</td>
+          
           <td>Speech-Language Pathology.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0441
+            
             <a name="ex-revenue-center-0441"> </a>
+          
           </td>
+          
           <td>Speech-Language Pathology - Visit</td>
+          
           <td>Speech-Language Pathology- visit charge</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0450
+            
             <a name="ex-revenue-center-0450"> </a>
+          
           </td>
+          
           <td>Emergency Room</td>
+          
           <td>Emergency Room</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0451
+            
             <a name="ex-revenue-center-0451"> </a>
+          
           </td>
+          
           <td>Emergency Room - EM/EMTALA</td>
+          
           <td>Emergency Room - EM/EMTALA</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0452
+            
             <a name="ex-revenue-center-0452"> </a>
+          
           </td>
+          
           <td>Emergency Room - beyond EMTALA</td>
+          
           <td>Emergency Room - beyond EMTALA</td>
+        
         </tr>
+        
         <tr>
+          
           <td>0010
+            
             <a name="ex-revenue-center-0010"> </a>
+          
           </td>
+          
           <td>Vision Clinic</td>
+          
           <td>Vision Clinic</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -105,7 +190,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fm"/>
   </extension>
-  <url value="http://hl7.org/fhir/ex-revenue-center"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/ex-revenue-center"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.587"/>

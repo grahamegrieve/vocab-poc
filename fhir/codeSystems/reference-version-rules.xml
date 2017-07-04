@@ -8,46 +8,86 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>ReferenceVersionRules</h2>
+      
       <div>
+        
         <p>Whether a reference needs to be version specific or version independent, or whether either can be used</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/reference-version-rules defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>either
+            
             <a name="reference-version-rules-either"> </a>
+          
           </td>
+          
           <td>Either Specific or independent</td>
+          
           <td>The reference may be either version independent or version specific</td>
+        
         </tr>
+        
         <tr>
+          
           <td>independent
+            
             <a name="reference-version-rules-independent"> </a>
+          
           </td>
+          
           <td>Version independent</td>
+          
           <td>The reference must be version independent</td>
+        
         </tr>
+        
         <tr>
+          
           <td>specific
+            
             <a name="reference-version-rules-specific"> </a>
+          
           </td>
+          
           <td>Version Specific</td>
+          
           <td>The reference must be version specific</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -59,7 +99,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/reference-version-rules"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/reference-version-rules"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.83"/>

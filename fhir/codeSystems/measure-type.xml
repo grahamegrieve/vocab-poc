@@ -8,60 +8,114 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>MeasureType</h2>
+      
       <div>
+        
         <p>The type of measure (includes codes from 2.16.840.1.113883.1.11.20368)</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/measure-type defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>process
+            
             <a name="measure-type-process"> </a>
+          
           </td>
+          
           <td>Process</td>
+          
           <td>A measure which focuses on a process which leads to a certain outcome, meaning that a scientific basis exists for believing that the process, when executed well, will increase the probability of achieving a desired outcome</td>
+        
         </tr>
+        
         <tr>
+          
           <td>outcome
+            
             <a name="measure-type-outcome"> </a>
+          
           </td>
+          
           <td>Outcome</td>
+          
           <td>A measure that indicates the result of the performance (or non-performance) of a function or process</td>
+        
         </tr>
+        
         <tr>
+          
           <td>structure
+            
             <a name="measure-type-structure"> </a>
+          
           </td>
+          
           <td>Structure</td>
+          
           <td>A measure that focuses on a health care provider&#39;s capacity, systems, and processes to provide high-quality care</td>
+        
         </tr>
+        
         <tr>
+          
           <td>patient-reported-outcome
+            
             <a name="measure-type-patient-reported-outcome"> </a>
+          
           </td>
+          
           <td>Patient Reported Outcome</td>
+          
           <td>A measure that focuses on patient-reported information such as patient engagement or patient experience measures</td>
+        
         </tr>
+        
         <tr>
+          
           <td>composite
+            
             <a name="measure-type-composite"> </a>
+          
           </td>
+          
           <td>Composite</td>
+          
           <td>A measure that combines multiple component measures in to a single quality measure</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -73,7 +127,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="cqi"/>
   </extension>
-  <url value="http://hl7.org/fhir/measure-type"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/measure-type"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.754"/>

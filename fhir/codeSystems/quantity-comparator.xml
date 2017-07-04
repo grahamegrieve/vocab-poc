@@ -8,53 +8,100 @@
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
+      
       <h2>QuantityComparator</h2>
+      
       <div>
+        
         <p>How the Quantity should be understood and represented.</p>
 
+      
       </div>
+      
       <p>This code system http://hl7.org/fhir/quantity-comparator defines the following codes:</p>
+      
       <table class="codes">
+        
         <tr>
+          
           <td>
+            
             <b>Code</b>
+          
           </td>
+          
           <td>
+            
             <b>Display</b>
+          
           </td>
+          
           <td>
+            
             <b>Definition</b>
+          
           </td>
+        
         </tr>
+        
         <tr>
+          
           <td>&lt;
+            
             <a name="quantity-comparator-.60"> </a>
+          
           </td>
+          
           <td>Less than</td>
+          
           <td>The actual value is less than the given value.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>&lt;=
+            
             <a name="quantity-comparator-.60.61"> </a>
+          
           </td>
+          
           <td>Less or Equal to</td>
+          
           <td>The actual value is less than or equal to the given value.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>&gt;=
+            
             <a name="quantity-comparator-.62.61"> </a>
+          
           </td>
+          
           <td>Greater or Equal to</td>
+          
           <td>The actual value is greater than or equal to the given value.</td>
+        
         </tr>
+        
         <tr>
+          
           <td>&gt;
+            
             <a name="quantity-comparator-.62"> </a>
+          
           </td>
+          
           <td>Greater than</td>
+          
           <td>The actual value is greater than the given value.</td>
+        
         </tr>
+      
       </table>
+    
     </div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
@@ -66,7 +113,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="fhir"/>
   </extension>
-  <url value="http://hl7.org/fhir/quantity-comparator"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/quantity-comparator"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.1.55"/>
