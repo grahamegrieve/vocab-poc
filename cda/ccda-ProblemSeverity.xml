@@ -1,59 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-ProblemSeverity"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ProblemSeverity"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.6.8"/>
-  </identifier>
+  <id value="2.16.840.1.113883.3.88.12.3221.6.8"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Problem Severity</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24484000">24484000</a>
+              
+              </td>
+              
+              <td>Severe (severity modifier) (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255604002">255604002</a>
+              
+              </td>
+              
+              <td>Mild (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003">371923003</a>
+              
+              </td>
+              
+              <td>Mild to moderate (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009">371924009</a>
+              
+              </td>
+              
+              <td>Moderate to severe (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001">399166001</a>
+              
+              </td>
+              
+              <td>Fatal (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6736007">6736007</a>
+              
+              </td>
+              
+              <td>Moderate (severity modifier) (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.6.8"/>
   <version value="20150424"/>
-  <name value="CCDAProblemSeverity"/>
-  <title value="Problem Severity"/>
-  <date value="2015-04-24"/>
-  <description value="The disorder&#39;s degree of physiological impact on the patient"/>
-  <expansion>
-    <identifier value="urn:uuid:8721ad2b-9da5-4592-950b-5296f3690b76"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="Problem Severity"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="24484000"/>
-      <display value="Severe (severity modifier) (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="255604002"/>
-      <display value="Mild (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371924009"/>
-      <display value="Moderate to severe (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="399166001"/>
-      <display value="Fatal (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="6736007"/>
-      <display value="Moderate (severity modifier) (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371923003"/>
-      <display value="Mild to moderate (qualifier value)"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="24484000"/>
+        <display value="Severe (severity modifier) (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="255604002"/>
+        <display value="Mild (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371923003"/>
+        <display value="Mild to moderate (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371924009"/>
+        <display value="Moderate to severe (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="399166001"/>
+        <display value="Fatal (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="6736007"/>
+        <display value="Moderate (severity modifier) (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

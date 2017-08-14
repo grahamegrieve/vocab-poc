@@ -1,1020 +1,2360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-MedicationProductForm"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-MedicationProductForm"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.3.88.12.3221.8.11"/>
-  </identifier>
+  <id value="2.16.840.1.113883.3.88.12.3221.8.11"/>
+  <meta>
+    <versionId value="20161010"/>
+    <lastUpdated value="2016-10-10T16:00:00.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Medication Product Form</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://ncimeta.nci.nih.gov">
+            
+            <code>http://ncimeta.nci.nih.gov</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C100103</td>
+              
+              <td>Cellular Sheet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C113106</td>
+              
+              <td>Injectable Foam Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C124794</td>
+              
+              <td>Extended Release Chewable Tablet</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C17423</td>
+              
+              <td>Drug Delivery System</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C25158</td>
+              
+              <td>Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C25394</td>
+              
+              <td>Pill Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C28944</td>
+              
+              <td>Cream Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C29167</td>
+              
+              <td>Lotion Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C29269</td>
+              
+              <td>Mouthwash Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42679</td>
+              
+              <td>Douche Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42763</td>
+              
+              <td>Dressing Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42887</td>
+              
+              <td>Aerosol Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42888</td>
+              
+              <td>Aerosol Foam Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42889</td>
+              
+              <td>Aerosol Spray Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42890</td>
+              
+              <td>Bead Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42892</td>
+              
+              <td>Chewable Bar Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42893</td>
+              
+              <td>Chewable Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42894</td>
+              
+              <td>Chewing Gum Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42895</td>
+              
+              <td>Coated Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42896</td>
+              
+              <td>Coated Pellet in Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42897</td>
+              
+              <td>Coated Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42898</td>
+              
+              <td>Concentrated Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42899</td>
+              
+              <td>Concentrated Injectable Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42901</td>
+              
+              <td>Crystal Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42902</td>
+              
+              <td>Delayed Release Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42903</td>
+              
+              <td>Delayed Release Granule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42904</td>
+              
+              <td>Delayed Release Pellet in Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42905</td>
+              
+              <td>Delayed Release Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42906</td>
+              
+              <td>Dentifrice Gel Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42907</td>
+              
+              <td>Dentifrice Paste Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42908</td>
+              
+              <td>Dentifrice Powder Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42909</td>
+              
+              <td>Effervescent Granule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42910</td>
+              
+              <td>Effervescent Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42911</td>
+              
+              <td>Electrically Controlled Extended Release Patch Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42912</td>
+              
+              <td>Elixir Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42913</td>
+              
+              <td>Emulsion Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42914</td>
+              
+              <td>Emulsion for Injection Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42915</td>
+              
+              <td>Enema Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42916</td>
+              
+              <td>Extended Release Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42917</td>
+              
+              <td>Extended Release Coated Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42918</td>
+              
+              <td>Extended Release Coated Pellet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42920</td>
+              
+              <td>Extended Release Film Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42921</td>
+              
+              <td>Extended Release Granule for Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42922</td>
+              
+              <td>Extended Release Insert Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42923</td>
+              
+              <td>Extended Release Patch Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42924</td>
+              
+              <td>Extended Release Suppository Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42925</td>
+              
+              <td>Extended Release Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42926</td>
+              
+              <td>Injectable Extended Release Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42927</td>
+              
+              <td>Extended Release Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42928</td>
+              
+              <td>Extended Release Film Coated Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42929</td>
+              
+              <td>Extract Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42930</td>
+              
+              <td>Film Coated Extended Release Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42931</td>
+              
+              <td>Film Coated Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42932</td>
+              
+              <td>Film Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42933</td>
+              
+              <td>Gas Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42934</td>
+              
+              <td>Gel Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42935</td>
+              
+              <td>Extended Release Gel Forming Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42936</td>
+              
+              <td>Gelatin Coated Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42937</td>
+              
+              <td>Globule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42938</td>
+              
+              <td>Granule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42939</td>
+              
+              <td>Granule for Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42940</td>
+              
+              <td>Granule for Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42942</td>
+              
+              <td>Implant Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42943</td>
+              
+              <td>Implantable Pellet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42944</td>
+              
+              <td>Inhalant Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42945</td>
+              
+              <td>Injectable Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42946</td>
+              
+              <td>Injectable Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42947</td>
+              
+              <td>Irrigant Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42948</td>
+              
+              <td>Jelly Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42949</td>
+              
+              <td>Liniment Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42950</td>
+              
+              <td>Injectable Lipid Complex Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42951</td>
+              
+              <td>Injectable Liposomal Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42952</td>
+              
+              <td>Lipstick Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42953</td>
+              
+              <td>Liquid Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42954</td>
+              
+              <td>Liquid Filled Capsule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42955</td>
+              
+              <td>Lozenge Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42956</td>
+              
+              <td>Lyophilized Powder for Extended Release Injectable Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42957</td>
+              
+              <td>Lyophilized Powder for Injectable Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42958</td>
+              
+              <td>Lyophilized Powder for Injectable Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42959</td>
+              
+              <td>Lyophilized Powder for Injectable Liposomal Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42960</td>
+              
+              <td>Metered Aerosol Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42961</td>
+              
+              <td>Metered Powder Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42962</td>
+              
+              <td>Metered Spray Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42963</td>
+              
+              <td>Multilayered Extended Release Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42964</td>
+              
+              <td>Multilayered Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42965</td>
+              
+              <td>Oil Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42966</td>
+              
+              <td>Ointment Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42967</td>
+              
+              <td>Paste Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42968</td>
+              
+              <td>Patch Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42969</td>
+              
+              <td>Pellet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42970</td>
+              
+              <td>Plaster Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42971</td>
+              
+              <td>Powder Aerosol Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42972</td>
+              
+              <td>Powder Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42973</td>
+              
+              <td>Powder for Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42974</td>
+              
+              <td>Powder for Injectable Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42975</td>
+              
+              <td>Powder for Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42976</td>
+              
+              <td>Powder for Injectable Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42977</td>
+              
+              <td>Powder for Injectable Extended Release Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42979</td>
+              
+              <td>Rinse Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42980</td>
+              
+              <td>Salve Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42981</td>
+              
+              <td>Shampoo Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42982</td>
+              
+              <td>Shampoo Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42983</td>
+              
+              <td>Soap Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42984</td>
+              
+              <td>Soluble Film Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42985</td>
+              
+              <td>Soluble Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42986</td>
+              
+              <td>Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42987</td>
+              
+              <td>Solution for Slush Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42988</td>
+              
+              <td>Injectable Sonicated Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42989</td>
+              
+              <td>Spray Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42990</td>
+              
+              <td>Spray Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42991</td>
+              
+              <td>Stick Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42992</td>
+              
+              <td>Sugar Coated Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42993</td>
+              
+              <td>Suppository Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42994</td>
+              
+              <td>Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42995</td>
+              
+              <td>Injectable Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42996</td>
+              
+              <td>Syrup Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42997</td>
+              
+              <td>Delayed Release Particle Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42998</td>
+              
+              <td>Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C42999</td>
+              
+              <td>Orally Disintegrating Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C43000</td>
+              
+              <td>Tincture Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C43001</td>
+              
+              <td>Troche Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C43003</td>
+              
+              <td>Wafer Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C43525</td>
+              
+              <td>Disc Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47892</td>
+              
+              <td>Tampon Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47897</td>
+              
+              <td>Tape Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47898</td>
+              
+              <td>Swab Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47912</td>
+              
+              <td>Sponge Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47913</td>
+              
+              <td>Poultice Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47914</td>
+              
+              <td>Strip Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47915</td>
+              
+              <td>Intrauterine Device Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C47916</td>
+              
+              <td>Kit Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C48624</td>
+              
+              <td>Dosage Form Not Applicable</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60884</td>
+              
+              <td>Cloth Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60891</td>
+              
+              <td>Concentrated Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60897</td>
+              
+              <td>Augmented Cream Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60926</td>
+              
+              <td>Extended Release Fiber Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60927</td>
+              
+              <td>Dosage Form for Solution</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60928</td>
+              
+              <td>Dosage Form for Suspension</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60929</td>
+              
+              <td>Extended Release Dosage Form for Suspension</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60930</td>
+              
+              <td>Metered Gel Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60931</td>
+              
+              <td>Liposomal Injection Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60933</td>
+              
+              <td>Insert Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60934</td>
+              
+              <td>Extended Release Liquid Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60957</td>
+              
+              <td>Augmented Lotion Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60958</td>
+              
+              <td>Lotion Shampoo Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60984</td>
+              
+              <td>Augmented Ointment Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60985</td>
+              
+              <td>Pastille Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60988</td>
+              
+              <td>Ring Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60992</td>
+              
+              <td>Drop Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60994</td>
+              
+              <td>Gel Forming Drop Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60995</td>
+              
+              <td>Drop Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C60997</td>
+              
+              <td>Tablet Coated Particle Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C61004</td>
+              
+              <td>Tablet for Solution Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C61005</td>
+              
+              <td>Tablet for Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C61006</td>
+              
+              <td>Orally Disintegrating Delayed Release Tablet Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C64884</td>
+              
+              <td>Effervescent Powder Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C69067</td>
+              
+              <td>Extended Release Granule Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87536</td>
+              
+              <td>Smoke Stick Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87537</td>
+              
+              <td>Smoke Paper Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87538</td>
+              
+              <td>Extended Release Intraruminal Device Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87539</td>
+              
+              <td>Tag Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87540</td>
+              
+              <td>Delayed Release Granule for Suspension Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87541</td>
+              
+              <td>Lyophilized Powder Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C87542</td>
+              
+              <td>Pendant Dosage Form</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.8.11"/>
   <version value="20161010"/>
-  <name value="CCDAMedicationProductForm"/>
-  <title value="Medication Product Form"/>
-  <date value="2016-10-10"/>
-  <description value="This is the physical form of the medicinal product as presented to the individual. This value set is defined by the US Federal Drug Administration."/>
-  <purpose value="Medicinal drug form"/>
+  <name value="Medication Product Form"/>
+  <status value="active"/>
+  <date value="2016-10-10T16:00:00+11:00"/>
+  <publisher value="HL7 Terminology"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="&quot;Selected concepts that are descendent of C42636 as determined by the FDA. These concepts are linked to &quot;&quot;Structured Product Labeling Pharmaceutical Dosage Form Terminology (Code C54456)&quot;&quot; by Concept_In_Subset.&quot;"/>
-      </extension>
+      <system value="http://ncimeta.nci.nih.gov"/>
+      <concept>
+        <code value="C100103"/>
+        <display value="Cellular Sheet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C113106"/>
+        <display value="Injectable Foam Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C124794"/>
+        <display value="Extended Release Chewable Tablet"/>
+      </concept>
+      <concept>
+        <code value="C17423"/>
+        <display value="Drug Delivery System"/>
+      </concept>
+      <concept>
+        <code value="C25158"/>
+        <display value="Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C25394"/>
+        <display value="Pill Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C28944"/>
+        <display value="Cream Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C29167"/>
+        <display value="Lotion Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C29269"/>
+        <display value="Mouthwash Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42679"/>
+        <display value="Douche Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42763"/>
+        <display value="Dressing Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42887"/>
+        <display value="Aerosol Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42888"/>
+        <display value="Aerosol Foam Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42889"/>
+        <display value="Aerosol Spray Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42890"/>
+        <display value="Bead Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42892"/>
+        <display value="Chewable Bar Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42893"/>
+        <display value="Chewable Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42894"/>
+        <display value="Chewing Gum Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42895"/>
+        <display value="Coated Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42896"/>
+        <display value="Coated Pellet in Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42897"/>
+        <display value="Coated Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42898"/>
+        <display value="Concentrated Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42899"/>
+        <display value="Concentrated Injectable Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42901"/>
+        <display value="Crystal Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42902"/>
+        <display value="Delayed Release Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42903"/>
+        <display value="Delayed Release Granule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42904"/>
+        <display value="Delayed Release Pellet in Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42905"/>
+        <display value="Delayed Release Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42906"/>
+        <display value="Dentifrice Gel Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42907"/>
+        <display value="Dentifrice Paste Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42908"/>
+        <display value="Dentifrice Powder Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42909"/>
+        <display value="Effervescent Granule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42910"/>
+        <display value="Effervescent Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42911"/>
+        <display value="Electrically Controlled Extended Release Patch Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42912"/>
+        <display value="Elixir Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42913"/>
+        <display value="Emulsion Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42914"/>
+        <display value="Emulsion for Injection Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42915"/>
+        <display value="Enema Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42916"/>
+        <display value="Extended Release Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42917"/>
+        <display value="Extended Release Coated Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42918"/>
+        <display value="Extended Release Coated Pellet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42920"/>
+        <display value="Extended Release Film Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42921"/>
+        <display value="Extended Release Granule for Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42922"/>
+        <display value="Extended Release Insert Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42923"/>
+        <display value="Extended Release Patch Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42924"/>
+        <display value="Extended Release Suppository Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42925"/>
+        <display value="Extended Release Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42926"/>
+        <display value="Injectable Extended Release Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42927"/>
+        <display value="Extended Release Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42928"/>
+        <display value="Extended Release Film Coated Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42929"/>
+        <display value="Extract Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42930"/>
+        <display value="Film Coated Extended Release Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42931"/>
+        <display value="Film Coated Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42932"/>
+        <display value="Film Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42933"/>
+        <display value="Gas Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42934"/>
+        <display value="Gel Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42935"/>
+        <display value="Extended Release Gel Forming Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42936"/>
+        <display value="Gelatin Coated Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42937"/>
+        <display value="Globule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42938"/>
+        <display value="Granule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42939"/>
+        <display value="Granule for Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42940"/>
+        <display value="Granule for Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42942"/>
+        <display value="Implant Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42943"/>
+        <display value="Implantable Pellet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42944"/>
+        <display value="Inhalant Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42945"/>
+        <display value="Injectable Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42946"/>
+        <display value="Injectable Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42947"/>
+        <display value="Irrigant Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42948"/>
+        <display value="Jelly Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42949"/>
+        <display value="Liniment Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42950"/>
+        <display value="Injectable Lipid Complex Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42951"/>
+        <display value="Injectable Liposomal Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42952"/>
+        <display value="Lipstick Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42953"/>
+        <display value="Liquid Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42954"/>
+        <display value="Liquid Filled Capsule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42955"/>
+        <display value="Lozenge Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42956"/>
+        <display value="Lyophilized Powder for Extended Release Injectable Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42957"/>
+        <display value="Lyophilized Powder for Injectable Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42958"/>
+        <display value="Lyophilized Powder for Injectable Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42959"/>
+        <display value="Lyophilized Powder for Injectable Liposomal Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42960"/>
+        <display value="Metered Aerosol Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42961"/>
+        <display value="Metered Powder Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42962"/>
+        <display value="Metered Spray Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42963"/>
+        <display value="Multilayered Extended Release Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42964"/>
+        <display value="Multilayered Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42965"/>
+        <display value="Oil Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42966"/>
+        <display value="Ointment Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42967"/>
+        <display value="Paste Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42968"/>
+        <display value="Patch Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42969"/>
+        <display value="Pellet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42970"/>
+        <display value="Plaster Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42971"/>
+        <display value="Powder Aerosol Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42972"/>
+        <display value="Powder Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42973"/>
+        <display value="Powder for Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42974"/>
+        <display value="Powder for Injectable Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42975"/>
+        <display value="Powder for Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42976"/>
+        <display value="Powder for Injectable Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42977"/>
+        <display value="Powder for Injectable Extended Release Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42979"/>
+        <display value="Rinse Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42980"/>
+        <display value="Salve Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42981"/>
+        <display value="Shampoo Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42982"/>
+        <display value="Shampoo Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42983"/>
+        <display value="Soap Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42984"/>
+        <display value="Soluble Film Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42985"/>
+        <display value="Soluble Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42986"/>
+        <display value="Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42987"/>
+        <display value="Solution for Slush Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42988"/>
+        <display value="Injectable Sonicated Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42989"/>
+        <display value="Spray Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42990"/>
+        <display value="Spray Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42991"/>
+        <display value="Stick Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42992"/>
+        <display value="Sugar Coated Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42993"/>
+        <display value="Suppository Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42994"/>
+        <display value="Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42995"/>
+        <display value="Injectable Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42996"/>
+        <display value="Syrup Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42997"/>
+        <display value="Delayed Release Particle Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42998"/>
+        <display value="Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C42999"/>
+        <display value="Orally Disintegrating Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C43000"/>
+        <display value="Tincture Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C43001"/>
+        <display value="Troche Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C43003"/>
+        <display value="Wafer Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C43525"/>
+        <display value="Disc Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47892"/>
+        <display value="Tampon Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47897"/>
+        <display value="Tape Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47898"/>
+        <display value="Swab Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47912"/>
+        <display value="Sponge Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47913"/>
+        <display value="Poultice Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47914"/>
+        <display value="Strip Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47915"/>
+        <display value="Intrauterine Device Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C47916"/>
+        <display value="Kit Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C48624"/>
+        <display value="Dosage Form Not Applicable"/>
+      </concept>
+      <concept>
+        <code value="C60884"/>
+        <display value="Cloth Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60891"/>
+        <display value="Concentrated Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60897"/>
+        <display value="Augmented Cream Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60926"/>
+        <display value="Extended Release Fiber Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60927"/>
+        <display value="Dosage Form for Solution"/>
+      </concept>
+      <concept>
+        <code value="C60928"/>
+        <display value="Dosage Form for Suspension"/>
+      </concept>
+      <concept>
+        <code value="C60929"/>
+        <display value="Extended Release Dosage Form for Suspension"/>
+      </concept>
+      <concept>
+        <code value="C60930"/>
+        <display value="Metered Gel Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60931"/>
+        <display value="Liposomal Injection Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60933"/>
+        <display value="Insert Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60934"/>
+        <display value="Extended Release Liquid Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60957"/>
+        <display value="Augmented Lotion Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60958"/>
+        <display value="Lotion Shampoo Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60984"/>
+        <display value="Augmented Ointment Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60985"/>
+        <display value="Pastille Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60988"/>
+        <display value="Ring Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60992"/>
+        <display value="Drop Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60994"/>
+        <display value="Gel Forming Drop Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60995"/>
+        <display value="Drop Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C60997"/>
+        <display value="Tablet Coated Particle Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C61004"/>
+        <display value="Tablet for Solution Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C61005"/>
+        <display value="Tablet for Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C61006"/>
+        <display value="Orally Disintegrating Delayed Release Tablet Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C64884"/>
+        <display value="Effervescent Powder Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C69067"/>
+        <display value="Extended Release Granule Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87536"/>
+        <display value="Smoke Stick Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87537"/>
+        <display value="Smoke Paper Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87538"/>
+        <display value="Extended Release Intraruminal Device Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87539"/>
+        <display value="Tag Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87540"/>
+        <display value="Delayed Release Granule for Suspension Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87541"/>
+        <display value="Lyophilized Powder Dosage Form"/>
+      </concept>
+      <concept>
+        <code value="C87542"/>
+        <display value="Pendant Dosage Form"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="Navigational concepts and any concept excluded from the FDA SPL list"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:0e8e1750-aad3-49bd-a6f1-4e7bc490d943"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C100103"/>
-      <display value="Cellular Sheet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42679"/>
-      <display value="Douche Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42887"/>
-      <display value="Aerosol Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42890"/>
-      <display value="Bead Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42894"/>
-      <display value="Chewing Gum Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42895"/>
-      <display value="Coated Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42897"/>
-      <display value="Coated Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42898"/>
-      <display value="Concentrated Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42903"/>
-      <display value="Delayed Release Granule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42904"/>
-      <display value="Delayed Release Pellet in Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42907"/>
-      <display value="Dentifrice Paste Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42908"/>
-      <display value="Dentifrice Powder Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42910"/>
-      <display value="Effervescent Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42913"/>
-      <display value="Emulsion Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42916"/>
-      <display value="Extended Release Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42917"/>
-      <display value="Extended Release Coated Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42918"/>
-      <display value="Extended Release Coated Pellet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42920"/>
-      <display value="Extended Release Film Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42921"/>
-      <display value="Extended Release Granule for Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42922"/>
-      <display value="Extended Release Insert Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42925"/>
-      <display value="Extended Release Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42926"/>
-      <display value="Injectable Extended Release Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42929"/>
-      <display value="Extract Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42930"/>
-      <display value="Film Coated Extended Release Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42932"/>
-      <display value="Film Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42933"/>
-      <display value="Gas Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42936"/>
-      <display value="Gelatin Coated Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42937"/>
-      <display value="Globule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42949"/>
-      <display value="Liniment Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42950"/>
-      <display value="Injectable Lipid Complex Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42954"/>
-      <display value="Liquid Filled Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42955"/>
-      <display value="Lozenge Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42958"/>
-      <display value="Lyophilized Powder for Injectable Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42959"/>
-      <display value="Lyophilized Powder for Injectable Liposomal Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42961"/>
-      <display value="Metered Powder Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42962"/>
-      <display value="Metered Spray Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42964"/>
-      <display value="Multilayered Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42967"/>
-      <display value="Paste Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42968"/>
-      <display value="Patch Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42971"/>
-      <display value="Powder Aerosol Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42973"/>
-      <display value="Powder for Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42975"/>
-      <display value="Powder for Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42976"/>
-      <display value="Powder for Injectable Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42979"/>
-      <display value="Rinse Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42981"/>
-      <display value="Shampoo Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42983"/>
-      <display value="Soap Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42985"/>
-      <display value="Soluble Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42987"/>
-      <display value="Solution for Slush Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42989"/>
-      <display value="Spray Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42992"/>
-      <display value="Sugar Coated Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42993"/>
-      <display value="Suppository Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42994"/>
-      <display value="Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42995"/>
-      <display value="Injectable Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42999"/>
-      <display value="Orally Disintegrating Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C43000"/>
-      <display value="Tincture Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C43001"/>
-      <display value="Troche Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47892"/>
-      <display value="Tampon Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47913"/>
-      <display value="Poultice Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47914"/>
-      <display value="Strip Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47915"/>
-      <display value="Intrauterine Device Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60891"/>
-      <display value="Concentrated Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60897"/>
-      <display value="Augmented Cream Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60926"/>
-      <display value="Extended Release Fiber Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60927"/>
-      <display value="Dosage Form for Solution"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60928"/>
-      <display value="Dosage Form for Suspension"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60929"/>
-      <display value="Extended Release Dosage Form for Suspension"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60930"/>
-      <display value="Metered Gel Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60931"/>
-      <display value="Liposomal Injection Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60933"/>
-      <display value="Insert Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60958"/>
-      <display value="Lotion Shampoo Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60992"/>
-      <display value="Drop Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60994"/>
-      <display value="Gel Forming Drop Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60995"/>
-      <display value="Drop Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60997"/>
-      <display value="Tablet Coated Particle Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C61005"/>
-      <display value="Tablet for Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C61006"/>
-      <display value="Orally Disintegrating Delayed Release Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C64884"/>
-      <display value="Effervescent Powder Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C69067"/>
-      <display value="Extended Release Granule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87536"/>
-      <display value="Smoke Stick Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87537"/>
-      <display value="Smoke Paper Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87538"/>
-      <display value="Extended Release Intraruminal Device Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87539"/>
-      <display value="Tag Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87540"/>
-      <display value="Delayed Release Granule for Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87541"/>
-      <display value="Lyophilized Powder Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C113106"/>
-      <display value="Injectable Foam Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C124794"/>
-      <display value="Extended Release Chewable Tablet"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C17423"/>
-      <display value="Drug Delivery System"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C25158"/>
-      <display value="Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C25394"/>
-      <display value="Pill Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C28944"/>
-      <display value="Cream Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C29167"/>
-      <display value="Lotion Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C29269"/>
-      <display value="Mouthwash Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42763"/>
-      <display value="Dressing Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42888"/>
-      <display value="Aerosol Foam Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42889"/>
-      <display value="Aerosol Spray Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42892"/>
-      <display value="Chewable Bar Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42893"/>
-      <display value="Chewable Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42896"/>
-      <display value="Coated Pellet in Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42899"/>
-      <display value="Concentrated Injectable Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42901"/>
-      <display value="Crystal Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42902"/>
-      <display value="Delayed Release Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42905"/>
-      <display value="Delayed Release Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42906"/>
-      <display value="Dentifrice Gel Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42909"/>
-      <display value="Effervescent Granule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42911"/>
-      <display value="Electrically Controlled Extended Release Patch Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42912"/>
-      <display value="Elixir Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42914"/>
-      <display value="Emulsion for Injection Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42915"/>
-      <display value="Enema Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42923"/>
-      <display value="Extended Release Patch Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42924"/>
-      <display value="Extended Release Suppository Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42927"/>
-      <display value="Extended Release Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42928"/>
-      <display value="Extended Release Film Coated Capsule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42931"/>
-      <display value="Film Coated Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42934"/>
-      <display value="Gel Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42935"/>
-      <display value="Extended Release Gel Forming Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42938"/>
-      <display value="Granule Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42939"/>
-      <display value="Granule for Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42940"/>
-      <display value="Granule for Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42942"/>
-      <display value="Implant Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42943"/>
-      <display value="Implantable Pellet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42944"/>
-      <display value="Inhalant Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42945"/>
-      <display value="Injectable Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42946"/>
-      <display value="Injectable Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42947"/>
-      <display value="Irrigant Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42948"/>
-      <display value="Jelly Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42951"/>
-      <display value="Injectable Liposomal Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42952"/>
-      <display value="Lipstick Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42953"/>
-      <display value="Liquid Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42956"/>
-      <display value="Lyophilized Powder for Extended Release Injectable Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42957"/>
-      <display value="Lyophilized Powder for Injectable Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42960"/>
-      <display value="Metered Aerosol Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42963"/>
-      <display value="Multilayered Extended Release Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42965"/>
-      <display value="Oil Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42966"/>
-      <display value="Ointment Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42969"/>
-      <display value="Pellet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42970"/>
-      <display value="Plaster Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42972"/>
-      <display value="Powder Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42974"/>
-      <display value="Powder for Injectable Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42977"/>
-      <display value="Powder for Injectable Extended Release Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42980"/>
-      <display value="Salve Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42982"/>
-      <display value="Shampoo Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42984"/>
-      <display value="Soluble Film Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42986"/>
-      <display value="Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42988"/>
-      <display value="Injectable Sonicated Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42990"/>
-      <display value="Spray Suspension Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42991"/>
-      <display value="Stick Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42996"/>
-      <display value="Syrup Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42997"/>
-      <display value="Delayed Release Particle Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C42998"/>
-      <display value="Tablet Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C43003"/>
-      <display value="Wafer Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C43525"/>
-      <display value="Disc Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47897"/>
-      <display value="Tape Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47898"/>
-      <display value="Swab Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47912"/>
-      <display value="Sponge Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C47916"/>
-      <display value="Kit Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C48624"/>
-      <display value="Dosage Form Not Applicable"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60884"/>
-      <display value="Cloth Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60934"/>
-      <display value="Extended Release Liquid Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60957"/>
-      <display value="Augmented Lotion Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60984"/>
-      <display value="Augmented Ointment Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60985"/>
-      <display value="Pastille Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C60988"/>
-      <display value="Ring Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C61004"/>
-      <display value="Tablet for Solution Dosage Form"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-nciThesaurus"/>
-      <version value="2016"/>
-      <code value="C87542"/>
-      <display value="Pendant Dosage Form"/>
-    </contains>
-  </expansion>
 </ValueSet>

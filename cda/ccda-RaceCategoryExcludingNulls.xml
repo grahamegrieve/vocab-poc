@@ -1,66 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-RaceCategoryExcludingNulls"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-RaceCategoryExcludingNulls"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.3.2074.1.1.3"/>
-  </identifier>
+  <id value="2.16.840.1.113883.3.2074.1.1.3"/>
+  <meta>
+    <versionId value="20160213"/>
+    <lastUpdated value="2016-02-13T17:00:03.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Race Category Excluding Nulls</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul/>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.2074.1.1.3"/>
   <version value="20160213"/>
-  <name value="CCDARaceCategoryExcludingNulls"/>
-  <title value="Race Category Excluding Nulls"/>
-  <date value="2016-02-13"/>
-  <description value="&quot;The top-level &quot;&quot;Race&quot;&quot; concepts as defined by US Office of Management and Budget (OMB), excluding &quot;&quot;Other race&quot;&quot;. All &quot;&quot;Race&quot;&quot; concepts in the Race and Ethnicity - CDC code system roll-up to one of these codes.&quot;"/>
-  <purpose value="Demographic categorization of a person&#39;s race (can be multiple)."/>
-  <compose>
-    <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="&quot;Direct children of the &quot;&quot;1000-9 Race&quot;&quot; concept in the Race and Ethnicity Code system.&quot;"/>
-      </extension>
-    </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="&quot;Specifically exclude &quot;&quot;2131-1 Other Race&quot;&quot; and any descendant of the concepts defined in the inclusion criteria.&quot;"/>
-      </extension>
-    </exclude>
-  </compose>
-  <expansion>
-    <identifier value="urn:uuid:982c054a-1aad-4c62-b498-878b45b81072"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
-      <version value="1.1"/>
-      <code value="1002-5"/>
-      <display value="American Indian or Alaska Native"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
-      <version value="1.1"/>
-      <code value="2028-9"/>
-      <display value="Asian"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
-      <version value="1.1"/>
-      <code value="2076-8"/>
-      <display value="Native Hawaiian or Other Pacific Islander"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
-      <version value="1.1"/>
-      <code value="2106-3"/>
-      <display value="White"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-PHRaceAndEthnicityCDC"/>
-      <version value="1.1"/>
-      <code value="2054-5"/>
-      <display value="Black or African American"/>
-    </contains>
-  </expansion>
+  <name value="Race Category Excluding Nulls"/>
+  <status value="active"/>
+  <date value="2016-02-13T17:00:03+11:00"/>
+  <publisher value="HL7 Terminology"/>
 </ValueSet>

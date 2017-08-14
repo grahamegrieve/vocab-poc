@@ -1,47 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-PlanofCaremoodCodeSubstanceAdministrationSupply"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-PlanofCaremoodCodeSubstanceAdministrationSupply"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.24"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.24"/>
+  <meta>
+    <versionId value="20150417"/>
+    <lastUpdated value="2015-04-17T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Plan of Care moodCode (SubstanceAdministration/Supply)</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/ActMood</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>INT</td>
+              
+              <td>intent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PRMS</td>
+              
+              <td>promise</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PRP</td>
+              
+              <td>proposal</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>RQO</td>
+              
+              <td>request</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.24"/>
   <version value="20150417"/>
-  <name value="CCDAPlanofCaremoodCodeSubstanceAdministrationSupply"/>
-  <title value="Plan of Care moodCode (SubstanceAdministration/Supply)"/>
-  <date value="2015-04-17"/>
-  <description value="Mood values appropriate to planned substance administrations"/>
-  <expansion>
-    <identifier value="urn:uuid:19ed088d-dd4b-4028-937a-a94fe67fcae3"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="Plan of Care moodCode (SubstanceAdministration/Supply)"/>
+  <status value="active"/>
+  <date value="2015-04-17T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="PRMS"/>
-      <display value="promise"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="PRP"/>
-      <display value="proposal"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="RQO"/>
-      <display value="request"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="INT"/>
-      <display value="intent"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="INT"/>
+        <display value="intent"/>
+      </concept>
+      <concept>
+        <code value="PRMS"/>
+        <display value="promise"/>
+      </concept>
+      <concept>
+        <code value="PRP"/>
+        <display value="proposal"/>
+      </concept>
+      <concept>
+        <code value="RQO"/>
+        <display value="request"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

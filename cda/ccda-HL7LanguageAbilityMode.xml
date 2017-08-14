@@ -1,59 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-HL7LanguageAbilityMode"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HL7LanguageAbilityMode"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.12249"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.12249"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>HL7 LanguageAbilityMode</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/LanguageAbilityMode</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>ESGN</td>
+              
+              <td>Expressed signed</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>ESP</td>
+              
+              <td>Expressed spoken</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>EWR</td>
+              
+              <td>Expressed written</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>RSGN</td>
+              
+              <td>Received signed</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>RSP</td>
+              
+              <td>Received spoken</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>RWR</td>
+              
+              <td>Received written</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12249"/>
   <version value="20150424"/>
-  <name value="CCDAHL7LanguageAbilityMode"/>
-  <title value="HL7 LanguageAbilityMode"/>
-  <date value="2015-04-24"/>
-  <description value="Channels for expressing and receiving human language"/>
-  <expansion>
-    <identifier value="urn:uuid:7ff094a3-12f4-4cfd-ae28-2fc10ec3ea84"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="HL7 LanguageAbilityMode"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="ESP"/>
-      <display value="Expressed spoken"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="EWR"/>
-      <display value="Expressed written"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="RSP"/>
-      <display value="Received spoken"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="RWR"/>
-      <display value="Received written"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="ESGN"/>
-      <display value="Expressed signed"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityMode"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="RSGN"/>
-      <display value="Received signed"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="ESGN"/>
+        <display value="Expressed signed"/>
+      </concept>
+      <concept>
+        <code value="ESP"/>
+        <display value="Expressed spoken"/>
+      </concept>
+      <concept>
+        <code value="EWR"/>
+        <display value="Expressed written"/>
+      </concept>
+      <concept>
+        <code value="RSGN"/>
+        <display value="Received signed"/>
+      </concept>
+      <concept>
+        <code value="RSP"/>
+        <display value="Received spoken"/>
+      </concept>
+      <concept>
+        <code value="RWR"/>
+        <display value="Received written"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

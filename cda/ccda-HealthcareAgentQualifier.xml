@@ -1,48 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-HealthcareAgentQualifier"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HealthcareAgentQualifier"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.51"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.51"/>
+  <meta>
+    <versionId value="20160712"/>
+    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Healthcare Agent Qualifier</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=2603003">2603003</a>
+              
+              </td>
+              
+              <td>Secondary (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=63161005">63161005</a>
+              
+              </td>
+              
+              <td>Principal (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.51"/>
   <version value="20160712"/>
-  <name value="CCDAHealthcareAgentQualifier"/>
-  <title value="Healthcare Agent Qualifier"/>
-  <date value="2016-07-12"/>
-  <description value="A value set SNOMED-CT qualifier codes for representing principal and secondary."/>
-  <purpose value="Health care agent attribute"/>
+  <name value="Healthcare Agent Qualifier"/>
+  <status value="active"/>
+  <date value="2016-07-12T15:00:02+10:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="Qualifier concepts Primary and Secondary only"/>
-      </extension>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="2603003"/>
+        <display value="Secondary (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="63161005"/>
+        <display value="Principal (qualifier value)"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="only concepts in inclusion criteria"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:af0965f6-6b97-4fa4-9699-332194de8845"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="63161005"/>
-      <display value="Principal (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="2603003"/>
-      <display value="Secondary (qualifier value)"/>
-    </contains>
-  </expansion>
 </ValueSet>

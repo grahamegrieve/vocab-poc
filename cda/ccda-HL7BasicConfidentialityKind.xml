@@ -1,41 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-HL7BasicConfidentialityKind"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HL7BasicConfidentialityKind"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.16926"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.16926"/>
+  <meta>
+    <versionId value="20150310"/>
+    <lastUpdated value="2015-03-10T16:00:02.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>HL7 BasicConfidentialityKind</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/Confidentiality</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>N</td>
+              
+              <td>normal</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>R</td>
+              
+              <td>restricted</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>V</td>
+              
+              <td>very restricted</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.16926"/>
   <version value="20150310"/>
-  <name value="CCDAHL7BasicConfidentialityKind"/>
-  <title value="HL7 BasicConfidentialityKind"/>
-  <date value="2015-03-10"/>
-  <description value="Commonly used confidentiality constraints placed upon clinical documents"/>
-  <expansion>
-    <identifier value="urn:uuid:9e4d304b-bafb-4e4e-b67c-b2b6c1ad1ba2"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="HL7 BasicConfidentialityKind"/>
+  <status value="active"/>
+  <date value="2015-03-10T16:00:02+11:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="N"/>
-      <display value="normal"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="V"/>
-      <display value="very restricted"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-Confidentiality"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="R"/>
-      <display value="restricted"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="N"/>
+        <display value="normal"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="restricted"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="very restricted"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

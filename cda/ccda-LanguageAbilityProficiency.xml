@@ -1,47 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-LanguageAbilityProficiency"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-LanguageAbilityProficiency"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.12199"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.12199"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>LanguageAbilityProficiency</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/LanguageAbilityProficiency</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>E</td>
+              
+              <td>Excellent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>F</td>
+              
+              <td>Fair</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>G</td>
+              
+              <td>Good</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>P</td>
+              
+              <td>Poor</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.12199"/>
   <version value="20150424"/>
-  <name value="CCDALanguageAbilityProficiency"/>
-  <title value="LanguageAbilityProficiency"/>
-  <date value="2015-04-24"/>
-  <description value="A person&#39;s level of proficiency in a language"/>
-  <expansion>
-    <identifier value="urn:uuid:6b48aee9-468e-41ac-9a41-8d62c6ef2e41"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="LanguageAbilityProficiency"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="E"/>
-      <display value="Excellent"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="F"/>
-      <display value="Fair"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="G"/>
-      <display value="Good"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-LanguageAbilityProficiency"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="P"/>
-      <display value="Poor"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="E"/>
+        <display value="Excellent"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Fair"/>
+      </concept>
+      <concept>
+        <code value="G"/>
+        <display value="Good"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="Poor"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

@@ -1,71 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-SmokingStatus"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-SmokingStatus"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.38"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.38"/>
+  <meta>
+    <versionId value="20150819"/>
+    <lastUpdated value="2015-08-19T15:00:03.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Smoking Status</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266919005">266919005</a>
+              
+              </td>
+              
+              <td>Never smoked tobacco (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266927001">266927001</a>
+              
+              </td>
+              
+              <td>Tobacco smoking consumption unknown (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=428041000124106">428041000124106</a>
+              
+              </td>
+              
+              <td>Occasional tobacco smoker (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=428061000124105">428061000124105</a>
+              
+              </td>
+              
+              <td>Light tobacco smoker (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=428071000124103">428071000124103</a>
+              
+              </td>
+              
+              <td>Heavy tobacco smoker (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449868002">449868002</a>
+              
+              </td>
+              
+              <td>Smokes tobacco daily (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=77176002">77176002</a>
+              
+              </td>
+              
+              <td>Smoker (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8517006">8517006</a>
+              
+              </td>
+              
+              <td>Ex-smoker (finding)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.38"/>
   <version value="20150819"/>
-  <name value="CCDASmokingStatus"/>
-  <title value="Smoking Status"/>
-  <date value="2015-08-19"/>
-  <description value="Classification of a patient&#39;s smoking behavior"/>
-  <expansion>
-    <identifier value="urn:uuid:3f7a981b-694a-4484-86f6-f7cf5511611e"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="Smoking Status"/>
+  <status value="active"/>
+  <date value="2015-08-19T15:00:03+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="266919005"/>
-      <display value="Never smoked tobacco (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="266927001"/>
-      <display value="Tobacco smoking consumption unknown (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="77176002"/>
-      <display value="Smoker (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="8517006"/>
-      <display value="Ex-smoker (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="428041000124106"/>
-      <display value="Occasional tobacco smoker (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="428061000124105"/>
-      <display value="Light tobacco smoker (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="428071000124103"/>
-      <display value="Heavy tobacco smoker (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="449868002"/>
-      <display value="Smokes tobacco daily (finding)"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="266919005"/>
+        <display value="Never smoked tobacco (finding)"/>
+      </concept>
+      <concept>
+        <code value="266927001"/>
+        <display value="Tobacco smoking consumption unknown (finding)"/>
+      </concept>
+      <concept>
+        <code value="428041000124106"/>
+        <display value="Occasional tobacco smoker (finding)"/>
+      </concept>
+      <concept>
+        <code value="428061000124105"/>
+        <display value="Light tobacco smoker (finding)"/>
+      </concept>
+      <concept>
+        <code value="428071000124103"/>
+        <display value="Heavy tobacco smoker (finding)"/>
+      </concept>
+      <concept>
+        <code value="449868002"/>
+        <display value="Smokes tobacco daily (finding)"/>
+      </concept>
+      <concept>
+        <code value="77176002"/>
+        <display value="Smoker (finding)"/>
+      </concept>
+      <concept>
+        <code value="8517006"/>
+        <display value="Ex-smoker (finding)"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

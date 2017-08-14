@@ -1,54 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-WoundMeasurements"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-WoundMeasurements"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.20.2.5"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.20.2.5"/>
+  <meta>
+    <versionId value="20160712"/>
+    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Wound Measurements</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://loinc.org">
+            
+            <code>http://loinc.org</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/39125-0.html">39125-0</a>
+              
+              </td>
+              
+              <td>Width of Wound</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/39126-8.html">39126-8</a>
+              
+              </td>
+              
+              <td>Length of Wound</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/39127-6.html">39127-6</a>
+              
+              </td>
+              
+              <td>Depth of Wound</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.5"/>
   <version value="20160712"/>
-  <name value="CCDAWoundMeasurements"/>
-  <title value="Wound Measurements"/>
-  <date value="2016-07-12"/>
-  <description value="Concepts that represent the observables for the dimensions of a wound."/>
-  <purpose value="observable"/>
+  <name value="Wound Measurements"/>
+  <status value="active"/>
+  <date value="2016-07-12T15:00:02+10:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="the selected set"/>
-      </extension>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="39125-0"/>
+        <display value="Width of Wound"/>
+      </concept>
+      <concept>
+        <code value="39126-8"/>
+        <display value="Length of Wound"/>
+      </concept>
+      <concept>
+        <code value="39127-6"/>
+        <display value="Depth of Wound"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="only as selected in inclusion criteria"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:3744eb55-ffbd-45ab-8f1a-227fe4f039c1"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="39126-8"/>
-      <display value="Length of Wound"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="39127-6"/>
-      <display value="Depth of Wound"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="39125-0"/>
-      <display value="Width of Wound"/>
-    </contains>
-  </expansion>
 </ValueSet>

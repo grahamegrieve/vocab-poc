@@ -1,59 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-INDRoleclassCodes"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-INDRoleclassCodes"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.33"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.33"/>
+  <meta>
+    <versionId value="20150310"/>
+    <lastUpdated value="2015-03-10T16:00:02.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>INDRoleclassCodes</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/RoleClass</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>AGNT</td>
+              
+              <td>agent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>CAREGIVER</td>
+              
+              <td>caregiver</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>ECON</td>
+              
+              <td>emergency contact</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>GUAR</td>
+              
+              <td>guarantor</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>NOK</td>
+              
+              <td>next of kin</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PRS</td>
+              
+              <td>personal relationship</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.33"/>
   <version value="20150310"/>
-  <name value="CCDAINDRoleclassCodes"/>
-  <title value="INDRoleclassCodes"/>
-  <date value="2015-03-10"/>
-  <description value="The relationship between a patient and a document participant"/>
-  <expansion>
-    <identifier value="urn:uuid:5efb0a4b-3399-40f1-bef0-e87eb733dc4e"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="INDRoleclassCodes"/>
+  <status value="active"/>
+  <date value="2015-03-10T16:00:02+11:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="ECON"/>
-      <display value="emergency contact"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="NOK"/>
-      <display value="next of kin"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="PRS"/>
-      <display value="personal relationship"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="AGNT"/>
-      <display value="agent"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="CAREGIVER"/>
-      <display value="caregiver"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="GUAR"/>
-      <display value="guarantor"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="AGNT"/>
+        <display value="agent"/>
+      </concept>
+      <concept>
+        <code value="CAREGIVER"/>
+        <display value="caregiver"/>
+      </concept>
+      <concept>
+        <code value="ECON"/>
+        <display value="emergency contact"/>
+      </concept>
+      <concept>
+        <code value="GUAR"/>
+        <display value="guarantor"/>
+      </concept>
+      <concept>
+        <code value="NOK"/>
+        <display value="next of kin"/>
+      </concept>
+      <concept>
+        <code value="PRS"/>
+        <display value="personal relationship"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

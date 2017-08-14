@@ -1,47 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-ProcedureActStatusCode"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ProcedureActStatusCode"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.22"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.22"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>ProcedureActStatusCode</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/ActStatus</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>aborted</td>
+              
+              <td>aborted</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>active</td>
+              
+              <td>active</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>cancelled</td>
+              
+              <td>cancelled</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>completed</td>
+              
+              <td>completed</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.22"/>
   <version value="20150424"/>
-  <name value="CCDAProcedureActStatusCode"/>
-  <title value="ProcedureActStatusCode"/>
-  <date value="2015-04-24"/>
-  <description value="Status of a procedure activity"/>
-  <expansion>
-    <identifier value="urn:uuid:d59afde6-c331-486d-a547-bc6cfd08c4e1"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="ProcedureActStatusCode"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="aborted"/>
-      <display value="aborted"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="active"/>
-      <display value="active"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="cancelled"/>
-      <display value="cancelled"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActStatus"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="completed"/>
-      <display value="completed"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="aborted"/>
+        <display value="aborted"/>
+      </concept>
+      <concept>
+        <code value="active"/>
+        <display value="active"/>
+      </concept>
+      <concept>
+        <code value="cancelled"/>
+        <display value="cancelled"/>
+      </concept>
+      <concept>
+        <code value="completed"/>
+        <display value="completed"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

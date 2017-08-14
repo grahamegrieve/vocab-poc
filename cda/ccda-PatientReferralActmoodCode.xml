@@ -1,48 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-PatientReferralActmoodCode"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-PatientReferralActmoodCode"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.66"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.66"/>
+  <meta>
+    <versionId value="20161104"/>
+    <lastUpdated value="2016-11-04T16:00:02.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Patient Referral Act moodCode</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/ActMood</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>INT</td>
+              
+              <td>intent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>RQO</td>
+              
+              <td>request</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.66"/>
   <version value="20161104"/>
-  <name value="CCDAPatientReferralActmoodCode"/>
-  <title value="Patient Referral Act moodCode"/>
-  <date value="2016-11-04"/>
-  <description value="Contains all the moodCode values it is possible to have for an Patient Referral Act."/>
-  <purpose value="@Moodcode in Patient Referral Act [act: identifier urn:oid:2.16.840.1.113883.10.20.22.4.140 (open)] Static"/>
+  <name value="Patient Referral Act moodCode"/>
+  <status value="active"/>
+  <date value="2016-11-04T16:00:02+11:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="Only two codes allowed"/>
-      </extension>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
+      <concept>
+        <code value="INT"/>
+        <display value="intent"/>
+      </concept>
+      <concept>
+        <code value="RQO"/>
+        <display value="request"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="as specified in inclusion list"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:644b2f93-a907-456b-9c7a-77dc8db20189"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="RQO"/>
-      <display value="request"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActMood"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="INT"/>
-      <display value="intent"/>
-    </contains>
-  </expansion>
 </ValueSet>

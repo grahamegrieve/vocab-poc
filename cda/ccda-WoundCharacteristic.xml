@@ -1,103 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-WoundCharacteristic"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-WoundCharacteristic"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.58"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.58"/>
+  <meta>
+    <versionId value="20160712"/>
+    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Wound Characteristic</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=225917003">225917003</a>
+              
+              </td>
+              
+              <td>Suture line intact (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=239163008">239163008</a>
+              
+              </td>
+              
+              <td>Wound erythema (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=239164002">239164002</a>
+              
+              </td>
+              
+              <td>Wound discharge (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=239165001">239165001</a>
+              
+              </td>
+              
+              <td>Wound granuloma (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=271618001">271618001</a>
+              
+              </td>
+              
+              <td>Impaired wound healing (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=298006005">298006005</a>
+              
+              </td>
+              
+              <td>Wound healed (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=298008006">298008006</a>
+              
+              </td>
+              
+              <td>Wound moist (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=409590008">409590008</a>
+              
+              </td>
+              
+              <td>Skin eschar (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=445916002">445916002</a>
+              
+              </td>
+              
+              <td>Wound odor (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447547000">447547000</a>
+              
+              </td>
+              
+              <td>Offensive wound odor (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449744004">449744004</a>
+              
+              </td>
+              
+              <td>Induration of wound (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=449746002">449746002</a>
+              
+              </td>
+              
+              <td>Wound slough (finding)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.58"/>
   <version value="20160712"/>
-  <name value="CCDAWoundCharacteristic"/>
-  <title value="Wound Characteristic"/>
-  <date value="2016-07-12"/>
-  <description value="Concepts representing general characteristics or types of wounds"/>
-  <purpose value="condition"/>
+  <name value="Wound Characteristic"/>
+  <status value="active"/>
+  <date value="2016-07-12T15:00:02+10:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="&quot;codes primarily selected from codes descending from 225552003 &quot;&quot;Wound finding&quot;&quot;.&quot;"/>
-      </extension>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="225917003"/>
+        <display value="Suture line intact (finding)"/>
+      </concept>
+      <concept>
+        <code value="239163008"/>
+        <display value="Wound erythema (finding)"/>
+      </concept>
+      <concept>
+        <code value="239164002"/>
+        <display value="Wound discharge (finding)"/>
+      </concept>
+      <concept>
+        <code value="239165001"/>
+        <display value="Wound granuloma (finding)"/>
+      </concept>
+      <concept>
+        <code value="271618001"/>
+        <display value="Impaired wound healing (finding)"/>
+      </concept>
+      <concept>
+        <code value="298006005"/>
+        <display value="Wound healed (finding)"/>
+      </concept>
+      <concept>
+        <code value="298008006"/>
+        <display value="Wound moist (finding)"/>
+      </concept>
+      <concept>
+        <code value="409590008"/>
+        <display value="Skin eschar (disorder)"/>
+      </concept>
+      <concept>
+        <code value="445916002"/>
+        <display value="Wound odor (finding)"/>
+      </concept>
+      <concept>
+        <code value="447547000"/>
+        <display value="Offensive wound odor (finding)"/>
+      </concept>
+      <concept>
+        <code value="449744004"/>
+        <display value="Induration of wound (finding)"/>
+      </concept>
+      <concept>
+        <code value="449746002"/>
+        <display value="Wound slough (finding)"/>
+      </concept>
     </include>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:c7c6e5fc-648e-4a3f-b9ad-b491c574b10e"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="225917003"/>
-      <display value="Suture line intact (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="239163008"/>
-      <display value="Wound erythema (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="239164002"/>
-      <display value="Wound discharge (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="239165001"/>
-      <display value="Wound granuloma (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="298006005"/>
-      <display value="Wound healed (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="409590008"/>
-      <display value="Skin eschar (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="449744004"/>
-      <display value="Induration of wound (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="271618001"/>
-      <display value="Impaired wound healing (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="298008006"/>
-      <display value="Wound moist (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="445916002"/>
-      <display value="Wound odor (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="447547000"/>
-      <display value="Offensive wound odor (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="449746002"/>
-      <display value="Wound slough (finding)"/>
-    </contains>
-  </expansion>
 </ValueSet>

@@ -1,120 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-WoundType"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-WoundType"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.20.2.6"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.20.2.6"/>
+  <meta>
+    <versionId value="20160712"/>
+    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Wound Type</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=125643001">125643001</a>
+              
+              </td>
+              
+              <td>Open wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=19429009">19429009</a>
+              
+              </td>
+              
+              <td>Chronic ulcer of skin (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=262557004">262557004</a>
+              
+              </td>
+              
+              <td>Deep wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=283396008">283396008</a>
+              
+              </td>
+              
+              <td>Incised wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=416886008">416886008</a>
+              
+              </td>
+              
+              <td>Closed wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420324007">420324007</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 2 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420597008">420597008</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 4 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421076008">421076008</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 1 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421594008">421594008</a>
+              
+              </td>
+              
+              <td>Nonstageable pressure ulcer (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421927004">421927004</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 3 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=422183001">422183001</a>
+              
+              </td>
+              
+              <td>Skin ulcer associated with diabetes mellitus (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=425144005">425144005</a>
+              
+              </td>
+              
+              <td>Minor open wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=46742003">46742003</a>
+              
+              </td>
+              
+              <td>Skin ulcer (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=95346009">95346009</a>
+              
+              </td>
+              
+              <td>Mucocutaneous ulcer (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.6"/>
   <version value="20160712"/>
-  <name value="CCDAWoundType"/>
-  <title value="Wound Type"/>
-  <date value="2016-07-12"/>
-  <description value="&quot;&quot;&quot;High level&quot;&quot; concepts representing &quot;&quot;wound codes terms&quot;&quot; commonly used in long term care.&quot;"/>
-  <purpose value="condition"/>
+  <name value="Wound Type"/>
+  <status value="active"/>
+  <date value="2016-07-12T15:00:02+10:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="?"/>
-      </extension>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="125643001"/>
+        <display value="Open wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="19429009"/>
+        <display value="Chronic ulcer of skin (disorder)"/>
+      </concept>
+      <concept>
+        <code value="262557004"/>
+        <display value="Deep wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="283396008"/>
+        <display value="Incised wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="416886008"/>
+        <display value="Closed wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="420324007"/>
+        <display value="Pressure ulcer stage 2 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="420597008"/>
+        <display value="Pressure ulcer stage 4 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="421076008"/>
+        <display value="Pressure ulcer stage 1 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="421594008"/>
+        <display value="Nonstageable pressure ulcer (disorder)"/>
+      </concept>
+      <concept>
+        <code value="421927004"/>
+        <display value="Pressure ulcer stage 3 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="422183001"/>
+        <display value="Skin ulcer associated with diabetes mellitus (disorder)"/>
+      </concept>
+      <concept>
+        <code value="425144005"/>
+        <display value="Minor open wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="46742003"/>
+        <display value="Skin ulcer (disorder)"/>
+      </concept>
+      <concept>
+        <code value="95346009"/>
+        <display value="Mucocutaneous ulcer (disorder)"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="?"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:3cb08360-fbab-46e0-804c-70d99ca6f219"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="125643001"/>
-      <display value="Open wound (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="19429009"/>
-      <display value="Chronic ulcer of skin (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="262557004"/>
-      <display value="Deep wound (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="416886008"/>
-      <display value="Closed wound (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="420324007"/>
-      <display value="Pressure ulcer stage 2 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="420597008"/>
-      <display value="Pressure ulcer stage 4 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="421076008"/>
-      <display value="Pressure ulcer stage 1 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="421594008"/>
-      <display value="Nonstageable pressure ulcer (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="421927004"/>
-      <display value="Pressure ulcer stage 3 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="422183001"/>
-      <display value="Skin ulcer associated with diabetes mellitus (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="283396008"/>
-      <display value="Incised wound (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="425144005"/>
-      <display value="Minor open wound (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="46742003"/>
-      <display value="Skin ulcer (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="95346009"/>
-      <display value="Mucocutaneous ulcer (disorder)"/>
-    </contains>
-  </expansion>
 </ValueSet>

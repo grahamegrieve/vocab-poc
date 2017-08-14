@@ -1,48 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-RelatedDocumentappendreplace"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-RelatedDocumentappendreplace"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.62"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.62"/>
+  <meta>
+    <versionId value="20170426"/>
+    <lastUpdated value="2017-04-26T15:00:03.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Related Document (append/replace)</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/ActRelationshipType</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>APND</td>
+              
+              <td>is appendage</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>RPLC</td>
+              
+              <td>replaces</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.62"/>
   <version value="20170426"/>
-  <name value="CCDARelatedDocumentappendreplace"/>
-  <title value="Related Document (append/replace)"/>
-  <date value="2017-04-26"/>
-  <description value="Describes the relationship of a new document to the parent document"/>
-  <purpose value="C-CDA r2.1 CarePlan template relatedDocument Typecode CONF:1198-31889"/>
+  <name value="Related Document (append/replace)"/>
+  <status value="active"/>
+  <date value="2017-04-26T15:00:03+10:00"/>
+  <publisher value="HL7 Terminology"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="two selected concepts only"/>
-      </extension>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
+      <concept>
+        <code value="APND"/>
+        <display value="is appendage"/>
+      </concept>
+      <concept>
+        <code value="RPLC"/>
+        <display value="replaces"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="as noted"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:dd35ecdc-cea9-420c-b2f9-4ee65ac6b073"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="APND"/>
-      <display value="is appendage"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="RPLC"/>
-      <display value="replaces"/>
-    </contains>
-  </expansion>
 </ValueSet>

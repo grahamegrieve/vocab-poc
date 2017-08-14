@@ -1,83 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-SurgicalOperationNoteDocumentTypeCode"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-SurgicalOperationNoteDocumentTypeCode"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.1.1"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.1.1"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>SurgicalOperationNoteDocumentTypeCode</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://loinc.org">
+            
+            <code>http://loinc.org</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/11504-8.html">11504-8</a>
+              
+              </td>
+              
+              <td>Provider-unspecified Operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28573-4.html">28573-4</a>
+              
+              </td>
+              
+              <td>Physician, Operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28583-3.html">28583-3</a>
+              
+              </td>
+              
+              <td>Dentist Operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28624-5.html">28624-5</a>
+              
+              </td>
+              
+              <td>Podiatry Operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34137-0.html">34137-0</a>
+              
+              </td>
+              
+              <td>Outpatient Surgical operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34818-5.html">34818-5</a>
+              
+              </td>
+              
+              <td>Otolaryngology Surgical operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34868-0.html">34868-0</a>
+              
+              </td>
+              
+              <td>Orthopaedic surgery Surgical operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34870-6.html">34870-6</a>
+              
+              </td>
+              
+              <td>Plastic surgery Surgical operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34874-8.html">34874-8</a>
+              
+              </td>
+              
+              <td>Surgery Surgical operation note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34877-1.html">34877-1</a>
+              
+              </td>
+              
+              <td>Urology Surgical operation note</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.1.1"/>
   <version value="20150424"/>
-  <name value="CCDASurgicalOperationNoteDocumentTypeCode"/>
-  <title value="SurgicalOperationNoteDocumentTypeCode"/>
-  <date value="2015-04-24"/>
-  <description value="Surgical operation note kind classified by author specialization"/>
-  <expansion>
-    <identifier value="urn:uuid:368cc38a-58f3-4cf0-9554-ff9a97c77f06"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="SurgicalOperationNoteDocumentTypeCode"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="11504-8"/>
-      <display value="Surgical operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28573-4"/>
-      <display value="Physician, Operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34818-5"/>
-      <display value="Otolaryngology Surgical operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28583-3"/>
-      <display value="Dentist Operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28624-5"/>
-      <display value="Podiatry Operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34137-0"/>
-      <display value="Outpatient Surgical operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34868-0"/>
-      <display value="Orthopaedic surgery Surgical operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34870-6"/>
-      <display value="Plastic surgery Surgical operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34874-8"/>
-      <display value="Surgery Surgical operation note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34877-1"/>
-      <display value="Urology Surgical operation note"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="11504-8"/>
+        <display value="Provider-unspecified Operation note"/>
+      </concept>
+      <concept>
+        <code value="28573-4"/>
+        <display value="Physician, Operation note"/>
+      </concept>
+      <concept>
+        <code value="28583-3"/>
+        <display value="Dentist Operation note"/>
+      </concept>
+      <concept>
+        <code value="28624-5"/>
+        <display value="Podiatry Operation note"/>
+      </concept>
+      <concept>
+        <code value="34137-0"/>
+        <display value="Outpatient Surgical operation note"/>
+      </concept>
+      <concept>
+        <code value="34818-5"/>
+        <display value="Otolaryngology Surgical operation note"/>
+      </concept>
+      <concept>
+        <code value="34868-0"/>
+        <display value="Orthopaedic surgery Surgical operation note"/>
+      </concept>
+      <concept>
+        <code value="34870-6"/>
+        <display value="Plastic surgery Surgical operation note"/>
+      </concept>
+      <concept>
+        <code value="34874-8"/>
+        <display value="Surgery Surgical operation note"/>
+      </concept>
+      <concept>
+        <code value="34877-1"/>
+        <display value="Urology Surgical operation note"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

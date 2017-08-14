@@ -1,101 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-EntityNameUse"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-EntityNameUse"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.15913"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.15913"/>
+  <meta>
+    <versionId value="20150310"/>
+    <lastUpdated value="2015-03-10T16:00:02.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>EntityNameUse</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/EntityNameUse</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>A</td>
+              
+              <td>Artist/Stage</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>ABC</td>
+              
+              <td>Alphabetic</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>ASGN</td>
+              
+              <td>assigned</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>C</td>
+              
+              <td>License</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>I</td>
+              
+              <td>Indigenous/Tribal</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>IDE</td>
+              
+              <td>Ideographic</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>L</td>
+              
+              <td>Legal</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>P</td>
+              
+              <td>pseudonym</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PHON</td>
+              
+              <td>phonetic</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>R</td>
+              
+              <td>Religious</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>SNDX</td>
+              
+              <td>Soundex</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>SRCH</td>
+              
+              <td>search</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>SYL</td>
+              
+              <td>Syllabic</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.15913"/>
   <version value="20150310"/>
-  <name value="CCDAEntityNameUse"/>
-  <title value="EntityNameUse"/>
-  <date value="2015-03-10"/>
-  <description value="The purpose for which a name is assigned to an entity"/>
-  <expansion>
-    <identifier value="urn:uuid:c4fdc7ed-f802-4600-b354-881668d54560"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="EntityNameUse"/>
+  <status value="active"/>
+  <date value="2015-03-10T16:00:02+11:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="A"/>
-      <display value="Artist/Stage"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="R"/>
-      <display value="Religious"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="SNDX"/>
-      <display value="Soundex"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="SRCH"/>
-      <display value="search"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="SYL"/>
-      <display value="Syllabic"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="ABC"/>
-      <display value="Alphabetic"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="ASGN"/>
-      <display value="assigned"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="C"/>
-      <display value="License"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="I"/>
-      <display value="Indigenous/Tribal"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="IDE"/>
-      <display value="Ideographic"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="L"/>
-      <display value="Legal"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="P"/>
-      <display value="pseudonym"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityNameUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="PHON"/>
-      <display value="phonetic"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="A"/>
+        <display value="Artist/Stage"/>
+      </concept>
+      <concept>
+        <code value="ABC"/>
+        <display value="Alphabetic"/>
+      </concept>
+      <concept>
+        <code value="ASGN"/>
+        <display value="assigned"/>
+      </concept>
+      <concept>
+        <code value="C"/>
+        <display value="License"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Indigenous/Tribal"/>
+      </concept>
+      <concept>
+        <code value="IDE"/>
+        <display value="Ideographic"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Legal"/>
+      </concept>
+      <concept>
+        <code value="P"/>
+        <display value="pseudonym"/>
+      </concept>
+      <concept>
+        <code value="PHON"/>
+        <display value="phonetic"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Religious"/>
+      </concept>
+      <concept>
+        <code value="SNDX"/>
+        <display value="Soundex"/>
+      </concept>
+      <concept>
+        <code value="SRCH"/>
+        <display value="search"/>
+      </concept>
+      <concept>
+        <code value="SYL"/>
+        <display value="Syllabic"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

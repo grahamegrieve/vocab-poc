@@ -1,72 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-ADLResultType"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ADLResultType"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.47"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.47"/>
+  <meta>
+    <versionId value="20161130"/>
+    <lastUpdated value="2016-11-30T17:00:02.000+11:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>ADL Result Type</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://loinc.org">
+            
+            <code>http://loinc.org</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28408-3.html">28408-3</a>
+              
+              </td>
+              
+              <td>Toileting [QAM]</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28409-1.html">28409-1</a>
+              
+              </td>
+              
+              <td>Dressing [QAM]</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28413-3.html">28413-3</a>
+              
+              </td>
+              
+              <td>Ambulation [QAM]</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/46008-9.html">46008-9</a>
+              
+              </td>
+              
+              <td>Bathing</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/46482-6.html">46482-6</a>
+              
+              </td>
+              
+              <td>Transferring</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/46484-2.html">46484-2</a>
+              
+              </td>
+              
+              <td>Feeding or eating</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.47"/>
   <version value="20161130"/>
-  <name value="CCDAADLResultType"/>
-  <title value="ADL Result Type"/>
-  <date value="2016-11-30"/>
-  <description value="This value set includes Basic ADL and IADL activities."/>
-  <purpose value="@Code in Self-Care Activities (ADL and IADL) observation: identifier urn:oid:2.16.840.1.113883.10.20.22.4.128 (open)"/>
+  <name value="ADL Result Type"/>
+  <status value="active"/>
+  <date value="2016-11-30T17:00:02+11:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="Selected LOINC codes"/>
-      </extension>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="28408-3"/>
+        <display value="Toileting [QAM]"/>
+      </concept>
+      <concept>
+        <code value="28409-1"/>
+        <display value="Dressing [QAM]"/>
+      </concept>
+      <concept>
+        <code value="28413-3"/>
+        <display value="Ambulation [QAM]"/>
+      </concept>
+      <concept>
+        <code value="46008-9"/>
+        <display value="Bathing"/>
+      </concept>
+      <concept>
+        <code value="46482-6"/>
+        <display value="Transferring"/>
+      </concept>
+      <concept>
+        <code value="46484-2"/>
+        <display value="Feeding or eating"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="only those selected"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:eeff142b-3d7e-41a8-b7b5-4854c3ac7b9f"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28409-1"/>
-      <display value="Dressing [QAM]"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="46008-9"/>
-      <display value="Bathing [Minimum Data Set]"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="46482-6"/>
-      <display value="Transferring [OASIS]"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28408-3"/>
-      <display value="Toileting [QAM]"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28413-3"/>
-      <display value="Ambulation [QAM]"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="46484-2"/>
-      <display value="Feeding or eating [OASIS]"/>
-    </contains>
-  </expansion>
 </ValueSet>

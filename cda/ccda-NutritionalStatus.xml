@@ -1,132 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-NutritionalStatus"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-NutritionalStatus"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.20.2.7"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.20.2.7"/>
+  <meta>
+    <versionId value="20160715"/>
+    <lastUpdated value="2016-07-15T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Nutritional Status</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=107647005">107647005</a>
+              
+              </td>
+              
+              <td>Weight finding (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=162020001">162020001</a>
+              
+              </td>
+              
+              <td>Difficulty chewing (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248324001">248324001</a>
+              
+              </td>
+              
+              <td>Well nourished (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248325000">248325000</a>
+              
+              </td>
+              
+              <td>Undernourished (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248342006">248342006</a>
+              
+              </td>
+              
+              <td>Underweight (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=284670008">284670008</a>
+              
+              </td>
+              
+              <td>Nutritionally compromised (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=288939007">288939007</a>
+              
+              </td>
+              
+              <td>Difficulty swallowing (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371597004">371597004</a>
+              
+              </td>
+              
+              <td>Emaciated (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414285001">414285001</a>
+              
+              </td>
+              
+              <td>Food allergy (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414915002">414915002</a>
+              
+              </td>
+              
+              <td>Obese (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=415510005">415510005</a>
+              
+              </td>
+              
+              <td>Sedentary lifestyle (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443732006">443732006</a>
+              
+              </td>
+              
+              <td>Dissatisfaction with body image (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444862003">444862003</a>
+              
+              </td>
+              
+              <td>Childhood obesity (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=61578001">61578001</a>
+              
+              </td>
+              
+              <td>Abnormal digestive tract function (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=75051000">75051000</a>
+              
+              </td>
+              
+              <td>Food intolerance (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=95907004">95907004</a>
+              
+              </td>
+              
+              <td>Drug interaction with food (finding)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.7"/>
   <version value="20160715"/>
-  <name value="CCDANutritionalStatus"/>
-  <title value="Nutritional Status"/>
-  <date value="2016-07-15"/>
-  <description value="A Value Set of SNOMED-CT codes representing nutrition problems."/>
-  <purpose value="Condition"/>
+  <name value="Nutritional Status"/>
+  <status value="active"/>
+  <date value="2016-07-15T15:00:02+10:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="?"/>
-      </extension>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="107647005"/>
+        <display value="Weight finding (finding)"/>
+      </concept>
+      <concept>
+        <code value="162020001"/>
+        <display value="Difficulty chewing (finding)"/>
+      </concept>
+      <concept>
+        <code value="248324001"/>
+        <display value="Well nourished (finding)"/>
+      </concept>
+      <concept>
+        <code value="248325000"/>
+        <display value="Undernourished (finding)"/>
+      </concept>
+      <concept>
+        <code value="248342006"/>
+        <display value="Underweight (finding)"/>
+      </concept>
+      <concept>
+        <code value="284670008"/>
+        <display value="Nutritionally compromised (finding)"/>
+      </concept>
+      <concept>
+        <code value="288939007"/>
+        <display value="Difficulty swallowing (finding)"/>
+      </concept>
+      <concept>
+        <code value="371597004"/>
+        <display value="Emaciated (finding)"/>
+      </concept>
+      <concept>
+        <code value="414285001"/>
+        <display value="Food allergy (disorder)"/>
+      </concept>
+      <concept>
+        <code value="414915002"/>
+        <display value="Obese (finding)"/>
+      </concept>
+      <concept>
+        <code value="415510005"/>
+        <display value="Sedentary lifestyle (finding)"/>
+      </concept>
+      <concept>
+        <code value="443732006"/>
+        <display value="Dissatisfaction with body image (finding)"/>
+      </concept>
+      <concept>
+        <code value="444862003"/>
+        <display value="Childhood obesity (disorder)"/>
+      </concept>
+      <concept>
+        <code value="61578001"/>
+        <display value="Abnormal digestive tract function (finding)"/>
+      </concept>
+      <concept>
+        <code value="75051000"/>
+        <display value="Food intolerance (finding)"/>
+      </concept>
+      <concept>
+        <code value="95907004"/>
+        <display value="Drug interaction with food (finding)"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="?"/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:5d4c4e8a-79ad-466f-b601-b99d3f6071af"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="248324001"/>
-      <display value="Well nourished (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="248342006"/>
-      <display value="Underweight (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="414285001"/>
-      <display value="Food allergy (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="415510005"/>
-      <display value="Sedentary lifestyle (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="443732006"/>
-      <display value="Dissatisfaction with body image (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="61578001"/>
-      <display value="Abnormal digestive tract function (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="75051000"/>
-      <display value="Food intolerance (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="107647005"/>
-      <display value="Weight finding (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="162020001"/>
-      <display value="Difficulty chewing (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="248325000"/>
-      <display value="Undernourished (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="284670008"/>
-      <display value="Nutritionally compromised (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="288939007"/>
-      <display value="Difficulty swallowing (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371597004"/>
-      <display value="Emaciated (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="414915002"/>
-      <display value="Obese (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="444862003"/>
-      <display value="Childhood obesity (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="95907004"/>
-      <display value="Drug interaction with food (finding)"/>
-    </contains>
-  </expansion>
 </ValueSet>

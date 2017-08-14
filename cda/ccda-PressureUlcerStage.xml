@@ -1,53 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-PressureUlcerStage"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-PressureUlcerStage"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.35"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.35"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Pressure Ulcer Stage</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420324007">420324007</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 2 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420597008">420597008</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 4 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421076008">421076008</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 1 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421594008">421594008</a>
+              
+              </td>
+              
+              <td>Nonstageable pressure ulcer (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421927004">421927004</a>
+              
+              </td>
+              
+              <td>Pressure ulcer stage 3 (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.35"/>
   <version value="20150424"/>
-  <name value="CCDAPressureUlcerStage"/>
-  <title value="Pressure Ulcer Stage"/>
-  <date value="2015-04-24"/>
-  <description value="Developmental classification of pressure ulcers"/>
-  <expansion>
-    <identifier value="urn:uuid:3867667c-2a86-4e1e-87c9-5d2e008e65e2"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="Pressure Ulcer Stage"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="420324007"/>
-      <display value="Pressure ulcer stage 2 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="420597008"/>
-      <display value="Pressure ulcer stage 4 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="421594008"/>
-      <display value="Nonstageable pressure ulcer (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="421927004"/>
-      <display value="Pressure ulcer stage 3 (disorder)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="421076008"/>
-      <display value="Pressure ulcer stage 1 (disorder)"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="420324007"/>
+        <display value="Pressure ulcer stage 2 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="420597008"/>
+        <display value="Pressure ulcer stage 4 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="421076008"/>
+        <display value="Pressure ulcer stage 1 (disorder)"/>
+      </concept>
+      <concept>
+        <code value="421594008"/>
+        <display value="Nonstageable pressure ulcer (disorder)"/>
+      </concept>
+      <concept>
+        <code value="421927004"/>
+        <display value="Pressure ulcer stage 3 (disorder)"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

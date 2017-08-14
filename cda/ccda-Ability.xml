@@ -1,84 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-Ability"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-Ability"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.46"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.46"/>
+  <meta>
+    <versionId value="20160712"/>
+    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Ability</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371150009">371150009</a>
+              
+              </td>
+              
+              <td>Able (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371151008">371151008</a>
+              
+              </td>
+              
+              <td>Unable (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371152001">371152001</a>
+              
+              </td>
+              
+              <td>Assisted (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371153006">371153006</a>
+              
+              </td>
+              
+              <td>Independently able (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371154000">371154000</a>
+              
+              </td>
+              
+              <td>Dependent (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371155004">371155004</a>
+              
+              </td>
+              
+              <td>Able to and does (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371156003">371156003</a>
+              
+              </td>
+              
+              <td>Does not, dependent (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371157007">371157007</a>
+              
+              </td>
+              
+              <td>Has difficulty doing (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385640009">385640009</a>
+              
+              </td>
+              
+              <td>Does (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.46"/>
   <version value="20160712"/>
-  <name value="CCDAAbility"/>
-  <title value="Ability"/>
-  <date value="2016-07-12"/>
-  <description value="A value set containing SNOMED-CT codes for level of dependence."/>
-  <purpose value="qualifier that describes current level of function for a functional ability"/>
+  <name value="Ability"/>
+  <status value="active"/>
+  <date value="2016-07-12T15:00:02+10:00"/>
+  <publisher value="MD Partners Steward"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="Direct Children of SCT Interpretation value (qualifier value) [442499005], plus selected other concepts that are further descendants of these children concepts."/>
-      </extension>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="371150009"/>
+        <display value="Able (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371151008"/>
+        <display value="Unable (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371152001"/>
+        <display value="Assisted (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371153006"/>
+        <display value="Independently able (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371154000"/>
+        <display value="Dependent (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371155004"/>
+        <display value="Able to and does (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371156003"/>
+        <display value="Does not, dependent (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="371157007"/>
+        <display value="Has difficulty doing (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="385640009"/>
+        <display value="Does (qualifier value)"/>
+      </concept>
     </include>
-    <exclude>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="Concepts in the Interpretation value (qualifier value) [442499005] hierarchy deemed not of use."/>
-      </extension>
-    </exclude>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:12104e28-26c3-47e6-9ab8-44d643ccd84d"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371151008"/>
-      <display value="Unable (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371152001"/>
-      <display value="Assisted (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371157007"/>
-      <display value="Able with difficulty (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371150009"/>
-      <display value="Able (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371153006"/>
-      <display value="Independent (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371154000"/>
-      <display value="Dependent (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="371155004"/>
-      <display value="Able to and does (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="385640009"/>
-      <display value="Does (qualifier value)"/>
-    </contains>
-  </expansion>
 </ValueSet>

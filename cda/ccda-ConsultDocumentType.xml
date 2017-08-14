@@ -1,329 +1,1036 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-ConsultDocumentType"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-ConsultDocumentType"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.31"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.31"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>ConsultDocumentType</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://loinc.org">
+            
+            <code>http://loinc.org</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/11488-4.html">11488-4</a>
+              
+              </td>
+              
+              <td>Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34099-2.html">34099-2</a>
+              
+              </td>
+              
+              <td>Cardiology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34100-8.html">34100-8</a>
+              
+              </td>
+              
+              <td>Intensive care unit Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34101-6.html">34101-6</a>
+              
+              </td>
+              
+              <td>General medicine Outpatient Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34102-4.html">34102-4</a>
+              
+              </td>
+              
+              <td>Psychiatry Hospital Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34103-2.html">34103-2</a>
+              
+              </td>
+              
+              <td>Pulmonary Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34104-0.html">34104-0</a>
+              
+              </td>
+              
+              <td>Hospital Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34749-2.html">34749-2</a>
+              
+              </td>
+              
+              <td>Anesthesiology Outpatient Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34756-7.html">34756-7</a>
+              
+              </td>
+              
+              <td>Dentistry Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34758-3.html">34758-3</a>
+              
+              </td>
+              
+              <td>Dermatology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34760-9.html">34760-9</a>
+              
+              </td>
+              
+              <td>Diabetology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34761-7.html">34761-7</a>
+              
+              </td>
+              
+              <td>Gastroenterology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34764-1.html">34764-1</a>
+              
+              </td>
+              
+              <td>General medicine Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34771-6.html">34771-6</a>
+              
+              </td>
+              
+              <td>Deprecated General surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34776-5.html">34776-5</a>
+              
+              </td>
+              
+              <td>Geriatric medicine Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34777-3.html">34777-3</a>
+              
+              </td>
+              
+              <td>Obstetrics and Gynecology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34779-9.html">34779-9</a>
+              
+              </td>
+              
+              <td>Hematology+Medical Oncology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34781-5.html">34781-5</a>
+              
+              </td>
+              
+              <td>Infectious disease Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34783-1.html">34783-1</a>
+              
+              </td>
+              
+              <td>Kinesiotherapy Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34785-6.html">34785-6</a>
+              
+              </td>
+              
+              <td>Mental health Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34788-0.html">34788-0</a>
+              
+              </td>
+              
+              <td>Psychiatry Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34791-4.html">34791-4</a>
+              
+              </td>
+              
+              <td>Psychology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34795-5.html">34795-5</a>
+              
+              </td>
+              
+              <td>Nephrology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34797-1.html">34797-1</a>
+              
+              </td>
+              
+              <td>Neurology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34798-9.html">34798-9</a>
+              
+              </td>
+              
+              <td>Neurological surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34800-3.html">34800-3</a>
+              
+              </td>
+              
+              <td>Nutrition and dietetics Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34803-7.html">34803-7</a>
+              
+              </td>
+              
+              <td>Occupational medicine Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34805-2.html">34805-2</a>
+              
+              </td>
+              
+              <td>Oncology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34807-8.html">34807-8</a>
+              
+              </td>
+              
+              <td>Ophthalmology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34810-2.html">34810-2</a>
+              
+              </td>
+              
+              <td>Optometry Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34812-8.html">34812-8</a>
+              
+              </td>
+              
+              <td>Oral and Maxillofacial Surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34814-4.html">34814-4</a>
+              
+              </td>
+              
+              <td>Orthopaedic surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34816-9.html">34816-9</a>
+              
+              </td>
+              
+              <td>Otolaryngology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34820-1.html">34820-1</a>
+              
+              </td>
+              
+              <td>Pharmacy Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34822-7.html">34822-7</a>
+              
+              </td>
+              
+              <td>Physical medicine and rehabilitation Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34824-3.html">34824-3</a>
+              
+              </td>
+              
+              <td>Physical therapy Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34826-8.html">34826-8</a>
+              
+              </td>
+              
+              <td>Plastic surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34828-4.html">34828-4</a>
+              
+              </td>
+              
+              <td>Podiatry Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34831-8.html">34831-8</a>
+              
+              </td>
+              
+              <td>Radiation oncology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34833-4.html">34833-4</a>
+              
+              </td>
+              
+              <td>Recreational therapy Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34835-9.html">34835-9</a>
+              
+              </td>
+              
+              <td>Deprecated Rehabilitation Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34837-5.html">34837-5</a>
+              
+              </td>
+              
+              <td>Respiratory therapy Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34839-1.html">34839-1</a>
+              
+              </td>
+              
+              <td>Rheumatology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34841-7.html">34841-7</a>
+              
+              </td>
+              
+              <td>Social work Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34845-8.html">34845-8</a>
+              
+              </td>
+              
+              <td>Speech-language pathology+Audiology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34847-4.html">34847-4</a>
+              
+              </td>
+              
+              <td>Surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34849-0.html">34849-0</a>
+              
+              </td>
+              
+              <td>Thoracic surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34851-6.html">34851-6</a>
+              
+              </td>
+              
+              <td>Urology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34853-2.html">34853-2</a>
+              
+              </td>
+              
+              <td>Vascular surgery Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34855-7.html">34855-7</a>
+              
+              </td>
+              
+              <td>Occupational therapy Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34879-7.html">34879-7</a>
+              
+              </td>
+              
+              <td>Endocrinology Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/51845-6.html">51845-6</a>
+              
+              </td>
+              
+              <td>Outpatient Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/51846-4.html">51846-4</a>
+              
+              </td>
+              
+              <td>Emergency department Consult note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/51853-0.html">51853-0</a>
+              
+              </td>
+              
+              <td>Deprecated Inpatient hospital Consult note</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.31"/>
   <version value="20150424"/>
-  <name value="CCDAConsultDocumentType"/>
-  <title value="ConsultDocumentType"/>
-  <date value="2015-04-24"/>
-  <description value="A classification of a document by the author&#39;s specialty, role, setting, or some combination of these properties"/>
-  <expansion>
-    <identifier value="urn:uuid:6a1c76df-9098-42bd-8612-0e82ce79cbcf"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="ConsultDocumentType"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34099-2"/>
-      <display value="Cardiology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34100-8"/>
-      <display value="Intensive care unit Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34101-6"/>
-      <display value="General medicine Outpatient Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34102-4"/>
-      <display value="Psychiatry Hospital Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34103-2"/>
-      <display value="Pulmonary Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34749-2"/>
-      <display value="Anesthesiology Outpatient Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34760-9"/>
-      <display value="Diabetology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34761-7"/>
-      <display value="Gastroenterology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34764-1"/>
-      <display value="General medicine Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34776-5"/>
-      <display value="Geriatric medicine Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34777-3"/>
-      <display value="Obstetrics and Gynecology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34779-9"/>
-      <display value="Hematology+Medical oncology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34781-5"/>
-      <display value="Infectious disease Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34791-4"/>
-      <display value="Psychology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34800-3"/>
-      <display value="Nutrition and dietetics Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34807-8"/>
-      <display value="Ophthalmology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34814-4"/>
-      <display value="Orthopaedic surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34820-1"/>
-      <display value="Pharmacology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34826-8"/>
-      <display value="Plastic surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34831-8"/>
-      <display value="Radiation oncology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34837-5"/>
-      <display value="Respiratory therapy Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34849-0"/>
-      <display value="Cardiothoracic surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34853-2"/>
-      <display value="Vascular surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34855-7"/>
-      <display value="Occupational therapy Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="11488-4"/>
-      <display value="Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34104-0"/>
-      <display value="Hospital Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34756-7"/>
-      <display value="Dentistry Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34758-3"/>
-      <display value="Dermatology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34783-1"/>
-      <display value="Kinesiotherapy Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34785-6"/>
-      <display value="Mental health Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34788-0"/>
-      <display value="Psychiatry Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34795-5"/>
-      <display value="Nephrology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34797-1"/>
-      <display value="Neurology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34798-9"/>
-      <display value="Neurological surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34803-7"/>
-      <display value="Occupational medicine Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34805-2"/>
-      <display value="Oncology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34810-2"/>
-      <display value="Optometry Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34812-8"/>
-      <display value="Oral and Maxillofacial Surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34816-9"/>
-      <display value="Otolaryngology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34822-7"/>
-      <display value="Physical medicine and rehab Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34824-3"/>
-      <display value="Physical therapy Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34828-4"/>
-      <display value="Podiatry Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34833-4"/>
-      <display value="Recreational therapy Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34839-1"/>
-      <display value="Rheumatology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34841-7"/>
-      <display value="Social work Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34845-8"/>
-      <display value="Speech-language pathology+Audiology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34847-4"/>
-      <display value="Surgery Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34851-6"/>
-      <display value="Urology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34879-7"/>
-      <display value="Endocrinology Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="51845-6"/>
-      <display value="Outpatient Consult note"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="51846-4"/>
-      <display value="Emergency department Consult note"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="11488-4"/>
+        <display value="Consult note"/>
+      </concept>
+      <concept>
+        <code value="34099-2"/>
+        <display value="Cardiology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34100-8"/>
+        <display value="Intensive care unit Consult note"/>
+      </concept>
+      <concept>
+        <code value="34101-6"/>
+        <display value="General medicine Outpatient Consult note"/>
+      </concept>
+      <concept>
+        <code value="34102-4"/>
+        <display value="Psychiatry Hospital Consult note"/>
+      </concept>
+      <concept>
+        <code value="34103-2"/>
+        <display value="Pulmonary Consult note"/>
+      </concept>
+      <concept>
+        <code value="34104-0"/>
+        <display value="Hospital Consult note"/>
+      </concept>
+      <concept>
+        <code value="34749-2"/>
+        <display value="Anesthesiology Outpatient Consult note"/>
+      </concept>
+      <concept>
+        <code value="34756-7"/>
+        <display value="Dentistry Consult note"/>
+      </concept>
+      <concept>
+        <code value="34758-3"/>
+        <display value="Dermatology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34760-9"/>
+        <display value="Diabetology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34761-7"/>
+        <display value="Gastroenterology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34764-1"/>
+        <display value="General medicine Consult note"/>
+      </concept>
+      <concept>
+        <code value="34771-6"/>
+        <display value="Deprecated General surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34776-5"/>
+        <display value="Geriatric medicine Consult note"/>
+      </concept>
+      <concept>
+        <code value="34777-3"/>
+        <display value="Obstetrics and Gynecology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34779-9"/>
+        <display value="Hematology+Medical Oncology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34781-5"/>
+        <display value="Infectious disease Consult note"/>
+      </concept>
+      <concept>
+        <code value="34783-1"/>
+        <display value="Kinesiotherapy Consult note"/>
+      </concept>
+      <concept>
+        <code value="34785-6"/>
+        <display value="Mental health Consult note"/>
+      </concept>
+      <concept>
+        <code value="34788-0"/>
+        <display value="Psychiatry Consult note"/>
+      </concept>
+      <concept>
+        <code value="34791-4"/>
+        <display value="Psychology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34795-5"/>
+        <display value="Nephrology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34797-1"/>
+        <display value="Neurology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34798-9"/>
+        <display value="Neurological surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34800-3"/>
+        <display value="Nutrition and dietetics Consult note"/>
+      </concept>
+      <concept>
+        <code value="34803-7"/>
+        <display value="Occupational medicine Consult note"/>
+      </concept>
+      <concept>
+        <code value="34805-2"/>
+        <display value="Oncology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34807-8"/>
+        <display value="Ophthalmology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34810-2"/>
+        <display value="Optometry Consult note"/>
+      </concept>
+      <concept>
+        <code value="34812-8"/>
+        <display value="Oral and Maxillofacial Surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34814-4"/>
+        <display value="Orthopaedic surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34816-9"/>
+        <display value="Otolaryngology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34820-1"/>
+        <display value="Pharmacy Consult note"/>
+      </concept>
+      <concept>
+        <code value="34822-7"/>
+        <display value="Physical medicine and rehabilitation Consult note"/>
+      </concept>
+      <concept>
+        <code value="34824-3"/>
+        <display value="Physical therapy Consult note"/>
+      </concept>
+      <concept>
+        <code value="34826-8"/>
+        <display value="Plastic surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34828-4"/>
+        <display value="Podiatry Consult note"/>
+      </concept>
+      <concept>
+        <code value="34831-8"/>
+        <display value="Radiation oncology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34833-4"/>
+        <display value="Recreational therapy Consult note"/>
+      </concept>
+      <concept>
+        <code value="34835-9"/>
+        <display value="Deprecated Rehabilitation Consult note"/>
+      </concept>
+      <concept>
+        <code value="34837-5"/>
+        <display value="Respiratory therapy Consult note"/>
+      </concept>
+      <concept>
+        <code value="34839-1"/>
+        <display value="Rheumatology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34841-7"/>
+        <display value="Social work Consult note"/>
+      </concept>
+      <concept>
+        <code value="34845-8"/>
+        <display value="Speech-language pathology+Audiology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34847-4"/>
+        <display value="Surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34849-0"/>
+        <display value="Thoracic surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34851-6"/>
+        <display value="Urology Consult note"/>
+      </concept>
+      <concept>
+        <code value="34853-2"/>
+        <display value="Vascular surgery Consult note"/>
+      </concept>
+      <concept>
+        <code value="34855-7"/>
+        <display value="Occupational therapy Consult note"/>
+      </concept>
+      <concept>
+        <code value="34879-7"/>
+        <display value="Endocrinology Consult note"/>
+      </concept>
+      <concept>
+        <code value="51845-6"/>
+        <display value="Outpatient Consult note"/>
+      </concept>
+      <concept>
+        <code value="51846-4"/>
+        <display value="Emergency department Consult note"/>
+      </concept>
+      <concept>
+        <code value="51853-0"/>
+        <display value="Deprecated Inpatient hospital Consult note"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

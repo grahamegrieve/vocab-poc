@@ -1,65 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-DischargeSummaryDocumentTypeCode"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-DischargeSummaryDocumentTypeCode"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.4.1"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.4.1"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>DischargeSummaryDocumentTypeCode</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://loinc.org">
+            
+            <code>http://loinc.org</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/11490-0.html">11490-0</a>
+              
+              </td>
+              
+              <td>Physician Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/18842-5.html">18842-5</a>
+              
+              </td>
+              
+              <td>Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/28655-9.html">28655-9</a>
+              
+              </td>
+              
+              <td>Physician attending Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/29761-4.html">29761-4</a>
+              
+              </td>
+              
+              <td>Dentist Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34105-7.html">34105-7</a>
+              
+              </td>
+              
+              <td>Hospital Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34106-5.html">34106-5</a>
+              
+              </td>
+              
+              <td>Physician Hospital Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/34745-0.html">34745-0</a>
+              
+              </td>
+              
+              <td>Nurse Discharge summary</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.4.1"/>
   <version value="20150424"/>
-  <name value="CCDADischargeSummaryDocumentTypeCode"/>
-  <title value="DischargeSummaryDocumentTypeCode"/>
-  <date value="2015-04-24"/>
-  <description value="Kind of discharge summary document classified by author role"/>
-  <expansion>
-    <identifier value="urn:uuid:72ed36bb-db97-44c0-9ecd-7abac65bc972"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="DischargeSummaryDocumentTypeCode"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="11490-0"/>
-      <display value="Physician Discharge summary"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="18842-5"/>
-      <display value="Discharge summary"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="29761-4"/>
-      <display value="Dentistry Discharge summary"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34106-5"/>
-      <display value="Physician Hospital Discharge summary"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34745-0"/>
-      <display value="Nurse Discharge summary"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="28655-9"/>
-      <display value="Physician attending Discharge summary"/>
-    </contains>
-    <contains>
-      <system value="http://loinc.org"/>
-      <version value="2.58"/>
-      <code value="34105-7"/>
-      <display value="Hospital Discharge summary"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="11490-0"/>
+        <display value="Physician Discharge summary"/>
+      </concept>
+      <concept>
+        <code value="18842-5"/>
+        <display value="Discharge summary"/>
+      </concept>
+      <concept>
+        <code value="28655-9"/>
+        <display value="Physician attending Discharge summary"/>
+      </concept>
+      <concept>
+        <code value="29761-4"/>
+        <display value="Dentist Discharge summary"/>
+      </concept>
+      <concept>
+        <code value="34105-7"/>
+        <display value="Hospital Discharge summary"/>
+      </concept>
+      <concept>
+        <code value="34106-5"/>
+        <display value="Physician Hospital Discharge summary"/>
+      </concept>
+      <concept>
+        <code value="34745-0"/>
+        <display value="Nurse Discharge summary"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

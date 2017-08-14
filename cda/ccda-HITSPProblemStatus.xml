@@ -1,41 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-HITSPProblemStatus"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-HITSPProblemStatus"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.3.88.12.80.68"/>
-  </identifier>
+  <id value="2.16.840.1.113883.3.88.12.80.68"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>HITSP Problem Status</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <a href="http://www.snomed.org/">
+            
+            <code>http://snomed.info/sct</code>
+          
+          </a>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=413322009">413322009</a>
+              
+              </td>
+              
+              <td>Problem resolved (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=55561003">55561003</a>
+              
+              </td>
+              
+              <td>Active (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=73425007">73425007</a>
+              
+              </td>
+              
+              <td>Inactive (qualifier value)</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.80.68"/>
   <version value="20150424"/>
-  <name value="CCDAHITSPProblemStatus"/>
-  <title value="HITSP Problem Status"/>
-  <date value="2015-04-24"/>
-  <description value="The clinical status of a problem"/>
-  <expansion>
-    <identifier value="urn:uuid:71e341ba-3116-47a5-ab23-615a8ce7dd1f"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="HITSP Problem Status"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="55561003"/>
-      <display value="Active (qualifier value)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="413322009"/>
-      <display value="Problem resolved (finding)"/>
-    </contains>
-    <contains>
-      <system value="http://snomed.info/sct"/>
-      <version value="2017-03"/>
-      <code value="73425007"/>
-      <display value="Inactive (qualifier value)"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="413322009"/>
+        <display value="Problem resolved (finding)"/>
+      </concept>
+      <concept>
+        <code value="55561003"/>
+        <display value="Active (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="73425007"/>
+        <display value="Inactive (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>

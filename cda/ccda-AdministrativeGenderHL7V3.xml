@@ -1,48 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-AdministrativeGenderHL7V3"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-AdministrativeGenderHL7V3"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.1.11.1"/>
-  </identifier>
+  <id value="2.16.840.1.113883.1.11.1"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Administrative Gender (HL7 V3)</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/AdministrativeGender</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>F</td>
+              
+              <td>Female</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>M</td>
+              
+              <td>Male</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>UN</td>
+              
+              <td>Undifferentiated</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.1"/>
   <version value="20150424"/>
-  <name value="CCDAAdministrativeGenderHL7V3"/>
-  <title value="Administrative Gender (HL7 V3)"/>
-  <date value="2015-04-24"/>
-  <description value="The gender of a person used for adminstrative purposes (as opposed to clinical gender)"/>
+  <name value="Administrative Gender (HL7 V3)"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
   <compose>
     <include>
-      <extension url="http://hl7.org/fhir/StructureDefinition/valueSet-rulesDescription">
-        <valueString value="All codes in the Hl7 V3 AdministrativeGender code system"/>
-      </extension>
+      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
+      <concept>
+        <code value="F"/>
+        <display value="Female"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Male"/>
+      </concept>
+      <concept>
+        <code value="UN"/>
+        <display value="Undifferentiated"/>
+      </concept>
     </include>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:04e0596d-9287-445e-8807-35118afc88d3"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="F"/>
-      <display value="Female"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="M"/>
-      <display value="Male"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AdministrativeGender"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="UN"/>
-      <display value="Undifferentiated"/>
-    </contains>
-  </expansion>
 </ValueSet>

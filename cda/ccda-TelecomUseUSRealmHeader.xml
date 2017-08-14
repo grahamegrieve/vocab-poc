@@ -1,47 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="ccda-TelecomUseUSRealmHeader"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/ccda-TelecomUseUSRealmHeader"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.11.20.9.20"/>
-  </identifier>
+  <id value="2.16.840.1.113883.11.20.9.20"/>
+  <meta>
+    <versionId value="20150424"/>
+    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+  </meta>
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <h2>Telecom Use (US Realm Header)</h2>
+      
+      <p>This value set includes codes from the following code systems:</p>
+      
+      <ul>
+        
+        <li>Include these codes as defined in 
+          
+          <code>http://hl7.org/fhir/v3/AddressUse</code>
+          
+          <table class="none">
+            
+            <tr>
+              
+              <td>
+                
+                <b>Code</b>
+              
+              </td>
+              
+              <td>
+                
+                <b>Display</b>
+              
+              </td>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>HP</td>
+              
+              <td>primary home</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>HV</td>
+              
+              <td>vacation home</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MC</td>
+              
+              <td>mobile contact)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>WP</td>
+              
+              <td>work place</td>
+              
+              <td/>
+            
+            </tr>
+          
+          </table>
+        
+        </li>
+      
+      </ul>
+    
+    </div>
+  </text>
+  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20"/>
   <version value="20150424"/>
-  <name value="CCDATelecomUseUSRealmHeader"/>
-  <title value="Telecom Use (US Realm Header)"/>
-  <date value="2015-04-24"/>
-  <description value="The purpose for which an entity is assigned a telecom address"/>
-  <expansion>
-    <identifier value="urn:uuid:155a4005-1371-4311-abac-a886c4dd536e"/>
-    <timestamp value="2017-06-09"/>
-    <parameter>
-      <name value="CCDA Version"/>
-      <valueString value="C-CDA R2.1"/>
-    </parameter>
-    <contains>
+  <name value="Telecom Use (US Realm Header)"/>
+  <status value="active"/>
+  <date value="2015-04-24T15:00:02+10:00"/>
+  <publisher value="HL7 Terminology"/>
+  <compose>
+    <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="HP"/>
-      <display value="primary home"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="HV"/>
-      <display value="vacation home"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="MC"/>
-      <display value="mobile contact)"/>
-    </contains>
-    <contains>
-      <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
-      <version value="HL7V3.0_2016-07"/>
-      <code value="WP"/>
-      <display value="work place"/>
-    </contains>
-  </expansion>
+      <concept>
+        <code value="HP"/>
+        <display value="primary home"/>
+      </concept>
+      <concept>
+        <code value="HV"/>
+        <display value="vacation home"/>
+      </concept>
+      <concept>
+        <code value="MC"/>
+        <display value="mobile contact)"/>
+      </concept>
+      <concept>
+        <code value="WP"/>
+        <display value="work place"/>
+      </concept>
+    </include>
+  </compose>
 </ValueSet>
