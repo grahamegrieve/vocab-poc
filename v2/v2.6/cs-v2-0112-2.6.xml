@@ -2,6 +2,15 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="v2-0112-2.6"/>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch03.html#Heading157"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="3.4.3.36"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0112-2.6"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -22,7 +31,7 @@
   </contact>
   <description value="Underlying Code System for V2 table 0112 (Discharge Disposition)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
-  <caseSensitive value="false"/>
+  <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0112-2.6"/>
   <hierarchyMeaning value="is-a"/>
   <compositional value="false"/>

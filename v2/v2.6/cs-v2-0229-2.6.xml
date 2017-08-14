@@ -2,6 +2,15 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="v2-0229-2.6"/>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch06.html#Heading86"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="6.5.3.8"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0229-2.6"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -22,7 +31,7 @@
   </contact>
   <description value="Underlying Code System for V2 table 0229 (DRG Payor)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
-  <caseSensitive value="false"/>
+  <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0229-2.6"/>
   <hierarchyMeaning value="is-a"/>
   <compositional value="false"/>

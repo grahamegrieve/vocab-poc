@@ -2,6 +2,9 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="v2-0325"/>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="InM/PA"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0325"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -22,7 +25,7 @@
   </contact>
   <description value="Underlying Code System for V2 table 0325 (Location Relationship ID)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
-  <caseSensitive value="false"/>
+  <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0325"/>
   <hierarchyMeaning value="is-a"/>
   <compositional value="false"/>
