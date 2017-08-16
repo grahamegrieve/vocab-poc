@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0350"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.6.301.7"/>
+    <value value="urn:oid:2.16.840.1.113883.6.301.7">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="nubc-OccurrenceCode-cs"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0350"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0350 (Occurrence Code)"/>
+  <description value="National Uniform Billing Committee (NUBC) UB-04 Data Specifications Manual, UB form locator 31 - 34, Occurrence Codes and Amounts - code and associated date defining a significant event relating to the bill that may affect payer processing the claim. The UB-04 Data Specifications Manual with the codes is available by subscription from NUBC at http://www.nubc.org/become.html.  Used in HL7 Version 2.x messaging in the OCD segment. Updated by NUBC annually; see the coding instructions for more detail."/>
+  <purpose value="Underlying Master Code System for V2 table 0350 (Occurrence Code)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0350"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Auto accident"/>
     <definition value="Auto accident"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5.1"/>
     </extension>
@@ -50,7 +55,7 @@
     <display value="Use NUBC codes"/>
     <definition value="Use NUBC codes"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7.1"/>
     </extension>
@@ -61,7 +66,7 @@
     <display value="Use NUBC codes"/>
     <definition value="Use NUBC codes"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -72,7 +77,7 @@
     <display value="No fault insurance involved-including auto accident/other"/>
     <definition value="No fault insurance involved-including auto accident/other"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -83,7 +88,7 @@
     <display value="Accident/tort liability"/>
     <definition value="Accident/tort liability"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -94,7 +99,7 @@
     <display value="Accident/employment related"/>
     <definition value="Accident/employment related"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -105,7 +110,7 @@
     <display value="Other accident"/>
     <definition value="Other accident"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -116,7 +121,7 @@
     <display value="Crime victim"/>
     <definition value="Crime victim"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -127,7 +132,7 @@
     <display value="Start of infertility treatment cycle"/>
     <definition value="Start of infertility treatment cycle"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -138,7 +143,7 @@
     <display value="Last menstrual period"/>
     <definition value="Last menstrual period"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -149,7 +154,7 @@
     <display value="Onset of symptoms/illness"/>
     <definition value="Onset of symptoms/illness"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -160,7 +165,7 @@
     <display value="Date of onset for a chronically dependent individual"/>
     <definition value="Date of onset for a chronically dependent individual"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -171,7 +176,7 @@
     <display value="Date outpatient occupational therapy plan established or last reviewed"/>
     <definition value="Date outpatient occupational therapy plan established or last reviewed"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -182,7 +187,7 @@
     <display value="Date of retirement patient/beneficiary"/>
     <definition value="Date of retirement patient/beneficiary"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -193,7 +198,7 @@
     <display value="Date of retirement spouse"/>
     <definition value="Date of retirement spouse"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -204,7 +209,7 @@
     <display value="Guarantee of payment began"/>
     <definition value="Guarantee of payment began"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -215,7 +220,7 @@
     <display value="UR notice received"/>
     <definition value="UR notice received"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -226,7 +231,7 @@
     <display value="Date active care ended"/>
     <definition value="Date active care ended"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -237,7 +242,7 @@
     <display value="Date insurance denied"/>
     <definition value="Date insurance denied"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -248,7 +253,7 @@
     <display value="Date benefits terminated by primary payor"/>
     <definition value="Date benefits terminated by primary payor"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -259,7 +264,7 @@
     <display value="Date SNF bed available"/>
     <definition value="Date SNF bed available"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -270,7 +275,7 @@
     <display value="Date home health plan established"/>
     <definition value="Date home health plan established"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -281,7 +286,7 @@
     <display value="Spouse&#39;s date of birth"/>
     <definition value="Spouse&#39;s date of birth"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -292,7 +297,7 @@
     <display value="Date outpatient physical therapy plan established or last reviewed"/>
     <definition value="Date outpatient physical therapy plan established or last reviewed"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -303,7 +308,7 @@
     <display value="Date outpatient speech pathology plan established or last reviewed"/>
     <definition value="Date outpatient speech pathology plan established or last reviewed"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -314,7 +319,7 @@
     <display value="Date beneficiary notified of intent to bill (accommodations)"/>
     <definition value="Date beneficiary notified of intent to bill (accommodations)"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -325,7 +330,7 @@
     <display value="Date beneficiary notified of intent to bill (procedures or treatments)"/>
     <definition value="Date beneficiary notified of intent to bill (procedures or treatments)"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -336,7 +341,7 @@
     <display value="First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP"/>
     <definition value="First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -347,7 +352,7 @@
     <display value="Date of election of extended care facilities"/>
     <definition value="Date of election of extended care facilities"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -358,7 +363,7 @@
     <display value="Date treatment started for P.T."/>
     <definition value="Date treatment started for P.T."/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -369,7 +374,7 @@
     <display value="Date of inpatient hospital discharge for covered transplant patients"/>
     <definition value="Date of inpatient hospital discharge for covered transplant patients"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -380,7 +385,7 @@
     <display value="Date of inpatient hospital discharge for non-covered transplant patient"/>
     <definition value="Date of inpatient hospital discharge for non-covered transplant patient"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -391,7 +396,7 @@
     <display value="Scheduled date of admission"/>
     <definition value="Scheduled date of admission"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -402,7 +407,7 @@
     <display value="Date of first test for pre-admission testing"/>
     <definition value="Date of first test for pre-admission testing"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -413,7 +418,7 @@
     <display value="Date of discharge"/>
     <definition value="Date of discharge"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -424,7 +429,7 @@
     <display value="Scheduled date of canceled surgery"/>
     <definition value="Scheduled date of canceled surgery"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -435,7 +440,7 @@
     <display value="Date treatment started for O.T."/>
     <definition value="Date treatment started for O.T."/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -446,7 +451,7 @@
     <display value="Date treatment started for S.T."/>
     <definition value="Date treatment started for S.T."/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -457,7 +462,7 @@
     <display value="Date treatment started for cardiac rehab."/>
     <definition value="Date treatment started for cardiac rehab."/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -468,7 +473,7 @@
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -479,7 +484,7 @@
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -490,7 +495,7 @@
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -501,7 +506,7 @@
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -512,7 +517,7 @@
     <display value="Date lien released"/>
     <definition value="Date lien released"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -523,7 +528,7 @@
     <display value="Date treatment started for psychiatric care"/>
     <definition value="Date treatment started for psychiatric care"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -534,7 +539,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -545,7 +550,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -556,7 +561,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -567,7 +572,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -578,7 +583,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -589,7 +594,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -600,7 +605,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -611,7 +616,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -622,7 +627,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -633,7 +638,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -644,7 +649,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -655,7 +660,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -666,7 +671,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -677,7 +682,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -688,7 +693,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -699,7 +704,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -710,7 +715,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -721,7 +726,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -732,7 +737,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -743,7 +748,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -754,7 +759,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -765,7 +770,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -776,7 +781,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -787,7 +792,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -798,7 +803,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -809,7 +814,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -820,7 +825,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -831,7 +836,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -842,7 +847,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -853,7 +858,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -864,7 +869,7 @@
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -875,7 +880,7 @@
     <display value="Birthdate - insured A"/>
     <definition value="Birthdate - insured A"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -886,7 +891,7 @@
     <display value="Effective date - insured A policy"/>
     <definition value="Effective date - insured A policy"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>

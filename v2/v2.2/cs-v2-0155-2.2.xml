@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0155 (Accept/Application Acknowledgment Conditions)"/>
+  <description value="HL7-defined code system of concepts which identify conditions under which accept acknowledgments are required to be returned in response to a message, and required for enhanced acknowledgment mode. Used in HL7 Versions 2 messaging in the MSH segment."/>
+  <purpose value="Underlying Code System for V2 table 0155 (Accept/Application Acknowledgment Conditions, version 2.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0155-2.2"/>
@@ -31,22 +32,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AL"/>
     <display value="Always"/>
     <definition value="Always"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="NE"/>
     <display value="Never"/>
     <definition value="Never"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ER"/>
     <display value="Error / reject conditions only"/>
     <definition value="Error / reject conditions only"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="SU"/>
     <display value="Successful completion only"/>
     <definition value="Successful completion only"/>

@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0642"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.379"/>
+    <value value="urn:oid:2.16.840.1.113883.18.379">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="reorderTheory"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0642"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0642 (Reorder Theory Codes)"/>
+  <description value="Code system of concepts that identify the calculation method used to determine the resupply schedule. Used in HL7 Version 2.x messaging in the IVT segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0642 (Reorder Theory Codes)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0642"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Corresponds to the theory that calculates the appropriate order point and recommends the quantity to order based on system parameters and historical trends.  DOP stands for Dynamic Order Point, and DOQ stands for Dynamic Order Quantity."/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="DOP/DOQ"/>
     <definition value="DOP/DOQ"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Corresponds to theory - the quantity recommended is the Order Quantity, less the On Hand Quantity, and less the On Order Quantity.  The Order Amount is the desired Maximum On Hand Quantity."/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="MIN/MAX"/>
     <definition value="MIN/MAX"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The quantity recommended is the Order Quantity, less the On Order Quantity.  The Order Amount is the amount to order when the On Hand reaches the Order Point."/>
     </extension>

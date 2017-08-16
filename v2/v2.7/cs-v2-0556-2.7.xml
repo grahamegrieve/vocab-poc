@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0556 (Benefit Group)"/>
+  <description value="Code system of concepts used to specify the benefit group.  Used in the Invoice (IVC) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0556 (Benefit Group, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0556-2.7"/>
@@ -40,12 +41,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AMB"/>
     <display value="AMBULATORY CARE"/>
     <definition value="AMBULATORY CARE"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="DENT"/>
     <display value="DENTAL"/>
     <definition value="DENTAL"/>

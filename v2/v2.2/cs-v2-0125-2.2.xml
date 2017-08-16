@@ -22,7 +22,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0125 (Value Type)"/>
+  <description value="VALUE TYPE"/>
+  <purpose value="Underlying Code System for V2 table 0125 (Value Type, version 2.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0125-2.2"/>
@@ -30,107 +31,107 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ST"/>
     <display value="String data"/>
     <definition value="String data"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="TX"/>
     <display value="Text data (display)"/>
     <definition value="Text data (display)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="FT"/>
     <display value="Formatted text (display)"/>
     <definition value="Formatted text (display)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="DT"/>
     <display value="Date"/>
     <definition value="Date"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="TM"/>
     <display value="Time"/>
     <definition value="Time"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="TS"/>
     <display value="Time stamp ( date &amp; time)"/>
     <definition value="Time stamp ( date &amp; time)"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="PN"/>
     <display value="Person name"/>
     <definition value="Person name"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="TN"/>
     <display value="Telephone number"/>
     <definition value="Telephone number"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="AD"/>
     <display value="Address"/>
     <definition value="Address"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="CK"/>
     <display value="Composite ID with check digit"/>
     <definition value="Composite ID with check digit"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="CN"/>
     <display value="Composite ID and name"/>
     <definition value="Composite ID and name"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="CE"/>
     <display value="Coded element"/>
     <definition value="Coded element"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="RP"/>
     <display value="Reference pointer"/>
     <definition value="Reference pointer"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="NM"/>
     <display value="Numeric"/>
     <definition value="Numeric"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="TQ"/>
     <display value="Timing / quantity"/>
     <definition value="Timing / quantity"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="ID"/>
     <display value="Coded value"/>
     <definition value="Coded value"/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="SI"/>
     <display value="Sequence ID"/>
     <definition value="Sequence ID"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="CM"/>
     <display value="Composite"/>
     <definition value="Composite"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="CQ"/>
     <display value="Composite quantity with units"/>
     <definition value="Composite quantity with units"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="CF"/>
     <display value="Coded element with formatted values"/>
     <definition value="Coded element with formatted values"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="MO"/>
     <display value="Money"/>
     <definition value="Money"/>

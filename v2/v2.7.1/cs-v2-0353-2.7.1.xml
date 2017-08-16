@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0353 (CWE statuses)"/>
+  <description value="HL7-defined code system of comcepts that represent an exception identifier code; that is, a code that is not defined in the value set (either model or site-extended).  These are occationsally referred to a &#39;flavors of null&#39; although this set of concepts is specific to the CWE datatype used in HL7 Version 2.x messaging, and the codes may be used in the &#39;identifier&#39; component of the &#39;triplets&#39; in that datatype."/>
+  <purpose value="Underlying Code System for V2 table 0353 (CWE statuses, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0353-2.7.1"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="UASK"/>
     <display value="Asked but Unknown"/>
     <definition value="Asked but Unknown"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="NAV"/>
     <display value="Not available"/>
     <definition value="Not available"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="NA"/>
     <display value="Not applicable"/>
     <definition value="Not applicable"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="NASK"/>
     <display value="Not asked"/>
     <definition value="Not asked"/>

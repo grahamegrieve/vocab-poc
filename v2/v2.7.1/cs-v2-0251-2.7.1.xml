@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0251 (Action Taken in Response to the Event)"/>
+  <description value="HL7-defined code system of concepts used to define the action taken as a result of an event related to a product issue.  Used in HL7 Version 2.x messaging in the PCR segment."/>
+  <purpose value="Underlying Code System for V2 table 0251 (Action Taken in Response to the Event, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0251-2.7.1"/>
@@ -40,32 +41,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="WP"/>
     <display value="Product withdrawn permanently"/>
     <definition value="Product withdrawn permanently"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="WT"/>
     <display value="Product withdrawn temporarily"/>
     <definition value="Product withdrawn temporarily"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="DR"/>
     <display value="Product dose or frequency of use reduced"/>
     <definition value="Product dose or frequency of use reduced"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="DI"/>
     <display value="Product dose or frequency of use increased"/>
     <definition value="Product dose or frequency of use increased"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="OT"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="N"/>
     <display value="None"/>
     <definition value="None"/>

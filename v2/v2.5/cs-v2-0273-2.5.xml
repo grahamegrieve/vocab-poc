@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0273 (Document Availability Status)"/>
+  <description value="HL7-defined code system of concepts used to define whether a patient document is appropriate or available for use in patient care.  Used in HL7 Version 2.x messaging in the TXA segment."/>
+  <purpose value="Underlying Code System for V2 table 0273 (Document Availability Status, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0273-2.5"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AV"/>
     <display value="Available for patient care"/>
     <definition value="Available for patient care"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="CA"/>
     <display value="Deleted"/>
     <definition value="Deleted"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="OB"/>
     <display value="Obsolete"/>
     <definition value="Obsolete"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="UN"/>
     <display value="Unavailable for patient care"/>
     <definition value="Unavailable for patient care"/>

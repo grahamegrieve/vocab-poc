@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0048 (What subject filter)"/>
+  <description value="HL7-defined code system of concepts which specify the kind of information that is required to satisfy a query request.  The values define the type of transaction inquiry.  Used in HL7 Version 2 messaging in the URD segment."/>
+  <purpose value="Underlying Code System for V2 table 0048 (What subject filter, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0048-2.5"/>
@@ -37,187 +38,187 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ADV"/>
     <display value="Advice/diagnosis"/>
     <definition value="Advice/diagnosis"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="ANU"/>
     <display value="Nursing unit lookup (returns patients in beds, excluding empty beds)"/>
     <definition value="Nursing unit lookup (returns patients in beds, excluding empty beds)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="APN"/>
     <display value="Patient name lookup"/>
     <definition value="Patient name lookup"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="APP"/>
     <display value="Physician lookup"/>
     <definition value="Physician lookup"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="ARN"/>
     <display value="Nursing unit lookup (returns patients in beds, including empty beds)"/>
     <definition value="Nursing unit lookup (returns patients in beds, including empty beds)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="APM"/>
     <display value="Medical record number query, returns visits for a medical record number"/>
     <definition value="Medical record number query, returns visits for a medical record number"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="APA"/>
     <display value="Account number query, return matching visit"/>
     <definition value="Account number query, return matching visit"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="CAN"/>
     <display value="Cancel.  Used to cancel a query"/>
     <definition value="Cancel.  Used to cancel a query"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="DEM"/>
     <display value="Demographics"/>
     <definition value="Demographics"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="FIN"/>
     <display value="Financial"/>
     <definition value="Financial"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="GID"/>
     <display value="Generate new identifier"/>
     <definition value="Generate new identifier"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="GOL"/>
     <display value="Goals"/>
     <definition value="Goals"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="MRI"/>
     <display value="Most recent inpatient"/>
     <definition value="Most recent inpatient"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="MRO"/>
     <display value="Most recent outpatient"/>
     <definition value="Most recent outpatient"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="NCK"/>
     <display value="Network clock"/>
     <definition value="Network clock"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="NSC"/>
     <display value="Network status change"/>
     <definition value="Network status change"/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="NST"/>
     <display value="Network statistic"/>
     <definition value="Network statistic"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="ORD"/>
     <display value="Order"/>
     <definition value="Order"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="OTH"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="PRB"/>
     <display value="Problems"/>
     <definition value="Problems"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="PRO"/>
     <display value="Procedure"/>
     <definition value="Procedure"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="RES"/>
     <display value="Result"/>
     <definition value="Result"/>
   </concept>
-  <concept>
+  <concept id="23">
     <code value="RAR"/>
     <display value="Pharmacy administration information"/>
     <definition value="Pharmacy administration information"/>
   </concept>
-  <concept>
+  <concept id="24">
     <code value="RER"/>
     <display value="Pharmacy encoded order information"/>
     <definition value="Pharmacy encoded order information"/>
   </concept>
-  <concept>
+  <concept id="25">
     <code value="RDR"/>
     <display value="Pharmacy dispense information"/>
     <definition value="Pharmacy dispense information"/>
   </concept>
-  <concept>
+  <concept id="26">
     <code value="RGR"/>
     <display value="Pharmacy give information"/>
     <definition value="Pharmacy give information"/>
   </concept>
-  <concept>
+  <concept id="27">
     <code value="ROR"/>
     <display value="Pharmacy prescription information"/>
     <definition value="Pharmacy prescription information"/>
   </concept>
-  <concept>
+  <concept id="28">
     <code value="SAL"/>
     <display value="All schedule related information, including open slots, booked slots, blocked slots"/>
     <definition value="All schedule related information, including open slots, booked slots, blocked slots"/>
   </concept>
-  <concept>
+  <concept id="29">
     <code value="SBK"/>
     <display value="Booked slots on the identified schedule"/>
     <definition value="Booked slots on the identified schedule"/>
   </concept>
-  <concept>
+  <concept id="30">
     <code value="SBL"/>
     <display value="Blocked slots on the identified schedule"/>
     <definition value="Blocked slots on the identified schedule"/>
   </concept>
-  <concept>
+  <concept id="31">
     <code value="SOF"/>
     <display value="First open slot on the identified schedule after the start date/tiem"/>
     <definition value="First open slot on the identified schedule after the start date/tiem"/>
   </concept>
-  <concept>
+  <concept id="32">
     <code value="SOP"/>
     <display value="Open slots on the identified schedule between the begin and end of the start date/time range"/>
     <definition value="Open slots on the identified schedule between the begin and end of the start date/time range"/>
   </concept>
-  <concept>
+  <concept id="33">
     <code value="SSA"/>
     <display value="Time slots available for a single appointment"/>
     <definition value="Time slots available for a single appointment"/>
   </concept>
-  <concept>
+  <concept id="34">
     <code value="SSR"/>
     <display value="Time slots available for a recurring appointment"/>
     <definition value="Time slots available for a recurring appointment"/>
   </concept>
-  <concept>
+  <concept id="35">
     <code value="STA"/>
     <display value="Status"/>
     <definition value="Status"/>
   </concept>
-  <concept>
+  <concept id="36">
     <code value="VXI"/>
     <display value="Vaccine Information"/>
     <definition value="Vaccine Information"/>
   </concept>
-  <concept>
+  <concept id="37">
     <code value="XID"/>
     <display value="Get cross-referenced identifiers"/>
     <definition value="Get cross-referenced identifiers"/>

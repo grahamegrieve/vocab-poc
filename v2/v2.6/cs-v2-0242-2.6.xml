@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0242 (Primary Observer&#39;s Qualification)"/>
+  <description value="HL7-defined code system of concepts used to provide a general description of the kind of health care professional who provided the primary observation.  Used in HL7 Version 2.x messaging in the PEO and PCR segments."/>
+  <purpose value="Underlying Code System for V2 table 0242 (Primary Observer&#39;s Qualification, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0242-2.6"/>
@@ -37,37 +38,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="P"/>
     <display value="Physician (osteopath, homeopath)"/>
     <definition value="Physician (osteopath, homeopath)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="R"/>
     <display value="Pharmacist"/>
     <definition value="Pharmacist"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Mid-level professional (nurse, nurse practitioner, physician&#39;s assistant)"/>
     <definition value="Mid-level professional (nurse, nurse practitioner, physician&#39;s assistant)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="H"/>
     <display value="Other health professional"/>
     <definition value="Other health professional"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="C"/>
     <display value="Health care consumer/patient"/>
     <definition value="Health care consumer/patient"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="L"/>
     <display value="Lawyer/attorney"/>
     <definition value="Lawyer/attorney"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="O"/>
     <display value="Other non-health professional"/>
     <definition value="Other non-health professional"/>

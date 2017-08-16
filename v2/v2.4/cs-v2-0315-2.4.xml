@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0315 (Living Will Code)"/>
+  <description value="Code system of concepts specifying whether or not the patient has a living will and, if so, whether a copy fo the living will is on file at the healthcare facility.  If the patient does not have a living will, the value of this field indicates whether the patient was provided information on living wills.  Used in HL7 Version 2.x messaging in the Patient Visit - Additional Information ( PV2) and Patient Additional Demographic (PD1) segments."/>
+  <purpose value="Underlying Code System for V2 table 0315 (Living Will Code, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0315-2.4"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="Y"/>
     <display value="Yes, patient has a living will"/>
     <definition value="Yes, patient has a living will"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="F"/>
     <display value="Yes, patient has a living will but it is not on file"/>
     <definition value="Yes, patient has a living will but it is not on file"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="N"/>
     <display value="No, patient does not have a living will and no information was provided"/>
     <definition value="No, patient does not have a living will and no information was provided"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="I"/>
     <display value="No, patient does not have a living will but information was provided"/>
     <definition value="No, patient does not have a living will but information was provided"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>

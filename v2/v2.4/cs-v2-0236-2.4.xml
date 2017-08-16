@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0236 (Event Reported To)"/>
+  <description value="HL7-defined code system of concepts used to identify the type of entity to which the even has been reported.  Used in HL7 Version 2.x messaging in the PES segment."/>
+  <purpose value="Underlying Code System for V2 table 0236 (Event Reported To, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0236-2.4"/>
@@ -34,22 +35,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="M"/>
     <display value="Manufacturer"/>
     <definition value="Manufacturer"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="L"/>
     <display value="Local facility/user facility"/>
     <definition value="Local facility/user facility"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="R"/>
     <display value="Regulatory agency"/>
     <definition value="Regulatory agency"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="D"/>
     <display value="Distributor"/>
     <definition value="Distributor"/>

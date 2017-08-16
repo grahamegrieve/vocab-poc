@@ -17,7 +17,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0229-2.7.1"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.129"/>
+    <value value="urn:oid:2.16.840.1.113883.18.129">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="drgPayor"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0229"/>
@@ -32,7 +36,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0229 (DRG Payor)"/>
+  <description value="HL7-defined code system of concepts used to identify a Diagnostic Resource Group Payor.  US Realm."/>
+  <purpose value="Underlying Master Code System for V2 table 0229 (DRG Payor)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0229-2.7.1"/>
@@ -40,17 +45,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="M"/>
     <display value="Medicare"/>
     <definition value="Medicare"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="C"/>
     <display value="Champus"/>
     <definition value="Champus"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="G"/>
     <display value="Managed Care Organization"/>
     <definition value="Managed Care Organization"/>

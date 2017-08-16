@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0502 (Non-Subject Consenter Reason)"/>
+  <description value="HL7-defined  code system of concepts used to specify a reason consent was granted by a person other than the subject of the consent.  Used in the Consent (CON) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0502 (Non-Subject Consenter Reason, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0502-2.5.1"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="MIN"/>
     <display value="Subject is a minor"/>
     <definition value="Subject is a minor"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="NC"/>
     <display value="Subject is not competent to consent"/>
     <definition value="Subject is not competent to consent"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="LM"/>
     <display value="Legally mandated"/>
     <definition value="Legally mandated"/>

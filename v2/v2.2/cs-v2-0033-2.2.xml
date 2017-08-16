@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0033 (ROUTE)"/>
+  <description value="HL7-defined code system of concepts that indicate a means of administrating a medication dose.  Used in HL7 Version 2 messaging in the RX1 segment (which was withdrawn after version 2.2). As of HL7 version 2.3, it was replaced by 2.16.840.1.113883.18.80 routeOfAdministration and 2.16.840.1.113883.18.83 administrationMethod.  Used in the RX1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0033 (ROUTE, version 2.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0033-2.2"/>

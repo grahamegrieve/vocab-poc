@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0305 (Person Location Type)"/>
+  <description value="Code system of concepts specifying the categorization of the person&#39;s location.  Used in HL7 Version 2.x messaging datatypes that contain location identifiers such as Person Location (PL), Location with address variation (LA) and Name with date and location (NDL)."/>
+  <purpose value="Underlying Code System for V2 table 0305 (Person Location Type, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0305-2.7.1"/>
@@ -40,37 +41,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="C"/>
     <display value="Clinic"/>
     <definition value="Clinic"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="D"/>
     <display value="Department"/>
     <definition value="Department"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="H"/>
     <display value="Home"/>
     <definition value="Home"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="N"/>
     <display value="Nursing Unit"/>
     <definition value="Nursing Unit"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="O"/>
     <display value="Provider&#39;s Office"/>
     <definition value="Provider&#39;s Office"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="P"/>
     <display value="Phone"/>
     <definition value="Phone"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="S"/>
     <display value="SNF"/>
     <definition value="SNF"/>

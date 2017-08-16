@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0470 (Reimbursement Type Code)"/>
+  <description value="Code system of concepts specifying the fee schedule reimbursement type applied to the line item.  Used in HL7 Version 2.x messaging in the GP2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0470 (Reimbursement Type Code, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0470-2.4"/>
@@ -34,52 +35,52 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="OPPS"/>
     <display value="Outpatient Prospective Payment System"/>
     <definition value="Outpatient Prospective Payment System"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="Pckg"/>
     <display value="Packaged APC"/>
     <definition value="Packaged APC"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="Lab"/>
     <display value="Clinical Laboratory APC"/>
     <definition value="Clinical Laboratory APC"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="Thrpy"/>
     <display value="Therapy APC"/>
     <definition value="Therapy APC"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="DME"/>
     <display value="Durable Medical Equipment"/>
     <definition value="Durable Medical Equipment"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="EPO"/>
     <display value="Epotein"/>
     <definition value="Epotein"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="Mamm"/>
     <display value="Screening Mammography APC"/>
     <definition value="Screening Mammography APC"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="PartH"/>
     <display value="Partial Hospitalization APC"/>
     <definition value="Partial Hospitalization APC"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="Crnl"/>
     <display value="Corneal Tissue APC"/>
     <definition value="Corneal Tissue APC"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="NoPay"/>
     <display value="This APC is not paid"/>
     <definition value="This APC is not paid"/>

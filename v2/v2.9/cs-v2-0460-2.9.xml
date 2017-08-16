@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0460 (Denial or Rejection Code)"/>
+  <description value="Code system of concepts specifying the OCE status of the line item.  Used in HL7 Version 2.x messaging in the GP2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0460 (Denial or Rejection Code, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0460-2.9"/>
@@ -40,17 +41,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="0"/>
     <display value="Line item not denied or rejected"/>
     <definition value="Line item not denied or rejected"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="1"/>
     <display value="Line item denied or rejected"/>
     <definition value="Line item denied or rejected"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2"/>
     <display value="Line item is on a multiple-day claim. The line item is not denied or rejected, but occurs on a day that has been denied or rejected."/>
     <definition value="Line item is on a multiple-day claim. The line item is not denied or rejected, but occurs on a day that has been denied or rejected."/>

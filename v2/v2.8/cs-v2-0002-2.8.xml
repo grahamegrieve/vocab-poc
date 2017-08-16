@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0002 (Marital Status)"/>
+  <description value="Code system of concepts specifying a person&#39;s marital (civil/legal) status.  Used in HL7 Version 2.x messages in the PID segment."/>
+  <purpose value="Underlying Code System for V2 table 0002 (Marital Status, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0002-2.8"/>
@@ -40,82 +41,82 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Separated"/>
     <definition value="Separated"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="D"/>
     <display value="Divorced"/>
     <definition value="Divorced"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Married"/>
     <definition value="Married"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="S"/>
     <display value="Single"/>
     <definition value="Single"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="W"/>
     <display value="Widowed"/>
     <definition value="Widowed"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="C"/>
     <display value="Common law"/>
     <definition value="Common law"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="G"/>
     <display value="Living together"/>
     <definition value="Living together"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="P"/>
     <display value="Domestic partner"/>
     <definition value="Domestic partner"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="R"/>
     <display value="Registered domestic partner"/>
     <definition value="Registered domestic partner"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="E"/>
     <display value="Legally Separated"/>
     <definition value="Legally Separated"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="N"/>
     <display value="Annulled"/>
     <definition value="Annulled"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="I"/>
     <display value="Interlocutory"/>
     <definition value="Interlocutory"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="B"/>
     <display value="Unmarried"/>
     <definition value="Unmarried"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="T"/>
     <display value="Unreported"/>
     <definition value="Unreported"/>

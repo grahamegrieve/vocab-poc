@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0554 (Invoice Reason Codes)"/>
+  <description value="Code system of concepts used to specify the reason for this invoice.  Used in the Invoice (IVC) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0554 (Invoice Reason Codes, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0554-2.9"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Over the Payer&#39;s published time limit for this invoice"/>
     </extension>
@@ -48,12 +49,12 @@
     <display value="Late Invoice"/>
     <definition value="Late Invoice"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="NORM"/>
     <display value="Normal submission"/>
     <definition value="Normal submission"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="SUB"/>
     <display value="Subscriber coverage problem"/>
     <definition value="Subscriber coverage problem"/>

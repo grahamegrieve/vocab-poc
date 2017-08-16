@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0005"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.6.238"/>
+    <value value="urn:oid:2.16.840.1.113883.6.238">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="PH_RaceAndEthnicity_CDC"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0005"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0005 (Race)"/>
+  <description value="Code system of concepts specifying the patient&#39;s race.  Used in HL7 Version 2.x messages in the PID segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0005 (Race)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0005"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Black"/>
     <definition value="Black"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Caucasian"/>
     <definition value="Caucasian"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Hispanic"/>
     <definition value="Hispanic"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.9"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Oriental"/>
     <definition value="Oriental"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="American Indian or Alaska Native"/>
     <definition value="American Indian or Alaska Native"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -82,7 +87,7 @@
     <display value="see chapter 3"/>
     <definition value="see chapter 3"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -90,7 +95,7 @@
     <display value="Asian"/>
     <definition value="Asian"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -98,7 +103,7 @@
     <display value="Black or African American"/>
     <definition value="Black or African American"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -106,7 +111,7 @@
     <display value="Native Hawaiian or Other Pacific Islander"/>
     <definition value="Native Hawaiian or Other Pacific Islander"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -114,7 +119,7 @@
     <display value="White"/>
     <definition value="White"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>

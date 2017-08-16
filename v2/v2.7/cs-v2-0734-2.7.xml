@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0734 (Grouper Status)"/>
+  <description value="Code system of concepts specifying the status of a grouper in general.  US Realm. Used in HL7 Version 2.x messaging in the DRG segment."/>
+  <purpose value="Underlying Code System for V2 table 0734 (Grouper Status, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0734-2.7"/>
@@ -40,52 +41,52 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="0"/>
     <display value="Normal grouping"/>
     <definition value="Normal grouping"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="1"/>
     <display value="Invalid or missing primary diagnosis"/>
     <definition value="Invalid or missing primary diagnosis"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2"/>
     <display value="Diagnosis is not allowed to be primary"/>
     <definition value="Diagnosis is not allowed to be primary"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="3"/>
     <display value="Data does not fulfill DRG criteria"/>
     <definition value="Data does not fulfill DRG criteria"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="4"/>
     <display value="Invalid age, admission date, date of birth or discharge date"/>
     <definition value="Invalid age, admission date, date of birth or discharge date"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="5"/>
     <display value="Invalid gender"/>
     <definition value="Invalid gender"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="6"/>
     <display value="Invalid discharge status"/>
     <definition value="Invalid discharge status"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="7"/>
     <display value="Invalid weight ad admission"/>
     <definition value="Invalid weight ad admission"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="8"/>
     <display value="Invalid length of stay"/>
     <definition value="Invalid length of stay"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="9"/>
     <display value="Invalid field &quot;same day&quot;"/>
     <definition value="Invalid field &quot;same day&quot;"/>

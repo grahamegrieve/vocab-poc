@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0247 (Status of Evaluation)"/>
+  <description value="HL7-defined code system of concepts that describes the status of product evaluation.  Used in HL7 Version 2.x messaging in the PCR segment."/>
+  <purpose value="Underlying Code System for V2 table 0247 (Status of Evaluation, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0247-2.7.1"/>
@@ -40,62 +41,62 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="Y"/>
     <display value="Evaluation completed"/>
     <definition value="Evaluation completed"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="P"/>
     <display value="Evaluation in progress"/>
     <definition value="Evaluation in progress"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="K"/>
     <display value="Problem already known, no evaluation necessary"/>
     <definition value="Problem already known, no evaluation necessary"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="X"/>
     <display value="Product not made by company"/>
     <definition value="Product not made by company"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="A"/>
     <display value="Evaluation anticipated, but not yet begun"/>
     <definition value="Evaluation anticipated, but not yet begun"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="D"/>
     <display value="Product discarded -- unable to follow up"/>
     <definition value="Product discarded -- unable to follow up"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="C"/>
     <display value="Product received in condition which made analysis impossible"/>
     <definition value="Product received in condition which made analysis impossible"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="I"/>
     <display value="Product remains implanted -- unable to follow up"/>
     <definition value="Product remains implanted -- unable to follow up"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="U"/>
     <display value="Product unavailable for follow up investigation"/>
     <definition value="Product unavailable for follow up investigation"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="Q"/>
     <display value="Product under quarantine -- unable to follow up"/>
     <definition value="Product under quarantine -- unable to follow up"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="R"/>
     <display value="Product under recall/corrective action"/>
     <definition value="Product under recall/corrective action"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>

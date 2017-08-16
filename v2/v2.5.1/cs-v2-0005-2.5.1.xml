@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0005 (Race)"/>
+  <description value="Code system of concepts specifying the patient&#39;s race.  Used in HL7 Version 2.x messages in the PID segment."/>
+  <purpose value="Underlying Code System for V2 table 0005 (Race, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0005-2.5.1"/>
@@ -37,32 +38,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1002-5"/>
     <display value="American Indian or Alaska Native"/>
     <definition value="American Indian or Alaska Native"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2028-9"/>
     <display value="Asian"/>
     <definition value="Asian"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2054-5"/>
     <display value="Black or African American"/>
     <definition value="Black or African American"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="2076-8"/>
     <display value="Native Hawaiian or Other Pacific Islander"/>
     <definition value="Native Hawaiian or Other Pacific Islander"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="2106-3"/>
     <display value="White"/>
     <definition value="White"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="2131-1"/>
     <display value="Other Race"/>
     <definition value="Other Race"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0208 (Query Response Status)"/>
+  <description value="HL7-defined code system of concepts defining precise response status concepts in support of HL7 Version 2 query messaging.  It is commonly used to indicate no data is found that matches the query parameters, but no error.   Used in HL7 Version 2.x messaging in the QAK segment."/>
+  <purpose value="Underlying Code System for V2 table 0208 (Query Response Status, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0208-2.7.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="OK"/>
     <display value="Data found, no errors (this is the default)"/>
     <definition value="Data found, no errors (this is the default)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="NF"/>
     <display value="No data found, no errors"/>
     <definition value="No data found, no errors"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="AE"/>
     <display value="Application error"/>
     <definition value="Application error"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="AR"/>
     <display value="Application reject"/>
     <definition value="Application reject"/>

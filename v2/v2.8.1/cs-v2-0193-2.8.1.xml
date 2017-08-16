@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0193 (Amount Class)"/>
+  <description value="Code system of concepts specifying the amount quantity class.  Used in HL7 Version 2.x messaging in the PTA segment."/>
+  <purpose value="Underlying Code System for V2 table 0193 (Amount Class, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0193-2.8.1"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v 2.5"/>
     </extension>
@@ -48,12 +49,12 @@
     <display value="Amount"/>
     <definition value="Amount"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="LM"/>
     <display value="Limit"/>
     <definition value="Limit"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v 2.5"/>
     </extension>
@@ -61,7 +62,7 @@
     <display value="Percentage"/>
     <definition value="Percentage"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="UL"/>
     <display value="Unlimited"/>
     <definition value="Unlimited"/>

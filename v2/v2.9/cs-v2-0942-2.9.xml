@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0942 (Equipment State Indicator Type Code)"/>
+  <description value="HL7-defined code sytem of cocepts that specify the type of measurement of the state of an automated laboratory instrument. Used in HL7 Version 2.x messaging in the INV segment."/>
+  <purpose value="Underlying Code System for V2 table 0942 (Equipment State Indicator Type Code, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0942-2.9"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="EB"/>
     <display value="Emergency input buffer current capacity"/>
     <definition value="Emergency input buffer current capacity"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IB"/>
     <display value="Input buffer current capacity"/>
     <definition value="Input buffer current capacity"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IC"/>
     <display value="Instrument current processing capacity"/>
     <definition value="Instrument current processing capacity"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OB"/>
     <display value="Output buffer current capacity"/>
     <definition value="Output buffer current capacity"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TA"/>
     <display value="Current test availability"/>
     <definition value="Current test availability"/>

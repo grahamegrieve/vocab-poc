@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0167"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.85"/>
+    <value value="urn:oid:2.16.840.1.113883.18.85">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="substitutionStatus"/>
+      </extension>
+    </value>
   </identifier>
   <version value="2"/>
   <name value="V2Table0167"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0167 (Substitution Status)"/>
+  <description value="HL7-defined code system of concepts  which specify the substitution status.  Used in HL7 Version 2.x messaging in the RXE, RXD, and RXG segments."/>
+  <purpose value="Underlying Master Code System for V2 table 0167 (Substitution Status)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0167"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="No substitute was dispensed.  This is equivalent to the default (null) value."/>
     <definition value="No substitute was dispensed.  This is equivalent to the default (null) value."/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="A generic substitution was dispensed."/>
     <definition value="A generic substitution was dispensed."/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="A therapeutic substitution was dispensed."/>
     <definition value="A therapeutic substitution was dispensed."/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="No product selection indicated"/>
     <definition value="No product selection indicated"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Substitution not allowed by prescriber"/>
     <definition value="Substitution not allowed by prescriber"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Substitution allowed - patient requested product dispensed"/>
     <definition value="Substitution allowed - patient requested product dispensed"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Substitution allowed - pharmacist selected product dispensed"/>
     <definition value="Substitution allowed - pharmacist selected product dispensed"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Substitution allowed - generic drug not in stock"/>
     <definition value="Substitution allowed - generic drug not in stock"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Substitution allowed - brand drug dispensed as a generic"/>
     <definition value="Substitution allowed - brand drug dispensed as a generic"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="Substitution not allowed - brand drug mandated by law"/>
     <definition value="Substitution not allowed - brand drug mandated by law"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>

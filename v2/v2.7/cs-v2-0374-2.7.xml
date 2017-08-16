@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0374 (System Induced Contaminants)"/>
+  <description value="Code system of concepts that identify the specimen contaminant identifier associated with the specimen in the container.  Used in the Interaction Specimen Container Detail (SAC) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0374 (System Induced Contaminants, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0374-2.7"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="CNTM"/>
     <display value="Present, type of contamination unspecified"/>
     <definition value="Present, type of contamination unspecified"/>

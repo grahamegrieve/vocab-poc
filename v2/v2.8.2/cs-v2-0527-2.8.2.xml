@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0527 (Calendar Alignment)"/>
+  <description value="HL7-defined code system of concepts used to specify an alignment of the repetition to a calendar (e.g., to distinguish every 30 days from &quot;the 5th of every month&quot;).  Used in HL7 Version 2 messaging in the RPT segment."/>
+  <purpose value="Underlying Code System for V2 table 0527 (Calendar Alignment, version 2.8.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0527-2.8.2"/>
@@ -40,42 +41,42 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="MY"/>
     <display value="month of the year"/>
     <definition value="month of the year"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="WY"/>
     <display value="week of the year"/>
     <definition value="week of the year"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="DM"/>
     <display value="day of the month"/>
     <definition value="day of the month"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="DY"/>
     <display value="day of the year"/>
     <definition value="day of the year"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="DW"/>
     <display value="day of the week (begins with Monday)"/>
     <definition value="day of the week (begins with Monday)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="HD"/>
     <display value="hour of the day"/>
     <definition value="hour of the day"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="NH"/>
     <display value="minute of the hour"/>
     <definition value="minute of the hour"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="SN"/>
     <display value="second of the minute"/>
     <definition value="second of the minute"/>

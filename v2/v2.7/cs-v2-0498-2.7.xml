@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0498 (Consent Status)"/>
+  <description value="HL7-code system of concepts specifying whether the consent has been sought and granted.  Used in HL7 Version 2.x messaging in the TXA and CON segments."/>
+  <purpose value="Underlying Code System for V2 table 0498 (Consent Status, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0498-2.7"/>
@@ -40,32 +41,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Active - Consent has been granted"/>
     <definition value="Active - Consent has been granted"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="L"/>
     <display value="Limited - Consent has been granted with limitations"/>
     <definition value="Limited - Consent has been granted with limitations"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="R"/>
     <display value="Refused - Consent has been refused"/>
     <definition value="Refused - Consent has been refused"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="P"/>
     <display value="Pending - Consent has not yet been sought"/>
     <definition value="Pending - Consent has not yet been sought"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="X"/>
     <display value="Rescinded - Consent was initially granted, but was subsequently revoked or ended."/>
     <definition value="Rescinded - Consent was initially granted, but was subsequently revoked or ended."/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="B"/>
     <display value="Bypassed (Consent not sought)"/>
     <definition value="Bypassed (Consent not sought)"/>

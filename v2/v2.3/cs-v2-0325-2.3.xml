@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0325 (Location Relationship ID)"/>
+  <description value="Code system of concepts specifying an identifier code to show which relationship is being communicated with the segment.  Used in HL7 Version 2.x messaging in the Location Relationship (LRL) segment."/>
+  <purpose value="Underlying Code System for V2 table 0325 (Location Relationship ID, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0325-2.3"/>
@@ -31,37 +32,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="ALI"/>
     <display value="Location alias(es)"/>
     <definition value="Location alias(es)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DTY"/>
     <display value="Nearest Dietary"/>
     <definition value="Nearest Dietary"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="LAB"/>
     <display value="Nearest Lab"/>
     <definition value="Nearest Lab"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="LB2"/>
     <display value="Second Lab"/>
     <definition value="Second Lab"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PAR"/>
     <display value="Parent location"/>
     <definition value="Parent location"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="RX"/>
     <display value="Nearest Pharmacy"/>
     <definition value="Nearest Pharmacy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="RX2"/>
     <display value="Second Pharmacy"/>
     <definition value="Second Pharmacy"/>

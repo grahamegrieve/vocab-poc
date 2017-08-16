@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0924 (Cumulative Dosage Limit UoM)"/>
+  <description value="Code system of concepts specifying the unit of measure (UoM) for the cumulative dosage limit.  Used in HL7 Version 2.x messaging in the CDO segment."/>
+  <purpose value="Underlying Code System for V2 table 0924 (Cumulative Dosage Limit UoM, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0924-2.9"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Annual"/>
     <definition value="Annual"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="D"/>
     <display value="Per Day"/>
     <definition value="Per Day"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Per Month"/>
     <definition value="Per Month"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Not from UCUM"/>
     </extension>
@@ -63,7 +64,7 @@
     <display value="Duration of the Order"/>
     <definition value="Duration of the Order"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Not fromUCUM"/>
     </extension>
@@ -71,7 +72,7 @@
     <display value="Patients Lifetime"/>
     <definition value="Patients Lifetime"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="WK"/>
     <display value="Per Week"/>
     <definition value="Per Week"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0371 (Additive/Preservative)"/>
+  <description value="HL7-defined code system of concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in HL7 Version 2.x messaging in the SPM and SAC segments."/>
+  <purpose value="Underlying Code System for V2 table 0371 (Additive/Preservative, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0371-2.8"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Tissue preservative"/>
     </extension>
@@ -48,7 +49,7 @@
     <display value="10% Formalin"/>
     <definition value="10% Formalin"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Blue top tube"/>
     </extension>
@@ -56,7 +57,7 @@
     <display value="3.2%  Citrate"/>
     <definition value="3.2%  Citrate"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Blue top tube"/>
     </extension>
@@ -64,7 +65,7 @@
     <display value="3.8% Citrate"/>
     <definition value="3.8% Citrate"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="24 HR Urine Additive"/>
     </extension>
@@ -72,7 +73,7 @@
     <display value="6N HCL"/>
     <definition value="6N HCL"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Yellow top tube"/>
     </extension>
@@ -80,7 +81,7 @@
     <display value="ACD Solution A"/>
     <definition value="ACD Solution A"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Yellow top tube"/>
     </extension>
@@ -88,7 +89,7 @@
     <display value="ACD Solution B"/>
     <definition value="ACD Solution B"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Urine preservative"/>
     </extension>
@@ -96,7 +97,7 @@
     <display value="Acetic Acid"/>
     <definition value="Acetic Acid"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Protozoa"/>
     </extension>
@@ -104,7 +105,7 @@
     <display value="Amies transport medium"/>
     <definition value="Amies transport medium"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Green top tube"/>
     </extension>
@@ -112,7 +113,7 @@
     <display value="Ammonium heparin"/>
     <definition value="Ammonium heparin"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Microbiological culture"/>
     </extension>
@@ -120,7 +121,7 @@
     <display value="Bacterial Transport medium"/>
     <definition value="Bacterial Transport medium"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="24HR Urine Additive"/>
     </extension>
@@ -128,7 +129,7 @@
     <display value="Borate Boric Acid"/>
     <definition value="Borate Boric Acid"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Tissue"/>
     </extension>
@@ -136,7 +137,7 @@
     <display value="Bouin&#39;s solution"/>
     <definition value="Bouin&#39;s solution"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Tissue"/>
     </extension>
@@ -144,7 +145,7 @@
     <display value="Buffered 10% formalin"/>
     <definition value="Buffered 10% formalin"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Black top tube"/>
     </extension>
@@ -152,7 +153,7 @@
     <display value="Buffered Citrate (Westergren Sedimentation Rate)"/>
     <definition value="Buffered Citrate (Westergren Sedimentation Rate)"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Viral isolation"/>
     </extension>
@@ -160,7 +161,7 @@
     <display value="Buffered skim milk"/>
     <definition value="Buffered skim milk"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Tissue"/>
     </extension>
@@ -168,7 +169,7 @@
     <display value="Carson&#39;s Modified 10% formalin"/>
     <definition value="Carson&#39;s Modified 10% formalin"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Stool Cultures"/>
     </extension>
@@ -176,7 +177,7 @@
     <display value="Cary Blair Medium"/>
     <definition value="Cary Blair Medium"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Chlamydia culture"/>
     </extension>
@@ -184,7 +185,7 @@
     <display value="Chlamydia transport medium"/>
     <definition value="Chlamydia transport medium"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Blue top tube"/>
     </extension>
@@ -192,7 +193,7 @@
     <display value="CTAD (this should be spelled out if not universally understood)"/>
     <definition value="CTAD (this should be spelled out if not universally understood)"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Bacterial culture"/>
     </extension>
@@ -200,7 +201,7 @@
     <display value="Enteric bacteria transport medium"/>
     <definition value="Enteric bacteria transport medium"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Stool Cultures"/>
     </extension>
@@ -208,7 +209,7 @@
     <display value="Enteric plus"/>
     <definition value="Enteric plus"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Bordetella pertussis"/>
     </extension>
@@ -216,7 +217,7 @@
     <display value="Jones Kendrick Medium"/>
     <definition value="Jones Kendrick Medium"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Tissue"/>
     </extension>
@@ -224,7 +225,7 @@
     <display value="Karnovsky&#39;s fixative"/>
     <definition value="Karnovsky&#39;s fixative"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Gray top tube"/>
     </extension>
@@ -232,7 +233,7 @@
     <display value="Lithium iodoacetate"/>
     <definition value="Lithium iodoacetate"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Green top tube"/>
     </extension>
@@ -240,7 +241,7 @@
     <display value="Lithium/Li  Heparin"/>
     <definition value="Lithium/Li  Heparin"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Microbiological culture"/>
     </extension>
@@ -248,7 +249,7 @@
     <display value="M4"/>
     <definition value="M4"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Microbiological culture"/>
     </extension>
@@ -256,7 +257,7 @@
     <display value="M4-RT"/>
     <definition value="M4-RT"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Microbiological culture"/>
     </extension>
@@ -264,7 +265,7 @@
     <display value="M5"/>
     <definition value="M5"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="IF tests"/>
     </extension>
@@ -272,7 +273,7 @@
     <display value="Michel&#39;s transport medium"/>
     <definition value="Michel&#39;s transport medium"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Immunofluorescence"/>
     </extension>
@@ -280,7 +281,7 @@
     <display value="MMD transport medium"/>
     <definition value="MMD transport medium"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Urine"/>
     </extension>
@@ -288,7 +289,7 @@
     <display value="Nitric Acid"/>
     <definition value="Nitric Acid"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Red or Pink top tube"/>
     </extension>
@@ -296,7 +297,7 @@
     <display value="None"/>
     <definition value="None"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Acanthaoemba"/>
     </extension>
@@ -304,7 +305,7 @@
     <display value="Pages&#39;s Saline"/>
     <definition value="Pages&#39;s Saline"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="24 Hr Urine Additive"/>
     </extension>
@@ -312,7 +313,7 @@
     <display value="Phenol"/>
     <definition value="Phenol"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Gray top tube"/>
     </extension>
@@ -320,7 +321,7 @@
     <display value="Potassium Oxalate"/>
     <definition value="Potassium Oxalate"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated. Replaced by EDTK15 and EDTK75"/>
     </extension>
@@ -328,7 +329,7 @@
     <display value="Potassium/K EDTA"/>
     <definition value="Potassium/K EDTA"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Purple top tube"/>
     </extension>
@@ -336,7 +337,7 @@
     <display value="Potassium/K EDTA 15%"/>
     <definition value="Potassium/K EDTA 15%"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Purple top tube"/>
     </extension>
@@ -344,7 +345,7 @@
     <display value="Potassium/K EDTA 7.5%"/>
     <definition value="Potassium/K EDTA 7.5%"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="O&amp;P"/>
     </extension>
@@ -352,7 +353,7 @@
     <display value="PVA (polyvinylalcohol)"/>
     <definition value="PVA (polyvinylalcohol)"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Bordetella pertussis cultures"/>
     </extension>
@@ -360,7 +361,7 @@
     <display value="Reagan Lowe Medium"/>
     <definition value="Reagan Lowe Medium"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="&#39;Tiger&#39; Top tube"/>
     </extension>
@@ -368,7 +369,7 @@
     <display value="Serum Separator Tube (Polymer Gel)"/>
     <definition value="Serum Separator Tube (Polymer Gel)"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Gray top tube"/>
     </extension>
@@ -376,7 +377,7 @@
     <display value="Siliceous earth, 12 mg"/>
     <definition value="Siliceous earth, 12 mg"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Gray top tube"/>
     </extension>
@@ -384,7 +385,7 @@
     <display value="Sodium Fluoride"/>
     <definition value="Sodium Fluoride"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Urine"/>
     </extension>
@@ -392,7 +393,7 @@
     <display value="Sodium Fluoride, 100mg"/>
     <definition value="Sodium Fluoride, 100mg"/>
   </concept>
-  <concept>
+  <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Urine"/>
     </extension>
@@ -400,7 +401,7 @@
     <display value="Sodium Fluoride, 10mg"/>
     <definition value="Sodium Fluoride, 10mg"/>
   </concept>
-  <concept>
+  <concept id="46">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Yellow (Blood Culture)"/>
     </extension>
@@ -408,7 +409,7 @@
     <display value="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"/>
     <definition value="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"/>
   </concept>
-  <concept>
+  <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Green top tube"/>
     </extension>
@@ -416,7 +417,7 @@
     <display value="Sodium/Na  Heparin"/>
     <definition value="Sodium/Na  Heparin"/>
   </concept>
-  <concept>
+  <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Dark Blue top tube"/>
     </extension>
@@ -424,7 +425,7 @@
     <display value="Sodium/Na EDTA"/>
     <definition value="Sodium/Na EDTA"/>
   </concept>
-  <concept>
+  <concept id="49">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Anticoagulant w/o bacteriocidal properties"/>
     </extension>
@@ -432,7 +433,7 @@
     <display value="SPS(this should be spelled out if not universally understood)"/>
     <definition value="SPS(this should be spelled out if not universally understood)"/>
   </concept>
-  <concept>
+  <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Bacterial culture"/>
     </extension>
@@ -440,7 +441,7 @@
     <display value="Stuart transport medium"/>
     <definition value="Stuart transport medium"/>
   </concept>
-  <concept>
+  <concept id="51">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Orange or Grey/Yellow (STAT Chem)"/>
     </extension>
@@ -448,7 +449,7 @@
     <display value="Thrombin"/>
     <definition value="Thrombin"/>
   </concept>
-  <concept>
+  <concept id="52">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Dark Blue top tube"/>
     </extension>
@@ -456,7 +457,7 @@
     <display value="Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)"/>
     <definition value="Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)"/>
   </concept>
-  <concept>
+  <concept id="53">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="24 Hr Urine Additive"/>
     </extension>
@@ -464,7 +465,7 @@
     <display value="Thymol"/>
     <definition value="Thymol"/>
   </concept>
-  <concept>
+  <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Bacterial Isolation"/>
     </extension>
@@ -472,7 +473,7 @@
     <display value="Thyoglycollate broth"/>
     <definition value="Thyoglycollate broth"/>
   </concept>
-  <concept>
+  <concept id="55">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="24 Hr Urine Additive"/>
     </extension>
@@ -480,7 +481,7 @@
     <display value="Toluene"/>
     <definition value="Toluene"/>
   </concept>
-  <concept>
+  <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Ureaplasma culture"/>
     </extension>
@@ -488,7 +489,7 @@
     <display value="Ureaplasma transport medium"/>
     <definition value="Ureaplasma transport medium"/>
   </concept>
-  <concept>
+  <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Virus cultures"/>
     </extension>

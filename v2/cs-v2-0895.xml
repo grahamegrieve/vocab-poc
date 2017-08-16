@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0895"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.6.301.11"/>
+    <value value="urn:oid:2.16.840.1.113883.6.301.11">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="nubc-PresentOnAdmission-cs"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0895"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0895 (Present On Admission (POA) Indicator)"/>
+  <description value="National Uniform Billing Committee (NUBC) UB-04 Data Specifications Manual, UB form locator 67, Present on Admission (POA) Indicator. Code identifying a diagnosis that  was present at the time the order for inpatient admission occurs. POA indicator is assigned to all diagnoses as defined in Appendix I of the &quot;ICD-9-CM Official Guidelines for Coding and Reporting&quot; or &quot;ICD-10-CM Official Guidelines for Coding and Reporting (appropriate to the ICD revision used).&#xD;&#xA; &#xD;&#xA;The UB-04 Data Specifications Manual with the codes is available by subscription from NUBC at http://www.nubc.org/become.html.  Used in HL7 Version 2.x messaging in the DG1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0895 (Present On Admission (POA) Indicator)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0895"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Yes"/>
     <definition value="Yes"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="No"/>
     <definition value="No"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Unknown"/>
     <definition value="Unknown"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Not applicable"/>
     <definition value="Not applicable"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>

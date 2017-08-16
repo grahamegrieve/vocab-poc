@@ -31,7 +31,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0910 (Acquisition Modality)"/>
+  <description value="Acquisition Modality"/>
+  <purpose value="Underlying Code System for V2 table 0910 (Acquisition Modality, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0910-2.7"/>
@@ -39,7 +40,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="..."/>
     <display value="Acquisition Modality codes, Context Group 29, Digital Imaging and Communications in Medicine (DICOM) - Part 16: Content Mapping Resource (PS3.16), available free at http://dicom.nema.org"/>
     <definition value="Acquisition Modality codes, Context Group 29, Digital Imaging and Communications in Medicine (DICOM) - Part 16: Content Mapping Resource (PS3.16), available free at http://dicom.nema.org"/>

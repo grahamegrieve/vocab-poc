@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0265 (Specialty Type)"/>
+  <description value="Code system of concepts used to identify the specialty of the care professional who is supported when using this location definition.  Used in HL7 Version 2.x messaging in the LDP segment."/>
+  <purpose value="Underlying Code System for V2 table 0265 (Specialty Type, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0265-2.6"/>
@@ -37,132 +38,132 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AMB"/>
     <display value="Ambulatory"/>
     <definition value="Ambulatory"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="PSY"/>
     <display value="Psychiatric"/>
     <definition value="Psychiatric"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="PPS"/>
     <display value="Pediatric psychiatric"/>
     <definition value="Pediatric psychiatric"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="REH"/>
     <display value="Rehabilitation"/>
     <definition value="Rehabilitation"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="PRE"/>
     <display value="Pediatric rehabilitation"/>
     <definition value="Pediatric rehabilitation"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="ISO"/>
     <display value="Isolation"/>
     <definition value="Isolation"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="OBG"/>
     <display value="Obstetrics, gynecology"/>
     <definition value="Obstetrics, gynecology"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="PIN"/>
     <display value="Pediatric/neonatal intensive care"/>
     <definition value="Pediatric/neonatal intensive care"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="INT"/>
     <display value="Intensive care"/>
     <definition value="Intensive care"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="SUR"/>
     <display value="Surgery"/>
     <definition value="Surgery"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="PSI"/>
     <display value="Psychiatric intensive care"/>
     <definition value="Psychiatric intensive care"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="EDI"/>
     <display value="Education"/>
     <definition value="Education"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="CAR"/>
     <display value="Coronary/cardiac care"/>
     <definition value="Coronary/cardiac care"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="NBI"/>
     <display value="Newborn, nursery, infants"/>
     <definition value="Newborn, nursery, infants"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="CCR"/>
     <display value="Critical care"/>
     <definition value="Critical care"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="PED"/>
     <display value="Pediatrics"/>
     <definition value="Pediatrics"/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="EMR"/>
     <display value="Emergency"/>
     <definition value="Emergency"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="OBS"/>
     <display value="Observation"/>
     <definition value="Observation"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="WIC"/>
     <display value="Walk-in clinic"/>
     <definition value="Walk-in clinic"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="PHY"/>
     <display value="General/family practice"/>
     <definition value="General/family practice"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="ALC"/>
     <display value="Allergy"/>
     <definition value="Allergy"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="FPC"/>
     <display value="Family planning"/>
     <definition value="Family planning"/>
   </concept>
-  <concept>
+  <concept id="23">
     <code value="CHI"/>
     <display value="Chiropractic"/>
     <definition value="Chiropractic"/>
   </concept>
-  <concept>
+  <concept id="24">
     <code value="CAN"/>
     <display value="Cancer"/>
     <definition value="Cancer"/>
   </concept>
-  <concept>
+  <concept id="25">
     <code value="NAT"/>
     <display value="Naturopathic"/>
     <definition value="Naturopathic"/>
   </concept>
-  <concept>
+  <concept id="26">
     <code value="OTH"/>
     <display value="Other specialty"/>
     <definition value="Other specialty"/>

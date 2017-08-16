@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0355 (Primary Key Value Type)"/>
+  <description value="HL7-defined code system of concepts used to specify the type for the master file record identifier.  Used in HL7 Version 2.x messaging in the Master File Entry (MFE) segment."/>
+  <purpose value="Underlying Code System for V2 table 0355 (Primary Key Value Type, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0355-2.6"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="PL"/>
     <display value="Person location"/>
     <definition value="Person location"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="CE"/>
     <display value="Coded element"/>
     <definition value="Coded element"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CWE"/>
     <display value="Coded with Exceptions"/>
     <definition value="Coded with Exceptions"/>

@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0247"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.143"/>
+    <value value="urn:oid:2.16.840.1.113883.18.143">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="statusOfEvaluation"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0247"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0247 (Status of Evaluation)"/>
+  <description value="HL7-defined code system of concepts that describes the status of product evaluation.  Used in HL7 Version 2.x messaging in the PCR segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0247 (Status of Evaluation)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0247"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Evaluation completed"/>
     <definition value="Evaluation completed"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Evaluation in progress"/>
     <definition value="Evaluation in progress"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Problem already known, no evaluation necessary"/>
     <definition value="Problem already known, no evaluation necessary"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Product not made by company"/>
     <definition value="Product not made by company"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Evaluation anticipated, but not yet begun"/>
     <definition value="Evaluation anticipated, but not yet begun"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Product discarded -- unable to follow up"/>
     <definition value="Product discarded -- unable to follow up"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Product received in condition which made analysis impossible"/>
     <definition value="Product received in condition which made analysis impossible"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Product remains implanted -- unable to follow up"/>
     <definition value="Product remains implanted -- unable to follow up"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Product unavailable for follow up investigation"/>
     <definition value="Product unavailable for follow up investigation"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="Product under quarantine -- unable to follow up"/>
     <definition value="Product under quarantine -- unable to follow up"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Product under recall/corrective action"/>
     <definition value="Product under recall/corrective action"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

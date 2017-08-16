@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0324"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.197"/>
+    <value value="urn:oid:2.16.840.1.113883.18.197">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="locationCharacteristic"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0324"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0324 (Location Characteristic ID)"/>
+  <description value="Code system of concepts specifying an identifier code to show which characteristic is being communicated with the segment.  Used in HL7 Version 2.x messaging in the Location Characteristic (LCH) segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0324 (Location Characteristic ID)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0324"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Smoking"/>
     <definition value="Smoking"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Licensed"/>
     <definition value="Licensed"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Implant: can be used for radiation implant patients"/>
     <definition value="Implant: can be used for radiation implant patients"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Shadow: a temporary holding location that does not physically exist"/>
     <definition value="Shadow: a temporary holding location that does not physically exist"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Infectious disease: this location can be used for isolation"/>
     <definition value="Infectious disease: this location can be used for isolation"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Privacy level: indicating the level of private versus non-private room"/>
     <definition value="Privacy level: indicating the level of private versus non-private room"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Level of care"/>
     <definition value="Level of care"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Overflow"/>
     <definition value="Overflow"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Bed is staffed"/>
     <definition value="Bed is staffed"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="Bed is set up"/>
     <definition value="Bed is set up"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Gender of patient(s)"/>
     <definition value="Gender of patient(s)"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

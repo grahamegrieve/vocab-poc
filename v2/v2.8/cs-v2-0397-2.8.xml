@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0397 (Sequencing)"/>
+  <description value="HL7-defined code system of concepts identifying how the field or parameter will be sorted and, if sorted, whether the sort will be case sensitive (the default) or not.  Used in HL7 Version 2.x messaging in the Sort Order (SRT) value."/>
+  <purpose value="Underlying Code System for V2 table 0397 (Sequencing, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0397-2.8"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Ascending"/>
     <definition value="Ascending"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AN"/>
     <display value="Ascending, case insensitive"/>
     <definition value="Ascending, case insensitive"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="D"/>
     <display value="Descending"/>
     <definition value="Descending"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="DN"/>
     <display value="Descending, case insensitive"/>
     <definition value="Descending, case insensitive"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="N"/>
     <display value="None"/>
     <definition value="None"/>

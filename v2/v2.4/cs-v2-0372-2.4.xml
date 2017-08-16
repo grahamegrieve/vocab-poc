@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0372 (Specimen Component)"/>
+  <description value="Code system of concepts that identify the specimen component, e.g., supernatant, sediment, etc.  Used in the Interaction Specimen Container Detail (SAC) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0372 (Specimen Component, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0372-2.4"/>
@@ -34,42 +35,42 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="SUP"/>
     <display value="Supernatant"/>
     <definition value="Supernatant"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="SED"/>
     <display value="Sediment"/>
     <definition value="Sediment"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="BLD"/>
     <display value="Whole blood, homogeneous"/>
     <definition value="Whole blood, homogeneous"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="BSEP"/>
     <display value="Whole blood, separated"/>
     <definition value="Whole blood, separated"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="PRP"/>
     <display value="Platelet rich plasma"/>
     <definition value="Platelet rich plasma"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="PPP"/>
     <display value="Platelet poor plasma"/>
     <definition value="Platelet poor plasma"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="SER"/>
     <display value="Serum, NOS (not otherwise specified)"/>
     <definition value="Serum, NOS (not otherwise specified)"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="PLAS"/>
     <display value="Plasma, NOS (not otherwise specified)"/>
     <definition value="Plasma, NOS (not otherwise specified)"/>

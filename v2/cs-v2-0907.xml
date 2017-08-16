@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0907"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.418"/>
+    <value value="urn:oid:2.16.840.1.113883.18.418">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="confidentiality"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0907"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0907 (Confidentiality)"/>
+  <description value="HL7-defined code system of concepts specifying the confidentiality for the shipment.  Used in HL7 Version 2.x messaging in the SHP segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0907 (Confidentiality)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0907"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Business - Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality.  However, no patient related inf"/>
     <definition value="Business - Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality.  However, no patient related inf"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Clinician - Only clinicians may see this item, billing and administration persons can not access this item without special permission."/>
     <definition value="Clinician - Only clinicians may see this item, billing and administration persons can not access this item without special permission."/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Individual - Access only to individual persons who are mentioned explicitly as actors of this service and whose actor type warrants that access (cf. to actor typed code)."/>
     <definition value="Individual - Access only to individual persons who are mentioned explicitly as actors of this service and whose actor type warrants that access (cf. to actor typed code)."/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Low - No patient record item can be of low confidentiality.  However, some service objects are not patient related and therefore may have low confidentiality."/>
     <definition value="Low - No patient record item can be of low confidentiality.  However, some service objects are not patient related and therefore may have low confidentiality."/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Normal - Normal confidentiality rules (according to good health care practice) apply, that is, only authorized individuals with a legitimate medical or business need may access this item."/>
     <definition value="Normal - Normal confidentiality rules (according to good health care practice) apply, that is, only authorized individuals with a legitimate medical or business need may access this item."/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Restricted - Restricted access, e.g. only to providers having a current care relationship to the patient."/>
     <definition value="Restricted - Restricted access, e.g. only to providers having a current care relationship to the patient."/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Very restricted - Very restricted access as declared by the Privacy Officer of the record holder."/>
     <definition value="Very restricted - Very restricted access as declared by the Privacy Officer of the record holder."/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Substance abuse related - Alcohol/drug-abuse related item"/>
     <definition value="Substance abuse related - Alcohol/drug-abuse related item"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="HIV Related - HIV and AIDS related item"/>
     <definition value="HIV Related - HIV and AIDS related item"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="Psychiatry related - Psychiatry related item"/>
     <definition value="Psychiatry related - Psychiatry related item"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Sexual and domestic violence related - Sexual assault / domestic violence related item"/>
     <definition value="Sexual and domestic violence related - Sexual assault / domestic violence related item"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -127,7 +132,7 @@
     <display value="Celebrity - Celebrities are people of public interest (VIP) including employees, whose information require special protection."/>
     <definition value="Celebrity - Celebrities are people of public interest (VIP) including employees, whose information require special protection."/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -135,7 +140,7 @@
     <display value="Sensitive - Information for which the patient seeks heightened confidentiality.  Sensitive information is not to be shared with family members.  Information reported by the patient about family members is sensitive by default.  Flag can be set or cleared "/>
     <definition value="Sensitive - Information for which the patient seeks heightened confidentiality.  Sensitive information is not to be shared with family members.  Information reported by the patient about family members is sensitive by default.  Flag can be set or cleared "/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>

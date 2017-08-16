@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0145 (Room Type)"/>
+  <description value="Code system of concepts  which specify the room type.  Used in HL7 Version 2.x messaging in the RMC segment."/>
+  <purpose value="Underlying Code System for V2 table 0145 (Room Type, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0145-2.5.1"/>
@@ -37,32 +38,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="PRI"/>
     <display value="Private room"/>
     <definition value="Private room"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2PRI"/>
     <display value="Second private room"/>
     <definition value="Second private room"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="SPR"/>
     <display value="Semi-private room"/>
     <definition value="Semi-private room"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="2SPR"/>
     <display value="Second semi-private room"/>
     <definition value="Second semi-private room"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="ICU"/>
     <display value="Intensive care unit"/>
     <definition value="Intensive care unit"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="2ICU"/>
     <display value="Second intensive care unit"/>
     <definition value="Second intensive care unit"/>

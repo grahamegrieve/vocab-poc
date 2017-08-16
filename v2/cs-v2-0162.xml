@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0162"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.80"/>
+    <value value="urn:oid:2.16.840.1.113883.18.80">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="routeOfAdministration"/>
+      </extension>
+    </value>
   </identifier>
   <version value="4"/>
   <name value="V2Table0162"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0162 (Route of Administration)"/>
+  <description value="Code system of concepts  which specify the route of administration.  Used in HL7 Version 2.x messaging in the RXR segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0162 (Route of Administration)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0162"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Apply Externally"/>
     <definition value="Apply Externally"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Buccal"/>
     <definition value="Buccal"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Dental"/>
     <definition value="Dental"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Epidural"/>
     <definition value="Epidural"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="used primarily for respiratory therapy and anesthesia delivery"/>
     </extension>
@@ -74,7 +79,7 @@
     <display value="Endotrachial Tube"/>
     <definition value="Endotrachial Tube"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -82,7 +87,7 @@
     <display value="Gastrostomy Tube"/>
     <definition value="Gastrostomy Tube"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -90,7 +95,7 @@
     <display value="GU Irrigant"/>
     <definition value="GU Irrigant"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -98,7 +103,7 @@
     <display value="Immerse (Soak) Body Part"/>
     <definition value="Immerse (Soak) Body Part"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -106,7 +111,7 @@
     <display value="Intra-arterial"/>
     <definition value="Intra-arterial"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -114,7 +119,7 @@
     <display value="Intrabursal"/>
     <definition value="Intrabursal"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -122,7 +127,7 @@
     <display value="Intracardiac"/>
     <definition value="Intracardiac"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -130,7 +135,7 @@
     <display value="Intracervical (uterus)"/>
     <definition value="Intracervical (uterus)"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -138,7 +143,7 @@
     <display value="Intradermal"/>
     <definition value="Intradermal"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -146,7 +151,7 @@
     <display value="Inhalation"/>
     <definition value="Inhalation"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -154,7 +159,7 @@
     <display value="Intrahepatic Artery"/>
     <definition value="Intrahepatic Artery"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -162,7 +167,7 @@
     <display value="Intramuscular"/>
     <definition value="Intramuscular"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -170,7 +175,7 @@
     <display value="Intranasal"/>
     <definition value="Intranasal"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -178,7 +183,7 @@
     <display value="Intraocular"/>
     <definition value="Intraocular"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -186,7 +191,7 @@
     <display value="Intraperitoneal"/>
     <definition value="Intraperitoneal"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -194,7 +199,7 @@
     <display value="Intrasynovial"/>
     <definition value="Intrasynovial"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -202,7 +207,7 @@
     <display value="Intrathecal"/>
     <definition value="Intrathecal"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -210,7 +215,7 @@
     <display value="Intrauterine"/>
     <definition value="Intrauterine"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -218,7 +223,7 @@
     <display value="Intravenous"/>
     <definition value="Intravenous"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -226,7 +231,7 @@
     <display value="Mouth/Throat"/>
     <definition value="Mouth/Throat"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -234,7 +239,7 @@
     <display value="Mucous Membrane"/>
     <definition value="Mucous Membrane"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -242,7 +247,7 @@
     <display value="Nasal"/>
     <definition value="Nasal"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -250,7 +255,7 @@
     <display value="Nasogastric"/>
     <definition value="Nasogastric"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="used primarily for respiratory therapy and anesthesia delivery"/>
     </extension>
@@ -261,7 +266,7 @@
     <display value="Nasal Prongs"/>
     <definition value="Nasal Prongs"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -269,7 +274,7 @@
     <display value="Nasotrachial Tube"/>
     <definition value="Nasotrachial Tube"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -277,7 +282,7 @@
     <display value="Ophthalmic"/>
     <definition value="Ophthalmic"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -285,7 +290,7 @@
     <display value="Otic"/>
     <definition value="Otic"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -293,7 +298,7 @@
     <display value="Other/Miscellaneous"/>
     <definition value="Other/Miscellaneous"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -301,7 +306,7 @@
     <display value="Perfusion"/>
     <definition value="Perfusion"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -309,7 +314,7 @@
     <display value="Oral"/>
     <definition value="Oral"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -317,7 +322,7 @@
     <display value="Rectal"/>
     <definition value="Rectal"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="used primarily for respiratory therapy and anesthesia delivery"/>
     </extension>
@@ -328,7 +333,7 @@
     <display value="Rebreather Mask"/>
     <definition value="Rebreather Mask"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -336,7 +341,7 @@
     <display value="Soaked Dressing"/>
     <definition value="Soaked Dressing"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -344,7 +349,7 @@
     <display value="Subcutaneous"/>
     <definition value="Subcutaneous"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -352,7 +357,7 @@
     <display value="Sublingual"/>
     <definition value="Sublingual"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -360,7 +365,7 @@
     <display value="Topical"/>
     <definition value="Topical"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="used primarily for respiratory therapy and anesthesia delivery"/>
     </extension>
@@ -371,7 +376,7 @@
     <display value="Tracheostomy"/>
     <definition value="Tracheostomy"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -379,7 +384,7 @@
     <display value="Transdermal"/>
     <definition value="Transdermal"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -387,7 +392,7 @@
     <display value="Translingual"/>
     <definition value="Translingual"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -395,7 +400,7 @@
     <display value="Urethral"/>
     <definition value="Urethral"/>
   </concept>
-  <concept>
+  <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -403,7 +408,7 @@
     <display value="Vaginal"/>
     <definition value="Vaginal"/>
   </concept>
-  <concept>
+  <concept id="46">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -411,7 +416,7 @@
     <display value="Ventimask"/>
     <definition value="Ventimask"/>
   </concept>
-  <concept>
+  <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

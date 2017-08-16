@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0491 (Specimen Quality)"/>
+  <description value="Code system of concepts specifying the degree or grade of excellence of the specimen at receipt.  Used in HL7 Version 2.x messaging in the SPM segment."/>
+  <purpose value="Underlying Code System for V2 table 0491 (Specimen Quality, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0491-2.7.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="E"/>
     <display value="Excellent"/>
     <definition value="Excellent"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="G"/>
     <display value="Good"/>
     <definition value="Good"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="F"/>
     <display value="Fair"/>
     <definition value="Fair"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="P"/>
     <display value="Poor"/>
     <definition value="Poor"/>

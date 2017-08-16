@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0061 (Check Digit Scheme)"/>
+  <description value="HL7-defined code system of concepts specifying the check digit scheme employed.   Used in HL7 Version 2.x messaging in PPN, XCN and XON segments."/>
+  <purpose value="Underlying Code System for V2 table 0061 (Check Digit Scheme, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0061-2.1"/>
@@ -31,7 +32,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="M11"/>
     <display value="Mod 11 check digit scheme"/>
     <definition value="Mod 11 check digit scheme"/>

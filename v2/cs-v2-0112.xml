@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0112"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.438"/>
+    <value value="urn:oid:2.16.840.1.113883.18.438">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="dischargeDisposition"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0112"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0112 (Discharge Disposition)"/>
+  <description value="Code system of concepts which specify the disposition of the patient at time of discharge (i.e., discharged to home, expired, etc.).  Used in HL7 Version 2.x messaging in the PV1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0112 (Discharge Disposition)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0112"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Discharge to be defined at state level, if necessary 10"/>
     <definition value="Discharge to be defined at state level, if necessary 10"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Discharge to be defined at state level, if necessary 11"/>
     <definition value="Discharge to be defined at state level, if necessary 11"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Discharge to be defined at state level, if necessary 12"/>
     <definition value="Discharge to be defined at state level, if necessary 12"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Discharge to be defined at state level, if necessary 13"/>
     <definition value="Discharge to be defined at state level, if necessary 13"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Discharge to be defined at state level, if necessary 14"/>
     <definition value="Discharge to be defined at state level, if necessary 14"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Discharge to be defined at state level, if necessary 15"/>
     <definition value="Discharge to be defined at state level, if necessary 15"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Discharge to be defined at state level, if necessary 16"/>
     <definition value="Discharge to be defined at state level, if necessary 16"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Discharge to be defined at state level, if necessary 17"/>
     <definition value="Discharge to be defined at state level, if necessary 17"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -130,7 +135,7 @@
     <display value="Discharge to be defined at state level, if necessary 18"/>
     <definition value="Discharge to be defined at state level, if necessary 18"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -141,7 +146,7 @@
     <display value="Discharge to be defined at state level, if necessary 19"/>
     <definition value="Discharge to be defined at state level, if necessary 19"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -152,7 +157,7 @@
     <display value="Expired to be defined at state level, if necessary 21"/>
     <definition value="Expired to be defined at state level, if necessary 21"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -163,7 +168,7 @@
     <display value="Expired to be defined at state level, if necessary 22"/>
     <definition value="Expired to be defined at state level, if necessary 22"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -174,7 +179,7 @@
     <display value="Expired to be defined at state level, if necessary 23"/>
     <definition value="Expired to be defined at state level, if necessary 23"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -185,7 +190,7 @@
     <display value="Expired to be defined at state level, if necessary 24"/>
     <definition value="Expired to be defined at state level, if necessary 24"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -196,7 +201,7 @@
     <display value="Expired to be defined at state level, if necessary 25"/>
     <definition value="Expired to be defined at state level, if necessary 25"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -207,7 +212,7 @@
     <display value="Expired to be defined at state level, if necessary 26"/>
     <definition value="Expired to be defined at state level, if necessary 26"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -218,7 +223,7 @@
     <display value="Expired to be defined at state level, if necessary 27"/>
     <definition value="Expired to be defined at state level, if necessary 27"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -229,7 +234,7 @@
     <display value="Expired to be defined at state level, if necessary 28"/>
     <definition value="Expired to be defined at state level, if necessary 28"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -240,7 +245,7 @@
     <display value="Expired to be defined at state level, if necessary 29"/>
     <definition value="Expired to be defined at state level, if necessary 29"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -251,7 +256,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 31"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 31"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -262,7 +267,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 32"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 32"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -273,7 +278,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 33"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 33"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -284,7 +289,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 34"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 34"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -295,7 +300,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 35"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 35"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -306,7 +311,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 36"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 36"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -317,7 +322,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 37"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 37"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -328,7 +333,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 38"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 38"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -339,7 +344,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 39"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient) 39"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -350,7 +355,7 @@
     <display value="Discharged to home or self care (routine discharge)"/>
     <definition value="Discharged to home or self care (routine discharge)"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -358,7 +363,7 @@
     <display value="No suggested values defined"/>
     <definition value="No suggested values defined"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -369,7 +374,7 @@
     <display value="Discharged/transferred to another short term general hospital for inpatient care"/>
     <definition value="Discharged/transferred to another short term general hospital for inpatient care"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -380,7 +385,7 @@
     <display value="Discharged/transferred to skilled nursing facility (SNF)"/>
     <definition value="Discharged/transferred to skilled nursing facility (SNF)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -391,7 +396,7 @@
     <display value="Discharged/transferred to an intermediate care facility (ICF)"/>
     <definition value="Discharged/transferred to an intermediate care facility (ICF)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -402,7 +407,7 @@
     <display value="Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution"/>
     <definition value="Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -413,7 +418,7 @@
     <display value="Discharged/transferred to home under care of organized home health service organization"/>
     <definition value="Discharged/transferred to home under care of organized home health service organization"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -424,7 +429,7 @@
     <display value="Left against medical advice or discontinued care"/>
     <definition value="Left against medical advice or discontinued care"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -435,7 +440,7 @@
     <display value="Discharged/transferred to home under care of Home IV provider"/>
     <definition value="Discharged/transferred to home under care of Home IV provider"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -446,7 +451,7 @@
     <display value="Admitted as an inpatient to this hospital"/>
     <definition value="Admitted as an inpatient to this hospital"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -457,7 +462,7 @@
     <display value="Discharge to be defined at state level, if necessary"/>
     <definition value="Discharge to be defined at state level, if necessary"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -468,7 +473,7 @@
     <display value="Discharge to be defined at state level, if necessary"/>
     <definition value="Discharge to be defined at state level, if necessary"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -479,7 +484,7 @@
     <display value="Expired (i.e. dead)"/>
     <definition value="Expired (i.e. dead)"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -490,7 +495,7 @@
     <display value="Expired to be defined at state level, if necessary"/>
     <definition value="Expired to be defined at state level, if necessary"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -501,7 +506,7 @@
     <display value="Still patient or expected to return for outpatient services (i.e. still a patient)"/>
     <definition value="Still patient or expected to return for outpatient services (i.e. still a patient)"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -512,7 +517,7 @@
     <display value="Still patient to be defined at state level, if necessary  (i.e. still a patient)"/>
     <definition value="Still patient to be defined at state level, if necessary  (i.e. still a patient)"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -523,7 +528,7 @@
     <display value="Expired (i.e. died) at home"/>
     <definition value="Expired (i.e. died) at home"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -534,7 +539,7 @@
     <display value="Expired (i.e. died) in a medical facility; e.g., hospital, SNF, ICF, or free standing hospice"/>
     <definition value="Expired (i.e. died) in a medical facility; e.g., hospital, SNF, ICF, or free standing hospice"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>

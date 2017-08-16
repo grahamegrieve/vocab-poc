@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0516 (Error Severity)"/>
+  <description value="HL7-defined code system of concepts specifying the severity of an application error as reported during acknowledgment of messages. Knowing if something is Error, Warning or Information is intrinsic to how an application handles the content and the information flow.  Used in HL7 Version 2.x messaging acknowledgment in the ERR segment."/>
+  <purpose value="Underlying Code System for V2 table 0516 (Error Severity, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0516-2.6"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="W"/>
     <display value="Warning"/>
     <definition value="Warning"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="I"/>
     <display value="Information"/>
     <definition value="Information"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="E"/>
     <display value="Error"/>
     <definition value="Error"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="F"/>
     <display value="Fatal Error"/>
     <definition value="Fatal Error"/>

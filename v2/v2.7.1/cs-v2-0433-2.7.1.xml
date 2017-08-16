@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0433 (Precaution Code)"/>
+  <description value="Code system of concepts  specifying non-clincal precautions that need to be taken with the patient.  Used in HL7 Version 2.x messaging in the PV2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0433 (Precaution Code, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0433-2.7.1"/>
@@ -40,47 +41,47 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Aggressive"/>
     <definition value="Aggressive"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="B"/>
     <display value="Blind"/>
     <definition value="Blind"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="C"/>
     <display value="Confused"/>
     <definition value="Confused"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="D"/>
     <display value="Deaf"/>
     <definition value="Deaf"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="I"/>
     <display value="On IV"/>
     <definition value="On IV"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="N"/>
     <display value="Do not resuscitate"/>
     <definition value="Do not resuscitate"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="P"/>
     <display value="Paraplegic"/>
     <definition value="Paraplegic"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>

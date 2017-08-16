@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0206 (Segment Action Code)"/>
+  <description value="HL7-defined code system of concepts specifying actions to be applied for segments when an HL7 version 2 interface is operating in &quot;action code mode&quot; (a kind of update mode in the Standard).  Used in HL7 Version 2.x messaging in the RXA, RXV, LCH, IAM, ARV and IN1 segments."/>
+  <purpose value="Underlying Code System for V2 table 0206 (Segment Action Code, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0206-2.7.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Add/Insert"/>
     <definition value="Add/Insert"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="D"/>
     <display value="Delete"/>
     <definition value="Delete"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="U"/>
     <display value="Update"/>
     <definition value="Update"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="X"/>
     <display value="No change"/>
     <definition value="No change"/>

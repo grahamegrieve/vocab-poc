@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0659 (Lot Control)"/>
+  <description value="Code system of concepts that define whether the sterilization load for a device is built in the sub-sterile area adjacent to an Operating Room or the Central Processing Department. Used in HL7 Version 2.x messaging in the SCP segment."/>
+  <purpose value="Underlying Code System for V2 table 0659 (Lot Control, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0659-2.7.1"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="OR Mode Without Operator"/>
     <definition value="OR Mode Without Operator"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="OR Mode with Operator"/>
     <definition value="OR Mode with Operator"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="CPD Mode Without Operator"/>
     <definition value="CPD Mode Without Operator"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="CPD Mode With Operator"/>
     <definition value="CPD Mode With Operator"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="5"/>
     <display value="Offline Mode"/>
     <definition value="Offline Mode"/>

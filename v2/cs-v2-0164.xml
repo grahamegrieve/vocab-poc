@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0164"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.82"/>
+    <value value="urn:oid:2.16.840.1.113883.18.82">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="administrationDevice"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0164"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0164 (Administration Device)"/>
+  <description value="Code system of concepts  which specify the mechanical device used to aid in the administration of the drug or other treatment.  Common examples are IV-sets of different types.  Used in HL7 Version 2.x messaging in the RXR segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0164 (Administration Device)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0164"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Applicator"/>
     <definition value="Applicator"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Buretrol"/>
     <definition value="Buretrol"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Heparin Lock"/>
     <definition value="Heparin Lock"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="IPPB"/>
     <definition value="IPPB"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="IV Pump"/>
     <definition value="IV Pump"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="IV Soluset"/>
     <definition value="IV Soluset"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Metered Inhaler"/>
     <definition value="Metered Inhaler"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Nebulizer"/>
     <definition value="Nebulizer"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>

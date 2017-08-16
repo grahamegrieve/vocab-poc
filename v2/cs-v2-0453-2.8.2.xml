@@ -17,7 +17,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0453-2.8.2"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.288"/>
+    <value value="urn:oid:2.16.840.1.113883.18.288">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="healthCareProviderClassification"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0453"/>
@@ -32,7 +36,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0453 (Health Care Provider Classification)"/>
+  <description value="HL7-defined code system of concepts specifying the more specific service or occupation within the healthcare provider type of the practitioner at a specific organization unit. Used in HL7 Version 2.x messaging in the ORG segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0453 (Health Care Provider Classification)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0453-2.8.2"/>
@@ -40,7 +45,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="SUGGESTION"/>
     <display value="ANSI ASC X12 Health Care Provider Taxonomy, Level 2 -  Classification"/>
     <definition value="ANSI ASC X12 Health Care Provider Taxonomy, Level 2 -  Classification"/>

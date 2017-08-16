@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0027 (Priority)"/>
+  <description value="HL7-defined code system of concepts specifying the allowed priorities for obtaining the specimen.  Used in HL7 Version 2.x messaging in the OM4 segment."/>
+  <purpose value="Underlying Code System for V2 table 0027 (Priority, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0027-2.1"/>
@@ -31,17 +32,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="T"/>
     <display value="Timed collection"/>
     <definition value="Timed collection"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="A"/>
     <display value="ASAP. Fill after STAT orders."/>
     <definition value="ASAP. Fill after STAT orders."/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="S"/>
     <display value="Stat. Required immediately."/>
     <definition value="Stat. Required immediately."/>

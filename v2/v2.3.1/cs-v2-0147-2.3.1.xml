@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0147 (Policy Type)"/>
+  <description value="Code system of concepts which specify the policy type.  Used in HL7 Version 2.x messaging in the PTA segment."/>
+  <purpose value="Underlying Code System for V2 table 0147 (Policy Type, version 2.3.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0147-2.3.1"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ANC"/>
     <display value="Ancillary"/>
     <definition value="Ancillary"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2ANC"/>
     <display value="Second ancillary"/>
     <definition value="Second ancillary"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="MMD"/>
     <display value="Major medical"/>
     <definition value="Major medical"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="2MMD"/>
     <display value="Second major medical"/>
     <definition value="Second major medical"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="3MMD"/>
     <display value="Third major medical"/>
     <definition value="Third major medical"/>

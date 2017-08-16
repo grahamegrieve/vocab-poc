@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0135 (Assignment of benefits)"/>
+  <description value="Code system of concepts which indicate whether an insured person agreed to assign the insurance benefits to the healthcare provider.  If so, the insurance will pay the provider directly.  Used in HL7 Version 2.x messaging in the IN1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0135 (Assignment of benefits, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0135-2.9"/>
@@ -40,17 +41,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="Y"/>
     <display value="Yes"/>
     <definition value="Yes"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="N"/>
     <display value="No"/>
     <definition value="No"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Modified assignment"/>
     <definition value="Modified assignment"/>

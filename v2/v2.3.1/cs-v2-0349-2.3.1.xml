@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0349 (PSRO/UR Approval Indicator)"/>
+  <description value="HL7-defined code system of concepts for PSRO/UR approval indicators, as used in the UB82 field 87.  This field is defined by HCFA (in the US) or other regulatory agencies.  Note that this form type is no longer used in the US, and the  codes listed (as examples) are not an exhaustive or current list; refer to a UB84 specification for additional information.  Used in HL7 Version 2 messaging in UB82 segment."/>
+  <purpose value="Underlying Code System for V2 table 0349 (PSRO/UR Approval Indicator, version 2.3.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0349-2.3.1"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="Approved by the PSRO/UR as billed"/>
     <definition value="Approved by the PSRO/UR as billed"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="Automatic approval as billed based on focused review"/>
     <definition value="Automatic approval as billed based on focused review"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Partial approval"/>
     <definition value="Partial approval"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="Admission denied"/>
     <definition value="Admission denied"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="5"/>
     <display value="Postpayment review applicable"/>
     <definition value="Postpayment review applicable"/>

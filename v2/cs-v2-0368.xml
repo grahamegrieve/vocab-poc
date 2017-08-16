@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0368"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.226"/>
+    <value value="urn:oid:2.16.840.1.113883.18.226">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="remoteControlCommand"/>
+      </extension>
+    </value>
   </identifier>
   <version value="3"/>
   <name value="V2Table0368"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0368 (Remote Control Command)"/>
+  <description value="Code system of concepts that identify the comment the component is to initiate.  Used in the Equipment Command (ECD) and Interaction Status Detail (ISD) segments in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Master Code System for V2 table 0368 (Remote Control Command)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0368"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Sampling"/>
     <definition value="Sampling"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Load"/>
     <definition value="Load"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Unload"/>
     <definition value="Unload"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Lock"/>
     <definition value="Lock"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Unlock"/>
     <definition value="Unlock"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Transport To"/>
     <definition value="Transport To"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Clear Notification"/>
     <definition value="Clear Notification"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Initialize/Initiate"/>
     <definition value="Initialize/Initiate"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Setup"/>
     <definition value="Setup"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="Clear"/>
     <definition value="Clear"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Pause"/>
     <definition value="Pause"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -127,7 +132,7 @@
     <display value="Resume"/>
     <definition value="Resume"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -135,7 +140,7 @@
     <display value="Emergency -stop"/>
     <definition value="Emergency -stop"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -143,7 +148,7 @@
     <display value="Local Control Request"/>
     <definition value="Local Control Request"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -151,7 +156,7 @@
     <display value="Remote Control Request"/>
     <definition value="Remote Control Request"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -159,7 +164,7 @@
     <display value="Abort"/>
     <definition value="Abort"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -167,7 +172,7 @@
     <display value="Enable Sending Events"/>
     <definition value="Enable Sending Events"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -175,7 +180,7 @@
     <display value="Disable Sending Events"/>
     <definition value="Disable Sending Events"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -183,7 +188,7 @@
     <display value="Execute (command specified in field Parameters (ST) 01394)"/>
     <definition value="Execute (command specified in field Parameters (ST) 01394)"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="See desc. below"/>
     </extension>
@@ -194,7 +199,7 @@
     <display value="Aliquot From container"/>
     <definition value="Aliquot From container"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="See desc. below"/>
     </extension>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0103 (Processing ID)"/>
+  <description value="HL7-defined code system of concepts which specify whether the message is part of a production, training or debugging system.  Used in HL7 Version 2.x messaging in the PT datatype."/>
+  <purpose value="Underlying Code System for V2 table 0103 (Processing ID, version 2.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0103-2.2"/>
@@ -34,17 +35,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="D"/>
     <display value="Debugging"/>
     <definition value="Debugging"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="P"/>
     <display value="Production"/>
     <definition value="Production"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="T"/>
     <display value="Training"/>
     <definition value="Training"/>

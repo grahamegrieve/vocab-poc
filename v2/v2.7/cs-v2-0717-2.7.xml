@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0717 (Access Restriction Value)"/>
+  <description value="Code system of concepts specifying the information to which access is restricted.  Used in HL7 Version 2.x messaging in the ARV segment."/>
+  <purpose value="Underlying Code System for V2 table 0717 (Access Restriction Value, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0717-2.7"/>
@@ -40,67 +41,67 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ALL"/>
     <display value="All"/>
     <definition value="All"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="DEM"/>
     <display value="All demographic data"/>
     <definition value="All demographic data"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="LOC"/>
     <display value="Patient Location"/>
     <definition value="Patient Location"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="PID-7"/>
     <display value="Date of Birth"/>
     <definition value="Date of Birth"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="PID-17"/>
     <display value="Religion"/>
     <definition value="Religion"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="HIV"/>
     <display value="HIV status and results"/>
     <definition value="HIV status and results"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="STD"/>
     <display value="Sexually transmitted diseases"/>
     <definition value="Sexually transmitted diseases"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="PSY"/>
     <display value="Psychiatric Mental health"/>
     <definition value="Psychiatric Mental health"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="DRG"/>
     <display value="Drug"/>
     <definition value="Drug"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="SMD"/>
     <display value="Sensitive medical data"/>
     <definition value="Sensitive medical data"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="NO"/>
     <display value="None"/>
     <definition value="None"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="OO"/>
     <display value="Opt out all registries (HIPAA)"/>
     <definition value="Opt out all registries (HIPAA)"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="OI"/>
     <display value="Opt in all registries (HIPAA)"/>
     <definition value="Opt in all registries (HIPAA)"/>

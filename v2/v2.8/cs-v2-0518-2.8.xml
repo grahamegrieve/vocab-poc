@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0518 (Override Type)"/>
+  <description value="Code system of concepts used to specify what type of override can be used to override the specific error identified.   Used in HL7 Version 2 messaging in the ERR and OVR segments."/>
+  <purpose value="Underlying Code System for V2 table 0518 (Override Type, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0518-2.8"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifies an override where a service is being performed for longer than the ordered period of time."/>
     </extension>
@@ -48,7 +49,7 @@
     <display value="Extension Override"/>
     <definition value="Extension Override"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifies an override where a repetition of service is being performed sooner than the ordered frequency."/>
     </extension>
@@ -56,7 +57,7 @@
     <display value="Interval Override"/>
     <definition value="Interval Override"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifies an override where a service is being performed against an order that the system does not recognize as equivalent to the ordered service."/>
     </extension>

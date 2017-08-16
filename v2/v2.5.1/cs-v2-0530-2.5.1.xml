@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0530 (Organization, Agency, Department)"/>
+  <description value="Code system of concepts used to specify the agency or department that assigned the identifier in component 1.  Used in the Performing Person Time Stamp (PPN), Extended Composite ID Number and Name for Persons (XCN) and Extended Composite ID with Check Digit (CX) segments in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0530 (Organization, Agency, Department, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0530-2.5.1"/>
@@ -37,32 +38,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AE"/>
     <display value="American Express"/>
     <definition value="American Express"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="DEA"/>
     <display value="Drug Enforcement Agency"/>
     <definition value="Drug Enforcement Agency"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="DOD"/>
     <display value="Department of Defense"/>
     <definition value="Department of Defense"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="MC"/>
     <display value="Master Card"/>
     <definition value="Master Card"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="VA"/>
     <display value="Veterans Affairs"/>
     <definition value="Veterans Affairs"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="VI"/>
     <display value="Visa"/>
     <definition value="Visa"/>

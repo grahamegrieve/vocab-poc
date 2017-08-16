@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0168"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.86"/>
+    <value value="urn:oid:2.16.840.1.113883.18.86">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="processingPriority"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0168"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0168 (Processing Priority)"/>
+  <description value="HL7-defined code system of concepts  which specify one or more available priorities for performing the observation or test.  Used in HL7 Version 2.x messaging in the OM1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0168 (Processing Priority)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0168"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Stat (do immediately)"/>
     <definition value="Stat (do immediately)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="As soon as possible (a priority lower than stat)"/>
     <definition value="As soon as possible (a priority lower than stat)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Routine"/>
     <definition value="Routine"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Preoperative (to be done prior to surgery)"/>
     <definition value="Preoperative (to be done prior to surgery)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Timing critical (do as near as possible to requested time)"/>
     <definition value="Timing critical (do as near as possible to requested time)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Measure continuously (e.g., arterial line blood pressure)"/>
     <definition value="Measure continuously (e.g., arterial line blood pressure)"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>

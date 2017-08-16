@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0473 (Formulary Status)"/>
+  <description value="Code system of concepts specifying whether or not the service (pharmaceutical) is in the formulary.  Used in HL7 Version 2.x messaging in the OM7 segment."/>
+  <purpose value="Underlying Code System for V2 table 0473 (Formulary Status, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0473-2.7.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="G"/>
     <display value="This observation/service is on the formulary, and has guidelines"/>
     <definition value="This observation/service is on the formulary, and has guidelines"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="N"/>
     <display value="This observation/service is not on the formulary"/>
     <definition value="This observation/service is not on the formulary"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="R"/>
     <display value="This observation/service is on the formulary, but is restricted"/>
     <definition value="This observation/service is on the formulary, but is restricted"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="Y"/>
     <display value="This observation/service is on the formulary"/>
     <definition value="This observation/service is on the formulary"/>

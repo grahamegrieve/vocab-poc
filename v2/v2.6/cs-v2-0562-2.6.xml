@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0562 (Processing Consideration Codes)"/>
+  <description value="Code system of concepts used to specify special processing requested of Payer for this Product/Service Line Item (e.g., hold until paper supporting documentation is received by Payer).  Used in the Product/Service Line Item (PSL) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0562 (Processing Consideration Codes, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0562-2.6"/>
@@ -37,32 +38,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="PAPER"/>
     <display value="Paper documentation to follow"/>
     <definition value="Paper documentation to follow"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="EFORM"/>
     <display value="Electronic form to follow"/>
     <definition value="Electronic form to follow"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="FAX"/>
     <display value="Fax to follow"/>
     <definition value="Fax to follow"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="RTADJ"/>
     <display value="Real Time Adjudication Processing"/>
     <definition value="Real Time Adjudication Processing"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="DFADJ"/>
     <display value="Deferred Adjudication Processing"/>
     <definition value="Deferred Adjudication Processing"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="PYRDELAY"/>
     <display value="Delayed by a Previous Payer"/>
     <definition value="Delayed by a Previous Payer"/>

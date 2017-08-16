@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0135"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.60"/>
+    <value value="urn:oid:2.16.840.1.113883.18.60">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="assignmentOfBenefits"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0135"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0135 (Assignment of benefits)"/>
+  <description value="Code system of concepts which indicate whether an insured person agreed to assign the insurance benefits to the healthcare provider.  If so, the insurance will pay the provider directly.  Used in HL7 Version 2.x messaging in the IN1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0135 (Assignment of benefits)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0135"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Yes"/>
     <definition value="Yes"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="No"/>
     <definition value="No"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>

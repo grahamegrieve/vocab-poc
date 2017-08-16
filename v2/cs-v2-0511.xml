@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0511"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.334"/>
+    <value value="urn:oid:2.16.840.1.113883.18.334">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="bpObservationStatusCodesInterpretation"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0511"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0511 (BP Observation Status Codes Interpretation)"/>
+  <description value="HL7-defined code system of concepts used to specify the interpretation for the blood product observation status codes.  A status is considered preliminary until a blood product has reached a final disposition for the patient. For example, when the product is first cross-matched and a status message is sent, it would be considered preliminary. When the product is dispensed to the patient, that status would also be considered preliminary.  However, once the product is transfused, the status would be considered final.  Used in the Blood Product Dispense Status (BPX) and Blood Product Transfusion/Disposition (BTX) segments in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Master Code System for V2 table 0511 (BP Observation Status Codes Interpretation)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0511"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Record coming over is a correction and thus replaces a final status"/>
     <definition value="Record coming over is a correction and thus replaces a final status"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Deletes the BPX record"/>
     <definition value="Deletes the BPX record"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Final status; Can only be changed with a corrected status"/>
     <definition value="Final status; Can only be changed with a corrected status"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Order detail description only (no status)"/>
     <definition value="Order detail description only (no status)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Preliminary status"/>
     <definition value="Preliminary status"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>

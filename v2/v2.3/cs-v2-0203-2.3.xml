@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0203 (Identifier Type)"/>
+  <description value="HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON."/>
+  <purpose value="Underlying Code System for V2 table 0203 (Identifier Type, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0203-2.3"/>
@@ -34,112 +35,112 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="AM"/>
     <display value="American Express"/>
     <definition value="American Express"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="AN"/>
     <display value="Account Number"/>
     <definition value="Account Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="BR"/>
     <display value="Birth Registry Number"/>
     <definition value="Birth Registry Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DI"/>
     <display value="Diner&#39;s Club Card"/>
     <definition value="Diner&#39;s Club Card"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DL"/>
     <display value="Driver&#39;s License Number"/>
     <definition value="Driver&#39;s License Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DN"/>
     <display value="Doctor Number"/>
     <definition value="Doctor Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DS"/>
     <display value="Discover Card"/>
     <definition value="Discover Card"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="EI"/>
     <display value="Employee Number"/>
     <definition value="Employee Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="EN"/>
     <display value="Employer Number"/>
     <definition value="Employer Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="GI"/>
     <display value="Guarantor Internal Identifier"/>
     <definition value="Guarantor Internal Identifier"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="GN"/>
     <display value="Guarantor External Identifier"/>
     <definition value="Guarantor External Identifier"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MA"/>
     <display value="Medicaid Number"/>
     <definition value="Medicaid Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MC"/>
     <display value="Medicare Number"/>
     <definition value="Medicare Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MR"/>
     <display value="Medical Record Number"/>
     <definition value="Medical Record Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MS"/>
     <display value="Master Card"/>
     <definition value="Master Card"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PI"/>
     <display value="Patient Internal Identifier"/>
     <definition value="Patient Internal Identifier"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PT"/>
     <display value="Patient External Identifier"/>
     <definition value="Patient External Identifier"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="RR"/>
     <display value="Railroad Retirement Number"/>
     <definition value="Railroad Retirement Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SS"/>
     <display value="Social Security Number"/>
     <definition value="Social Security Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="VN"/>
     <display value="Visit Number"/>
     <definition value="Visit Number"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="VS"/>
     <display value="VISA"/>
     <definition value="VISA"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="XX"/>
     <display value="Organizaiton Indentifier"/>
     <definition value="Organizaiton Indentifier"/>

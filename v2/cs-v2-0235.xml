@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0235"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.134"/>
+    <value value="urn:oid:2.16.840.1.113883.18.134">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="reportSource"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0235"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0235 (Report Source)"/>
+  <description value="HL7-defined code system of concepts used to identify where a report sender learned about an event.  Used in HL7 Version 2.x messaging in the PES segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0235 (Report Source)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0235"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Clinical trial"/>
     <definition value="Clinical trial"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Literature"/>
     <definition value="Literature"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Health professional"/>
     <definition value="Health professional"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Regulatory agency"/>
     <definition value="Regulatory agency"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Database/registry/poison control center"/>
     <definition value="Database/registry/poison control center"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Non-healthcare professional"/>
     <definition value="Non-healthcare professional"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Patient"/>
     <definition value="Patient"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Manufacturer/marketing authority holder"/>
     <definition value="Manufacturer/marketing authority holder"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Distributor"/>
     <definition value="Distributor"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

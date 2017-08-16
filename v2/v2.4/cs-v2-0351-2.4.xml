@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0351 (Occurrence Span)"/>
+  <description value="HL7-defined code system of concepts  specifying a National Uniform Billing Committee (NUBC) code that identifies an event that relates to the payment of a claim.  The UB-04 Data Specifications Manual with the codes is available by subscription from NUBC at http://www.nubc.org/become.html.  Used in HL7 Version 2.x messaging in the Occurrence Span Code and Date (OSP) value. Updated by NUBC annually; see the coding instructions for more detail."/>
+  <purpose value="Underlying Code System for V2 table 0351 (Occurrence Span, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0351-2.4"/>
@@ -34,57 +35,57 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="70"/>
     <display value="Qualifying stay dates for SNF"/>
     <definition value="Qualifying stay dates for SNF"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="71"/>
     <display value="Prior stay dates"/>
     <definition value="Prior stay dates"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="72"/>
     <display value="First/last visit"/>
     <definition value="First/last visit"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="73"/>
     <display value="Benefit eligibility period"/>
     <definition value="Benefit eligibility period"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="74"/>
     <display value="Non-covered level of care"/>
     <definition value="Non-covered level of care"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="75"/>
     <display value="SNF level of care"/>
     <definition value="SNF level of care"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="76"/>
     <display value="Patient liability"/>
     <definition value="Patient liability"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="77"/>
     <display value="Provider liability period"/>
     <definition value="Provider liability period"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="78"/>
     <display value="SNF prior stay dates"/>
     <definition value="SNF prior stay dates"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="79"/>
     <display value="Payer code"/>
     <definition value="Payer code"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="M0"/>
     <display value="PSRO/UR approved stay dates"/>
     <definition value="PSRO/UR approved stay dates"/>

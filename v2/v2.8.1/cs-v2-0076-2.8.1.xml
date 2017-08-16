@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0076 (Message Type)"/>
+  <description value="HL7-defined code system of concepts which specify message types.  Used in HL7 Version 2.x messaging in the MSH segment."/>
+  <purpose value="Underlying Code System for V2 table 0076 (Message Type, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0076-2.8.1"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="2"/>
     </extension>
@@ -48,7 +49,7 @@
     <display value="General acknowledgment message"/>
     <definition value="General acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="3 - Deprecated"/>
     </extension>
@@ -56,7 +57,7 @@
     <display value="ADT response"/>
     <definition value="ADT response"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="3"/>
     </extension>
@@ -64,7 +65,7 @@
     <display value="ADT message"/>
     <definition value="ADT message"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="6"/>
     </extension>
@@ -72,7 +73,7 @@
     <display value="Add/change billing account"/>
     <definition value="Add/change billing account"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -80,7 +81,7 @@
     <display value="Collaborative Care Fetch"/>
     <definition value="Collaborative Care Fetch"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -88,7 +89,7 @@
     <display value="Collaborative Care Information"/>
     <definition value="Collaborative Care Information"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -96,7 +97,7 @@
     <display value="Collaborative Care Message"/>
     <definition value="Collaborative Care Message"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -104,7 +105,7 @@
     <display value="Collaborative Care Referral"/>
     <definition value="Collaborative Care Referral"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -112,7 +113,7 @@
     <display value="Collaborative Care Referral"/>
     <definition value="Collaborative Care Referral"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -120,7 +121,7 @@
     <display value="Collaborative Care Referral"/>
     <definition value="Collaborative Care Referral"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -128,7 +129,7 @@
     <display value="Clinical study registration message"/>
     <definition value="Clinical study registration message"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -136,7 +137,7 @@
     <display value="Blood product dispense status message"/>
     <definition value="Blood product dispense status message"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -144,7 +145,7 @@
     <display value="Blood product dispense status acknowledgement message"/>
     <definition value="Blood product dispense status acknowledgement message"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -152,7 +153,7 @@
     <display value="Blood product transfusion/disposition acknowledgement message"/>
     <definition value="Blood product transfusion/disposition acknowledgement message"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -160,7 +161,7 @@
     <display value="Blood product transfusion/disposition message"/>
     <definition value="Blood product transfusion/disposition message"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -168,7 +169,7 @@
     <display value="Unsolicited study data message"/>
     <definition value="Unsolicited study data message"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -176,7 +177,7 @@
     <display value="Create Donor Record"/>
     <definition value="Create Donor Record"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -184,7 +185,7 @@
     <display value="Update Donor Record"/>
     <definition value="Update Donor Record"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -192,7 +193,7 @@
     <display value="Donor Eligibility"/>
     <definition value="Donor Eligibility"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -200,7 +201,7 @@
     <display value="Donor Eligibility Observation"/>
     <definition value="Donor Eligibility Observation"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -208,7 +209,7 @@
     <display value="Donor Eligibility Request"/>
     <definition value="Donor Eligibility Request"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="6"/>
     </extension>
@@ -216,7 +217,7 @@
     <display value="Detail financial transactions"/>
     <definition value="Detail financial transactions"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="9 - Deprecated"/>
     </extension>
@@ -224,7 +225,7 @@
     <display value="Document response"/>
     <definition value="Document response"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -232,7 +233,7 @@
     <display value="Donation Procedure"/>
     <definition value="Donation Procedure"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -240,7 +241,7 @@
     <display value="Donor Request to Collect"/>
     <definition value="Donor Request to Collect"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5 - Deprecated"/>
     </extension>
@@ -248,7 +249,7 @@
     <display value="Display response"/>
     <definition value="Display response"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -256,7 +257,7 @@
     <display value="Automated equipment command message"/>
     <definition value="Automated equipment command message"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -264,7 +265,7 @@
     <display value="Automated equipment notification message"/>
     <definition value="Automated equipment notification message"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -272,7 +273,7 @@
     <display value="Automated equipment response message"/>
     <definition value="Automated equipment response message"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="16"/>
     </extension>
@@ -280,7 +281,7 @@
     <display value="Health Care Invoice"/>
     <definition value="Health Care Invoice"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -288,7 +289,7 @@
     <display value="Automated equipment status update acknowledgment message"/>
     <definition value="Automated equipment status update acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -296,7 +297,7 @@
     <display value="Automated equipment status update message"/>
     <definition value="Automated equipment status update message"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -304,7 +305,7 @@
     <display value="Automated equipment inventory request message"/>
     <definition value="Automated equipment inventory request message"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -312,7 +313,7 @@
     <display value="Automated equipment inventory update message"/>
     <definition value="Automated equipment inventory update message"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -320,7 +321,7 @@
     <display value="Automated equipment log/service request message"/>
     <definition value="Automated equipment log/service request message"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -328,7 +329,7 @@
     <display value="Automated equipment log/service update message"/>
     <definition value="Automated equipment log/service update message"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="9"/>
     </extension>
@@ -336,7 +337,7 @@
     <display value="Medical document management"/>
     <definition value="Medical document management"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="8 - Deprecated"/>
     </extension>
@@ -344,7 +345,7 @@
     <display value="Master files delayed application acknowledgment"/>
     <definition value="Master files delayed application acknowledgment"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="8"/>
     </extension>
@@ -352,7 +353,7 @@
     <display value="Master files application acknowledgment"/>
     <definition value="Master files application acknowledgment"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="8"/>
     </extension>
@@ -360,7 +361,7 @@
     <display value="Master files notification"/>
     <definition value="Master files notification"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="8 - Deprecated"/>
     </extension>
@@ -368,7 +369,7 @@
     <display value="Master files query"/>
     <definition value="Master files query"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="8 - Deprecated"/>
     </extension>
@@ -376,7 +377,7 @@
     <display value="Master files response"/>
     <definition value="Master files response"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="14"/>
     </extension>
@@ -384,7 +385,7 @@
     <display value="Application management data message"/>
     <definition value="Application management data message"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="14 - Deprecated"/>
     </extension>
@@ -392,7 +393,7 @@
     <display value="Application management query message"/>
     <definition value="Application management query message"/>
   </concept>
-  <concept>
+  <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="14 - Deprecated"/>
     </extension>
@@ -400,7 +401,7 @@
     <display value="Application management response message"/>
     <definition value="Application management response message"/>
   </concept>
-  <concept>
+  <concept id="46">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -408,7 +409,7 @@
     <display value="Blood product order message"/>
     <definition value="Blood product order message"/>
   </concept>
-  <concept>
+  <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -416,7 +417,7 @@
     <display value="Dietary order"/>
     <definition value="Dietary order"/>
   </concept>
-  <concept>
+  <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -424,7 +425,7 @@
     <display value="General clinical order message"/>
     <definition value="General clinical order message"/>
   </concept>
-  <concept>
+  <concept id="49">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -432,7 +433,7 @@
     <display value="Imaging order"/>
     <definition value="Imaging order"/>
   </concept>
-  <concept>
+  <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -440,7 +441,7 @@
     <display value="Laboratory order message"/>
     <definition value="Laboratory order message"/>
   </concept>
-  <concept>
+  <concept id="51">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -448,7 +449,7 @@
     <display value="Non-stock requisition order message"/>
     <definition value="Non-stock requisition order message"/>
   </concept>
-  <concept>
+  <concept id="52">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -456,7 +457,7 @@
     <display value="Pharmacy/treatment order message"/>
     <definition value="Pharmacy/treatment order message"/>
   </concept>
-  <concept>
+  <concept id="53">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -464,7 +465,7 @@
     <display value="General order message with document payload"/>
     <definition value="General order message with document payload"/>
   </concept>
-  <concept>
+  <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -472,7 +473,7 @@
     <display value="Stock requisition order message"/>
     <definition value="Stock requisition order message"/>
   </concept>
-  <concept>
+  <concept id="55">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -480,7 +481,7 @@
     <display value="Population/Location-Based Laboratory Order Message"/>
     <definition value="Population/Location-Based Laboratory Order Message"/>
   </concept>
-  <concept>
+  <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -488,7 +489,7 @@
     <display value="Population/Location-Based Laboratory Order Acknowledgment Message"/>
     <definition value="Population/Location-Based Laboratory Order Acknowledgment Message"/>
   </concept>
-  <concept>
+  <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -496,7 +497,7 @@
     <display value="Unsolicited Population/Location-Based Laboratory Observation Message"/>
     <definition value="Unsolicited Population/Location-Based Laboratory Observation Message"/>
   </concept>
-  <concept>
+  <concept id="58">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -504,7 +505,7 @@
     <display value="Observation Report Acknowledgment"/>
     <definition value="Observation Report Acknowledgment"/>
   </concept>
-  <concept>
+  <concept id="59">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -512,7 +513,7 @@
     <display value="Blood product order acknowledgement message"/>
     <definition value="Blood product order acknowledgement message"/>
   </concept>
-  <concept>
+  <concept id="60">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -520,7 +521,7 @@
     <display value="Dietary order acknowledgment message"/>
     <definition value="Dietary order acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="61">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7 - Deprecated"/>
     </extension>
@@ -528,7 +529,7 @@
     <display value="Query for results of observation"/>
     <definition value="Query for results of observation"/>
   </concept>
-  <concept>
+  <concept id="62">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -536,7 +537,7 @@
     <display value="General clinical order acknowledgment message"/>
     <definition value="General clinical order acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="63">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -544,7 +545,7 @@
     <display value="Imaging order acknowledgement message"/>
     <definition value="Imaging order acknowledgement message"/>
   </concept>
-  <concept>
+  <concept id="64">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -552,7 +553,7 @@
     <display value="Laboratory acknowledgment message (unsolicited)"/>
     <definition value="Laboratory acknowledgment message (unsolicited)"/>
   </concept>
-  <concept>
+  <concept id="65">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -560,7 +561,7 @@
     <display value="Pharmacy/treatment order message"/>
     <definition value="Pharmacy/treatment order message"/>
   </concept>
-  <concept>
+  <concept id="66">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -568,7 +569,7 @@
     <display value="Non-stock requisition - General order acknowledgment message"/>
     <definition value="Non-stock requisition - General order acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="67">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -576,7 +577,7 @@
     <display value="Pharmacy/treatment order acknowledgment message"/>
     <definition value="Pharmacy/treatment order acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="68">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -584,7 +585,7 @@
     <display value="General order response message response to any ORM"/>
     <definition value="General order response message response to any ORM"/>
   </concept>
-  <concept>
+  <concept id="69">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -592,7 +593,7 @@
     <display value="Stock requisition - Order acknowledgment message"/>
     <definition value="Stock requisition - Order acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="70">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -600,7 +601,7 @@
     <display value="Unsolicited transmission of an observation message"/>
     <definition value="Unsolicited transmission of an observation message"/>
   </concept>
-  <concept>
+  <concept id="71">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -608,7 +609,7 @@
     <display value="General Order Message with Document Payload Acknowledgement"/>
     <definition value="General Order Message with Document Payload Acknowledgement"/>
   </concept>
-  <concept>
+  <concept id="72">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -616,7 +617,7 @@
     <display value="Specimen Shipment Message"/>
     <definition value="Specimen Shipment Message"/>
   </concept>
-  <concept>
+  <concept id="73">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -624,7 +625,7 @@
     <display value="Query response for order status"/>
     <definition value="Query response for order status"/>
   </concept>
-  <concept>
+  <concept id="74">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -632,7 +633,7 @@
     <display value="Query response for order status"/>
     <definition value="Query response for order status"/>
   </concept>
-  <concept>
+  <concept id="75">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -640,7 +641,7 @@
     <display value="Order status update"/>
     <definition value="Order status update"/>
   </concept>
-  <concept>
+  <concept id="76">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -648,7 +649,7 @@
     <display value="Unsolicited laboratory observation message"/>
     <definition value="Unsolicited laboratory observation message"/>
   </concept>
-  <concept>
+  <concept id="77">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7"/>
     </extension>
@@ -656,7 +657,7 @@
     <display value="Product experience message"/>
     <definition value="Product experience message"/>
   </concept>
-  <concept>
+  <concept id="78">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="12"/>
     </extension>
@@ -664,7 +665,7 @@
     <display value="Patient goal message"/>
     <definition value="Patient goal message"/>
   </concept>
-  <concept>
+  <concept id="79">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -672,7 +673,7 @@
     <display value="Patient insurance information"/>
     <definition value="Patient insurance information"/>
   </concept>
-  <concept>
+  <concept id="80">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="15"/>
     </extension>
@@ -680,7 +681,7 @@
     <display value="Add personnel record"/>
     <definition value="Add personnel record"/>
   </concept>
-  <concept>
+  <concept id="81">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="12"/>
     </extension>
@@ -688,7 +689,7 @@
     <display value="Patient pathway message (goal-oriented)"/>
     <definition value="Patient pathway message (goal-oriented)"/>
   </concept>
-  <concept>
+  <concept id="82">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="12"/>
     </extension>
@@ -696,7 +697,7 @@
     <display value="Patient pathway message (problem-oriented)"/>
     <definition value="Patient pathway message (problem-oriented)"/>
   </concept>
-  <concept>
+  <concept id="83">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="12"/>
     </extension>
@@ -704,7 +705,7 @@
     <display value="Patient problem message"/>
     <definition value="Patient problem message"/>
   </concept>
-  <concept>
+  <concept id="84">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated"/>
     </extension>
@@ -712,7 +713,7 @@
     <display value="Patient pathway goal-oriented response"/>
     <definition value="Patient pathway goal-oriented response"/>
   </concept>
-  <concept>
+  <concept id="85">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated"/>
     </extension>
@@ -720,7 +721,7 @@
     <display value="Patient goal response"/>
     <definition value="Patient goal response"/>
   </concept>
-  <concept>
+  <concept id="86">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated"/>
     </extension>
@@ -728,7 +729,7 @@
     <display value="Patient problem response"/>
     <definition value="Patient problem response"/>
   </concept>
-  <concept>
+  <concept id="87">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated"/>
     </extension>
@@ -736,7 +737,7 @@
     <display value="Patient pathway problem-oriented response"/>
     <definition value="Patient pathway problem-oriented response"/>
   </concept>
-  <concept>
+  <concept id="88">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -744,7 +745,7 @@
     <display value="Query by parameter"/>
     <definition value="Query by parameter"/>
   </concept>
-  <concept>
+  <concept id="89">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5 - Deprecated"/>
     </extension>
@@ -752,7 +753,7 @@
     <display value="Query general acknowledgment"/>
     <definition value="Query general acknowledgment"/>
   </concept>
-  <concept>
+  <concept id="90">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -760,7 +761,7 @@
     <display value="Cancel query"/>
     <definition value="Cancel query"/>
   </concept>
-  <concept>
+  <concept id="91">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="3"/>
     </extension>
@@ -768,7 +769,7 @@
     <display value="Query, original mode"/>
     <definition value="Query, original mode"/>
   </concept>
-  <concept>
+  <concept id="92">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -776,7 +777,7 @@
     <display value="Create subscription"/>
     <definition value="Create subscription"/>
   </concept>
-  <concept>
+  <concept id="93">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -784,7 +785,7 @@
     <display value="Cancel subscription/acknowledge message"/>
     <definition value="Cancel subscription/acknowledge message"/>
   </concept>
-  <concept>
+  <concept id="94">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -792,7 +793,7 @@
     <display value="Query for previous events"/>
     <definition value="Query for previous events"/>
   </concept>
-  <concept>
+  <concept id="95">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -800,7 +801,7 @@
     <display value="Pharmacy/treatment administration information"/>
     <definition value="Pharmacy/treatment administration information"/>
   </concept>
-  <concept>
+  <concept id="96">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -808,7 +809,7 @@
     <display value="Pharmacy/treatment administration message"/>
     <definition value="Pharmacy/treatment administration message"/>
   </concept>
-  <concept>
+  <concept id="97">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -816,7 +817,7 @@
     <display value="Return clinical information"/>
     <definition value="Return clinical information"/>
   </concept>
-  <concept>
+  <concept id="98">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -824,7 +825,7 @@
     <display value="Return clinical list"/>
     <definition value="Return clinical list"/>
   </concept>
-  <concept>
+  <concept id="99">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -832,7 +833,7 @@
     <display value="Pharmacy/treatment encoded order message"/>
     <definition value="Pharmacy/treatment encoded order message"/>
   </concept>
-  <concept>
+  <concept id="100">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -840,7 +841,7 @@
     <display value="Pharmacy/treatment dispense information"/>
     <definition value="Pharmacy/treatment dispense information"/>
   </concept>
-  <concept>
+  <concept id="101">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -848,7 +849,7 @@
     <display value="Pharmacy/treatment dispense message"/>
     <definition value="Pharmacy/treatment dispense message"/>
   </concept>
-  <concept>
+  <concept id="102">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -856,7 +857,7 @@
     <display value="Display based response"/>
     <definition value="Display based response"/>
   </concept>
-  <concept>
+  <concept id="103">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -864,7 +865,7 @@
     <display value="Patient referral"/>
     <definition value="Patient referral"/>
   </concept>
-  <concept>
+  <concept id="104">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -872,7 +873,7 @@
     <display value="Pharmacy/treatment encoded order information"/>
     <definition value="Pharmacy/treatment encoded order information"/>
   </concept>
-  <concept>
+  <concept id="105">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -880,7 +881,7 @@
     <display value="Pharmacy/treatment dose information"/>
     <definition value="Pharmacy/treatment dose information"/>
   </concept>
-  <concept>
+  <concept id="106">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -888,7 +889,7 @@
     <display value="Pharmacy/treatment give message"/>
     <definition value="Pharmacy/treatment give message"/>
   </concept>
-  <concept>
+  <concept id="107">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -896,7 +897,7 @@
     <display value="Pharmacy/treatment order response"/>
     <definition value="Pharmacy/treatment order response"/>
   </concept>
-  <concept>
+  <concept id="108">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -904,7 +905,7 @@
     <display value="Return patient authorization"/>
     <definition value="Return patient authorization"/>
   </concept>
-  <concept>
+  <concept id="109">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -912,7 +913,7 @@
     <display value="Return patient information"/>
     <definition value="Return patient information"/>
   </concept>
-  <concept>
+  <concept id="110">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -920,7 +921,7 @@
     <display value="Return patient display list"/>
     <definition value="Return patient display list"/>
   </concept>
-  <concept>
+  <concept id="111">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -928,7 +929,7 @@
     <display value="Return patient list"/>
     <definition value="Return patient list"/>
   </concept>
-  <concept>
+  <concept id="112">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -936,7 +937,7 @@
     <display value="Request patient authorization"/>
     <definition value="Request patient authorization"/>
   </concept>
-  <concept>
+  <concept id="113">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -944,7 +945,7 @@
     <display value="Request clinical information"/>
     <definition value="Request clinical information"/>
   </concept>
-  <concept>
+  <concept id="114">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -952,7 +953,7 @@
     <display value="Request patient information"/>
     <definition value="Request patient information"/>
   </concept>
-  <concept>
+  <concept id="115">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -960,7 +961,7 @@
     <display value="Request patient demographics"/>
     <definition value="Request patient demographics"/>
   </concept>
-  <concept>
+  <concept id="116">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -968,7 +969,7 @@
     <display value="Pharmacy/treatment administration acknowledgment message"/>
     <definition value="Pharmacy/treatment administration acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="117">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -976,7 +977,7 @@
     <display value="Pharmacy/treatment dispense acknowledgment message"/>
     <definition value="Pharmacy/treatment dispense acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="118">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -984,7 +985,7 @@
     <display value="Pharmacy/treatment encoded order acknowledgment message"/>
     <definition value="Pharmacy/treatment encoded order acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="119">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -992,7 +993,7 @@
     <display value="Pharmacy/treatment give acknowledgment message"/>
     <definition value="Pharmacy/treatment give acknowledgment message"/>
   </concept>
-  <concept>
+  <concept id="120">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="11"/>
     </extension>
@@ -1000,7 +1001,7 @@
     <display value="Return referral information"/>
     <definition value="Return referral information"/>
   </concept>
-  <concept>
+  <concept id="121">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -1008,7 +1009,7 @@
     <display value="Segment pattern response"/>
     <definition value="Segment pattern response"/>
   </concept>
-  <concept>
+  <concept id="122">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -1016,7 +1017,7 @@
     <display value="Tabular response"/>
     <definition value="Tabular response"/>
   </concept>
-  <concept>
+  <concept id="123">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1024,7 +1025,7 @@
     <display value="Notification of Anti-Microbial Device Cycle Data"/>
     <definition value="Notification of Anti-Microbial Device Cycle Data"/>
   </concept>
-  <concept>
+  <concept id="124">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1032,7 +1033,7 @@
     <display value="Notification of Anti-Microbial Device Data"/>
     <definition value="Notification of Anti-Microbial Device Data"/>
   </concept>
-  <concept>
+  <concept id="125">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1040,7 +1041,7 @@
     <display value="Sterilization anti-microbial device data request"/>
     <definition value="Sterilization anti-microbial device data request"/>
   </concept>
-  <concept>
+  <concept id="126">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="10"/>
     </extension>
@@ -1048,7 +1049,7 @@
     <display value="Schedule information unsolicited"/>
     <definition value="Schedule information unsolicited"/>
   </concept>
-  <concept>
+  <concept id="127">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1056,7 +1057,7 @@
     <display value="Notification of New Sterilization Lot"/>
     <definition value="Notification of New Sterilization Lot"/>
   </concept>
-  <concept>
+  <concept id="128">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1064,7 +1065,7 @@
     <display value="Sterilization lot request"/>
     <definition value="Sterilization lot request"/>
   </concept>
-  <concept>
+  <concept id="129">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1072,7 +1073,7 @@
     <display value="Sterilization anti-microbial device cycle data request"/>
     <definition value="Sterilization anti-microbial device cycle data request"/>
   </concept>
-  <concept>
+  <concept id="130">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="10 - Deprecated"/>
     </extension>
@@ -1080,7 +1081,7 @@
     <display value="Schedule query message"/>
     <definition value="Schedule query message"/>
   </concept>
-  <concept>
+  <concept id="131">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="10 - Deprecated"/>
     </extension>
@@ -1088,7 +1089,7 @@
     <display value="Schedule query response"/>
     <definition value="Schedule query response"/>
   </concept>
-  <concept>
+  <concept id="132">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="10"/>
     </extension>
@@ -1096,7 +1097,7 @@
     <display value="Schedule request message"/>
     <definition value="Schedule request message"/>
   </concept>
-  <concept>
+  <concept id="133">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="10"/>
     </extension>
@@ -1104,7 +1105,7 @@
     <display value="Scheduled request response"/>
     <definition value="Scheduled request response"/>
   </concept>
-  <concept>
+  <concept id="134">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -1112,7 +1113,7 @@
     <display value="Specimen status request message"/>
     <definition value="Specimen status request message"/>
   </concept>
-  <concept>
+  <concept id="135">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -1120,7 +1121,7 @@
     <display value="Specimen status update message"/>
     <definition value="Specimen status update message"/>
   </concept>
-  <concept>
+  <concept id="136">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1128,7 +1129,7 @@
     <display value="Notification of Sterilization Configuration"/>
     <definition value="Notification of Sterilization Configuration"/>
   </concept>
-  <concept>
+  <concept id="137">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="17"/>
     </extension>
@@ -1136,7 +1137,7 @@
     <display value="Sterilization item request"/>
     <definition value="Sterilization item request"/>
   </concept>
-  <concept>
+  <concept id="138">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="7 - Deprecated"/>
     </extension>
@@ -1144,7 +1145,7 @@
     <display value="Summary product experience report"/>
     <definition value="Summary product experience report"/>
   </concept>
-  <concept>
+  <concept id="139">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5 - Deprecated"/>
     </extension>
@@ -1152,7 +1153,7 @@
     <display value="Tabular data response"/>
     <definition value="Tabular data response"/>
   </concept>
-  <concept>
+  <concept id="140">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -1160,7 +1161,7 @@
     <display value="Automated equipment test code settings request message"/>
     <definition value="Automated equipment test code settings request message"/>
   </concept>
-  <concept>
+  <concept id="141">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="13"/>
     </extension>
@@ -1168,7 +1169,7 @@
     <display value="Automated equipment test code settings update message"/>
     <definition value="Automated equipment test code settings update message"/>
   </concept>
-  <concept>
+  <concept id="142">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="5"/>
     </extension>
@@ -1176,7 +1177,7 @@
     <display value="Unsolicited display update message"/>
     <definition value="Unsolicited display update message"/>
   </concept>
-  <concept>
+  <concept id="143">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -1184,7 +1185,7 @@
     <display value="Query for vaccination record"/>
     <definition value="Query for vaccination record"/>
   </concept>
-  <concept>
+  <concept id="144">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 - Deprecated"/>
     </extension>
@@ -1192,7 +1193,7 @@
     <display value="Vaccination record response"/>
     <definition value="Vaccination record response"/>
   </concept>
-  <concept>
+  <concept id="145">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4"/>
     </extension>
@@ -1200,7 +1201,7 @@
     <display value="Unsolicited vaccination record update"/>
     <definition value="Unsolicited vaccination record update"/>
   </concept>
-  <concept>
+  <concept id="146">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="4 -Deprecated"/>
     </extension>

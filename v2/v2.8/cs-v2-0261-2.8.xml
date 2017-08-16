@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0261 (Location Equipment)"/>
+  <description value="Code system of concepts used to identify the equipment available in a location definition identified as a room or bed.  Used in HL7 Version 2.x messaging in the LOC segment."/>
+  <purpose value="Underlying Code System for V2 table 0261 (Location Equipment, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0261-2.8"/>
@@ -40,42 +41,42 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="OXY"/>
     <display value="Oxygen"/>
     <definition value="Oxygen"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="SUC"/>
     <display value="Suction"/>
     <definition value="Suction"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="VIT"/>
     <display value="Vital signs monitor"/>
     <definition value="Vital signs monitor"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="INF"/>
     <display value="Infusion pump"/>
     <definition value="Infusion pump"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="IVP"/>
     <display value="IV pump"/>
     <definition value="IV pump"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="EEG"/>
     <display value="Electro-Encephalogram"/>
     <definition value="Electro-Encephalogram"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="EKG"/>
     <display value="Electro-Cardiogram"/>
     <definition value="Electro-Cardiogram"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="VEN"/>
     <display value="Ventilator"/>
     <definition value="Ventilator"/>

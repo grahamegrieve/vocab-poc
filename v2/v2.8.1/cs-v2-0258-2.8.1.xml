@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0258 (Relationship Modifier)"/>
+  <description value="HL7-defined code system of concepts used in an observation definition to describe the subject of an observation in relation to a patient.  Used in HL7 Version 2.x messaging in the OM1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0258 (Relationship Modifier, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0258-2.8.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="CONTROL"/>
     <display value="Control"/>
     <definition value="Control"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="PATIENT"/>
     <display value="Patient"/>
     <definition value="Patient"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="DONOR"/>
     <display value="Donor"/>
     <definition value="Donor"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="BPU"/>
     <display value="Blood product unit"/>
     <definition value="Blood product unit"/>

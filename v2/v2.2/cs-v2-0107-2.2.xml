@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0107 (Deferred response type)"/>
+  <description value="HL7-defined code system of concepts which specify which type of deferred query resonse is desired, as specified with the query parameters.   Used in HL7 Version 2 messaging in the QRD segment."/>
+  <purpose value="Underlying Code System for V2 table 0107 (Deferred response type, version 2.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0107-2.2"/>
@@ -34,12 +35,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="B"/>
     <display value="Before the date / time specified"/>
     <definition value="Before the date / time specified"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="L"/>
     <display value="Later than the date / time specified"/>
     <definition value="Later than the date / time specified"/>

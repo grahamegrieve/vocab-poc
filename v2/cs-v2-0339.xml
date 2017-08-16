@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0339"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.209"/>
+    <value value="urn:oid:2.16.840.1.113883.18.209">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="advancedBeneficiaryNotice"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0339"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0339 (Advanced Beneficiary Notice Code)"/>
+  <description value="Code system of concepts specifying the status of the patient&#39;s or the patient&#39;s representative&#39;s consent for responsibility to pay for potentially uninsured services. This element was introduced to satisfy CMS Medical Necessity requirements for outpatient services in the United States. Includes concepts such as (a) whether the associated diagnosis codes for the service are subject to medical necessity procedures, (b) whether, for this type of service, the patient has been informed that they may be responsible for payment for the service, and (c) whether the patient agrees to be billed for this service.  Used in HL7 Version 2.x messaging in the ORC and FT1 segments."/>
+  <purpose value="Underlying Master Code System for V2 table 0339 (Advanced Beneficiary Notice Code)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0339"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Service is subject to medical necessity procedures"/>
     <definition value="Service is subject to medical necessity procedures"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Patient has been informed of responsibility, and agrees to pay for service"/>
     <definition value="Patient has been informed of responsibility, and agrees to pay for service"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Patient has been informed of responsibility, and asks that the payer be billed"/>
     <definition value="Patient has been informed of responsibility, and asks that the payer be billed"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>

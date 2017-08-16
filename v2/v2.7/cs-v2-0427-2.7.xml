@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0427 (Risk Management Incident Code)"/>
+  <description value="HL7-defined code system of concepts which specify a type of incident that occurs during a patient&#x2019;s stay.  Used in HL7 Version 2 messaging in the RMI segment."/>
+  <purpose value="Underlying Code System for V2 table 0427 (Risk Management Incident Code, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0427-2.7"/>
@@ -40,72 +41,72 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="B"/>
     <display value="Body fluid exposure"/>
     <definition value="Body fluid exposure"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="C"/>
     <display value="Contaminated Substance"/>
     <definition value="Contaminated Substance"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="D"/>
     <display value="Diet Errors"/>
     <definition value="Diet Errors"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="E"/>
     <display value="Equipment problem"/>
     <definition value="Equipment problem"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="F"/>
     <display value="Patient fell (not from bed)"/>
     <definition value="Patient fell (not from bed)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="H"/>
     <display value="Patient fell from bed"/>
     <definition value="Patient fell from bed"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="I"/>
     <display value="Infusion error"/>
     <definition value="Infusion error"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="J"/>
     <display value="Foreign object left during surgery"/>
     <definition value="Foreign object left during surgery"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="K"/>
     <display value="Sterile precaution violated"/>
     <definition value="Sterile precaution violated"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="P"/>
     <display value="Procedure error"/>
     <definition value="Procedure error"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="R"/>
     <display value="Pharmaceutical error"/>
     <definition value="Pharmaceutical error"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="S"/>
     <display value="Suicide Attempt"/>
     <definition value="Suicide Attempt"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="T"/>
     <display value="Transfusion error"/>
     <definition value="Transfusion error"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>

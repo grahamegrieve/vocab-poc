@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0259"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.154"/>
+    <value value="urn:oid:2.16.840.1.113883.18.154">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="modality"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0259"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0259 (Modality)"/>
+  <description value="Code system of concepts used to define the imaging apparatus expected to be used to acquire an observation.  This table has been removed from the standard as of 2.7 in favor of table 0910.  Used in HL7 Version 2.x messaging in the OM1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0259 (Modality)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0259"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Angioscopy"/>
     <definition value="Angioscopy"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Biomagnetic imaging"/>
     <definition value="Biomagnetic imaging"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Color flow Doppler"/>
     <definition value="Color flow Doppler"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Colposcopy"/>
     <definition value="Colposcopy"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Computed radiography"/>
     <definition value="Computed radiography"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Cystoscopy"/>
     <definition value="Cystoscopy"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Computed tomography"/>
     <definition value="Computed tomography"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Duplex Doppler"/>
     <definition value="Duplex Doppler"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -130,7 +135,7 @@
     <display value="Diapanography"/>
     <definition value="Diapanography"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -141,7 +146,7 @@
     <display value="Digital microscopy"/>
     <definition value="Digital microscopy"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -152,7 +157,7 @@
     <display value="Echocardiography"/>
     <definition value="Echocardiography"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -163,7 +168,7 @@
     <display value="Endoscopy"/>
     <definition value="Endoscopy"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -174,7 +179,7 @@
     <display value="Fluorescein angiography"/>
     <definition value="Fluorescein angiography"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -185,7 +190,7 @@
     <display value="Fundoscopy"/>
     <definition value="Fundoscopy"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -196,7 +201,7 @@
     <display value="Laparoscopy"/>
     <definition value="Laparoscopy"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -207,7 +212,7 @@
     <display value="Laser surface scan"/>
     <definition value="Laser surface scan"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -218,7 +223,7 @@
     <display value="Magnetic resonance angiography"/>
     <definition value="Magnetic resonance angiography"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -229,7 +234,7 @@
     <display value="Magnetic resonance spectroscopy"/>
     <definition value="Magnetic resonance spectroscopy"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -240,7 +245,7 @@
     <display value="Nuclear Medicine (radioisotope study)"/>
     <definition value="Nuclear Medicine (radioisotope study)"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -251,7 +256,7 @@
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -262,7 +267,7 @@
     <display value="Positron emission tomography (PET)"/>
     <definition value="Positron emission tomography (PET)"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -273,7 +278,7 @@
     <display value="Radio fluoroscopy"/>
     <definition value="Radio fluoroscopy"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -284,7 +289,7 @@
     <display value="Single photon emission computed tomography (SPECT)"/>
     <definition value="Single photon emission computed tomography (SPECT)"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -295,7 +300,7 @@
     <display value="Thermography"/>
     <definition value="Thermography"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -306,7 +311,7 @@
     <display value="Ultrasound"/>
     <definition value="Ultrasound"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

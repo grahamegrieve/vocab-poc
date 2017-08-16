@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0163"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.81"/>
+    <value value="urn:oid:2.16.840.1.113883.18.81">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="bodySite"/>
+      </extension>
+    </value>
   </identifier>
   <version value="3"/>
   <name value="V2Table0163"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0163 (Body Site)"/>
+  <description value="HL7-defined code system of concepts that specify a body site from which a specimen is obtained.  Used in HL7 Version 2.x messaging in the OBX and CH7 segments."/>
+  <purpose value="Underlying Master Code System for V2 table 0163 (Body Site)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0163"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Nebulized"/>
     <definition value="Nebulized"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Left Vastus Lateralis"/>
     <definition value="Left Vastus Lateralis"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -61,7 +66,7 @@
     <display value="Bilateral Ears"/>
     <definition value="Bilateral Ears"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -69,7 +74,7 @@
     <display value="Bilateral Eyes"/>
     <definition value="Bilateral Eyes"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -77,7 +82,7 @@
     <display value="Bilateral Nares"/>
     <definition value="Bilateral Nares"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -85,7 +90,7 @@
     <display value="Buttock"/>
     <definition value="Buttock"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -93,7 +98,7 @@
     <display value="Chest Tube"/>
     <definition value="Chest Tube"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -101,7 +106,7 @@
     <display value="Left Arm"/>
     <definition value="Left Arm"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -109,7 +114,7 @@
     <display value="Left Anterior Chest"/>
     <definition value="Left Anterior Chest"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -117,7 +122,7 @@
     <display value="Left Antecubital Fossa"/>
     <definition value="Left Antecubital Fossa"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -125,7 +130,7 @@
     <display value="Left Deltoid"/>
     <definition value="Left Deltoid"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -133,7 +138,7 @@
     <display value="Left Ear"/>
     <definition value="Left Ear"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -141,7 +146,7 @@
     <display value="Left External Jugular"/>
     <definition value="Left External Jugular"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -149,7 +154,7 @@
     <display value="Left Eye"/>
     <definition value="Left Eye"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -157,7 +162,7 @@
     <display value="Left Foot"/>
     <definition value="Left Foot"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -165,7 +170,7 @@
     <display value="Left Gluteus Medius"/>
     <definition value="Left Gluteus Medius"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -173,7 +178,7 @@
     <display value="Left Hand"/>
     <definition value="Left Hand"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -181,7 +186,7 @@
     <display value="Left Internal Jugular"/>
     <definition value="Left Internal Jugular"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -189,7 +194,7 @@
     <display value="Left Lower Abd Quadrant"/>
     <definition value="Left Lower Abd Quadrant"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -197,7 +202,7 @@
     <display value="Left Lower Forearm"/>
     <definition value="Left Lower Forearm"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -205,7 +210,7 @@
     <display value="Left Mid Forearm"/>
     <definition value="Left Mid Forearm"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -213,7 +218,7 @@
     <display value="Left Naris"/>
     <definition value="Left Naris"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -221,7 +226,7 @@
     <display value="Left Posterior Chest"/>
     <definition value="Left Posterior Chest"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -229,7 +234,7 @@
     <display value="Left Subclavian"/>
     <definition value="Left Subclavian"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -237,7 +242,7 @@
     <display value="Left Thigh"/>
     <definition value="Left Thigh"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -245,7 +250,7 @@
     <display value="Left Upper Arm"/>
     <definition value="Left Upper Arm"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -253,7 +258,7 @@
     <display value="Left Upper Abd Quadrant"/>
     <definition value="Left Upper Abd Quadrant"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -261,7 +266,7 @@
     <display value="Left Upper Forearm"/>
     <definition value="Left Upper Forearm"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -269,7 +274,7 @@
     <display value="Left Ventragluteal"/>
     <definition value="Left Ventragluteal"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -277,7 +282,7 @@
     <display value="Left Vastus Lateralis"/>
     <definition value="Left Vastus Lateralis"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -285,7 +290,7 @@
     <display value="Nebulized"/>
     <definition value="Nebulized"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -293,7 +298,7 @@
     <display value="Perianal"/>
     <definition value="Perianal"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -301,7 +306,7 @@
     <display value="Perineal"/>
     <definition value="Perineal"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -309,7 +314,7 @@
     <display value="Right Arm"/>
     <definition value="Right Arm"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -317,7 +322,7 @@
     <display value="Right Anterior Chest"/>
     <definition value="Right Anterior Chest"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -325,7 +330,7 @@
     <display value="Right Antecubital Fossa"/>
     <definition value="Right Antecubital Fossa"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -333,7 +338,7 @@
     <display value="Right Deltoid"/>
     <definition value="Right Deltoid"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -341,7 +346,7 @@
     <display value="Right Ear"/>
     <definition value="Right Ear"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -349,7 +354,7 @@
     <display value="Right External Jugular"/>
     <definition value="Right External Jugular"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -357,7 +362,7 @@
     <display value="Right Eye"/>
     <definition value="Right Eye"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -365,7 +370,7 @@
     <display value="Right Foot"/>
     <definition value="Right Foot"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -373,7 +378,7 @@
     <display value="Right Gluteus Medius"/>
     <definition value="Right Gluteus Medius"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -381,7 +386,7 @@
     <display value="Right Hand"/>
     <definition value="Right Hand"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -389,7 +394,7 @@
     <display value="Right Internal Jugular"/>
     <definition value="Right Internal Jugular"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -397,7 +402,7 @@
     <display value="Rt Lower Abd Quadrant"/>
     <definition value="Rt Lower Abd Quadrant"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -405,7 +410,7 @@
     <display value="Right Lower Forearm"/>
     <definition value="Right Lower Forearm"/>
   </concept>
-  <concept>
+  <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -413,7 +418,7 @@
     <display value="Right Mid Forearm"/>
     <definition value="Right Mid Forearm"/>
   </concept>
-  <concept>
+  <concept id="46">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -421,7 +426,7 @@
     <display value="Right Naris"/>
     <definition value="Right Naris"/>
   </concept>
-  <concept>
+  <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -429,7 +434,7 @@
     <display value="Right Posterior Chest"/>
     <definition value="Right Posterior Chest"/>
   </concept>
-  <concept>
+  <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -437,7 +442,7 @@
     <display value="Right Subclavian"/>
     <definition value="Right Subclavian"/>
   </concept>
-  <concept>
+  <concept id="49">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -445,7 +450,7 @@
     <display value="Right Thigh"/>
     <definition value="Right Thigh"/>
   </concept>
-  <concept>
+  <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -453,7 +458,7 @@
     <display value="Right Upper Arm"/>
     <definition value="Right Upper Arm"/>
   </concept>
-  <concept>
+  <concept id="51">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -461,7 +466,7 @@
     <display value="Right Upper Abd Quadrant"/>
     <definition value="Right Upper Abd Quadrant"/>
   </concept>
-  <concept>
+  <concept id="52">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -469,7 +474,7 @@
     <display value="Right Upper Forearm"/>
     <definition value="Right Upper Forearm"/>
   </concept>
-  <concept>
+  <concept id="53">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -477,7 +482,7 @@
     <display value="Right Vastus Lateralis"/>
     <definition value="Right Vastus Lateralis"/>
   </concept>
-  <concept>
+  <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>

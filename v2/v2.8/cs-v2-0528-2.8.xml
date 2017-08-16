@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0528 (Event Related Period)"/>
+  <description value="HL7-defined code system of concepts specifying a common (periodical) activity of daily living.  Used in HL7 Version 2 messaging in the RPT segment."/>
+  <purpose value="Underlying Code System for V2 table 0528 (Event Related Period, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0528-2.8"/>
@@ -40,67 +41,67 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="HS"/>
     <display value="the hour of sleep (e.g., H18-22)"/>
     <definition value="the hour of sleep (e.g., H18-22)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AC"/>
     <display value="before meal (from lat. ante cibus)"/>
     <definition value="before meal (from lat. ante cibus)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="PC"/>
     <display value="after meal (from lat. post cibus)"/>
     <definition value="after meal (from lat. post cibus)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="IC"/>
     <display value="between meals (from lat. inter cibus)"/>
     <definition value="between meals (from lat. inter cibus)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="ACM"/>
     <display value="before breakfast (from lat. ante cibus matutinus)"/>
     <definition value="before breakfast (from lat. ante cibus matutinus)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="ACD"/>
     <display value="before lunch (from lat. ante cibus diurnus)"/>
     <definition value="before lunch (from lat. ante cibus diurnus)"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="ACV"/>
     <display value="before dinner (from lat. ante cibus vespertinus)"/>
     <definition value="before dinner (from lat. ante cibus vespertinus)"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="PCM"/>
     <display value="after breakfast (from lat. post cibus matutinus)"/>
     <definition value="after breakfast (from lat. post cibus matutinus)"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="PCD"/>
     <display value="after lunch (from lat. post cibus diurnus)"/>
     <definition value="after lunch (from lat. post cibus diurnus)"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="PCV"/>
     <display value="after dinner (from lat. post cibus vespertinus)"/>
     <definition value="after dinner (from lat. post cibus vespertinus)"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="ICM"/>
     <display value="between breakfast and lunch"/>
     <definition value="between breakfast and lunch"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="ICD"/>
     <display value="between lunch and dinner"/>
     <definition value="between lunch and dinner"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="ICV"/>
     <display value="between dinner and the hour of sleep"/>
     <definition value="between dinner and the hour of sleep"/>

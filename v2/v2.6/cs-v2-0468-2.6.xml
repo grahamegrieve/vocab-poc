@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0468 (Payment Adjustment Code)"/>
+  <description value="Code system of concepts specifying any payment adjustment due to drugs or medical devices.  Used in HL7 Version 2.x messaging in the GP2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0468 (Payment Adjustment Code, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0468-2.6"/>
@@ -37,27 +38,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="No payment adjustment"/>
     <definition value="No payment adjustment"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="Designated current drug or biological payment adjustment applies to APC (status indicator G)"/>
     <definition value="Designated current drug or biological payment adjustment applies to APC (status indicator G)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Designated new device payment adjustment applies to APC (status indicator H)"/>
     <definition value="Designated new device payment adjustment applies to APC (status indicator H)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="Designated new drug or new biological payment adjustment applies to APC (status indicator J)"/>
     <definition value="Designated new drug or new biological payment adjustment applies to APC (status indicator J)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="5"/>
     <display value="Deductible not applicable (specific list of HCPCS codes)"/>
     <definition value="Deductible not applicable (specific list of HCPCS codes)"/>

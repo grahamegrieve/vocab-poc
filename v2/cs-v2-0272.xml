@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0272"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.166"/>
+    <value value="urn:oid:2.16.840.1.113883.18.166">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="documentConfidentialityStatus2"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0272"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0272 (Document Confidentiality Status)"/>
+  <description value="HL7-defined code system of concetps used to identify the degree to which special confidentiality protection should be applied to this information.  Used in HL7 Version 2.x messaging in the TXA segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0272 (Document Confidentiality Status)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0272"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="ASTM Level 1"/>
     <definition value="ASTM Level 1"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="ASTM Level 2"/>
     <definition value="ASTM Level 2"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="ASTM Level 3"/>
     <definition value="ASTM Level 3"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Restricted"/>
     <definition value="Restricted"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Usual control"/>
     <definition value="Usual control"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Very restricted"/>
     <definition value="Very restricted"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -105,7 +110,7 @@
     <display value="Very restricted"/>
     <definition value="Very restricted"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -113,7 +118,7 @@
     <display value="Restricted"/>
     <definition value="Restricted"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>

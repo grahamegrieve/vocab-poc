@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0367"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.225"/>
+    <value value="urn:oid:2.16.840.1.113883.18.225">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="alertLevel"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0367"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0367 (Alert Level)"/>
+  <description value="HL7-defined code system of concepts that identify the highest level of the alert state (e.g.,highest alert severity) that is associated with the indicated equipment (e.g. processing event, inventory event, QC event).  Used in the Equipment Detail (EQU) and Notification Detail (NDS) segments in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Master Code System for V2 table 0367 (Alert Level)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0367"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="No Corrective Action Needed"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Normal"/>
     <definition value="Normal"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Corrective Action Anticipated"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Warning"/>
     <definition value="Warning"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Corrective Action Required"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Serious"/>
     <definition value="Serious"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Shut Down, Fix Problem and Re-init"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Critical"/>
     <definition value="Critical"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="(null) No level change"/>
     <definition value="(null) No level change"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7.1"/>
     </extension>

@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0316 (Organ Donor Code)"/>
+  <description value="Code system of concepts specifying whether the patient wants to donate his/her organs and whether an organ donor card or similar documentation is on file with the healthcare organization.   Used in HL7 Version 2.x messaging in the Patient Visit - Additional Information ( PV2) and Patient Additional Demographic (PD1) segments."/>
+  <purpose value="Underlying Code System for V2 table 0316 (Organ Donor Code, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0316-2.3"/>
@@ -31,22 +32,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="Y"/>
     <display value="Yes, patient is a donor and card is on file"/>
     <definition value="Yes, patient is a donor and card is on file"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="F"/>
     <display value="Yes, patient is a donor, but card is not on file"/>
     <definition value="Yes, patient is a donor, but card is not on file"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="N"/>
     <display value="No, patient is not a donor"/>
     <definition value="No, patient is not a donor"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>

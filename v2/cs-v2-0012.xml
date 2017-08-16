@@ -5,7 +5,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0012"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.12"/>
+    <value value="urn:oid:2.16.840.1.113883.18.12">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="stockLocation"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0012"/>
@@ -20,7 +24,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0012 (STOCK LOCATION)"/>
+  <description value="Code system of concepts specifying a stock location for older Version 2 messaging systems; not used after version 2.2 of the Standard."/>
+  <purpose value="Underlying Master Code System for V2 table 0012 (STOCK LOCATION)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0012"/>
@@ -28,12 +33,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AN"/>
     <display value="Filled from ancillary department stock"/>
     <definition value="Filled from ancillary department stock"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="FL"/>
     <display value="Filled from floor stock"/>
     <definition value="Filled from floor stock"/>

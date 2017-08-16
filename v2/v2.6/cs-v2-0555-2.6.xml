@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0555 (Invoice Type)"/>
+  <description value="Code system of concepts used to specify the type of invoice.  Used in the Invoice (IVC) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0555 (Invoice Type, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0555-2.6"/>
@@ -37,52 +38,52 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="FS"/>
     <display value="Fee for Service"/>
     <definition value="Fee for Service"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="SS"/>
     <display value="By Session"/>
     <definition value="By Session"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="GP"/>
     <display value="Group"/>
     <definition value="Group"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="BK"/>
     <display value="Block"/>
     <definition value="Block"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="SL"/>
     <display value="Salary"/>
     <definition value="Salary"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="IN"/>
     <display value="Information Only"/>
     <definition value="Information Only"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="NP"/>
     <display value="Non Patient"/>
     <definition value="Non Patient"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="FN"/>
     <display value="Final"/>
     <definition value="Final"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="PA"/>
     <display value="Partial"/>
     <definition value="Partial"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="SU"/>
     <display value="Supplemental"/>
     <definition value="Supplemental"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0466 (Ambulatory Payment Classification Code)"/>
+  <description value="Code system of concepts specifying the derived Ambulatory Payment Classification (APC) code.  Used in HL7 Version 2.x messaging in the GP2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0466 (Ambulatory Payment Classification Code, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0466-2.8.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="031"/>
     <display value="Dental procedures"/>
     <definition value="Dental procedures"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="163"/>
     <display value="Excision/biopsy"/>
     <definition value="Excision/biopsy"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="181"/>
     <display value="Level 1 skin repair."/>
     <definition value="Level 1 skin repair."/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="..."/>
     <display value="No suggested values defined"/>
     <definition value="No suggested values defined"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0914 (Root Cause)"/>
+  <description value="Code system of concepts specifying the root cause.  Used in HL7 Version 2.x messaging in the OBX segment."/>
+  <purpose value="Underlying Code System for V2 table 0914 (Root Cause, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0914-2.8.1"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Enter (AP) when ANALYSIS PROCESS is the reason due to:&lt;p&gt;&#xE2;&#x80;&#xA2; Product or supply failure (reagents, calibrators, QC material)&lt;p&gt;&#xE2;&#x80;&#xA2; Equipment or instrumentation failure"/>
     </extension>
@@ -48,7 +49,7 @@
     <display value="Analysis Process"/>
     <definition value="Analysis Process"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Enter (IM) when INFORMATION MANAGEMENT is the reason due to:&lt;p&gt;&#xE2;&#x80;&#xA2; Database or Programming issues&lt;p&gt;&#xE2;&#x80;&#xA2; Overriding of test results&lt;p&gt;&#xE2;&#x80;&#xA2; Inaccurate calculations&lt;p&gt;&#xE2;&#x80;&#xA2; Inaccurate flagging, reference ranges, units of measure&lt;p&gt;&#xE2;&#x80;&#xA2; Incomplete/inaccurate tran"/>
     </extension>
@@ -56,7 +57,7 @@
     <display value="Information Management"/>
     <definition value="Information Management"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Enter (L) when LABORATORY is the reason due to:&lt;p&gt;&#xE2;&#x80;&#xA2; Data Entry error&lt;p&gt;&#xE2;&#x80;&#xA2; Testing/Technical error&lt;p&gt;&#xE2;&#x80;&#xA2; Repeat testing causing change to test result"/>
     </extension>
@@ -64,7 +65,7 @@
     <display value="Laboratory"/>
     <definition value="Laboratory"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Enter (NA) when NOT-APPLICABLE is the reason due to:&lt;p&gt;&#xE2;&#x80;&#xA2; If no revisions performed or&lt;p&gt;&#xE2;&#x80;&#xA2; unable to determine reason for revision&lt;p&gt;Note:  Do not use NA if result code status is not corrected (revised) or if a preliminary release of results with a cor"/>
     </extension>
@@ -72,7 +73,7 @@
     <display value="Not Applicable"/>
     <definition value="Not Applicable"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Enter (PD) when new or changed PLACER DATA information is the reason due to:&lt;p&gt;&#xE2;&#x80;&#xA2; Changed patient demographics or&lt;p&gt;&#xE2;&#x80;&#xA2; Result code data provided by the client on the requisition or specimen manifest that will be entered during order entry (i.e. Previous"/>
     </extension>

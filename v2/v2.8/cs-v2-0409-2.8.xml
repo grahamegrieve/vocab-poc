@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0409 (Application Change Type)"/>
+  <description value="HL7-defined code system of concepts which specify the type of change being requested (if NMR query) or announced (if NMD unsolicited update) during application status changes. It is assumed that a &quot;new&quot; version starts up with no loss or duplication of data as the &quot;old&quot; one is shutting down (if possible).  Used in HL7 Version 2 Messaging in the NSC segment."/>
+  <purpose value="Underlying Code System for V2 table 0409 (Application Change Type, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0409-2.8"/>
@@ -40,17 +41,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="SU"/>
     <display value="Start up"/>
     <definition value="Start up"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="SD"/>
     <display value="Shut down"/>
     <definition value="Shut down"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Migrates to different CPU"/>
     <definition value="Migrates to different CPU"/>

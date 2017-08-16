@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0397"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.248"/>
+    <value value="urn:oid:2.16.840.1.113883.18.248">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="sequencing"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0397"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0397 (Sequencing)"/>
+  <description value="HL7-defined code system of concepts identifying how the field or parameter will be sorted and, if sorted, whether the sort will be case sensitive (the default) or not.  Used in HL7 Version 2.x messaging in the Sort Order (SRT) value."/>
+  <purpose value="Underlying Master Code System for V2 table 0397 (Sequencing)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0397"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Ascending"/>
     <definition value="Ascending"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Ascending, case insensitive"/>
     <definition value="Ascending, case insensitive"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Descending"/>
     <definition value="Descending"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Descending, case insensitive"/>
     <definition value="Descending, case insensitive"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>

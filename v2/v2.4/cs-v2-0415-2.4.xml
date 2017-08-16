@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0415 (Transfer Type)"/>
+  <description value="HL7-defined code system of concepts which specify a type of hospital receiving a transfer patient, which affects how a facility is reimbursed under diagnosis related group (DRG&#x2019;s), for example, exempt or non-exempt.  Used in HL7 Version 2 messaging in the DRG segment."/>
+  <purpose value="Underlying Code System for V2 table 0415 (Transfer Type, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0415-2.4"/>
@@ -34,12 +35,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="N"/>
     <display value="DRG Non Exempt"/>
     <definition value="DRG Non Exempt"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="E"/>
     <display value="DRG Exempt"/>
     <definition value="DRG Exempt"/>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0259 (Modality)"/>
+  <description value="Code system of concepts used to define the imaging apparatus expected to be used to acquire an observation.  This table has been removed from the standard as of 2.7 in favor of table 0910.  Used in HL7 Version 2.x messaging in the OM1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0259 (Modality, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0259-2.3"/>
@@ -34,132 +35,132 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="AS"/>
     <display value="Angioscopy"/>
     <definition value="Angioscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="BS"/>
     <display value="Biomagnetic imaging"/>
     <definition value="Biomagnetic imaging"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CD"/>
     <display value="Color Flow Doppler"/>
     <definition value="Color Flow Doppler"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CP"/>
     <display value="Colposcopy"/>
     <definition value="Colposcopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CR"/>
     <display value="Computed Radiography"/>
     <definition value="Computed Radiography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CS"/>
     <display value="Cystoscopy"/>
     <definition value="Cystoscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CT"/>
     <display value="Computed Tomography"/>
     <definition value="Computed Tomography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DD"/>
     <display value="Duplex Doppler"/>
     <definition value="Duplex Doppler"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DG"/>
     <display value="Diapanography"/>
     <definition value="Diapanography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DM"/>
     <display value="Digital microscopy"/>
     <definition value="Digital microscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="EC"/>
     <display value="Echocardiography"/>
     <definition value="Echocardiography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="ES"/>
     <display value="Endoscopy"/>
     <definition value="Endoscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="FA"/>
     <display value="Fluorescein Angiography"/>
     <definition value="Fluorescein Angiography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="FS"/>
     <display value="Fundoscopy"/>
     <definition value="Fundoscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="LP"/>
     <display value="Laparoscopy"/>
     <definition value="Laparoscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="LS"/>
     <display value="Laser surface scan"/>
     <definition value="Laser surface scan"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MA"/>
     <display value="Magnetic Resonance Angiography"/>
     <definition value="Magnetic Resonance Angiography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MS"/>
     <display value="Magnetic Resonance Spectroscopy"/>
     <definition value="Magnetic Resonance Spectroscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="NM"/>
     <display value="Nuclear medicine (radioisotope study)"/>
     <definition value="Nuclear medicine (radioisotope study)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OT"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PT"/>
     <display value="Positron Emission Tomography (PET)"/>
     <definition value="Positron Emission Tomography (PET)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="RF"/>
     <display value="RadioFluoroscopy"/>
     <definition value="RadioFluoroscopy"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="ST"/>
     <display value="Single Photon Emission Computed Tomography (SPECT)"/>
     <definition value="Single Photon Emission Computed Tomography (SPECT)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TG"/>
     <display value="Thermography"/>
     <definition value="Thermography"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="US"/>
     <display value="Ultrasound"/>
     <definition value="Ultrasound"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="XA"/>
     <display value="X-Ray Angiography"/>
     <definition value="X-Ray Angiography"/>

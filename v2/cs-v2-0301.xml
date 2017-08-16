@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0301"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.186"/>
+    <value value="urn:oid:2.16.840.1.113883.18.186">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="universalIdType"/>
+      </extension>
+    </value>
   </identifier>
   <version value="2"/>
   <name value="V2Table0301"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0301 (Universal ID Type)"/>
+  <description value="HL7-defined code system of types of UID (Universal Identifiers).   Used in HL7 Version 2.x messaging HD and EI datatypes."/>
+  <purpose value="Underlying Master Code System for V2 table 0301 (Universal ID Type)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0301"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Domain Name System"/>
     <definition value="Domain Name System"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="OUI-24 values are administered by the IEEE Registration Authority."/>
     </extension>
@@ -50,7 +55,7 @@
     <display value="IEEE 64-bit Extended Unique Identifier"/>
     <definition value="IEEE 64-bit Extended Unique Identifier"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -58,7 +63,7 @@
     <display value="Clinical Laboratory Improvement Amendments"/>
     <definition value="Clinical Laboratory Improvement Amendments"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.7"/>
     </extension>
@@ -66,7 +71,7 @@
     <display value="Clinical laboratory Improvement Program"/>
     <definition value="Clinical laboratory Improvement Program"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; use UUID instead"/>
     </extension>
@@ -77,7 +82,7 @@
     <display value="globally unique identifier"/>
     <definition value="globally unique identifier"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; does not identify Assigning Authorities"/>
     </extension>
@@ -88,7 +93,7 @@
     <display value="CEN Healthcare Coding Identifier"/>
     <definition value="CEN Healthcare Coding Identifier"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; HL7 assigns ISO OIDs for Assigning Authorities"/>
     </extension>
@@ -99,7 +104,7 @@
     <display value="HL7 registration schemes"/>
     <definition value="HL7 registration schemes"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -107,7 +112,7 @@
     <display value="ISO Object Identifier"/>
     <definition value="ISO Object Identifier"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v 2.8"/>
     </extension>
@@ -118,7 +123,7 @@
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v 2.8"/>
     </extension>
@@ -129,7 +134,7 @@
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v 2.8"/>
     </extension>
@@ -140,7 +145,7 @@
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v 2.8"/>
     </extension>
@@ -151,7 +156,7 @@
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; equivalent to a locally defined entity identifier scheme; use L. M, or N instead."/>
     </extension>
@@ -162,7 +167,7 @@
     <display value="Random"/>
     <definition value="Random"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -170,7 +175,7 @@
     <display value="Uniform Resource Identifier"/>
     <definition value="Uniform Resource Identifier"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -178,7 +183,7 @@
     <display value="Universal Unique Identifier"/>
     <definition value="Universal Unique Identifier"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -186,7 +191,7 @@
     <display value="X.400 MHS identifier"/>
     <definition value="X.400 MHS identifier"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

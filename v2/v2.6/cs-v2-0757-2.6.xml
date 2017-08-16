@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0757 (DRG Status Respiration Minutes)"/>
+  <description value="Code system of concepts specifying the status of the use of the respiration minutes information for diagnosis related group (DRG) determination.  US Realm. Used in HL7 Version 2.x messaging in the DRG segment."/>
+  <purpose value="Underlying Code System for V2 table 0757 (DRG Status Respiration Minutes, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0757-2.6"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="0"/>
     <display value="Respiration minutes not used for grouping"/>
     <definition value="Respiration minutes not used for grouping"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="1"/>
     <display value="Listed respiration minutes used for grouping"/>
     <definition value="Listed respiration minutes used for grouping"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2"/>
     <display value="OPS code value used for grouping"/>
     <definition value="OPS code value used for grouping"/>

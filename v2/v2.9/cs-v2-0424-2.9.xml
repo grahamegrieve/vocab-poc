@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0424 (Gestation Category Code)"/>
+  <description value="HL7-defined code system of concepts which specify the status of a birth in relation to the gestation.  Used in HL7 Version 2 messaging in the ABS segment."/>
+  <purpose value="Underlying Code System for V2 table 0424 (Gestation Category Code, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0424-2.9"/>
@@ -40,17 +41,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="Premature / Pre-term"/>
     <definition value="Premature / Pre-term"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="Full Term"/>
     <definition value="Full Term"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Overdue / Post-term"/>
     <definition value="Overdue / Post-term"/>

@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0156 (Which date/time qualifier)"/>
+  <description value="HL7-defined code system of concepts that specify a type of date referred to in query specifications.   Used in HL7 Version 2 messaging in the QRF segment."/>
+  <purpose value="Underlying Code System for V2 table 0156 (Which date/time qualifier, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0156-2.5.1"/>
@@ -37,32 +38,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ANY"/>
     <display value="Any date/time within a range"/>
     <definition value="Any date/time within a range"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="COL"/>
     <display value="Collection date/time, equivalent to film or sample collection date/time"/>
     <definition value="Collection date/time, equivalent to film or sample collection date/time"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ORD"/>
     <display value="Order date/time"/>
     <definition value="Order date/time"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="RCT"/>
     <display value="Specimen receipt date/time, receipt of specimen in filling ancillary (Lab)"/>
     <definition value="Specimen receipt date/time, receipt of specimen in filling ancillary (Lab)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="REP"/>
     <display value="Report date/time, report date/time at filling ancillary (i.e., Lab)"/>
     <definition value="Report date/time, report date/time at filling ancillary (i.e., Lab)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="SCHED"/>
     <display value="Schedule date/time"/>
     <definition value="Schedule date/time"/>

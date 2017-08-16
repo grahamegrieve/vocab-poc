@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0315"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.190"/>
+    <value value="urn:oid:2.16.840.1.113883.18.190">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="livingWillCodes"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0315"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0315 (Living Will Code)"/>
+  <description value="Code system of concepts specifying whether or not the patient has a living will and, if so, whether a copy fo the living will is on file at the healthcare facility.  If the patient does not have a living will, the value of this field indicates whether the patient was provided information on living wills.  Used in HL7 Version 2.x messaging in the Patient Visit - Additional Information ( PV2) and Patient Additional Demographic (PD1) segments."/>
+  <purpose value="Underlying Master Code System for V2 table 0315 (Living Will Code)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0315"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Yes, patient has a living will"/>
     <definition value="Yes, patient has a living will"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Yes, patient has a living will but it is not on file"/>
     <definition value="Yes, patient has a living will but it is not on file"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="No, patient does not have a living will and no information was provided"/>
     <definition value="No, patient does not have a living will and no information was provided"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="No, patient does not have a living will but information was provided"/>
     <definition value="No, patient does not have a living will but information was provided"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0894 (Side of body)"/>
+  <description value="Code system of concepts specifying the side of the body (&quot;left&quot; or &quot;right&quot;).  Used in HL7 Version 2.x messaging in the PSL segment."/>
+  <purpose value="Underlying Code System for V2 table 0894 (Side of body, version 2.8.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0894-2.8.2"/>
@@ -40,12 +41,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="L"/>
     <display value="Left"/>
     <definition value="Left"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="R"/>
     <display value="Right"/>
     <definition value="Right"/>

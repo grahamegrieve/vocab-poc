@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0505 (Cyclic Entry/Exit Indicator)"/>
+  <description value="HL7-defined code system of concepts used to specify if this service request is the first or last service request in a cyclic series of service requests.  Used in the Timing/Quantity Relationship (TQ2) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0505 (Cyclic Entry/Exit Indicator, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0505-2.5"/>
@@ -37,12 +38,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="*"/>
     <display value="The first service request in a cyclic group"/>
     <definition value="The first service request in a cyclic group"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="#"/>
     <display value="The last service request in a cyclic group."/>
     <definition value="The last service request in a cyclic group."/>

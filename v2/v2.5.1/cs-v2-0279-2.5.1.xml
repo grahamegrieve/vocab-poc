@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0279 (Allow Substitution Codes)"/>
+  <description value="Code system of concepts used to indicate whether the appointment resource may be substituted for another by the entity assigned to fulfill the appointment.  Used in HL7 Version 2.x messaging in the AIS and AIG segments."/>
+  <purpose value="Underlying Code System for V2 table 0279 (Allow Substitution Codes, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="false"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0279-2.5.1"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="No"/>
     <display value="Substitution of this resource is not allowed"/>
     <definition value="Substitution of this resource is not allowed"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="Confirm"/>
     <display value="Contact the Placer Contact Person prior to making any substitutions of this resource"/>
     <definition value="Contact the Placer Contact Person prior to making any substitutions of this resource"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="Notify"/>
     <display value="Notify the Placer Contact Person, through normal institutional procedures, that a substitution of this resource has been made"/>
     <definition value="Notify the Placer Contact Person, through normal institutional procedures, that a substitution of this resource has been made"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="Yes"/>
     <display value="Substitution of this resource is allowed"/>
     <definition value="Substitution of this resource is allowed"/>

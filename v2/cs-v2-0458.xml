@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0458"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.6.301.9"/>
+    <value value="urn:oid:2.16.840.1.113883.6.301.9">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="cms-OCEEditCode-cs"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0458"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0458 (OCE Edit Code)"/>
+  <description value="Code system of concepts specifying the action to be taken during reimbursement calculations.  Used in HL7 Version 2.x messaging in the GP2 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0458 (OCE Edit Code)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0458"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Invalid diagnosis code"/>
     <definition value="Invalid diagnosis code"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Diagnosis and age conflict"/>
     <definition value="Diagnosis and age conflict"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Diagnosis and sex conflict"/>
     <definition value="Diagnosis and sex conflict"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Medicare secondary payer alert"/>
     <definition value="Medicare secondary payer alert"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="E-code as reason for visit"/>
     <definition value="E-code as reason for visit"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Invalid procedure code"/>
     <definition value="Invalid procedure code"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Procedure and age conflict"/>
     <definition value="Procedure and age conflict"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Procedure and sex conflict"/>
     <definition value="Procedure and sex conflict"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -130,7 +135,7 @@
     <display value="Nov-covered service"/>
     <definition value="Nov-covered service"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -141,7 +146,7 @@
     <display value="Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)"/>
     <definition value="Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -152,7 +157,7 @@
     <display value="Non-covered service submitted for FI review (condition code 20 from header information on claim)"/>
     <definition value="Non-covered service submitted for FI review (condition code 20 from header information on claim)"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -163,7 +168,7 @@
     <display value="Questionable covered service"/>
     <definition value="Questionable covered service"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -174,7 +179,7 @@
     <display value="Additional payment for service not provided by Medicare"/>
     <definition value="Additional payment for service not provided by Medicare"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -185,7 +190,7 @@
     <display value="Code indicates a site of service not included in OPPS"/>
     <definition value="Code indicates a site of service not included in OPPS"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -196,7 +201,7 @@
     <display value="Service unit out of range for procedure"/>
     <definition value="Service unit out of range for procedure"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -207,7 +212,7 @@
     <display value="Multiple bilateral procedures without modifier 50 (see Appendix A)"/>
     <definition value="Multiple bilateral procedures without modifier 50 (see Appendix A)"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -218,7 +223,7 @@
     <display value="Multiple bilateral procedures with modifier 50 (see Appendix A)"/>
     <definition value="Multiple bilateral procedures with modifier 50 (see Appendix A)"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -229,7 +234,7 @@
     <display value="Inpatient procedure"/>
     <definition value="Inpatient procedure"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -240,7 +245,7 @@
     <display value="Mutually exclusive procedure that is not allowed even if appropriate modifier present"/>
     <definition value="Mutually exclusive procedure that is not allowed even if appropriate modifier present"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -251,7 +256,7 @@
     <display value="Component of a comprehensive procedure that is not allowed even if appropriate modifier present"/>
     <definition value="Component of a comprehensive procedure that is not allowed even if appropriate modifier present"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -262,7 +267,7 @@
     <display value="Medical visit on same day as a type &quot;T&quot; or &quot;S&quot; procedure without modifier 25 (see Appendix B)"/>
     <definition value="Medical visit on same day as a type &quot;T&quot; or &quot;S&quot; procedure without modifier 25 (see Appendix B)"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -273,7 +278,7 @@
     <display value="Invalid modifier"/>
     <definition value="Invalid modifier"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -284,7 +289,7 @@
     <display value="Invalid date"/>
     <definition value="Invalid date"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -295,7 +300,7 @@
     <display value="Date out of OCE range"/>
     <definition value="Date out of OCE range"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -306,7 +311,7 @@
     <display value="Invalid age"/>
     <definition value="Invalid age"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -317,7 +322,7 @@
     <display value="Invalid sex"/>
     <definition value="Invalid sex"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -328,7 +333,7 @@
     <display value="Only incidental services reported"/>
     <definition value="Only incidental services reported"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -339,7 +344,7 @@
     <display value="Code not recognized by Medicare; alternate code for same service available"/>
     <definition value="Code not recognized by Medicare; alternate code for same service available"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -350,7 +355,7 @@
     <display value="Partial hospitalization service for non-mental health diagnosis"/>
     <definition value="Partial hospitalization service for non-mental health diagnosis"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -361,7 +366,7 @@
     <display value="Insufficient services on day of partial hospitalization"/>
     <definition value="Insufficient services on day of partial hospitalization"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -372,7 +377,7 @@
     <display value="Partial hospitalization on same day as ECT or type &quot;T&quot; procedure"/>
     <definition value="Partial hospitalization on same day as ECT or type &quot;T&quot; procedure"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -383,7 +388,7 @@
     <display value="Partial hospitalization claim spans 3 or less days with in-sufficient services, or ECT or significant procedure on at least one of the days"/>
     <definition value="Partial hospitalization claim spans 3 or less days with in-sufficient services, or ECT or significant procedure on at least one of the days"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -394,7 +399,7 @@
     <display value="Partial hospitalization claim spans more than 3 days with insufficient number of days having mental health services"/>
     <definition value="Partial hospitalization claim spans more than 3 days with insufficient number of days having mental health services"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -405,7 +410,7 @@
     <display value="Partial hospitalization claim spans more than 3 days with insufficient number of days meeting partial hospitalization criteria"/>
     <definition value="Partial hospitalization claim spans more than 3 days with insufficient number of days meeting partial hospitalization criteria"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -416,7 +421,7 @@
     <display value="Only activity therapy and/or occupational therapy services provided"/>
     <definition value="Only activity therapy and/or occupational therapy services provided"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -427,7 +432,7 @@
     <display value="Extensive mental health services provided on day of ECT or significant procedure"/>
     <definition value="Extensive mental health services provided on day of ECT or significant procedure"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -438,7 +443,7 @@
     <display value="Terminated bilateral procedure or terminated procedure with units greater than one"/>
     <definition value="Terminated bilateral procedure or terminated procedure with units greater than one"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -449,7 +454,7 @@
     <display value="Inconsistency between implanted device and implantation procedure"/>
     <definition value="Inconsistency between implanted device and implantation procedure"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -460,7 +465,7 @@
     <display value="Mutually exclusive procedure that would be allowed if appropriate modifier were present"/>
     <definition value="Mutually exclusive procedure that would be allowed if appropriate modifier were present"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -471,7 +476,7 @@
     <display value="Component of a comprehensive procedure that would be allowed if appropriate modifier were present"/>
     <definition value="Component of a comprehensive procedure that would be allowed if appropriate modifier were present"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -482,7 +487,7 @@
     <display value="Invalid revenue code"/>
     <definition value="Invalid revenue code"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -493,7 +498,7 @@
     <display value="Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)"/>
     <definition value="Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>

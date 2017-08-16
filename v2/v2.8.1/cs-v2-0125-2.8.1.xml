@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0125 (Value Type)"/>
+  <description value="HL7-defined code system of concepts specifying the format of the observation value in the Observation Result (OBX).   Used in HL7 Version 2.x messaging in the RCD amd RDF segments."/>
+  <purpose value="Underlying Code System for V2 table 0125 (Value Type, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0125-2.8.1"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility as of v2.6."/>
     </extension>
@@ -48,17 +49,17 @@
     <display value="Address"/>
     <definition value="Address"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="CNE"/>
     <display value="Coded with No Exceptions"/>
     <definition value="Coded with No Exceptions"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CWE"/>
     <display value="Coded Entry"/>
     <definition value="Coded Entry"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -66,7 +67,7 @@
     <display value="Coded Element With Formatted Values"/>
     <definition value="Coded Element With Formatted Values"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
@@ -74,7 +75,7 @@
     <display value="Composite ID With Check Digit"/>
     <definition value="Composite ID With Check Digit"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
@@ -82,7 +83,7 @@
     <display value="Composite ID And Name"/>
     <definition value="Composite ID And Name"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -90,52 +91,52 @@
     <display value="Composite Price"/>
     <definition value="Composite Price"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="CX"/>
     <display value="Extended Composite ID With Check Digit"/>
     <definition value="Extended Composite ID With Check Digit"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="DR"/>
     <display value="Date/Time Range"/>
     <definition value="Date/Time Range"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="DT"/>
     <display value="Date"/>
     <definition value="Date"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="DTM"/>
     <display value="Time Stamp (Date &amp; Time)"/>
     <definition value="Time Stamp (Date &amp; Time)"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="ED"/>
     <display value="Encapsulated Data"/>
     <definition value="Encapsulated Data"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="FT"/>
     <display value="Formatted Text (Display)"/>
     <definition value="Formatted Text (Display)"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="ID"/>
     <display value="Coded Value for HL7 Defined Tables"/>
     <definition value="Coded Value for HL7 Defined Tables"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="IS"/>
     <display value="Coded Value for User-Defined Tables"/>
     <definition value="Coded Value for User-Defined Tables"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="MA"/>
     <display value="Multiplexed Array"/>
     <definition value="Multiplexed Array"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -143,17 +144,17 @@
     <display value="Money"/>
     <definition value="Money"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="NA"/>
     <display value="Numeric Array"/>
     <definition value="Numeric Array"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="NM"/>
     <display value="Numeric"/>
     <definition value="Numeric"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
@@ -161,27 +162,27 @@
     <display value="Person Name"/>
     <definition value="Person Name"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="RP"/>
     <display value="Reference Pointer"/>
     <definition value="Reference Pointer"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="SN"/>
     <display value="Structured Numeric"/>
     <definition value="Structured Numeric"/>
   </concept>
-  <concept>
+  <concept id="23">
     <code value="ST"/>
     <display value="String Data."/>
     <definition value="String Data."/>
   </concept>
-  <concept>
+  <concept id="24">
     <code value="TM"/>
     <display value="Time"/>
     <definition value="Time"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn as of v2.5."/>
     </extension>
@@ -189,12 +190,12 @@
     <display value="Telephone Number"/>
     <definition value="Telephone Number"/>
   </concept>
-  <concept>
+  <concept id="26">
     <code value="TX"/>
     <display value="Text Data (Display)"/>
     <definition value="Text Data (Display)"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -202,7 +203,7 @@
     <display value="Extended Address"/>
     <definition value="Extended Address"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -210,7 +211,7 @@
     <display value="Extended Composite Name And Number For Persons"/>
     <definition value="Extended Composite Name And Number For Persons"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -218,7 +219,7 @@
     <display value="Extended Composite Name And Number For Organizations"/>
     <definition value="Extended Composite Name And Number For Organizations"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>
@@ -226,7 +227,7 @@
     <display value="Extended Person Name"/>
     <definition value="Extended Person Name"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Withdrawn from this table only as of v2.7."/>
     </extension>

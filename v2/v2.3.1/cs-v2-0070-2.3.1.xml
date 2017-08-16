@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0070 (Specimen Source Codes)"/>
+  <description value="HL7-defined code system of concepts which specify sources for speciments for clinical testing.  These concepts are used in HL7 Version 2.x messaging in the OBR segment prior to version 2.7, and was replaced by the concepts in code system 2.16.840.1.133883.18.311 specimenType and code system 2.16.840.1.133883.18.312 specimenCollectionMethod as of version 2.5 and thereafter."/>
+  <purpose value="Underlying Code System for V2 table 0070 (Specimen Source Codes, version 2.3.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0070-2.3.1"/>
@@ -34,622 +35,622 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ABS"/>
     <display value="Abscess"/>
     <definition value="Abscess"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AMN"/>
     <display value="Amniotic fluid"/>
     <definition value="Amniotic fluid"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ASP"/>
     <display value="Aspirate"/>
     <definition value="Aspirate"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="BPH"/>
     <display value="Basophils"/>
     <definition value="Basophils"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="BIFL"/>
     <display value="Bile fluid"/>
     <definition value="Bile fluid"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="BLDA"/>
     <display value="Blood  arterial"/>
     <definition value="Blood  arterial"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="BBL"/>
     <display value="Blood bag"/>
     <definition value="Blood bag"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="BLDC"/>
     <display value="Blood  capillary"/>
     <definition value="Blood  capillary"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="BPU"/>
     <display value="Blood product unit"/>
     <definition value="Blood product unit"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="BLDV"/>
     <display value="Blood  venous"/>
     <definition value="Blood  venous"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="BON"/>
     <display value="Bone"/>
     <definition value="Bone"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="BRTH"/>
     <display value="Breath (use EXHLD)"/>
     <definition value="Breath (use EXHLD)"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="BRO"/>
     <display value="Bronchial"/>
     <definition value="Bronchial"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="BRN"/>
     <display value="Burn"/>
     <definition value="Burn"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="CALC"/>
     <display value="Calculus (=Stone)"/>
     <definition value="Calculus (=Stone)"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="CDM"/>
     <display value="Cardiac muscle"/>
     <definition value="Cardiac muscle"/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="CNL"/>
     <display value="Cannula"/>
     <definition value="Cannula"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="CTP"/>
     <display value="Catheter tip"/>
     <definition value="Catheter tip"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="CSF"/>
     <display value="Cerebral spinal fluid"/>
     <definition value="Cerebral spinal fluid"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="CVM"/>
     <display value="Cervical mucus"/>
     <definition value="Cervical mucus"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="CVX"/>
     <display value="Cervix"/>
     <definition value="Cervix"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="COL"/>
     <display value="Colostrum"/>
     <definition value="Colostrum"/>
   </concept>
-  <concept>
+  <concept id="23">
     <code value="CBLD"/>
     <display value="Cord blood"/>
     <definition value="Cord blood"/>
   </concept>
-  <concept>
+  <concept id="24">
     <code value="CNJT"/>
     <display value="Conjunctiva"/>
     <definition value="Conjunctiva"/>
   </concept>
-  <concept>
+  <concept id="25">
     <code value="CUR"/>
     <display value="Curettage"/>
     <definition value="Curettage"/>
   </concept>
-  <concept>
+  <concept id="26">
     <code value="CYST"/>
     <display value="Cyst"/>
     <definition value="Cyst"/>
   </concept>
-  <concept>
+  <concept id="27">
     <code value="DIAF"/>
     <display value="Dialysis fluid"/>
     <definition value="Dialysis fluid"/>
   </concept>
-  <concept>
+  <concept id="28">
     <code value="DOSE"/>
     <display value="Dose med or substance"/>
     <definition value="Dose med or substance"/>
   </concept>
-  <concept>
+  <concept id="29">
     <code value="DRN"/>
     <display value="Drain"/>
     <definition value="Drain"/>
   </concept>
-  <concept>
+  <concept id="30">
     <code value="DUFL"/>
     <display value="Duodenal fluid"/>
     <definition value="Duodenal fluid"/>
   </concept>
-  <concept>
+  <concept id="31">
     <code value="EAR"/>
     <display value="Ear"/>
     <definition value="Ear"/>
   </concept>
-  <concept>
+  <concept id="32">
     <code value="EARW"/>
     <display value="Ear wax (cerumen)"/>
     <definition value="Ear wax (cerumen)"/>
   </concept>
-  <concept>
+  <concept id="33">
     <code value="ELT"/>
     <display value="Electrode"/>
     <definition value="Electrode"/>
   </concept>
-  <concept>
+  <concept id="34">
     <code value="ENDC"/>
     <display value="Endocardium"/>
     <definition value="Endocardium"/>
   </concept>
-  <concept>
+  <concept id="35">
     <code value="ENDM"/>
     <display value="Endometrium"/>
     <definition value="Endometrium"/>
   </concept>
-  <concept>
+  <concept id="36">
     <code value="EOS"/>
     <display value="Eosinophils"/>
     <definition value="Eosinophils"/>
   </concept>
-  <concept>
+  <concept id="37">
     <code value="RBC"/>
     <display value="Erythrocytes"/>
     <definition value="Erythrocytes"/>
   </concept>
-  <concept>
+  <concept id="38">
     <code value="EYE"/>
     <display value="Eye"/>
     <definition value="Eye"/>
   </concept>
-  <concept>
+  <concept id="39">
     <code value="EXHLD"/>
     <display value="Exhaled gas (=breath)"/>
     <definition value="Exhaled gas (=breath)"/>
   </concept>
-  <concept>
+  <concept id="40">
     <code value="FIB"/>
     <display value="Fibroblasts"/>
     <definition value="Fibroblasts"/>
   </concept>
-  <concept>
+  <concept id="41">
     <code value="FLT"/>
     <display value="Filter"/>
     <definition value="Filter"/>
   </concept>
-  <concept>
+  <concept id="42">
     <code value="FIST"/>
     <display value="Fistula"/>
     <definition value="Fistula"/>
   </concept>
-  <concept>
+  <concept id="43">
     <code value="FLU"/>
     <display value="Body fluid, unsp"/>
     <definition value="Body fluid, unsp"/>
   </concept>
-  <concept>
+  <concept id="44">
     <code value="GAS"/>
     <display value="Gas"/>
     <definition value="Gas"/>
   </concept>
-  <concept>
+  <concept id="45">
     <code value="GAST"/>
     <display value="Gastric fluid/contents"/>
     <definition value="Gastric fluid/contents"/>
   </concept>
-  <concept>
+  <concept id="46">
     <code value="GEN"/>
     <display value="Genital"/>
     <definition value="Genital"/>
   </concept>
-  <concept>
+  <concept id="47">
     <code value="GENC"/>
     <display value="Genital cervix"/>
     <definition value="Genital cervix"/>
   </concept>
-  <concept>
+  <concept id="48">
     <code value="GENL"/>
     <display value="Genital lochia"/>
     <definition value="Genital lochia"/>
   </concept>
-  <concept>
+  <concept id="49">
     <code value="GENV"/>
     <display value="Genital vaginal"/>
     <definition value="Genital vaginal"/>
   </concept>
-  <concept>
+  <concept id="50">
     <code value="HAR"/>
     <display value="Hair"/>
     <definition value="Hair"/>
   </concept>
-  <concept>
+  <concept id="51">
     <code value="IHG"/>
     <display value="Inhaled Gas"/>
     <definition value="Inhaled Gas"/>
   </concept>
-  <concept>
+  <concept id="52">
     <code value="IT"/>
     <display value="Intubation tube"/>
     <definition value="Intubation tube"/>
   </concept>
-  <concept>
+  <concept id="53">
     <code value="ISLT"/>
     <display value="Isolate"/>
     <definition value="Isolate"/>
   </concept>
-  <concept>
+  <concept id="54">
     <code value="LAM"/>
     <display value="Lamella"/>
     <definition value="Lamella"/>
   </concept>
-  <concept>
+  <concept id="55">
     <code value="WBC"/>
     <display value="Leukocytes"/>
     <definition value="Leukocytes"/>
   </concept>
-  <concept>
+  <concept id="56">
     <code value="LN"/>
     <display value="Line"/>
     <definition value="Line"/>
   </concept>
-  <concept>
+  <concept id="57">
     <code value="LNA"/>
     <display value="Line arterial"/>
     <definition value="Line arterial"/>
   </concept>
-  <concept>
+  <concept id="58">
     <code value="LNV"/>
     <display value="Line venous"/>
     <definition value="Line venous"/>
   </concept>
-  <concept>
+  <concept id="59">
     <code value="LIQ"/>
     <display value="Liquid NOS"/>
     <definition value="Liquid NOS"/>
   </concept>
-  <concept>
+  <concept id="60">
     <code value="LYM"/>
     <display value="Lymphocytes"/>
     <definition value="Lymphocytes"/>
   </concept>
-  <concept>
+  <concept id="61">
     <code value="MAC"/>
     <display value="Macrophages"/>
     <definition value="Macrophages"/>
   </concept>
-  <concept>
+  <concept id="62">
     <code value="MAR"/>
     <display value="Marrow"/>
     <definition value="Marrow"/>
   </concept>
-  <concept>
+  <concept id="63">
     <code value="MEC"/>
     <display value="Meconium"/>
     <definition value="Meconium"/>
   </concept>
-  <concept>
+  <concept id="64">
     <code value="MBLD"/>
     <display value="Menstrual blood"/>
     <definition value="Menstrual blood"/>
   </concept>
-  <concept>
+  <concept id="65">
     <code value="MLK"/>
     <display value="Milk"/>
     <definition value="Milk"/>
   </concept>
-  <concept>
+  <concept id="66">
     <code value="MILK"/>
     <display value="Breast milk"/>
     <definition value="Breast milk"/>
   </concept>
-  <concept>
+  <concept id="67">
     <code value="NAIL"/>
     <display value="Nail"/>
     <definition value="Nail"/>
   </concept>
-  <concept>
+  <concept id="68">
     <code value="NOS"/>
     <display value="Nose (nasal passage)"/>
     <definition value="Nose (nasal passage)"/>
   </concept>
-  <concept>
+  <concept id="69">
     <code value="ORH"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="70">
     <code value="PAFL"/>
     <display value="Pancreatic fluid"/>
     <definition value="Pancreatic fluid"/>
   </concept>
-  <concept>
+  <concept id="71">
     <code value="PAT"/>
     <display value="Patient"/>
     <definition value="Patient"/>
   </concept>
-  <concept>
+  <concept id="72">
     <code value="PRT"/>
     <display value="Peritoneal fluid /ascites"/>
     <definition value="Peritoneal fluid /ascites"/>
   </concept>
-  <concept>
+  <concept id="73">
     <code value="PLC"/>
     <display value="Placenta"/>
     <definition value="Placenta"/>
   </concept>
-  <concept>
+  <concept id="74">
     <code value="PLAS"/>
     <display value="Plasma"/>
     <definition value="Plasma"/>
   </concept>
-  <concept>
+  <concept id="75">
     <code value="PLB"/>
     <display value="Plasma bag"/>
     <definition value="Plasma bag"/>
   </concept>
-  <concept>
+  <concept id="76">
     <code value="PLR"/>
     <display value="Pleural fluid (thoracentesis fld)"/>
     <definition value="Pleural fluid (thoracentesis fld)"/>
   </concept>
-  <concept>
+  <concept id="77">
     <code value="PMN"/>
     <display value="Polymorphonuclear neutrophils"/>
     <definition value="Polymorphonuclear neutrophils"/>
   </concept>
-  <concept>
+  <concept id="78">
     <code value="PPP"/>
     <display value="Patelet poor plasma"/>
     <definition value="Patelet poor plasma"/>
   </concept>
-  <concept>
+  <concept id="79">
     <code value="PRP"/>
     <display value="Platelet rich plasma"/>
     <definition value="Platelet rich plasma"/>
   </concept>
-  <concept>
+  <concept id="80">
     <code value="PUS"/>
     <display value="Pus"/>
     <definition value="Pus"/>
   </concept>
-  <concept>
+  <concept id="81">
     <code value="RT"/>
     <display value="Route of medicine"/>
     <definition value="Route of medicine"/>
   </concept>
-  <concept>
+  <concept id="82">
     <code value="SAL"/>
     <display value="Saliva"/>
     <definition value="Saliva"/>
   </concept>
-  <concept>
+  <concept id="83">
     <code value="SEM"/>
     <display value="Seminal fluid"/>
     <definition value="Seminal fluid"/>
   </concept>
-  <concept>
+  <concept id="84">
     <code value="SER"/>
     <display value="Serum"/>
     <definition value="Serum"/>
   </concept>
-  <concept>
+  <concept id="85">
     <code value="SKN"/>
     <display value="Skin"/>
     <definition value="Skin"/>
   </concept>
-  <concept>
+  <concept id="86">
     <code value="SKM"/>
     <display value="Skeletal muscle"/>
     <definition value="Skeletal muscle"/>
   </concept>
-  <concept>
+  <concept id="87">
     <code value="SPRM"/>
     <display value="Spermatozoa"/>
     <definition value="Spermatozoa"/>
   </concept>
-  <concept>
+  <concept id="88">
     <code value="SPT"/>
     <display value="Sputum"/>
     <definition value="Sputum"/>
   </concept>
-  <concept>
+  <concept id="89">
     <code value="SPTC"/>
     <display value="Sputum - coughed"/>
     <definition value="Sputum - coughed"/>
   </concept>
-  <concept>
+  <concept id="90">
     <code value="SPTT"/>
     <display value="Sputum - tracheal aspirate"/>
     <definition value="Sputum - tracheal aspirate"/>
   </concept>
-  <concept>
+  <concept id="91">
     <code value="STON"/>
     <display value="Stone (use CALC)"/>
     <definition value="Stone (use CALC)"/>
   </concept>
-  <concept>
+  <concept id="92">
     <code value="STL"/>
     <display value="Stool = Fecal"/>
     <definition value="Stool = Fecal"/>
   </concept>
-  <concept>
+  <concept id="93">
     <code value="SWT"/>
     <display value="Sweat"/>
     <definition value="Sweat"/>
   </concept>
-  <concept>
+  <concept id="94">
     <code value="SNV"/>
     <display value="Synovial fluid (Joint fluid)"/>
     <definition value="Synovial fluid (Joint fluid)"/>
   </concept>
-  <concept>
+  <concept id="95">
     <code value="TEAR"/>
     <display value="Tears"/>
     <definition value="Tears"/>
   </concept>
-  <concept>
+  <concept id="96">
     <code value="THRT"/>
     <display value="Throat"/>
     <definition value="Throat"/>
   </concept>
-  <concept>
+  <concept id="97">
     <code value="THRB"/>
     <display value="Thrombocyte (platelet)"/>
     <definition value="Thrombocyte (platelet)"/>
   </concept>
-  <concept>
+  <concept id="98">
     <code value="TISS"/>
     <display value="Tissue"/>
     <definition value="Tissue"/>
   </concept>
-  <concept>
+  <concept id="99">
     <code value="TISG"/>
     <display value="Tissue gall bladder"/>
     <definition value="Tissue gall bladder"/>
   </concept>
-  <concept>
+  <concept id="100">
     <code value="TLGI"/>
     <display value="Tissue large intestine"/>
     <definition value="Tissue large intestine"/>
   </concept>
-  <concept>
+  <concept id="101">
     <code value="TLNG"/>
     <display value="Tissue lung"/>
     <definition value="Tissue lung"/>
   </concept>
-  <concept>
+  <concept id="102">
     <code value="TISPL"/>
     <display value="Tissue placenta"/>
     <definition value="Tissue placenta"/>
   </concept>
-  <concept>
+  <concept id="103">
     <code value="TSMI"/>
     <display value="Tissue small intestine"/>
     <definition value="Tissue small intestine"/>
   </concept>
-  <concept>
+  <concept id="104">
     <code value="TISU"/>
     <display value="Tissue ulcer"/>
     <definition value="Tissue ulcer"/>
   </concept>
-  <concept>
+  <concept id="105">
     <code value="TUB"/>
     <display value="Tube NOS"/>
     <definition value="Tube NOS"/>
   </concept>
-  <concept>
+  <concept id="106">
     <code value="ULC"/>
     <display value="Ulcer"/>
     <definition value="Ulcer"/>
   </concept>
-  <concept>
+  <concept id="107">
     <code value="UMB"/>
     <display value="Umbilical blood"/>
     <definition value="Umbilical blood"/>
   </concept>
-  <concept>
+  <concept id="108">
     <code value="UMED"/>
     <display value="Unknown medicine"/>
     <definition value="Unknown medicine"/>
   </concept>
-  <concept>
+  <concept id="109">
     <code value="URTH"/>
     <display value="Urethra"/>
     <definition value="Urethra"/>
   </concept>
-  <concept>
+  <concept id="110">
     <code value="UR"/>
     <display value="Urine"/>
     <definition value="Urine"/>
   </concept>
-  <concept>
+  <concept id="111">
     <code value="URC"/>
     <display value="Urine clean catch"/>
     <definition value="Urine clean catch"/>
   </concept>
-  <concept>
+  <concept id="112">
     <code value="URT"/>
     <display value="Urine catheter"/>
     <definition value="Urine catheter"/>
   </concept>
-  <concept>
+  <concept id="113">
     <code value="URNS"/>
     <display value="Urine sediment"/>
     <definition value="Urine sediment"/>
   </concept>
-  <concept>
+  <concept id="114">
     <code value="USUB"/>
     <display value="Unknown substance"/>
     <definition value="Unknown substance"/>
   </concept>
-  <concept>
+  <concept id="115">
     <code value="VOM"/>
     <display value="Vomitus"/>
     <definition value="Vomitus"/>
   </concept>
-  <concept>
+  <concept id="116">
     <code value="BLD"/>
     <display value="Whole blood"/>
     <definition value="Whole blood"/>
   </concept>
-  <concept>
+  <concept id="117">
     <code value="BDY"/>
     <display value="Whole body"/>
     <definition value="Whole body"/>
   </concept>
-  <concept>
+  <concept id="118">
     <code value="WAT"/>
     <display value="Water"/>
     <definition value="Water"/>
   </concept>
-  <concept>
+  <concept id="119">
     <code value="WICK"/>
     <display value="Wick"/>
     <definition value="Wick"/>
   </concept>
-  <concept>
+  <concept id="120">
     <code value="WND"/>
     <display value="Wound"/>
     <definition value="Wound"/>
   </concept>
-  <concept>
+  <concept id="121">
     <code value="WNDA"/>
     <display value="Wound abscess"/>
     <definition value="Wound abscess"/>
   </concept>
-  <concept>
+  <concept id="122">
     <code value="WNDE"/>
     <display value="Wound exudate"/>
     <definition value="Wound exudate"/>
   </concept>
-  <concept>
+  <concept id="123">
     <code value="WNDD"/>
     <display value="Wound drainage"/>
     <definition value="Wound drainage"/>
   </concept>
-  <concept>
+  <concept id="124">
     <code value="XXX"/>
     <display value="To be specified in another part of the message"/>
     <definition value="To be specified in another part of the message"/>

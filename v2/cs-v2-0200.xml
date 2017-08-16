@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0200"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.105"/>
+    <value value="urn:oid:2.16.840.1.113883.18.105">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="nameType2"/>
+      </extension>
+    </value>
   </identifier>
   <version value="2"/>
   <name value="V2Table0200"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0200 (Name Type)"/>
+  <description value="HL7-defined code system of concepts for types of names for persons.  Used in HL7 Version 2.x messaging in the XPN, PPN, XCN, PID and MRG segments."/>
+  <purpose value="Underlying Master Code System for V2 table 0200 (Name Type)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0200"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name assigned to a person. Reasons some organizations assign alternate names may include not knowing the person&#39;s name, or to maintain anonymity. Some, but not necessarily all, of the name types that people call &quot;alias&quot; may fit into this category."/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Assigned"/>
     <definition value="Assigned"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name that a person had shortly after being born. Usually for family names but may be used to mark given names at birth that may have changed later.&lt;p&gt;This is not for temporary names assigned at birth while a newborn is not yet named"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Birth name"/>
     <definition value="Birth name"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name that was wrongly used in the past and is now maintained only for the purposes of searching"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Bad Name"/>
     <definition value="Bad Name"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name acquired by adoption"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Adopted Name"/>
     <definition value="Adopted Name"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Known as/conventional/the one you use.  May also be known asa preferred name."/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Customary Name"/>
     <definition value="Customary Name"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Fathers Name ( Patronymic Name)"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Fathers Name"/>
     <definition value="Fathers Name"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -116,7 +121,7 @@
     <display value="Licensing Name"/>
     <definition value="Licensing Name"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name used in a Professional or Business context. Also includes writer&#x2019;s pseudonym, artist&#x2019;s name, stage name, street name, etc.&#xD;&#xA;&#xD;&#xA;An example of use is where a person with multiple proper names (i.e. married) uses one of the particular names in a professional"/>
     </extension>
@@ -127,7 +132,7 @@
     <display value="Business name"/>
     <definition value="Business name"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The formal name as registered in an official (government) registry, but which name might not be commonly used. May correspond to legal name&lt;p&gt;For many people, customary name is also their official name"/>
     </extension>
@@ -138,7 +143,7 @@
     <display value="Official Registry Name"/>
     <definition value="Official Registry Name"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name you had just before you got married"/>
     </extension>
@@ -149,7 +154,7 @@
     <display value="Maiden Name"/>
     <definition value="Maiden Name"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information.&#xD;&#xA;&#xD;&#xA;Note: using this null flavor does provide information that may be a breach of confidentiality, even though no detail data is provided. Its primary purpose is for those circumstances where it is necessary to inform the receiver that the information does exist without providing any detail."/>
     </extension>
@@ -160,7 +165,7 @@
     <display value="Masked"/>
     <definition value="Masked"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Nickname /&quot;Call me&quot; Name/Street Name"/>
     </extension>
@@ -171,7 +176,7 @@
     <display value="Nickname"/>
     <definition value="Nickname"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Information is not available at this time but it is expected that it will be available later.&lt;p&gt;Includes John or Jane Doe situations"/>
     </extension>
@@ -182,7 +187,7 @@
     <display value="Temporarily Unavailable"/>
     <definition value="Temporarily Unavailable"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name assigned on a temporary basis at birth. i.e. &quot;Baby of Smith&quot;"/>
     </extension>
@@ -193,7 +198,7 @@
     <display value="Newborn Name"/>
     <definition value="Newborn Name"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Name not to be used anymore for personal reasons"/>
     </extension>
@@ -204,7 +209,7 @@
     <display value="No Longer To Be Used"/>
     <definition value="No Longer To Be Used"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7."/>
     </extension>
@@ -215,7 +220,7 @@
     <display value="Name of Partner/Spouse"/>
     <definition value="Name of Partner/Spouse"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="(animals only)&lt;p&gt;Retained for backwards compatibility only as of v2.7. Use &quot;L&quot; instead - has same meaning"/>
     </extension>
@@ -226,7 +231,7 @@
     <display value="Registered Name"/>
     <definition value="Registered Name"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="e.g. Sister Mary Francis, Brother John"/>
     </extension>
@@ -237,7 +242,7 @@
     <display value="Religious"/>
     <definition value="Religious"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Coded Pseudo-Name to ensure anonymity"/>
     </extension>
@@ -248,7 +253,7 @@
     <display value="Pseudonym"/>
     <definition value="Pseudonym"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Indigenous/Tribal/Community Name  e.g. Chief Red Cloud"/>
     </extension>
@@ -259,7 +264,7 @@
     <display value="Indigenous/Tribal"/>
     <definition value="Indigenous/Tribal"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A temporary name. Note that a name valid time can provide more detailed information."/>
     </extension>
@@ -270,7 +275,7 @@
     <display value="Temporary Name"/>
     <definition value="Temporary Name"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Unknown"/>
     </extension>
@@ -281,7 +286,7 @@
     <display value="Unknown"/>
     <definition value="Unknown"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>

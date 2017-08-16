@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0935 (Process Interruption Reason)"/>
+  <description value="HL7-defined code system of concepts specifying the reason for the process interruption.  Used in HL7 Version 2.x messaging in the DON segment."/>
+  <purpose value="Underlying Code System for V2 table 0935 (Process Interruption Reason, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0935-2.8.1"/>
@@ -40,47 +41,47 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="NRG"/>
     <display value="No reason given, donor decided to stop without giving a reason"/>
     <definition value="No reason given, donor decided to stop without giving a reason"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="PCD"/>
     <display value="Phone Call-Donor"/>
     <definition value="Phone Call-Donor"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="DCW"/>
     <display value="Couldn&#39;t wait"/>
     <definition value="Couldn&#39;t wait"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="CFT"/>
     <display value="Couldn&#39;t follow through with donation (scared)"/>
     <definition value="Couldn&#39;t follow through with donation (scared)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="DBB"/>
     <display value="Bathroom"/>
     <definition value="Bathroom"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="DNI"/>
     <display value="Phlebotomy Issue"/>
     <definition value="Phlebotomy Issue"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="ASC"/>
     <display value="Apheresis Software Crash"/>
     <definition value="Apheresis Software Crash"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="BSC"/>
     <display value="Manufacturing Software Crash"/>
     <definition value="Manufacturing Software Crash"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."/>
     </extension>

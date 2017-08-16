@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0442 (Location Service Code)"/>
+  <description value="Code system of concepts  specifying the types of services provided by the location.  Used in HL7 Version 2.x messaging in the LOC segment."/>
+  <purpose value="Underlying Code System for V2 table 0442 (Location Service Code, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0442-2.7"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="D"/>
     <display value="Diagnostic"/>
     <definition value="Diagnostic"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="T"/>
     <display value="Therapeutic"/>
     <definition value="Therapeutic"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="P"/>
     <display value="Primary Care"/>
     <definition value="Primary Care"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="E"/>
     <display value="Emergency Room Casualty"/>
     <definition value="Emergency Room Casualty"/>

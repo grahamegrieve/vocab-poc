@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0007 (Admission Type)"/>
+  <description value="Code system of concepts specifying the circumstances under which the patient was or will be admitted.  Used in HL7 Version 2.x messaging in the PV1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0007 (Admission Type, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0007-2.5"/>
@@ -37,37 +38,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Accident"/>
     <definition value="Accident"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="E"/>
     <display value="Emergency"/>
     <definition value="Emergency"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="L"/>
     <display value="Labor and Delivery"/>
     <definition value="Labor and Delivery"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="R"/>
     <display value="Routine"/>
     <definition value="Routine"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="N"/>
     <display value="Newborn (Birth in healthcare facility)"/>
     <definition value="Newborn (Birth in healthcare facility)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="U"/>
     <display value="Urgent"/>
     <definition value="Urgent"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="C"/>
     <display value="Elective"/>
     <definition value="Elective"/>

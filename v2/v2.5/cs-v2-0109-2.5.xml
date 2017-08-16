@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0109 (Report priority)"/>
+  <description value="HL7-defined code system of concepts which specify the priority associated with a report or update run using a query.  Used in HL7 Version 2 messaging in the URD segment."/>
+  <purpose value="Underlying Code System for V2 table 0109 (Report priority, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0109-2.5"/>
@@ -37,12 +38,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="R"/>
     <display value="Routine"/>
     <definition value="Routine"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="S"/>
     <display value="Stat"/>
     <definition value="Stat"/>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0227 (Manufacturers of Vaccines (code=MVX))"/>
+  <description value="Code system of concepts specifying the organization that manufactures a vaccine. The values are maintained by the US Centers of Disease Control.  Used in HL7 Version 2.x messaging in the RXA, RXD and RXG segments."/>
+  <purpose value="Underlying Code System for V2 table 0227 (Manufacturers of Vaccines (code=MVX), version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0227-2.3"/>
@@ -34,152 +35,152 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="AB"/>
     <display value="Abbott"/>
     <definition value="Abbott"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="AD"/>
     <display value="Adams"/>
     <definition value="Adams"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="ALP"/>
     <display value="Alpha"/>
     <definition value="Alpha"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="AR"/>
     <display value="Armour"/>
     <definition value="Armour"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="BA"/>
     <display value="Baxter"/>
     <definition value="Baxter"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="BAY"/>
     <display value="Bayer"/>
     <definition value="Bayer"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="BP"/>
     <display value="Berna"/>
     <definition value="Berna"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CON"/>
     <display value="Connaught"/>
     <definition value="Connaught"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="EVN"/>
     <display value="Evans"/>
     <definition value="Evans"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="GRE"/>
     <display value="Greer"/>
     <definition value="Greer"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IM"/>
     <display value="Merieux"/>
     <definition value="Merieux"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IUS"/>
     <display value="Immuno-US"/>
     <definition value="Immuno-US"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="JPN"/>
     <display value="Microbial Dis/Osaka U"/>
     <definition value="Microbial Dis/Osaka U"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="KGC"/>
     <display value="Korea Green Cross"/>
     <definition value="Korea Green Cross"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="LED"/>
     <display value="Lederle"/>
     <definition value="Lederle"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MA"/>
     <display value="Massachusetts Public Health"/>
     <definition value="Massachusetts Public Health"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MIL"/>
     <display value="Miles"/>
     <definition value="Miles"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MIP"/>
     <display value="Michigan Dept Public Health"/>
     <definition value="Michigan Dept Public Health"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="MSD"/>
     <display value="Merck"/>
     <definition value="Merck"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="NAB"/>
     <display value="North American Biologicals, Inc."/>
     <definition value="North American Biologicals, Inc."/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="NYB"/>
     <display value="New York Blood Center"/>
     <definition value="New York Blood Center"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OTC"/>
     <display value="Organon Teknika"/>
     <definition value="Organon Teknika"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OTH"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PD"/>
     <display value="Parke Davis"/>
     <definition value="Parke Davis"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PRX"/>
     <display value="Praxis Biologics"/>
     <definition value="Praxis Biologics"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SCL"/>
     <display value="Sclavo"/>
     <definition value="Sclavo"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SI"/>
     <display value="Swiss Serum and Vaccine Inst."/>
     <definition value="Swiss Serum and Vaccine Inst."/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SKB"/>
     <display value="SmithKline"/>
     <definition value="SmithKline"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="UNK"/>
     <display value="Unknown manufacturer"/>
     <definition value="Unknown manufacturer"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="WA"/>
     <display value="Wyeth-Ayerst"/>
     <definition value="Wyeth-Ayerst"/>

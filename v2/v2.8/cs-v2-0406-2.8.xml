@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0406 (Participant Organization Unit Type)"/>
+  <description value="HL7-defined code system of concepts which identify an environment in which a provider acts in a specified role.  The provider environment is not the specialty for the provider.  This is intended to allow communication of this information when the provider information may not have been communicated previously in a master file, and is used to support international requirements.  Used in HL7 Version 2 messaging in the PRT and ROL segments."/>
+  <purpose value="Underlying Code System for V2 table 0406 (Participant Organization Unit Type, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0406-2.8"/>
@@ -40,37 +41,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="H"/>
     <display value="Home"/>
     <definition value="Home"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="O"/>
     <display value="Office"/>
     <definition value="Office"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="1"/>
     <display value="Hospital"/>
     <definition value="Hospital"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="2"/>
     <display value="Physician Clinic"/>
     <definition value="Physician Clinic"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="3"/>
     <display value="Long Term Care"/>
     <definition value="Long Term Care"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="4"/>
     <display value="Acute Care"/>
     <definition value="Acute Care"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="5"/>
     <display value="Other"/>
     <definition value="Other"/>

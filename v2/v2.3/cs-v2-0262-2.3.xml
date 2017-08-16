@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0262 (Privacy Level)"/>
+  <description value="Code system of concepts used to identify the level of privacy a patient will be afforded when assigned to this location definition.  Used in HL7 Version 2.x messaging in the LCH segment."/>
+  <purpose value="Underlying Code System for V2 table 0262 (Privacy Level, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0262-2.3"/>
@@ -34,32 +35,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="F"/>
     <display value="Isolation"/>
     <definition value="Isolation"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="J"/>
     <display value="Private Room - Medically Justified"/>
     <definition value="Private Room - Medically Justified"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="P"/>
     <display value="Private Room"/>
     <definition value="Private Room"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="Q"/>
     <display value="Private Room - Due To Overflow"/>
     <definition value="Private Room - Due To Overflow"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="S"/>
     <display value="Semi-Private Room"/>
     <definition value="Semi-Private Room"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="W"/>
     <display value="Ward"/>
     <definition value="Ward"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0450 (Event Type)"/>
+  <description value="HL7-defined code system of concepts specifying the type of event of the message.  Used in HL7 Version 2.x messaging in the EQP segment."/>
+  <purpose value="Underlying Code System for V2 table 0450 (Event Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0450-2.9"/>
@@ -40,12 +41,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="LOG"/>
     <display value="Log Event"/>
     <definition value="Log Event"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="SER"/>
     <display value="Service Event"/>
     <definition value="Service Event"/>

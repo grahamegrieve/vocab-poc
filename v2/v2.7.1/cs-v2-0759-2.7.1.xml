@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0759 (Status Admission)"/>
+  <description value="Code system of concepts specifying the admission status for the diagnosis related group (DRG) determination. US Realm. Used in HL7 Version 2.x messaging in the DRG segment."/>
+  <purpose value="Underlying Code System for V2 table 0759 (Status Admission, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0759-2.7.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="0"/>
     <display value="Admission status is valid; used for grouping"/>
     <definition value="Admission status is valid; used for grouping"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="1"/>
     <display value="Admission status is valid; not used for grouping"/>
     <definition value="Admission status is valid; not used for grouping"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2"/>
     <display value="Admission status is invalid; not used for grouping"/>
     <definition value="Admission status is invalid; not used for grouping"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="3"/>
     <display value="Admission status is invalid; default value used for grouping"/>
     <definition value="Admission status is invalid; default value used for grouping"/>

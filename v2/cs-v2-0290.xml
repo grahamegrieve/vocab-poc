@@ -5,7 +5,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0290"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.180"/>
+    <value value="urn:oid:2.16.840.1.113883.18.180">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="mimeBase64EncodingCharacters"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0290"/>
@@ -20,7 +24,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0290 (MIME base64 encoding characters)"/>
+  <description value="HL7-defined code system of concepts specifying the characters used in the MIME Base 64 encoding mechanism.  These are for reference only, as they are not carried as explicit code values in any HL7 coded field.  This table was published only in releases 2.3, 2.3.1, and 2.4 of the Standard, and was removed thereafter."/>
+  <purpose value="Underlying Master Code System for V2 table 0290 (MIME base64 encoding characters)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0290"/>
@@ -28,7 +33,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -36,7 +41,7 @@
     <display value="A"/>
     <definition value="A"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -44,7 +49,7 @@
     <display value="B"/>
     <definition value="B"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -52,7 +57,7 @@
     <display value="C"/>
     <definition value="C"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -60,7 +65,7 @@
     <display value="D"/>
     <definition value="D"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -68,7 +73,7 @@
     <display value="E"/>
     <definition value="E"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -76,7 +81,7 @@
     <display value="F"/>
     <definition value="F"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -84,7 +89,7 @@
     <display value="G"/>
     <definition value="G"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -92,7 +97,7 @@
     <display value="H"/>
     <definition value="H"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -100,7 +105,7 @@
     <display value="I"/>
     <definition value="I"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="J"/>
     <definition value="J"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -116,7 +121,7 @@
     <display value="K"/>
     <definition value="K"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -124,7 +129,7 @@
     <display value="L"/>
     <definition value="L"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -132,7 +137,7 @@
     <display value="M"/>
     <definition value="M"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -140,7 +145,7 @@
     <display value="N"/>
     <definition value="N"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -148,7 +153,7 @@
     <display value="O"/>
     <definition value="O"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -156,7 +161,7 @@
     <display value="P"/>
     <definition value="P"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -164,7 +169,7 @@
     <display value="Q"/>
     <definition value="Q"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -172,7 +177,7 @@
     <display value="R"/>
     <definition value="R"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -180,7 +185,7 @@
     <display value="S"/>
     <definition value="S"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -188,7 +193,7 @@
     <display value="T"/>
     <definition value="T"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -196,7 +201,7 @@
     <display value="U"/>
     <definition value="U"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -204,7 +209,7 @@
     <display value="V"/>
     <definition value="V"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -212,7 +217,7 @@
     <display value="W"/>
     <definition value="W"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -220,7 +225,7 @@
     <display value="X"/>
     <definition value="X"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -228,7 +233,7 @@
     <display value="Y"/>
     <definition value="Y"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -236,7 +241,7 @@
     <display value="Z"/>
     <definition value="Z"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -244,7 +249,7 @@
     <display value="a"/>
     <definition value="a"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -252,7 +257,7 @@
     <display value="b"/>
     <definition value="b"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -260,7 +265,7 @@
     <display value="c"/>
     <definition value="c"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -268,7 +273,7 @@
     <display value="d"/>
     <definition value="d"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -276,7 +281,7 @@
     <display value="e"/>
     <definition value="e"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -284,7 +289,7 @@
     <display value="f"/>
     <definition value="f"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -292,7 +297,7 @@
     <display value="g"/>
     <definition value="g"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -300,7 +305,7 @@
     <display value="h"/>
     <definition value="h"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -308,7 +313,7 @@
     <display value="I"/>
     <definition value="I"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -316,7 +321,7 @@
     <display value="j"/>
     <definition value="j"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -324,7 +329,7 @@
     <display value="k"/>
     <definition value="k"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -332,7 +337,7 @@
     <display value="l"/>
     <definition value="l"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -340,7 +345,7 @@
     <display value="m"/>
     <definition value="m"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -348,7 +353,7 @@
     <display value="n"/>
     <definition value="n"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -356,7 +361,7 @@
     <display value="o"/>
     <definition value="o"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -364,7 +369,7 @@
     <display value="p"/>
     <definition value="p"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -372,7 +377,7 @@
     <display value="q"/>
     <definition value="q"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -380,7 +385,7 @@
     <display value="r"/>
     <definition value="r"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -388,7 +393,7 @@
     <display value="s"/>
     <definition value="s"/>
   </concept>
-  <concept>
+  <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -396,7 +401,7 @@
     <display value="t"/>
     <definition value="t"/>
   </concept>
-  <concept>
+  <concept id="46">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -404,7 +409,7 @@
     <display value="u"/>
     <definition value="u"/>
   </concept>
-  <concept>
+  <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -412,7 +417,7 @@
     <display value="v"/>
     <definition value="v"/>
   </concept>
-  <concept>
+  <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -420,7 +425,7 @@
     <display value="w"/>
     <definition value="w"/>
   </concept>
-  <concept>
+  <concept id="49">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -428,7 +433,7 @@
     <display value="x"/>
     <definition value="x"/>
   </concept>
-  <concept>
+  <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -436,7 +441,7 @@
     <display value="y"/>
     <definition value="y"/>
   </concept>
-  <concept>
+  <concept id="51">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -444,7 +449,7 @@
     <display value="z"/>
     <definition value="z"/>
   </concept>
-  <concept>
+  <concept id="52">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -452,7 +457,7 @@
     <display value="0"/>
     <definition value="0"/>
   </concept>
-  <concept>
+  <concept id="53">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -460,7 +465,7 @@
     <display value="1"/>
     <definition value="1"/>
   </concept>
-  <concept>
+  <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -468,7 +473,7 @@
     <display value="2"/>
     <definition value="2"/>
   </concept>
-  <concept>
+  <concept id="55">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -476,7 +481,7 @@
     <display value="3"/>
     <definition value="3"/>
   </concept>
-  <concept>
+  <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -484,7 +489,7 @@
     <display value="4"/>
     <definition value="4"/>
   </concept>
-  <concept>
+  <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -492,7 +497,7 @@
     <display value="5"/>
     <definition value="5"/>
   </concept>
-  <concept>
+  <concept id="58">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -500,7 +505,7 @@
     <display value="6"/>
     <definition value="6"/>
   </concept>
-  <concept>
+  <concept id="59">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -508,7 +513,7 @@
     <display value="7"/>
     <definition value="7"/>
   </concept>
-  <concept>
+  <concept id="60">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -516,7 +521,7 @@
     <display value="8"/>
     <definition value="8"/>
   </concept>
-  <concept>
+  <concept id="61">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -524,7 +529,7 @@
     <display value="9"/>
     <definition value="9"/>
   </concept>
-  <concept>
+  <concept id="62">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -532,7 +537,7 @@
     <display value="+"/>
     <definition value="+"/>
   </concept>
-  <concept>
+  <concept id="63">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -540,7 +545,7 @@
     <display value="/"/>
     <definition value="/"/>
   </concept>
-  <concept>
+  <concept id="65">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

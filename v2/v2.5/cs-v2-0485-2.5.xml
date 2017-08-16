@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0485 (Extended Priority Codes)"/>
+  <description value="Code system of concepts describing the urgency of a request carried in an order.  Used in HL7 Version 2.x messaging in timing/quantity; in older versions of the Standard was used in the TQ datatype, but in later versions it is used in the TQ1 segment (which replaced the TQ datatype which has been withdrawn)."/>
+  <purpose value="Underlying Code System for V2 table 0485 (Extended Priority Codes, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0485-2.5"/>
@@ -37,55 +38,55 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="TD&lt;integer&gt;"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TH&lt;integer&gt;"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TL&lt;integer&gt;"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TM&lt;integer&gt;"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TS&lt;integer&gt;"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TW&lt;integer&gt;"/>
   </concept>
-  <concept>
+  <concept id="1">
     <code value="S"/>
     <display value="Stat"/>
     <definition value="Stat"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="A"/>
     <display value="ASAP"/>
     <definition value="ASAP"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="R"/>
     <display value="Routine"/>
     <definition value="Routine"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="P"/>
     <display value="Preop"/>
     <definition value="Preop"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="C"/>
     <display value="Callback"/>
     <definition value="Callback"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="T"/>
     <display value="Timing critical"/>
     <definition value="Timing critical"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="PRN"/>
     <display value="As needed"/>
     <definition value="As needed"/>

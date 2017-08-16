@@ -31,7 +31,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0340 (Procedure Code Modifier)"/>
+  <description value="Procedure Code Modifier"/>
+  <purpose value="Underlying Code System for V2 table 0340 (Procedure Code Modifier, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0340-2.9"/>
@@ -39,7 +40,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Available for the AMA at the address listed for CPT above. These codes are found in Appendix A of CPT 2000 Standard Edition. (CPT 2000 Standard Edition, American Medical Association, Chicago, IL)"/>
     </extension>
@@ -47,7 +48,7 @@
     <display value="CPT Modifier Code"/>
     <definition value="CPT Modifier Code"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Health Care Financing Administration (HCFA) Common Procedure Coding System (HCPCS) including modifiers."/>
     </extension>

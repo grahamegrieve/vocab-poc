@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0002 (Marital Status)"/>
+  <description value="Code system of concepts specifying a person&#39;s marital (civil/legal) status.  Used in HL7 Version 2.x messages in the PID segment."/>
+  <purpose value="Underlying Code System for V2 table 0002 (Marital Status, version 2.3.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0002-2.3.1"/>
@@ -37,27 +38,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Separated"/>
     <definition value="Separated"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="D"/>
     <display value="Divorced"/>
     <definition value="Divorced"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Married"/>
     <definition value="Married"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="S"/>
     <display value="Single"/>
     <definition value="Single"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="W"/>
     <display value="Widowed"/>
     <definition value="Widowed"/>

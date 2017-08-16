@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0761 (DRG Procedure Determination Status)"/>
+  <description value="Code system of concepts specifying the status of the use of this particular procedure for the diagnosis related group (DRG) determination.  US Realm. Used in HL7 Version 2.x messaging in the PR1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0761 (DRG Procedure Determination Status, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0761-2.9"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="0"/>
     <display value="Valid code"/>
     <definition value="Valid code"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="1"/>
     <display value="Invalid code"/>
     <definition value="Invalid code"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2"/>
     <display value="Not used"/>
     <definition value="Not used"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="3"/>
     <display value="Invalid for this gender"/>
     <definition value="Invalid for this gender"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="4"/>
     <display value="Invalid for this age"/>
     <definition value="Invalid for this age"/>

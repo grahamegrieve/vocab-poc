@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0123 (Result Status)"/>
+  <description value="HL7-defined code system of concepts which specify a status of results for an order.  Used in HL7 Version 2.x messaging in the OBR segment."/>
+  <purpose value="Underlying Code System for V2 table 0123 (Result Status, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0123-2.5"/>
@@ -37,57 +38,57 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="O"/>
     <display value="Order received; specimen not yet received"/>
     <definition value="Order received; specimen not yet received"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="I"/>
     <display value="No results available; specimen received, procedure incomplete"/>
     <definition value="No results available; specimen received, procedure incomplete"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="S"/>
     <display value="No results available; procedure scheduled, but not done"/>
     <definition value="No results available; procedure scheduled, but not done"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="A"/>
     <display value="Some, but not all, results available"/>
     <definition value="Some, but not all, results available"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="P"/>
     <display value="Preliminary: A verified early result is available, final results not yet obtained"/>
     <definition value="Preliminary: A verified early result is available, final results not yet obtained"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="C"/>
     <display value="Correction to results"/>
     <definition value="Correction to results"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="R"/>
     <display value="Results stored; not yet verified"/>
     <definition value="Results stored; not yet verified"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="F"/>
     <display value="Final results; results stored and verified.  Can only be changed with a corrected result."/>
     <definition value="Final results; results stored and verified.  Can only be changed with a corrected result."/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="X"/>
     <display value="No results available; Order canceled."/>
     <definition value="No results available; Order canceled."/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="Y"/>
     <display value="No order on record for this test.  (Used only on queries)"/>
     <definition value="No order on record for this test.  (Used only on queries)"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="Z"/>
     <display value="No record of this patient. (Used only on queries)"/>
     <definition value="No record of this patient. (Used only on queries)"/>

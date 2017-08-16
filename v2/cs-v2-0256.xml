@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0256"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.151"/>
+    <value value="urn:oid:2.16.840.1.113883.18.151">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="timeDelayPostChallenge"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0256"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0256 (Time Delay Post Challenge)"/>
+  <description value="HL7-defined code system of concepts used to classify an observation definition as being a component of a challenge test.  Used in HL7 Version 2.x messaging in the OM1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0256 (Time Delay Post Challenge)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0256"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Baseline (time just before the challenge)"/>
     <definition value="Baseline (time just before the challenge)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="The time post drug dose at which the highest drug level is reached (differs by drug)"/>
     <definition value="The time post drug dose at which the highest drug level is reached (differs by drug)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="The time post drug dose at which the lowest drug level is reached (varies with drug)"/>
     <definition value="The time post drug dose at which the lowest drug level is reached (varies with drug)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Time from the challenge, or dose not specified. (random)"/>
     <definition value="Time from the challenge, or dose not specified. (random)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="1 minute post challenge"/>
     <definition value="1 minute post challenge"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="2 minutes post challenge"/>
     <definition value="2 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="3 minutes post challenge"/>
     <definition value="3 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="4 minutes post challenge"/>
     <definition value="4 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="5 minutes post challenge"/>
     <definition value="5 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="6 minutes post challenge"/>
     <definition value="6 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="7 minutes post challenge"/>
     <definition value="7 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -127,7 +132,7 @@
     <display value="8 minutes post challenge"/>
     <definition value="8 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -135,7 +140,7 @@
     <display value="9 minutes post challenge"/>
     <definition value="9 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -143,7 +148,7 @@
     <display value="10 minutes post challenge"/>
     <definition value="10 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -151,7 +156,7 @@
     <display value="15 minutes post challenge"/>
     <definition value="15 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -159,7 +164,7 @@
     <display value="20 minutes post challenge"/>
     <definition value="20 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -167,7 +172,7 @@
     <display value="25 minutes post challenge"/>
     <definition value="25 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -175,7 +180,7 @@
     <display value="30 minutes post challenge"/>
     <definition value="30 minutes post challenge"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -183,7 +188,7 @@
     <display value="1 hour post challenge"/>
     <definition value="1 hour post challenge"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -191,7 +196,7 @@
     <display value="2 hours post challenge"/>
     <definition value="2 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -199,7 +204,7 @@
     <display value="2 1/2 hours post challenge"/>
     <definition value="2 1/2 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -207,7 +212,7 @@
     <display value="3 hours post challenge"/>
     <definition value="3 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -215,7 +220,7 @@
     <display value="4 hours post challenge"/>
     <definition value="4 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -223,7 +228,7 @@
     <display value="5  hours post challenge"/>
     <definition value="5  hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -231,7 +236,7 @@
     <display value="6 hours post challenge"/>
     <definition value="6 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -239,7 +244,7 @@
     <display value="7 hours post challenge"/>
     <definition value="7 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -247,7 +252,7 @@
     <display value="8 hours post challenge"/>
     <definition value="8 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -255,7 +260,7 @@
     <display value="8 hours aligned on nursing shifts"/>
     <definition value="8 hours aligned on nursing shifts"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -263,7 +268,7 @@
     <display value="12 hours post challenge"/>
     <definition value="12 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -271,7 +276,7 @@
     <display value="24 hours post challenge"/>
     <definition value="24 hours post challenge"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -279,7 +284,7 @@
     <display value="2 days"/>
     <definition value="2 days"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -287,7 +292,7 @@
     <display value="3 days"/>
     <definition value="3 days"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -295,7 +300,7 @@
     <display value="4 days"/>
     <definition value="4 days"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -303,7 +308,7 @@
     <display value="5 days"/>
     <definition value="5 days"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -311,7 +316,7 @@
     <display value="6 days"/>
     <definition value="6 days"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -319,7 +324,7 @@
     <display value="7 days"/>
     <definition value="7 days"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -327,7 +332,7 @@
     <display value="1 week"/>
     <definition value="1 week"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -335,7 +340,7 @@
     <display value="10 days"/>
     <definition value="10 days"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -343,7 +348,7 @@
     <display value="2 weeks"/>
     <definition value="2 weeks"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -351,7 +356,7 @@
     <display value="3 weeks"/>
     <definition value="3 weeks"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -359,7 +364,7 @@
     <display value="4 weeks"/>
     <definition value="4 weeks"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -367,7 +372,7 @@
     <display value="1 month (30 days) post challenge"/>
     <definition value="1 month (30 days) post challenge"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>
@@ -375,7 +380,7 @@
     <display value="2 months (60 days) post challenge"/>
     <definition value="2 months (60 days) post challenge"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3"/>
     </extension>

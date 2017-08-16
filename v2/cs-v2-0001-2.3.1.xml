@@ -14,7 +14,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0001-2.3.1"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.1"/>
+    <value value="urn:oid:2.16.840.1.113883.18.1">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="sex"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0001"/>
@@ -29,7 +33,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0001 (Administrative Sex)"/>
+  <description value="HL7-defined code system of concepts specifying a person&#39;s sex."/>
+  <purpose value="Underlying Master Code System for V2 table 0001 (Administrative Sex)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0001-2.3.1"/>
@@ -37,22 +42,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="F"/>
     <display value="Female"/>
     <definition value="Female"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="M"/>
     <display value="Male"/>
     <definition value="Male"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>

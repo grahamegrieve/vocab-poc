@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0102 (Delayed acknowledgment type)"/>
+  <description value="HL7-defined code system of concepts which specify a response type used in deferred processing two phase reply for delayed acknowldgement mode of the original acknowledgement mechanism defined in HL7 Version 2.x messaging and used in the MSH segment."/>
+  <purpose value="Underlying Code System for V2 table 0102 (Delayed acknowledgment type, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0102-2.1"/>
@@ -31,7 +32,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="D"/>
     <display value="Message Received, stored for later processing"/>
     <definition value="Message Received, stored for later processing"/>

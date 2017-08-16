@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0416 (Procedure DRG Type)"/>
+  <description value="HL7-defined code system of concepts which specify a procedure&#x2019;s priority ranking relative to its DRG.  Used in HL7 Version 2 messaging in the PR1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0416 (Procedure DRG Type, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0416-2.7.1"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="1st non-Operative"/>
     <definition value="1st non-Operative"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="2nd non-Operative"/>
     <definition value="2nd non-Operative"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Major Operative"/>
     <definition value="Major Operative"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="2nd Operative"/>
     <definition value="2nd Operative"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="5"/>
     <display value="3rd Operative"/>
     <definition value="3rd Operative"/>

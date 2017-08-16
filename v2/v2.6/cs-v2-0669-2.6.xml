@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0669 (Load Status)"/>
+  <description value="Code system of concepts used to define the status of the information provided in a device sterilization or decontamination cycle. Used in HL7 Version 2.x messaging in the SDD segment."/>
+  <purpose value="Underlying Code System for V2 table 0669 (Load Status, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0669-2.6"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="LLD"/>
     <display value="Building a Load"/>
     <definition value="Building a Load"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="LCP"/>
     <display value="Load In Process"/>
     <definition value="Load In Process"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="LCC"/>
     <display value="Load is Complete"/>
     <definition value="Load is Complete"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="LCN"/>
     <display value="Load Canceled"/>
     <definition value="Load Canceled"/>

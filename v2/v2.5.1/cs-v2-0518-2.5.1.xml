@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0518 (Override Type)"/>
+  <description value="Code system of concepts used to specify what type of override can be used to override the specific error identified.   Used in HL7 Version 2 messaging in the ERR and OVR segments."/>
+  <purpose value="Underlying Code System for V2 table 0518 (Override Type, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0518-2.5.1"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="EXTN"/>
     <display value="Extension Override"/>
     <definition value="Extension Override"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="INLV"/>
     <display value="Interval Override"/>
     <definition value="Interval Override"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="EQV"/>
     <display value="Equivalence Override"/>
     <definition value="Equivalence Override"/>

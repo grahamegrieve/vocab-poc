@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0436 (Sensitivity to Causative Agent Code)"/>
+  <description value="Code system of concepts specifying the reason the patient should not be exposed to a substance.  Used in HL7 Version 2.x messaging in the IAM segment."/>
+  <purpose value="Underlying Code System for V2 table 0436 (Sensitivity to Causative Agent Code, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0436-2.6"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AD"/>
     <display value="Adverse Reaction (Not otherwise classified)"/>
     <definition value="Adverse Reaction (Not otherwise classified)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AL"/>
     <display value="Allergy"/>
     <definition value="Allergy"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CT"/>
     <display value="Contraindication"/>
     <definition value="Contraindication"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="IN"/>
     <display value="Intolerance"/>
     <definition value="Intolerance"/>

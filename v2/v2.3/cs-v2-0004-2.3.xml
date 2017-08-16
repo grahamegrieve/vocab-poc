@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0004 (Patient Class)"/>
+  <description value="Code system of concepts used by systems to categorize patients by site in HL7 Version 2.x interfaces in the PV1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0004 (Patient Class, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0004-2.3"/>
@@ -34,32 +35,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="B"/>
     <display value="Obstetrics"/>
     <definition value="Obstetrics"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="E"/>
     <display value="Emergency"/>
     <definition value="Emergency"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="I"/>
     <display value="Inpatient"/>
     <definition value="Inpatient"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="O"/>
     <display value="Outpatient"/>
     <definition value="Outpatient"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="P"/>
     <display value="Preadmit"/>
     <definition value="Preadmit"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="R"/>
     <display value="Recurring Patient"/>
     <definition value="Recurring Patient"/>

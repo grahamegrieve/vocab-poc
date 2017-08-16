@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0933 (Intended Procedure Type)"/>
+  <description value="HL7-defined code system of concepts specifying the type of intended procedure.  Used in HL7 Version 2.x messaging in the DON segment."/>
+  <purpose value="Underlying Code System for V2 table 0933 (Intended Procedure Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0933-2.9"/>
@@ -40,52 +41,52 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="WBL"/>
     <display value="Whole Blood"/>
     <definition value="Whole Blood"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2RC"/>
     <display value="Double Red Cells"/>
     <definition value="Double Red Cells"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="PLS"/>
     <display value="Plasma"/>
     <definition value="Plasma"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="PLT"/>
     <display value="Platelets"/>
     <definition value="Platelets"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="PNP"/>
     <display value="Platelets and Plasma"/>
     <definition value="Platelets and Plasma"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="PNR"/>
     <display value="Platelets and Red Cells"/>
     <definition value="Platelets and Red Cells"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="PPR"/>
     <display value="Platelets, Plasma, and Red Cells"/>
     <definition value="Platelets, Plasma, and Red Cells"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="GRN"/>
     <display value="Granulocytes"/>
     <definition value="Granulocytes"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="HEM"/>
     <display value="Hemachromatosis"/>
     <definition value="Hemachromatosis"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Stem Cells and other cells classified as Hematopoietic"/>
     </extension>
@@ -93,17 +94,17 @@
     <display value="Hematopoietic Progenitor Cells"/>
     <definition value="Hematopoietic Progenitor Cells"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="LYM"/>
     <display value="Lymphocytes"/>
     <definition value="Lymphocytes"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="THA"/>
     <display value="Therapeutic Apheresis"/>
     <definition value="Therapeutic Apheresis"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="THW"/>
     <display value="Therapeutic Whole Blood"/>
     <definition value="Therapeutic Whole Blood"/>

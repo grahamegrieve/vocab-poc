@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0321 (Dispense Method)"/>
+  <description value="HL7-definde code system of concepts specifying the method by which treatment is dispensed.  Used in HL7 Version 2.x messaging in the Pharmacy/Treatment Encoded order (RXE) and Pharmacy/Treatment dispense (RXD) segments."/>
+  <purpose value="Underlying Code System for V2 table 0321 (Dispense Method, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0321-2.4"/>
@@ -34,22 +35,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="TR"/>
     <display value="Traditional"/>
     <definition value="Traditional"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="UD"/>
     <display value="Unit Dose"/>
     <definition value="Unit Dose"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="F"/>
     <display value="Floor Stock"/>
     <definition value="Floor Stock"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="AD"/>
     <display value="Automatic Dispensing"/>
     <definition value="Automatic Dispensing"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0496 (Consent Type)"/>
+  <description value="Code system of concepts specifying to what the subject is consenting, i.e. what type of service, surgical procedure, information access/release or other event.  Used in HL7 Version 2.x messaging in the TXA and CON segments."/>
+  <purpose value="Underlying Code System for V2 table 0496 (Consent Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0496-2.9"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -48,7 +49,7 @@
     <display value="Release of Information/MR / Authorization to Disclosure Protected Health Information"/>
     <definition value="Release of Information/MR / Authorization to Disclosure Protected Health Information"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -56,7 +57,7 @@
     <display value="Medical Procedure (invasive)"/>
     <definition value="Medical Procedure (invasive)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Acknowledgement/ Notification"/>
     </extension>
@@ -64,7 +65,7 @@
     <display value="Acknowledge Receipt of Privacy Notice"/>
     <definition value="Acknowledge Receipt of Privacy Notice"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -72,7 +73,7 @@
     <display value="Abortion"/>
     <definition value="Abortion"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -80,7 +81,7 @@
     <display value="Abortion/Laminaria"/>
     <definition value="Abortion/Laminaria"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -88,7 +89,7 @@
     <display value="Accutane - Information"/>
     <definition value="Accutane - Information"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -96,7 +97,7 @@
     <display value="Accutane - Woman"/>
     <definition value="Accutane - Woman"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Acknowledgement/ Notification"/>
     </extension>
@@ -104,7 +105,7 @@
     <display value="Advanced Beneficiary Notice"/>
     <definition value="Advanced Beneficiary Notice"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -112,7 +113,7 @@
     <display value="AFP (Alpha Fetoprotein) Screening"/>
     <definition value="AFP (Alpha Fetoprotein) Screening"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -120,7 +121,7 @@
     <display value="Amniocentesis (consent &amp; refusal)"/>
     <definition value="Amniocentesis (consent &amp; refusal)"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -128,7 +129,7 @@
     <display value="Anatomical Gift (organ donation)"/>
     <definition value="Anatomical Gift (organ donation)"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -136,7 +137,7 @@
     <display value="Anesthesia - Complications"/>
     <definition value="Anesthesia - Complications"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -144,7 +145,7 @@
     <display value="Anesthesia - Questionnaire"/>
     <definition value="Anesthesia - Questionnaire"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -152,7 +153,7 @@
     <display value="Angiogram"/>
     <definition value="Angiogram"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -160,7 +161,7 @@
     <display value="Angioplasty"/>
     <definition value="Angioplasty"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -168,7 +169,7 @@
     <display value="Anticancer Drugs"/>
     <definition value="Anticancer Drugs"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -176,7 +177,7 @@
     <display value="Antipsychotic Medications"/>
     <definition value="Antipsychotic Medications"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -184,7 +185,7 @@
     <display value="Arthrogram"/>
     <definition value="Arthrogram"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -192,7 +193,7 @@
     <display value="Autopsy"/>
     <definition value="Autopsy"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -200,7 +201,7 @@
     <display value="AZT Therapy"/>
     <definition value="AZT Therapy"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -208,7 +209,7 @@
     <display value="Biliary Drainage"/>
     <definition value="Biliary Drainage"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -216,7 +217,7 @@
     <display value="Biliary Stone Extraction"/>
     <definition value="Biliary Stone Extraction"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -224,7 +225,7 @@
     <display value="Biopsy"/>
     <definition value="Biopsy"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -232,7 +233,7 @@
     <display value="Bleeding Time Test"/>
     <definition value="Bleeding Time Test"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -240,7 +241,7 @@
     <display value="Bronchogram"/>
     <definition value="Bronchogram"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -248,7 +249,7 @@
     <display value="Cardiac Catheterization"/>
     <definition value="Cardiac Catheterization"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -256,7 +257,7 @@
     <display value="Coronary Angiography"/>
     <definition value="Coronary Angiography"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -264,7 +265,7 @@
     <display value="Coronary Angiography w/o Surgery Capability"/>
     <definition value="Coronary Angiography w/o Surgery Capability"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -272,7 +273,7 @@
     <display value="Cataract Op/Implant of FDA Aprvd Lens"/>
     <definition value="Cataract Op/Implant of FDA Aprvd Lens"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -280,7 +281,7 @@
     <display value="Cataract Op/Implant of Investigational Lens"/>
     <definition value="Cataract Op/Implant of Investigational Lens"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -288,7 +289,7 @@
     <display value="Cataract Surgery"/>
     <definition value="Cataract Surgery"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -296,7 +297,7 @@
     <display value="Cholera Immunization"/>
     <definition value="Cholera Immunization"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -304,7 +305,7 @@
     <display value="Cholesterol Screening"/>
     <definition value="Cholesterol Screening"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -312,7 +313,7 @@
     <display value="Circumcision - Newborn"/>
     <definition value="Circumcision - Newborn"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -320,7 +321,7 @@
     <display value="Colonoscopy"/>
     <definition value="Colonoscopy"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -328,7 +329,7 @@
     <display value="Contact Lenses"/>
     <definition value="Contact Lenses"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -336,7 +337,7 @@
     <display value="CT Scan - Cervical &amp; Lumbar"/>
     <definition value="CT Scan - Cervical &amp; Lumbar"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -344,7 +345,7 @@
     <display value="CT Scan w/ IV Contrast Media into Vein"/>
     <definition value="CT Scan w/ IV Contrast Media into Vein"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -352,7 +353,7 @@
     <display value="CVS (Chorionic Villus) Sampling"/>
     <definition value="CVS (Chorionic Villus) Sampling"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -360,7 +361,7 @@
     <display value="Cystospy"/>
     <definition value="Cystospy"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -368,7 +369,7 @@
     <display value="Disclosure of Protected Health Information to Family/Friends"/>
     <definition value="Disclosure of Protected Health Information to Family/Friends"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -376,7 +377,7 @@
     <display value="D &amp; C and Conization"/>
     <definition value="D &amp; C and Conization"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -384,7 +385,7 @@
     <display value="Dacryocystogram"/>
     <definition value="Dacryocystogram"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -392,7 +393,7 @@
     <display value="Diagnostic Isotope"/>
     <definition value="Diagnostic Isotope"/>
   </concept>
-  <concept>
+  <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -400,7 +401,7 @@
     <display value="Drainage of an Abscess"/>
     <definition value="Drainage of an Abscess"/>
   </concept>
-  <concept>
+  <concept id="46">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -408,7 +409,7 @@
     <display value="Drug Screening"/>
     <definition value="Drug Screening"/>
   </concept>
-  <concept>
+  <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -416,7 +417,7 @@
     <display value="Electronic Monitoring of Labor - Refusal"/>
     <definition value="Electronic Monitoring of Labor - Refusal"/>
   </concept>
-  <concept>
+  <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -424,7 +425,7 @@
     <display value="Endometrial Biopsy"/>
     <definition value="Endometrial Biopsy"/>
   </concept>
-  <concept>
+  <concept id="49">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -432,7 +433,7 @@
     <display value="Endoscopy/Sclerosis of Esophageal Varices"/>
     <definition value="Endoscopy/Sclerosis of Esophageal Varices"/>
   </concept>
-  <concept>
+  <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -440,7 +441,7 @@
     <display value="ERCP"/>
     <definition value="ERCP"/>
   </concept>
-  <concept>
+  <concept id="51">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -448,7 +449,7 @@
     <display value="Exposure to reportable Communicable Disease"/>
     <definition value="Exposure to reportable Communicable Disease"/>
   </concept>
-  <concept>
+  <concept id="52">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -456,7 +457,7 @@
     <display value="External Version"/>
     <definition value="External Version"/>
   </concept>
-  <concept>
+  <concept id="53">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -464,7 +465,7 @@
     <display value="Fluorescein Angioscopy"/>
     <definition value="Fluorescein Angioscopy"/>
   </concept>
-  <concept>
+  <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -472,7 +473,7 @@
     <display value="Hepatitis B - Consent/Declination"/>
     <definition value="Hepatitis B - Consent/Declination"/>
   </concept>
-  <concept>
+  <concept id="55">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -480,7 +481,7 @@
     <display value="Herniogram"/>
     <definition value="Herniogram"/>
   </concept>
-  <concept>
+  <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -488,7 +489,7 @@
     <display value="HIV Test - Consent Refusal"/>
     <definition value="HIV Test - Consent Refusal"/>
   </concept>
-  <concept>
+  <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -496,7 +497,7 @@
     <display value="HIV Test - Disclosure"/>
     <definition value="HIV Test - Disclosure"/>
   </concept>
-  <concept>
+  <concept id="58">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -504,7 +505,7 @@
     <display value="HIV Test - Prenatal"/>
     <definition value="HIV Test - Prenatal"/>
   </concept>
-  <concept>
+  <concept id="59">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -512,7 +513,7 @@
     <display value="Home IV Treatment Program"/>
     <definition value="Home IV Treatment Program"/>
   </concept>
-  <concept>
+  <concept id="60">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -520,7 +521,7 @@
     <display value="Home Parenteral Treatment Program"/>
     <definition value="Home Parenteral Treatment Program"/>
   </concept>
-  <concept>
+  <concept id="61">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -528,7 +529,7 @@
     <display value="Hysterectomy"/>
     <definition value="Hysterectomy"/>
   </concept>
-  <concept>
+  <concept id="62">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -536,7 +537,7 @@
     <display value="Hysterosalpingogram"/>
     <definition value="Hysterosalpingogram"/>
   </concept>
-  <concept>
+  <concept id="63">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -544,7 +545,7 @@
     <display value="Injection Slip/ Consent"/>
     <definition value="Injection Slip/ Consent"/>
   </concept>
-  <concept>
+  <concept id="64">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -552,7 +553,7 @@
     <display value="Intrauterine Device"/>
     <definition value="Intrauterine Device"/>
   </concept>
-  <concept>
+  <concept id="65">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -560,7 +561,7 @@
     <display value="Intrauterine Device/Sterilization"/>
     <definition value="Intrauterine Device/Sterilization"/>
   </concept>
-  <concept>
+  <concept id="66">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -568,7 +569,7 @@
     <display value="Intravascular Infusion of Streptokinase/Urokinase"/>
     <definition value="Intravascular Infusion of Streptokinase/Urokinase"/>
   </concept>
-  <concept>
+  <concept id="67">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -576,7 +577,7 @@
     <display value="Intravenous Cholangiogram"/>
     <definition value="Intravenous Cholangiogram"/>
   </concept>
-  <concept>
+  <concept id="68">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -584,7 +585,7 @@
     <display value="Intravenous Digital Angiography"/>
     <definition value="Intravenous Digital Angiography"/>
   </concept>
-  <concept>
+  <concept id="69">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -592,7 +593,7 @@
     <display value="Iodine Administration"/>
     <definition value="Iodine Administration"/>
   </concept>
-  <concept>
+  <concept id="70">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -600,7 +601,7 @@
     <display value="ISG"/>
     <definition value="ISG"/>
   </concept>
-  <concept>
+  <concept id="71">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -608,7 +609,7 @@
     <display value="IVP"/>
     <definition value="IVP"/>
   </concept>
-  <concept>
+  <concept id="72">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -616,7 +617,7 @@
     <display value="Laser Photocoagulation"/>
     <definition value="Laser Photocoagulation"/>
   </concept>
-  <concept>
+  <concept id="73">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -624,7 +625,7 @@
     <display value="Laser treatment"/>
     <definition value="Laser treatment"/>
   </concept>
-  <concept>
+  <concept id="74">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -632,7 +633,7 @@
     <display value="Lithium Carbonate"/>
     <definition value="Lithium Carbonate"/>
   </concept>
-  <concept>
+  <concept id="75">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -640,7 +641,7 @@
     <display value="Liver Biopsy"/>
     <definition value="Liver Biopsy"/>
   </concept>
-  <concept>
+  <concept id="76">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -648,7 +649,7 @@
     <display value="Lumbar Puncture"/>
     <definition value="Lumbar Puncture"/>
   </concept>
-  <concept>
+  <concept id="77">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -656,7 +657,7 @@
     <display value="Lymphangiogram"/>
     <definition value="Lymphangiogram"/>
   </concept>
-  <concept>
+  <concept id="78">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -664,7 +665,7 @@
     <display value="MAO Inhibitors"/>
     <definition value="MAO Inhibitors"/>
   </concept>
-  <concept>
+  <concept id="79">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -672,7 +673,7 @@
     <display value="Med, Psych, and/or Drug/Alcohol"/>
     <definition value="Med, Psych, and/or Drug/Alcohol"/>
   </concept>
-  <concept>
+  <concept id="80">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -680,7 +681,7 @@
     <display value="Medical Treatment - Refusal"/>
     <definition value="Medical Treatment - Refusal"/>
   </concept>
-  <concept>
+  <concept id="81">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -688,7 +689,7 @@
     <display value="Morning-after Pill"/>
     <definition value="Morning-after Pill"/>
   </concept>
-  <concept>
+  <concept id="82">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -696,7 +697,7 @@
     <display value="MRI - Adult"/>
     <definition value="MRI - Adult"/>
   </concept>
-  <concept>
+  <concept id="83">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -704,7 +705,7 @@
     <display value="MRI - Pediatric"/>
     <definition value="MRI - Pediatric"/>
   </concept>
-  <concept>
+  <concept id="84">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -712,7 +713,7 @@
     <display value="Myelogram"/>
     <definition value="Myelogram"/>
   </concept>
-  <concept>
+  <concept id="85">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -720,7 +721,7 @@
     <display value="Needle Biopsy"/>
     <definition value="Needle Biopsy"/>
   </concept>
-  <concept>
+  <concept id="86">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -728,7 +729,7 @@
     <display value="Needle Biopsy of Lung"/>
     <definition value="Needle Biopsy of Lung"/>
   </concept>
-  <concept>
+  <concept id="87">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -736,7 +737,7 @@
     <display value="Newborn Treatment and Release"/>
     <definition value="Newborn Treatment and Release"/>
   </concept>
-  <concept>
+  <concept id="88">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -744,7 +745,7 @@
     <display value="Norplant Subdermal Birth Control Implant"/>
     <definition value="Norplant Subdermal Birth Control Implant"/>
   </concept>
-  <concept>
+  <concept id="89">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -752,7 +753,7 @@
     <display value="Operations, Anesthesia, Transfusions"/>
     <definition value="Operations, Anesthesia, Transfusions"/>
   </concept>
-  <concept>
+  <concept id="90">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -760,7 +761,7 @@
     <display value="Oral Contraceptives"/>
     <definition value="Oral Contraceptives"/>
   </concept>
-  <concept>
+  <concept id="91">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -768,7 +769,7 @@
     <display value="Organ Donation"/>
     <definition value="Organ Donation"/>
   </concept>
-  <concept>
+  <concept id="92">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -776,7 +777,7 @@
     <display value="Patient Permits, Consents"/>
     <definition value="Patient Permits, Consents"/>
   </concept>
-  <concept>
+  <concept id="93">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -784,7 +785,7 @@
     <display value="Patient Treatment Permit, Release &amp; Admission"/>
     <definition value="Patient Treatment Permit, Release &amp; Admission"/>
   </concept>
-  <concept>
+  <concept id="94">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -792,7 +793,7 @@
     <display value="Penile Injections"/>
     <definition value="Penile Injections"/>
   </concept>
-  <concept>
+  <concept id="95">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -800,7 +801,7 @@
     <display value="Percutaneous Nephrostomy"/>
     <definition value="Percutaneous Nephrostomy"/>
   </concept>
-  <concept>
+  <concept id="96">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -808,7 +809,7 @@
     <display value="Percutaneous Transhepatic Cholangiogram"/>
     <definition value="Percutaneous Transhepatic Cholangiogram"/>
   </concept>
-  <concept>
+  <concept id="97">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -816,7 +817,7 @@
     <display value="Photographs"/>
     <definition value="Photographs"/>
   </concept>
-  <concept>
+  <concept id="98">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -824,7 +825,7 @@
     <display value="Photographs - Employee"/>
     <definition value="Photographs - Employee"/>
   </concept>
-  <concept>
+  <concept id="99">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -832,7 +833,7 @@
     <display value="Photographs - Medical Research"/>
     <definition value="Photographs - Medical Research"/>
   </concept>
-  <concept>
+  <concept id="100">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -840,7 +841,7 @@
     <display value="Photographs - news Media"/>
     <definition value="Photographs - news Media"/>
   </concept>
-  <concept>
+  <concept id="101">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -848,7 +849,7 @@
     <display value="Psychiatric Admission - Next of Kin"/>
     <definition value="Psychiatric Admission - Next of Kin"/>
   </concept>
-  <concept>
+  <concept id="102">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -856,7 +857,7 @@
     <display value="Psychiatric Information During Hospital Stay"/>
     <definition value="Psychiatric Information During Hospital Stay"/>
   </concept>
-  <concept>
+  <concept id="103">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -864,7 +865,7 @@
     <display value="Public Release of Information"/>
     <definition value="Public Release of Information"/>
   </concept>
-  <concept>
+  <concept id="104">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -872,7 +873,7 @@
     <display value="Radiologic Procedure"/>
     <definition value="Radiologic Procedure"/>
   </concept>
-  <concept>
+  <concept id="105">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -880,7 +881,7 @@
     <display value="Refusal of Treatment"/>
     <definition value="Refusal of Treatment"/>
   </concept>
-  <concept>
+  <concept id="106">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -888,7 +889,7 @@
     <display value="Release of Body"/>
     <definition value="Release of Body"/>
   </concept>
-  <concept>
+  <concept id="107">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -896,7 +897,7 @@
     <display value="Release of Limb"/>
     <definition value="Release of Limb"/>
   </concept>
-  <concept>
+  <concept id="108">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -904,7 +905,7 @@
     <display value="Rh Immune Globulin"/>
     <definition value="Rh Immune Globulin"/>
   </concept>
-  <concept>
+  <concept id="109">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -912,7 +913,7 @@
     <display value="Rights of Medical Research Participants"/>
     <definition value="Rights of Medical Research Participants"/>
   </concept>
-  <concept>
+  <concept id="110">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -920,7 +921,7 @@
     <display value="Request to Restrict Access/Disclosure to Medical Record/Protected Health Information"/>
     <definition value="Request to Restrict Access/Disclosure to Medical Record/Protected Health Information"/>
   </concept>
-  <concept>
+  <concept id="111">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -928,7 +929,7 @@
     <display value="Request for Remain Anonymous"/>
     <definition value="Request for Remain Anonymous"/>
   </concept>
-  <concept>
+  <concept id="112">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Administrative"/>
     </extension>
@@ -936,7 +937,7 @@
     <display value="Seat Belt Exemption"/>
     <definition value="Seat Belt Exemption"/>
   </concept>
-  <concept>
+  <concept id="113">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -944,7 +945,7 @@
     <display value="Sialogram"/>
     <definition value="Sialogram"/>
   </concept>
-  <concept>
+  <concept id="114">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -952,7 +953,7 @@
     <display value="Sigmoidoscopy"/>
     <definition value="Sigmoidoscopy"/>
   </concept>
-  <concept>
+  <concept id="115">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -960,7 +961,7 @@
     <display value="Sterilization - Anesthesia &amp; Medical Services"/>
     <definition value="Sterilization - Anesthesia &amp; Medical Services"/>
   </concept>
-  <concept>
+  <concept id="116">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -968,7 +969,7 @@
     <display value="Sterilization -Federally Funded"/>
     <definition value="Sterilization -Federally Funded"/>
   </concept>
-  <concept>
+  <concept id="117">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -976,7 +977,7 @@
     <display value="Sterilization - Female"/>
     <definition value="Sterilization - Female"/>
   </concept>
-  <concept>
+  <concept id="118">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -984,7 +985,7 @@
     <display value="Sterilization - Laparoscopy/Pomeroy"/>
     <definition value="Sterilization - Laparoscopy/Pomeroy"/>
   </concept>
-  <concept>
+  <concept id="119">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -992,7 +993,7 @@
     <display value="Sterilization - Non-Federally Funded"/>
     <definition value="Sterilization - Non-Federally Funded"/>
   </concept>
-  <concept>
+  <concept id="120">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1000,7 +1001,7 @@
     <display value="Sterilization - Secondary"/>
     <definition value="Sterilization - Secondary"/>
   </concept>
-  <concept>
+  <concept id="121">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1008,7 +1009,7 @@
     <display value="Tranquilizers"/>
     <definition value="Tranquilizers"/>
   </concept>
-  <concept>
+  <concept id="122">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1016,7 +1017,7 @@
     <display value="Transfer - Acknowledgement"/>
     <definition value="Transfer - Acknowledgement"/>
   </concept>
-  <concept>
+  <concept id="123">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1024,7 +1025,7 @@
     <display value="Transfer - Authorization"/>
     <definition value="Transfer - Authorization"/>
   </concept>
-  <concept>
+  <concept id="124">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1032,7 +1033,7 @@
     <display value="Transfer Certification - Physician"/>
     <definition value="Transfer Certification - Physician"/>
   </concept>
-  <concept>
+  <concept id="125">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1040,7 +1041,7 @@
     <display value="Transfer/Discharge Request"/>
     <definition value="Transfer/Discharge Request"/>
   </concept>
-  <concept>
+  <concept id="126">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1048,7 +1049,7 @@
     <display value="Transfer for Non-Medical Reasons"/>
     <definition value="Transfer for Non-Medical Reasons"/>
   </concept>
-  <concept>
+  <concept id="127">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1056,7 +1057,7 @@
     <display value="Transfer - Interfaculty Neonatal"/>
     <definition value="Transfer - Interfaculty Neonatal"/>
   </concept>
-  <concept>
+  <concept id="128">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1064,7 +1065,7 @@
     <display value="Transfer Refusal"/>
     <definition value="Transfer Refusal"/>
   </concept>
-  <concept>
+  <concept id="129">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1072,7 +1073,7 @@
     <display value="Transfer Refusal of Further Treatment"/>
     <definition value="Transfer Refusal of Further Treatment"/>
   </concept>
-  <concept>
+  <concept id="130">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1080,7 +1081,7 @@
     <display value="Treadmill &amp; EKG"/>
     <definition value="Treadmill &amp; EKG"/>
   </concept>
-  <concept>
+  <concept id="131">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1088,7 +1089,7 @@
     <display value="Treadmill, Thallium-201"/>
     <definition value="Treadmill, Thallium-201"/>
   </concept>
-  <concept>
+  <concept id="132">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1096,7 +1097,7 @@
     <display value="Typhoid"/>
     <definition value="Typhoid"/>
   </concept>
-  <concept>
+  <concept id="133">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1104,7 +1105,7 @@
     <display value="Use of Investigational Device"/>
     <definition value="Use of Investigational Device"/>
   </concept>
-  <concept>
+  <concept id="134">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1112,7 +1113,7 @@
     <display value="Use of Investigational Drug"/>
     <definition value="Use of Investigational Drug"/>
   </concept>
-  <concept>
+  <concept id="135">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>
@@ -1120,7 +1121,7 @@
     <display value="Venogram"/>
     <definition value="Venogram"/>
   </concept>
-  <concept>
+  <concept id="136">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Release of Info/ Disclosure"/>
     </extension>
@@ -1128,7 +1129,7 @@
     <display value="Videotape"/>
     <definition value="Videotape"/>
   </concept>
-  <concept>
+  <concept id="137">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Treatment/ Procedure"/>
     </extension>

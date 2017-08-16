@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0391 (Segment Group)"/>
+  <description value="HL7-defined code system of concepts specifying the optional segment groups which are to be included in the response.  This is a repeating field, to accommodate inclusion of multiple segment groups. The default for this field, not present, means that all relevant groups are included.  Used in HL7 Version 2.x messaging in the Response Control Parameter (RCP) segment."/>
+  <purpose value="Underlying Code System for V2 table 0391 (Segment Group, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0391-2.5.1"/>
@@ -37,37 +38,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="PIDG"/>
     <display value="PID group"/>
     <definition value="PID group"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="OBRG"/>
     <display value="OBR group"/>
     <definition value="OBR group"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ORCG"/>
     <display value="ORC group"/>
     <definition value="ORC group"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="RXAG"/>
     <display value="RXA group"/>
     <definition value="RXA group"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="RXDG"/>
     <display value="RXD group"/>
     <definition value="RXD group"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="RXEG"/>
     <display value="RXE group"/>
     <definition value="RXE group"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="RXOG"/>
     <display value="RXO group"/>
     <definition value="RXO group"/>

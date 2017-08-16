@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0642 (Reorder Theory Codes)"/>
+  <description value="Code system of concepts that identify the calculation method used to determine the resupply schedule. Used in HL7 Version 2.x messaging in the IVT segment."/>
+  <purpose value="Underlying Code System for V2 table 0642 (Reorder Theory Codes, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0642-2.6"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="D"/>
     <display value="DOP/DOQ"/>
     <definition value="DOP/DOQ"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="M"/>
     <display value="MIN/MAX"/>
     <definition value="MIN/MAX"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="O"/>
     <display value="Override"/>
     <definition value="Override"/>

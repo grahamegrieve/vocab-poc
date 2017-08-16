@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0006 (Religion)"/>
+  <description value="HL7-defined code system of concepts specifying a person&#39;s religion.  Used in HL7 Version 2.x messaging in the PID segment."/>
+  <purpose value="Underlying Code System for V2 table 0006 (Religion, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0006-2.1"/>
@@ -31,47 +32,47 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="A"/>
     <display value="Atheist"/>
     <definition value="Atheist"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="B"/>
     <display value="Baptist"/>
     <definition value="Baptist"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="C"/>
     <display value="Catholic"/>
     <definition value="Catholic"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="E"/>
     <display value="Episcopalian"/>
     <definition value="Episcopalian"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="J"/>
     <display value="Judaism"/>
     <definition value="Judaism"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="L"/>
     <display value="Lutheran"/>
     <definition value="Lutheran"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="M"/>
     <display value="Church of Latter Day Saints (Mormon)"/>
     <definition value="Church of Latter Day Saints (Mormon)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="N"/>
     <display value="Hindu"/>
     <definition value="Hindu"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="P"/>
     <display value="Protestant"/>
     <definition value="Protestant"/>

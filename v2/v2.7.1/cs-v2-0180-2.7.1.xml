@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0180 (Record-level Event Code)"/>
+  <description value="HL7-defined code system of concepts specifying an action for a master file record. Used in HL7 Version 2.x messaging in the MFE segment."/>
+  <purpose value="Underlying Code System for V2 table 0180 (Record-level Event Code, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0180-2.7.1"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="MAD"/>
     <display value="Add record to master file"/>
     <definition value="Add record to master file"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="MDL"/>
     <display value="Delete record from master file"/>
     <definition value="Delete record from master file"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="MUP"/>
     <display value="Update record for master file"/>
     <definition value="Update record for master file"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="MDC"/>
     <display value="Deactivate: discontinue using record in master file, but do not delete from database"/>
     <definition value="Deactivate: discontinue using record in master file, but do not delete from database"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="MAC"/>
     <display value="Reactivate deactivated record"/>
     <definition value="Reactivate deactivated record"/>

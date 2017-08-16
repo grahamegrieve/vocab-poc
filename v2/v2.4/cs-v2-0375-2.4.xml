@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0375 (Artificial Blood)"/>
+  <description value="Code system of concepts that identify the artificial blood identifier associated with the specimen.  Used in the Interaction Specimen Container Detail (SAC) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0375 (Artificial Blood, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0375-2.4"/>
@@ -34,12 +35,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="SFHB"/>
     <display value="Stromal free hemoglobin preparations"/>
     <definition value="Stromal free hemoglobin preparations"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="FLUR"/>
     <display value="Fluorocarbons"/>
     <definition value="Fluorocarbons"/>

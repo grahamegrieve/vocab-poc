@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0440 (Data Types)"/>
+  <description value="HL7-defined code system of concepts specifying the format of the observation value in the Observation Result (OBX).   Used in HL7 Version 2.x messaging in the RCD amd RDF segments."/>
+  <purpose value="Underlying Code System for V2 table 0440 (Data Types, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0440-2.5"/>
@@ -37,7 +38,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -45,22 +46,22 @@
     <display value="Address"/>
     <definition value="Address"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AUI"/>
     <display value="Authorization information"/>
     <definition value="Authorization information"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CCD"/>
     <display value="Charge code and date"/>
     <definition value="Charge code and date"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="CCP"/>
     <display value="Channel calibration parameters"/>
     <definition value="Channel calibration parameters"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Specialty/Chapter Specific: waveform"/>
     </extension>
@@ -68,7 +69,7 @@
     <display value="Channel definition"/>
     <definition value="Channel definition"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -76,7 +77,7 @@
     <display value="Coded element"/>
     <definition value="Coded element"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -84,7 +85,7 @@
     <display value="Coded element with formatted values"/>
     <definition value="Coded element with formatted values"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -92,7 +93,7 @@
     <display value="Composite ID with check digit"/>
     <definition value="Composite ID with check digit"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Generic"/>
     </extension>
@@ -100,7 +101,7 @@
     <display value="Composite"/>
     <definition value="Composite"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -108,7 +109,7 @@
     <display value="Composite ID number and name"/>
     <definition value="Composite ID number and name"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -116,12 +117,12 @@
     <display value="Coded with no exceptions"/>
     <definition value="Coded with no exceptions"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="CNS"/>
     <display value="Composite ID number and name simplified"/>
     <definition value="Composite ID number and name simplified"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Price Data"/>
     </extension>
@@ -129,7 +130,7 @@
     <display value="Composite price"/>
     <definition value="Composite price"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Numerical"/>
     </extension>
@@ -137,12 +138,12 @@
     <display value="Composite quantity with units"/>
     <definition value="Composite quantity with units"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="CSU"/>
     <display value="Channel sensitivity"/>
     <definition value="Channel sensitivity"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -150,7 +151,7 @@
     <display value="Coded with exceptions"/>
     <definition value="Coded with exceptions"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -158,22 +159,22 @@
     <display value="Extended composite ID with check digit"/>
     <definition value="Extended composite ID with check digit"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="DDI"/>
     <display value="Daily deductible information"/>
     <definition value="Daily deductible information"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="DIN"/>
     <display value="Date and institution name"/>
     <definition value="Date and institution name"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="DLD"/>
     <display value="Discharge to location and date"/>
     <definition value="Discharge to location and date"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Extended Queries"/>
     </extension>
@@ -181,12 +182,12 @@
     <display value="Driver&#39;s license number"/>
     <definition value="Driver&#39;s license number"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="DLT"/>
     <display value="Delta"/>
     <definition value="Delta"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Time Series"/>
     </extension>
@@ -194,7 +195,7 @@
     <display value="Date/time range"/>
     <definition value="Date/time range"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Date/Time"/>
     </extension>
@@ -202,17 +203,17 @@
     <display value="Date"/>
     <definition value="Date"/>
   </concept>
-  <concept>
+  <concept id="25">
     <code value="DTM"/>
     <display value="Date/time"/>
     <definition value="Date/time"/>
   </concept>
-  <concept>
+  <concept id="26">
     <code value="DTN"/>
     <display value="Day type and number"/>
     <definition value="Day type and number"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Specialty/Chapter Specific"/>
     </extension>
@@ -220,7 +221,7 @@
     <display value="Encapsulated data"/>
     <definition value="Encapsulated data"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -228,12 +229,12 @@
     <display value="Entity identifier"/>
     <definition value="Entity identifier"/>
   </concept>
-  <concept>
+  <concept id="29">
     <code value="EIP"/>
     <display value="Entity identifier pair"/>
     <definition value="Entity identifier pair"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Replaces the CM data type used in 2.16.5.1 ERR-1 as of v 2.5. Retained for backward compatibility only as of v 2.5. Refer to ERR segment."/>
     </extension>
@@ -241,12 +242,12 @@
     <display value="Error location and description"/>
     <definition value="Error location and description"/>
   </concept>
-  <concept>
+  <concept id="31">
     <code value="ERL"/>
     <display value="Error location"/>
     <definition value="Error location"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Patient Administration /Financial Information"/>
     </extension>
@@ -254,7 +255,7 @@
     <display value="Financial class"/>
     <definition value="Financial class"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -262,7 +263,7 @@
     <display value="Family name"/>
     <definition value="Family name"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Alphanumeric"/>
     </extension>
@@ -270,12 +271,12 @@
     <display value="Formatted text"/>
     <definition value="Formatted text"/>
   </concept>
-  <concept>
+  <concept id="35">
     <code value="GTS"/>
     <display value="General timing specification"/>
     <definition value="General timing specification"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -283,12 +284,12 @@
     <display value="Hierarchic designator"/>
     <definition value="Hierarchic designator"/>
   </concept>
-  <concept>
+  <concept id="37">
     <code value="ICD"/>
     <display value="Insurance certification definition"/>
     <definition value="Insurance certification definition"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -296,7 +297,7 @@
     <display value="Coded values for HL7 tables"/>
     <definition value="Coded values for HL7 tables"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -304,7 +305,7 @@
     <display value="Coded value for user-defined tables"/>
     <definition value="Coded value for user-defined tables"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Extended Queries"/>
     </extension>
@@ -312,17 +313,17 @@
     <display value="Job code/class"/>
     <definition value="Job code/class"/>
   </concept>
-  <concept>
+  <concept id="41">
     <code value="LA1"/>
     <display value="Location with address variation 1"/>
     <definition value="Location with address variation 1"/>
   </concept>
-  <concept>
+  <concept id="42">
     <code value="LA2"/>
     <display value="Location with address variation 2"/>
     <definition value="Location with address variation 2"/>
   </concept>
-  <concept>
+  <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Specialty/Chapter Specific: waveform"/>
     </extension>
@@ -330,7 +331,7 @@
     <display value="Multiplexed array"/>
     <definition value="Multiplexed array"/>
   </concept>
-  <concept>
+  <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Numerical"/>
     </extension>
@@ -338,22 +339,22 @@
     <display value="Money"/>
     <definition value="Money"/>
   </concept>
-  <concept>
+  <concept id="45">
     <code value="MOC"/>
     <display value="Money and charge code"/>
     <definition value="Money and charge code"/>
   </concept>
-  <concept>
+  <concept id="46">
     <code value="MOP"/>
     <display value="Money or percentage"/>
     <definition value="Money or percentage"/>
   </concept>
-  <concept>
+  <concept id="47">
     <code value="MSG"/>
     <display value="Message type"/>
     <definition value="Message type"/>
   </concept>
-  <concept>
+  <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Specialty/Chapter Specific: waveform"/>
     </extension>
@@ -361,12 +362,12 @@
     <display value="Numeric array"/>
     <definition value="Numeric array"/>
   </concept>
-  <concept>
+  <concept id="49">
     <code value="NDL"/>
     <display value="Name with location and date"/>
     <definition value="Name with location and date"/>
   </concept>
-  <concept>
+  <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Numerical"/>
     </extension>
@@ -374,32 +375,32 @@
     <display value="Numeric"/>
     <definition value="Numeric"/>
   </concept>
-  <concept>
+  <concept id="51">
     <code value="NR"/>
     <display value="Numeric range"/>
     <definition value="Numeric range"/>
   </concept>
-  <concept>
+  <concept id="52">
     <code value="OCD"/>
     <display value="Occurrence code and date"/>
     <definition value="Occurrence code and date"/>
   </concept>
-  <concept>
+  <concept id="53">
     <code value="OSD"/>
     <display value="Order sequence definition"/>
     <definition value="Order sequence definition"/>
   </concept>
-  <concept>
+  <concept id="54">
     <code value="OSP"/>
     <display value="Occurrence span code and date"/>
     <definition value="Occurrence span code and date"/>
   </concept>
-  <concept>
+  <concept id="55">
     <code value="PIP"/>
     <display value="Practitioner institutional privileges"/>
     <definition value="Practitioner institutional privileges"/>
   </concept>
-  <concept>
+  <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -407,12 +408,12 @@
     <display value="Person location"/>
     <definition value="Person location"/>
   </concept>
-  <concept>
+  <concept id="57">
     <code value="PLN"/>
     <display value="Practitioner license or other ID number"/>
     <definition value="Practitioner license or other ID number"/>
   </concept>
-  <concept>
+  <concept id="58">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -420,7 +421,7 @@
     <display value="Person name"/>
     <definition value="Person name"/>
   </concept>
-  <concept>
+  <concept id="59">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Medical Records/Information Management"/>
     </extension>
@@ -428,12 +429,12 @@
     <display value="Performing person time stamp"/>
     <definition value="Performing person time stamp"/>
   </concept>
-  <concept>
+  <concept id="60">
     <code value="PRL"/>
     <display value="Parent result link"/>
     <definition value="Parent result link"/>
   </concept>
-  <concept>
+  <concept id="61">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -441,12 +442,12 @@
     <display value="Processing type"/>
     <definition value="Processing type"/>
   </concept>
-  <concept>
+  <concept id="62">
     <code value="PTA"/>
     <display value="Policy type and amount"/>
     <definition value="Policy type and amount"/>
   </concept>
-  <concept>
+  <concept id="63">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Extended Queries"/>
     </extension>
@@ -454,7 +455,7 @@
     <display value="Query input parameter list"/>
     <definition value="Query input parameter list"/>
   </concept>
-  <concept>
+  <concept id="64">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Extended Queries"/>
     </extension>
@@ -462,7 +463,7 @@
     <display value="Query selection criteria"/>
     <definition value="Query selection criteria"/>
   </concept>
-  <concept>
+  <concept id="65">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Extended Queries"/>
     </extension>
@@ -470,12 +471,12 @@
     <display value="Row column definition"/>
     <definition value="Row column definition"/>
   </concept>
-  <concept>
+  <concept id="66">
     <code value="RFR"/>
     <display value="Reference range"/>
     <definition value="Reference range"/>
   </concept>
-  <concept>
+  <concept id="67">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Time Series"/>
     </extension>
@@ -483,12 +484,12 @@
     <display value="Repeat interval"/>
     <definition value="Repeat interval"/>
   </concept>
-  <concept>
+  <concept id="68">
     <code value="RMC"/>
     <display value="Room coverage"/>
     <definition value="Room coverage"/>
   </concept>
-  <concept>
+  <concept id="69">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -496,12 +497,12 @@
     <display value="Reference pointer"/>
     <definition value="Reference pointer"/>
   </concept>
-  <concept>
+  <concept id="70">
     <code value="RPT"/>
     <display value="Repeat pattern"/>
     <definition value="Repeat pattern"/>
   </concept>
-  <concept>
+  <concept id="71">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -509,7 +510,7 @@
     <display value="Street Address"/>
     <definition value="Street Address"/>
   </concept>
-  <concept>
+  <concept id="72">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Time Series"/>
     </extension>
@@ -517,7 +518,7 @@
     <display value="Scheduling class value pair"/>
     <definition value="Scheduling class value pair"/>
   </concept>
-  <concept>
+  <concept id="73">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Numerical"/>
     </extension>
@@ -525,7 +526,7 @@
     <display value="Sequence ID"/>
     <definition value="Sequence ID"/>
   </concept>
-  <concept>
+  <concept id="74">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Numerical"/>
     </extension>
@@ -533,17 +534,17 @@
     <display value="Structured numeric"/>
     <definition value="Structured numeric"/>
   </concept>
-  <concept>
+  <concept id="75">
     <code value="SPD"/>
     <display value="Specialty description"/>
     <definition value="Specialty description"/>
   </concept>
-  <concept>
+  <concept id="76">
     <code value="SPS"/>
     <display value="Specimen source"/>
     <definition value="Specimen source"/>
   </concept>
-  <concept>
+  <concept id="77">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Alphanumeric"/>
     </extension>
@@ -551,7 +552,7 @@
     <display value="Sort order"/>
     <definition value="Sort order"/>
   </concept>
-  <concept>
+  <concept id="78">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Alphanumeric"/>
     </extension>
@@ -559,7 +560,7 @@
     <display value="String"/>
     <definition value="String"/>
   </concept>
-  <concept>
+  <concept id="79">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Date/Time"/>
     </extension>
@@ -567,7 +568,7 @@
     <display value="Time"/>
     <definition value="Time"/>
   </concept>
-  <concept>
+  <concept id="80">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -575,7 +576,7 @@
     <display value="Telephone number"/>
     <definition value="Telephone number"/>
   </concept>
-  <concept>
+  <concept id="81">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Time Series"/>
     </extension>
@@ -583,7 +584,7 @@
     <display value="Timing/quantity"/>
     <definition value="Timing/quantity"/>
   </concept>
-  <concept>
+  <concept id="82">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Date/Time"/>
     </extension>
@@ -591,7 +592,7 @@
     <display value="Time stamp"/>
     <definition value="Time stamp"/>
   </concept>
-  <concept>
+  <concept id="83">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Alphanumeric"/>
     </extension>
@@ -599,12 +600,12 @@
     <display value="Text data"/>
     <definition value="Text data"/>
   </concept>
-  <concept>
+  <concept id="84">
     <code value="UVC"/>
     <display value="UB value code and amount"/>
     <definition value="UB value code and amount"/>
   </concept>
-  <concept>
+  <concept id="85">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Extended Queries"/>
     </extension>
@@ -612,7 +613,7 @@
     <display value="Visiting hours"/>
     <definition value="Visiting hours"/>
   </concept>
-  <concept>
+  <concept id="86">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Identifier"/>
     </extension>
@@ -620,22 +621,22 @@
     <display value="Version identifier"/>
     <definition value="Version identifier"/>
   </concept>
-  <concept>
+  <concept id="87">
     <code value="VR"/>
     <display value="Value range"/>
     <definition value="Value range"/>
   </concept>
-  <concept>
+  <concept id="88">
     <code value="WVI"/>
     <display value="Channel Identifier"/>
     <definition value="Channel Identifier"/>
   </concept>
-  <concept>
+  <concept id="89">
     <code value="WVS"/>
     <display value="Waveform source"/>
     <definition value="Waveform source"/>
   </concept>
-  <concept>
+  <concept id="90">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -643,7 +644,7 @@
     <display value="Extended address"/>
     <definition value="Extended address"/>
   </concept>
-  <concept>
+  <concept id="91">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Code Values"/>
     </extension>
@@ -651,7 +652,7 @@
     <display value="Extended composite ID number and name"/>
     <definition value="Extended composite ID number and name"/>
   </concept>
-  <concept>
+  <concept id="92">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -659,7 +660,7 @@
     <display value="Extended composite name and ID number for organizations"/>
     <definition value="Extended composite name and ID number for organizations"/>
   </concept>
-  <concept>
+  <concept id="93">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>
@@ -667,7 +668,7 @@
     <display value="Extended person name"/>
     <definition value="Extended person name"/>
   </concept>
-  <concept>
+  <concept id="94">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Demographics"/>
     </extension>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0001 (Administrative Sex)"/>
+  <description value="Code system of concepts specifying a patient&#39;s sex for administrative purposes.  Used in HL7 Version 2.x messages in the PID segment."/>
+  <purpose value="Underlying Code System for V2 table 0001 (Administrative Sex, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0001-2.9"/>
@@ -40,32 +41,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="F"/>
     <display value="Female"/>
     <definition value="Female"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="M"/>
     <display value="Male"/>
     <definition value="Male"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="A"/>
     <display value="Ambiguous"/>
     <definition value="Ambiguous"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="N"/>
     <display value="Not applicable"/>
     <definition value="Not applicable"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0205 (Price Type)"/>
+  <description value="HL7-defined code system of concepts used to identify the intent for the dollar amount on a pricing transaction.  Used in HL7 Version 2.x messaging in the CP datatype."/>
+  <purpose value="Underlying Code System for V2 table 0205 (Price Type, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0205-2.7.1"/>
@@ -40,37 +41,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AP"/>
     <display value="administrative price or handling fee"/>
     <definition value="administrative price or handling fee"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="DC"/>
     <display value="direct unit cost"/>
     <definition value="direct unit cost"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="IC"/>
     <display value="indirect unit cost"/>
     <definition value="indirect unit cost"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="PF"/>
     <display value="professional fee for performing provider"/>
     <definition value="professional fee for performing provider"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="TF"/>
     <display value="technology fee for use of equipment"/>
     <definition value="technology fee for use of equipment"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="TP"/>
     <display value="total price"/>
     <definition value="total price"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="UP"/>
     <display value="unit price, may be based on length of procedure or service"/>
     <definition value="unit price, may be based on length of procedure or service"/>

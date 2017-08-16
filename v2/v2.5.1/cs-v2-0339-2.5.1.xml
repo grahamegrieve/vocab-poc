@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0339 (Advanced Beneficiary Notice Code)"/>
+  <description value="Code system of concepts specifying the status of the patient&#39;s or the patient&#39;s representative&#39;s consent for responsibility to pay for potentially uninsured services. This element was introduced to satisfy CMS Medical Necessity requirements for outpatient services in the United States. Includes concepts such as (a) whether the associated diagnosis codes for the service are subject to medical necessity procedures, (b) whether, for this type of service, the patient has been informed that they may be responsible for payment for the service, and (c) whether the patient agrees to be billed for this service.  Used in HL7 Version 2.x messaging in the ORC and FT1 segments."/>
+  <purpose value="Underlying Code System for V2 table 0339 (Advanced Beneficiary Notice Code, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0339-2.5.1"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="Service is subject to medical necessity procedures"/>
     <definition value="Service is subject to medical necessity procedures"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="Patient has been informed of responsibility, and agrees to pay for service"/>
     <definition value="Patient has been informed of responsibility, and agrees to pay for service"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Patient has been informed of responsibility, and asks that the payer be billed"/>
     <definition value="Patient has been informed of responsibility, and asks that the payer be billed"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="Advanced Beneficiary Notice has not been signed"/>
     <definition value="Advanced Beneficiary Notice has not been signed"/>

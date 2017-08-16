@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0702"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.387"/>
+    <value value="urn:oid:2.16.840.1.113883.18.387">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="cycleType"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0702"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0702 (Cycle Type)"/>
+  <description value="Code system of concepts  specifying the type of cycle that is being executed.  A cycle type is a specific sterilization method used for a specific type of supply item.  Used in HL7 Version 2.x messaging in the SCD segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0702 (Cycle Type)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0702"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Used to quickly sterilize instruments that were dropped during surgery."/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Flash"/>
     <definition value="Flash"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A prevac cycle is vacuum assisted."/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Prevac"/>
     <definition value="Prevac"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A gravity cycle is executed at atmospheric pressure."/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Gravity"/>
     <definition value="Gravity"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A cycle specific to sterilizing liquids."/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Liquid"/>
     <definition value="Liquid"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="An express cycle is similar to a flash cycle but the supply item is wrapped."/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Express"/>
     <definition value="Express"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A dart cycle is a special cycle used to test the integrity of the sterilizer chamber to hold a vacuum."/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Dart"/>
     <definition value="Dart"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A dart warm-up cycle is used to bring the sterilizer chamber up to operating temperature in order to run a dart test cycle."/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Dart Warm-up Cycle"/>
     <definition value="Dart Warm-up Cycle"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -116,7 +121,7 @@
     <display value="Thermal"/>
     <definition value="Thermal"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -124,7 +129,7 @@
     <display value="Isothermal"/>
     <definition value="Isothermal"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A Bowie-Dick test cycle is a special cycle used to test the integrity of the sterilizer chamber to hold a vacuum."/>
     </extension>
@@ -135,7 +140,7 @@
     <display value="Bowie-Dick Test"/>
     <definition value="Bowie-Dick Test"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A leak test cycle tests the integrity of the sterilizer chamber to hold a vacuum over a specific period of time."/>
     </extension>
@@ -146,7 +151,7 @@
     <display value="Leak Test"/>
     <definition value="Leak Test"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A Wrap/SFPP cycle uses steam pulses instead of a vacuum during the conditioning phase of the cycle when the supply item is unwrapped."/>
     </extension>
@@ -157,7 +162,7 @@
     <display value="Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)"/>
     <definition value="Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="An SFPP cycle uses steam pulses instead of a vacuum during the conditioning phase of the cycle when the supply item is wrapped."/>
     </extension>
@@ -168,7 +173,7 @@
     <display value="Steam Flush Pressure Pulse"/>
     <definition value="Steam Flush Pressure Pulse"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A chemical wash cycle."/>
     </extension>
@@ -179,7 +184,7 @@
     <display value="Chemical Wash"/>
     <definition value="Chemical Wash"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A peracetic acid cycle."/>
     </extension>
@@ -190,7 +195,7 @@
     <display value="Peracetic Acid"/>
     <definition value="Peracetic Acid"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -198,7 +203,7 @@
     <display value="EO High Temperature"/>
     <definition value="EO High Temperature"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -206,7 +211,7 @@
     <display value="EO Low Temperature"/>
     <definition value="EO Low Temperature"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -214,7 +219,7 @@
     <display value="Cart Wash"/>
     <definition value="Cart Wash"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -222,7 +227,7 @@
     <display value="Utensil Wash"/>
     <definition value="Utensil Wash"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -230,7 +235,7 @@
     <display value="Instrument Wash"/>
     <definition value="Instrument Wash"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -238,7 +243,7 @@
     <display value="Glassware"/>
     <definition value="Glassware"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -246,7 +251,7 @@
     <display value="Plastic Goods Wash"/>
     <definition value="Plastic Goods Wash"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Special Wash cycle"/>
     </extension>
@@ -257,7 +262,7 @@
     <display value="Anesthesia/Respiratory"/>
     <definition value="Anesthesia/Respiratory"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -265,7 +270,7 @@
     <display value="Gentle"/>
     <definition value="Gentle"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Any Optional Wash cycle"/>
     </extension>
@@ -276,7 +281,7 @@
     <display value="Optional Wash"/>
     <definition value="Optional Wash"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -284,7 +289,7 @@
     <display value="Bedpans"/>
     <definition value="Bedpans"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -292,7 +297,7 @@
     <display value="Tray/Basin"/>
     <definition value="Tray/Basin"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -300,7 +305,7 @@
     <display value="Gen. Purpose"/>
     <definition value="Gen. Purpose"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -308,7 +313,7 @@
     <display value="Code"/>
     <definition value="Code"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -316,7 +321,7 @@
     <display value="Rinse"/>
     <definition value="Rinse"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -324,7 +329,7 @@
     <display value="Second Rinse"/>
     <definition value="Second Rinse"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>

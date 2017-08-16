@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0167 (Substitution Status)"/>
+  <description value="HL7-defined code system of concepts  which specify the substitution status.  Used in HL7 Version 2.x messaging in the RXE, RXD, and RXG segments."/>
+  <purpose value="Underlying Code System for V2 table 0167 (Substitution Status, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0167-2.3"/>
@@ -34,17 +35,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="G"/>
     <display value="A generic substitution was dispensed"/>
     <definition value="A generic substitution was dispensed"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="N"/>
     <display value="No substitute was dispensed.  This is equivalent to the default (null) value."/>
     <definition value="No substitute was dispensed.  This is equivalent to the default (null) value."/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="T"/>
     <display value="A therapeutic substitution was dispensed"/>
     <definition value="A therapeutic substitution was dispensed"/>

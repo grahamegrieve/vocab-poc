@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0868"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.409"/>
+    <value value="urn:oid:2.16.840.1.113883.18.409">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="telecommunicationExpirationReason"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0868"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0868 (Telecommunication Expiration Reason)"/>
+  <description value="Code system of concepts specifying the reason this contact number/email was marked as &quot;ended&quot;.  Used in HL7 Version 2.x messaging in the XTN segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0868 (Telecommunication Expiration Reason)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0868"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The individual associated with the telecommunication address has moved and is no longer reachable at the address."/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Moved"/>
     <definition value="Moved"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The telecommunication address was incorrect and should never have been associated with the individual."/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Added in error"/>
     <definition value="Added in error"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The associated individual requested that the telecommunication address be removed from their record (though it may still be correct)."/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="On request"/>
     <definition value="On request"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The telecommunication address has been replaced with a corrected version."/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Corrected"/>
     <definition value="Corrected"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The telecommunication address is no longer connected or available"/>
     </extension>

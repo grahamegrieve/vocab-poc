@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0937 (Observation Sub-Type)"/>
+  <description value="HL7-defined code system of concepts specifying the observation sub-type.  Used in HL7 Version 2.x messaging in the OBX segment."/>
+  <purpose value="Underlying Code System for V2 table 0937 (Observation Sub-Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0937-2.9"/>
@@ -37,7 +38,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - qualifies the result as an isolate."/>
     </extension>
@@ -45,7 +46,7 @@
     <display value="Micro Isolate Related"/>
     <definition value="Micro Isolate Related"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - qualifies result as microbiology not related to any isolate (e.g., gram stain observations)"/>
     </extension>
@@ -53,7 +54,7 @@
     <display value="Micro Non-Isolate Related"/>
     <definition value="Micro Non-Isolate Related"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result is a modifier of the isolate (e.g., Few, Some, etc.)"/>
     </extension>
@@ -61,7 +62,7 @@
     <display value="Micro Isolate Related Modifier"/>
     <definition value="Micro Isolate Related Modifier"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result value is for micro susceptibility/sensitivity"/>
     </extension>
@@ -69,7 +70,7 @@
     <display value="Susceptibility Related"/>
     <definition value="Susceptibility Related"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result coming over is additional material, for example points on a graph, an image, raw instrument data, links to related observations, etc."/>
     </extension>
@@ -77,7 +78,7 @@
     <display value="Supplemental Result"/>
     <definition value="Supplemental Result"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - result falls outside of the other sub-types."/>
     </extension>
@@ -85,7 +86,7 @@
     <display value="Unspecified"/>
     <definition value="Unspecified"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of QST (Question) - OBX-5 value is answer to an Ask at Order Entry question"/>
     </extension>
@@ -93,7 +94,7 @@
     <display value="Ask at Order Entry"/>
     <definition value="Ask at Order Entry"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of QST (Question)  - OBX-5 value is answer to an Ask at Specimen Collection question"/>
     </extension>

@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0488"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.312"/>
+    <value value="urn:oid:2.16.840.1.113883.18.312">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="specimenCollectionMethod"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0488"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0488 (Specimen Collection Method)"/>
+  <description value="HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0488 (Specimen Collection Method)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0488"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Aspiration, Fine Needle"/>
     <definition value="Aspiration, Fine Needle"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Arterial puncture"/>
     <definition value="Arterial puncture"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Biopsy"/>
     <definition value="Biopsy"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Blood Culture, Aerobic Bottle"/>
     <definition value="Blood Culture, Aerobic Bottle"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Blood Culture, Anaerobic Bottle"/>
     <definition value="Blood Culture, Anaerobic Bottle"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Blood Culture, Pediatric Bottle"/>
     <definition value="Blood Culture, Pediatric Bottle"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Capillary Specimen"/>
     <definition value="Capillary Specimen"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Catheterized"/>
     <definition value="Catheterized"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Environmental, Plate"/>
     <definition value="Environmental, Plate"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -111,7 +116,7 @@
     <display value="Environmental, Swab"/>
     <definition value="Environmental, Swab"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Line, Arterial"/>
     <definition value="Line, Arterial"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -127,7 +132,7 @@
     <display value="Line, CVP"/>
     <definition value="Line, CVP"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -135,7 +140,7 @@
     <display value="Line, Venous"/>
     <definition value="Line, Venous"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -143,7 +148,7 @@
     <display value="Martin-Lewis Agar"/>
     <definition value="Martin-Lewis Agar"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -151,7 +156,7 @@
     <display value="Mod. Martin-Lewis Agar"/>
     <definition value="Mod. Martin-Lewis Agar"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -159,7 +164,7 @@
     <display value="Pace, Gen-Probe"/>
     <definition value="Pace, Gen-Probe"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -167,7 +172,7 @@
     <display value="Pinworm Prep"/>
     <definition value="Pinworm Prep"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -175,7 +180,7 @@
     <display value="Plate, Cough"/>
     <definition value="Plate, Cough"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -183,7 +188,7 @@
     <display value="Plate, Martin-Lewis"/>
     <definition value="Plate, Martin-Lewis"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -191,7 +196,7 @@
     <display value="Plate, New York City"/>
     <definition value="Plate, New York City"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -199,7 +204,7 @@
     <display value="Plate, Thayer-Martin"/>
     <definition value="Plate, Thayer-Martin"/>
   </concept>
-  <concept>
+  <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -207,7 +212,7 @@
     <display value="Plates, Anaerobic"/>
     <definition value="Plates, Anaerobic"/>
   </concept>
-  <concept>
+  <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -215,7 +220,7 @@
     <display value="Plates, Blood Agar"/>
     <definition value="Plates, Blood Agar"/>
   </concept>
-  <concept>
+  <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -223,7 +228,7 @@
     <display value="Pump Prime"/>
     <definition value="Pump Prime"/>
   </concept>
-  <concept>
+  <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -231,7 +236,7 @@
     <display value="Pump Specimen"/>
     <definition value="Pump Specimen"/>
   </concept>
-  <concept>
+  <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -239,7 +244,7 @@
     <display value="Quality Control For Micro"/>
     <definition value="Quality Control For Micro"/>
   </concept>
-  <concept>
+  <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -247,7 +252,7 @@
     <display value="Scalp, Fetal Vein"/>
     <definition value="Scalp, Fetal Vein"/>
   </concept>
-  <concept>
+  <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -255,7 +260,7 @@
     <display value="Scrapings"/>
     <definition value="Scrapings"/>
   </concept>
-  <concept>
+  <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -263,7 +268,7 @@
     <display value="Shaving"/>
     <definition value="Shaving"/>
   </concept>
-  <concept>
+  <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -271,7 +276,7 @@
     <display value="Swab"/>
     <definition value="Swab"/>
   </concept>
-  <concept>
+  <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -279,7 +284,7 @@
     <display value="Swab, Dacron tipped"/>
     <definition value="Swab, Dacron tipped"/>
   </concept>
-  <concept>
+  <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -287,7 +292,7 @@
     <display value="Swab, Wooden Shaft"/>
     <definition value="Swab, Wooden Shaft"/>
   </concept>
-  <concept>
+  <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -295,7 +300,7 @@
     <display value="Transport Media,"/>
     <definition value="Transport Media,"/>
   </concept>
-  <concept>
+  <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -303,7 +308,7 @@
     <display value="Transport Media, Anaerobic"/>
     <definition value="Transport Media, Anaerobic"/>
   </concept>
-  <concept>
+  <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -311,7 +316,7 @@
     <display value="Transport Media, Chalamydia"/>
     <definition value="Transport Media, Chalamydia"/>
   </concept>
-  <concept>
+  <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -319,7 +324,7 @@
     <display value="Transport Media, M4"/>
     <definition value="Transport Media, M4"/>
   </concept>
-  <concept>
+  <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -327,7 +332,7 @@
     <display value="Transport Media, Mycoplasma"/>
     <definition value="Transport Media, Mycoplasma"/>
   </concept>
-  <concept>
+  <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -335,7 +340,7 @@
     <display value="Transport Media, PVA"/>
     <definition value="Transport Media, PVA"/>
   </concept>
-  <concept>
+  <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -343,7 +348,7 @@
     <display value="Transport Media, Stool Culture"/>
     <definition value="Transport Media, Stool Culture"/>
   </concept>
-  <concept>
+  <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -351,7 +356,7 @@
     <display value="Transport Media, Ureaplasma"/>
     <definition value="Transport Media, Ureaplasma"/>
   </concept>
-  <concept>
+  <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -359,7 +364,7 @@
     <display value="Transport Media, Viral"/>
     <definition value="Transport Media, Viral"/>
   </concept>
-  <concept>
+  <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>

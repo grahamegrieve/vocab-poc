@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0334 (Disabled Person Code)"/>
+  <description value="Code system of concepts used to specify to which person the disability information relates in the message.  For example, if the value is PT, the disability information relates to the patient.  Used in HL7 Version 2.x messaging in the Disability (DB1) segment."/>
+  <purpose value="Underlying Code System for V2 table 0334 (Disabled Person Code, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0334-2.5.1"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="PT"/>
     <display value="Patient"/>
     <definition value="Patient"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="GT"/>
     <display value="Guarantor"/>
     <definition value="Guarantor"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="IN"/>
     <display value="Insured"/>
     <definition value="Insured"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="AP"/>
     <display value="Associated party"/>
     <definition value="Associated party"/>

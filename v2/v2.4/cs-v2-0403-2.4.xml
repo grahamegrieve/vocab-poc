@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0403 (Language Ability)"/>
+  <description value="Code system of concepts which specify codes that indicate the ability that a Staff Member possesses with respect to the language. Used in HL7 Version 2.x messaging in the LAN segment."/>
+  <purpose value="Underlying Code System for V2 table 0403 (Language Ability, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0403-2.4"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="Read"/>
     <definition value="Read"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="Write"/>
     <definition value="Write"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Speak"/>
     <definition value="Speak"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="Understand"/>
     <definition value="Understand"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="5"/>
     <display value="Sign"/>
     <definition value="Sign"/>

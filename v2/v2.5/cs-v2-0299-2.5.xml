@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0299 (Encoding)"/>
+  <description value="HL7-defined code system of concept identifying the type of encoding used to represent successive octets of binary data as displayable ASCII characters.  These are defined by IETF; more information may be found at https://www.ietf.org/rfc/rfc1521.txt.  Used in HL7 Version 2.x messaging in the ED datatypes."/>
+  <purpose value="Underlying Code System for V2 table 0299 (Encoding, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0299-2.5"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="No encoding - data are displayable ASCII characters."/>
     <definition value="No encoding - data are displayable ASCII characters."/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="Hex"/>
     <display value="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets."/>
     <definition value="Hexadecimal encoding - consecutive pairs of hexadecimal digits represent consecutive single octets."/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="Base64"/>
     <display value="Encoding as defined by MIME (Multipurpose Internet Mail Extensions) standard RFC 1521. Four consecutive ASCII characters represent three consecutive octets of binary data. Base64 utilizes a 65-character subset of US-ASCII, consisting of both the upper and"/>
     <definition value="Encoding as defined by MIME (Multipurpose Internet Mail Extensions) standard RFC 1521. Four consecutive ASCII characters represent three consecutive octets of binary data. Base64 utilizes a 65-character subset of US-ASCII, consisting of both the upper and"/>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0108 (Query results level)"/>
+  <description value="HL7-defined code system of concepts which are used to control level of detail in query results.   Used in HL7 Version 2 messaging in the URD segment."/>
+  <purpose value="Underlying Code System for V2 table 0108 (Query results level, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0108-2.3"/>
@@ -34,22 +35,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="O"/>
     <display value="Order plus order status"/>
     <definition value="Order plus order status"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="R"/>
     <display value="Results without bulk text"/>
     <definition value="Results without bulk text"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="S"/>
     <display value="Status only"/>
     <definition value="Status only"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="T"/>
     <display value="Full results (default)"/>
     <definition value="Full results (default)"/>

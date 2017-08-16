@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0004"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.5"/>
+    <value value="urn:oid:2.16.840.1.113883.18.5">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="patientClass"/>
+      </extension>
+    </value>
   </identifier>
   <version value="3"/>
   <name value="V2Table0004"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0004 (Patient Class)"/>
+  <description value="Code system of concepts used by systems to categorize patients by site in HL7 Version 2.x interfaces in the PV1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0004 (Patient Class)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0004"/>
@@ -31,27 +36,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="E"/>
     <display value="Emergency"/>
     <definition value="Emergency"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="I"/>
     <display value="Inpatient"/>
     <definition value="Inpatient"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="O"/>
     <display value="Outpatient"/>
     <definition value="Outpatient"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="P"/>
     <display value="Preadmit"/>
     <definition value="Preadmit"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -59,7 +64,7 @@
     <display value="Recurring patient"/>
     <definition value="Recurring patient"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -67,7 +72,7 @@
     <display value="Obstetrics"/>
     <definition value="Obstetrics"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Commercial Account"/>
     <definition value="Commercial Account"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>
@@ -83,7 +88,7 @@
     <display value="Not Applicable"/>
     <definition value="Not Applicable"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.4"/>
     </extension>

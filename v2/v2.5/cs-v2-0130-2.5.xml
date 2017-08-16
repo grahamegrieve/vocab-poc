@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0130 (Visit User Code)"/>
+  <description value="Code system of concepts which specify categories of a patient&#39;s visit with respect to an individual institution&#39;s needs, and is expected to be different on a site-specific basis.  Used in HL7 Version 2.x messaging in the PV2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0130 (Visit User Code, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0130-2.5"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="TE"/>
     <display value="Teaching"/>
     <definition value="Teaching"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="HO"/>
     <display value="Home"/>
     <definition value="Home"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="MO"/>
     <display value="Mobile Unit"/>
     <definition value="Mobile Unit"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="PH"/>
     <display value="Phone"/>
     <definition value="Phone"/>

@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0945 (Auto-Dilution Type)"/>
+  <description value="Code system of vendor-defined codes that specify the pre&#x2011;configured dilution to be applied on the instrument, which can be used instead of a numeric declaration.  Used in Version 2 messaging in the TCD segment."/>
+  <purpose value="Underlying Code System for V2 table 0945 (Auto-Dilution Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0945-2.9"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="X2"/>
     <display value="Dilution factor 2"/>
     <definition value="Dilution factor 2"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="X5"/>
     <display value="Dilution factor 5"/>
     <definition value="Dilution factor 5"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="D1"/>
     <display value="Dilution factor 1.23"/>
     <definition value="Dilution factor 1.23"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="D2"/>
     <display value="Dilution factor 1.45"/>
     <definition value="Dilution factor 1.45"/>

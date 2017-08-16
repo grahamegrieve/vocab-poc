@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0495 (Body Site Modifier)"/>
+  <description value="HL7-defined code system of concepts specifying the modifier for the body site.  Used in HL7 Version 2.x messaging in the RXR segment."/>
+  <purpose value="Underlying Code System for V2 table 0495 (Body Site Modifier, version 2.5.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0495-2.5.1"/>
@@ -37,82 +38,82 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ANT"/>
     <display value="Anterior"/>
     <definition value="Anterior"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="BIL"/>
     <display value="Bilateral"/>
     <definition value="Bilateral"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="DIS"/>
     <display value="Distal"/>
     <definition value="Distal"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="EXT"/>
     <display value="External"/>
     <definition value="External"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="LAT"/>
     <display value="Lateral"/>
     <definition value="Lateral"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="L"/>
     <display value="Left"/>
     <definition value="Left"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="LOW"/>
     <display value="Lower"/>
     <definition value="Lower"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="MED"/>
     <display value="Medial"/>
     <definition value="Medial"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="POS"/>
     <display value="Posterior"/>
     <definition value="Posterior"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="PRO"/>
     <display value="Proximal"/>
     <definition value="Proximal"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="LLQ"/>
     <display value="Quadrant, Left Lower"/>
     <definition value="Quadrant, Left Lower"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="LUQ"/>
     <display value="Quadrant, Left Upper"/>
     <definition value="Quadrant, Left Upper"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="RLQ"/>
     <display value="Quadrant, Right Lower"/>
     <definition value="Quadrant, Right Lower"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="RUQ"/>
     <display value="Quadrant, Right Upper"/>
     <definition value="Quadrant, Right Upper"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="R"/>
     <display value="Right"/>
     <definition value="Right"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="UPP"/>
     <display value="Upper"/>
     <definition value="Upper"/>

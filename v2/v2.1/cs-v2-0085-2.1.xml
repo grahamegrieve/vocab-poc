@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0085 (Observation Result Status Codes Interpretation)"/>
+  <description value="HL7-defined code system of concepts which specify observation result status. These codes reflect the current completion status of the results for one Observation Identifier.  Used in HL7 Version 2.x messaging in the OBX segment."/>
+  <purpose value="Underlying Code System for V2 table 0085 (Observation Result Status Codes Interpretation, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0085-2.1"/>
@@ -31,27 +32,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="D"/>
     <display value="Delete previously transmitted observation"/>
     <definition value="Delete previously transmitted observation"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="F"/>
     <display value="Complete/final results (entered and verified)"/>
     <definition value="Complete/final results (entered and verified)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="I"/>
     <display value="Specimen in lab--results pending"/>
     <definition value="Specimen in lab--results pending"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="R"/>
     <display value="Results entered - not verified"/>
     <definition value="Results entered - not verified"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="S"/>
     <display value="Partial results"/>
     <definition value="Partial results"/>

@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0034 (SITE ADMINISTERED)"/>
+  <description value="HL7-defined code system of concepts used for medication administration sites.   Used only in HL7 releases 2.1 and 2.2; as of 2.3 the model for this was changed and the field using this code system was removed from the Standard."/>
+  <purpose value="Underlying Code System for V2 table 0034 (SITE ADMINISTERED, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0034-2.1"/>
@@ -31,12 +32,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="B"/>
     <display value="Buttock"/>
     <definition value="Buttock"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="L"/>
     <display value="Left arm"/>
     <definition value="Left arm"/>

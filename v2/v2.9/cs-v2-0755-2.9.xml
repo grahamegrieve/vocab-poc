@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0755 (Status Weight At Birth)"/>
+  <description value="Code system of concepts specifying the status of the use of the weight at birth for diagnosis related group (DRG) determination.  US Realm.  Used in HL7 Version 2.x messaging in the DRG segment."/>
+  <purpose value="Underlying Code System for V2 table 0755 (Status Weight At Birth, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0755-2.9"/>
@@ -40,17 +41,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="0"/>
     <display value="No weight reported at admission used for grouping"/>
     <definition value="No weight reported at admission used for grouping"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="1"/>
     <display value="Weight reported at admission used for grouping"/>
     <definition value="Weight reported at admission used for grouping"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="2"/>
     <display value="Default weight (&gt;2499g) used for grouping"/>
     <definition value="Default weight (&gt;2499g) used for grouping"/>

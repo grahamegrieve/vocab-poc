@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0317 (Annotations)"/>
+  <description value="Code system of concepts specifying the coded entry associated with a given point in time during the waveform recording.  Used in HL7 Version 2.x messaging in the Observation Result (OBX) Another Observation (ANO) segments."/>
+  <purpose value="Underlying Code System for V2 table 0317 (Annotations, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0317-2.3"/>
@@ -31,27 +32,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="9900"/>
     <display value="Pace spike"/>
     <definition value="Pace spike"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="9901"/>
     <display value="SAS marker"/>
     <definition value="SAS marker"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="9902"/>
     <display value="Sense marker"/>
     <definition value="Sense marker"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="9903"/>
     <display value="Beat marker"/>
     <definition value="Beat marker"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="9904"/>
     <display value="etc."/>
     <definition value="etc."/>

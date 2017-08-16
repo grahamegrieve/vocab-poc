@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0443 (Provider role)"/>
+  <description value="Code system of concepts specifying the functional involvement with the activity being transmitted (e.g., Case Manager, Evaluator, Transcriber, Nurse Care Practitioner, Midwife, Physician Assistant, etc.).  Used in HL7 Version 2.x messaging in the ROL segment."/>
+  <purpose value="Underlying Code System for V2 table 0443 (Provider role, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0443-2.5"/>
@@ -37,37 +38,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AD"/>
     <display value="Admitting"/>
     <definition value="Admitting"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AT"/>
     <display value="Attending"/>
     <definition value="Attending"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CP"/>
     <display value="Consulting Provider"/>
     <definition value="Consulting Provider"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="FHCP"/>
     <display value="Family Health Care Professional"/>
     <definition value="Family Health Care Professional"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="PP"/>
     <display value="Primary Care Provider"/>
     <definition value="Primary Care Provider"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="RP"/>
     <display value="Referring Provider"/>
     <definition value="Referring Provider"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="RT"/>
     <display value="Referred to Provider"/>
     <definition value="Referred to Provider"/>

@@ -23,7 +23,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0033 (ROUTE)"/>
+  <description value="HL7-defined code system of concepts that indicate a means of administrating a medication dose.  Used in HL7 Version 2 messaging in the RX1 segment (which was withdrawn after version 2.2). As of HL7 version 2.3, it was replaced by 2.16.840.1.113883.18.80 routeOfAdministration and 2.16.840.1.113883.18.83 administrationMethod.  Used in the RX1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0033 (ROUTE, version 2.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0033-2.1"/>
@@ -31,142 +32,142 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="AP"/>
     <display value="Apply externally"/>
     <definition value="Apply externally"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CH"/>
     <display value="Chew"/>
     <definition value="Chew"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="DU"/>
     <display value="Dust"/>
     <definition value="Dust"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="EA"/>
     <display value="Ear"/>
     <definition value="Ear"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="EY"/>
     <display value="Eye"/>
     <definition value="Eye"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IA"/>
     <display value="Intro-arterial"/>
     <definition value="Intro-arterial"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="ID"/>
     <display value="Intra-dermal"/>
     <definition value="Intra-dermal"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IF"/>
     <display value="Infiltrate"/>
     <definition value="Infiltrate"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IH"/>
     <display value="Inhalation"/>
     <definition value="Inhalation"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IM"/>
     <display value="Intra-muscular"/>
     <definition value="Intra-muscular"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IN"/>
     <display value="Intra-nasal"/>
     <definition value="Intra-nasal"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IR"/>
     <display value="Irrigate"/>
     <definition value="Irrigate"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IS"/>
     <display value="Inserted"/>
     <definition value="Inserted"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IT"/>
     <display value="Intrathecal"/>
     <definition value="Intrathecal"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="IV"/>
     <display value="Intravenous"/>
     <definition value="Intravenous"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="NB"/>
     <display value="Nebulized"/>
     <definition value="Nebulized"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="NG"/>
     <display value="Nathogasic"/>
     <definition value="Nathogasic"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PA"/>
     <display value="Peri-anally"/>
     <definition value="Peri-anally"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PT"/>
     <display value="Paint"/>
     <definition value="Paint"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PU"/>
     <display value="IV push"/>
     <definition value="IV push"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="RC"/>
     <display value="Rectally"/>
     <definition value="Rectally"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SH"/>
     <display value="Shampoo"/>
     <definition value="Shampoo"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SL"/>
     <display value="Sublingual"/>
     <definition value="Sublingual"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SO"/>
     <display value="Soak"/>
     <definition value="Soak"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="SS"/>
     <display value="IV soluset"/>
     <definition value="IV soluset"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="TP"/>
     <display value="Topically"/>
     <definition value="Topically"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="WA"/>
     <display value="Wash"/>
     <definition value="Wash"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="WI"/>
     <display value="Wipe"/>
     <definition value="Wipe"/>

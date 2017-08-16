@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0387 (Command Response)"/>
+  <description value="Code system of concepts identifying the response of the previously issued command.  Used in HL7 Version 2.x messaging in the Equipment Command Response (ECR) and Interaction Status Detail (ISD) segments."/>
+  <purpose value="Underlying Code System for V2 table 0387 (Command Response, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0387-2.5"/>
@@ -37,27 +38,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="OK"/>
     <display value="Command completed successfully"/>
     <definition value="Command completed successfully"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="TI"/>
     <display value="Command cannot be completed within requested completion time"/>
     <definition value="Command cannot be completed within requested completion time"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ER"/>
     <display value="Command cannot be completed because of error condition"/>
     <definition value="Command cannot be completed because of error condition"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="ST"/>
     <display value="Command cannot be completed because of the status of the requested equipment"/>
     <definition value="Command cannot be completed because of the status of the requested equipment"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="UN"/>
     <display value="Command cannot be completed for unknown reasons"/>
     <definition value="Command cannot be completed for unknown reasons"/>

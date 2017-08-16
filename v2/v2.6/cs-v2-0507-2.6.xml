@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0507 (Observation Result Handling)"/>
+  <description value="Code system of concepts regarding the handling of a result.  For example, an order may specify that the result (e.g., an x-ray film) should be given to the patient for return to the requestor.   Used in HL7 Version 2.x messaging in the OBR segment."/>
+  <purpose value="Underlying Code System for V2 table 0507 (Observation Result Handling, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0507-2.6"/>
@@ -37,12 +38,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="F"/>
     <display value="Film-with-patient"/>
     <definition value="Film-with-patient"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="N"/>
     <display value="Notify provider when ready"/>
     <definition value="Notify provider when ready"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0569 (Adjustment Action)"/>
+  <description value="Code system of concepts used to specify the action requested of the party that receives an adjustment.  Used in the Adjustment (ADJ) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0569 (Adjustment Action, version 2.8)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0569-2.8"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Instructs party to print this adjustment on the EOB (Explanation of Benefits) handed to the patient"/>
     </extension>
@@ -48,12 +49,12 @@
     <display value="Print on EOB"/>
     <definition value="Print on EOB"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="PAT"/>
     <display value="Inform Patient"/>
     <definition value="Inform Patient"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="PRO"/>
     <display value="Inform Provider"/>
     <definition value="Inform Provider"/>

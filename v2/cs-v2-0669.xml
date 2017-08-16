@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0669"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.385"/>
+    <value value="urn:oid:2.16.840.1.113883.18.385">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="loadStatus"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0669"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0669 (Load Status)"/>
+  <description value="Code system of concepts used to define the status of the information provided in a device sterilization or decontamination cycle. Used in HL7 Version 2.x messaging in the SDD segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0669 (Load Status)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0669"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A load is being built"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Building a Load"/>
     <definition value="Building a Load"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The load is running"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Load In Process"/>
     <definition value="Load In Process"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The load is complete"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Load is Complete"/>
     <definition value="Load is Complete"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The load is canceled"/>
     </extension>

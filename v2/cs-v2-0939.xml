@@ -5,7 +5,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0939"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.442"/>
+    <value value="urn:oid:2.16.840.1.113883.18.442">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="communicationLocation"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0939"/>
@@ -20,7 +24,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0939 (Communication Location)"/>
+  <description value="HL7-defined code system of concepts specifying the communication location.  Used in HL7 Version 2.x messaging in the OMC segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0939 (Communication Location)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0939"/>
@@ -28,7 +33,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="For responses related to the test order"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="OBX segment following an OBR segment"/>
     <definition value="OBX segment following an OBR segment"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="For responses related to the specimen"/>
     </extension>
@@ -50,7 +55,7 @@
     <display value="OBX segment following an SPM segment"/>
     <definition value="OBX segment following an SPM segment"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
@@ -58,7 +63,7 @@
     <display value="Diagnosis Code"/>
     <definition value="Diagnosis Code"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Used to convey patient&#39;s or next of kin&#39;s employment job class code"/>
     </extension>
@@ -69,7 +74,7 @@
     <display value="Next of Kin / Associated Parties Job Code/Class"/>
     <definition value="Next of Kin / Associated Parties Job Code/Class"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Next of kin&#39;s organization name"/>
     </extension>
@@ -80,7 +85,7 @@
     <display value="Organization Name - NK1"/>
     <definition value="Organization Name - NK1"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Next of kin&#39;s ethnicity"/>
     </extension>
@@ -91,7 +96,7 @@
     <display value="Ethnic Group"/>
     <definition value="Ethnic Group"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Next of kin&#39;s race"/>
     </extension>
@@ -102,7 +107,7 @@
     <display value="Race"/>
     <definition value="Race"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
@@ -110,7 +115,7 @@
     <display value="Ordering Provider"/>
     <definition value="Ordering Provider"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The purpose varies based on the AOE referencing this field."/>
     </extension>
@@ -121,7 +126,7 @@
     <display value="Relevant Clinical Information"/>
     <definition value="Relevant Clinical Information"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="This was used for call or fax results back"/>
     </extension>
@@ -132,7 +137,7 @@
     <display value="Result Handling"/>
     <definition value="Result Handling"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Applies to patient"/>
     </extension>
@@ -143,7 +148,7 @@
     <display value="Patient Address"/>
     <definition value="Patient Address"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Applies to patient"/>
     </extension>
@@ -154,7 +159,7 @@
     <display value="Patient Identifier List"/>
     <definition value="Patient Identifier List"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Applies to patient"/>
     </extension>
@@ -165,7 +170,7 @@
     <display value="Patient Name"/>
     <definition value="Patient Name"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Applies to patient"/>
     </extension>
@@ -176,7 +181,7 @@
     <display value="Mother&#39;s Maiden Name"/>
     <definition value="Mother&#39;s Maiden Name"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Applies to patient"/>
     </extension>
@@ -187,7 +192,7 @@
     <display value="Date/Time of Birth"/>
     <definition value="Date/Time of Birth"/>
   </concept>
-  <concept>
+  <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="deprecated field as of v2.7"/>
     </extension>
@@ -198,7 +203,7 @@
     <display value="Phone Number - Home"/>
     <definition value="Phone Number - Home"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="deprecated field as of v2.7"/>
     </extension>
@@ -209,7 +214,7 @@
     <display value="Phone Number - Business"/>
     <definition value="Phone Number - Business"/>
   </concept>
-  <concept>
+  <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="New field in V2.7"/>
     </extension>
@@ -220,7 +225,7 @@
     <display value="Phone Number"/>
     <definition value="Phone Number"/>
   </concept>
-  <concept>
+  <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
@@ -228,7 +233,7 @@
     <display value="Participation Person"/>
     <definition value="Participation Person"/>
   </concept>
-  <concept>
+  <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>
@@ -236,7 +241,7 @@
     <display value="Specimen Type"/>
     <definition value="Specimen Type"/>
   </concept>
-  <concept>
+  <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8.2"/>
     </extension>

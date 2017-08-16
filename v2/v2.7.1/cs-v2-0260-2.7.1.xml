@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0260 (Patient Location Type)"/>
+  <description value="Code system of concepts used to identify the kind of location described in the location definition.  Used in HL7 Version 2.x messaging in the LOC segment."/>
+  <purpose value="Underlying Code System for V2 table 0260 (Patient Location Type, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0260-2.7.1"/>
@@ -40,42 +41,42 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="N"/>
     <display value="Nursing Unit"/>
     <definition value="Nursing Unit"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="R"/>
     <display value="Room"/>
     <definition value="Room"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="B"/>
     <display value="Bed"/>
     <definition value="Bed"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="E"/>
     <display value="Exam Room"/>
     <definition value="Exam Room"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="O"/>
     <display value="Operating Room"/>
     <definition value="Operating Room"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="C"/>
     <display value="Clinic"/>
     <definition value="Clinic"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="D"/>
     <display value="Department"/>
     <definition value="Department"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="L"/>
     <display value="Other Location"/>
     <definition value="Other Location"/>

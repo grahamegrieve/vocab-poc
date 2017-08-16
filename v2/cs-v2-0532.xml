@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0532"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.347"/>
+    <value value="urn:oid:2.16.840.1.113883.18.347">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="expandedYes-NoIndicator"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0532"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0532 (Expanded Yes/no Indicator)"/>
+  <description value="HL7-defined code system of concepts used to specify an expansion on the original Yes/No indicator table by including &quot;flavors of null&quot;.  It is intended to be applied to fields where the response is not limited to &quot;yes&quot; or &quot;no&quot;.  Used in numerous locations in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Master Code System for V2 table 0532 (Expanded Yes/no Indicator)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0532"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Yes"/>
     <definition value="Yes"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.5"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="No"/>
     <definition value="No"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="No information whatsoever can be inferred from this exceptional value. This is the most general exceptional value. It is also the default exceptional value"/>
     </extension>
@@ -58,7 +63,7 @@
     <display value="No Information"/>
     <definition value="No Information"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="No proper value is applicable in this context (e.g., last menstrual period for a male)"/>
     </extension>
@@ -69,7 +74,7 @@
     <display value="not applicable"/>
     <definition value="not applicable"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A proper value is applicable, but not known"/>
     </extension>
@@ -80,7 +85,7 @@
     <display value="unknown"/>
     <definition value="unknown"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="This information has not been sought (e.g., patient was not asked"/>
     </extension>
@@ -91,7 +96,7 @@
     <display value="not asked"/>
     <definition value="not asked"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Information was sought but not found (e.g., patient was asked but didn&#39;t know"/>
     </extension>
@@ -102,7 +107,7 @@
     <display value="asked but unknown"/>
     <definition value="asked but unknown"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Information is not available at this time but it is expected that it will be available later"/>
     </extension>
@@ -113,7 +118,7 @@
     <display value="temporarily unavailable"/>
     <definition value="temporarily unavailable"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Obsolete as of v 2.7."/>
     </extension>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0125 (Value Type)"/>
+  <description value="HL7-defined code system of concepts specifying the format of the observation value in the Observation Result (OBX).   Used in HL7 Version 2.x messaging in the RCD amd RDF segments."/>
+  <purpose value="Underlying Code System for V2 table 0125 (Value Type, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0125-2.4"/>
@@ -34,127 +35,127 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AD"/>
     <display value="Address"/>
     <definition value="Address"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="CE"/>
     <display value="Coded Entry"/>
     <definition value="Coded Entry"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CF"/>
     <display value="Coded Element With Formatted Values"/>
     <definition value="Coded Element With Formatted Values"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="CK"/>
     <display value="Composite ID With Check Digit"/>
     <definition value="Composite ID With Check Digit"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="CN"/>
     <display value="Composite ID And Name"/>
     <definition value="Composite ID And Name"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="CP"/>
     <display value="Composite Price"/>
     <definition value="Composite Price"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="CX"/>
     <display value="Extended Composite ID With Check Digit"/>
     <definition value="Extended Composite ID With Check Digit"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="DT"/>
     <display value="Date"/>
     <definition value="Date"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="ED"/>
     <display value="Encapsulated Data"/>
     <definition value="Encapsulated Data"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="FT"/>
     <display value="Formatted Text (Display)"/>
     <definition value="Formatted Text (Display)"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="MO"/>
     <display value="Money"/>
     <definition value="Money"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="NM"/>
     <display value="Numeric"/>
     <definition value="Numeric"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="PN"/>
     <display value="Person Name"/>
     <definition value="Person Name"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="RP"/>
     <display value="Reference Pointer"/>
     <definition value="Reference Pointer"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="SN"/>
     <display value="Structured Numeric"/>
     <definition value="Structured Numeric"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="ST"/>
     <display value="String Data."/>
     <definition value="String Data."/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="TM"/>
     <display value="Time"/>
     <definition value="Time"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="TN"/>
     <display value="Telephone Number"/>
     <definition value="Telephone Number"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="TS"/>
     <display value="Time Stamp (Date &amp; Time)"/>
     <definition value="Time Stamp (Date &amp; Time)"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="TX"/>
     <display value="Text Data (Display)"/>
     <definition value="Text Data (Display)"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="XAD"/>
     <display value="Extended Address"/>
     <definition value="Extended Address"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="XCN"/>
     <display value="Extended Composite Name And Number For Persons"/>
     <definition value="Extended Composite Name And Number For Persons"/>
   </concept>
-  <concept>
+  <concept id="23">
     <code value="XON"/>
     <display value="Extended Composite Name And Number For Organizations"/>
     <definition value="Extended Composite Name And Number For Organizations"/>
   </concept>
-  <concept>
+  <concept id="24">
     <code value="XPN"/>
     <display value="Extended Person Name"/>
     <definition value="Extended Person Name"/>
   </concept>
-  <concept>
+  <concept id="25">
     <code value="XTN"/>
     <display value="Extended Telecommunications Number"/>
     <definition value="Extended Telecommunications Number"/>

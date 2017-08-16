@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0175 (Master File Identification)"/>
+  <description value="HL7-defined code system of concepts which are represented by codes identifying HL7 Versions 2.x Master Files.  Used in HL7 Version 2.x messaging in the MFI segment."/>
+  <purpose value="Underlying Code System for V2 table 0175 (Master File Identification, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0175-2.3"/>
@@ -34,72 +35,72 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="CDM"/>
     <display value="Charge description master file"/>
     <definition value="Charge description master file"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CM0"/>
     <display value="Clinical study master"/>
     <definition value="Clinical study master"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CM1"/>
     <display value="Clinical study phase master"/>
     <definition value="Clinical study phase master"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CM2"/>
     <display value="Clinical study Data Schedule Master"/>
     <definition value="Clinical study Data Schedule Master"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="LOC"/>
     <display value="Location master file"/>
     <definition value="Location master file"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM1"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM1-OM6"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM2"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM3"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM4"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM5"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="OM6"/>
     <display value="Observation text master file segments (e.g., Lab)"/>
     <definition value="Observation text master file segments (e.g., Lab)"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PRA"/>
     <display value="Practitioner master file"/>
     <definition value="Practitioner master file"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="STF"/>
     <display value="Staff Master File"/>
     <definition value="Staff Master File"/>

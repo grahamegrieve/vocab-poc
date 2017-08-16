@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0818 (Package)"/>
+  <description value="Code system of concepts specifying the packaging unit in which this inventory supply item can be ordered or issued when purchased from the vendor in the related vendor segment.  Used in HL7 Version 2.x messaging in the PKG segment."/>
+  <purpose value="Underlying Code System for V2 table 0818 (Package, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0818-2.7"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="CS"/>
     <display value="Case"/>
     <definition value="Case"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="BX"/>
     <display value="Box"/>
     <definition value="Box"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="EA"/>
     <display value="Each"/>
     <definition value="Each"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="SET"/>
     <display value="Set"/>
     <definition value="Set"/>

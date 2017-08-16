@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0080 (Nature of Abnormal Testing)"/>
+  <description value="HL7-defined code system of concepts specifying the nature of an abnormal test.  Used in HL7 Version 2.x messaging in the OBX segment."/>
+  <purpose value="Underlying Code System for V2 table 0080 (Nature of Abnormal Testing, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0080-2.3"/>
@@ -34,22 +35,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="A"/>
     <display value="An age-based population"/>
     <definition value="An age-based population"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="N"/>
     <display value="None - generic normal range"/>
     <definition value="None - generic normal range"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="R"/>
     <display value="A race-based population"/>
     <definition value="A race-based population"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="S"/>
     <display value="A sex-based population"/>
     <definition value="A sex-based population"/>

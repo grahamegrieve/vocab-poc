@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0017 (Transaction type)"/>
+  <description value="Code system of concepts specifying a type of financial transaction.  Used in HL7 Version 2.x messaging in the FT1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0017 (Transaction type, version 2.3)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0017-2.3"/>
@@ -34,22 +35,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <code value="AJ"/>
     <display value="Adjustment"/>
     <definition value="Adjustment"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CD"/>
     <display value="Credit"/>
     <definition value="Credit"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="CG"/>
     <display value="Charge"/>
     <definition value="Charge"/>
   </concept>
-  <concept>
+  <concept id="0">
     <code value="PY"/>
     <display value="Payment"/>
     <definition value="Payment"/>

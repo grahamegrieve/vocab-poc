@@ -31,7 +31,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0931 (Temperature Units)"/>
+  <description value="Temperature Units"/>
+  <purpose value="Underlying Code System for V2 table 0931 (Temperature Units, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0931-2.9"/>
@@ -39,12 +40,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="degF"/>
     <display value="Degrees Fahrenheit"/>
     <definition value="Degrees Fahrenheit"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="Cel"/>
     <display value="Degrees Celsius"/>
     <definition value="Degrees Celsius"/>

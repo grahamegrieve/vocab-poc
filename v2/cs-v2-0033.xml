@@ -5,7 +5,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0033"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.16"/>
+    <value value="urn:oid:2.16.840.1.113883.18.16">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="route"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0033"/>
@@ -20,7 +24,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0033 (ROUTE)"/>
+  <description value="HL7-defined code system of concepts that indicate a means of administrating a medication dose.  Used in HL7 Version 2 messaging in the RX1 segment (which was withdrawn after version 2.2). As of HL7 version 2.3, it was replaced by 2.16.840.1.113883.18.80 routeOfAdministration and 2.16.840.1.113883.18.83 administrationMethod.  Used in the RX1 segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0033 (ROUTE)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0033"/>
@@ -28,7 +33,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -36,7 +41,7 @@
     <display value="Apply externally"/>
     <definition value="Apply externally"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -44,7 +49,7 @@
     <display value="Chew"/>
     <definition value="Chew"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -52,7 +57,7 @@
     <display value="Dust"/>
     <definition value="Dust"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -60,7 +65,7 @@
     <display value="Ear"/>
     <definition value="Ear"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -68,7 +73,7 @@
     <display value="Eye"/>
     <definition value="Eye"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -76,7 +81,7 @@
     <display value="Intro-arterial"/>
     <definition value="Intro-arterial"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -84,7 +89,7 @@
     <display value="Intra-dermal"/>
     <definition value="Intra-dermal"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -92,7 +97,7 @@
     <display value="Infiltrate"/>
     <definition value="Infiltrate"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -100,7 +105,7 @@
     <display value="Inhalation"/>
     <definition value="Inhalation"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Intra-muscular"/>
     <definition value="Intra-muscular"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -116,7 +121,7 @@
     <display value="Intra-nasal"/>
     <definition value="Intra-nasal"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -124,7 +129,7 @@
     <display value="Irrigate"/>
     <definition value="Irrigate"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -132,7 +137,7 @@
     <display value="Inserted"/>
     <definition value="Inserted"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -140,7 +145,7 @@
     <display value="Intrathecal"/>
     <definition value="Intrathecal"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -148,7 +153,7 @@
     <display value="Intravenous"/>
     <definition value="Intravenous"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -156,7 +161,7 @@
     <display value="Nebulized"/>
     <definition value="Nebulized"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -164,7 +169,7 @@
     <display value="Nathogasic"/>
     <definition value="Nathogasic"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -172,7 +177,7 @@
     <display value="Peri-anally"/>
     <definition value="Peri-anally"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -180,7 +185,7 @@
     <display value="Paint"/>
     <definition value="Paint"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -188,7 +193,7 @@
     <display value="IV push"/>
     <definition value="IV push"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -196,7 +201,7 @@
     <display value="Rectally"/>
     <definition value="Rectally"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -204,7 +209,7 @@
     <display value="Shampoo"/>
     <definition value="Shampoo"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -212,7 +217,7 @@
     <display value="Sublingual"/>
     <definition value="Sublingual"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -220,7 +225,7 @@
     <display value="Soak"/>
     <definition value="Soak"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -228,7 +233,7 @@
     <display value="IV soluset"/>
     <definition value="IV soluset"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -236,7 +241,7 @@
     <display value="Topically"/>
     <definition value="Topically"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>
@@ -244,7 +249,7 @@
     <display value="Wash"/>
     <definition value="Wash"/>
   </concept>
-  <concept>
+  <concept id="0">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
       <valueString value="2.2"/>
     </extension>

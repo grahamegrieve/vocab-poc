@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0935"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.435"/>
+    <value value="urn:oid:2.16.840.1.113883.18.435">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="processInterruptionReason"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0935"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0935 (Process Interruption Reason)"/>
+  <description value="HL7-defined code system of concepts specifying the reason for the process interruption.  Used in HL7 Version 2.x messaging in the DON segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0935 (Process Interruption Reason)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0935"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="No reason given, donor decided to stop without giving a reason"/>
     <definition value="No reason given, donor decided to stop without giving a reason"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Phone Call-Donor"/>
     <definition value="Phone Call-Donor"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Couldn&#39;t wait"/>
     <definition value="Couldn&#39;t wait"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Couldn&#39;t follow through with donation (scared)"/>
     <definition value="Couldn&#39;t follow through with donation (scared)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Bathroom"/>
     <definition value="Bathroom"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Phlebotomy Issue"/>
     <definition value="Phlebotomy Issue"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Apheresis Software Crash"/>
     <definition value="Apheresis Software Crash"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Manufacturing Software Crash"/>
     <definition value="Manufacturing Software Crash"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."/>
     </extension>

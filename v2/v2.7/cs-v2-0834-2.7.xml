@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0834 (MIME Types)"/>
+  <description value="Code system of concepts specifying the general type of data.  Used in HL7 Version 2.x messaging in the RP and ED datatypes."/>
+  <purpose value="Underlying Code System for V2 table 0834 (MIME Types, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0834-2.7"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="application"/>
     <display value="Application data"/>
     <definition value="Application data"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="audio"/>
     <display value="Audio data"/>
     <definition value="Audio data"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="image"/>
     <display value="Image data"/>
     <definition value="Image data"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="RFC 2077"/>
     </extension>
@@ -63,17 +64,17 @@
     <display value="Model data"/>
     <definition value="Model data"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="text"/>
     <display value="Text data"/>
     <definition value="Text data"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="video"/>
     <display value="Video data"/>
     <definition value="Video data"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="multipart"/>
     <display value="MIME multipart package"/>
     <definition value="MIME multipart package"/>

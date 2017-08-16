@@ -31,7 +31,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0930 (Volume Units)"/>
+  <description value="Unified Codes for Unit of Measurement"/>
+  <purpose value="Underlying Code System for V2 table 0930 (Volume Units, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0930-2.9"/>
@@ -39,17 +40,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="l"/>
     <display value="Liter"/>
     <definition value="Liter"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="[pt_us]"/>
     <display value="Pint"/>
     <definition value="Pint"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ml"/>
     <display value="Milliliters"/>
     <definition value="Milliliters"/>

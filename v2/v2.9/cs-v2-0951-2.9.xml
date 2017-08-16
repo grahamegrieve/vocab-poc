@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0951 (Reason for Study)"/>
+  <description value="HL7-defined code system of concepts that provide additional information to the universal service identifier on why a test, study or review was ordered. Initial values are to support the IHE LCC LAB-7 transaction."/>
+  <purpose value="Underlying Code System for V2 table 0951 (Reason for Study, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0951-2.9"/>
@@ -34,67 +35,67 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="BS"/>
     <display value="Bank residual specimen"/>
     <definition value="Bank residual specimen"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="CR"/>
     <display value="Confirm results value"/>
     <definition value="Confirm results value"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="FP"/>
     <display value="Store residual specimen pending follow up"/>
     <definition value="Store residual specimen pending follow up"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="IN"/>
     <display value="Interpret results"/>
     <definition value="Interpret results"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="IR"/>
     <display value="Review clinically inconsistent results"/>
     <definition value="Review clinically inconsistent results"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="IT"/>
     <display value="Incorrect test performed"/>
     <definition value="Incorrect test performed"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="OP"/>
     <display value="Test ordering problem"/>
     <definition value="Test ordering problem"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="PI"/>
     <display value="Patient identification problem"/>
     <definition value="Patient identification problem"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="SI"/>
     <display value="Suspected interference"/>
     <definition value="Suspected interference"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="SP"/>
     <display value="Sampling problem"/>
     <definition value="Sampling problem"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="TP"/>
     <display value="Specimen transport problem"/>
     <definition value="Specimen transport problem"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="TT"/>
     <display value="Turnaround time problem"/>
     <definition value="Turnaround time problem"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="XR"/>
     <display value="Incorrect results"/>
     <definition value="Incorrect results"/>

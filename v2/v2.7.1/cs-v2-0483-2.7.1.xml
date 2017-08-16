@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0483 (Authorization Mode)"/>
+  <description value="HL7-defined code system of concepts of forms of authorization a recorder may receive from the responsible practitioner to create or change an order.  Used in HL7 Version 2.x messaging in the ORC segment."/>
+  <purpose value="Underlying Code System for V2 table 0483 (Authorization Mode, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0483-2.7.1"/>
@@ -40,52 +41,52 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="EL"/>
     <display value="Electronic"/>
     <definition value="Electronic"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="EM"/>
     <display value="E-mail"/>
     <definition value="E-mail"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="FX"/>
     <display value="Fax"/>
     <definition value="Fax"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="IP"/>
     <display value="In Person"/>
     <definition value="In Person"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="MA"/>
     <display value="Mail"/>
     <definition value="Mail"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="PA"/>
     <display value="Paper"/>
     <definition value="Paper"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="PH"/>
     <display value="Phone"/>
     <definition value="Phone"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="RE"/>
     <display value="Reflexive (Automated system)"/>
     <definition value="Reflexive (Automated system)"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="VC"/>
     <display value="Video-conference"/>
     <definition value="Video-conference"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="VO"/>
     <display value="Voice"/>
     <definition value="Voice"/>

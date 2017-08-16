@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0516"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.337"/>
+    <value value="urn:oid:2.16.840.1.113883.18.337">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="errorSeverity"/>
+      </extension>
+    </value>
   </identifier>
   <version value="2"/>
   <name value="V2Table0516"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0516 (Error Severity)"/>
+  <description value="HL7-defined code system of concepts specifying the severity of an application error as reported during acknowledgment of messages. Knowing if something is Error, Warning or Information is intrinsic to how an application handles the content and the information flow.  Used in HL7 Version 2.x messaging acknowledgment in the ERR segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0516 (Error Severity)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0516"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Transaction successful, but there may issues"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Warning"/>
     <definition value="Warning"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Transaction was successful but includes information e.g., inform patient"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Information"/>
     <definition value="Information"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Transaction was unsuccessful"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Error"/>
     <definition value="Error"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Message not processed due to application or network failure condition"/>
     </extension>

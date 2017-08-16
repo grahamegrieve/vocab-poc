@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0919"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.425"/>
+    <value value="urn:oid:2.16.840.1.113883.18.425">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="exclusiveTest"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0919"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0919 (Exclusive Test)"/>
+  <description value="HL7-defined code system of concepts that define if a test should be a specific event with no other tests to be performed with this test, or not, or other special circumstances.  Used in HL7 Version 2.x messaging in Master Files (OM1 segment) to characterize observations in a master of such orderables."/>
+  <purpose value="Underlying Master Code System for V2 table 0919 (Exclusive Test)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0919"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="This test should be exclusive"/>
     <definition value="This test should be exclusive"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Default -.will be assumed when this field is empty"/>
     </extension>
@@ -50,7 +55,7 @@
     <display value="This test can be included with any number of other tests"/>
     <definition value="This test can be included with any number of other tests"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="When  D is specified for this field, using field OM1-49 determines how tests must be grouped together.  Tests within the same Diagnostic Service Sector may be on the same requisition, and therefore in the same message"/>
     </extension>

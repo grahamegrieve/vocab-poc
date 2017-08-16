@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0881 (Role Executing Physician)"/>
+  <description value="Code system of concepts specifying the account role of the physician, for example, only billing for the professional part, the technical part or both.  Used in HL7 Version 2.x messaging in the PSL segment."/>
+  <purpose value="Underlying Code System for V2 table 0881 (Role Executing Physician, version 2.6)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0881-2.6"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="T"/>
     <display value="Technical Part"/>
     <definition value="Technical Part"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="P"/>
     <display value="Professional Part"/>
     <definition value="Professional Part"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="B"/>
     <display value="Both"/>
     <definition value="Both"/>

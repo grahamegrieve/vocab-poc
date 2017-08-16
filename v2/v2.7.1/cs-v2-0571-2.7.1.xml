@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0571 (Invoice Processing Results Status)"/>
+  <description value="Code system of concepts used to specify the processing status for an Invoice Processing Result.  Used in the Invoice Processing Result (IPR) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Code System for V2 table 0571 (Invoice Processing Results Status, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0571-2.7.1"/>
@@ -40,42 +41,42 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="ACK"/>
     <display value="Acknowledge"/>
     <definition value="Acknowledge"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="REJECT"/>
     <display value="Reject"/>
     <definition value="Reject"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="PEND"/>
     <display value="Pending"/>
     <definition value="Pending"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="ADJZER"/>
     <display value="Adjudicated to Zero"/>
     <definition value="Adjudicated to Zero"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="ADJSUB"/>
     <display value="Adjudicated as Submitted"/>
     <definition value="Adjudicated as Submitted"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="ADJ"/>
     <display value="Adjudicated with Adjustments"/>
     <definition value="Adjudicated with Adjustments"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="PAID"/>
     <display value="Paid"/>
     <definition value="Paid"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Indicates that the IPR has been adjudicated but will not be paid.  Equivalent to ADJUD (Adjudicate)"/>
     </extension>

@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0085"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.34"/>
+    <value value="urn:oid:2.16.840.1.113883.18.34">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="observationResultStatusCodesInterpretation"/>
+      </extension>
+    </value>
   </identifier>
   <version value="5"/>
   <name value="V2Table0085"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0085 (Observation Result Status Codes Interpretation)"/>
+  <description value="HL7-defined code system of concepts which specify observation result status. These codes reflect the current completion status of the results for one Observation Identifier.  Used in HL7 Version 2.x messaging in the OBX segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0085 (Observation Result Status Codes Interpretation)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0085"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Amended based on adjustments provided by the Placer (Physician) regarding patient demographics (such as age and/or gender or other patient specific information"/>
     <definition value="Amended based on adjustments provided by the Placer (Physician) regarding patient demographics (such as age and/or gender or other patient specific information"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Appended Report - Final results reviewed and further information provided for clarity without change to the original result values."/>
     <definition value="Appended Report - Final results reviewed and further information provided for clarity without change to the original result values."/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -55,22 +60,22 @@
     <display value="Record coming over is a correction and thus replaces a final result"/>
     <definition value="Record coming over is a correction and thus replaces a final result"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="D"/>
     <display value="Deletes the OBX record"/>
     <definition value="Deletes the OBX record"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="F"/>
     <display value="Final results"/>
     <definition value="Final results"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="I"/>
     <display value="Specimen in lab; results pending"/>
     <definition value="Specimen in lab; results pending"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -78,7 +83,7 @@
     <display value="Not asked; used to affirmatively document that the observation identified in the OBX was not sought when the universal service ID in OBR-4 implies that it would be sought."/>
     <definition value="Not asked; used to affirmatively document that the observation identified in the OBX was not sought when the universal service ID in OBR-4 implies that it would be sought."/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Order detail description only (no result)"/>
     <definition value="Order detail description only (no result)"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -94,12 +99,12 @@
     <display value="Preliminary results"/>
     <definition value="Preliminary results"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="R"/>
     <display value="Results entered -- not verified"/>
     <definition value="Results entered -- not verified"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated."/>
     </extension>
@@ -107,7 +112,7 @@
     <display value="Partial results.   Deprecated. Retained only for backward compatibility as of V2.6."/>
     <definition value="Partial results.   Deprecated. Retained only for backward compatibility as of V2.6."/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.8"/>
     </extension>
@@ -115,7 +120,7 @@
     <display value="Verified - Final results reviewed and confirmed to be correct, no change to result value, normal range or abnormal flag"/>
     <definition value="Verified - Final results reviewed and confirmed to be correct, no change to result value, normal range or abnormal flag"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -123,7 +128,7 @@
     <display value="Results cannot be obtained for this observation"/>
     <definition value="Results cannot be obtained for this observation"/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.2"/>
     </extension>
@@ -131,7 +136,7 @@
     <display value="Results status change to final without retransmitting results already sent as &#39;preliminary.&#39;  E.g., radiology changes status from preliminary to final"/>
     <definition value="Results status change to final without retransmitting results already sent as &#39;preliminary.&#39;  E.g., radiology changes status from preliminary to final"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.3.1"/>
     </extension>

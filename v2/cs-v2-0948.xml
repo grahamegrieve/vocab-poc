@@ -5,7 +5,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0948"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.448"/>
+    <value value="urn:oid:2.16.840.1.113883.18.448">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="v2CS-relationshipType"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0948"/>
@@ -20,7 +24,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0948 (Relationship Type)"/>
+  <description value="HL7-defined code system of concepts that identify the type of relationship identified by Relationship Instance Identifier (REL-3) that is established between the Source Information Instance (REL-4)  and the Target Information Instance (REL-5)."/>
+  <purpose value="Underlying Master Code System for V2 table 0948 (Relationship Type)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0948"/>
@@ -28,7 +33,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -36,7 +41,7 @@
     <display value="Causes/caused"/>
     <definition value="Causes/caused"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -44,7 +49,7 @@
     <display value="Component of"/>
     <definition value="Component of"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -52,7 +57,7 @@
     <display value="Concurrently"/>
     <definition value="Concurrently"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -60,7 +65,7 @@
     <display value="Evidence"/>
     <definition value="Evidence"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -68,7 +73,7 @@
     <display value="Interferes / interfered"/>
     <definition value="Interferes / interfered"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -76,7 +81,7 @@
     <display value="Limits/limited"/>
     <definition value="Limits/limited"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -84,7 +89,7 @@
     <display value="Succeeds"/>
     <definition value="Succeeds"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>
@@ -92,7 +97,7 @@
     <display value="Service target"/>
     <definition value="Service target"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.9"/>
     </extension>

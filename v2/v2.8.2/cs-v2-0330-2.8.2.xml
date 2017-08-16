@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0330 (Marketing Basis)"/>
+  <description value="HL7-defined code system of concepts used to specify the basis for marketing approval.   Used in HL7 Version 2.x messaging in the Product Detail Country (PDC) segment."/>
+  <purpose value="Underlying Code System for V2 table 0330 (Marketing Basis, version 2.8.2)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0330-2.8.2"/>
@@ -40,32 +41,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="510K"/>
     <display value="510 (K)"/>
     <definition value="510 (K)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="510E"/>
     <display value="510 (K) exempt"/>
     <definition value="510 (K) exempt"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="PMA"/>
     <display value="Premarketing authorization"/>
     <definition value="Premarketing authorization"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="PRE"/>
     <display value="Preamendment"/>
     <definition value="Preamendment"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="TXN"/>
     <display value="Transitional"/>
     <definition value="Transitional"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="522S"/>
     <display value="Post marketing study (522)"/>
     <definition value="Post marketing study (522)"/>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0396 (Coding System)"/>
+  <description value="HL7-defined code system of concepts specifying the coding system.  This table is maintained outside of the published Version 2 standards, and may be found at http://www.hl7.org/Special/committees/vocab/table_0396/index.cfm.  Used in HL7 Version 2.x messaging in the CWE segment."/>
+  <purpose value="Underlying Code System for V2 table 0396 (Coding System, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0396-2.4"/>
@@ -34,392 +35,392 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="99zzz or L"/>
     <display value="Local general code (where z is an alphanumeric character)"/>
     <definition value="Local general code (where z is an alphanumeric character)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="ACR"/>
     <display value="American College of Radiology finding codes"/>
     <definition value="American College of Radiology finding codes"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="ART"/>
     <display value="WHO Adverse Reaction Terms"/>
     <definition value="WHO Adverse Reaction Terms"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="AS4"/>
     <display value="ASTM E1238/ E1467 Universal"/>
     <definition value="ASTM E1238/ E1467 Universal"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="AS4E"/>
     <display value="AS4 Neurophysiology Codes"/>
     <definition value="AS4 Neurophysiology Codes"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="ATC"/>
     <display value="American Type Culture Collection"/>
     <definition value="American Type Culture Collection"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="C4"/>
     <display value="CPT-4"/>
     <definition value="CPT-4"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="C5"/>
     <display value="CPT-5"/>
     <definition value="CPT-5"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="CAS"/>
     <display value="Chemical abstract codes"/>
     <definition value="Chemical abstract codes"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="CD2"/>
     <display value="CDT-2 Codes"/>
     <definition value="CDT-2 Codes"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="CDCA"/>
     <display value="CDC Analyte Codes"/>
     <definition value="CDC Analyte Codes"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="CDCM"/>
     <display value="CDC Methods/Instruments Codes"/>
     <definition value="CDC Methods/Instruments Codes"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="CDS"/>
     <display value="CDC Surveillance"/>
     <definition value="CDC Surveillance"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="CE"/>
     <display value="CEN ECG diagnostic codes"/>
     <definition value="CEN ECG diagnostic codes"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="CLP"/>
     <display value="CLIP"/>
     <definition value="CLIP"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="CPTM"/>
     <display value="CPT Modifier Code"/>
     <definition value="CPT Modifier Code"/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="CST"/>
     <display value="COSTART"/>
     <definition value="COSTART"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="CVX"/>
     <display value="CDC Vaccine Codes"/>
     <definition value="CDC Vaccine Codes"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="DCL"/>
     <display value="DICOM Class Label"/>
     <definition value="DICOM Class Label"/>
   </concept>
-  <concept>
+  <concept id="20">
     <code value="DCM"/>
     <display value="DICOM modality codes"/>
     <definition value="DICOM modality codes"/>
   </concept>
-  <concept>
+  <concept id="21">
     <code value="DQL"/>
     <display value="DICOM Query Label"/>
     <definition value="DICOM Query Label"/>
   </concept>
-  <concept>
+  <concept id="22">
     <code value="E"/>
     <display value="EUCLIDES"/>
     <definition value="EUCLIDES"/>
   </concept>
-  <concept>
+  <concept id="23">
     <code value="E5"/>
     <display value="Euclides  quantity codes"/>
     <definition value="Euclides  quantity codes"/>
   </concept>
-  <concept>
+  <concept id="24">
     <code value="E6"/>
     <display value="Euclides Lab method codes"/>
     <definition value="Euclides Lab method codes"/>
   </concept>
-  <concept>
+  <concept id="25">
     <code value="E7"/>
     <display value="Euclides Lab equipment codes"/>
     <definition value="Euclides Lab equipment codes"/>
   </concept>
-  <concept>
+  <concept id="26">
     <code value="ENZC"/>
     <display value="Enzyme Codes"/>
     <definition value="Enzyme Codes"/>
   </concept>
-  <concept>
+  <concept id="27">
     <code value="FDDC"/>
     <display value="First DataBank Drug Codes"/>
     <definition value="First DataBank Drug Codes"/>
   </concept>
-  <concept>
+  <concept id="28">
     <code value="FDDX"/>
     <display value="First DataBank Diagnostic Codes"/>
     <definition value="First DataBank Diagnostic Codes"/>
   </concept>
-  <concept>
+  <concept id="29">
     <code value="FDK"/>
     <display value="FDA K10"/>
     <definition value="FDA K10"/>
   </concept>
-  <concept>
+  <concept id="30">
     <code value="HB"/>
     <display value="HIBCC"/>
     <definition value="HIBCC"/>
   </concept>
-  <concept>
+  <concept id="31">
     <code value="HCPCS"/>
     <display value="HCFA Common Procedure Coding System"/>
     <definition value="HCFA Common Procedure Coding System"/>
   </concept>
-  <concept>
+  <concept id="32">
     <code value="HHC"/>
     <display value="Home Health Care"/>
     <definition value="Home Health Care"/>
   </concept>
-  <concept>
+  <concept id="33">
     <code value="HI"/>
     <display value="Health Outcomes"/>
     <definition value="Health Outcomes"/>
   </concept>
-  <concept>
+  <concept id="34">
     <code value="HL7nnnn"/>
     <display value="HL7 Defined Codes where nnnn is the HL7 table number"/>
     <definition value="HL7 Defined Codes where nnnn is the HL7 table number"/>
   </concept>
-  <concept>
+  <concept id="35">
     <code value="HPC"/>
     <display value="HCFA Procedure Codes (HCPCS)"/>
     <definition value="HCFA Procedure Codes (HCPCS)"/>
   </concept>
-  <concept>
+  <concept id="36">
     <code value="I10"/>
     <display value="ICD-10"/>
     <definition value="ICD-10"/>
   </concept>
-  <concept>
+  <concept id="37">
     <code value="I10P"/>
     <display value="ICD-10  Procedure Codes"/>
     <definition value="ICD-10  Procedure Codes"/>
   </concept>
-  <concept>
+  <concept id="38">
     <code value="I9"/>
     <display value="ICD9"/>
     <definition value="ICD9"/>
   </concept>
-  <concept>
+  <concept id="39">
     <code value="I9C"/>
     <display value="ICD-9CM"/>
     <definition value="ICD-9CM"/>
   </concept>
-  <concept>
+  <concept id="40">
     <code value="IBT"/>
     <display value="ISBT"/>
     <definition value="ISBT"/>
   </concept>
-  <concept>
+  <concept id="41">
     <code value="IC2"/>
     <display value="ICHPPC-2"/>
     <definition value="ICHPPC-2"/>
   </concept>
-  <concept>
+  <concept id="42">
     <code value="ICDO"/>
     <display value="International Classification of Diseases for Oncology"/>
     <definition value="International Classification of Diseases for Oncology"/>
   </concept>
-  <concept>
+  <concept id="43">
     <code value="ICS"/>
     <display value="ICCS"/>
     <definition value="ICCS"/>
   </concept>
-  <concept>
+  <concept id="44">
     <code value="ICSD"/>
     <display value="International Classification of Sleep Disorders"/>
     <definition value="International Classification of Sleep Disorders"/>
   </concept>
-  <concept>
+  <concept id="45">
     <code value="ISOnnnn"/>
     <display value="ISO Defined Codes where nnnn is the ISO table number"/>
     <definition value="ISO Defined Codes where nnnn is the ISO table number"/>
   </concept>
-  <concept>
+  <concept id="46">
     <code value="IUPP"/>
     <display value="IUPAC/IFCC Property Codes"/>
     <definition value="IUPAC/IFCC Property Codes"/>
   </concept>
-  <concept>
+  <concept id="47">
     <code value="IUPC"/>
     <display value="IUPAC/IFCC Component Codes"/>
     <definition value="IUPAC/IFCC Component Codes"/>
   </concept>
-  <concept>
+  <concept id="48">
     <code value="JC8"/>
     <display value="Japanese Chemistry"/>
     <definition value="Japanese Chemistry"/>
   </concept>
-  <concept>
+  <concept id="49">
     <code value="LB"/>
     <display value="Local billing code"/>
     <definition value="Local billing code"/>
   </concept>
-  <concept>
+  <concept id="50">
     <code value="LN"/>
     <display value="Logical Observation Identifier Names and Codes (LOINC(r))"/>
     <definition value="Logical Observation Identifier Names and Codes (LOINC(r))"/>
   </concept>
-  <concept>
+  <concept id="51">
     <code value="MCD"/>
     <display value="Medicaid"/>
     <definition value="Medicaid"/>
   </concept>
-  <concept>
+  <concept id="52">
     <code value="MCR"/>
     <display value="Medicare"/>
     <definition value="Medicare"/>
   </concept>
-  <concept>
+  <concept id="53">
     <code value="MDDX"/>
     <display value="Medispan Diagnostic Codes"/>
     <definition value="Medispan Diagnostic Codes"/>
   </concept>
-  <concept>
+  <concept id="54">
     <code value="MEDC"/>
     <display value="Medical Economics Drug Codes"/>
     <definition value="Medical Economics Drug Codes"/>
   </concept>
-  <concept>
+  <concept id="55">
     <code value="MEDR"/>
     <display value="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)"/>
     <definition value="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)"/>
   </concept>
-  <concept>
+  <concept id="56">
     <code value="MEDX"/>
     <display value="Medical Economics Diagnostic Codes"/>
     <definition value="Medical Economics Diagnostic Codes"/>
   </concept>
-  <concept>
+  <concept id="57">
     <code value="MGPI"/>
     <display value="Medispan GPI"/>
     <definition value="Medispan GPI"/>
   </concept>
-  <concept>
+  <concept id="58">
     <code value="MVX"/>
     <display value="CDC Vaccine Manufacturer Codes"/>
     <definition value="CDC Vaccine Manufacturer Codes"/>
   </concept>
-  <concept>
+  <concept id="59">
     <code value="NDA"/>
     <display value="NANDA"/>
     <definition value="NANDA"/>
   </concept>
-  <concept>
+  <concept id="60">
     <code value="NDC"/>
     <display value="National drug codes"/>
     <definition value="National drug codes"/>
   </concept>
-  <concept>
+  <concept id="61">
     <code value="NIC"/>
     <display value="Nursing Interventions Classification"/>
     <definition value="Nursing Interventions Classification"/>
   </concept>
-  <concept>
+  <concept id="62">
     <code value="NPI"/>
     <display value="National Provider Identifier"/>
     <definition value="National Provider Identifier"/>
   </concept>
-  <concept>
+  <concept id="63">
     <code value="OHA"/>
     <display value="Omaha System"/>
     <definition value="Omaha System"/>
   </concept>
-  <concept>
+  <concept id="65">
     <code value="POS"/>
     <display value="POS Codes"/>
     <definition value="POS Codes"/>
   </concept>
-  <concept>
+  <concept id="66">
     <code value="RC"/>
     <display value="Read Classification"/>
     <definition value="Read Classification"/>
   </concept>
-  <concept>
+  <concept id="67">
     <code value="SDM"/>
     <display value="SNOMED- DICOM Microglossary"/>
     <definition value="SNOMED- DICOM Microglossary"/>
   </concept>
-  <concept>
+  <concept id="68">
     <code value="SNM"/>
     <display value="Systemized Nomenclature of Medicine (SNOMED)"/>
     <definition value="Systemized Nomenclature of Medicine (SNOMED)"/>
   </concept>
-  <concept>
+  <concept id="69">
     <code value="SNM3"/>
     <display value="SNOMED International"/>
     <definition value="SNOMED International"/>
   </concept>
-  <concept>
+  <concept id="70">
     <code value="SNT"/>
     <display value="SNOMED topology codes (anatomic sites)"/>
     <definition value="SNOMED topology codes (anatomic sites)"/>
   </concept>
-  <concept>
+  <concept id="71">
     <code value="UC"/>
     <display value="UCDS"/>
     <definition value="UCDS"/>
   </concept>
-  <concept>
+  <concept id="72">
     <code value="UMD"/>
     <display value="MDNS"/>
     <definition value="MDNS"/>
   </concept>
-  <concept>
+  <concept id="73">
     <code value="UML"/>
     <display value="Unified Medical Language"/>
     <definition value="Unified Medical Language"/>
   </concept>
-  <concept>
+  <concept id="74">
     <code value="UPC"/>
     <display value="Universal Product Code"/>
     <definition value="Universal Product Code"/>
   </concept>
-  <concept>
+  <concept id="75">
     <code value="UPIN"/>
     <display value="UPIN"/>
     <definition value="UPIN"/>
   </concept>
-  <concept>
+  <concept id="76">
     <code value="W1"/>
     <display value="WHO record # drug codes (6 digit)"/>
     <definition value="WHO record # drug codes (6 digit)"/>
   </concept>
-  <concept>
+  <concept id="77">
     <code value="W2"/>
     <display value="WHO record # drug codes (8 digit)"/>
     <definition value="WHO record # drug codes (8 digit)"/>
   </concept>
-  <concept>
+  <concept id="78">
     <code value="W4"/>
     <display value="WHO record # code with ASTM extension"/>
     <definition value="WHO record # code with ASTM extension"/>
   </concept>
-  <concept>
+  <concept id="79">
     <code value="WC"/>
     <display value="WHO ATC"/>
     <definition value="WHO ATC"/>

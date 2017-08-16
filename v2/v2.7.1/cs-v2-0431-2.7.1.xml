@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0431 (Recreational Drug Use Code)"/>
+  <description value="Code system of concepts specifying what recreational drugs the patient uses.  Used in HL7 Version 2.x messaging in the PV2 segment."/>
+  <purpose value="Underlying Code System for V2 table 0431 (Recreational Drug Use Code, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0431-2.7.1"/>
@@ -40,37 +41,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Alcohol"/>
     <definition value="Alcohol"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="K"/>
     <display value="Kava"/>
     <definition value="Kava"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Marijuana"/>
     <definition value="Marijuana"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="T"/>
     <display value="Tobacco - smoked"/>
     <definition value="Tobacco - smoked"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="C"/>
     <display value="Tobacco - chewed"/>
     <definition value="Tobacco - chewed"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>

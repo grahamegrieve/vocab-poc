@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0301 (Universal ID Type)"/>
+  <description value="HL7-defined code system of types of UID (Universal Identifiers).   Used in HL7 Version 2.x messaging HD and EI datatypes."/>
+  <purpose value="Underlying Code System for V2 table 0301 (Universal ID Type, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0301-2.7"/>
@@ -40,12 +41,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="DNS"/>
     <display value="Domain Name System"/>
     <definition value="Domain Name System"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="OUI-24 values are administered by the IEEE Registration Authority."/>
     </extension>
@@ -53,17 +54,17 @@
     <display value="IEEE 64-bit Extended Unique Identifier"/>
     <definition value="IEEE 64-bit Extended Unique Identifier"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CLIA"/>
     <display value="Clinical Laboratory Improvement Amendments"/>
     <definition value="Clinical Laboratory Improvement Amendments"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="CLIP"/>
     <display value="Clinical laboratory Improvement Program"/>
     <definition value="Clinical laboratory Improvement Program"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; use UUID instead"/>
     </extension>
@@ -71,7 +72,7 @@
     <display value="globally unique identifier"/>
     <definition value="globally unique identifier"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; does not identify Assigning Authorities"/>
     </extension>
@@ -79,7 +80,7 @@
     <display value="CEN Healthcare Coding Identifier"/>
     <definition value="CEN Healthcare Coding Identifier"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; HL7 assigns ISO OIDs for Assigning Authorities"/>
     </extension>
@@ -87,32 +88,32 @@
     <display value="HL7 registration schemes"/>
     <definition value="HL7 registration schemes"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="ISO"/>
     <display value="ISO Object Identifier"/>
     <definition value="ISO Object Identifier"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="L"/>
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="L,M,N"/>
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="M"/>
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="N"/>
     <display value="Local"/>
     <definition value="Local"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.7; equivalent to a locally defined entity identifier scheme; use L. M, or N instead."/>
     </extension>
@@ -120,22 +121,22 @@
     <display value="Random"/>
     <definition value="Random"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="URI"/>
     <display value="Uniform Resource Identifier"/>
     <definition value="Uniform Resource Identifier"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="UUID"/>
     <display value="Universal Unique Identifier"/>
     <definition value="Universal Unique Identifier"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="x400"/>
     <display value="X.400 MHS identifier"/>
     <definition value="X.400 MHS identifier"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="x500"/>
     <display value="X500 directory Name"/>
     <definition value="X500 directory Name"/>

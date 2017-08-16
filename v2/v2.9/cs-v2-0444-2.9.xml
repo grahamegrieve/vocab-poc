@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0444 (Name Assembly Order)"/>
+  <description value="Code system of concepts specifying the preferred display order of the components of this person name.  Used in HL7 Version 2.x messaging in the PPN, XCN and XPN segments."/>
+  <purpose value="Underlying Code System for V2 table 0444 (Name Assembly Order, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0444-2.9"/>
@@ -40,12 +41,12 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="G"/>
     <display value="Prefix Given Middle Family Suffix"/>
     <definition value="Prefix Given Middle Family Suffix"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="F"/>
     <display value="Prefix Family Middle Given Suffix"/>
     <definition value="Prefix Family Middle Given Suffix"/>

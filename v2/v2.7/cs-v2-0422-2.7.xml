@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0422 (Triage Code)"/>
+  <description value="HL7-defined code system of concepts which specify a patient&#x2019;s prioritization within the context of a transmitted abstract. Used in HL7 Version 2 messaging in the ABS segment."/>
+  <purpose value="Underlying Code System for V2 table 0422 (Triage Code, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0422-2.7"/>
@@ -40,32 +41,32 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="1"/>
     <display value="Non-acute"/>
     <definition value="Non-acute"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="2"/>
     <display value="Acute"/>
     <definition value="Acute"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="3"/>
     <display value="Urgent"/>
     <definition value="Urgent"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="4"/>
     <display value="Severe"/>
     <definition value="Severe"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="5"/>
     <display value="Dead on Arrival (DOA)"/>
     <definition value="Dead on Arrival (DOA)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="99"/>
     <display value="Other"/>
     <definition value="Other"/>

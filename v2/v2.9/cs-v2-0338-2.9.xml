@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0338 (Practitioner ID Number Type)"/>
+  <description value="HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON."/>
+  <purpose value="Underlying Code System for V2 table 0338 (Practitioner ID Number Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0338-2.9"/>
@@ -40,27 +41,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="CY"/>
     <display value="County number"/>
     <definition value="County number"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="DEA"/>
     <display value="Drug Enforcement Agency no."/>
     <definition value="Drug Enforcement Agency no."/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="GL"/>
     <display value="General ledger number"/>
     <definition value="General ledger number"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="LI"/>
     <display value="Labor and industries number"/>
     <definition value="Labor and industries number"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Deprecated as of v 2.5; Use LI instead"/>
     </extension>
@@ -68,37 +69,37 @@
     <display value="Labor and industries number"/>
     <definition value="Labor and industries number"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="MCD"/>
     <display value="Medicaid number"/>
     <definition value="Medicaid number"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="MCR"/>
     <display value="Medicare number"/>
     <definition value="Medicare number"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="QA"/>
     <display value="QA number"/>
     <definition value="QA number"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="SL"/>
     <display value="State license number"/>
     <definition value="State license number"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="TAX"/>
     <display value="Tax ID number"/>
     <definition value="Tax ID number"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="TRL"/>
     <display value="Training license number"/>
     <definition value="Training license number"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="UPIN"/>
     <display value="Unique physician ID no."/>
     <definition value="Unique physician ID no."/>

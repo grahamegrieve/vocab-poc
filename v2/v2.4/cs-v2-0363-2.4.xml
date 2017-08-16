@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0363 (Assigning Authority)"/>
+  <description value="HL7-defined code system of example values ONLY for Assigning Authority, and only pubished in HL7 Version 2.4; coded values for fields that are intended to specify Assinging Authority are intended to be locally user defined codes."/>
+  <purpose value="Underlying Code System for V2 table 0363 (Assigning Authority, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0363-2.4"/>
@@ -34,97 +35,97 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="AUSDVA"/>
     <display value="Australia - Dept. of Veterans Affairs"/>
     <definition value="Australia - Dept. of Veterans Affairs"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="AUSHIC"/>
     <display value="Australia - Health Insurance Commission"/>
     <definition value="Australia - Health Insurance Commission"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="CANAB"/>
     <display value="Canada - Alberta"/>
     <definition value="Canada - Alberta"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="CANBC"/>
     <display value="Canada - British Columbia"/>
     <definition value="Canada - British Columbia"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="CANMB"/>
     <display value="Canada - Manitoba"/>
     <definition value="Canada - Manitoba"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="CANNB"/>
     <display value="Canada - New Brunswick"/>
     <definition value="Canada - New Brunswick"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="CANNF"/>
     <display value="Canada - Newfoundland"/>
     <definition value="Canada - Newfoundland"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="CANNS"/>
     <display value="Canada - Nova Scotia"/>
     <definition value="Canada - Nova Scotia"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="CANNT"/>
     <display value="Canada - Northwest Territories"/>
     <definition value="Canada - Northwest Territories"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="CANNU"/>
     <display value="Canada - Nanavut"/>
     <definition value="Canada - Nanavut"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="CANON"/>
     <display value="Canada - Ontario"/>
     <definition value="Canada - Ontario"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="CANPE"/>
     <display value="Canada - Prince Edward Island"/>
     <definition value="Canada - Prince Edward Island"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="CANQC"/>
     <display value="Canada - Quebec"/>
     <definition value="Canada - Quebec"/>
   </concept>
-  <concept>
+  <concept id="14">
     <code value="CANSK"/>
     <display value="Canada - Saskatchewan"/>
     <definition value="Canada - Saskatchewan"/>
   </concept>
-  <concept>
+  <concept id="15">
     <code value="CANYT"/>
     <display value="Canada - Yukon Territories"/>
     <definition value="Canada - Yukon Territories"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="NLVWS"/>
     <display value="NL - Ministerie van Volksgezondheid, Welzijn en Sport"/>
     <definition value="NL - Ministerie van Volksgezondheid, Welzijn en Sport"/>
   </concept>
-  <concept>
+  <concept id="17">
     <code value="USCDC"/>
     <display value="US Center for Disease Control"/>
     <definition value="US Center for Disease Control"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="USHCFA"/>
     <display value="US Healthcare Finance Authority"/>
     <definition value="US Healthcare Finance Authority"/>
   </concept>
-  <concept>
+  <concept id="19">
     <code value="USSSA"/>
     <display value="US Social Security Administration"/>
     <definition value="US Social Security Administration"/>

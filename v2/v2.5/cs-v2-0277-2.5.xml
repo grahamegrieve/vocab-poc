@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0277 (Appointment Type Codes)"/>
+  <description value="Code system of concepts used in an appointment request to describe the kind of appointment.  Used in HL7 Version 2.x messaging in the ARQ segment."/>
+  <purpose value="Underlying Code System for V2 table 0277 (Appointment Type Codes, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="false"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0277-2.5"/>
@@ -37,17 +38,17 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="Normal"/>
     <display value="Routine schedule request type - default if not valued"/>
     <definition value="Routine schedule request type - default if not valued"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="Tentative"/>
     <display value="A request for a tentative (e.g., &quot;penciled in&quot;) appointment"/>
     <definition value="A request for a tentative (e.g., &quot;penciled in&quot;) appointment"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="Complete"/>
     <display value="A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)"/>
     <definition value="A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)"/>

@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0190 (Address Type)"/>
+  <description value="HL7-defined code system of concepts specifying types or kinds of addresses.  Used in HL7 Version 2.x messaging in the XAD segment."/>
+  <purpose value="Underlying Code System for V2 table 0190 (Address Type, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0190-2.9"/>
@@ -40,7 +41,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.6. Refer to XAD.17"/>
     </extension>
@@ -48,7 +49,7 @@
     <display value="Bad address"/>
     <definition value="Bad address"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="May also be used for the validation/authorization of credit cards"/>
     </extension>
@@ -56,7 +57,7 @@
     <display value="Billing Address"/>
     <definition value="Billing Address"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to the birth address, not otherwise specified"/>
     </extension>
@@ -64,7 +65,7 @@
     <display value="Birth (nee)  (birth address, not otherwise specified)"/>
     <definition value="Birth (nee)  (birth address, not otherwise specified)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to the address where birth occurred."/>
     </extension>
@@ -72,12 +73,12 @@
     <display value="Birth delivery location  (address where birth occurred)"/>
     <definition value="Birth delivery location  (address where birth occurred)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="F"/>
     <display value="Country Of Origin"/>
     <definition value="Country Of Origin"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.6. Refer to XAD.16"/>
     </extension>
@@ -85,7 +86,7 @@
     <display value="Current Or Temporary"/>
     <definition value="Current Or Temporary"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to an address specific to an organization, such as an insurance company or employer, versus an individual&#x2019;s work location or place of employment. It would be specific to a firm or organization that has some sort of business relationship with the subject"/>
     </extension>
@@ -93,7 +94,7 @@
     <display value="Firm/Business"/>
     <definition value="Firm/Business"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to a residence or domicile, literally the place where the subject resides the majority of the time. Generally speaking most people will have a home address and it will represent their primary address. Home address is mutually exclusive of permanent address."/>
     </extension>
@@ -101,7 +102,7 @@
     <display value="Home"/>
     <definition value="Home"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to a special case address specific to the status of a subject or legal action involving the subject. For example, prisoners being treated at a healthcare facility may have home addresses, but their status mandates an address specific to their place of incarceration. Statutes may require the health information specific to a ward of the state be sent to a legal guardian, the courts, or a state or municipal agency regardless of the ward&#x2019;s physical location. In cases involving civil or criminal proceedings, a record may be flagged such that all correspondence is sent to any variety of legal entities."/>
     </extension>
@@ -109,7 +110,7 @@
     <display value="Legal Address"/>
     <definition value="Legal Address"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility only as of v2.6. Refer to XAD.18"/>
     </extension>
@@ -117,7 +118,7 @@
     <display value="Mailing"/>
     <definition value="Mailing"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to a work address specific to the subject."/>
     </extension>
@@ -125,7 +126,7 @@
     <display value="Office/Business"/>
     <definition value="Office/Business"/>
   </concept>
-  <concept>
+  <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to a place where the residents know the subject and where correspondence addressed to the subject will eventually reach the subject regardless of their physical location. A permanent address generally reflects a tax jurisdiction.  Members of the military, flight attendants, and executives on rotational assignments are examples of those who typically maintain a permanent address. Although mutually exclusive of home address, in some instances, such as the executives mentioned above, it may be synonymous.  In such cases upon return from assignment this address would revert to the home address."/>
     </extension>
@@ -133,7 +134,7 @@
     <display value="Permanent"/>
     <definition value="Permanent"/>
   </concept>
-  <concept>
+  <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to the information system, typically managed by a public health agency that stores patient information such as immunization histories or cancer data, regardless of where the patient obtains services"/>
     </extension>
@@ -141,7 +142,7 @@
     <display value="Registry home. Refers to the information system, typically managed by a public health agency, that stores patient information such as immunization histories or cancer data, regardless of where the patient obtains services."/>
     <definition value="Registry home. Refers to the information system, typically managed by a public health agency, that stores patient information such as immunization histories or cancer data, regardless of where the patient obtains services."/>
   </concept>
-  <concept>
+  <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to the home address at time of birth."/>
     </extension>
@@ -149,7 +150,7 @@
     <display value="Residence at birth (home address at time of birth)"/>
     <definition value="Residence at birth (home address at time of birth)"/>
   </concept>
-  <concept>
+  <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Refers to the location in which service is rendered. This would be used if reimbursement is based on the location of the service (to take into account the cost of those services)."/>
     </extension>
@@ -157,12 +158,12 @@
     <display value="Service Location"/>
     <definition value="Service Location"/>
   </concept>
-  <concept>
+  <concept id="16">
     <code value="SH"/>
     <display value="Shipping Address"/>
     <definition value="Shipping Address"/>
   </concept>
-  <concept>
+  <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Pneumatic tube address (to which letters may be sent). A special transport system to transport small samples/containers and/or normal mail in small carriages on rail or in a tube.  (German Rohrpost)"/>
     </extension>
@@ -170,7 +171,7 @@
     <display value="Tube Address"/>
     <definition value="Tube Address"/>
   </concept>
-  <concept>
+  <concept id="18">
     <code value="V"/>
     <display value="Vacation"/>
     <definition value="Vacation"/>

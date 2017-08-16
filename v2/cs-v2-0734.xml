@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0734"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.393"/>
+    <value value="urn:oid:2.16.840.1.113883.18.393">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="grouperStatus"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0734"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0734 (Grouper Status)"/>
+  <description value="Code system of concepts specifying the status of a grouper in general.  US Realm. Used in HL7 Version 2.x messaging in the DRG segment."/>
+  <purpose value="Underlying Master Code System for V2 table 0734 (Grouper Status)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0734"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -39,7 +44,7 @@
     <display value="Normal grouping"/>
     <definition value="Normal grouping"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -47,7 +52,7 @@
     <display value="Invalid or missing primary diagnosis"/>
     <definition value="Invalid or missing primary diagnosis"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -55,7 +60,7 @@
     <display value="Diagnosis is not allowed to be primary"/>
     <definition value="Diagnosis is not allowed to be primary"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -63,7 +68,7 @@
     <display value="Data does not fulfill DRG criteria"/>
     <definition value="Data does not fulfill DRG criteria"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -71,7 +76,7 @@
     <display value="Invalid age, admission date, date of birth or discharge date"/>
     <definition value="Invalid age, admission date, date of birth or discharge date"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -79,7 +84,7 @@
     <display value="Invalid gender"/>
     <definition value="Invalid gender"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -87,7 +92,7 @@
     <display value="Invalid discharge status"/>
     <definition value="Invalid discharge status"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -95,7 +100,7 @@
     <display value="Invalid weight ad admission"/>
     <definition value="Invalid weight ad admission"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>
@@ -103,7 +108,7 @@
     <display value="Invalid length of stay"/>
     <definition value="Invalid length of stay"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
       <valueString value="2.6"/>
     </extension>

@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0369 (Specimen Role)"/>
+  <description value="HL7-defined code system of concepts that identify the role of a sample.  Used in HL7 Version 2.x messaging in the Specimen (SPM) and Observation Request (OBR) segments."/>
+  <purpose value="Underlying Code System for V2 table 0369 (Specimen Role, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0369-2.4"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="P"/>
     <display value="Patient (default if blank component value)"/>
     <definition value="Patient (default if blank component value)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="Q"/>
     <display value="Control specimen"/>
     <definition value="Control specimen"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="C"/>
     <display value="Calibrator"/>
     <definition value="Calibrator"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="B"/>
     <display value="Blind Sample"/>
     <definition value="Blind Sample"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="R"/>
     <display value="Replicate (of patient sample as a control)"/>
     <definition value="Replicate (of patient sample as a control)"/>

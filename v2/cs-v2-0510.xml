@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0510"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.333"/>
+    <value value="urn:oid:2.16.840.1.113883.18.333">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="bloodProductDispenseStatus"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0510"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0510 (Blood Product Dispense Status)"/>
+  <description value="HL7-defined code system of concepts used to specify the current status of the specified blood product as indicated by the filler or placer.  For example, the first status change of a product that may trigger a Blood Product Dispense Status Message occurs when it first becomes linked to a patient and is ready to dispense. The placer system may use the Blood Product Dispense Status Message to request the transfusion service to dispense the product.  When the blood product is delivered or issued to a patient, the status of the blood product would be changed to indicate that it has now been &quot;dispensed&quot;.  Used in the Blood Product Dispense Status (BPX) segment in HL7 Version 2.x messaging."/>
+  <purpose value="Underlying Master Code System for V2 table 0510 (Blood Product Dispense Status)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0510"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Received into inventory (for specified patient)"/>
     <definition value="Received into inventory (for specified patient)"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="Reserved and ready to dispense"/>
     <definition value="Reserved and ready to dispense"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -64,7 +69,7 @@
     <display value="Reserved (ordered and product allocated for the patient)"/>
     <definition value="Reserved (ordered and product allocated for the patient)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Placer or Filler"/>
     </extension>
@@ -75,7 +80,7 @@
     <display value="Released (no longer allocated for the patient)"/>
     <definition value="Released (no longer allocated for the patient)"/>
   </concept>
-  <concept>
+  <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -86,7 +91,7 @@
     <display value="Dispensed to patient location"/>
     <definition value="Dispensed to patient location"/>
   </concept>
-  <concept>
+  <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -97,7 +102,7 @@
     <display value="Returned unused/no longer needed"/>
     <definition value="Returned unused/no longer needed"/>
   </concept>
-  <concept>
+  <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -108,7 +113,7 @@
     <display value="Returned unused/keep linked to patient for possible use later"/>
     <definition value="Returned unused/keep linked to patient for possible use later"/>
   </concept>
-  <concept>
+  <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -119,7 +124,7 @@
     <display value="Wasted (product no longer viable)"/>
     <definition value="Wasted (product no longer viable)"/>
   </concept>
-  <concept>
+  <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -130,7 +135,7 @@
     <display value="Presumed transfused (dispensed and not returned)"/>
     <definition value="Presumed transfused (dispensed and not returned)"/>
   </concept>
-  <concept>
+  <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Filler"/>
     </extension>
@@ -141,7 +146,7 @@
     <display value="Released into inventory for general availability"/>
     <definition value="Released into inventory for general availability"/>
   </concept>
-  <concept>
+  <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Status determined by Placer"/>
     </extension>

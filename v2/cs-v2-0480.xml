@@ -8,7 +8,11 @@
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0480"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.18.306"/>
+    <value value="urn:oid:2.16.840.1.113883.18.306">
+      <extension url="http://healthintersections.com.au/fhir/StructureDefinition/identifier-display">
+        <valueString value="pharmacyOrderTypes"/>
+      </extension>
+    </value>
   </identifier>
   <version value="1"/>
   <name value="V2Table0480"/>
@@ -23,7 +27,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0480 (Pharmacy Order Types)"/>
+  <description value="HL7-defined code system of concepts specifying the general category of pharmacy order which may be used to determine the processing path the order will take.  Used in HL7 Version 2.x messaging in the RXO, RXE, RXD, RXG and RXA segments."/>
+  <purpose value="Underlying Master Code System for V2 table 0480 (Pharmacy Order Types)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0480"/>
@@ -31,7 +36,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Default value.  Includes, but is not limited to, tables, capsules, powders, puffs, and other non-injected/non-infused products."/>
     </extension>
@@ -42,7 +47,7 @@
     <display value="Medication"/>
     <definition value="Medication"/>
   </concept>
-  <concept>
+  <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Includes, but is not limited to, TPNs, admixtures, solutions and drips."/>
     </extension>
@@ -53,7 +58,7 @@
     <display value="IV Large Volume Solutions"/>
     <definition value="IV Large Volume Solutions"/>
   </concept>
-  <concept>
+  <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Includes, but is not limited to, piggybacks and syringes"/>
     </extension>

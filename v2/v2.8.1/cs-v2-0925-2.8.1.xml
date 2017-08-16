@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0925 (Phlebotomy Issue)"/>
+  <description value="HL7-defined code system of concepts specifying the phlebotomy issue.  Used in HL7 Version 2.x messaging in the DON segment."/>
+  <purpose value="Underlying Code System for V2 table 0925 (Phlebotomy Issue, version 2.8.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0925-2.8.1"/>
@@ -40,67 +41,67 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="INF"/>
     <display value="Infiltration"/>
     <definition value="Infiltration"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="VSM"/>
     <display value="Vein Spasm"/>
     <definition value="Vein Spasm"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="COL"/>
     <display value="Collapse"/>
     <definition value="Collapse"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="MIS"/>
     <display value="Missed / in tissue"/>
     <definition value="Missed / in tissue"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="NAD"/>
     <display value="Needle adjustment (this may not end a procedure, if successful will impact component production)"/>
     <definition value="Needle adjustment (this may not end a procedure, if successful will impact component production)"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="PFL"/>
     <display value="Poor flow"/>
     <definition value="Poor flow"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="CLT"/>
     <display value="Clotted"/>
     <definition value="Clotted"/>
   </concept>
-  <concept>
+  <concept id="8">
     <code value="DND"/>
     <display value="Defective Needle"/>
     <definition value="Defective Needle"/>
   </concept>
-  <concept>
+  <concept id="9">
     <code value="DBG"/>
     <display value="Defective Bag"/>
     <definition value="Defective Bag"/>
   </concept>
-  <concept>
+  <concept id="10">
     <code value="DAK"/>
     <display value="Defective Apheresis Kit"/>
     <definition value="Defective Apheresis Kit"/>
   </concept>
-  <concept>
+  <concept id="11">
     <code value="DMT"/>
     <display value="Defective Instrument"/>
     <definition value="Defective Instrument"/>
   </concept>
-  <concept>
+  <concept id="12">
     <code value="IPF"/>
     <display value="Instrument Power Failure"/>
     <definition value="Instrument Power Failure"/>
   </concept>
-  <concept>
+  <concept id="13">
     <code value="ACN"/>
     <display value="Air Contamination"/>
     <definition value="Air Contamination"/>

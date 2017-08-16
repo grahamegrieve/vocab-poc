@@ -29,7 +29,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0402 (School Type)"/>
+  <description value="Code system of concepts which specify a categorization of an academic institution that grants a degree to a Staff Member.  Used in HL7 Version 2.x messaging in the EDU segment."/>
+  <purpose value="Underlying Code System for V2 table 0402 (School Type, version 2.5)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0402-2.5"/>
@@ -37,22 +38,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="D"/>
     <display value="Dental"/>
     <definition value="Dental"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="G"/>
     <display value="Graduate"/>
     <definition value="Graduate"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="M"/>
     <display value="Medical"/>
     <definition value="Medical"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="U"/>
     <display value="Undergraduate"/>
     <definition value="Undergraduate"/>

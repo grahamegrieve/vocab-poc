@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0065 (Specimen Action Code)"/>
+  <description value="HL7-defined code system of concepts which specify actions to be taken with respect to the specimens that accompany or precede an order.  The purpose of these are to further qualify (when appropriate) the general action indicated by the order control code (code system xxxx).  Used in HL7 Version 2.x messaging in the OBR segment."/>
+  <purpose value="Underlying Code System for V2 table 0065 (Specimen Action Code, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0065-2.7"/>
@@ -40,37 +41,37 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="A"/>
     <display value="Add ordered tests to the existing specimen"/>
     <definition value="Add ordered tests to the existing specimen"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="G"/>
     <display value="Generated order; reflex order"/>
     <definition value="Generated order; reflex order"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="L"/>
     <display value="Lab to obtain specimen from patient"/>
     <definition value="Lab to obtain specimen from patient"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="O"/>
     <display value="Specimen obtained by service other than Lab"/>
     <definition value="Specimen obtained by service other than Lab"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="P"/>
     <display value="Pending specimen; Order sent prior to delivery"/>
     <definition value="Pending specimen; Order sent prior to delivery"/>
   </concept>
-  <concept>
+  <concept id="6">
     <code value="R"/>
     <display value="Revised order"/>
     <definition value="Revised order"/>
   </concept>
-  <concept>
+  <concept id="7">
     <code value="S"/>
     <display value="Schedule the tests specified below"/>
     <definition value="Schedule the tests specified below"/>

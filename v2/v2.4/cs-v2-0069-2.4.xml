@@ -26,7 +26,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0069 (Hospital Service)"/>
+  <description value="Code system of concepts specifying the treatment or type of surgery the patient is scheduled to receive.   Used in HL7 Version 2.x messaging in the PV1 segment."/>
+  <purpose value="Underlying Code System for V2 table 0069 (Hospital Service, version 2.4)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0069-2.4"/>
@@ -34,27 +35,27 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="MED"/>
     <display value="Medical Service"/>
     <definition value="Medical Service"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="SUR"/>
     <display value="Surgical Service"/>
     <definition value="Surgical Service"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="URO"/>
     <display value="Urology Service"/>
     <definition value="Urology Service"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="PUL"/>
     <display value="Pulmonary Service"/>
     <definition value="Pulmonary Service"/>
   </concept>
-  <concept>
+  <concept id="5">
     <code value="CAR"/>
     <display value="Cardiac Service"/>
     <definition value="Cardiac Service"/>

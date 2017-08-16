@@ -32,7 +32,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0392 (Match Reason)"/>
+  <description value="Code system of concepts identifying what search components (e.g., name, birthdate, social security number) of the record returned matched the original query where the responding system does not assign numeric match weights or confidence levels.  It provides a method for passing a descriptive indication of the reason a particular record was found.  Used in HL7 Version 2.x messaging in the Query Response Instance (QRI) segment."/>
+  <purpose value="Underlying Code System for V2 table 0392 (Match Reason, version 2.7.1)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0392-2.7.1"/>
@@ -40,22 +41,22 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="DB"/>
     <display value="Match on Date of Birth"/>
     <definition value="Match on Date of Birth"/>
   </concept>
-  <concept>
+  <concept id="2">
     <code value="NA"/>
     <display value="Match on Name (Alpha Match)"/>
     <definition value="Match on Name (Alpha Match)"/>
   </concept>
-  <concept>
+  <concept id="3">
     <code value="NP"/>
     <display value="Match on Name (Phonetic Match)"/>
     <definition value="Match on Name (Phonetic Match)"/>
   </concept>
-  <concept>
+  <concept id="4">
     <code value="SS"/>
     <display value="Match on Social Security Number"/>
     <definition value="Match on Social Security Number"/>

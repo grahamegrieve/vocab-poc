@@ -31,7 +31,8 @@
       <value value="https://github.com/grahamegrieve/vocab-poc"/>
     </telecom>
   </contact>
-  <description value="Underlying Code System for V2 table 0347 (State/Province)"/>
+  <description value="ISO 3166 Part 2 Country Subdivision Codes. This coding system is published in the ISO 3166-2 Standard for Country Subdivision codes. This standard is released periodically, and  a new OID will be assigned by ISO for new editions."/>
+  <purpose value="Underlying Code System for V2 table 0347 (State/Province, version 2.7)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0347-2.7"/>
@@ -39,7 +40,7 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
-  <concept>
+  <concept id="1">
     <code value="..."/>
     <display value="No suggested values defined"/>
     <definition value="No suggested values defined"/>
