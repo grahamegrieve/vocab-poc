@@ -42,6 +42,7 @@
   <status value="active"/>
   <date value="2014-03-26"/>
   <description value=" A subtype of ManufacturedMaterial used in an activity, without being substantially changed through that activity.  The kind of device is identified by the code attribute inherited from Entity.  Usage:&#xD;&#xA;This includes durable (reusable) medical equipment as well as disposable equipment."/>
+  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-EntityClass"/>

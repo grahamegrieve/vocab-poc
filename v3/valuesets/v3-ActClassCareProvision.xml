@@ -127,6 +127,7 @@
   <status value="active"/>
   <date value="2014-03-26"/>
   <description value=" AnAct&#xD;&#xA;that of taking on whole or partial responsibility for, or attention to, safety and well-being of a subject of care.  Discussion:&#xD;&#xA;Acare provision&#xD;&#xA;event may exist without any other care actions taking place. For example, when a patient is assigned to the care of a particular health professional. Inrequest&#xD;&#xA;(RQO) moodcare provision&#xD;&#xA;communicates a referral, which is a request:   from one party (linked as aparticipant&#xD;&#xA;of typeauthor&#xD;&#xA;(AUT)),  to another party (linked as aparticipant&#xD;&#xA;of typeperformer&#xD;&#xA;(PRF),  to take responsibility for a scope specified by the code attribute,  for an entity (linked as aparticipant&#xD;&#xA;of typesubject&#xD;&#xA;(SBJ)). The scope of the care for which responsibility is taken is identified bycode&#xD;&#xA;attribute. Inevent&#xD;&#xA;(EVN) moodcare provision&#xD;&#xA;indicates the effective time interval of a specified scope of responsibility by aperformer&#xD;&#xA;(PRF) or set ofperformers&#xD;&#xA;(PRF) for asubject&#xD;&#xA;(SBJ).  Examples:&#xD;&#xA;   Referral from GP to a specialist.  Assignment of a patient or group of patients to the case list of a health professional.  Assignment of inpatients to the care of particular nurses for a working shift."/>
+  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>

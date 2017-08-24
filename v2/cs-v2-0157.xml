@@ -2,6 +2,15 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="v2-0157"/>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch05.html#Heading196"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="5.10.4.2.8"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="HL7"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0157"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -33,52 +42,106 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="ANY"/>
     <display value="Any status"/>
     <definition value="Any status"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="CFN"/>
     <display value="Current final value, whether final or corrected"/>
     <definition value="Current final value, whether final or corrected"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="COR"/>
     <display value="Corrected only (no final with corrections)"/>
     <definition value="Corrected only (no final with corrections)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="FIN"/>
     <display value="Final only (no corrections)"/>
     <definition value="Final only (no corrections)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="PRE"/>
     <display value="Preliminary"/>
     <definition value="Preliminary"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="REP"/>
     <display value="Report completion date/time"/>
     <definition value="Report completion date/time"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

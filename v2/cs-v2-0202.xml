@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="InM"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading155"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.139"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="HL7"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0202"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,84 +45,158 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="PH"/>
     <display value="Telephone"/>
     <definition value="Telephone"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="FX"/>
     <display value="Fax"/>
     <definition value="Fax"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="MD"/>
     <display value="Modem"/>
     <definition value="Modem"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="CP"/>
     <display value="Cellular or Mobile Phone"/>
     <definition value="Cellular or Mobile Phone"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="SAT"/>
     <display value="Satellite Phone"/>
     <definition value="Satellite Phone"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="BP"/>
     <display value="Beeper"/>
     <definition value="Beeper"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="Internet"/>
     <display value="Internet Address"/>
     <definition value="Internet Address"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="X.400"/>
     <display value="X.400 email address"/>
     <definition value="X.400 email address"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="TDD"/>
     <display value="Telecommunications Device for the Deaf"/>
     <definition value="Telecommunications Device for the Deaf"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="TTY"/>
     <display value="Teletypewriter"/>
     <definition value="Teletypewriter"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

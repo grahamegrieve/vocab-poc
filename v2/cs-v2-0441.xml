@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="PA"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading373"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.357"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0441"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,60 +45,119 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="A"/>
     <display value="Active"/>
     <definition value="Active"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="I"/>
     <display value="Inactive"/>
     <definition value="Inactive"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="L"/>
     <display value="Inactive - Lost to follow-up (cancel contract)"/>
     <definition value="Inactive - Lost to follow-up (cancel contract)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="M"/>
     <display value="Inactive - Moved or gone elsewhere (cancel contract)"/>
     <definition value="Inactive - Moved or gone elsewhere (cancel contract)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="P"/>
     <display value="Inactive - Permanently inactive (Do not reactivate or add new entries to the record)"/>
     <definition value="Inactive - Permanently inactive (Do not reactivate or add new entries to the record)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

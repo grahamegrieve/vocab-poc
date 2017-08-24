@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="StrucDoc"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading427"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.411"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="HL7"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0498"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,52 +45,106 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="A"/>
     <display value="Active - Consent has been granted"/>
     <definition value="Active - Consent has been granted"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="L"/>
     <display value="Limited - Consent has been granted with limitations"/>
     <definition value="Limited - Consent has been granted with limitations"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="R"/>
     <display value="Refused - Consent has been refused"/>
     <definition value="Refused - Consent has been refused"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="P"/>
     <display value="Pending - Consent has not yet been sought"/>
     <definition value="Pending - Consent has not yet been sought"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="X"/>
     <display value="Rescinded - Consent was initially granted, but was subsequently revoked or ended."/>
     <definition value="Rescinded - Consent was initially granted, but was subsequently revoked or ended."/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="B"/>
     <display value="Bypassed (Consent not sought)"/>
     <definition value="Bypassed (Consent not sought)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

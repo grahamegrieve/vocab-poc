@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Accession Identifier"/>
@@ -48,6 +72,10 @@
     <code value="ACSN"/>
     <display value="Accession ID"/>
     <definition value="Accession ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="AM"/>
     <display value="American Express"/>
     <definition value="American Express"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,6 +96,10 @@
     <code value="AMA"/>
     <display value="American Medical Association Number"/>
     <definition value="American Medical Association Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -72,6 +108,10 @@
     <code value="AN"/>
     <display value="Account number"/>
     <definition value="Account number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -80,6 +120,10 @@
     <code value="ANON"/>
     <display value="Anonymous identifier"/>
     <definition value="Anonymous identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -88,6 +132,10 @@
     <code value="ANC"/>
     <display value="Account number Creditor"/>
     <definition value="Account number Creditor"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -96,6 +144,10 @@
     <code value="AND"/>
     <display value="Account number debitor"/>
     <definition value="Account number debitor"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -104,6 +156,10 @@
     <code value="ANT"/>
     <display value="Temporary Account Number"/>
     <definition value="Temporary Account Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -112,6 +168,10 @@
     <code value="APRN"/>
     <display value="Advanced Practice Registered Nurse number"/>
     <definition value="Advanced Practice Registered Nurse number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -120,6 +180,10 @@
     <code value="ASID"/>
     <display value="Ancestor Specimen ID"/>
     <definition value="Ancestor Specimen ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -128,6 +192,10 @@
     <code value="BA"/>
     <display value="Bank Account Number"/>
     <definition value="Bank Account Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -136,6 +204,10 @@
     <code value="BC"/>
     <display value="Bank Card Number"/>
     <definition value="Bank Card Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -144,6 +216,10 @@
     <code value="BCT"/>
     <display value="Birth Certificate"/>
     <definition value="Birth Certificate"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -152,11 +228,19 @@
     <code value="BR"/>
     <display value="Birth registry number"/>
     <definition value="Birth registry number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <code value="BRN"/>
     <display value="Breed Registry Number"/>
     <definition value="Breed Registry Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -165,6 +249,10 @@
     <code value="BSNR"/>
     <display value="Primary physician office number"/>
     <definition value="Primary physician office number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -173,6 +261,10 @@
     <code value="CC"/>
     <display value="Cost Center number"/>
     <definition value="Cost Center number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -181,6 +273,10 @@
     <code value="CONM"/>
     <display value="Change of Name Document"/>
     <definition value="Change of Name Document"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -189,11 +285,19 @@
     <code value="CZ"/>
     <display value="Citizenship Card"/>
     <definition value="Citizenship Card"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
     <code value="CY"/>
     <display value="County number"/>
     <definition value="County number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -202,6 +306,10 @@
     <code value="DDS"/>
     <display value="Dentist license number"/>
     <definition value="Dentist license number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -210,6 +318,10 @@
     <code value="DEA"/>
     <display value="Drug Enforcement Administration registration number"/>
     <definition value="Drug Enforcement Administration registration number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -218,6 +330,10 @@
     <code value="DI"/>
     <display value="Diner&#39;s Club card"/>
     <definition value="Diner&#39;s Club card"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -226,16 +342,28 @@
     <code value="DFN"/>
     <display value="Drug Furnishing or prescriptive authority Number"/>
     <definition value="Drug Furnishing or prescriptive authority Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="25">
     <code value="DL"/>
     <display value="Driver&#39;s license number"/>
     <definition value="Driver&#39;s license number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
     <code value="DN"/>
     <display value="Doctor number"/>
     <definition value="Doctor number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -244,6 +372,10 @@
     <code value="DO"/>
     <display value="Osteopathic License number"/>
     <definition value="Osteopathic License number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -252,6 +384,10 @@
     <code value="DP"/>
     <display value="Diplomatic Passport"/>
     <definition value="Diplomatic Passport"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -260,11 +396,19 @@
     <code value="DPM"/>
     <display value="Podiatrist license number"/>
     <definition value="Podiatrist license number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
     <code value="DR"/>
     <display value="Donor Registration Number"/>
     <definition value="Donor Registration Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -273,6 +417,10 @@
     <code value="DS"/>
     <display value="Discover Card"/>
     <definition value="Discover Card"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -281,11 +429,19 @@
     <code value="EI"/>
     <display value="Employee number"/>
     <definition value="Employee number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="33">
     <code value="EN"/>
     <display value="Employer number"/>
     <definition value="Employer number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -294,11 +450,19 @@
     <code value="ESN"/>
     <display value="Staff Enterprise Number"/>
     <definition value="Staff Enterprise Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="35">
     <code value="FI"/>
     <display value="Facility ID"/>
     <definition value="Facility ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -307,6 +471,10 @@
     <code value="GI"/>
     <display value="Guarantor internal identifier"/>
     <definition value="Guarantor internal identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -315,6 +483,10 @@
     <code value="GL"/>
     <display value="General ledger number"/>
     <definition value="General ledger number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -323,11 +495,19 @@
     <code value="GN"/>
     <display value="Guarantor external  identifier"/>
     <definition value="Guarantor external  identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="39">
     <code value="HC"/>
     <display value="Health Card Number"/>
     <definition value="Health Card Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -336,6 +516,10 @@
     <code value="JHN"/>
     <display value="Jurisdictional health number (Canada)"/>
     <definition value="Jurisdictional health number (Canada)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -344,6 +528,10 @@
     <code value="IND"/>
     <display value="Indigenous/Aboriginal"/>
     <definition value="Indigenous/Aboriginal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -352,6 +540,10 @@
     <code value="LACSN"/>
     <display value="Laboratory Accession ID"/>
     <definition value="Laboratory Accession ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -360,21 +552,37 @@
     <code value="LANR"/>
     <display value="Lifelong physician number"/>
     <definition value="Lifelong physician number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="44">
     <code value="LI"/>
     <display value="Labor and industries number"/>
     <definition value="Labor and industries number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="45">
     <code value="LN"/>
     <display value="License number"/>
     <definition value="License number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="46">
     <code value="LR"/>
     <display value="Local Registry ID"/>
     <definition value="Local Registry ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="47">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -383,6 +591,10 @@
     <code value="MA"/>
     <display value="Patient Medicaid number"/>
     <definition value="Patient Medicaid number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -391,6 +603,10 @@
     <code value="MB"/>
     <display value="Member Number"/>
     <definition value="Member Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="49">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -399,6 +615,10 @@
     <code value="MC"/>
     <display value="Patient&#39;s Medicare number"/>
     <definition value="Patient&#39;s Medicare number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="50">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -407,11 +627,19 @@
     <code value="MCD"/>
     <display value="Practitioner Medicaid number"/>
     <definition value="Practitioner Medicaid number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="51">
     <code value="MCN"/>
     <display value="Microchip Number"/>
     <definition value="Microchip Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="52">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -420,6 +648,10 @@
     <code value="MCR"/>
     <display value="Practitioner Medicare number"/>
     <definition value="Practitioner Medicare number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="53">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -428,6 +660,10 @@
     <code value="MCT"/>
     <display value="Marriage Certificate"/>
     <definition value="Marriage Certificate"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -436,6 +672,10 @@
     <code value="MD"/>
     <display value="Medical License number"/>
     <definition value="Medical License number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="55">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -444,6 +684,10 @@
     <code value="MI"/>
     <display value="Military ID number"/>
     <definition value="Military ID number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -452,6 +696,10 @@
     <code value="MR"/>
     <display value="Medical record number"/>
     <definition value="Medical record number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -460,6 +708,10 @@
     <code value="MRT"/>
     <display value="Temporary Medical Record Number"/>
     <definition value="Temporary Medical Record Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="58">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -468,6 +720,10 @@
     <code value="MS"/>
     <display value="MasterCard"/>
     <definition value="MasterCard"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="59">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -476,6 +732,10 @@
     <code value="NBSNR"/>
     <display value="Secondary physician office number"/>
     <definition value="Secondary physician office number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="60">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -484,6 +744,10 @@
     <code value="NCT"/>
     <display value="Naturalization Certificate"/>
     <definition value="Naturalization Certificate"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="61">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -492,6 +756,10 @@
     <code value="NE"/>
     <display value="National employer identifier"/>
     <definition value="National employer identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="62">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -500,6 +768,10 @@
     <code value="NH"/>
     <display value="National Health Plan Identifier"/>
     <definition value="National Health Plan Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="63">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -508,6 +780,10 @@
     <code value="NI"/>
     <display value="National unique individual identifier"/>
     <definition value="National unique individual identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="64">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -516,6 +792,10 @@
     <code value="NII"/>
     <display value="National Insurance Organization Identifier"/>
     <definition value="National Insurance Organization Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="65">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -524,11 +804,19 @@
     <code value="NIIP"/>
     <display value="National Insurance Payor Identifier (Payor)"/>
     <definition value="National Insurance Payor Identifier (Payor)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="66">
     <code value="NNxxx"/>
     <display value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
     <definition value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="67">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -537,6 +825,10 @@
     <code value="NP"/>
     <display value="Nurse practitioner number"/>
     <definition value="Nurse practitioner number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="68">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -545,6 +837,10 @@
     <code value="NPI"/>
     <display value="National provider identifier"/>
     <definition value="National provider identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="69">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -553,6 +849,10 @@
     <code value="OD"/>
     <display value="Optometrist license number"/>
     <definition value="Optometrist license number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="70">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -561,6 +861,10 @@
     <code value="PA"/>
     <display value="Physician Assistant number"/>
     <definition value="Physician Assistant number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="71">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -569,6 +873,10 @@
     <code value="PC"/>
     <display value="Parole Card"/>
     <definition value="Parole Card"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="72">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -577,6 +885,10 @@
     <code value="PCN"/>
     <display value="Penitentiary/correctional institution Number"/>
     <definition value="Penitentiary/correctional institution Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="73">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -585,11 +897,19 @@
     <code value="PE"/>
     <display value="Living Subject Enterprise Number"/>
     <definition value="Living Subject Enterprise Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="74">
     <code value="PEN"/>
     <display value="Pension Number"/>
     <definition value="Pension Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="75">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -598,6 +918,10 @@
     <code value="PI"/>
     <display value="Patient internal identifier"/>
     <definition value="Patient internal identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="76">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -606,6 +930,10 @@
     <code value="PN"/>
     <display value="Person number"/>
     <definition value="Person number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="77">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -614,6 +942,10 @@
     <code value="PNT"/>
     <display value="Temporary Living Subject Number"/>
     <definition value="Temporary Living Subject Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="78">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -622,6 +954,10 @@
     <code value="PPIN"/>
     <display value="Medicare/CMS Performing Provider Identification Number"/>
     <definition value="Medicare/CMS Performing Provider Identification Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="80">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -630,11 +966,19 @@
     <code value="PPN"/>
     <display value="Passport number"/>
     <definition value="Passport number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="81">
     <code value="PRC"/>
     <display value="Permanent Resident Card Number"/>
     <definition value="Permanent Resident Card Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="82">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -643,16 +987,28 @@
     <code value="PRN"/>
     <display value="Provider number"/>
     <definition value="Provider number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="83">
     <code value="PT"/>
     <display value="Patient external identifier"/>
     <definition value="Patient external identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="84">
     <code value="QA"/>
     <display value="QA number"/>
     <definition value="QA number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="85">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -661,6 +1017,10 @@
     <code value="RI"/>
     <display value="Resource identifier"/>
     <definition value="Resource identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="86">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -669,6 +1029,10 @@
     <code value="RPH"/>
     <display value="Pharmacist license number"/>
     <definition value="Pharmacist license number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="87">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -677,6 +1041,10 @@
     <code value="RN"/>
     <display value="Registered Nurse Number"/>
     <definition value="Registered Nurse Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="88">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -685,11 +1053,19 @@
     <code value="RR"/>
     <display value="Railroad Retirement number"/>
     <definition value="Railroad Retirement number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="89">
     <code value="RRI"/>
     <display value="Regional registry ID"/>
     <definition value="Regional registry ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="90">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -698,6 +1074,10 @@
     <code value="RRP"/>
     <display value="Railroad Retirement Provider"/>
     <definition value="Railroad Retirement Provider"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="92">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -706,11 +1086,19 @@
     <code value="SID"/>
     <display value="Specimen ID"/>
     <definition value="Specimen ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="93">
     <code value="SL"/>
     <display value="State license"/>
     <definition value="State license"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="94">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -719,6 +1107,10 @@
     <code value="SN"/>
     <display value="Subscriber Number"/>
     <definition value="Subscriber Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="95">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -727,21 +1119,37 @@
     <code value="SP"/>
     <display value="Study Permit"/>
     <definition value="Study Permit"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="96">
     <code value="SR"/>
     <display value="State registry ID"/>
     <definition value="State registry ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="97">
     <code value="SS"/>
     <display value="Social Security number"/>
     <definition value="Social Security number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="98">
     <code value="TAX"/>
     <display value="Tax ID number"/>
     <definition value="Tax ID number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="99">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -750,6 +1158,10 @@
     <code value="TN"/>
     <display value="Treaty Number/ (Canada)"/>
     <definition value="Treaty Number/ (Canada)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="100">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -758,11 +1170,19 @@
     <code value="TPR"/>
     <display value="Temporary Permanent Resident (Canada)"/>
     <definition value="Temporary Permanent Resident (Canada)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="101">
     <code value="U"/>
     <display value="Unspecified identifier"/>
     <definition value="Unspecified identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="102">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -771,6 +1191,10 @@
     <code value="UPIN"/>
     <display value="Medicare/CMS (formerly HCFA)&#39;s Universal Physician Identification numbers"/>
     <definition value="Medicare/CMS (formerly HCFA)&#39;s Universal Physician Identification numbers"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="103">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -779,11 +1203,19 @@
     <code value="USID"/>
     <display value="Unique Specimen ID"/>
     <definition value="Unique Specimen ID"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="104">
     <code value="VN"/>
     <display value="Visit number"/>
     <definition value="Visit number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="105">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -792,6 +1224,10 @@
     <code value="VP"/>
     <display value="Visitor Permit"/>
     <definition value="Visitor Permit"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="106">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -800,16 +1236,28 @@
     <code value="VS"/>
     <display value="VISA"/>
     <definition value="VISA"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="107">
     <code value="WC"/>
     <display value="WIC identifier"/>
     <definition value="WIC identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="108">
     <code value="WCN"/>
     <display value="Workers&#39; Comp Number"/>
     <definition value="Workers&#39; Comp Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="109">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -818,10 +1266,18 @@
     <code value="WP"/>
     <display value="Work Permit"/>
     <definition value="Work Permit"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="110">
     <code value="XX"/>
     <display value="Organization identifier"/>
     <definition value="Organization identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

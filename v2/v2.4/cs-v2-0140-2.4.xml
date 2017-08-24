@@ -35,59 +35,127 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <code value="USA"/>
     <display value="U.S. Army"/>
     <definition value="U.S. Army"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <code value="USN"/>
     <display value="U.S. Navy"/>
     <definition value="U.S. Navy"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <code value="USAF"/>
     <display value="U.S. Air Force"/>
     <definition value="U.S. Air Force"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <code value="USMC"/>
     <display value="U.S. Marines"/>
     <definition value="U.S. Marines"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <code value="USCG"/>
     <display value="U.S. Coast Guard"/>
     <definition value="U.S. Coast Guard"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <code value="USPHS"/>
     <display value="U.S. Public Health Service"/>
     <definition value="U.S. Public Health Service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <code value="NOAA"/>
     <display value="National Oceanic and Atmospheric Administration"/>
     <definition value="National Oceanic and Atmospheric Administration"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <code value="NATO"/>
     <display value="North Atlantic Treaty Organization"/>
     <definition value="North Atlantic Treaty Organization"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <code value="AUSA"/>
     <display value="Australian Army"/>
     <definition value="Australian Army"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <code value="AUSN"/>
     <display value="Australian Navy"/>
     <definition value="Australian Navy"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <code value="AUSAF"/>
     <display value="Australian Air Force"/>
     <definition value="Australian Air Force"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -45,6 +45,7 @@
   <status value="active"/>
   <date value="2014-03-26"/>
   <description value="  Description:&#xD;&#xA;A battery specifies a set of observations. These observations typically have a logical or practical grouping for generally accepted clinical or functional purposes, such as observations that are run together because of automation. A battery can define required and optional components and, in some cases, will define complex rules that determine whether or not a particular observation is made.  Examples:&#xD;&#xA;&quot;Blood pressure&quot;, &quot;Full blood count&quot;, &quot;Chemistry panel&quot;."/>
+  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>

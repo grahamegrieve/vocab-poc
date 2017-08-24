@@ -38,54 +38,118 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <code value="PH"/>
     <display value="Telephone"/>
     <definition value="Telephone"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <code value="FX"/>
     <display value="Fax"/>
     <definition value="Fax"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <code value="MD"/>
     <display value="Modem"/>
     <definition value="Modem"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <code value="CP"/>
     <display value="Cellular or Mobile Phone"/>
     <definition value="Cellular or Mobile Phone"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <code value="SAT"/>
     <display value="Satellite Phone"/>
     <definition value="Satellite Phone"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <code value="BP"/>
     <display value="Beeper"/>
     <definition value="Beeper"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <code value="Internet"/>
     <display value="Internet Address"/>
     <definition value="Internet Address"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <code value="X.400"/>
     <display value="X.400 email address"/>
     <definition value="X.400 email address"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <code value="TDD"/>
     <display value="Telecommunications Device for the Deaf"/>
     <definition value="Telecommunications Device for the Deaf"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <code value="TTY"/>
     <display value="Teletypewriter"/>
     <definition value="Teletypewriter"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

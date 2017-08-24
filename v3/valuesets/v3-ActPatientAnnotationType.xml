@@ -42,7 +42,6 @@
   <description value="  Description:&#xD;&#xA;Provides a categorization for annotations recorded directly against the patient"/>
   <compose>
     <include>
-      <system value="urn:oid:"/>
       <filter>
         <property value="concept"/>
         <op value="is-a"/>

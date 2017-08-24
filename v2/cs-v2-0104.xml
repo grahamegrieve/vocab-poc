@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="InM"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading77"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.61"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="HL7"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0104"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,6 +45,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="September 1988"/>
@@ -43,6 +76,14 @@
     <code value="2.0"/>
     <display value="Release 2.0"/>
     <definition value="Release 2.0"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -51,6 +92,14 @@
     <code value="2.0D"/>
     <display value="Demo 2.0"/>
     <definition value="Demo 2.0"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -59,148 +108,218 @@
     <code value="2.1"/>
     <display value="Release 2.1"/>
     <definition value="Release 2.1"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="December 1994"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="2.2"/>
     <display value="Release 2.2"/>
     <definition value="Release 2.2"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="March 1997"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="2.3"/>
     <display value="Release 2.3"/>
     <definition value="Release 2.3"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="May 1999"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
     <code value="2.3.1"/>
     <display value="Release 2.3.1"/>
     <definition value="Release 2.3.1"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="2.3.2"/>
     <display value="Release 2.3.2"/>
     <definition value="Release 2.3.2"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="November 2000"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="2.4"/>
     <display value="Release 2.4"/>
     <definition value="Release 2.4"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="May 2003"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="2.5"/>
     <display value="Release 2.5"/>
     <definition value="Release 2.5"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="January 2007"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5.1"/>
-    </extension>
     <code value="2.5.1"/>
     <display value="Release 2.5.1"/>
     <definition value="Release 2.5.1"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="July 2007"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="2.6"/>
     <display value="Release 2.6"/>
     <definition value="Release 2.6"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="November 2010"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.7"/>
-    </extension>
     <code value="2.7"/>
     <display value="Release 2.7"/>
     <definition value="Release 2.7"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.7"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="July 2012"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.7.1"/>
-    </extension>
     <code value="2.7.1"/>
     <display value="Release 2.7.1"/>
     <definition value="Release 2.7.1"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.7.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="February 2014"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="2.8"/>
     <display value="Release 2.8"/>
     <definition value="Release 2.8"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="April 2014"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8.1"/>
-    </extension>
     <code value="2.8.1"/>
     <display value="Release 2.8.1"/>
     <definition value="Release 2.8.1"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="May 2015"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8.2"/>
-    </extension>
     <code value="2.8.2"/>
     <display value="Release 2.8.2"/>
     <definition value="Release 2.8.2"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="With highest priority"/>
@@ -48,6 +72,10 @@
     <code value="S"/>
     <display value="Stat"/>
     <definition value="Stat"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="A"/>
     <display value="ASAP"/>
     <definition value="ASAP"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,16 +96,28 @@
     <code value="R"/>
     <display value="Routine"/>
     <definition value="Routine"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <code value="P"/>
     <display value="Preop"/>
     <definition value="Preop"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <code value="C"/>
     <display value="Callback"/>
     <definition value="Callback"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -82,6 +126,10 @@
     <code value="T"/>
     <display value="Timing critical"/>
     <definition value="Timing critical"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -90,6 +138,10 @@
     <code value="TS&lt;integer&gt;"/>
     <display value="Timing critical within &lt;integer&gt; seconds."/>
     <definition value="Timing critical within &lt;integer&gt; seconds."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -98,6 +150,10 @@
     <code value="TM&lt;integer&gt;"/>
     <display value="Timing critical within &lt;integer&gt; minutes."/>
     <definition value="Timing critical within &lt;integer&gt; minutes."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -106,6 +162,10 @@
     <code value="TH&lt;integer&gt;"/>
     <display value="Timing critical within &lt;integer&gt; hours."/>
     <definition value="Timing critical within &lt;integer&gt; hours."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -114,6 +174,10 @@
     <code value="TD&lt;integer&gt;"/>
     <display value="Timing critical within &lt;integer&gt; days."/>
     <definition value="Timing critical within &lt;integer&gt; days."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -122,6 +186,10 @@
     <code value="TW&lt;integer&gt;"/>
     <display value="Timing critical within &lt;integer&gt; weeks."/>
     <definition value="Timing critical within &lt;integer&gt; weeks."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -130,10 +198,18 @@
     <code value="TL&lt;integer&gt;"/>
     <display value="Timing critical within &lt;integer&gt; months."/>
     <definition value="Timing critical within &lt;integer&gt; months."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="13">
     <code value="PRN"/>
     <display value="As needed"/>
     <definition value="As needed"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

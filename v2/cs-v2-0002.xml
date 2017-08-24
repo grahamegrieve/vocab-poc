@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="PA"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading18"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.2"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0002"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,117 +45,236 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <code value="A"/>
     <display value="Separated"/>
     <definition value="Separated"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <code value="D"/>
     <display value="Divorced"/>
     <definition value="Divorced"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <code value="M"/>
     <display value="Married"/>
     <definition value="Married"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <code value="S"/>
     <display value="Single"/>
     <definition value="Single"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <code value="W"/>
     <display value="Widowed"/>
     <definition value="Widowed"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="C"/>
     <display value="Common law"/>
     <definition value="Common law"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="G"/>
     <display value="Living together"/>
     <definition value="Living together"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="P"/>
     <display value="Domestic partner"/>
     <definition value="Domestic partner"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="R"/>
     <display value="Registered domestic partner"/>
     <definition value="Registered domestic partner"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="E"/>
     <display value="Legally Separated"/>
     <definition value="Legally Separated"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="N"/>
     <display value="Annulled"/>
     <definition value="Annulled"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="I"/>
     <display value="Interlocutory"/>
     <definition value="Interlocutory"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="B"/>
     <display value="Unmarried"/>
     <definition value="Unmarried"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="O"/>
     <display value="Other"/>
     <definition value="Other"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.4"/>
-    </extension>
     <code value="T"/>
     <display value="Unreported"/>
     <definition value="Unreported"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.4"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

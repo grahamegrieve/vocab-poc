@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="FM"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading478"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.462"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0555"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,99 +45,173 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="FS"/>
     <display value="Fee for Service"/>
     <definition value="Fee for Service"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="SS"/>
     <display value="By Session"/>
     <definition value="By Session"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="GP"/>
     <display value="Group"/>
     <definition value="Group"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="BK"/>
     <display value="Block"/>
     <definition value="Block"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="SL"/>
     <display value="Salary"/>
     <definition value="Salary"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Payee information not required for this Invoice Type"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="IN"/>
     <display value="Information Only"/>
     <definition value="Information Only"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Invoice without a patient.  E.g. bulk invoicing for Pharmacy for a care facility."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="NP"/>
     <display value="Non Patient"/>
     <definition value="Non Patient"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Final Invoice"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="FN"/>
     <display value="Final"/>
     <definition value="Final"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Partial Invoice"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="PA"/>
     <display value="Partial"/>
     <definition value="Partial"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Supplemental Invoice"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="SU"/>
     <display value="Supplemental"/>
     <definition value="Supplemental"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

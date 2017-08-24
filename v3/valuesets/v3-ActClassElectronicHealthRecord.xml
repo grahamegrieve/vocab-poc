@@ -42,6 +42,7 @@
   <status value="active"/>
   <date value="2014-03-26"/>
   <description value=" A context that comprises all compositions. The EHR is an extract that includes the entire chart.  NOTE:&#xD;&#xA;In an exchange scenario, an EHR is a specialization of an extract."/>
+  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActClass"/>

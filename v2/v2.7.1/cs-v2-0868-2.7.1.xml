@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The individual associated with the telecommunication address has moved and is no longer reachable at the address."/>
@@ -48,6 +72,10 @@
     <code value="M"/>
     <display value="Moved"/>
     <definition value="Moved"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="E"/>
     <display value="Added in error"/>
     <definition value="Added in error"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,6 +96,10 @@
     <code value="R"/>
     <display value="On request"/>
     <definition value="On request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -72,6 +108,10 @@
     <code value="C"/>
     <display value="Corrected"/>
     <definition value="Corrected"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -80,5 +120,9 @@
     <code value="N"/>
     <display value="No longer in service"/>
     <definition value="No longer in service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

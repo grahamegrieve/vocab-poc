@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="OO"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading419"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.403"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="HL7"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0490"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,116 +45,210 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="EX"/>
     <display value="Expired"/>
     <definition value="Expired"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="QS"/>
     <display value="Quantity not sufficient"/>
     <definition value="Quantity not sufficient"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RB"/>
     <display value="Broken container"/>
     <definition value="Broken container"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RC"/>
     <display value="Clotting"/>
     <definition value="Clotting"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RD"/>
     <display value="Missing collection date"/>
     <definition value="Missing collection date"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RA"/>
     <display value="Missing patient ID number"/>
     <definition value="Missing patient ID number"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RE"/>
     <display value="Missing patient name"/>
     <definition value="Missing patient name"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RH"/>
     <display value="Hemolysis"/>
     <definition value="Hemolysis"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RI"/>
     <display value="Identification problem"/>
     <definition value="Identification problem"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RM"/>
     <display value="Labeling"/>
     <definition value="Labeling"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RN"/>
     <display value="Contamination"/>
     <definition value="Contamination"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RP"/>
     <display value="Missing phlebotomist ID"/>
     <definition value="Missing phlebotomist ID"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RR"/>
     <display value="Improper storage"/>
     <definition value="Improper storage"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5"/>
-    </extension>
     <code value="RS"/>
     <display value="Name misspelling"/>
     <definition value="Name misspelling"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -21,7 +21,7 @@
   </identifier>
   <version value="4"/>
   <name value="V2Table0078v2.9"/>
-  <title value="V2 Table: Abnormal Flags"/>
+  <title value="V2 Table: Interpretation Codes"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2016-03-11"/>
@@ -33,7 +33,7 @@
     </telecom>
   </contact>
   <description value="HL7-defined code system of concepts which specify a categorical assessment of an observation value.  Used in HL7 Version 2.x messaging in the OBX segment."/>
-  <purpose value="Underlying Code System for V2 table 0078 (Abnormal Flags, version 2.9)"/>
+  <purpose value="Underlying Code System for V2 table 0078 (Interpretation Codes, version 2.9)"/>
   <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
   <caseSensitive value="true"/>
   <valueSet value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/v2-0078-2.9"/>
@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="The result is below the minimum detection limit (the test procedure or equipment is the limiting factor).&lt;p&gt;Synonyms: Below analytical limit, low off scale"/>
@@ -48,6 +72,10 @@
     <code value="&lt;"/>
     <display value="Off scale low"/>
     <definition value="Off scale low"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="&gt;"/>
     <display value="Off scale high"/>
     <definition value="Off scale high"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,6 +96,10 @@
     <code value="A"/>
     <display value="Abnormal"/>
     <definition value="Abnormal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -72,6 +108,10 @@
     <code value="AA"/>
     <display value="Critically abnormal"/>
     <definition value="Critically abnormal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -80,6 +120,10 @@
     <code value="AC"/>
     <display value="Anti-complementary substances present"/>
     <definition value="Anti-complementary substances present"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -88,16 +132,28 @@
     <code value="B"/>
     <display value="Better"/>
     <definition value="Better"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <code value="CAR"/>
     <display value="Carrier"/>
     <definition value="Carrier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <code value="Carrier"/>
     <display value="Carrier"/>
     <definition value="Carrier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -106,6 +162,10 @@
     <code value="D"/>
     <display value="Significant change down"/>
     <definition value="Significant change down"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -114,11 +174,19 @@
     <code value="DET"/>
     <display value="Detected"/>
     <definition value="Detected"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <code value="EXP"/>
     <display value="Expected"/>
     <definition value="Expected"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -127,11 +195,19 @@
     <code value="H"/>
     <display value="High"/>
     <definition value="High"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <code value="H&gt;"/>
     <display value="Significantly high"/>
     <definition value="Significantly high"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -140,6 +216,10 @@
     <code value="HH"/>
     <display value="Critically high"/>
     <definition value="Critically high"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -148,6 +228,10 @@
     <code value="HM"/>
     <display value="Hold for Medical Review"/>
     <definition value="Hold for Medical Review"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -156,6 +240,10 @@
     <code value="HU"/>
     <display value="Very high"/>
     <definition value="Very high"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -164,6 +252,10 @@
     <code value="I"/>
     <display value="Intermediate"/>
     <definition value="Intermediate"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -172,6 +264,10 @@
     <code value="IE"/>
     <display value="Insufficient evidence"/>
     <definition value="Insufficient evidence"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -180,6 +276,10 @@
     <code value="IND"/>
     <display value="Indeterminate"/>
     <definition value="Indeterminate"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -188,11 +288,19 @@
     <code value="L"/>
     <display value="Low"/>
     <definition value="Low"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
     <code value="L&lt;"/>
     <display value="Significantly low"/>
     <definition value="Significantly low"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -201,6 +309,10 @@
     <code value="LL"/>
     <display value="Critically low"/>
     <definition value="Critically low"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -209,6 +321,10 @@
     <code value="LU"/>
     <display value="Very low"/>
     <definition value="Very low"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -217,6 +333,10 @@
     <code value="MS"/>
     <display value="Moderately susceptible. Indicates for microbiology susceptibilities only."/>
     <definition value="Moderately susceptible. Indicates for microbiology susceptibilities only."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -225,6 +345,10 @@
     <code value="N"/>
     <display value="Normal"/>
     <definition value="Normal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -233,6 +357,10 @@
     <code value="ND"/>
     <display value="Not Detected"/>
     <definition value="Not Detected"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -241,6 +369,10 @@
     <code value="NEG"/>
     <display value="Negative"/>
     <definition value="Negative"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -249,6 +381,10 @@
     <code value="NR"/>
     <display value="Non-reactive"/>
     <definition value="Non-reactive"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -257,6 +393,10 @@
     <code value="NS"/>
     <display value="Non-susceptible"/>
     <definition value="Non-susceptible"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -265,6 +405,10 @@
     <code value="null"/>
     <display value="No range defined, or normal ranges don&#39;t apply"/>
     <definition value="No range defined, or normal ranges don&#39;t apply"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -273,6 +417,10 @@
     <code value="OBX"/>
     <display value="Interpretation qualifiers in separate OBX segments"/>
     <definition value="Interpretation qualifiers in separate OBX segments"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -281,6 +429,10 @@
     <code value="POS"/>
     <display value="Positive"/>
     <definition value="Positive"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -289,6 +441,10 @@
     <code value="QCF"/>
     <display value="Quality Control Failure"/>
     <definition value="Quality Control Failure"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -297,6 +453,10 @@
     <code value="R"/>
     <display value="Resistant"/>
     <definition value="Resistant"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -305,6 +465,10 @@
     <code value="RR"/>
     <display value="Reactive"/>
     <definition value="Reactive"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -313,6 +477,10 @@
     <code value="S"/>
     <display value="Susceptible"/>
     <definition value="Susceptible"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -321,6 +489,10 @@
     <code value="SDD"/>
     <display value="Susceptible-dose dependent"/>
     <definition value="Susceptible-dose dependent"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -329,6 +501,10 @@
     <code value="SYN-R"/>
     <display value="Synergy - resistant"/>
     <definition value="Synergy - resistant"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -337,6 +513,10 @@
     <code value="SYN-S"/>
     <display value="Synergy - susceptible"/>
     <definition value="Synergy - susceptible"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="40">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -345,6 +525,10 @@
     <code value="TOX"/>
     <display value="Cytotoxic substance present"/>
     <definition value="Cytotoxic substance present"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="41">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -353,11 +537,19 @@
     <code value="U"/>
     <display value="Significant change up"/>
     <definition value="Significant change up"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="42">
     <code value="UNE"/>
     <display value="Unexpected"/>
     <definition value="Unexpected"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="43">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -366,6 +558,10 @@
     <code value="VS"/>
     <display value="Very susceptible. Indicates for microbiology susceptibilities only."/>
     <definition value="Very susceptible. Indicates for microbiology susceptibilities only."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="44">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -374,6 +570,10 @@
     <code value="W"/>
     <display value="Worse"/>
     <definition value="Worse"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -382,5 +582,9 @@
     <code value="WR"/>
     <display value="Weakly reactive"/>
     <definition value="Weakly reactive"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

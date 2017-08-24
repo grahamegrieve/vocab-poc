@@ -41,39 +41,91 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <code value="Y"/>
     <display value="Yes, patient is a documented donor and documentation is on file"/>
     <definition value="Yes, patient is a documented donor and documentation is on file"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <code value="F"/>
     <display value="Yes, patient is a documented donor, but documentation is not on file"/>
     <definition value="Yes, patient is a documented donor, but documentation is not on file"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <code value="N"/>
     <display value="No, patient has not agreed to be a donor"/>
     <definition value="No, patient has not agreed to be a donor"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <code value="I"/>
     <display value="No, patient is not a documented donor, but information was provided"/>
     <definition value="No, patient is not a documented donor, but information was provided"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <code value="R"/>
     <display value="Patient leaves organ donation decision to relatives"/>
     <definition value="Patient leaves organ donation decision to relatives"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <code value="P"/>
     <display value="Patient leaves organ donation decision to a specific person"/>
     <definition value="Patient leaves organ donation decision to a specific person"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

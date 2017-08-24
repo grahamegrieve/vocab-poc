@@ -37,6 +37,7 @@
   <status value="active"/>
   <date value="2014-03-26"/>
   <description value=" Reference ranges are essentially descriptors of a class of result values assumed to be &quot;normal&quot;, &quot;abnormal&quot;, or &quot;critical.&quot;  Those can vary by sex, age, or any other criterion. Source and target are observations, the target is in criterion mood.  This link type can act as a trigger in case of alarms being triggered by critical results."/>
+  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipType"/>

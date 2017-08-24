@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A name assigned to a person. Reasons some organizations assign alternate names may include not knowing the person&#39;s name, or to maintain anonymity. Some, but not necessarily all, of the name types that people call &quot;alias&quot; may fit into this category."/>
@@ -48,6 +72,10 @@
     <code value="A"/>
     <display value="Assigned"/>
     <definition value="Assigned"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="B"/>
     <display value="Birth name"/>
     <definition value="Birth name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,6 +96,10 @@
     <code value="BAD"/>
     <display value="Bad Name"/>
     <definition value="Bad Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -72,6 +108,10 @@
     <code value="C"/>
     <display value="Adopted Name"/>
     <definition value="Adopted Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -80,6 +120,10 @@
     <code value="D"/>
     <display value="Customary Name"/>
     <definition value="Customary Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -88,11 +132,19 @@
     <code value="F"/>
     <display value="Fathers Name"/>
     <definition value="Fathers Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <code value="I"/>
     <display value="Licensing Name"/>
     <definition value="Licensing Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -101,6 +153,10 @@
     <code value="K"/>
     <display value="Business name"/>
     <definition value="Business name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -109,6 +165,10 @@
     <code value="L"/>
     <display value="Official Registry Name"/>
     <definition value="Official Registry Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -117,6 +177,10 @@
     <code value="M"/>
     <display value="Maiden Name"/>
     <definition value="Maiden Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -125,6 +189,10 @@
     <code value="MSK"/>
     <display value="Masked"/>
     <definition value="Masked"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -133,6 +201,10 @@
     <code value="N"/>
     <display value="Nickname"/>
     <definition value="Nickname"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -141,6 +213,10 @@
     <code value="NAV"/>
     <display value="Temporarily Unavailable"/>
     <definition value="Temporarily Unavailable"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -149,6 +225,10 @@
     <code value="NB"/>
     <display value="Newborn Name"/>
     <definition value="Newborn Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -157,6 +237,10 @@
     <code value="NOUSE"/>
     <display value="No Longer To Be Used"/>
     <definition value="No Longer To Be Used"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -165,6 +249,10 @@
     <code value="P"/>
     <display value="Name of Partner/Spouse"/>
     <definition value="Name of Partner/Spouse"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -173,6 +261,10 @@
     <code value="R"/>
     <display value="Registered Name"/>
     <definition value="Registered Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -181,6 +273,10 @@
     <code value="REL"/>
     <display value="Religious"/>
     <definition value="Religious"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -189,6 +285,10 @@
     <code value="S"/>
     <display value="Pseudonym"/>
     <definition value="Pseudonym"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -197,6 +297,10 @@
     <code value="T"/>
     <display value="Indigenous/Tribal"/>
     <definition value="Indigenous/Tribal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -205,6 +309,10 @@
     <code value="TEMP"/>
     <display value="Temporary Name"/>
     <definition value="Temporary Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="22">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -213,5 +321,9 @@
     <code value="U"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

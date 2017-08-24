@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="OO"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading126"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.110"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0165"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,124 +45,223 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="CH"/>
     <display value="Chew"/>
     <definition value="Chew"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="DI"/>
     <display value="Dissolve"/>
     <definition value="Dissolve"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="DU"/>
     <display value="Dust"/>
     <definition value="Dust"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="IF"/>
     <display value="Infiltrate"/>
     <definition value="Infiltrate"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="IS"/>
     <display value="Insert"/>
     <definition value="Insert"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="IR"/>
     <display value="Irrigate"/>
     <definition value="Irrigate"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="IVPB"/>
     <display value="IV Piggyback"/>
     <definition value="IV Piggyback"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="IVP"/>
     <display value="IV Push"/>
     <definition value="IV Push"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="NB"/>
     <display value="Nebulized"/>
     <definition value="Nebulized"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="PT"/>
     <display value="Paint"/>
     <definition value="Paint"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="PF"/>
     <display value="Perfuse"/>
     <definition value="Perfuse"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="SH"/>
     <display value="Shampoo"/>
     <definition value="Shampoo"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="SO"/>
     <display value="Soak"/>
     <definition value="Soak"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="WA"/>
     <display value="Wash"/>
     <definition value="Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.2"/>
-    </extension>
     <code value="WI"/>
     <display value="Wipe"/>
     <definition value="Wipe"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.2"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

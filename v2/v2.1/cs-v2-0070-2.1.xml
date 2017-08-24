@@ -32,149 +32,289 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="0">
     <code value="BLD"/>
     <display value="Blood"/>
     <definition value="Blood"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="BON"/>
     <display value="Bone"/>
     <definition value="Bone"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="BRN"/>
     <display value="Burn"/>
     <definition value="Burn"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="CNJT"/>
     <display value="Conjunctiva"/>
     <definition value="Conjunctiva"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="CSF"/>
     <display value="Cerebral spinal fluid"/>
     <definition value="Cerebral spinal fluid"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="CVX"/>
     <display value="Cervix"/>
     <definition value="Cervix"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="EAR"/>
     <display value="Ear"/>
     <definition value="Ear"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="FIB"/>
     <display value="Fibroblood"/>
     <definition value="Fibroblood"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="HAR"/>
     <display value="Hair"/>
     <definition value="Hair"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="MN"/>
     <display value="Amniotic Fluid"/>
     <definition value="Amniotic Fluid"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="NOS"/>
     <display value="Nose"/>
     <definition value="Nose"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="OTH"/>
     <display value="Other"/>
     <definition value="Other"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="PLAS"/>
     <display value="Plasma"/>
     <definition value="Plasma"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="PRT"/>
     <display value="Peritoneal Fluid"/>
     <definition value="Peritoneal Fluid"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="RBC"/>
     <display value="Erythrocytes"/>
     <definition value="Erythrocytes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="SAL"/>
     <display value="Saliva"/>
     <definition value="Saliva"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="SEM"/>
     <display value="Seminal Fluid"/>
     <definition value="Seminal Fluid"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="SER"/>
     <display value="Serum"/>
     <definition value="Serum"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="SKN"/>
     <display value="Skin"/>
     <definition value="Skin"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="SNV"/>
     <display value="Synovial Fluid"/>
     <definition value="Synovial Fluid"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="STL"/>
     <display value="Stool"/>
     <definition value="Stool"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="SWT"/>
     <display value="Sweat"/>
     <definition value="Sweat"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="THRT"/>
     <display value="Throat"/>
     <definition value="Throat"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="TIS"/>
     <display value="Tissue"/>
     <definition value="Tissue"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="UMB"/>
     <display value="Umbilical Blood"/>
     <definition value="Umbilical Blood"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="UR"/>
     <display value="Urine"/>
     <definition value="Urine"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="URTH"/>
     <display value="Urethra"/>
     <definition value="Urethra"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="WBC"/>
     <display value="Leukocytes"/>
     <definition value="Leukocytes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="WND"/>
     <display value="Wound"/>
     <definition value="Wound"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="InM/FM"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading292"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.276"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="Externally defined"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0350"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,870 +45,1363 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="01"/>
     <display value="Auto accident"/>
     <definition value="Auto accident"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.5.1"/>
-    </extension>
     <code value="..."/>
     <display value="Use NUBC codes"/>
     <definition value="Use NUBC codes"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.5.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.7.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="&#x2026;"/>
     <display value="Use NUBC codes"/>
     <definition value="Use NUBC codes"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.7.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="02"/>
     <display value="No fault insurance involved-including auto accident/other"/>
     <definition value="No fault insurance involved-including auto accident/other"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="03"/>
     <display value="Accident/tort liability"/>
     <definition value="Accident/tort liability"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="04"/>
     <display value="Accident/employment related"/>
     <definition value="Accident/employment related"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="05"/>
     <display value="Other accident"/>
     <definition value="Other accident"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="06"/>
     <display value="Crime victim"/>
     <definition value="Crime victim"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="09"/>
     <display value="Start of infertility treatment cycle"/>
     <definition value="Start of infertility treatment cycle"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="10"/>
     <display value="Last menstrual period"/>
     <definition value="Last menstrual period"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="11"/>
     <display value="Onset of symptoms/illness"/>
     <definition value="Onset of symptoms/illness"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="12"/>
     <display value="Date of onset for a chronically dependent individual"/>
     <definition value="Date of onset for a chronically dependent individual"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="17"/>
     <display value="Date outpatient occupational therapy plan established or last reviewed"/>
     <definition value="Date outpatient occupational therapy plan established or last reviewed"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="18"/>
     <display value="Date of retirement patient/beneficiary"/>
     <definition value="Date of retirement patient/beneficiary"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="19"/>
     <display value="Date of retirement spouse"/>
     <definition value="Date of retirement spouse"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="20"/>
     <display value="Guarantee of payment began"/>
     <definition value="Guarantee of payment began"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="21"/>
     <display value="UR notice received"/>
     <definition value="UR notice received"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="22"/>
     <display value="Date active care ended"/>
     <definition value="Date active care ended"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="24"/>
     <display value="Date insurance denied"/>
     <definition value="Date insurance denied"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="25"/>
     <display value="Date benefits terminated by primary payor"/>
     <definition value="Date benefits terminated by primary payor"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="26"/>
     <display value="Date SNF bed available"/>
     <definition value="Date SNF bed available"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="27"/>
     <display value="Date home health plan established"/>
     <definition value="Date home health plan established"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="28"/>
     <display value="Spouse&#39;s date of birth"/>
     <definition value="Spouse&#39;s date of birth"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="22">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="29"/>
     <display value="Date outpatient physical therapy plan established or last reviewed"/>
     <definition value="Date outpatient physical therapy plan established or last reviewed"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="23">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="30"/>
     <display value="Date outpatient speech pathology plan established or last reviewed"/>
     <definition value="Date outpatient speech pathology plan established or last reviewed"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="24">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="31"/>
     <display value="Date beneficiary notified of intent to bill (accommodations)"/>
     <definition value="Date beneficiary notified of intent to bill (accommodations)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="25">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="32"/>
     <display value="Date beneficiary notified of intent to bill (procedures or treatments)"/>
     <definition value="Date beneficiary notified of intent to bill (procedures or treatments)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="33"/>
     <display value="First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP"/>
     <definition value="First day of the Medicare coordination period for ESRD beneficiaries covered by EGHP"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="34"/>
     <display value="Date of election of extended care facilities"/>
     <definition value="Date of election of extended care facilities"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="35"/>
     <display value="Date treatment started for P.T."/>
     <definition value="Date treatment started for P.T."/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="36"/>
     <display value="Date of inpatient hospital discharge for covered transplant patients"/>
     <definition value="Date of inpatient hospital discharge for covered transplant patients"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="37"/>
     <display value="Date of inpatient hospital discharge for non-covered transplant patient"/>
     <definition value="Date of inpatient hospital discharge for non-covered transplant patient"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="31">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="40"/>
     <display value="Scheduled date of admission"/>
     <definition value="Scheduled date of admission"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="32">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="41"/>
     <display value="Date of first test for pre-admission testing"/>
     <definition value="Date of first test for pre-admission testing"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="33">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="42"/>
     <display value="Date of discharge"/>
     <definition value="Date of discharge"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="34">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="43"/>
     <display value="Scheduled date of canceled surgery"/>
     <definition value="Scheduled date of canceled surgery"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="35">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="44"/>
     <display value="Date treatment started for O.T."/>
     <definition value="Date treatment started for O.T."/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="36">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="45"/>
     <display value="Date treatment started for S.T."/>
     <definition value="Date treatment started for S.T."/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="37">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="46"/>
     <display value="Date treatment started for cardiac rehab."/>
     <definition value="Date treatment started for cardiac rehab."/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="47"/>
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="47 ... 49"/>
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="38">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="48"/>
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="49"/>
     <display value="Payer codes"/>
     <definition value="Payer codes"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="39">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="50"/>
     <display value="Date lien released"/>
     <definition value="Date lien released"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="40">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="51"/>
     <display value="Date treatment started for psychiatric care"/>
     <definition value="Date treatment started for psychiatric care"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="70"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="70 ... 99"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="71"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="72"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="73"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="74"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="75"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="76"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="77"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="78"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="79"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="80"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="81"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="82"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="83"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="84"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="85"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="86"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="87"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="88"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="89"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="90"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="91"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="92"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="93"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="94"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="95"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="96"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="97"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="98"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="41">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="99"/>
     <display value="Occurrence span codes and dates"/>
     <definition value="Occurrence span codes and dates"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="42">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="A1"/>
     <display value="Birthdate - insured A"/>
     <definition value="Birthdate - insured A"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="43">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="A2"/>
     <display value="Effective date - insured A policy"/>
     <definition value="Effective date - insured A policy"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="44">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionDeprecated">
-      <valueString value="2.9"/>
-    </extension>
     <code value="A3"/>
     <display value="Benefits exhausted payer A"/>
     <definition value="Benefits exhausted payer A"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="deprecated"/>
+      <valueCode value="2.9"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

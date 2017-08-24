@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="OO"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading509"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.493"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0702"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,305 +45,489 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Used to quickly sterilize instruments that were dropped during surgery."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="FLS"/>
     <display value="Flash"/>
     <definition value="Flash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A prevac cycle is vacuum assisted."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="PRV"/>
     <display value="Prevac"/>
     <definition value="Prevac"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A gravity cycle is executed at atmospheric pressure."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="GRV"/>
     <display value="Gravity"/>
     <definition value="Gravity"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A cycle specific to sterilizing liquids."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="LQD"/>
     <display value="Liquid"/>
     <definition value="Liquid"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="An express cycle is similar to a flash cycle but the supply item is wrapped."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="EXP"/>
     <display value="Express"/>
     <definition value="Express"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A dart cycle is a special cycle used to test the integrity of the sterilizer chamber to hold a vacuum."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="DRT"/>
     <display value="Dart"/>
     <definition value="Dart"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A dart warm-up cycle is used to bring the sterilizer chamber up to operating temperature in order to run a dart test cycle."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="DRW"/>
     <display value="Dart Warm-up Cycle"/>
     <definition value="Dart Warm-up Cycle"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="THR"/>
     <display value="Thermal"/>
     <definition value="Thermal"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="ISO"/>
     <display value="Isothermal"/>
     <definition value="Isothermal"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A Bowie-Dick test cycle is a special cycle used to test the integrity of the sterilizer chamber to hold a vacuum."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="BWD"/>
     <display value="Bowie-Dick Test"/>
     <definition value="Bowie-Dick Test"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A leak test cycle tests the integrity of the sterilizer chamber to hold a vacuum over a specific period of time."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="LKT"/>
     <display value="Leak Test"/>
     <definition value="Leak Test"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A Wrap/SFPP cycle uses steam pulses instead of a vacuum during the conditioning phase of the cycle when the supply item is unwrapped."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="WFP"/>
     <display value="Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)"/>
     <definition value="Wrap/Steam Flush Pressure Pulse (Wrap/SFPP)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="An SFPP cycle uses steam pulses instead of a vacuum during the conditioning phase of the cycle when the supply item is wrapped."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="SFP"/>
     <display value="Steam Flush Pressure Pulse"/>
     <definition value="Steam Flush Pressure Pulse"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A chemical wash cycle."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="CMW"/>
     <display value="Chemical Wash"/>
     <definition value="Chemical Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="A peracetic acid cycle."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="PEA"/>
     <display value="Peracetic Acid"/>
     <definition value="Peracetic Acid"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="EOH"/>
     <display value="EO High Temperature"/>
     <definition value="EO High Temperature"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="EOL"/>
     <display value="EO Low Temperature"/>
     <definition value="EO Low Temperature"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="CRT"/>
     <display value="Cart Wash"/>
     <definition value="Cart Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="UTL"/>
     <display value="Utensil Wash"/>
     <definition value="Utensil Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="IST"/>
     <display value="Instrument Wash"/>
     <definition value="Instrument Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="GLS"/>
     <display value="Glassware"/>
     <definition value="Glassware"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="22">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="PLA"/>
     <display value="Plastic Goods Wash"/>
     <definition value="Plastic Goods Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="23">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Special Wash cycle"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="ANR"/>
     <display value="Anesthesia/Respiratory"/>
     <definition value="Anesthesia/Respiratory"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="24">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="GTL"/>
     <display value="Gentle"/>
     <definition value="Gentle"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Any Optional Wash cycle"/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="OPW"/>
     <display value="Optional Wash"/>
     <definition value="Optional Wash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="BDP"/>
     <display value="Bedpans"/>
     <definition value="Bedpans"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="TRB"/>
     <display value="Tray/Basin"/>
     <definition value="Tray/Basin"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="GNP"/>
     <display value="Gen. Purpose"/>
     <definition value="Gen. Purpose"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="COD"/>
     <display value="Code"/>
     <definition value="Code"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="RNS"/>
     <display value="Rinse"/>
     <definition value="Rinse"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="31">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="2RS"/>
     <display value="Second Rinse"/>
     <definition value="Second Rinse"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="32">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.6"/>
-    </extension>
     <code value="DEC"/>
     <display value="Decontamination"/>
     <definition value="Decontamination"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.6"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -35,69 +35,145 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="0">
     <code value="8859/1"/>
     <display value="The printable characters from the ISO 8859/1 Character set"/>
     <definition value="The printable characters from the ISO 8859/1 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/2"/>
     <display value="The printable characters from the ISO 8859/2 Character set"/>
     <definition value="The printable characters from the ISO 8859/2 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/3"/>
     <display value="The printable characters from the ISO 8859/3 Character set"/>
     <definition value="The printable characters from the ISO 8859/3 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/4"/>
     <display value="The printable characters from the ISO 8859/4 Character set"/>
     <definition value="The printable characters from the ISO 8859/4 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/5"/>
     <display value="The printable characters from the ISO 8859/5 Character set"/>
     <definition value="The printable characters from the ISO 8859/5 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/6"/>
     <display value="The printable characters from the ISO 8859/6 Character set"/>
     <definition value="The printable characters from the ISO 8859/6 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/7"/>
     <display value="The printable characters from the ISO 8859/7 Character set"/>
     <definition value="The printable characters from the ISO 8859/7 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/8"/>
     <display value="The printable characters from the ISO 8859/8 Character set"/>
     <definition value="The printable characters from the ISO 8859/8 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="8859/9"/>
     <display value="The printable characters from the ISO 8859/9 Character set"/>
     <definition value="The printable characters from the ISO 8859/9 Character set"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="ASCII"/>
     <display value="The printable 7-bit ASCII character set . (This is the default if this field is omitted)"/>
     <definition value="The printable 7-bit ASCII character set . (This is the default if this field is omitted)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="JAS2020"/>
     <display value="A subset of ISO2020 used for most Kanjii transmissions"/>
     <definition value="A subset of ISO2020 used for most Kanjii transmissions"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="JIS X 0202"/>
     <display value="ISO 2022 with escape sequences for Kanjii"/>
     <definition value="ISO 2022 with escape sequences for Kanjii"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="0">
     <code value="UNICODE"/>
     <display value="&lt;needs document reference&gt;"/>
     <definition value="&lt;needs document reference&gt;"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

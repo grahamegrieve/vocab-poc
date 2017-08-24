@@ -37,6 +37,7 @@
   <status value="active"/>
   <date value="2014-03-26"/>
   <description value=" A branch is executed if its associated preconditions permit. If associated preconditions do not permit, the branch is dropped.  Inclusive branches are not suppressed and do not suppress other branches."/>
+  <immutable value="true"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-ActRelationshipSplit"/>

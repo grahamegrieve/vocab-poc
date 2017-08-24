@@ -2,7 +2,7 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="conceptdomains"/>
-  <url value="http://hl7.org/fhir/ig/vocab-poc/ValueSet/conceptdomains"/>
+  <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/conceptdomains"/>
   <name value="ConceptDomains"/>
   <title value="Concept Domains"/>
   <status value="active"/>
@@ -7668,35 +7668,8 @@
     </property>
   </concept>
   <concept>
-    <code value="ChargingSystem"/>
-    <display value="CHARGING SYSTEM (0011)"/>
-    <definition value="The domain of possible values that specify a charging system. Not used after HL7 2.1.  No suggested values."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="StockLocation"/>
-    <display value="STOCK LOCATION (0012)"/>
-    <definition value="The domain of possible values that specify a stock location."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="ISOLATION"/>
-    <display value="ISOLATION (0016)"/>
-    <definition value="The domain of possible values that identify reasons for patient isolation. Not used after HL7 2.1."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="TransactionType"/>
-    <display value="Transaction type (0017)"/>
+    <display value="Transaction Type (0017)"/>
     <definition value="The domain of possible values for a type of financial transaction."/>
     <property>
       <code value="source"/>
@@ -7705,7 +7678,7 @@
   </concept>
   <concept>
     <code value="PatientType"/>
-    <display value="PATIENT TYPE (0018)"/>
+    <display value="Patient Type (0018)"/>
     <definition value="The domain of possible values for the patient type.  No suggested values."/>
     <property>
       <code value="source"/>
@@ -7768,35 +7741,8 @@
   </concept>
   <concept>
     <code value="Charge_PriceIndicator"/>
-    <display value="Charge Price Indicator (0032)"/>
+    <display value="Charge/Price Indicator (0032)"/>
     <definition value="The domain of possible values for which price schedule is to be used for room and bed charges.  No suggested values."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="ROUTE"/>
-    <display value="ROUTE (0033)"/>
-    <definition value="The domain of possible values that are used to indicate a means of administrating a medication dose."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="SiteAdminstered"/>
-    <display value="SITE ADMINISTERED (0034)"/>
-    <definition value="The domain of possible values that specify a location on the body where a dose is to be administered, e.g., IV, IM, Subcutaneous."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="UnitsOfMeasure"/>
-    <display value="UNITS OF MEASURE - ISO528,1977 (0036)"/>
-    <definition value="Units of measure abbreviations (pre-coordinated codes), derived from ISO528:1977."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -7831,7 +7777,7 @@
   </concept>
   <concept>
     <code value="ContractCode"/>
-    <display value="Contract code (0044)"/>
+    <display value="Contract Code (0044)"/>
     <definition value="The domain of possible values for the type of contract entered into by the healthcare facility and the guarantor for the purpose of settling outstanding account balances."/>
     <property>
       <code value="source"/>
@@ -7851,24 +7797,6 @@
     <code value="CreditRating"/>
     <display value="Credit Rating (0046)"/>
     <definition value="The domain of possible values for past credit experience."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="DangerCode"/>
-    <display value="DANGER CODE (0047)"/>
-    <definition value="The domain of possible actions to be taken with respect to the specimens that accompany or precede an order.  The purpose of these are to further qualify (when appropriate) the general action indicated by an order control code."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="WhatSubjectFilter"/>
-    <display value="What subject filter (0048)"/>
-    <definition value="The domain of possible values which specify the kind of information that is required to satisfy a query request.  The values define the type of transaction inquiry."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -7903,17 +7831,8 @@
   </concept>
   <concept>
     <code value="DiagnosisType"/>
-    <display value="Diagnosis type (0052)"/>
+    <display value="Diagnosis Type (0052)"/>
     <definition value="The domain of possible values that specify a type of diagnosis being sent."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="DiagnosisCodingMethod"/>
-    <display value="Diagnosis Coding Method (0053)"/>
-    <definition value="The domain of possible values specifying a diagnosis coding method."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -7938,27 +7857,9 @@
     </property>
   </concept>
   <concept>
-    <code value="Drug"/>
-    <display value="DRUG CODE (0057)"/>
-    <definition value="The domain of concepts which specify a categorical assessment of an observation value, such as &quot;Normal&quot;, &quot;Abnormal&quot;, &quot;Positive&quot;, &quot;Negative&quot;, &quot;Resistant&quot;, &quot;Susceptible&quot;, etc."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="ConsentCode"/>
     <display value="Consent Code (0059)"/>
     <definition value="The domain of possible values for the type of consent that was obtained for permission to treat the patient."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Error"/>
-    <display value="ERROR CODE (0060)"/>
-    <definition value="The domain of concepts that identify a messaging or interface error."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -7984,7 +7885,7 @@
   </concept>
   <concept>
     <code value="Relationship"/>
-    <display value="Contact Role (0063)"/>
+    <display value="Relationship (0063)"/>
     <definition value="The domain of possible values for an actual personal relationship that the next of kin/associated party has to a patient."/>
     <property>
       <code value="source"/>
@@ -8037,17 +7938,8 @@
     </property>
   </concept>
   <concept>
-    <code value="SpecimenSource"/>
-    <display value="Specimen Source Codes (0070)"/>
-    <definition value="The domain of possible values which specify sources for speciments for clinical testing.  These concepts are used in HL7 Version 2.x messaging in the OBR segment prior to version 2.7, and was replaced by the concepts in table 0487 Specimen Type and table 0488 Specimen Collection Method as of version 2.5 and thereafter."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="InsurancePlanId"/>
-    <display value="Type of payer (0072)"/>
+    <display value="Insurance Plan ID (0072)"/>
     <definition value="The domain of possible values for the identifier of an insurance plan with which a transaction should be associated."/>
     <property>
       <code value="source"/>
@@ -8073,15 +7965,6 @@
     </property>
   </concept>
   <concept>
-    <code value="ReportType"/>
-    <display value="REPORT TYPES (0075)"/>
-    <definition value="The domain of concepts of report types."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="MessageType"/>
     <display value="Message Type (0076)"/>
     <definition value="The domain of possible values for message types."/>
@@ -8092,17 +7975,8 @@
   </concept>
   <concept>
     <code value="InterpretationCodes"/>
-    <display value="Abnormal Flags (0078)"/>
+    <display value="Interpretation Codes (0078)"/>
     <definition value="The domain of possible values for a categorical assessment of an observation value."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Location"/>
-    <display value="Location (0079)"/>
-    <definition value="The domain of possible values that identify a bed location."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8112,15 +7986,6 @@
     <code value="NatureOfAbnormalTesting"/>
     <display value="Nature of Abnormal Testing (0080)"/>
     <definition value="The domain of possible values for the nature of an abnormal test."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="NoticeOfAdmission"/>
-    <display value="NOTICE OF ADMISSION (0081)"/>
-    <definition value="The domain of concepts which are used to specify the source of a comment."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8155,7 +8020,7 @@
   </concept>
   <concept>
     <code value="PlanId"/>
-    <display value="Plan Id (0086)"/>
+    <display value="Plan ID (0086)"/>
     <definition value="The domain of possible values for the coding structure that identifies the various plan types (i.e., Medicare, Medicaid, Blue Cross, HMO, etc.)."/>
     <property>
       <code value="source"/>
@@ -8164,7 +8029,7 @@
   </concept>
   <concept>
     <code value="Pre-admitTestIndicator"/>
-    <display value="Pre-admit test indicator (0087)"/>
+    <display value="Pre-Admit Test Indicator (0087)"/>
     <definition value="The domain of possible values for whether the patient must have pre-admission testing done in order to be admitted."/>
     <property>
       <code value="source"/>
@@ -8175,24 +8040,6 @@
     <code value="ProcedureCode"/>
     <display value="Procedure Code (0088)"/>
     <definition value="The domain of possible values for a unique identifier assigned to a procedure, if any, associated with a charge."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="ProcedureCodingMethod"/>
-    <display value="Procedure Coding Method (0089)"/>
-    <definition value="The domain of possible values that specify the methodology used to assign a code to a procedure (CPT4, for example).  Used for backwards-compatibility purposes."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="ProcedureType"/>
-    <display value="PROCEDURE TYPE (0090)"/>
-    <definition value="The domain of concepts that further define a type of procedure."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8226,24 +8073,6 @@
     </property>
   </concept>
   <concept>
-    <code value="ReportOfEligibility"/>
-    <display value="REPORT OF ELIGIBILITY (0094)"/>
-    <definition value="The domain of concepts that indicate if an insurer sends a report indication that the patient is eligible for benefits and identifies what those benefits are."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="FinancialTransactionCode"/>
-    <display value="FINANCIAL TRANSACTION CODE (0096)"/>
-    <definition value="The domain of concepts which, for an order, indicate the amount of information to be returned from the filler for a response to an order."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="TypeOfAgreement"/>
     <display value="Type of Agreement (0098)"/>
     <definition value="The domain of possible values for codes to further identify an insurance plan."/>
@@ -8254,7 +8083,7 @@
   </concept>
   <concept>
     <code value="VipIndicator"/>
-    <display value="VIP-Indicator (0099)"/>
+    <display value="VIP Indicator (0099)"/>
     <definition value="The domain of possible values for a type of VIP."/>
     <property>
       <code value="source"/>
@@ -8265,24 +8094,6 @@
     <code value="InvocationEvent"/>
     <display value="Invocation event (0100)"/>
     <definition value="The domain of possible values for codes for an event precipitating/triggering a charge activity."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="DisplayLevel"/>
-    <display value="DISPLAY LEVEL (0101)"/>
-    <definition value="The domain of possible values that specify the maximum length of a query response that can be accepted by a requesting system, and are expressed as units of mesaure of query response objects.  Used in HL7 Version 2.x query messaging."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="DelayedAcknowledgmentType"/>
-    <display value="Delayed acknowledgment type (0102)"/>
-    <definition value="The domain of possible values which specify a response type used in deferred processing two phase reply for delayed acknowldgement mode of the original acknowledgement mechanism defined in HL7 Version 2.x messaging. "/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8310,42 +8121,6 @@
     <code value="SourceOfComment"/>
     <display value="Source of Comment (0105)"/>
     <definition value="The domain of possible values which are used to specify the source of a comment."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Query_ResponseFormatCode"/>
-    <display value="Query/response format code (0106)"/>
-    <definition value="The domain of possible values which specify which of several types of formats for data to be returned in response to a query."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="DeferredResponseType"/>
-    <display value="Deferred response type (0107)"/>
-    <definition value="The domain of possible values which specify which type of deferred query resonse is desired, as specified with the query parameters."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="QueryResultsLevel"/>
-    <display value="Query results level (0108)"/>
-    <definition value="The domain of possible values which are used to control level of detail in query results."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="ReportPriority"/>
-    <display value="Report priority (0109)"/>
-    <definition value="The domain of possible values which specify the priority associated with a report or update run using a query."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8380,7 +8155,7 @@
   </concept>
   <concept>
     <code value="DischargedToLocation"/>
-    <display value="Discharged to location (0113)"/>
+    <display value="Discharged to Location (0113)"/>
     <definition value="The domain of possible values for the healthcare facility to which the patient was discharged.  No suggested values."/>
     <property>
       <code value="source"/>
@@ -8497,7 +8272,7 @@
   </concept>
   <concept>
     <code value="AllergenType"/>
-    <display value="Allergy Type (0127)"/>
+    <display value="Allergen Type (0127)"/>
     <definition value="The domain of possible values fora classification of general allergy categories (drug, food, pollen, etc.)."/>
     <property>
       <code value="source"/>
@@ -8560,7 +8335,7 @@
   </concept>
   <concept>
     <code value="AssignmentOfBenefits"/>
-    <display value="Assignment of benefits (0135)"/>
+    <display value="Assignment of Benefits (0135)"/>
     <definition value="The domain of possible values which indicate whether an insured person agreed to assign the insurance benefits to a healthcare provider.  If so, the insurance will pay the provider directly."/>
     <property>
       <code value="source"/>
@@ -8569,7 +8344,7 @@
   </concept>
   <concept>
     <code value="Yes/noIndicator"/>
-    <display value="Yes/No Table (0136)"/>
+    <display value="Yes/no Indicator (0136)"/>
     <definition value="The domain of possible values for either Yes or No used in fields containing binary answers generally user-specified."/>
     <property>
       <code value="source"/>
@@ -8668,7 +8443,7 @@
   </concept>
   <concept>
     <code value="MoneyOrPercentageIndicator"/>
-    <display value="Type of refunds rules&#xD;&#xA;les (0148)"/>
+    <display value="Money or Percentage Indicator (0148)"/>
     <definition value="The domain of possible values for whether the amount is currency or a percentage."/>
     <property>
       <code value="source"/>
@@ -8724,33 +8499,6 @@
     <code value="AcknowledgmentConditions"/>
     <display value="Accept/Application Acknowledgment Conditions (0155)"/>
     <definition value="The domain of possible values which identify conditions under which accept acknowledgments are required to be returned in response to a message, and required for enhanced acknowledgment mode."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="WhichDate_TimeQualifier"/>
-    <display value="Which date/time qualifier (0156)"/>
-    <definition value="The domain of possible values that specify the type of date referred to in the other date fields in the QRF segment."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="WhichDate_TimeStatusQualifier"/>
-    <display value="Which date/time status qualifier (0157)"/>
-    <definition value="The domain of possible values that specify the status type of objects selected in date range defined by QRF-2 and QRF-3."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Date_TimeSelectionQualifier"/>
-    <display value="Date/time selection qualifier (0158)"/>
-    <definition value="The domain of possible values that allow the specification of certain types of values within the date/time range."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8902,17 +8650,8 @@
   </concept>
   <concept>
     <code value="MasterFileIdentifierCode"/>
-    <display value="Master File Identification (0175)"/>
+    <display value="Master File Identifier Code (0175)"/>
     <definition value="The domain of possible values which are represented by codes identifying HL7 Versions 2.x Master Files."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="MasterFileApplicationIdentifier"/>
-    <display value="Master File Application Identifier (0176)"/>
-    <definition value="The domain of possible values that uniquely identify an application responsible for maintaining a master file of a particular type at a particular site. Not used after HL7 v2.2  No suggested values."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -8965,7 +8704,7 @@
   </concept>
   <concept>
     <code value="StaffType"/>
-    <display value="Staff Type (0182)"/>
+    <display value="Staff type (0182)"/>
     <definition value="The domain of possible values for the staff person&#39;s sex.  No suggested values."/>
     <property>
       <code value="source"/>
@@ -9039,15 +8778,6 @@
     <code value="TypeOfReferencedData"/>
     <display value="Type of Referenced Data (0191)"/>
     <definition value="The domain of possible values declaring the general type of media data that is encoded."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="VisitIDType"/>
-    <display value="Visit ID Type (0192)"/>
-    <definition value="The domain of possible values defining whether patient transportation preparations are in place."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -9226,7 +8956,7 @@
   </concept>
   <concept>
     <code value="PatientChargeAdjustment"/>
-    <display value="Charge Adjustment (0218)"/>
+    <display value="Patient Charge Adjustment (0218)"/>
     <definition value="The domain of possible values that indicate which adjustments should be made to a guarantor&#x2019;s charges.  For example, when a hospital agrees to adjust a guarantor&#x2019;s charges to a sliding scale.  No suggested values."/>
     <property>
       <code value="source"/>
@@ -9837,15 +9567,6 @@
     </property>
   </concept>
   <concept>
-    <code value="EncodingCharacters"/>
-    <display value="MIME base64 encoding characters (0290)"/>
-    <definition value="The domain of possible values that are used for base64 MIME encoding.  Base64 is defined as follows (adapted from MIME Internet standard RFC 1521)."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="SubtypeOfReferencedData"/>
     <display value="Subtype of Referenced Data (0291)"/>
     <definition value="The domain of possible values for a subset of the media subtypes of binary data that are encoded in an ascii structure or stream."/>
@@ -10107,15 +9828,6 @@
     </property>
   </concept>
   <concept>
-    <code value="ActionCode"/>
-    <display value="Action Code (0323)"/>
-    <definition value="The domain of possible values that are used to specify a record operation."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="LocationCharacteristicId"/>
     <display value="Location Characteristic ID (0324)"/>
     <definition value="The domain of possible values for an identifier code to show which characteristic is being communicated with the segment."/>
@@ -10326,24 +10038,6 @@
     <code value="CountrySubdivision"/>
     <display value="State/Province (0347)"/>
     <definition value="The domain of possible values for the names of the principal country subdivisions (e.g., provinces or states).  The values in the table are country specific.  For example, in the US, the Federal Information Processing Standard (FIPS) alpha codes may be used by local agreement."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="SpecialProgramIndicator"/>
-    <display value="Special Program Indicator (0348)"/>
-    <definition value="The domain of possible values that specify a special program."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="PSRO_URApprovalIndicator"/>
-    <display value="PSRO/UR Approval Indicator (0349)"/>
-    <definition value="The domain of possible values that specify PSRO/UR approval indicators."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -10576,7 +10270,7 @@
   </concept>
   <concept>
     <code value="SpecialHandlingCode"/>
-    <display value="Special handling considerations (0376)"/>
+    <display value="Special Handling Code (0376)"/>
     <definition value="The domain of possible values describing how a specimen and/or container needs to be handled from the time of collection through the initiation of testing."/>
     <property>
       <code value="source"/>
@@ -10999,7 +10693,7 @@
   </concept>
   <concept>
     <code value="ModeOfArrivalCode"/>
-    <display value="Mode of Arrival (0430)"/>
+    <display value="Mode of Arrival Code (0430)"/>
     <definition value="The domain of possible values specifying how the patient was brought to the healthcare facility."/>
     <property>
       <code value="source"/>
@@ -11107,7 +10801,7 @@
   </concept>
   <concept>
     <code value="ProviderRoleSNAFU"/>
-    <display value="Provider role (0443)"/>
+    <display value="Provider Role (0443)"/>
     <definition value="The domain of possible values for the functional involvement with the activity being transmitted (e.g., Case Manager, Evaluator, Transcriber, Nurse Care Practitioner, Midwife, Physician Assistant, etc.)."/>
     <property>
       <code value="source"/>
@@ -11154,15 +10848,6 @@
     <code value="NameContext"/>
     <display value="Name Context (0448)"/>
     <definition value="The domain of possible values specifying the context in which a name is used."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="ConformanceStatements"/>
-    <display value="Conformance statements (0449)"/>
-    <definition value="The domain of possible reasons a specimen may be rejected for a specified observation/result/analysis."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -11808,15 +11493,6 @@
     </property>
   </concept>
   <concept>
-    <code value="SequenceCondition"/>
-    <display value="Sequence condition (0524)"/>
-    <definition value="The domain of possible values that identify whether sequence conditions or a repeating cycle of orders is defined, as part of the Order Sequence Definition."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
     <code value="Privilege"/>
     <display value="Privilege (0525)"/>
     <definition value="The domain of possible values that specify the institutional privilege."/>
@@ -11847,15 +11523,6 @@
     <code value="EventRelatedPeriod"/>
     <display value="Event Related Period (0528)"/>
     <definition value="The domain of possible values to specify a common (periodical) activity of daily living."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Precision"/>
-    <display value="Precision (0529)"/>
-    <definition value="The domain of possible values used to specify the degree of precision of a time stamp."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -11991,15 +11658,6 @@
     <code value="ContainerCondition"/>
     <display value="Container Condition (0544)"/>
     <definition value="The domain of possible values to specify at each receipt the status of the container in which the specimen is shipped in chain of custody cases where specimens are moved from lab to lab.  If the container is compromised in any way (seal broken, container cracked or leaking, etc.), then this status needs to be recorded for legal reasons."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Language"/>
-    <display value="Language Translated To (0545)"/>
-    <definition value="The domain of possible values that specify a human language."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>
@@ -13080,15 +12738,6 @@
     <code value="reasonForStudy"/>
     <display value="Reason for Study (0951)"/>
     <definition value="The domain of possible values that provide additional information to the universal service identifier on why a test, study or review was ordered."/>
-    <property>
-      <code value="source"/>
-      <valueCode value="v2"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="Name_AddressRepresentationSNAFU"/>
-    <display value="Name/address representation (4000)"/>
-    <definition value="The domain of possible values that provide an indication of the kind of representation provided by a name or address, but does not necessarily specify the character sets used for the data.  It is used to provides hints for a receiver, so it can make choices regarding what it has been sent and what it is capable of displaying."/>
     <property>
       <code value="source"/>
       <valueCode value="v2"/>

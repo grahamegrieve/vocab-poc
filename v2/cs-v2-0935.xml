@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="OO"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading574"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.558"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="User"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0935"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,79 +45,148 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="NRG"/>
     <display value="No reason given, donor decided to stop without giving a reason"/>
     <definition value="No reason given, donor decided to stop without giving a reason"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="PCD"/>
     <display value="Phone Call-Donor"/>
     <definition value="Phone Call-Donor"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="DCW"/>
     <display value="Couldn&#39;t wait"/>
     <definition value="Couldn&#39;t wait"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="CFT"/>
     <display value="Couldn&#39;t follow through with donation (scared)"/>
     <definition value="Couldn&#39;t follow through with donation (scared)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="DBB"/>
     <display value="Bathroom"/>
     <definition value="Bathroom"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="DNI"/>
     <display value="Phlebotomy Issue"/>
     <definition value="Phlebotomy Issue"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="ASC"/>
     <display value="Apheresis Software Crash"/>
     <definition value="Apheresis Software Crash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="BSC"/>
     <display value="Manufacturing Software Crash"/>
     <definition value="Manufacturing Software Crash"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Power outage,  natural disaster (tornado, flood, hurricane, etc.), air conditioning failure, etc."/>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.8"/>
-    </extension>
     <code value="GFE"/>
     <display value="General Facility Emergency"/>
     <definition value="General Facility Emergency"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.8"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -38,6 +38,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Sub-type of RSLT (Result) - qualifies the result as an isolate."/>
@@ -45,6 +69,10 @@
     <code value="MIR"/>
     <display value="Micro Isolate Related"/>
     <definition value="Micro Isolate Related"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -53,6 +81,10 @@
     <code value="MNIR"/>
     <display value="Micro Non-Isolate Related"/>
     <definition value="Micro Non-Isolate Related"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -61,6 +93,10 @@
     <code value="MIRM"/>
     <display value="Micro Isolate Related Modifier"/>
     <definition value="Micro Isolate Related Modifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -69,6 +105,10 @@
     <code value="SUR"/>
     <display value="Susceptibility Related"/>
     <definition value="Susceptibility Related"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -77,6 +117,10 @@
     <code value="SUP"/>
     <display value="Supplemental Result"/>
     <definition value="Supplemental Result"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -85,6 +129,10 @@
     <code value="UNSP"/>
     <display value="Unspecified"/>
     <definition value="Unspecified"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -93,6 +141,10 @@
     <code value="AOE"/>
     <display value="Ask at Order Entry"/>
     <definition value="Ask at Order Entry"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -101,5 +153,9 @@
     <code value="ASC"/>
     <display value="Ask at Specimen Collection"/>
     <definition value="Ask at Specimen Collection"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

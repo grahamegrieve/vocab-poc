@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Placer Applications.&lt;p&gt;AF is a response to RF where the placer authorizing a refill or quantity of refills."/>
@@ -48,6 +72,10 @@
     <code value="AF"/>
     <display value="Order/service refill request approval"/>
     <definition value="Order/service refill request approval"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="CA"/>
     <display value="Cancel order/service request"/>
     <definition value="Cancel order/service request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,6 +96,10 @@
     <code value="CH"/>
     <display value="Child order/service"/>
     <definition value="Child order/service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -72,6 +108,10 @@
     <code value="CN"/>
     <display value="Combined result"/>
     <definition value="Combined result"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -80,6 +120,10 @@
     <code value="CP"/>
     <display value="Cancel process step"/>
     <definition value="Cancel process step"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -88,6 +132,10 @@
     <code value="CR"/>
     <display value="Canceled as requested"/>
     <definition value="Canceled as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -96,6 +144,10 @@
     <code value="DC"/>
     <display value="Discontinue order/service request"/>
     <definition value="Discontinue order/service request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -104,6 +156,10 @@
     <code value="DE"/>
     <display value="Data errors"/>
     <definition value="Data errors"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -112,6 +168,10 @@
     <code value="DF"/>
     <display value="Order/service refill request denied"/>
     <definition value="Order/service refill request denied"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -120,6 +180,10 @@
     <code value="DR"/>
     <display value="Discontinued as requested"/>
     <definition value="Discontinued as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -128,6 +192,10 @@
     <code value="FU"/>
     <display value="Order/service refilled, unsolicited"/>
     <definition value="Order/service refilled, unsolicited"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -136,6 +204,10 @@
     <code value="HD"/>
     <display value="Hold order request"/>
     <definition value="Hold order request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -144,6 +216,10 @@
     <code value="HR"/>
     <display value="On hold as requested"/>
     <definition value="On hold as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -152,6 +228,10 @@
     <code value="LI"/>
     <display value="Link order/service to patient care problem or goal"/>
     <definition value="Link order/service to patient care problem or goal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -160,6 +240,10 @@
     <code value="NA"/>
     <display value="Number assigned"/>
     <definition value="Number assigned"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -168,6 +252,10 @@
     <code value="NW"/>
     <display value="New order/service"/>
     <definition value="New order/service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -176,6 +264,10 @@
     <code value="OC"/>
     <display value="Order/service canceled"/>
     <definition value="Order/service canceled"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -184,6 +276,10 @@
     <code value="OD"/>
     <display value="Order/service discontinued"/>
     <definition value="Order/service discontinued"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -192,6 +288,10 @@
     <code value="OE"/>
     <display value="Order/service released"/>
     <definition value="Order/service released"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -200,6 +300,10 @@
     <code value="OF"/>
     <display value="Order/service refilled as requested"/>
     <definition value="Order/service refilled as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -208,6 +312,10 @@
     <code value="OH"/>
     <display value="Order/service held"/>
     <definition value="Order/service held"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="32">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -216,6 +324,10 @@
     <code value="OK"/>
     <display value="Order/service accepted &amp; OK"/>
     <definition value="Order/service accepted &amp; OK"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="33">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -224,6 +336,10 @@
     <code value="OP"/>
     <display value="Notification of order for outside dispense"/>
     <definition value="Notification of order for outside dispense"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="34">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -232,6 +348,10 @@
     <code value="OR"/>
     <display value="Released as requested"/>
     <definition value="Released as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="35">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -240,6 +360,10 @@
     <code value="PA"/>
     <display value="Parent order/service"/>
     <definition value="Parent order/service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -248,6 +372,10 @@
     <code value="PR"/>
     <display value="Previous Results with new order/service"/>
     <definition value="Previous Results with new order/service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -256,6 +384,10 @@
     <code value="PY"/>
     <display value="Notification of replacement order for outside dispense"/>
     <definition value="Notification of replacement order for outside dispense"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -264,6 +396,10 @@
     <code value="RE"/>
     <display value="Observations/Performed Service to follow"/>
     <definition value="Observations/Performed Service to follow"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="56">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -272,6 +408,10 @@
     <code value="RF"/>
     <display value="Refill order/service request"/>
     <definition value="Refill order/service request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -280,6 +420,10 @@
     <code value="RL"/>
     <display value="Release previous hold"/>
     <definition value="Release previous hold"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="58">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -288,6 +432,10 @@
     <code value="RO"/>
     <display value="Replacement order"/>
     <definition value="Replacement order"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="89">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -296,6 +444,10 @@
     <code value="RP"/>
     <display value="Order/service replace request"/>
     <definition value="Order/service replace request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="90">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -304,6 +456,10 @@
     <code value="RQ"/>
     <display value="Replaced as requested"/>
     <definition value="Replaced as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="91">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -312,6 +468,10 @@
     <code value="RR"/>
     <display value="Request received"/>
     <definition value="Request received"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="92">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -320,6 +480,10 @@
     <code value="RU"/>
     <display value="Replaced unsolicited"/>
     <definition value="Replaced unsolicited"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="93">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -328,6 +492,10 @@
     <code value="SC"/>
     <display value="Status changed"/>
     <definition value="Status changed"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="94">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -336,6 +504,10 @@
     <code value="SN"/>
     <display value="Send order/service number"/>
     <definition value="Send order/service number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="95">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -344,6 +516,10 @@
     <code value="SR"/>
     <display value="Response to send order/service status request"/>
     <definition value="Response to send order/service status request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="96">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -352,6 +528,10 @@
     <code value="SS"/>
     <display value="Send order/service status request"/>
     <definition value="Send order/service status request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="97">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -360,6 +540,10 @@
     <code value="UA"/>
     <display value="Unable to accept order/service"/>
     <definition value="Unable to accept order/service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="98">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -368,6 +552,10 @@
     <code value="UC"/>
     <display value="Unable to cancel"/>
     <definition value="Unable to cancel"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="99">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -376,6 +564,10 @@
     <code value="UD"/>
     <display value="Unable to discontinue"/>
     <definition value="Unable to discontinue"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="100">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -384,6 +576,10 @@
     <code value="UF"/>
     <display value="Unable to refill"/>
     <definition value="Unable to refill"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="101">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -392,6 +588,10 @@
     <code value="UH"/>
     <display value="Unable to put on hold"/>
     <definition value="Unable to put on hold"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="102">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -400,6 +600,10 @@
     <code value="UM"/>
     <display value="Unable to replace"/>
     <definition value="Unable to replace"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="103">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -408,6 +612,10 @@
     <code value="UN"/>
     <display value="Unlink order/service from patient care problem or goal"/>
     <definition value="Unlink order/service from patient care problem or goal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="104">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -416,6 +624,10 @@
     <code value="UR"/>
     <display value="Unable to release"/>
     <definition value="Unable to release"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="105">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -424,6 +636,10 @@
     <code value="UX"/>
     <display value="Unable to change"/>
     <definition value="Unable to change"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="106">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -432,6 +648,10 @@
     <code value="XO"/>
     <display value="Change order/service request"/>
     <definition value="Change order/service request"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="107">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -440,6 +660,10 @@
     <code value="XR"/>
     <display value="Changed as requested"/>
     <definition value="Changed as requested"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="108">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -448,6 +672,10 @@
     <code value="XX"/>
     <display value="Order/service changed, unsol."/>
     <definition value="Order/service changed, unsol."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="109">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -456,5 +684,9 @@
     <code value="MC"/>
     <display value="Miscellaneous Charge - not associated with an order"/>
     <definition value="Miscellaneous Charge - not associated with an order"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

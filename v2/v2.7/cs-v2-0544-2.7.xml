@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Failed to keep at body temperature: 36 - 38 degrees C."/>
@@ -48,6 +72,10 @@
     <code value="XC37"/>
     <display value="Not Body temperature"/>
     <definition value="Not Body temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,6 +84,10 @@
     <code value="XAMB"/>
     <display value="Not Ambient temperature"/>
     <definition value="Not Ambient temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -64,6 +96,10 @@
     <code value="XCAMB"/>
     <display value="Not Critical ambient temperature"/>
     <definition value="Not Critical ambient temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -72,6 +108,10 @@
     <code value="XREF"/>
     <display value="Not Refrigerated temperature"/>
     <definition value="Not Refrigerated temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -80,6 +120,10 @@
     <code value="XCREF"/>
     <display value="Not Critical refrigerated temperature"/>
     <definition value="Not Critical refrigerated temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -88,6 +132,10 @@
     <code value="XFRZ"/>
     <display value="Not Frozen temperature"/>
     <definition value="Not Frozen temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -96,6 +144,10 @@
     <code value="XCFRZ"/>
     <display value="Not Critical frozen temperature"/>
     <definition value="Not Critical frozen temperature"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -104,6 +156,10 @@
     <code value="XDFRZ"/>
     <display value="Not Deep frozen"/>
     <definition value="Not Deep frozen"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -112,6 +168,10 @@
     <code value="XUFRZ"/>
     <display value="Not Ultra frozen"/>
     <definition value="Not Ultra frozen"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -120,6 +180,10 @@
     <code value="XNTR"/>
     <display value="Not Liquid nitrogen"/>
     <definition value="Not Liquid nitrogen"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -128,6 +192,10 @@
     <code value="XPRTL"/>
     <display value="Not Protected from light"/>
     <definition value="Not Protected from light"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -136,6 +204,10 @@
     <code value="XCATM"/>
     <display value="Exposed to Air"/>
     <definition value="Exposed to Air"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -144,6 +216,10 @@
     <code value="XDRY"/>
     <display value="Not Dry"/>
     <definition value="Not Dry"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -152,6 +228,10 @@
     <code value="XPSO"/>
     <display value="Exposed to shock"/>
     <definition value="Exposed to shock"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -160,6 +240,10 @@
     <code value="XPSA"/>
     <display value="Shaken"/>
     <definition value="Shaken"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -168,6 +252,10 @@
     <code value="XUPR"/>
     <display value="Not Upright"/>
     <definition value="Not Upright"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -176,6 +264,10 @@
     <code value="XMTLF"/>
     <display value="Metal Exposed"/>
     <definition value="Metal Exposed"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -184,6 +276,10 @@
     <code value="SB"/>
     <display value="Seal Broken"/>
     <definition value="Seal Broken"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -192,6 +288,10 @@
     <code value="CC"/>
     <display value="Container Cracked"/>
     <definition value="Container Cracked"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -200,6 +300,10 @@
     <code value="CT"/>
     <display value="Container Torn"/>
     <definition value="Container Torn"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -208,5 +312,9 @@
     <code value="CL"/>
     <display value="Container Leaking"/>
     <definition value="Container Leaking"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Retained for backward compatibility as of v2.6."/>
@@ -48,16 +72,28 @@
     <code value="AD"/>
     <display value="Address"/>
     <definition value="Address"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
     <code value="CNE"/>
     <display value="Coded with No Exceptions"/>
     <definition value="Coded with No Exceptions"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <code value="CWE"/>
     <display value="Coded Entry"/>
     <definition value="Coded Entry"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -66,6 +102,10 @@
     <code value="CF"/>
     <display value="Coded Element With Formatted Values"/>
     <definition value="Coded Element With Formatted Values"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -74,6 +114,10 @@
     <code value="CK"/>
     <display value="Composite ID With Check Digit"/>
     <definition value="Composite ID With Check Digit"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -82,6 +126,10 @@
     <code value="CN"/>
     <display value="Composite ID And Name"/>
     <definition value="Composite ID And Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="7">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -90,51 +138,91 @@
     <code value="CP"/>
     <display value="Composite Price"/>
     <definition value="Composite Price"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="8">
     <code value="CX"/>
     <display value="Extended Composite ID With Check Digit"/>
     <definition value="Extended Composite ID With Check Digit"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="9">
     <code value="DR"/>
     <display value="Date/Time Range"/>
     <definition value="Date/Time Range"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="10">
     <code value="DT"/>
     <display value="Date"/>
     <definition value="Date"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="11">
     <code value="DTM"/>
     <display value="Time Stamp (Date &amp; Time)"/>
     <definition value="Time Stamp (Date &amp; Time)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="12">
     <code value="ED"/>
     <display value="Encapsulated Data"/>
     <definition value="Encapsulated Data"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="13">
     <code value="FT"/>
     <display value="Formatted Text (Display)"/>
     <definition value="Formatted Text (Display)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="14">
     <code value="ID"/>
     <display value="Coded Value for HL7 Defined Tables"/>
     <definition value="Coded Value for HL7 Defined Tables"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <code value="IS"/>
     <display value="Coded Value for User-Defined Tables"/>
     <definition value="Coded Value for User-Defined Tables"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="16">
     <code value="MA"/>
     <display value="Multiplexed Array"/>
     <definition value="Multiplexed Array"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="17">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -143,16 +231,28 @@
     <code value="MO"/>
     <display value="Money"/>
     <definition value="Money"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
     <code value="NA"/>
     <display value="Numeric Array"/>
     <definition value="Numeric Array"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="19">
     <code value="NM"/>
     <display value="Numeric"/>
     <definition value="Numeric"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="20">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -161,26 +261,46 @@
     <code value="PN"/>
     <display value="Person Name"/>
     <definition value="Person Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
     <code value="RP"/>
     <display value="Reference Pointer"/>
     <definition value="Reference Pointer"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="22">
     <code value="SN"/>
     <display value="Structured Numeric"/>
     <definition value="Structured Numeric"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="23">
     <code value="ST"/>
     <display value="String Data."/>
     <definition value="String Data."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="24">
     <code value="TM"/>
     <display value="Time"/>
     <definition value="Time"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -189,11 +309,19 @@
     <code value="TN"/>
     <display value="Telephone Number"/>
     <definition value="Telephone Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
     <code value="TX"/>
     <display value="Text Data (Display)"/>
     <definition value="Text Data (Display)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -202,6 +330,10 @@
     <code value="XAD"/>
     <display value="Extended Address"/>
     <definition value="Extended Address"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -210,6 +342,10 @@
     <code value="XCN"/>
     <display value="Extended Composite Name And Number For Persons"/>
     <definition value="Extended Composite Name And Number For Persons"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -218,6 +354,10 @@
     <code value="XON"/>
     <display value="Extended Composite Name And Number For Organizations"/>
     <definition value="Extended Composite Name And Number For Organizations"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -226,6 +366,10 @@
     <code value="XPN"/>
     <display value="Extended Person Name"/>
     <definition value="Extended Person Name"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="31">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -234,5 +378,9 @@
     <code value="XTN"/>
     <display value="Extended Telecommunications Number"/>
     <definition value="Extended Telecommunications Number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

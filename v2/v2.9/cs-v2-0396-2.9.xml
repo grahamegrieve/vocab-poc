@@ -41,6 +41,30 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
       <valueString value="Locally defined codes for purpose of sender or receiver - 99zzz (where z is an alphanumeric character)."/>
@@ -48,6 +72,10 @@
     <code value="99zzz"/>
     <display value="Local general code where z is an alphanumeric character"/>
     <definition value="Local general code where z is an alphanumeric character"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -56,16 +84,28 @@
     <code value="ACR"/>
     <display value="American College of Radiology finding codes"/>
     <definition value="American College of Radiology finding codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="6">
     <code value="ACTCODE"/>
     <display value="Table of HL7 Version 3 ActCode values"/>
     <definition value="Table of HL7 Version 3 ActCode values"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="9">
     <code value="ACTRELSS"/>
     <display value="Used to indicate that the target of the relationship will be a filtered subset of the total related set of targets.&#xD;&#xA;Used when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtere"/>
     <definition value="Used to indicate that the target of the relationship will be a filtered subset of the total related set of targets.&#xD;&#xA;Used when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtere"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="12">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -74,6 +114,10 @@
     <code value="ALPHAID2006"/>
     <display value="German Alpha-ID v2006"/>
     <definition value="German Alpha-ID v2006"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="15">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -82,6 +126,10 @@
     <code value="ALPHAID2007"/>
     <display value="German Alpha-ID v2007"/>
     <definition value="German Alpha-ID v2007"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="18">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -90,6 +138,10 @@
     <code value="ALPHAID2008"/>
     <display value="German Alpha-ID v2008"/>
     <definition value="German Alpha-ID v2008"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="21">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -98,6 +150,10 @@
     <code value="ALPHAID2009"/>
     <display value="German Alpha-ID v2009"/>
     <definition value="German Alpha-ID v2009"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="24">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -106,6 +162,10 @@
     <code value="ALPHAID2010"/>
     <display value="German Alpha-ID v2010"/>
     <definition value="German Alpha-ID v2010"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="25">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -114,36 +174,64 @@
     <code value="ALPHAID2011"/>
     <display value="German Alpha-ID v2011"/>
     <definition value="German Alpha-ID v2011"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="26">
     <code value="ALPHAID2012"/>
     <display value="German Alpha-ID v2012"/>
     <definition value="German Alpha-ID v2012"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="27">
     <code value="ALPHAID2013"/>
     <display value="German Alpha-ID v2013"/>
     <definition value="German Alpha-ID v2013"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="28">
     <code value="ALPHAID2014"/>
     <display value="German Alpha-ID v2014"/>
     <definition value="German Alpha-ID v2014"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="29">
     <code value="ALPHAID2015"/>
     <display value="German Alpha-ID v2015"/>
     <definition value="German Alpha-ID v2015"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="30">
     <code value="ALPHAID2016"/>
     <display value="German Alpha-ID v2016"/>
     <definition value="German Alpha-ID v2016"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="33">
     <code value="AMTv2"/>
     <display value="Australian Medicines Terminology (v2)"/>
     <definition value="Australian Medicines Terminology (v2)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="36">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -152,6 +240,10 @@
     <code value="ANS+"/>
     <display value="HL7 set of units of measure"/>
     <definition value="HL7 set of units of measure"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="37">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -160,6 +252,10 @@
     <code value="ART"/>
     <display value="WHO Adverse Reaction Terms"/>
     <definition value="WHO Adverse Reaction Terms"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="38">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -168,6 +264,10 @@
     <code value="AS4"/>
     <display value="ASTM E1238/ E1467 Universal"/>
     <definition value="ASTM E1238/ E1467 Universal"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="39">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -176,6 +276,10 @@
     <code value="AS4E"/>
     <display value="AS4 Neurophysiology Codes"/>
     <definition value="AS4 Neurophysiology Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="42">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -184,6 +288,10 @@
     <code value="ATC"/>
     <display value="American Type Culture Collection"/>
     <definition value="American Type Culture Collection"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="45">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -192,6 +300,10 @@
     <code value="C4"/>
     <display value="CPT-4"/>
     <definition value="CPT-4"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="48">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -200,6 +312,10 @@
     <code value="CAPECC"/>
     <display value="College of American Pathologists Electronic Cancer Checklist"/>
     <definition value="College of American Pathologists Electronic Cancer Checklist"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="51">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -208,6 +324,10 @@
     <code value="CAS"/>
     <display value="Chemical abstract codes"/>
     <definition value="Chemical abstract codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="54">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -216,6 +336,10 @@
     <code value="CCC"/>
     <display value="Clinical Care Classification system"/>
     <definition value="Clinical Care Classification system"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="57">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -224,6 +348,10 @@
     <code value="CD2"/>
     <display value="CDT-2 Codes"/>
     <definition value="CDT-2 Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="60">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -232,6 +360,10 @@
     <code value="CDCA"/>
     <display value="CDC Analyte Codes"/>
     <definition value="CDC Analyte Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="63">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -240,11 +372,19 @@
     <code value="CDCEDACUITY"/>
     <display value="CDC Emergency Department Acuity"/>
     <definition value="CDC Emergency Department Acuity"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="64">
     <code value="cdcgs1vis"/>
     <display value="VIS Bar Codes (IIS)"/>
     <definition value="VIS Bar Codes (IIS)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="66">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -253,11 +393,19 @@
     <code value="CDCM"/>
     <display value="CDC Methods/Instruments Codes"/>
     <definition value="CDC Methods/Instruments Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="67">
     <code value="CDCNHSN"/>
     <display value="CDC National Healthcare Safety Network Codes"/>
     <definition value="CDC National Healthcare Safety Network Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="69">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -266,6 +414,10 @@
     <code value="CDCOBS"/>
     <display value="CDC BioSense RT observations (Census) - CDC"/>
     <definition value="CDC BioSense RT observations (Census) - CDC"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="72">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -274,6 +426,10 @@
     <code value="CDCPHINVS"/>
     <display value="CDC PHIN Vocabulary Coding System"/>
     <definition value="CDC PHIN Vocabulary Coding System"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="75">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -282,6 +438,10 @@
     <code value="CDCREC"/>
     <display value="Race &amp; Ethnicity - CDC"/>
     <definition value="Race &amp; Ethnicity - CDC"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="78">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -290,6 +450,10 @@
     <code value="CDS"/>
     <display value="CDC Surveillance"/>
     <definition value="CDC Surveillance"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="81">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -298,6 +462,10 @@
     <code value="CE (obsolete)"/>
     <display value="CEN ECG diagnostic codes"/>
     <definition value="CEN ECG diagnostic codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="84">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -306,6 +474,10 @@
     <code value="CLP"/>
     <display value="CLIP"/>
     <definition value="CLIP"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="87">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -314,6 +486,10 @@
     <code value="CPTM"/>
     <display value="CPT Modifier Code"/>
     <definition value="CPT Modifier Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="90">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -322,6 +498,10 @@
     <code value="CST"/>
     <display value="COSTART"/>
     <definition value="COSTART"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="93">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -330,6 +510,10 @@
     <code value="CVX"/>
     <display value="CDC Vaccine Codes"/>
     <definition value="CDC Vaccine Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="96">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -338,6 +522,10 @@
     <code value="DCM"/>
     <display value="DICOM Controlled Terminology"/>
     <definition value="DICOM Controlled Terminology"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="99">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -346,6 +534,10 @@
     <code value="E"/>
     <display value="EUCLIDES"/>
     <definition value="EUCLIDES"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="102">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -354,6 +546,10 @@
     <code value="E5"/>
     <display value="Euclides  quantity codes"/>
     <definition value="Euclides  quantity codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="105">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -362,6 +558,10 @@
     <code value="E6"/>
     <display value="Euclides Lab method codes"/>
     <definition value="Euclides Lab method codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="108">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -370,21 +570,37 @@
     <code value="E7"/>
     <display value="Euclides Lab equipment codes"/>
     <definition value="Euclides Lab equipment codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="109">
     <code value="EDLEVEL"/>
     <display value="Education Level"/>
     <definition value="Education Level"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="110">
     <code value="ENTITYCODE"/>
     <display value="Entity Code"/>
     <definition value="Entity Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="111">
     <code value="ENTITYHDLG"/>
     <display value="Entity Handling Code"/>
     <definition value="Entity Handling Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="112">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -393,6 +609,10 @@
     <code value="ENZC"/>
     <display value="Enzyme Codes"/>
     <definition value="Enzyme Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="114">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -401,6 +621,10 @@
     <code value="EPASRS"/>
     <display value="EPA SRS"/>
     <definition value="EPA SRS"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="117">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -409,6 +633,10 @@
     <code value="FDAUDI"/>
     <display value="FDA Unique Device Identifier"/>
     <definition value="FDA Unique Device Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="120">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -417,6 +645,10 @@
     <code value="FDAUNII"/>
     <display value="Unique Ingredient Identifier (UNII)"/>
     <definition value="Unique Ingredient Identifier (UNII)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="123">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -425,6 +657,10 @@
     <code value="FDDC"/>
     <display value="First DataBank Drug Codes"/>
     <definition value="First DataBank Drug Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="126">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -433,6 +669,10 @@
     <code value="FDDX"/>
     <display value="First DataBank Diagnostic Codes"/>
     <definition value="First DataBank Diagnostic Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="129">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -441,6 +681,10 @@
     <code value="FDK"/>
     <display value="FDA K10"/>
     <definition value="FDA K10"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="132">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -449,6 +693,10 @@
     <code value="FIPS5_2"/>
     <display value="FIPS 5-2 (State)"/>
     <definition value="FIPS 5-2 (State)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="135">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -457,6 +705,10 @@
     <code value="FIPS6_4"/>
     <display value="FIPS 6-4 (County)"/>
     <definition value="FIPS 6-4 (County)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="138">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -465,6 +717,10 @@
     <code value="GDRG2004"/>
     <display value="G-DRG German DRG Codes 2004"/>
     <definition value="G-DRG German DRG Codes 2004"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="141">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -473,6 +729,10 @@
     <code value="GDRG2005"/>
     <display value="G-DRG German DRG Codes 2005"/>
     <definition value="G-DRG German DRG Codes 2005"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="144">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -481,6 +741,10 @@
     <code value="GDRG2006"/>
     <display value="G-DRG German DRG Codes 2006"/>
     <definition value="G-DRG German DRG Codes 2006"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="147">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -489,6 +753,10 @@
     <code value="GDRG2007"/>
     <display value="G-DRG German DRG Codes 2007"/>
     <definition value="G-DRG German DRG Codes 2007"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="150">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -497,6 +765,10 @@
     <code value="GDRG2008"/>
     <display value="G-DRG German DRG Codes 2008"/>
     <definition value="G-DRG German DRG Codes 2008"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="153">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -505,6 +777,10 @@
     <code value="GDRG2009"/>
     <display value="G-DRG German DRG Codes 2009"/>
     <definition value="G-DRG German DRG Codes 2009"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="156">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -513,6 +789,10 @@
     <code value="GMDC2004"/>
     <display value="German Major Diagnostic Codes 2004"/>
     <definition value="German Major Diagnostic Codes 2004"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="159">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -521,6 +801,10 @@
     <code value="GMDC2005"/>
     <display value="German Major Diagnostic Codes 2005"/>
     <definition value="German Major Diagnostic Codes 2005"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="162">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -529,6 +813,10 @@
     <code value="GMDC2006"/>
     <display value="German Major Diagnostic Codes 2006"/>
     <definition value="German Major Diagnostic Codes 2006"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="165">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -537,6 +825,10 @@
     <code value="GMDC2007"/>
     <display value="German Major Diagnostic Codes 2007"/>
     <definition value="German Major Diagnostic Codes 2007"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="166">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -545,6 +837,10 @@
     <code value="GMDC2008"/>
     <display value="German Major Diagnostic Codes 2008"/>
     <definition value="German Major Diagnostic Codes 2008"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="167">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -553,46 +849,82 @@
     <code value="GMDC2009"/>
     <display value="German Major Diagnostic Codes 2009"/>
     <definition value="German Major Diagnostic Codes 2009"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="168">
     <code value="GMDC2010"/>
     <display value="German Major Diagnostic Codes 2010"/>
     <definition value="German Major Diagnostic Codes 2010"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="169">
     <code value="GMDC2011"/>
     <display value="German Major Diagnostic Codes 2011"/>
     <definition value="German Major Diagnostic Codes 2011"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="170">
     <code value="GMDC2012"/>
     <display value="German Major Diagnostic Codes 2012"/>
     <definition value="German Major Diagnostic Codes 2012"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="171">
     <code value="GMDC2013"/>
     <display value="German Major Diagnostic Codes 2013"/>
     <definition value="German Major Diagnostic Codes 2013"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="172">
     <code value="GMDC2014"/>
     <display value="German Major Diagnostic Codes 2014"/>
     <definition value="German Major Diagnostic Codes 2014"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="173">
     <code value="GMDC2015"/>
     <display value="German Major Diagnostic Codes 2015"/>
     <definition value="German Major Diagnostic Codes 2015"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="174">
     <code value="GMDC2016"/>
     <display value="German Major Diagnostic Codes 2016"/>
     <definition value="German Major Diagnostic Codes 2016"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="175">
     <code value="GS1UDI"/>
     <display value="GS1 Unique Device Identifier"/>
     <definition value="GS1 Unique Device Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="177">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -601,6 +933,10 @@
     <code value="HB"/>
     <display value="HIBCC"/>
     <definition value="HIBCC"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="180">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -609,6 +945,10 @@
     <code value="HCPCS"/>
     <display value="CMS (formerly HCFA)  Common Procedure Coding System"/>
     <definition value="CMS (formerly HCFA)  Common Procedure Coding System"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="183">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -617,6 +957,10 @@
     <code value="HCPT"/>
     <display value="Health Care Provider Taxonomy"/>
     <definition value="Health Care Provider Taxonomy"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="186">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -625,6 +969,10 @@
     <code value="HHC"/>
     <display value="Home Health Care"/>
     <definition value="Home Health Care"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="189">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -633,11 +981,19 @@
     <code value="HI"/>
     <display value="Health Outcomes"/>
     <definition value="Health Outcomes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="192">
     <code value="HIBUDI"/>
     <display value="HIBCC Unique Device Identifier"/>
     <definition value="HIBCC Unique Device Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="195">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -646,11 +1002,19 @@
     <code value="HL7nnnn"/>
     <display value="HL7 Defined Codes where nnnn is the HL7 table number"/>
     <definition value="HL7 Defined Codes where nnnn is the HL7 table number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="198">
     <code value="HOT"/>
     <display value="Japanese Nationwide Medicine Code"/>
     <definition value="Japanese Nationwide Medicine Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="201">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -659,11 +1023,19 @@
     <code value="HPC"/>
     <display value="CMS (formerly HCFA )Procedure Codes (HCPCS)"/>
     <definition value="CMS (formerly HCFA )Procedure Codes (HCPCS)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="201">
     <code value="HSLOC"/>
     <display value="Healthcare Service Location"/>
     <definition value="Healthcare Service Location"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="204">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -672,11 +1044,19 @@
     <code value="I10"/>
     <display value="ICD-10"/>
     <definition value="ICD-10"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="204">
     <code value="I10C"/>
     <display value="International Classification of Diseases, 10th  Revision, Clinical Modification (ICD-10-CM)"/>
     <definition value="International Classification of Diseases, 10th  Revision, Clinical Modification (ICD-10-CM)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="207">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -685,6 +1065,10 @@
     <code value="I10G2004"/>
     <display value="ICD 10 Germany 2004"/>
     <definition value="ICD 10 Germany 2004"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="210">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -693,6 +1077,10 @@
     <code value="I10G2005"/>
     <display value="ICD 10 Germany 2005"/>
     <definition value="ICD 10 Germany 2005"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="213">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -701,6 +1089,10 @@
     <code value="I10G2006"/>
     <display value="ICD 10 Germany 2006"/>
     <definition value="ICD 10 Germany 2006"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="216">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -709,6 +1101,10 @@
     <code value="I10P"/>
     <display value="International Classification of Diseases, 10th  Revision, Procedure Coding System (ICD-10-PCS)"/>
     <definition value="International Classification of Diseases, 10th  Revision, Procedure Coding System (ICD-10-PCS)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="219">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -717,6 +1113,10 @@
     <code value="I9"/>
     <display value="ICD9"/>
     <definition value="ICD9"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="222">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -725,6 +1125,10 @@
     <code value="I9C"/>
     <display value="International Classification of Diseases, 9th  Revision, Clinical Modification (ICD-9-CM)"/>
     <definition value="International Classification of Diseases, 9th  Revision, Clinical Modification (ICD-9-CM)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="225">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -733,6 +1137,10 @@
     <code value="I9CDX"/>
     <display value="ICD-9CM Diagnosis codes"/>
     <definition value="ICD-9CM Diagnosis codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="228">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -741,6 +1149,10 @@
     <code value="I9CP"/>
     <display value="ICD-9CM Procedure codes"/>
     <definition value="ICD-9CM Procedure codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="231">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -749,11 +1161,19 @@
     <code value="IBT"/>
     <display value="ISBT"/>
     <definition value="ISBT"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="234">
     <code value="IBT0001"/>
     <display value="ISBT 128 Standard transfusion/transplantation data items"/>
     <definition value="ISBT 128 Standard transfusion/transplantation data items"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="234">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -762,6 +1182,10 @@
     <code value="IBTnnnn"/>
     <display value="ISBT 128 codes where nnnn  specifies a specific table within ISBT 128."/>
     <definition value="ISBT 128 codes where nnnn  specifies a specific table within ISBT 128."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="237">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -770,16 +1194,28 @@
     <code value="IC2"/>
     <display value="ICHPPC-2"/>
     <definition value="ICHPPC-2"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="240">
     <code value="ICCUDI"/>
     <display value="ICCBBA Unique Device Identifier"/>
     <definition value="ICCBBA Unique Device Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="241">
     <code value="ICD10AM"/>
     <display value="ICD-10 Australian modification"/>
     <definition value="ICD-10 Australian modification"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="243">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -788,6 +1224,10 @@
     <code value="ICD10GM2007"/>
     <display value="ICD 10 Germany v2007"/>
     <definition value="ICD 10 Germany v2007"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="246">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -796,6 +1236,10 @@
     <code value="ICD10GM2008"/>
     <display value="ICD 10 Germany v2008"/>
     <definition value="ICD 10 Germany v2008"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="249">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -804,6 +1248,10 @@
     <code value="ICD10GM2009"/>
     <display value="ICD 10 Germany v2009"/>
     <definition value="ICD 10 Germany v2009"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="252">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -812,6 +1260,10 @@
     <code value="ICD10GM2010"/>
     <display value="ICD 10 Germany v2010"/>
     <definition value="ICD 10 Germany v2010"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="253">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -820,36 +1272,64 @@
     <code value="ICD10GM2011"/>
     <display value="ICD 10 Germany v2011"/>
     <definition value="ICD 10 Germany v2011"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="254">
     <code value="ICD10GM2012"/>
     <display value="ICD 10 Germany v2012"/>
     <definition value="ICD 10 Germany v2012"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="255">
     <code value="ICD10GM2013"/>
     <display value="ICD 10 Germany v2013"/>
     <definition value="ICD 10 Germany v2013"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="256">
     <code value="ICD10GM2014"/>
     <display value="ICD 10 Germany v2014"/>
     <definition value="ICD 10 Germany v2014"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="257">
     <code value="ICD10GM2015"/>
     <display value="ICD 10 Germany v2015"/>
     <definition value="ICD 10 Germany v2015"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="258">
     <code value="ICD10GM2016"/>
     <display value="ICD 10 Germany v2016"/>
     <definition value="ICD 10 Germany v2016"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="261">
     <code value="ICD10CA"/>
     <display value="ICD-10 Canada"/>
     <definition value="ICD-10 Canada"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="264">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -858,6 +1338,10 @@
     <code value="ICDO"/>
     <display value="International Classification of Diseases for Oncology"/>
     <definition value="International Classification of Diseases for Oncology"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="267">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -866,6 +1350,10 @@
     <code value="ICDO2"/>
     <display value="International Classification of Disease for Oncology Second Edition"/>
     <definition value="International Classification of Disease for Oncology Second Edition"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="270">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -874,11 +1362,19 @@
     <code value="ICDO3"/>
     <display value="International Classification of Disease for Oncology Third Edition"/>
     <definition value="International Classification of Disease for Oncology Third Edition"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="271">
     <code value="ICF"/>
     <display value="International Classification of Functioning, Disability and Health (ICF)"/>
     <definition value="International Classification of Functioning, Disability and Health (ICF)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="273">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -887,6 +1383,10 @@
     <code value="ICS"/>
     <display value="ICCS"/>
     <definition value="ICCS"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="276">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -895,11 +1395,19 @@
     <code value="ICSD"/>
     <display value="International Classification of Sleep Disorders"/>
     <definition value="International Classification of Sleep Disorders"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="277">
     <code value="IHELAW"/>
     <display value="IHE Laboratory Analytical Workflow (LAW) Profile Codes."/>
     <definition value="IHE Laboratory Analytical Workflow (LAW) Profile Codes."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="279">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -908,6 +1416,10 @@
     <code value="ISOnnnn (deprecated)"/>
     <display value="ISO Defined Codes where nnnn is the ISO table number"/>
     <definition value="ISO Defined Codes where nnnn is the ISO table number"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="282">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -916,6 +1428,10 @@
     <code value="ISO"/>
     <display value="ISO 2955.83 (units of measure) with HL7 extensions"/>
     <definition value="ISO 2955.83 (units of measure) with HL7 extensions"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="285">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -924,6 +1440,10 @@
     <code value="ISO3166_1"/>
     <display value="ISO 3166-1 Country Codes"/>
     <definition value="ISO 3166-1 Country Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="288">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -932,6 +1452,10 @@
     <code value="ISO3166_2"/>
     <display value="ISO 3166-2 Country subdivisions"/>
     <definition value="ISO 3166-2 Country subdivisions"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="291">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -940,6 +1464,10 @@
     <code value="ISO4217"/>
     <display value="ISO4217 Currency Codes"/>
     <definition value="ISO4217 Currency Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="294">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -948,6 +1476,10 @@
     <code value="ISO639"/>
     <display value="ISO 639 Language"/>
     <definition value="ISO 639 Language"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="297">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -956,6 +1488,10 @@
     <code value="ITIS"/>
     <display value="Integrated Taxonomic Information System"/>
     <definition value="Integrated Taxonomic Information System"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="300">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -964,6 +1500,10 @@
     <code value="IUPP"/>
     <display value="IUPAC/IFCC Property Codes"/>
     <definition value="IUPAC/IFCC Property Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="303">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -972,6 +1512,10 @@
     <code value="IUPC"/>
     <display value="IUPAC/IFCC Component Codes"/>
     <definition value="IUPAC/IFCC Component Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="306">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -980,6 +1524,10 @@
     <code value="JC8"/>
     <display value="Japanese Chemistry"/>
     <definition value="Japanese Chemistry"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="309">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -988,6 +1536,10 @@
     <code value="JC10"/>
     <display value="JLAC/JSLM, nationwide laboratory code"/>
     <definition value="JLAC/JSLM, nationwide laboratory code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="312">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -996,6 +1548,10 @@
     <code value="JJ1017"/>
     <display value="Japanese Image Examination Cache"/>
     <definition value="Japanese Image Examination Cache"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="313">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1004,11 +1560,19 @@
     <code value="L"/>
     <display value="Local general code"/>
     <definition value="Local general code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="314">
     <code value="LANGUAL"/>
     <display value="LanguaL"/>
     <definition value="LanguaL"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="315">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1017,6 +1581,10 @@
     <code value="LB"/>
     <display value="Local billing code"/>
     <definition value="Local billing code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="318">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1025,6 +1593,10 @@
     <code value="LN"/>
     <display value="Logical Observation Identifier Names and Codes (LOINC&#xAE;)"/>
     <definition value="Logical Observation Identifier Names and Codes (LOINC&#xAE;)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="321">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1033,6 +1605,10 @@
     <code value="MCD"/>
     <display value="Medicaid"/>
     <definition value="Medicaid"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="324">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1041,6 +1617,10 @@
     <code value="MCR"/>
     <display value="Medicare"/>
     <definition value="Medicare"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="327">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1049,6 +1629,10 @@
     <code value="MDC"/>
     <display value="Medical Device Communication"/>
     <definition value="Medical Device Communication"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="330">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1057,6 +1641,10 @@
     <code value="MDDX"/>
     <display value="Medispan Diagnostic Codes"/>
     <definition value="Medispan Diagnostic Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="333">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1065,11 +1653,19 @@
     <code value="MEDC"/>
     <display value="Medical Economics Drug Codes"/>
     <definition value="Medical Economics Drug Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="334">
     <code value="MEDIATYPE"/>
     <display value="MIME Media Type IANA"/>
     <definition value="MIME Media Type IANA"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="336">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1078,6 +1674,10 @@
     <code value="MEDR"/>
     <display value="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)"/>
     <definition value="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="339">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1086,6 +1686,10 @@
     <code value="MEDX"/>
     <display value="Medical Economics Diagnostic Codes"/>
     <definition value="Medical Economics Diagnostic Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="342">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1094,6 +1698,10 @@
     <code value="MGPI"/>
     <display value="Medispan GPI"/>
     <definition value="Medispan GPI"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="345">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1102,6 +1710,10 @@
     <code value="MVX"/>
     <display value="CDC Vaccine Manufacturer Codes"/>
     <definition value="CDC Vaccine Manufacturer Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="348">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1110,6 +1722,10 @@
     <code value="NAICS"/>
     <display value="Industry (NAICS)"/>
     <definition value="Industry (NAICS)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="351">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1118,6 +1734,10 @@
     <code value="NCPDPnnnnsss"/>
     <display value="NCPDP code list for data element nnnn [as used in segment sss]"/>
     <definition value="NCPDP code list for data element nnnn [as used in segment sss]"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="354">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1126,6 +1746,10 @@
     <code value="NDA"/>
     <display value="NANDA"/>
     <definition value="NANDA"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="357">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1134,6 +1758,10 @@
     <code value="NDC"/>
     <display value="National drug codes"/>
     <definition value="National drug codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="360">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1142,6 +1770,10 @@
     <code value="NDFRT"/>
     <display value="NDF-RT (Drug Classification)"/>
     <definition value="NDF-RT (Drug Classification)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="363">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1150,6 +1782,10 @@
     <code value="NIC"/>
     <display value="Nursing Interventions Classification"/>
     <definition value="Nursing Interventions Classification"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="366">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1158,6 +1794,10 @@
     <code value="NIP001"/>
     <display value="Source of Information (Immunization)"/>
     <definition value="Source of Information (Immunization)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="369">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1166,6 +1806,10 @@
     <code value="NIP002"/>
     <display value="Substance refusal reason"/>
     <definition value="Substance refusal reason"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="372">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1174,6 +1818,10 @@
     <code value="NIP004"/>
     <display value="Vaccination - Contraindications, Precautions, and Immunities"/>
     <definition value="Vaccination - Contraindications, Precautions, and Immunities"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="375">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1182,6 +1830,10 @@
     <code value="NIP007"/>
     <display value="Vaccinated at location (facility)"/>
     <definition value="Vaccinated at location (facility)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="378">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1190,6 +1842,10 @@
     <code value="NIP008"/>
     <display value="Vaccine purchased with (Type of funding)"/>
     <definition value="Vaccine purchased with (Type of funding)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="381">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1198,6 +1854,10 @@
     <code value="NIP009"/>
     <display value="Reported adverse event previously"/>
     <definition value="Reported adverse event previously"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="384">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1206,6 +1866,10 @@
     <code value="NIP010"/>
     <display value="VAERS Report type"/>
     <definition value="VAERS Report type"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="387">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1214,6 +1878,10 @@
     <code value="NND"/>
     <display value="Notifiable Event (Disease/Condition) Code List"/>
     <definition value="Notifiable Event (Disease/Condition) Code List"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="390">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1222,6 +1890,10 @@
     <code value="NPI"/>
     <display value="National Provider Identifier"/>
     <definition value="National Provider Identifier"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="393">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1230,6 +1902,10 @@
     <code value="NUBC"/>
     <display value="National Uniform Billing Committee Code"/>
     <definition value="National Uniform Billing Committee Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="396">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1238,11 +1914,19 @@
     <code value="NULLFL"/>
     <display value="Flavors of NULL"/>
     <definition value="Flavors of NULL"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="399">
     <code value="OBSMETHOD"/>
     <display value="Observation Method Code"/>
     <definition value="Observation Method Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="399">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1251,6 +1935,10 @@
     <code value="OHA"/>
     <display value="Omaha System"/>
     <definition value="Omaha System"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="402">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1259,6 +1947,10 @@
     <code value="O301"/>
     <display value="German Procedure Codes"/>
     <definition value="German Procedure Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="405">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1267,6 +1959,10 @@
     <code value="O3012004"/>
     <display value="OPS Germany 2004"/>
     <definition value="OPS Germany 2004"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="408">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1275,6 +1971,10 @@
     <code value="O3012005"/>
     <display value="OPS Germany 2005"/>
     <definition value="OPS Germany 2005"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="411">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1283,6 +1983,10 @@
     <code value="O3012006"/>
     <display value="Ops Germany 2006"/>
     <definition value="Ops Germany 2006"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="414">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1291,6 +1995,10 @@
     <code value="OPS2007"/>
     <display value="OPS Germany 2007"/>
     <definition value="OPS Germany 2007"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="417">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1299,6 +2007,10 @@
     <code value="OPS2008"/>
     <display value="OPS Germany 2008"/>
     <definition value="OPS Germany 2008"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="420">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1307,6 +2019,10 @@
     <code value="OPS2009"/>
     <display value="OPS Germany 2009"/>
     <definition value="OPS Germany 2009"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="423">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1315,6 +2031,10 @@
     <code value="OPS2010"/>
     <display value="OPS Germany 2010"/>
     <definition value="OPS Germany 2010"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="424">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1323,36 +2043,64 @@
     <code value="OPS2011"/>
     <display value="OPS Germany 2011"/>
     <definition value="OPS Germany 2011"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="425">
     <code value="OPS2012"/>
     <display value="OPS Germany 2012"/>
     <definition value="OPS Germany 2012"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="426">
     <code value="OPS2013"/>
     <display value="OPS Germany 2013"/>
     <definition value="OPS Germany 2013"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="427">
     <code value="OPS2014"/>
     <display value="OPS Germany 2014"/>
     <definition value="OPS Germany 2014"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="428">
     <code value="OPS2015"/>
     <display value="OPS Germany 2015"/>
     <definition value="OPS Germany 2015"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="429">
     <code value="OPS2016"/>
     <display value="OPS Germany 2016"/>
     <definition value="OPS Germany 2016"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="430">
     <code value="PHDSCSOPT"/>
     <display value="Source of Payment Typology"/>
     <definition value="Source of Payment Typology"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="431">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1361,6 +2109,10 @@
     <code value="PHINQUESTION"/>
     <display value="CDC Public Health Information Network (PHIN) Question"/>
     <definition value="CDC Public Health Information Network (PHIN) Question"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="432">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1369,6 +2121,10 @@
     <code value="PLR"/>
     <display value="CDC PHLIP Lab result codes that are not covered in SNOMED at the time of this implementation"/>
     <definition value="CDC PHLIP Lab result codes that are not covered in SNOMED at the time of this implementation"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="435">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1377,6 +2133,10 @@
     <code value="PLT"/>
     <display value="CDC PHLIP Lab test codes, where LOINC concept is too broad or not yet available, especially as needed for ordering and or lab to lab reporting )"/>
     <definition value="CDC PHLIP Lab test codes, where LOINC concept is too broad or not yet available, especially as needed for ordering and or lab to lab reporting )"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="438">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1385,11 +2145,19 @@
     <code value="POS"/>
     <display value="POS Codes"/>
     <definition value="POS Codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="439">
     <code value="PRTCPTNMODE"/>
     <display value="Paticipation Mode Code"/>
     <definition value="Paticipation Mode Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="441">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1398,21 +2166,37 @@
     <code value="RC"/>
     <display value="Read Classification"/>
     <definition value="Read Classification"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="442">
     <code value="ROLECLASS"/>
     <display value="Used initially for contact roles."/>
     <definition value="Used initially for contact roles."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="443">
     <code value="ROLECODE"/>
     <display value="Participation Mode"/>
     <definition value="Participation Mode"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="444">
     <code value="RSPMODE"/>
     <display value="Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities."/>
     <definition value="Specifies the mode, immediate versus deferred or queued, by which a receiver should communicate its receiver responsibilities."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="445">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1421,6 +2205,10 @@
     <code value="RXNORM"/>
     <display value="RxNorm"/>
     <definition value="RxNorm"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="447">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1429,6 +2217,10 @@
     <code value="SCT"/>
     <display value="SNOMED Clinical Terms"/>
     <definition value="SNOMED Clinical Terms"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="450">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1437,6 +2229,10 @@
     <code value="SCT2"/>
     <display value="SNOMED Clinical Terms alphanumeric codes"/>
     <definition value="SNOMED Clinical Terms alphanumeric codes"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="453">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1445,6 +2241,10 @@
     <code value="SDM"/>
     <display value="SNOMED- DICOM Microglossary"/>
     <definition value="SNOMED- DICOM Microglossary"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="456">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1453,6 +2253,10 @@
     <code value="SIC"/>
     <display value="Industry (SIC)"/>
     <definition value="Industry (SIC)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="459">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1461,6 +2265,10 @@
     <code value="SNM"/>
     <display value="Systemized Nomenclature of Medicine (SNOMED)"/>
     <definition value="Systemized Nomenclature of Medicine (SNOMED)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="462">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1469,6 +2277,10 @@
     <code value="SNM3"/>
     <display value="SNOMED International"/>
     <definition value="SNOMED International"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="465">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1477,6 +2289,10 @@
     <code value="SNT"/>
     <display value="SNOMED topology codes (anatomic sites)"/>
     <definition value="SNOMED topology codes (anatomic sites)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="468">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1485,6 +2301,10 @@
     <code value="SOC"/>
     <display value="Occupation (SOC 2000)"/>
     <definition value="Occupation (SOC 2000)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="471">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1493,6 +2313,10 @@
     <code value="UB04FL14"/>
     <display value="Priority (Type) of Visit"/>
     <definition value="Priority (Type) of Visit"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="474">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1501,6 +2325,10 @@
     <code value="UB04FL15"/>
     <display value="Point of Origin"/>
     <definition value="Point of Origin"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="477">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1509,6 +2337,10 @@
     <code value="UB04FL17"/>
     <display value="Patient Discharge Status"/>
     <definition value="Patient Discharge Status"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="480">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1517,6 +2349,10 @@
     <code value="UB04FL31"/>
     <display value="Occurrence Code"/>
     <definition value="Occurrence Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="483">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1525,6 +2361,10 @@
     <code value="UB04FL35"/>
     <display value="Occurrence Span"/>
     <definition value="Occurrence Span"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="486">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1533,6 +2373,10 @@
     <code value="UB04FL39"/>
     <display value="Value Code"/>
     <definition value="Value Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="489">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1541,6 +2385,10 @@
     <code value="UC"/>
     <display value="UCDS"/>
     <definition value="UCDS"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="492">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1549,6 +2397,10 @@
     <code value="UCUM"/>
     <display value="UCUM code set for units of measure(from Regenstrief)"/>
     <definition value="UCUM code set for units of measure(from Regenstrief)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="495">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1557,6 +2409,10 @@
     <code value="UMD"/>
     <display value="MDNS"/>
     <definition value="MDNS"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="498">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1565,6 +2421,10 @@
     <code value="UML"/>
     <display value="Unified Medical Language"/>
     <definition value="Unified Medical Language"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="501">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1573,6 +2433,10 @@
     <code value="UPC"/>
     <display value="Universal Product Code"/>
     <definition value="Universal Product Code"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="504">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1581,11 +2445,19 @@
     <code value="UPIN"/>
     <display value="UPIN"/>
     <definition value="UPIN"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="505">
     <code value="USGSGNIS"/>
     <display value="U.S. Board on Geographic Names (USGS - GNIS)"/>
     <definition value="U.S. Board on Geographic Names (USGS - GNIS)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="507">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1594,11 +2466,19 @@
     <code value="USPS"/>
     <display value="United States Postal Service"/>
     <definition value="United States Postal Service"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="508">
     <code value="VIS"/>
     <display value="Clinicians are required to track the Vaccine Information Sheet (VIS) that was shared with the recipient of a vaccination.  This code system contains codes that  identify the document type and the owner of the document."/>
     <definition value="Clinicians are required to track the Vaccine Information Sheet (VIS) that was shared with the recipient of a vaccination.  This code system contains codes that  identify the document type and the owner of the document."/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Deprecated"/>
+    </property>
   </concept>
   <concept id="510">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1607,6 +2487,10 @@
     <code value="W1"/>
     <display value="WHO record # drug codes (6 digit)"/>
     <definition value="WHO record # drug codes (6 digit)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="513">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1615,6 +2499,10 @@
     <code value="W2"/>
     <display value="WHO record # drug codes (8 digit)"/>
     <definition value="WHO record # drug codes (8 digit)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="516">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1623,6 +2511,10 @@
     <code value="W4"/>
     <display value="WHO record # code with ASTM extension"/>
     <definition value="WHO record # code with ASTM extension"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="519">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1631,6 +2523,10 @@
     <code value="WC"/>
     <display value="WHO ATC"/>
     <definition value="WHO ATC"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="522">
     <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-comments">
@@ -1639,5 +2535,9 @@
     <code value="X12Dennnn"/>
     <display value="ASC X12 Code List nnnn"/>
     <definition value="ASC X12 Code List nnnn"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
 </CodeSystem>

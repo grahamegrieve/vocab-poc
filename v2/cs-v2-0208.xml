@@ -5,6 +5,15 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
     <valueCode value="InM"/>
   </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdref">
+    <valueUri value="http://hl7.org/v2/ch02c.html#Heading161"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-stdsection">
+    <valueString value="2.C.2.145"/>
+  </extension>
+  <extension url="http://healthintersections.com.au/fhir/StructureDefinition/valueset-v2type">
+    <valueCode value="HL7"/>
+  </extension>
   <url value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v2-0208"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
@@ -36,52 +45,98 @@
   <compositional value="false"/>
   <versionNeeded value="false"/>
   <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://healthintersections.com.au/csprop/status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="intro"/>
+    <uri value="http://healthintersections.com.au/csprop/intro"/>
+    <description value="Version of HL7 in which the code was first defined"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://healthintersections.com.au/csprop/deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="backwardsCompatible"/>
+    <uri value="http://healthintersections.com.au/csprop/backwardsCompatible"/>
+    <description value="Whether code is considered &#39;backwards compatible&#39; (whatever that means)"/>
+    <type value="boolean"/>
+  </property>
   <concept id="1">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="OK"/>
     <display value="Data found, no errors (this is the default)"/>
     <definition value="Data found, no errors (this is the default)"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="2">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3"/>
-    </extension>
     <code value="NF"/>
     <display value="No data found, no errors"/>
     <definition value="No data found, no errors"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="3">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
     <code value="AE"/>
     <display value="Application error"/>
     <definition value="Application error"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="4">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.3.1"/>
-    </extension>
     <code value="AR"/>
     <display value="Application reject"/>
     <definition value="Application reject"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.3.1"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="Active"/>
+    </property>
   </concept>
   <concept id="5">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.9"/>
-    </extension>
     <code value="TM"/>
     <display value="Too much data found"/>
     <definition value="Too much data found"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.9"/>
+    </property>
   </concept>
   <concept id="6">
-    <extension url="http://hl7.org/fhir/StructureDefinition/codeSystem-versionIntroduced">
-      <valueString value="2.9"/>
-    </extension>
     <code value="PD"/>
     <display value="Protected data"/>
     <definition value="Protected data"/>
+    <property>
+      <code value="intro"/>
+      <valueCode value="2.9"/>
+    </property>
   </concept>
 </CodeSystem>
