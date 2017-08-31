@@ -24,7 +24,7 @@
   <name value="ObservationValue"/>
   <title value="ObservationValue"/>
   <status value="active"/>
-  <date value="2016-11-11"/>
+  <date value="2017-07-31"/>
   <publisher value="Health Level 7"/>
   <contact>
     <name value="Health Level Seven"/>
@@ -1178,6 +1178,28 @@
         </use>
         <value value="outcome measure type"/>
       </designation>
+      <concept id="23862">
+        <code value="INTERM-OM"/>
+        <definition value=" A measure that evaluates the change over time of a physiologic state observable that is associated with a specific long-term health outcome."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="intermediate clinical outcome measure"/>
+        </designation>
+      </concept>
+      <concept id="23861">
+        <code value="PRO-PM"/>
+        <definition value=" A measure that is a comparison of patient reported outcomes for a single or multiple patients collected via an instrument specifically designed to obtain input directly from patients."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="intermediate clinical outcome measure"/>
+        </designation>
+      </concept>
     </concept>
     <concept id="23043">
       <code value="PROCESS"/>
@@ -1189,6 +1211,17 @@
         </use>
         <value value="process measure type"/>
       </designation>
+      <concept id="23863">
+        <code value="APPROPRIATE"/>
+        <definition value=" A measure that assesses the use of one or more processes where the expected health benefit exceeds the expected negative consequences."/>
+        <designation>
+          <use>
+            <system value="http://something...?"/>
+            <code value="deprecated alias"/>
+          </use>
+          <value value="appropriate use process measure"/>
+        </designation>
+      </concept>
     </concept>
     <concept id="23651">
       <code value="RESOURCE"/>

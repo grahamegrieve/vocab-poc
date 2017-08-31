@@ -22,7 +22,7 @@
   <name value="CodeSystem"/>
   <title value="CodeSystem"/>
   <status value="retired"/>
-  <date value="2016-11-11"/>
+  <date value="2017-07-31"/>
   <publisher value="Health Level 7"/>
   <contact>
     <name value="Health Level Seven"/>
@@ -359,6 +359,21 @@
     <property>
       <code value="OID"/>
       <valueCode value="2.16.840.1.113883.5.1138"/>
+    </property>
+  </concept>
+  <concept id="23792">
+    <code value="ada-snodent"/>
+    <definition value=" Systematized Nomenclature of Dentistry (SNODENT) is owned, maintained and distributed by the American Dental Association (ADA). SNODENT is a vocabulary designed for use in the electronic environment - for electronic health and dental records. The intended purpose is to:  Provide standardized terms for describing dental disease Capture clinical detail and patient characteristics Permit analysis of patient care services and outcomes To be interoperable with Electronic Health Records (EHR) and Electronic Dental Records (EDR) SNODENT licensing information can be found at: http://www.ada.org/8466.aspx URL for Official Source: http://www.ada.org/snodent.aspx"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Systematized Nomenclature of Dentistry (SNODENT)"/>
+    </designation>
+    <property>
+      <code value="OID"/>
+      <valueCode value="2.16.840.1.113883.3.3150"/>
     </property>
   </concept>
   <concept id="19876">
@@ -2796,7 +2811,7 @@
   </concept>
   <concept id="23733">
     <code value="ObservationCategory"/>
-    <definition value=" High level observation categories for the general type of observation being made. URL: http://build.fhir.org/valueset-observation-category.html This is an inline code system http://hl7.org/fhir/observation-category."/>
+    <definition value=" High level observation categories for the general type of observation being made. URL: http://hl7-fhir.github.io/valueset-observation-category.html This is an inline code system http://hl7.org/fhir/observation-category."/>
     <designation>
       <use>
         <system value="http://something...?"/>

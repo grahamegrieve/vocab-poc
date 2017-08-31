@@ -28,7 +28,7 @@
   <name value="ActCode"/>
   <title value="ActCode"/>
   <status value="active"/>
-  <date value="2016-11-11"/>
+  <date value="2017-07-31"/>
   <publisher value="Health Level 7"/>
   <contact>
     <name value="Health Level Seven"/>
@@ -7563,17 +7563,6 @@
               <value value="sickle cell anemia"/>
             </designation>
           </concept>
-          <concept id="23341">
-            <code value="SOC"/>
-            <definition value=" Information about provision of social services.  Usage Note:&#xD;&#xA;This is a temporary addition to FHIR to be proposed in harmonization."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="social services sensitivity"/>
-            </designation>
-          </concept>
           <concept id="23342">
             <code value="SDV"/>
             <definition value=" Policy for handling sexual assault, abuse, or domestic violence information, which will be afforded heightened confidentiality. Information handling protocols based on organizational policies related to sexual assault, abuse, or domestic violence information that is deemed sensitive.  Usage Note:&#xD;&#xA;If there is a jurisdictional mandate, then use the applicable ActPrivacyLaw code system, and specify the law rather than or in addition to this more generic code."/>
@@ -7872,6 +7861,39 @@
           </use>
           <value value="compartment"/>
         </designation>
+        <concept id="23880">
+          <code value="ACOCOMPT"/>
+          <definition value=" A group of health care entities, which may include health care providers, care givers, hospitals, facilities, health plans, and other health care constituents who coordinate care for reimbursement based on quality metrics for improving outcomes and lowering costs, and may be authorized to access the consumer&#39;s health information because of membership in that group. Security Compartment Labels assigned to a consumer&#39;s information use in accountable care workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a an accountable care workflow who is requesting access to that information"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="accountable care organization compartment"/>
+          </designation>
+        </concept>
+        <concept id="23878">
+          <code value="CTCOMPT"/>
+          <definition value=" Care coordination across participants in a care plan requires sharing of a healthcare consumer&#39;s information specific to that workflow.  A care team member should only have access to that information while participating in that workflow or for other authorized uses. Security Compartment Labels assigned to a consumer&#39;s information use in care coordination workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a care team member workflow who is requesting access to that information"/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="care team compartment"/>
+          </designation>
+        </concept>
+        <concept id="23881">
+          <code value="FMCOMPT"/>
+          <definition value=" Financial management department members who have access to healthcare consumer information as part of a patient account, billing and claims workflows. Security Compartment Labels assigned to consumer information used in these workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a financial management workflow who is requesting access to that information."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="financial management compartment"/>
+          </designation>
+        </concept>
         <concept id="23580">
           <code value="HRCOMPT"/>
           <definition value=" A security category label field value, which indicates that access and use of an IT resource is restricted to members of human resources department or workflow."/>
@@ -7881,6 +7903,28 @@
               <code value="deprecated alias"/>
             </use>
             <value value="human resource compartment"/>
+          </designation>
+        </concept>
+        <concept id="23879">
+          <code value="LRCOMPT"/>
+          <definition value=" Providers and care givers who have an established relationship per criteria determined by policy are considered to have an established care provision relations with a healthcare consumer, and may be authorized to access the consumer&#39;s health information because of that relationship.  Providers and care givers should only have access to that information while participating in legitimate relationship workflows or for other authorized uses. Security Compartment Labels assigned to a consumer&#39;s information use in legitimate relationship workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a legitimate relationship workflow who is requesting access to that information."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="legitimate relationship compartment"/>
+          </designation>
+        </concept>
+        <concept id="23882">
+          <code value="PACOMPT"/>
+          <definition value=" Patient administration members who have access to healthcare consumer information as part of a patient administration workflows. Security Compartment Labels assigned to consumer information used in these workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a patient administration workflow who is requesting access to that information."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="patient administration compartment"/>
           </designation>
         </concept>
         <concept id="23578">

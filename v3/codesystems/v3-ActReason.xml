@@ -24,7 +24,7 @@
   <name value="ActReason"/>
   <title value="ActReason"/>
   <status value="active"/>
-  <date value="2016-11-11"/>
+  <date value="2017-07-31"/>
   <publisher value="Health Level 7"/>
   <contact>
     <name value="Health Level Seven"/>
@@ -411,6 +411,17 @@
             <value value="emergency treatment override"/>
           </designation>
         </concept>
+        <concept id="23877">
+          <code value="OVRINCOMP"/>
+          <definition value=" To perform one or more operations on information to which the patient has not consented because deemed incompetent to provide consent.  Usage Note:&#xD;&#xA;Maps to v2 CON-16 Subject Competence Indicator (ID) 01791 Definition: Identifies whether the subject was deemed competent to provide consent. Refer to table HL7 Table 0136 - Yes/No Indicator and CON-23 Non-Subject Consenter Reason User-defined Table 0502 - Non-Subject Consenter Reason code NC &quot;Subject is not competent to consent&quot;."/>
+          <designation>
+            <use>
+              <system value="http://something...?"/>
+              <code value="deprecated alias"/>
+            </use>
+            <value value="incompetency override"/>
+          </designation>
+        </concept>
         <concept id="22197">
           <code value="OVRPJ"/>
           <definition value=" To perform one or more operations on information to which the patient declined to consent for providing health care.  Usage Notes:&#xD;&#xA;The patient, while able to give consent, has not.  However the provider believes it is in the patient&#39;s interest to access the record without patient consent."/>
@@ -607,6 +618,28 @@
               </use>
               <value value="health system administration"/>
             </designation>
+            <concept id="23871">
+              <code value="LABELING"/>
+              <definition value=" To perform one or more operations on information to assign, persist, and manage labels to healthcare data to characterize various aspects, such as its security classification, sensitivity, compartment, integrity, and provenance; applicable privacy, consent, security, provenance, and trust policies; and handling caveats such as purpose of use, obligations, and refrain policies. Label management includes classification of target data by constructing and binding of a label set per applicable policies, security policy information file semantics, and classification guides.  Label management also includes process and procedures for subsequent revision of a label for, e.g., reclassification, downgrading classification, and declassification. Label revisions may be triggered by, e.g., expiry of classification period; changes in applicable policy, e.g., revocation of a consent directive; or changes in the governing policy domain in which the data is relocated or a copy of the data is sent.  If a label is revised, an audit log should be kept and the provenance of the label changes should be tracked."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="labeling"/>
+              </designation>
+            </concept>
+            <concept id="23872">
+              <code value="METAMGT"/>
+              <definition value=" To perform one or more operations on information to assign, persist, and manage metadata to healthcare data to characterize various aspects used for its indexing, discovery, retrieval, and processing by systems, applications, and end users.  For example, master index identifier, media type, and location."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="metadata management"/>
+              </designation>
+            </concept>
           </concept>
           <concept id="22694">
             <code value="MEMADMIN"/>
@@ -617,6 +650,17 @@
                 <code value="deprecated alias"/>
               </use>
               <value value="member administration"/>
+            </designation>
+          </concept>
+          <concept id="23875">
+            <code value="MILCDM"/>
+            <definition value=" To perform one or more operations on information for conducting activities required by military processes, procedures, policies, or law."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="military command"/>
             </designation>
           </concept>
           <concept id="22693">
@@ -662,6 +706,28 @@
               </use>
               <value value="records management"/>
             </designation>
+          </concept>
+          <concept id="23873">
+            <code value="SYSDEV"/>
+            <definition value=" To perform one or more operations on information to design, develop, implement, test, or deploy a healthcare system or application."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="system development"/>
+            </designation>
+            <concept id="23874">
+              <code value="HTEST"/>
+              <definition value=" To perform one or more operations on information that is simulated or synthetic health data used for testing system capabilities outside of a production or operational system environment.  Usage Note:&#xD;&#xA;Data marked with a HTEST security label enables an access control system to permit interfacing systems or end users provisioned with a clearance, which includes a HTEST purpose of use attribute, to test, verify, or validate that a system or application will operate in production as intended based on design specifications."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="test health data"/>
+              </designation>
+            </concept>
           </concept>
           <concept id="23419">
             <code value="TRAIN"/>
@@ -750,6 +816,17 @@
                 <value value="enrollment"/>
               </designation>
             </concept>
+            <concept id="23876">
+              <code value="MILDCRG"/>
+              <definition value=" To perform one or more operations on information for the process of releasing military personnel from their service obligations, which may include determining service merit, discharge benefits, and disability assessment."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="military discharge"/>
+              </designation>
+            </concept>
           </concept>
           <concept id="23423">
             <code value="REMITADV"/>
@@ -765,7 +842,7 @@
         </concept>
         <concept id="22679">
           <code value="HRESCH"/>
-          <definition value=" To perform one or more operations on information for conducting scientific investigations to obtain health care knowledge."/>
+          <definition value=" To perform one or more operations on information for conducting scientific investigations to obtain health care knowledge.  Use of the data iincludes basic and applied research such as biomedical, population origin or ancestry, translational research, and disease, discipline, specialty specific healthcare research and clinical trial research."/>
           <designation>
             <use>
               <system value="http://something...?"/>
@@ -773,6 +850,17 @@
             </use>
             <value value="healthcare research"/>
           </designation>
+          <concept id="23864">
+            <code value="BIORCH"/>
+            <definition value=" To perform one or more operations on information for conducting scientific investigations to obtain health care knowledge. Use of the data must be related to specified biomedical basic or applied research.  For example, research on rare plants to determine whether biologic properties may be useful for pharmaceutical development. May be used in combination with clinical trial and other healthcare research purposes of use."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="biomedical research"/>
+            </designation>
+          </concept>
           <concept id="23424">
             <code value="CLINTRCH"/>
             <definition value=" To perform one or more operations on information for conducting scientific investigations in accordance with clinical trial protocols to obtain health care knowledge."/>
@@ -782,6 +870,72 @@
                 <code value="deprecated alias"/>
               </use>
               <value value="clinical trial research"/>
+            </designation>
+            <concept id="23868">
+              <code value="CLINTRCHNPC"/>
+              <definition value=" To perform one or more operations on information for conducting scientific investigations in accordance with clinical trial protocols to obtain health care knowledge without provision of patient care. May be post-coordinated or used with other purposes of use such as disease, discipline, specialty, population origins or ancestry, translational healthcare research. For example, a clinical trial conducted on laboratory specimens collected from a specified patient population."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="clinical trial research without patient care"/>
+              </designation>
+            </concept>
+            <concept id="23869">
+              <code value="CLINTRCHPC"/>
+              <definition value=" To perform one or more operations on information for conducting scientific investigations with patient care in accordance with clinical trial protocols to obtain health care knowledge. May be post-coordinated or used with other purposes of use such as disease, discipline, specialty, population origins or ancestry, translational healthcare research. For example, an &quot;off-label&quot; drug used for cancer therapy administer to a specified patient population."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="clinical trial research with patient care"/>
+              </designation>
+            </concept>
+            <concept id="23870">
+              <code value="PRECLINTRCH"/>
+              <definition value=" To perform one or more operations on information in preparation for conducting scientific investigation to obtain health care knowledge, such as research on animals or review of patient health records, to determine the feasibility of a clinical trial study; assist with protocol design; or in preparation for institutional review board or ethics committee approval process.  May be post-coordinated or used with other purposes of use such as disease, discipline, specialty, population origins or ancestry, translational healthcare research."/>
+              <designation>
+                <use>
+                  <system value="http://something...?"/>
+                  <code value="deprecated alias"/>
+                </use>
+                <value value="preclinical trial research"/>
+              </designation>
+            </concept>
+          </concept>
+          <concept id="23865">
+            <code value="DSRCH"/>
+            <definition value=" To perform one or more operations on information for conducting scientific investigations to obtain health care knowledge. Use of the data must be related to specified conditions, diagnosis, or disease healthcare research.  For example, conducting cancer research by testing reaction of tumor cells to certain biologics. May be used in combination with clinical trial and other healthcare research purposes of use."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="disease specific healthcare research"/>
+            </designation>
+          </concept>
+          <concept id="23866">
+            <code value="POARCH"/>
+            <definition value=" To perform one or more operations on information, including genealogical pedigrees, historical records, surveys, family health data, health records, and genetic information, for conducting scientific investigations to obtain health care knowledge. Use of the data must be related to population origins and/or ancestry healthcare research.  For example, gathering genetic specimens from a specific population in order to determine the ancestry and population origins of that group. May be used in combination with clinical trial and other healthcare research purposes of use."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="population origins or ancestry healthcare research"/>
+            </designation>
+          </concept>
+          <concept id="23867">
+            <code value="TRANSRCH"/>
+            <definition value=" To perform one or more operations on information for conducting scientific investigations to obtain health care knowledge related to evidence based medicine during the course of providing healthcare treatment.  Sometimes referred to as &quot;bench to bedside&quot;, which is the iterative feedback loop between healthcare research and clinical trials with input from information collected in the course of routine provision of healthcare. For example, by extending a patient encounter to conduct a survey related to a research topic such as attitudes about use of a wellness device that a patient agreed to use. May be used in combination with clinical trial and other healthcare research purposes of use."/>
+            <designation>
+              <use>
+                <system value="http://something...?"/>
+                <code value="deprecated alias"/>
+              </use>
+              <value value="translational healthcare research"/>
             </designation>
           </concept>
         </concept>

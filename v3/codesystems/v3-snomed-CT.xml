@@ -23,11 +23,41 @@
   <name value="snomed-CT"/>
   <title value="SNOMED Clinical Terms"/>
   <status value="active"/>
-  <date value="2016-11-11"/>
+  <date value="2017-07-31"/>
   <publisher value="IHTSDO"/>
   <contact>
     <name value="International Health Terminology Standards Development Organisation"/>
   </contact>
   <description value=" SNOMED CT is a concept-based, scientifically validated terminology that provides a unique and permanent concept identifier that can be included in multiple HL7 data types including CD and CE.  The concepts are managed to avoid &quot;semantic drift&quot; so the meaning remains constant.  If the concept is found to be ambiguous or the meaning changes, the concept is inactivated but still retained and the identifier is never reused. SNOMED CT&#39;s concepts are interrelated hierarchically and using description logic. SNOMED CT concepts have a unique &quot;fully-specified name,&quot; a preferred term, and, optionally, synonyms.  The descriptions include English, Spanish, and German."/>
   <content value="fragment"/>
+  <concept id="23885">
+    <code value="413322009"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Problem resolved (finding)"/>
+    </designation>
+  </concept>
+  <concept id="23883">
+    <code value="55561003"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Active (qualifier value)"/>
+    </designation>
+  </concept>
+  <concept id="23884">
+    <code value="73425007"/>
+    <designation>
+      <use>
+        <system value="http://something...?"/>
+        <code value="deprecated alias"/>
+      </use>
+      <value value="Inactive (qualifier value)"/>
+    </designation>
+  </concept>
 </CodeSystem>
