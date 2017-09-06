@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.20.2.7"/>
   <meta>
-    <versionId value="20160715"/>
-    <lastUpdated value="2016-07-15T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-19T01:53:58.372+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -65,6 +65,20 @@
               </td>
               
               <td>Difficulty chewing (finding)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=206568009">206568009</a>
+              
+              </td>
+              
+              <td>Difficulty in feeding at breast (finding)</td>
               
               <td/>
             
@@ -274,11 +288,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.7"/>
-  <version value="20160715"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.7"/>
+  <version value="99999999"/>
   <name value="Nutritional Status"/>
-  <status value="active"/>
-  <date value="2016-07-15T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-08-19T01:53:58+10:00"/>
   <publisher value="MD Partners Steward"/>
   <compose>
     <include>
@@ -290,6 +304,10 @@
       <concept>
         <code value="162020001"/>
         <display value="Difficulty chewing (finding)"/>
+      </concept>
+      <concept>
+        <code value="206568009"/>
+        <display value="Difficulty in feeding at breast (finding)"/>
       </concept>
       <concept>
         <code value="248324001"/>

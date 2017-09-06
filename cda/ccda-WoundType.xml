@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.20.2.6"/>
   <meta>
-    <versionId value="20160712"/>
-    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-25T01:53:51.285+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -93,6 +93,20 @@
               </td>
               
               <td>Incised wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399912005">399912005</a>
+              
+              </td>
+              
+              <td>Pressure ulcer (disorder)</td>
               
               <td/>
             
@@ -214,6 +228,20 @@
               
               <td>
                 
+                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=425346001">425346001</a>
+              
+              </td>
+              
+              <td>Major open wound (disorder)</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
                 <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=46742003">46742003</a>
               
               </td>
@@ -246,11 +274,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.6"/>
-  <version value="20160712"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.6"/>
+  <version value="99999999"/>
   <name value="Wound Type"/>
-  <status value="active"/>
-  <date value="2016-07-12T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-08-25T01:53:51+10:00"/>
   <publisher value="MD Partners Steward"/>
   <compose>
     <include>
@@ -270,6 +298,10 @@
       <concept>
         <code value="283396008"/>
         <display value="Incised wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="399912005"/>
+        <display value="Pressure ulcer (disorder)"/>
       </concept>
       <concept>
         <code value="416886008"/>
@@ -302,6 +334,10 @@
       <concept>
         <code value="425144005"/>
         <display value="Minor open wound (disorder)"/>
+      </concept>
+      <concept>
+        <code value="425346001"/>
+        <display value="Major open wound (disorder)"/>
       </concept>
       <concept>
         <code value="46742003"/>

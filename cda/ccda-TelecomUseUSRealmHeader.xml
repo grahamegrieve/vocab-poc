@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.11.20.9.20"/>
   <meta>
-    <versionId value="20150424"/>
-    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-19T02:08:29.228+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -40,6 +40,26 @@
             
             <tr>
               
+              <td>AS</td>
+              
+              <td>answering service</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>EC</td>
+              
+              <td>emergency contact</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>HP</td>
               
               <td>primary home</td>
@@ -70,6 +90,16 @@
             
             <tr>
               
+              <td>PG</td>
+              
+              <td>pager</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>WP</td>
               
               <td>work place</td>
@@ -86,15 +116,23 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20"/>
-  <version value="20150424"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.20"/>
+  <version value="99999999"/>
   <name value="Telecom Use (US Realm Header)"/>
-  <status value="active"/>
-  <date value="2015-04-24T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-08-19T02:08:29+10:00"/>
   <publisher value="HL7 Terminology"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-AddressUse"/>
+      <concept>
+        <code value="AS"/>
+        <display value="answering service"/>
+      </concept>
+      <concept>
+        <code value="EC"/>
+        <display value="emergency contact"/>
+      </concept>
       <concept>
         <code value="HP"/>
         <display value="primary home"/>
@@ -106,6 +144,10 @@
       <concept>
         <code value="MC"/>
         <display value="mobile contact)"/>
+      </concept>
+      <concept>
+        <code value="PG"/>
+        <display value="pager"/>
       </concept>
       <concept>
         <code value="WP"/>

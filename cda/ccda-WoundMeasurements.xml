@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.20.2.5"/>
   <meta>
-    <versionId value="20160712"/>
-    <lastUpdated value="2016-07-12T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-09-01T06:38:24.929+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -83,6 +83,34 @@
               <td/>
             
             </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/72293-4.html">72293-4</a>
+              
+              </td>
+              
+              <td>Undermining [Length] of Wound</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/72296-7.html">72296-7</a>
+              
+              </td>
+              
+              <td>Tunneling [Length] of Wound</td>
+              
+              <td/>
+            
+            </tr>
           
           </table>
         
@@ -92,11 +120,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.5"/>
-  <version value="20160712"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.5"/>
+  <version value="99999999"/>
   <name value="Wound Measurements"/>
-  <status value="active"/>
-  <date value="2016-07-12T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-09-01T06:38:24+10:00"/>
   <publisher value="MD Partners Steward"/>
   <compose>
     <include>
@@ -112,6 +140,14 @@
       <concept>
         <code value="39127-6"/>
         <display value="Depth of Wound"/>
+      </concept>
+      <concept>
+        <code value="72293-4"/>
+        <display value="Undermining [Length] of Wound"/>
+      </concept>
+      <concept>
+        <code value="72296-7"/>
+        <display value="Tunneling [Length] of Wound"/>
       </concept>
     </include>
   </compose>

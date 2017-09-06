@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.10267"/>
   <meta>
-    <versionId value="20150417"/>
-    <lastUpdated value="2015-04-17T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-25T06:39:00.864+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -63,16 +63,6 @@
               <td>ANRS</td>
               
               <td>anesthesia nurse</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
-              <td>ASSEMBLER</td>
-              
-              <td>assembly software</td>
               
               <td/>
             
@@ -340,16 +330,6 @@
             
             <tr>
               
-              <td>REVIEWER</td>
-              
-              <td>reviewer</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
               <td>RNDPHYS</td>
               
               <td>rounding physician</td>
@@ -526,11 +506,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.10267"/>
-  <version value="20150417"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.10267"/>
+  <version value="99999999"/>
   <name value="ParticipationFunction"/>
-  <status value="active"/>
-  <date value="2015-04-17T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-08-25T06:39:00+10:00"/>
   <publisher value="HL7 Terminology"/>
   <compose>
     <include>
@@ -546,10 +526,6 @@
       <concept>
         <code value="ANRS"/>
         <display value="anesthesia nurse"/>
-      </concept>
-      <concept>
-        <code value="ASSEMBLER"/>
-        <display value="assembly software"/>
       </concept>
       <concept>
         <code value="ATTPHYS"/>
@@ -654,10 +630,6 @@
       <concept>
         <code value="RETROCES"/>
         <display value="retrocessionaires"/>
-      </concept>
-      <concept>
-        <code value="REVIEWER"/>
-        <display value="reviewer"/>
       </concept>
       <concept>
         <code value="RNDPHYS"/>

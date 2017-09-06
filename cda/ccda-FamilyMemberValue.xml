@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.19579"/>
   <meta>
-    <versionId value="20150424"/>
-    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-19T01:20:54.225+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -330,9 +330,109 @@
             
             <tr>
               
+              <td>MAUNT</td>
+              
+              <td>maternal aunt</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MCOUSN</td>
+              
+              <td>maternal cousin</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MGGRFTH</td>
+              
+              <td>maternal great-grandfather</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MGGRMTH</td>
+              
+              <td>maternal great-grandmother</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MGGRPRN</td>
+              
+              <td>maternal great-grandparent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MGRFTH</td>
+              
+              <td>maternal grandfather</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MGRMTH</td>
+              
+              <td>maternal grandmother</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MGRPRN</td>
+              
+              <td>maternal grandparent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>MTH</td>
               
               <td>mother</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MTHINLAW</td>
+              
+              <td>mother-in-law</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>MUNCLE</td>
+              
+              <td>maternal uncle</td>
               
               <td/>
             
@@ -440,6 +540,86 @@
             
             <tr>
               
+              <td>PAUNT</td>
+              
+              <td>paternal aunt</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PCOUSN</td>
+              
+              <td>paternal cousin</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PGGRFTH</td>
+              
+              <td>paternal great-grandfather</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PGGRMTH</td>
+              
+              <td>paternal great-grandmother</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PGGRPRN</td>
+              
+              <td>paternal great-grandparent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PGRFTH</td>
+              
+              <td>paternal grandfather</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PGRMTH</td>
+              
+              <td>paternal grandmother</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PGRPRN</td>
+              
+              <td>paternal grandparent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>PRN</td>
               
               <td>parent</td>
@@ -453,6 +633,16 @@
               <td>PRNINLAW</td>
               
               <td>parent in-law</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>PUNCLE</td>
+              
+              <td>paternal uncle</td>
               
               <td/>
             
@@ -503,6 +693,16 @@
               <td>SIS</td>
               
               <td>sister</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>SISINLAW</td>
+              
+              <td>sister-in-law</td>
               
               <td/>
             
@@ -676,11 +876,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.19579"/>
-  <version value="20150424"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.19579"/>
+  <version value="99999999"/>
   <name value="Family Member Value"/>
-  <status value="active"/>
-  <date value="2015-04-24T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-08-19T01:20:54+10:00"/>
   <publisher value="HL7 Terminology"/>
   <compose>
     <include>
@@ -802,8 +1002,48 @@
         <display value="husband"/>
       </concept>
       <concept>
+        <code value="MAUNT"/>
+        <display value="maternal aunt"/>
+      </concept>
+      <concept>
+        <code value="MCOUSN"/>
+        <display value="maternal cousin"/>
+      </concept>
+      <concept>
+        <code value="MGGRFTH"/>
+        <display value="maternal great-grandfather"/>
+      </concept>
+      <concept>
+        <code value="MGGRMTH"/>
+        <display value="maternal great-grandmother"/>
+      </concept>
+      <concept>
+        <code value="MGGRPRN"/>
+        <display value="maternal great-grandparent"/>
+      </concept>
+      <concept>
+        <code value="MGRFTH"/>
+        <display value="maternal grandfather"/>
+      </concept>
+      <concept>
+        <code value="MGRMTH"/>
+        <display value="maternal grandmother"/>
+      </concept>
+      <concept>
+        <code value="MGRPRN"/>
+        <display value="maternal grandparent"/>
+      </concept>
+      <concept>
         <code value="MTH"/>
         <display value="mother"/>
+      </concept>
+      <concept>
+        <code value="MTHINLAW"/>
+        <display value="mother-in-law"/>
+      </concept>
+      <concept>
+        <code value="MUNCLE"/>
+        <display value="maternal uncle"/>
       </concept>
       <concept>
         <code value="NBRO"/>
@@ -846,12 +1086,48 @@
         <display value="natural sister"/>
       </concept>
       <concept>
+        <code value="PAUNT"/>
+        <display value="paternal aunt"/>
+      </concept>
+      <concept>
+        <code value="PCOUSN"/>
+        <display value="paternal cousin"/>
+      </concept>
+      <concept>
+        <code value="PGGRFTH"/>
+        <display value="paternal great-grandfather"/>
+      </concept>
+      <concept>
+        <code value="PGGRMTH"/>
+        <display value="paternal great-grandmother"/>
+      </concept>
+      <concept>
+        <code value="PGGRPRN"/>
+        <display value="paternal great-grandparent"/>
+      </concept>
+      <concept>
+        <code value="PGRFTH"/>
+        <display value="paternal grandfather"/>
+      </concept>
+      <concept>
+        <code value="PGRMTH"/>
+        <display value="paternal grandmother"/>
+      </concept>
+      <concept>
+        <code value="PGRPRN"/>
+        <display value="paternal grandparent"/>
+      </concept>
+      <concept>
         <code value="PRN"/>
         <display value="parent"/>
       </concept>
       <concept>
         <code value="PRNINLAW"/>
         <display value="parent in-law"/>
+      </concept>
+      <concept>
+        <code value="PUNCLE"/>
+        <display value="paternal uncle"/>
       </concept>
       <concept>
         <code value="ROOM"/>
@@ -872,6 +1148,10 @@
       <concept>
         <code value="SIS"/>
         <display value="sister"/>
+      </concept>
+      <concept>
+        <code value="SISINLAW"/>
+        <display value="sister-in-law"/>
       </concept>
       <concept>
         <code value="SON"/>

@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.3.88.12.3221.6.8"/>
   <meta>
-    <versionId value="20150424"/>
-    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-19T05:21:51.816+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
       
-      <h2>Problem Severity</h2>
+      <h2>Reaction Severity</h2>
       
       <p>This value set includes codes from the following code systems:</p>
       
@@ -74,48 +74,6 @@
               
               <td>
                 
-                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003">371923003</a>
-              
-              </td>
-              
-              <td>Mild to moderate (qualifier value)</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
-              <td>
-                
-                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009">371924009</a>
-              
-              </td>
-              
-              <td>Moderate to severe (qualifier value)</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
-              <td>
-                
-                <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001">399166001</a>
-              
-              </td>
-              
-              <td>Fatal (qualifier value)</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
-              <td>
-                
                 <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6736007">6736007</a>
               
               </td>
@@ -134,11 +92,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.6.8"/>
-  <version value="20150424"/>
-  <name value="Problem Severity"/>
-  <status value="active"/>
-  <date value="2015-04-24T15:00:02+10:00"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.88.12.3221.6.8"/>
+  <version value="99999999"/>
+  <name value="Reaction Severity"/>
+  <status value="draft"/>
+  <date value="2017-08-19T05:21:51+10:00"/>
   <publisher value="HL7 Terminology"/>
   <compose>
     <include>
@@ -150,18 +108,6 @@
       <concept>
         <code value="255604002"/>
         <display value="Mild (qualifier value)"/>
-      </concept>
-      <concept>
-        <code value="371923003"/>
-        <display value="Mild to moderate (qualifier value)"/>
-      </concept>
-      <concept>
-        <code value="371924009"/>
-        <display value="Moderate to severe (qualifier value)"/>
-      </concept>
-      <concept>
-        <code value="399166001"/>
-        <display value="Fatal (qualifier value)"/>
       </concept>
       <concept>
         <code value="6736007"/>

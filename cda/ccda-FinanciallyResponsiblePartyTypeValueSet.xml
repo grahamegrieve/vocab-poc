@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.10416"/>
   <meta>
-    <versionId value="20150424"/>
-    <lastUpdated value="2015-04-24T15:00:02.000+10:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-19T01:43:34.947+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -40,6 +40,16 @@
             
             <tr>
               
+              <td>AFFL</td>
+              
+              <td>affiliate</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>AGNT</td>
               
               <td>agent</td>
@@ -60,9 +70,29 @@
             
             <tr>
               
+              <td>CASEBJ</td>
+              
+              <td>Case Subject</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>CIT</td>
               
               <td>citizen</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>CLAIM</td>
+              
+              <td>claimant</td>
               
               <td/>
             
@@ -120,6 +150,16 @@
             
             <tr>
               
+              <td>DEPEN</td>
+              
+              <td>dependent</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>ECON</td>
               
               <td>emergency contact</td>
@@ -160,6 +200,16 @@
             
             <tr>
               
+              <td>INDIV</td>
+              
+              <td>individual</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>INVSBJ</td>
               
               <td>Investigation Subject</td>
@@ -183,6 +233,16 @@
               <td>MIL</td>
               
               <td>military person</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>NAMED</td>
+              
+              <td>named insured</td>
               
               <td/>
             
@@ -250,6 +310,16 @@
             
             <tr>
               
+              <td>PROG</td>
+              
+              <td>program eligible</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>PROV</td>
               
               <td>healthcare provider</td>
@@ -310,6 +380,16 @@
             
             <tr>
               
+              <td>SUBSCR</td>
+              
+              <td>subscriber</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
               <td>UNDWRT</td>
               
               <td>underwriter</td>
@@ -326,15 +406,19 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.10416"/>
-  <version value="20150424"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.10416"/>
+  <version value="99999999"/>
   <name value="Financially Responsible Party Type Value Set"/>
-  <status value="active"/>
-  <date value="2015-04-24T15:00:02+10:00"/>
+  <status value="draft"/>
+  <date value="2017-08-19T01:43:34+10:00"/>
   <publisher value="HL7 Terminology"/>
   <compose>
     <include>
       <system value="http://hl7.org/fhir/ig/vocab-poc/CodeSystem/v3-RoleClass"/>
+      <concept>
+        <code value="AFFL"/>
+        <display value="affiliate"/>
+      </concept>
       <concept>
         <code value="AGNT"/>
         <display value="agent"/>
@@ -344,8 +428,16 @@
         <display value="assigned entity"/>
       </concept>
       <concept>
+        <code value="CASEBJ"/>
+        <display value="Case Subject"/>
+      </concept>
+      <concept>
         <code value="CIT"/>
         <display value="citizen"/>
+      </concept>
+      <concept>
+        <code value="CLAIM"/>
+        <display value="claimant"/>
       </concept>
       <concept>
         <code value="COMPAR"/>
@@ -368,6 +460,10 @@
         <display value="clinical research sponsor"/>
       </concept>
       <concept>
+        <code value="DEPEN"/>
+        <display value="dependent"/>
+      </concept>
+      <concept>
         <code value="ECON"/>
         <display value="emergency contact"/>
       </concept>
@@ -384,6 +480,10 @@
         <display value="guardian"/>
       </concept>
       <concept>
+        <code value="INDIV"/>
+        <display value="individual"/>
+      </concept>
+      <concept>
         <code value="INVSBJ"/>
         <display value="Investigation Subject"/>
       </concept>
@@ -394,6 +494,10 @@
       <concept>
         <code value="MIL"/>
         <display value="military person"/>
+      </concept>
+      <concept>
+        <code value="NAMED"/>
+        <display value="named insured"/>
       </concept>
       <concept>
         <code value="NOK"/>
@@ -420,6 +524,10 @@
         <display value="policy holder"/>
       </concept>
       <concept>
+        <code value="PROG"/>
+        <display value="program eligible"/>
+      </concept>
+      <concept>
         <code value="PROV"/>
         <display value="healthcare provider"/>
       </concept>
@@ -442,6 +550,10 @@
       <concept>
         <code value="STD"/>
         <display value="student"/>
+      </concept>
+      <concept>
+        <code value="SUBSCR"/>
+        <display value="subscriber"/>
       </concept>
       <concept>
         <code value="UNDWRT"/>

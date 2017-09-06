@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.20.2.3"/>
   <meta>
-    <versionId value="20161104"/>
-    <lastUpdated value="2016-11-04T16:00:02.000+11:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-19T02:13:39.362+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -302,7 +302,7 @@
               
               </td>
               
-              <td>Pharmacy Referral note</td>
+              <td>Pharmacology Referral note</td>
               
               <td/>
             
@@ -316,7 +316,7 @@
               
               </td>
               
-              <td>Physical medicine and rehabilitation Referral note</td>
+              <td>Physical medicine and rehab Referral note</td>
               
               <td/>
             
@@ -498,7 +498,7 @@
               
               </td>
               
-              <td>Thoracic surgery Referral note</td>
+              <td>Cardiothoracic surgery Referral note</td>
               
               <td/>
             
@@ -970,6 +970,188 @@
               
               <td>
                 
+                <a href="http://details.loinc.org/LOINC/80577-0.html">80577-0</a>
+              
+              </td>
+              
+              <td>Cardiac surgery Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/80806-3.html">80806-3</a>
+              
+              </td>
+              
+              <td>Surgical oncology Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/82358-3.html">82358-3</a>
+              
+              </td>
+              
+              <td>Reproductive endocrinology and infertility Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/83797-1.html">83797-1</a>
+              
+              </td>
+              
+              <td>Physician Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/83964-7.html">83964-7</a>
+              
+              </td>
+              
+              <td>Social work Patient&#39;s home Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/83971-2.html">83971-2</a>
+              
+              </td>
+              
+              <td>Social work Long term care facility Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/84031-4.html">84031-4</a>
+              
+              </td>
+              
+              <td>Team Long term care facility Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/84259-1.html">84259-1</a>
+              
+              </td>
+              
+              <td>Nurse Long term care facility Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/84271-6.html">84271-6</a>
+              
+              </td>
+              
+              <td>Nurse Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/84287-2.html">84287-2</a>
+              
+              </td>
+              
+              <td>Nutrition and dietetics Long term care facility Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/85199-8.html">85199-8</a>
+              
+              </td>
+              
+              <td>Long term care facility Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/85205-3.html">85205-3</a>
+              
+              </td>
+              
+              <td>Patient&#39;s home Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
+                <a href="http://details.loinc.org/LOINC/85226-9.html">85226-9</a>
+              
+              </td>
+              
+              <td>Case manager Referral note</td>
+              
+              <td/>
+            
+            </tr>
+            
+            <tr>
+              
+              <td>
+                
                 <a href="http://details.loinc.org/LOINC/LP97117-3.html">LP97117-3</a>
               
               </td>
@@ -988,11 +1170,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.3"/>
-  <version value="20161104"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.20.2.3"/>
+  <version value="99999999"/>
   <name value="ReferralDocumentType"/>
-  <status value="active"/>
-  <date value="2016-11-04T16:00:02+11:00"/>
+  <status value="draft"/>
+  <date value="2017-08-19T02:13:39+10:00"/>
   <publisher value="MD Partners Steward"/>
   <compose>
     <include>
@@ -1071,11 +1253,11 @@
       </concept>
       <concept>
         <code value="57152-1"/>
-        <display value="Pharmacy Referral note"/>
+        <display value="Pharmacology Referral note"/>
       </concept>
       <concept>
         <code value="57153-9"/>
-        <display value="Physical medicine and rehabilitation Referral note"/>
+        <display value="Physical medicine and rehab Referral note"/>
       </concept>
       <concept>
         <code value="57154-7"/>
@@ -1127,7 +1309,7 @@
       </concept>
       <concept>
         <code value="57167-9"/>
-        <display value="Thoracic surgery Referral note"/>
+        <display value="Cardiothoracic surgery Referral note"/>
       </concept>
       <concept>
         <code value="57168-7"/>
@@ -1260,6 +1442,58 @@
       <concept>
         <code value="80419-5"/>
         <display value="Community health care Referral note"/>
+      </concept>
+      <concept>
+        <code value="80577-0"/>
+        <display value="Cardiac surgery Referral note"/>
+      </concept>
+      <concept>
+        <code value="80806-3"/>
+        <display value="Surgical oncology Referral note"/>
+      </concept>
+      <concept>
+        <code value="82358-3"/>
+        <display value="Reproductive endocrinology and infertility Referral note"/>
+      </concept>
+      <concept>
+        <code value="83797-1"/>
+        <display value="Physician Referral note"/>
+      </concept>
+      <concept>
+        <code value="83964-7"/>
+        <display value="Social work Patient&#39;s home Referral note"/>
+      </concept>
+      <concept>
+        <code value="83971-2"/>
+        <display value="Social work Long term care facility Referral note"/>
+      </concept>
+      <concept>
+        <code value="84031-4"/>
+        <display value="Team Long term care facility Referral note"/>
+      </concept>
+      <concept>
+        <code value="84259-1"/>
+        <display value="Nurse Long term care facility Referral note"/>
+      </concept>
+      <concept>
+        <code value="84271-6"/>
+        <display value="Nurse Referral note"/>
+      </concept>
+      <concept>
+        <code value="84287-2"/>
+        <display value="Nutrition and dietetics Long term care facility Referral note"/>
+      </concept>
+      <concept>
+        <code value="85199-8"/>
+        <display value="Long term care facility Referral note"/>
+      </concept>
+      <concept>
+        <code value="85205-3"/>
+        <display value="Patient&#39;s home Referral note"/>
+      </concept>
+      <concept>
+        <code value="85226-9"/>
+        <display value="Case manager Referral note"/>
       </concept>
       <concept>
         <code value="LP97117-3"/>

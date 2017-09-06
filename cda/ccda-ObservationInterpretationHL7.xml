@@ -3,8 +3,8 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="2.16.840.1.113883.1.11.78"/>
   <meta>
-    <versionId value="20151210"/>
-    <lastUpdated value="2015-12-10T17:00:00.000+11:00"/>
+    <versionId value="99999999"/>
+    <lastUpdated value="2017-08-25T06:36:36.258+10:00"/>
   </meta>
   <text>
     <status value="generated"/>
@@ -72,7 +72,7 @@
               
               <td>AA</td>
               
-              <td>Critically abnormal</td>
+              <td>Critical abnormal</td>
               
               <td/>
             
@@ -162,7 +162,7 @@
               
               <td>H&gt;</td>
               
-              <td>Very high</td>
+              <td>Significantly high</td>
               
               <td/>
             
@@ -172,7 +172,7 @@
               
               <td>HH</td>
               
-              <td>Critically high</td>
+              <td>Critical high</td>
               
               <td/>
             
@@ -232,7 +232,7 @@
               
               <td>L&lt;</td>
               
-              <td>Very low</td>
+              <td>Significantly low</td>
               
               <td/>
             
@@ -242,7 +242,7 @@
               
               <td>LL</td>
               
-              <td>Critically low</td>
+              <td>Critical low</td>
               
               <td/>
             
@@ -400,26 +400,6 @@
             
             <tr>
               
-              <td>SYN-R</td>
-              
-              <td>Synergy - resistant</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
-              <td>SYN-S</td>
-              
-              <td>Synergy - susceptible</td>
-              
-              <td/>
-            
-            </tr>
-            
-            <tr>
-              
               <td>TOX</td>
               
               <td>Cytotoxic substance present</td>
@@ -526,11 +506,11 @@
     
     </div>
   </text>
-  <url value="https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.78"/>
-  <version value="20151210"/>
+  <url value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.78"/>
+  <version value="99999999"/>
   <name value="Observation Interpretation (HL7)"/>
-  <status value="active"/>
-  <date value="2015-12-10T17:00:00+11:00"/>
+  <status value="draft"/>
+  <date value="2017-08-25T06:36:36+10:00"/>
   <publisher value="HL7 Terminology"/>
   <compose>
     <include>
@@ -549,7 +529,7 @@
       </concept>
       <concept>
         <code value="AA"/>
-        <display value="Critically abnormal"/>
+        <display value="Critical abnormal"/>
       </concept>
       <concept>
         <code value="AC"/>
@@ -585,11 +565,11 @@
       </concept>
       <concept>
         <code value="H&gt;"/>
-        <display value="Very high"/>
+        <display value="Significantly high"/>
       </concept>
       <concept>
         <code value="HH"/>
-        <display value="Critically high"/>
+        <display value="Critical high"/>
       </concept>
       <concept>
         <code value="HX"/>
@@ -613,11 +593,11 @@
       </concept>
       <concept>
         <code value="L&lt;"/>
-        <display value="Very low"/>
+        <display value="Significantly low"/>
       </concept>
       <concept>
         <code value="LL"/>
-        <display value="Critically low"/>
+        <display value="Critical low"/>
       </concept>
       <concept>
         <code value="LX"/>
@@ -678,14 +658,6 @@
       <concept>
         <code value="SDD"/>
         <display value="Susceptible-dose dependent"/>
-      </concept>
-      <concept>
-        <code value="SYN-R"/>
-        <display value="Synergy - resistant"/>
-      </concept>
-      <concept>
-        <code value="SYN-S"/>
-        <display value="Synergy - susceptible"/>
       </concept>
       <concept>
         <code value="TOX"/>
