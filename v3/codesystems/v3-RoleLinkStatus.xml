@@ -31,68 +31,32 @@
   <content value="complete"/>
   <concept id="23254">
     <code value="NORMAL"/>
+    <display value="normal"/>
     <definition value="  Description:&#xD;&#xA;The &#39;typical&#39; state. Excludes &quot;nullified&quot; which represents the termination state of a RoleLink instance that was created in error."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="normal"/>
-    </designation>
     <concept id="23255">
       <code value="ACTIVE"/>
+      <display value="active"/>
       <definition value="  Description:&#xD;&#xA;The state indicates the RoleLink is in progress."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="active"/>
-      </designation>
     </concept>
     <concept id="23256">
       <code value="CANCELLED"/>
+      <display value="cancelled"/>
       <definition value="  Description:&#xD;&#xA;The terminal state resulting from abandoning the RoleLink prior to or after activation."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="cancelled"/>
-      </designation>
     </concept>
     <concept id="23257">
       <code value="COMPLETED"/>
+      <display value="completed"/>
       <definition value="  Description:&#xD;&#xA;The terminal state representing the successful completion of the RoleLink."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="completed"/>
-      </designation>
     </concept>
     <concept id="23258">
       <code value="PENDING"/>
+      <display value="pending"/>
       <definition value="  Description:&#xD;&#xA;The state indicates the RoleLink has not yet become active."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="pending"/>
-      </designation>
     </concept>
   </concept>
   <concept id="23259">
     <code value="NULLIFIED"/>
+    <display value="nullified"/>
     <definition value="  Description:&#xD;&#xA;The state representing the termination of a RoleLink instance that was created in error."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="nullified"/>
-    </designation>
   </concept>
 </CodeSystem>

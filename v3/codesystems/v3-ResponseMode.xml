@@ -25,35 +25,17 @@
   <content value="complete"/>
   <concept id="21433">
     <code value="D"/>
+    <display value="deferred"/>
     <definition value=" The receiver may respond in a non-immediate manner. Note: this will be the default value."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="deferred"/>
-    </designation>
   </concept>
   <concept id="21432">
     <code value="I"/>
+    <display value="immediate"/>
     <definition value=" The receiver is required to assume that the sender is blocking and behave appropriately by sending an immediate response."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="immediate"/>
-    </designation>
   </concept>
   <concept id="21434">
     <code value="Q"/>
+    <display value="queue"/>
     <definition value=" The receiver shall keep any application responses in a queue until such time as the queue is polled."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="queue"/>
-    </designation>
   </concept>
 </CodeSystem>

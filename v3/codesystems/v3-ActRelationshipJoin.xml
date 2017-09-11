@@ -19,46 +19,22 @@
   <content value="complete"/>
   <concept id="10364">
     <code value="D"/>
+    <display value="detached"/>
     <definition value=" Detach this branch from the other branches so it will not be resynchronized with the other branches."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="detached"/>
-    </designation>
   </concept>
   <concept id="10362">
     <code value="K"/>
+    <display value="kill"/>
     <definition value=" When all other concurrent branches are terminated, interrupt and discontinue this branch."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="kill"/>
-    </designation>
   </concept>
   <concept id="10361">
     <code value="W"/>
+    <display value="wait"/>
     <definition value=" Wait for this branch to terminate."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="wait"/>
-    </designation>
   </concept>
   <concept id="10363">
     <code value="X"/>
+    <display value="exclusive wait"/>
     <definition value=" Wait for any one of the branches in the set of exclusive wait branches to terminate, then discontinue all the other exclusive wait branches."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="exclusive wait"/>
-    </designation>
   </concept>
 </CodeSystem>

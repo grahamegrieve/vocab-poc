@@ -28,46 +28,22 @@
   <content value="complete"/>
   <concept id="19793">
     <code value="AE"/>
+    <display value="ApplicationError"/>
     <definition value=" Query Error.  Application Error."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ApplicationError"/>
-    </designation>
   </concept>
   <concept id="16013">
     <code value="NF"/>
+    <display value="No data found"/>
     <definition value=" No errors, but no data was found matching the query request specification."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="No data found"/>
-    </designation>
   </concept>
   <concept id="16012">
     <code value="OK"/>
+    <display value="Data found"/>
     <definition value=" Query reponse data found for 1 or more result sets matching the query request specification."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Data found"/>
-    </designation>
   </concept>
   <concept id="19794">
     <code value="QE"/>
+    <display value="QueryParameterError"/>
     <definition value=" QueryError. Problem with input ParmetersError"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="QueryParameterError"/>
-    </designation>
   </concept>
 </CodeSystem>

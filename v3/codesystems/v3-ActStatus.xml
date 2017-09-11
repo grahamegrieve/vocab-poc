@@ -28,112 +28,52 @@
   <content value="complete"/>
   <concept id="15936">
     <code value="normal"/>
+    <display value="normal"/>
     <definition value=" Encompasses the expected states of an Act, but excludes &quot;nullified&quot; and &quot;obsolete&quot; which represent unusual terminal states for the life-cycle."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="normal"/>
-    </designation>
     <concept id="15941">
       <code value="aborted"/>
+      <display value="aborted"/>
       <definition value=" The Act has been terminated prior to the originally intended completion."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="aborted"/>
-      </designation>
     </concept>
     <concept id="15942">
       <code value="active"/>
+      <display value="active"/>
       <definition value=" The Act can be performed or is being performed"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="active"/>
-      </designation>
     </concept>
     <concept id="15938">
       <code value="cancelled"/>
+      <display value="cancelled"/>
       <definition value=" The Act has been abandoned before activation."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="cancelled"/>
-      </designation>
     </concept>
     <concept id="15940">
       <code value="completed"/>
+      <display value="completed"/>
       <definition value=" An Act that has terminated normally after all of its constituents have been performed."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="completed"/>
-      </designation>
     </concept>
     <concept id="15937">
       <code value="held"/>
+      <display value="held"/>
       <definition value=" An Act that is still in the preparatory stages has been put aside.  No action can occur until the Act is released."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="held"/>
-      </designation>
     </concept>
     <concept id="15943">
       <code value="new"/>
+      <display value="new"/>
       <definition value=" An Act that is in the preparatory stages and may not yet be acted upon"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="new"/>
-      </designation>
     </concept>
     <concept id="15939">
       <code value="suspended"/>
+      <display value="suspended"/>
       <definition value=" An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled.  No further action should be taken against it until it is released"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="suspended"/>
-      </designation>
     </concept>
   </concept>
   <concept id="15934">
     <code value="nullified"/>
+    <display value="nullified"/>
     <definition value=" This Act instance was created in error and has been &#39;removed&#39; and is treated as though it never existed.  A record is retained for audit purposes only."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="nullified"/>
-    </designation>
   </concept>
   <concept id="15935">
     <code value="obsolete"/>
+    <display value="obsolete"/>
     <definition value=" This Act instance has been replaced by a new instance."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="obsolete"/>
-    </designation>
   </concept>
 </CodeSystem>

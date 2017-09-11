@@ -33,35 +33,17 @@
   <content value="complete"/>
   <concept id="10153">
     <code value="B"/>
+    <display value="Batch"/>
     <definition value=" Query response to be sent as an HL7 Batch."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Batch"/>
-    </designation>
   </concept>
   <concept id="10151">
     <code value="R"/>
+    <display value="Real Time"/>
     <definition value=" Query response to occur in real time."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Real Time"/>
-    </designation>
   </concept>
   <concept id="10152">
     <code value="T"/>
+    <display value="Bolus"/>
     <definition value=" Query response to sent as a series of responses at the same time without the use of batch formatting."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Bolus"/>
-    </designation>
   </concept>
 </CodeSystem>

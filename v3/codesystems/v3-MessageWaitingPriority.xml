@@ -41,25 +41,13 @@
   </property>
   <concept id="19790">
     <code value="H"/>
+    <display value="High"/>
     <definition value=" High priority messages are available"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="High"/>
-    </designation>
   </concept>
   <concept id="19792">
     <code value="L"/>
+    <display value="Low"/>
     <definition value=" Low priority messages are available"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Low"/>
-    </designation>
     <property>
       <code value="SmallerThan"/>
       <valueCoding>
@@ -70,13 +58,7 @@
   </concept>
   <concept id="19791">
     <code value="M"/>
+    <display value="Medium"/>
     <definition value=" Medium priority messages are available"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Medium"/>
-    </designation>
   </concept>
 </CodeSystem>

@@ -28,57 +28,27 @@
   <content value="complete"/>
   <concept id="21285">
     <code value="_Conditional"/>
+    <display value="Conditional"/>
     <definition value=" Some conditions may be attached to an allowable substitution.  An allowable substitution is based on a match to any other attributes that may be specified."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Conditional"/>
-    </designation>
     <concept id="17721">
       <code value="CONFIRM"/>
+      <display value="Confirm first"/>
       <definition value=" Confirmation with Contact Person prior to making any substitutions has or will occur."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Confirm first"/>
-      </designation>
     </concept>
     <concept id="17722">
       <code value="NOTIFY"/>
+      <display value="Notify first"/>
       <definition value=" Notification to the Contact Person, prior to substitution and through normal institutional procedures, has or will be made."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Notify first"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21383">
     <code value="NOSUB"/>
+    <display value="No substitution"/>
     <definition value=" Substitution is not permitted."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="No substitution"/>
-    </designation>
   </concept>
   <concept id="17723">
     <code value="UNCOND"/>
+    <display value="Unconditional"/>
     <definition value=" No conditions are required."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Unconditional"/>
-    </designation>
   </concept>
 </CodeSystem>

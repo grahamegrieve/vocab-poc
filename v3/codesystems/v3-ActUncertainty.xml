@@ -31,24 +31,12 @@
   <content value="complete"/>
   <concept id="16900">
     <code value="N"/>
+    <display value="stated with no assertion of uncertainty"/>
     <definition value=" Specifies that the act statement is made without explicit tagging of uncertainty. This is the normal statement, meaning that it is not free of errors and uncertainty may still exist."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="stated with no assertion of uncertainty"/>
-    </designation>
   </concept>
   <concept id="16901">
     <code value="U"/>
+    <display value="stated with uncertainty"/>
     <definition value=" Specifies that the originator of the Act statement does not have full confidence in the applicability (i.e., in event mood: factual truth) of the statement."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="stated with uncertainty"/>
-    </designation>
   </concept>
 </CodeSystem>

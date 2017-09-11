@@ -36,80 +36,44 @@
   <content value="complete"/>
   <concept id="21081">
     <code value="_InclusionNotMandatory"/>
+    <display value="InclusionNotMandatory"/>
     <definition value=" The message element is not mandatory, but its appearance may be constrained by one of the non-mandatory concepts."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="InclusionNotMandatory"/>
-    </designation>
     <concept id="10014">
       <code value="NP"/>
+      <display value="Not permitted"/>
       <definition value=" This message element may not appear when the message is communicated."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Not permitted"/>
-      </designation>
     </concept>
     <concept id="10015">
       <code value="NR"/>
+      <display value="Not required"/>
       <definition value=" The message element may be populated or used by one system sponsor (or profile), but not by another.  Each system sponsor or profile is required to state the ability to accept or send the message element as part of a conformance claim."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Not required"/>
-      </designation>
       <concept id="10016">
         <code value="RE"/>
+        <display value="Required may be empty"/>
         <definition value=" Pursuant to a profile or vendor conformance claim, the message element must appear every time the message is communicated, but the value may be communicated as null."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Required may be empty"/>
-        </designation>
       </concept>
       <concept id="10017">
         <code value="X"/>
+        <display value="Excluded"/>
         <definition value=" Pursuant to a profile or vendor conformance claim, this message element may not appear when the message is communicated."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Excluded"/>
-        </designation>
       </concept>
     </concept>
     <concept id="10013">
       <code value="RQ"/>
+      <display value="Required"/>
       <definition value=" The message element must appear every time the message is communicated, but the value may be communicated as null."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Required"/>
-      </designation>
     </concept>
   </concept>
   <concept id="10011">
     <code value="M"/>
-    <display value="Required - V2.x"/>
+    <display value="Mandatory"/>
     <definition value=" The message element must appear every time the message is communicated and its value must not be null.  This condition is subject to the rules of multiplicity and conditionality. If a non-null default value is defined for the element, a null value may be communicated."/>
     <designation>
       <use>
         <system value="http://something...?"/>
         <code value="deprecated alias"/>
       </use>
-      <value value="Mandatory"/>
+      <value value="Required - V2.x"/>
     </designation>
     <designation>
       <use>

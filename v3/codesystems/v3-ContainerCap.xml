@@ -28,79 +28,37 @@
   <content value="complete"/>
   <concept id="21052">
     <code value="_MedicationCap"/>
+    <display value="MedicationCap"/>
     <definition value=" Cap types for medication containers"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="MedicationCap"/>
-    </designation>
     <concept id="16186">
       <code value="CHILD"/>
+      <display value="ChildProof"/>
       <definition value=" A cap designed to be difficult to open for children.  Generally requires multiple simultaneous actions (e.g. squeeze and twist) to open.  Used for products that may be dangerous if ingested or overdosed by children."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="ChildProof"/>
-      </designation>
     </concept>
     <concept id="16185">
       <code value="EASY"/>
+      <display value="EasyOpen"/>
       <definition value=" A cap designed to be easily removed.  For products intended to be opened by persons with limited strength or dexterity."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="EasyOpen"/>
-      </designation>
     </concept>
   </concept>
   <concept id="14053">
     <code value="FILM"/>
+    <display value="Film"/>
     <definition value=" A non-reactive plastic film covering over the opening of a container."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Film"/>
-    </designation>
   </concept>
   <concept id="14052">
     <code value="FOIL"/>
+    <display value="Foil"/>
     <definition value=" A foil covering (type of foil not specified) over the opening of a container"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Foil"/>
-    </designation>
   </concept>
   <concept id="14051">
     <code value="PUSH"/>
+    <display value="Push Cap"/>
     <definition value=" A non-threaded cap that forms a tight-fitting closure on a container by pushing the fitted end into the conatiner opening"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Push Cap"/>
-    </designation>
   </concept>
   <concept id="14050">
     <code value="SCR"/>
+    <display value="Screw Cap"/>
     <definition value=" A threaded cap that is screwed onto the opening of a container"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Screw Cap"/>
-    </designation>
   </concept>
 </CodeSystem>

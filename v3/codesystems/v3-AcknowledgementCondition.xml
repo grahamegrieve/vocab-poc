@@ -36,47 +36,23 @@
   </property>
   <concept id="10126">
     <code value="AL"/>
+    <display value="Always"/>
     <definition value=" Always send an acknowledgement."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Always"/>
-    </designation>
   </concept>
   <concept id="10128">
     <code value="ER"/>
+    <display value="Error/reject only"/>
     <definition value=" Send an acknowledgement for error/reject conditions only."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Error/reject only"/>
-    </designation>
   </concept>
   <concept id="10127">
     <code value="NE"/>
+    <display value="Never"/>
     <definition value=" Never send an acknowledgement."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Never"/>
-    </designation>
   </concept>
   <concept id="10129">
     <code value="SU"/>
+    <display value="Successful only"/>
     <definition value=" Send an acknowledgement for successful completions only."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Successful only"/>
-    </designation>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>

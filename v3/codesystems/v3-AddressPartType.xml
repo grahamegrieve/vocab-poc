@@ -41,14 +41,8 @@
   </property>
   <concept id="10651">
     <code value="ADL"/>
+    <display value="additional locator"/>
     <definition value=" This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., &quot;3rd floor, Appt. 342&quot;). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch &quot;t.o.&quot; means &quot;opposite to&quot; for house boats located across the street facing houses)."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="additional locator"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -59,47 +53,23 @@
   </concept>
   <concept id="22619">
     <code value="AL"/>
+    <display value="address line"/>
     <definition value="  Description:&#xD;&#xA;An address line is for either an additional locator, a delivery address or a street address."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="address line"/>
-    </designation>
     <concept id="17887">
       <code value="DAL"/>
+      <display value="delivery address line"/>
       <definition value=" A delivery address line is frequently used instead of breaking out delivery mode, delivery installation, etc.  An address generally has only a delivery address line or a street address line, but not both."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="delivery address line"/>
-      </designation>
     </concept>
     <concept id="14822">
       <code value="SAL"/>
+      <display value="street address line"/>
       <definition value="  Description:&#xD;&#xA;A street address line is frequently used instead of breaking out build number, street name, street type, etc. An address generally has only a delivery address line or a street address line, but not both."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="street address line"/>
-      </designation>
     </concept>
   </concept>
   <concept id="17881">
     <code value="BNN"/>
+    <display value="building number numeric"/>
     <definition value=" The numeric portion of a building number"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="building number numeric"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -110,14 +80,8 @@
   </concept>
   <concept id="10649">
     <code value="BNR"/>
+    <display value="building number"/>
     <definition value=" The number of a building, house or lot alongside the street.  Also known as &quot;primary street number&quot;.  This does not number the street but rather the building."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="building number"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -128,14 +92,8 @@
   </concept>
   <concept id="17882">
     <code value="BNS"/>
+    <display value="building number suffix"/>
     <definition value=" Any alphabetic character, fraction or other text that may appear after the numeric portion of a building number"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="building number suffix"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -146,80 +104,38 @@
   </concept>
   <concept id="17879">
     <code value="CAR"/>
+    <display value="care of"/>
     <definition value=" The name of the party who will take receipt at the specified address, and will take on responsibility for ensuring delivery to the target recipient"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="care of"/>
-    </designation>
   </concept>
   <concept id="17934">
     <code value="CEN"/>
+    <display value="census tract"/>
     <definition value=" A geographic sub-unit delineated for demographic purposes."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="census tract"/>
-    </designation>
   </concept>
   <concept id="10644">
     <code value="CNT"/>
+    <display value="country"/>
     <definition value=" Country"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="country"/>
-    </designation>
   </concept>
   <concept id="12210">
     <code value="CPA"/>
+    <display value="county or parish"/>
     <definition value=" A sub-unit of a state or province. (49 of the United States of America use the term &quot;county;&quot; Louisiana uses the term &quot;parish&quot;.)"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="county or parish"/>
-    </designation>
   </concept>
   <concept id="10646">
     <code value="CTY"/>
+    <display value="municipality"/>
     <definition value=" The name of the city, town, village, or other community or delivery center"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="municipality"/>
-    </designation>
   </concept>
   <concept id="10643">
     <code value="DEL"/>
+    <display value="delimiter"/>
     <definition value=" Delimiters are printed without framing white space.  If no value component is provided, the delimiter appears as a line break."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delimiter"/>
-    </designation>
   </concept>
   <concept id="17890">
     <code value="DINST"/>
+    <display value="delivery installation type"/>
     <definition value=" Indicates the type of delivery installation (the facility to which the mail will be delivered prior to final shipping via the delivery mode.) Example: post office, letter carrier depot, community mail center, station, etc."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delivery installation type"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -230,14 +146,8 @@
   </concept>
   <concept id="17892">
     <code value="DINSTA"/>
+    <display value="delivery installation area"/>
     <definition value=" The location of the delivery installation, usually a town or city, and is only required if the area is different from the municipality. Area to which mail delivery service is provided from any postal facility or service such as an individual letter carrier, rural route, or postal route."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delivery installation area"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -248,14 +158,8 @@
   </concept>
   <concept id="17891">
     <code value="DINSTQ"/>
+    <display value="delivery installation qualifier"/>
     <definition value=" A number, letter or name identifying a delivery installation.  E.g., for Station A, the delivery installation qualifier would be &#39;A&#39;."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delivery installation qualifier"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -266,14 +170,8 @@
   </concept>
   <concept id="10650">
     <code value="DIR"/>
+    <display value="direction"/>
     <definition value=" Direction (e.g., N, S, W, E)"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="direction"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -284,14 +182,8 @@
   </concept>
   <concept id="17888">
     <code value="DMOD"/>
+    <display value="delivery mode"/>
     <definition value=" Indicates the type of service offered, method of delivery.  For example: post office box, rural route, general delivery, etc."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delivery mode"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -302,14 +194,8 @@
   </concept>
   <concept id="17889">
     <code value="DMODID"/>
+    <display value="delivery mode identifier"/>
     <definition value=" Represents the routing information such as a letter carrier route number.  It is the identifying number of the designator (the box number or rural route number)."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delivery mode identifier"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -320,25 +206,13 @@
   </concept>
   <concept id="23531">
     <code value="DPID"/>
+    <display value="delivery point identifier"/>
     <definition value=" A value that uniquely identifies the postal address."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="delivery point identifier"/>
-    </designation>
   </concept>
   <concept id="22620">
     <code value="INT"/>
+    <display value="intersection"/>
     <definition value="  Description:&#xD;&#xA;An intersection denotes that the actual address is located AT or CLOSE TO the intersection OF two or more streets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="intersection"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -349,14 +223,8 @@
   </concept>
   <concept id="10652">
     <code value="POB"/>
+    <display value="post box"/>
     <definition value=" A numbered box located in a post station."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="post box"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -367,36 +235,18 @@
   </concept>
   <concept id="17880">
     <code value="PRE"/>
+    <display value="precinct"/>
     <definition value=" A subsection of a municipality"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="precinct"/>
-    </designation>
   </concept>
   <concept id="10645">
     <code value="STA"/>
+    <display value="state or province"/>
     <definition value=" A sub-unit of a country with limited sovereignty in a federally organized country."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="state or province"/>
-    </designation>
   </concept>
   <concept id="17883">
     <code value="STB"/>
+    <display value="street name base"/>
     <definition value=" The base name of a roadway or artery recognized by a municipality (excluding street type and direction)"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="street name base"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -407,13 +257,7 @@
   </concept>
   <concept id="10648">
     <code value="STR"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="street name"/>
-    </designation>
+    <display value="street name"/>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -424,14 +268,8 @@
   </concept>
   <concept id="17884">
     <code value="STTYP"/>
+    <display value="street type"/>
     <definition value=" The designation given to the street.  (e.g. Street, Avenue, Crescent, etc.)"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="street type"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -442,14 +280,8 @@
   </concept>
   <concept id="17886">
     <code value="UNID"/>
+    <display value="unit identifier"/>
     <definition value=" The number or name of a specific unit contained within a building or complex, as assigned by that building or complex."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="unit identifier"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -460,14 +292,8 @@
   </concept>
   <concept id="17885">
     <code value="UNIT"/>
+    <display value="unit designator"/>
     <definition value=" Indicates the type of specific unit contained within a building or complex.  E.g. Appartment, Floor"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="unit designator"/>
-    </designation>
     <property>
       <code value="ComponentOf"/>
       <valueCoding>
@@ -478,13 +304,7 @@
   </concept>
   <concept id="10647">
     <code value="ZIP"/>
+    <display value="postal code"/>
     <definition value=" A postal code designating a region defined by the postal service."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="postal code"/>
-    </designation>
   </concept>
 </CodeSystem>

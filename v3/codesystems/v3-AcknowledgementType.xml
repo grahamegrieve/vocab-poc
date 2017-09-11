@@ -33,68 +33,32 @@
   <content value="complete"/>
   <concept id="16022">
     <code value="AA"/>
+    <display value="Application Acknowledgement Accept"/>
     <definition value=" Receiving application successfully processed message."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Application Acknowledgement Accept"/>
-    </designation>
   </concept>
   <concept id="16023">
     <code value="AE"/>
+    <display value="Application Acknowledgement Error"/>
     <definition value=" Receiving application found error in processing message.  Sending error response with additional error detail information."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Application Acknowledgement Error"/>
-    </designation>
   </concept>
   <concept id="16024">
     <code value="AR"/>
+    <display value="Application Acknowledgement Reject"/>
     <definition value=" Receiving application failed to process message for reason unrelated to content or format.  Original message sender must decide on whether to automatically send message again."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Application Acknowledgement Reject"/>
-    </designation>
   </concept>
   <concept id="16025">
     <code value="CA"/>
+    <display value="Accept Acknowledgement Commit Accept"/>
     <definition value=" Receiving message handling service accepts responsibility for passing message onto receiving application."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Accept Acknowledgement Commit Accept"/>
-    </designation>
   </concept>
   <concept id="16027">
     <code value="CE"/>
+    <display value="Accept Acknowledgement Commit Error"/>
     <definition value=" Receiving message handling service cannot accept message for any other reason (e.g. message sequence number, etc.)."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Accept Acknowledgement Commit Error"/>
-    </designation>
   </concept>
   <concept id="16026">
     <code value="CR"/>
+    <display value="Accept Acknowledgement Commit Reject"/>
     <definition value=" Receiving message handling service rejects message if interaction identifier, version or processing mode is incompatible with known receiving application role information."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Accept Acknowledgement Commit Reject"/>
-    </designation>
   </concept>
 </CodeSystem>

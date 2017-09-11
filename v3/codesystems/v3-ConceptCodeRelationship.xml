@@ -42,14 +42,8 @@
   </property>
   <concept id="19971">
     <code value="hasPart"/>
+    <display value="has part"/>
     <definition value=" The target concept is a part or portion of the source concept."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="has part"/>
-    </designation>
     <property>
       <code value="inverseRelationship"/>
       <valueCode value="partOf"/>
@@ -57,14 +51,8 @@
   </concept>
   <concept id="19970">
     <code value="hasSubtype"/>
+    <display value="has subtype"/>
     <definition value=" Target concept is a subtype / subclass or the source (or the target concept implies the source"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="has subtype"/>
-    </designation>
     <property>
       <code value="inverseRelationship"/>
       <valueCode value="isA"/>
@@ -72,14 +60,8 @@
   </concept>
   <concept id="19972">
     <code value="smallerThan"/>
+    <display value="is smaller than"/>
     <definition value=" The source concept code is &quot;less than&quot; the target concept in a strictly ordinal sense."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="is smaller than"/>
-    </designation>
     <property>
       <code value="inverseRelationship"/>
       <valueCode value="greaterThan"/>

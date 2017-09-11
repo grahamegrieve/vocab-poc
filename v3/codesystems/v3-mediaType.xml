@@ -38,201 +38,99 @@
   <content value="fragment"/>
   <concept id="21083">
     <code value="application"/>
+    <display value="ApplicationMediaType"/>
     <definition value=" Application specific media type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ApplicationMediaType"/>
-    </designation>
     <concept id="21460">
       <code value="application/dicom"/>
+      <display value="DICOM"/>
       <definition value=" Digital Imaging and Communications in Medicine (DICOM) MIME type defined in RFC3240 [http://ietf.org/rfc/rfc3240.txt]."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="DICOM"/>
-      </designation>
     </concept>
     <concept id="14834">
       <code value="application/msword"/>
+      <display value="MSWORD"/>
       <definition value=" This format is very prone to compatibility problems.  If sharing of edit-able text is required, text/plain, text/html or text/rtf should be used instead."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="MSWORD"/>
-      </designation>
     </concept>
     <concept id="14833">
       <code value="application/pdf"/>
+      <display value="PDF"/>
       <definition value=" The Portable Document Format is recommended for written text that is completely laid out and read-only.  PDF is a platform independent, widely deployed, and open specification with freely available creation and rendering tools."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="PDF"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21084">
     <code value="audio"/>
+    <display value="AudioMediaType"/>
     <definition value=" Audio media type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="AudioMediaType"/>
-    </designation>
     <concept id="14836">
       <code value="audio/basic"/>
+      <display value="Basic Audio"/>
       <definition value=" This is a format for single channel audio, encoded using 8bit ISDN mu-law [PCM] at a sample rate of 8000 Hz.  This format is standardized by: CCITT, Fascicle III.4 -Recommendation G.711.  Pulse Code Modulation (PCM) of Voice Frequencies.  Geneva, 1972."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Basic Audio"/>
-      </designation>
     </concept>
     <concept id="14838">
       <code value="audio/k32adpcm"/>
+      <display value="K32ADPCM Audio"/>
       <definition value=" ADPCM allows compressing audio data.  It is defined in the Internet specification RFC 2421 [ftp://ftp.isi.edu/in-notes/rfc2421.txt].  Its implementation base is unclear."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="K32ADPCM Audio"/>
-      </designation>
     </concept>
     <concept id="14837">
       <code value="audio/mpeg"/>
-      <display value="MP3 Audio"/>
+      <display value="MPEG audio layer 3"/>
       <definition value=" MPEG-1 Audio layer-3 is an audio compression algorithm and file format                       defined in ISO 11172-3 and ISO 13818-3. MP3 has an adjustable sampling frequency for highly compressed telephone to CD quality audio."/>
       <designation>
         <use>
           <system value="http://something...?"/>
           <code value="deprecated alias"/>
         </use>
-        <value value="MPEG audio layer 3"/>
+        <value value="MP3 Audio"/>
       </designation>
     </concept>
   </concept>
   <concept id="21085">
     <code value="image"/>
+    <display value="ImageMediaType"/>
     <definition value=" Image media type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ImageMediaType"/>
-    </designation>
     <concept id="14843">
       <code value="image/g3fax"/>
+      <display value="G3Fax Image"/>
       <definition value=" This is recommended only for fax applications."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="G3Fax Image"/>
-      </designation>
     </concept>
     <concept id="14841">
       <code value="image/gif"/>
+      <display value="GIF Image"/>
       <definition value=" GIF is a popular format that is universally well supported. However GIF is patent encumbered and should therefore be used with caution."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="GIF Image"/>
-      </designation>
     </concept>
     <concept id="14842">
       <code value="image/jpeg"/>
+      <display value="JPEG Image"/>
       <definition value=" This format is required for high compression of high color photographs.  It is a &quot;lossy&quot; compression, but the difference to lossless compression is almost unnoticeable to the human vision."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="JPEG Image"/>
-      </designation>
     </concept>
     <concept id="14840">
       <code value="image/png"/>
+      <display value="PNG Image"/>
       <definition value=" Portable Network Graphics (PNG) [http://www.cdrom.com/pub/png] is a widely supported lossless image compression standard with open source code available."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="PNG Image"/>
-      </designation>
     </concept>
     <concept id="14844">
       <code value="image/tiff"/>
+      <display value="TIFF Image"/>
       <definition value=" Although TIFF (Tag Image File Format) is an international standard it has many interoperability problems in practice.  Too many different versions that are not handled by all software alike."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="TIFF Image"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21086">
     <code value="model"/>
+    <display value="ModelMediaType"/>
     <definition value=" Model media type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ModelMediaType"/>
-    </designation>
     <concept id="14849">
       <code value="model/vrml"/>
+      <display value="VRML Model"/>
       <definition value=" This is an openly standardized format for 3D models that can be useful for virtual reality applications such as anatomy or biochemical research (visualization of the steric structure of macromolecules)"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="VRML Model"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21087">
     <code value="multipart"/>
+    <display value="MultipartMediaType"/>
     <definition value=" Multipart Media Type"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="MultipartMediaType"/>
-    </designation>
     <concept id="14851">
       <code value="multipart/x-hl7-cda-level-one"/>
+      <display value="CDA Level 1 Multipart"/>
       <definition value=" The HL7 clinical document Architecture, Level 1 MIME package."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="CDA Level 1 Multipart"/>
-      </designation>
       <designation>
         <use>
           <system value="http://something...?"/>
@@ -244,123 +142,57 @@
   </concept>
   <concept id="21088">
     <code value="text"/>
+    <display value="TextMediaType"/>
     <definition value=" For any text"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="TextMediaType"/>
-    </designation>
     <concept id="14828">
       <code value="text/html"/>
+      <display value="HTML Text"/>
       <definition value=" For marked-up text according to the Hypertext Mark-up Language.  HTML markup is sufficient for typographically marking-up most written-text documents.  HTML is platform independent and widely deployed."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="HTML Text"/>
-      </designation>
     </concept>
     <concept id="14826">
       <code value="text/plain"/>
+      <display value="Plain Text"/>
       <definition value="  Description:&#xD;&#xA;For any plain text. This is the default and is used for a character string (ST) data type."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Plain Text"/>
-      </designation>
     </concept>
     <concept id="14831">
       <code value="text/rtf"/>
+      <display value="RTF Text"/>
       <definition value=" The Rich Text Format is widely used to share word-processor documents.  However, RTF does have compatibility problems, as it is quite dependent on the word processor.  May be useful if word processor edit-able text should be shared."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="RTF Text"/>
-      </designation>
     </concept>
     <concept id="14829">
       <code value="text/sgml"/>
+      <display value="SGML Text"/>
       <definition value=" For structured character based data.  There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="SGML Text"/>
-      </designation>
     </concept>
     <concept id="14827">
       <code value="text/x-hl7-ft"/>
+      <display value="HL7 Text"/>
       <definition value=" For compatibility, this represents the HL7 v2.x FT data type.  Its use is recommended only for backward compatibility with HL7 v2.x systems."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="HL7 Text"/>
-      </designation>
     </concept>
     <concept id="22607">
       <code value="text/x-hl7-text+xml"/>
+      <display value="HL7 Structured Narrative"/>
       <definition value="  Description:&#xD;&#xA;The content described by the CDA Narrative Block (not just used by CDA)."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="HL7 Structured Narrative"/>
-      </designation>
     </concept>
     <concept id="14830">
       <code value="text/xml"/>
+      <display value="XML Text"/>
       <definition value=" For structured character based data.  There is a risk that general SGML/XML is too powerful to allow a sharing of general SGML/XML documents between different applications."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="XML Text"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21089">
     <code value="video"/>
+    <display value="VideoMediaType"/>
     <definition value=" Video media type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="VideoMediaType"/>
-    </designation>
     <concept id="14846">
       <code value="video/mpeg"/>
+      <display value="MPEG Video"/>
       <definition value=" MPEG is an international standard, widely deployed, highly efficient for high color video; open source code exists; highly interoperable."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="MPEG Video"/>
-      </designation>
     </concept>
     <concept id="14847">
       <code value="video/x-avi"/>
+      <display value="X-AVI Video"/>
       <definition value=" The AVI file format is just a wrapper for many different codecs; it is a source of many interoperability problems."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="X-AVI Video"/>
-      </designation>
     </concept>
   </concept>
 </CodeSystem>

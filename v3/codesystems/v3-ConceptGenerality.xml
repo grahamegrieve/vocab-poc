@@ -36,35 +36,17 @@
   <content value="complete"/>
   <concept id="11034">
     <code value="A"/>
+    <display value="Abstract"/>
     <definition value=" Include only the descendents of this concept in the domain or value set, not the concept itself."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Abstract"/>
-    </designation>
   </concept>
   <concept id="11036">
     <code value="L"/>
+    <display value="Leaf"/>
     <definition value=" Include only the concept itself in the domain or value set.  Do not include descendents of the concept."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Leaf"/>
-    </designation>
   </concept>
   <concept id="11035">
     <code value="S"/>
+    <display value="Specializable"/>
     <definition value=" Include both the concept and its descendents as possible values in the domain or value set."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Specializable"/>
-    </designation>
   </concept>
 </CodeSystem>

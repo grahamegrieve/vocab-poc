@@ -28,35 +28,17 @@
   <content value="complete"/>
   <concept id="21053">
     <code value="_ContextControlAdditive"/>
+    <display value="ContextControlAdditive"/>
     <definition value=" The association adds to the existing context associated with the Act.  Both this association and any associations propagated from ancestor Acts are interpreted as being related to this Act."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ContextControlAdditive"/>
-    </designation>
     <concept id="18932">
       <code value="AN"/>
+      <display value="additive, non-propagating"/>
       <definition value=" The association adds to the existing context associated with the Act, but will not propagate to any descendant Acts reached by conducting ActRelationships (see contextControlCode). Examples: If an &#39;Author&#39; Participation were marked as &quot;Additive, Non-Propagating&quot; it means that the author will be added to the set of author participations that have propagated from ancestor Acts for the purpose of this Act. However only the previously propagated authors will propagate to any child Acts that allow context to be propagated."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="additive, non-propagating"/>
-      </designation>
     </concept>
     <concept id="18930">
       <code value="AP"/>
+      <display value="additive, propagating"/>
       <definition value=" The association adds to the existing context associated with the Act, and will propagate to any descendant Acts reached by conducting ActRelationships (see contextControlCode). Examples: If an &#39;Author&#39; Participation were marked as &quot;Additive, Propagating&quot; it means that the author will be added to the set of author participations that have propagated from ancestor Acts, and will itself propagate with the other authors to any child Acts that allow context to be propagated."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="additive, propagating"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21054">
@@ -64,24 +46,12 @@
       <valueCode value="AN"/>
     </extension>
     <code value="_ContextControlNonPropagating"/>
+    <display value="ContextControlNonPropagating"/>
     <definition value=" The association applies only to the current Act and will not propagate to any child Acts that are related via a conducting ActRelationship (refer to contextConductionInd)."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ContextControlNonPropagating"/>
-    </designation>
     <concept id="18933">
       <code value="ON"/>
+      <display value="overriding, non-propagating"/>
       <definition value=" The association is added to the existing context associated with the Act, but overrides an association with the same typeCode. However, this overriding association will not propagate to any descendant Acts reached by conducting ActRelationships (see contextControlCode). Examples: If an &#39;Author&#39; Participation were marked as &quot;Overriding, Non-Propagating&quot; it means that the author will replace the set of author participations that have propagated from ancestor Acts. Furthermore, no author participations whatsoever will propagate to any child Acts that allow context to be propagated."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="overriding, non-propagating"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21055">
@@ -89,24 +59,12 @@
       <valueCode value="ON"/>
     </extension>
     <code value="_ContextControlOverriding"/>
+    <display value="ContextControlOverriding"/>
     <definition value=" The association adds to the existing context associated with the Act, but replaces associations propagated from ancestor Acts whose typeCodes are the same or more specific."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ContextControlOverriding"/>
-    </designation>
     <concept id="18931">
       <code value="OP"/>
+      <display value="overriding, propagating"/>
       <definition value=" The association is added to the existing context associated with the Act, but overrides an association with the same typeCode. This overriding association will propagate to any descendant Acts reached by conducting ActRelationships (see contextControlCode). Examples: If an &#39;Author&#39; Participation were marked as &quot;Overriding, Propagating&quot; it means that the author will replace the set of author participations that have propagated from ancestor Acts, and will itself be the only author to propagate to any child Acts that allow context to be propagated."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="overriding, propagating"/>
-      </designation>
     </concept>
   </concept>
   <concept id="21056">
@@ -117,13 +75,7 @@
       <valueCode value="OP"/>
     </extension>
     <code value="_ContextControlPropagating"/>
+    <display value="ContextControlPropagating"/>
     <definition value=" The association propagates to any child Acts that are related via a conducting ActRelationship (refer to contextConductionInd)."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ContextControlPropagating"/>
-    </designation>
   </concept>
 </CodeSystem>

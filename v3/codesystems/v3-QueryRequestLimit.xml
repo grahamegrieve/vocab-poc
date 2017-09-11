@@ -31,24 +31,12 @@
   <content value="complete"/>
   <concept id="22258">
     <code value="_QueryRequestLimit"/>
+    <display value="QueryRequestLimit"/>
     <definition value="  Definition:&#xD;&#xA;The number of matching instances (number of focal classes). The document header class is the focal class of a document, a record would therefore be equal to a document."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="QueryRequestLimit"/>
-    </designation>
     <concept id="22257">
       <code value="RD"/>
+      <display value="record"/>
       <definition value="  Definition:&#xD;&#xA;The number of matching instances (number of focal classes). The document header class is the focal class of a document, a record would therefore be equal to a document."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="record"/>
-      </designation>
     </concept>
   </concept>
 </CodeSystem>

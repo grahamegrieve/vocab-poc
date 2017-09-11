@@ -36,68 +36,32 @@
   <content value="complete"/>
   <concept id="10079">
     <code value="C"/>
+    <display value="Common MET"/>
     <definition value=" This message element type is an HL7 common message element type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Common MET"/>
-    </designation>
   </concept>
   <concept id="10078">
     <code value="D"/>
+    <display value="Data type"/>
     <definition value=" This message element type is an HL7 data type."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Data type"/>
-    </designation>
   </concept>
   <concept id="10082">
     <code value="I"/>
+    <display value="Reference"/>
     <definition value=" This row represents a reference to a previously defined type.  Such a reference means that, in a given message, the message element instance for the current row is identical to the message element instance that instantiates the referred row."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Reference"/>
-    </designation>
   </concept>
   <concept id="10077">
     <code value="N"/>
+    <display value="New type"/>
     <definition value=" New type. This row starts the definition of a new message element type. The subordinate rows beneath it compose the definition of the type. Each of these subordinate rows has the name of the message element type being defined in the In Message Element Type column. That name will be the same one that is in the Of Message Element Type of this row."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="New type"/>
-    </designation>
   </concept>
   <concept id="10081">
     <code value="R"/>
+    <display value="Recursive"/>
     <definition value=" This row represents the recursive reuse of the message element type within which is appears. See 10.3.3.3."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Recursive"/>
-    </designation>
   </concept>
   <concept id="10080">
     <code value="U"/>
+    <display value="Re-used MET"/>
     <definition value=" This message element type was previously defined in this HMD and is being reused"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Re-used MET"/>
-    </designation>
   </concept>
 </CodeSystem>

@@ -50,24 +50,12 @@
       <valueString value="900-20090820"/>
     </extension>
     <code value="_MaterialEntityAdditive"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="_MaterialEntityAdditive"/>
-    </designation>
+    <display value="_MaterialEntityAdditive"/>
   </concept>
   <concept id="21066">
     <code value="_MaterialEntityClassType"/>
+    <display value="MaterialEntityClassType"/>
     <definition value=" Types of Material for EntityClass &quot;MAT&quot;"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="MaterialEntityClassType"/>
-    </designation>
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
@@ -77,34 +65,16 @@
     </property>
     <concept id="21060">
       <code value="_ContainerEntityType"/>
+      <display value="ContainerEntityType"/>
       <definition value=" Material intended to hold another material for purpose of storage or transport."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="ContainerEntityType"/>
-      </designation>
       <concept id="16144">
         <code value="PKG"/>
+        <display value="Package"/>
         <definition value=" A material intended to hold other materials for purposes of storage or transportation"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Package"/>
-        </designation>
         <concept id="21069">
           <code value="_NonRigidContainerEntityType"/>
+          <display value="NonRigidContainerEntityType"/>
           <definition value=" A container having dimensions that adjust somewhat based on the amount and shape of the material placed within it."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="NonRigidContainerEntityType"/>
-          </designation>
           <property>
             <code value="ClassifiesClassCode"/>
             <valueCoding>
@@ -114,59 +84,29 @@
           </property>
           <concept id="16148">
             <code value="BAG"/>
+            <display value="Bag"/>
             <definition value=" A pouched or pendulous container."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Bag"/>
-            </designation>
           </concept>
           <concept id="16149">
             <code value="PACKT"/>
+            <display value="Packet"/>
             <definition value=" A paper"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Packet"/>
-            </designation>
           </concept>
           <concept id="16151">
             <code value="PCH"/>
+            <display value="Pouch"/>
             <definition value=" A small bag or container made of a soft material."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Pouch"/>
-            </designation>
           </concept>
           <concept id="16150">
             <code value="SACH"/>
+            <display value="Sachet"/>
             <definition value=" A small bag or packet containing a small portion of a substance."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Sachet"/>
-            </designation>
           </concept>
         </concept>
         <concept id="21071">
           <code value="_RigidContainerEntityType"/>
+          <display value="RigidContainerEntityType"/>
           <definition value=" A container having a fixed and inflexible dimensions and volume"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="RigidContainerEntityType"/>
-          </designation>
           <property>
             <code value="ClassifiesClassCode"/>
             <valueCoding>
@@ -176,69 +116,33 @@
           </property>
           <concept id="21062">
             <code value="_IndividualPackageEntityType"/>
+            <display value="IndividualPackageEntityType"/>
             <definition value=" Container intended to contain sufficient material for only one use."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="IndividualPackageEntityType"/>
-            </designation>
             <concept id="16177">
               <code value="AMP"/>
+              <display value="Ampule"/>
               <definition value=" A small sealed glass container that holds a measured amount of a medicinal substance."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Ampule"/>
-              </designation>
             </concept>
             <concept id="16178">
               <code value="MINIM"/>
+              <display value="Minim"/>
               <definition value=" Individually dosed ophthalmic solution.  One time eye dropper dispenser."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Minim"/>
-              </designation>
             </concept>
             <concept id="16179">
               <code value="NEBAMP"/>
+              <display value="Nebuamp"/>
               <definition value=" Individually dosed inhalation solution."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Nebuamp"/>
-              </designation>
             </concept>
             <concept id="16180">
               <code value="OVUL"/>
+              <display value="Ovule"/>
               <definition value=" A container either glass or plastic and a narrow neck, for storing liquid."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Ovule"/>
-              </designation>
             </concept>
           </concept>
           <concept id="21068">
             <code value="_MultiUseContainerEntityType"/>
+            <display value="MultiUseContainerEntityType"/>
             <definition value=" A container intended to contain sufficient material for more than one use.  (I.e. Material is intended to be removed from the container at more than one discrete time period.)"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="MultiUseContainerEntityType"/>
-            </designation>
             <property>
               <code value="ClassifiesClassCode"/>
               <valueCoding>
@@ -248,201 +152,93 @@
             </property>
             <concept id="16155">
               <code value="BOT"/>
+              <display value="Bottle"/>
               <definition value=" A container, typically rounded, either glass or plastic with a narrow neck and capable of storing liquid."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Bottle"/>
-              </designation>
               <concept id="16156">
                 <code value="BOTA"/>
+                <display value="Amber Bottle"/>
                 <definition value=" A bottle of yellow to brown color.  Used to store light-sensitive materials"/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="Amber Bottle"/>
-                </designation>
               </concept>
               <concept id="16157">
                 <code value="BOTD"/>
+                <display value="Dropper Bottle"/>
                 <definition value=" A bottle with a cap designed to release the contained liquid in droplets of a specific size."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="Dropper Bottle"/>
-                </designation>
               </concept>
               <concept id="16158">
                 <code value="BOTG"/>
+                <display value="Glass Bottle"/>
                 <definition value=" A bottle made of glass"/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="Glass Bottle"/>
-                </designation>
               </concept>
               <concept id="16159">
                 <code value="BOTP"/>
+                <display value="Plastic Bottle"/>
                 <definition value=" A bottle made of plastic"/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="Plastic Bottle"/>
-                </designation>
                 <concept id="16160">
                   <code value="BOTPLY"/>
+                  <display value="Polyethylene Bottle"/>
                   <definition value=" A bottle made of polyethylene"/>
-                  <designation>
-                    <use>
-                      <system value="http://something...?"/>
-                      <code value="deprecated alias"/>
-                    </use>
-                    <value value="Polyethylene Bottle"/>
-                  </designation>
                 </concept>
               </concept>
             </concept>
             <concept id="16154">
               <code value="BOX"/>
+              <display value="Box"/>
               <definition value=" A 6-sided container commonly made from paper or cardboard used for solid forms."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Box"/>
-              </designation>
             </concept>
             <concept id="16161">
               <code value="CAN"/>
+              <display value="Can"/>
               <definition value=" A metal container in which a material is hermetically sealed to enable storage over long periods."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Can"/>
-              </designation>
             </concept>
             <concept id="16163">
               <code value="CART"/>
+              <display value="Cartridge"/>
               <definition value=" A sealed container of liquid or powder intended to be loaded into a device."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Cartridge"/>
-              </designation>
             </concept>
             <concept id="16162">
               <code value="CNSTR"/>
+              <display value="Canister"/>
               <definition value=" A pressurized metal container holding a substance released as a spray or aerosol."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Canister"/>
-              </designation>
             </concept>
             <concept id="16164">
               <code value="JAR"/>
+              <display value="Jar"/>
               <definition value=" A container of glass, earthenware, plastic, etc.  Top of the container has a diameter of similar size to the diameter of the container as a whole"/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Jar"/>
-              </designation>
             </concept>
             <concept id="16165">
               <code value="JUG"/>
+              <display value="Jug"/>
               <definition value=" A deep vessel  for holding liquids, with a handle and often with a spout or lip shape for pouring."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Jug"/>
-              </designation>
             </concept>
             <concept id="16166">
               <code value="TIN"/>
+              <display value="Tin"/>
               <definition value=" A lidded container made of thin sheet metal."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Tin"/>
-              </designation>
             </concept>
             <concept id="16167">
               <code value="TUB"/>
+              <display value="Tub"/>
               <definition value=" An open flat bottomed round container."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Tub"/>
-              </designation>
             </concept>
             <concept id="16168">
               <code value="TUBE"/>
+              <display value="Tube"/>
               <definition value=" A long hollow rigid or flexible cylinder.  Material is extruded by squeezing the container."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Tube"/>
-              </designation>
             </concept>
             <concept id="16169">
               <code value="VIAL"/>
+              <display value="Vial"/>
               <definition value=" A small cylindrical glass for holding liquid medicines."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Vial"/>
-              </designation>
             </concept>
           </concept>
           <concept id="16171">
             <code value="BLSTRPK"/>
+            <display value="Blister Pack"/>
             <definition value=" A bubblepack.  Medications sealed individually, separated into doses."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Blister Pack"/>
-            </designation>
             <concept id="16172">
               <code value="CARD"/>
+              <display value="Card"/>
               <definition value=" A bubble pack card.  Multiple individual/separated doses."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Card"/>
-              </designation>
             </concept>
           </concept>
         </concept>
@@ -451,93 +247,45 @@
             <valueCode value="BLSTRPK"/>
           </extension>
           <code value="COMPPKG"/>
+          <display value="Compliance Package"/>
           <definition value=" A container intended to contain sufficient material for more than one use, but grouped or organized to provide individual access to sufficient material for a single use.  Often used to ensure that the proper type and amount of material is consumed/expended for each use."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Compliance Package"/>
-          </designation>
           <concept id="16173">
             <code value="DIALPK"/>
+            <display value="Dial Pack"/>
             <definition value=" Rotatable dispenser.  Eg. Birth control package."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Dial Pack"/>
-            </designation>
           </concept>
           <concept id="16174">
             <code value="DISK"/>
+            <display value="Disk"/>
             <definition value=" Object that is thin, flat, and circular.  Doses of medication often contained in bubbles on the disk."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Disk"/>
-            </designation>
           </concept>
           <concept id="16175">
             <code value="DOSET"/>
+            <display value="Dosette"/>
             <definition value=" Special packaging that will help patients take their medications on a regular basis."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Dosette"/>
-            </designation>
           </concept>
           <concept id="17849">
             <code value="STRIP"/>
+            <display value="Strip"/>
             <definition value=" A continuous strip of plastic sectioned into individual pouches, each one containing the quantity of 1 or more medications intended to be administered at a specific time"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Strip"/>
-            </designation>
           </concept>
         </concept>
         <concept id="16145">
           <code value="KIT"/>
+          <display value="Kit"/>
           <definition value=" A container for a diverse collection of products intended to be used together for some purpose (e.g. Medicinal kits often contain a syringe, a needle and the injectable medication)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Kit"/>
-          </designation>
           <concept id="16146">
             <code value="SYSTM"/>
+            <display value="System"/>
             <definition value=" A kit in which the components are interconnected."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="System"/>
-            </designation>
           </concept>
         </concept>
       </concept>
     </concept>
     <concept id="21067">
       <code value="_MedicalDevice"/>
+      <display value="MedicalDevice"/>
       <definition value=" A device with direct or indirect therapeutic purpose.  Values for EntityCode when EntityClass = &quot;DEV&quot;"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="MedicalDevice"/>
-      </designation>
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
@@ -547,180 +295,84 @@
       </property>
       <concept id="21057">
         <code value="_AccessMedicalDevice"/>
+        <display value="AccessMedicalDevice"/>
         <definition value=" A device used to allow access to a part of a body"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="AccessMedicalDevice"/>
-        </designation>
         <concept id="16201">
           <code value="LINE"/>
+          <display value="Line"/>
           <definition value=" A hollow tube used to administer a substance into a vein, artery or body cavity"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Line"/>
-          </designation>
           <concept id="16203">
             <code value="IALINE"/>
+            <display value="Intra-arterial Line"/>
             <definition value=" A line used to administer a substance into an artery"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Intra-arterial Line"/>
-            </designation>
           </concept>
           <concept id="16202">
             <code value="IVLINE"/>
+            <display value="Intraveneous Line"/>
             <definition value=" A line used to administer a substance into a vein"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Intraveneous Line"/>
-            </designation>
           </concept>
         </concept>
       </concept>
       <concept id="21058">
         <code value="_AdministrationMedicalDevice"/>
+        <display value="AdministrationMedicalDevice"/>
         <definition value=" A device intended to administer a substance to a subject"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="AdministrationMedicalDevice"/>
-        </designation>
         <concept id="21063">
           <code value="_InjectionMedicalDevice"/>
+          <display value="InjectionMedicalDevice"/>
           <definition value=" A device intended to administer liquid into a subject via a"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="InjectionMedicalDevice"/>
-          </designation>
           <concept id="16192">
             <code value="AINJ"/>
+            <display value="AutoInjector"/>
             <definition value=" Automatically injects medication."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="AutoInjector"/>
-            </designation>
           </concept>
           <concept id="16194">
             <code value="PEN"/>
+            <display value="Pen"/>
             <definition value=" A device which can contain a cartridge for injection purposes.  Eg. Insulin pen."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Pen"/>
-            </designation>
           </concept>
           <concept id="16193">
             <code value="SYR"/>
+            <display value="Syringe"/>
             <definition value=" A barrel with a plunger."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Syringe"/>
-            </designation>
           </concept>
         </concept>
         <concept id="16190">
           <code value="APLCTR"/>
+          <display value="Applicator"/>
           <definition value=" A device used to apply a liquid or powder to a surface."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Applicator"/>
-          </designation>
         </concept>
         <concept id="16196">
           <code value="INH"/>
+          <display value="Inhaler"/>
           <definition value=" A small device used for inhaling medicine in the form of a vapour or gas in order to ease a respiratory condition such as asthma or to relieve nasal congestion."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Inhaler"/>
-          </designation>
           <concept id="16199">
             <code value="DSKS"/>
+            <display value="Diskus"/>
             <definition value=" The device used to inhale the doses of medication contained in the disk form."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Diskus"/>
-            </designation>
           </concept>
           <concept id="16198">
             <code value="DSKUNH"/>
+            <display value="Diskhaler"/>
             <definition value=" The device used to inhale the doses of medication contained in the disk form."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Diskhaler"/>
-            </designation>
           </concept>
           <concept id="16197">
             <code value="TRBINH"/>
+            <display value="Turbuhaler"/>
             <definition value=" Asthma medication delivery device."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Turbuhaler"/>
-            </designation>
           </concept>
         </concept>
         <concept id="16195">
           <code value="PMP"/>
+          <display value="Pump"/>
           <definition value=" A device that is used to raise, compress, or transfer liquids or gases and is operated by a piston or similar mechanism."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Pump"/>
-          </designation>
         </concept>
       </concept>
     </concept>
     <concept id="21065">
       <code value="_SpecimenAdditiveEntity"/>
+      <display value="SpecimenAdditiveEntity"/>
       <definition value=" Set of codes related to specimen additives"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="SpecimenAdditiveEntity"/>
-      </designation>
       <property>
         <code value="ClassifiesClassCode"/>
         <valueCoding>
@@ -730,631 +382,289 @@
       </property>
       <concept id="16047">
         <code value="ACDA"/>
+        <display value="ACD Solution A"/>
         <definition value=" ACD Solution A of trisodium citrate, 22.0g/L; citric acid, 8.0 g/L; and dextrose 24.5 g/L. Used in Blood banking and histocompatibilty testing"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="ACD Solution A"/>
-        </designation>
       </concept>
       <concept id="16048">
         <code value="ACDB"/>
+        <display value="ACD Solution B"/>
         <definition value=" ACD Solution B of trisodium citrate, 13.2g/L; citric acid, 4.8 g/L; and dextrose 14.7 g/L. Used in Blood banking and histocompatibilty testing."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="ACD Solution B"/>
-        </designation>
       </concept>
       <concept id="16049">
         <code value="ACET"/>
+        <display value="Acetic Acid"/>
         <definition value=" 50% V/V acetic acid in water.  Used as  a urine preservative"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Acetic Acid"/>
-        </designation>
       </concept>
       <concept id="16050">
         <code value="AMIES"/>
+        <display value="Amies transport medium"/>
         <definition value=" Sodium Chloride 3.0g, Potassium Chloride 0.2g, Calcium Chloride 0.1g, Magnesium Chloride 0.1g, Monopotassium Phosphate 0.2g, Disodium Phosphate 1.15g, Sodium Thiogly collate 1.0g, Distilled Water 1 liter"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Amies transport medium"/>
-        </designation>
       </concept>
       <concept id="16052">
         <code value="BACTM"/>
+        <display value="Bacterial Transport medium"/>
         <definition value=" Any medium used to maintain bacterial viability (e.g. Stuart&#39;s, Cary-Blair, Amies)"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Bacterial Transport medium"/>
-        </designation>
       </concept>
       <concept id="16055">
         <code value="BF10"/>
+        <display value="Buffered 10% formalin"/>
         <definition value=" Formaldehyde 4% w/v; methyl alcohol 1% w/v; phosphate buffering salts. Tissue preservative"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Buffered 10% formalin"/>
-        </designation>
       </concept>
       <concept id="16053">
         <code value="BOR"/>
+        <display value="Boric Acid"/>
         <definition value=" Powdered boric acid (usually 10 g) added to 24-hour urine collections as a preservative."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Boric Acid"/>
-        </designation>
       </concept>
       <concept id="16054">
         <code value="BOUIN"/>
+        <display value="Bouin&#39;s solution"/>
         <definition value=" Picric acid, saturated aqueous solution (750.0 ml), 37-40% formalin (250.0 ml), glacial acetic acid (50.0 ml). Tissue preservative."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Bouin&#39;s solution"/>
-        </designation>
       </concept>
       <concept id="16057">
         <code value="BSKM"/>
+        <display value="Buffered skim milk"/>
         <definition value=" 50% skim milk in 0.01 M phosphate-buffered saline.  Maintain virus viability"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Buffered skim milk"/>
-        </designation>
       </concept>
       <concept id="16044">
         <code value="C32"/>
+        <display value="3.2% Citrate"/>
         <definition value=" A 3.2% solution of Sodium Citrate in water.  Used as a blood preservative"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="3.2% Citrate"/>
-        </designation>
       </concept>
       <concept id="16045">
         <code value="C38"/>
+        <display value="3.8% Citrate"/>
         <definition value=" A 3.8% solution of Sodium Citrate in water. Used as a blood preservative"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="3.8% Citrate"/>
-        </designation>
       </concept>
       <concept id="16058">
         <code value="CARS"/>
+        <display value="Carson&#39;s Modified 10% formalin"/>
         <definition value=" A modification of buffered 10% formalin used as a general tissue preservative."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Carson&#39;s Modified 10% formalin"/>
-        </designation>
       </concept>
       <concept id="16059">
         <code value="CARY"/>
+        <display value="Cary Blair Medium"/>
         <definition value=" Sodium Thioglycollate 1.5 g, Disodium Hydrogen Phosphate 1.1 g, Sodium Chloride 5.0 g, Calcium Chloride 0.09 g, Agar 5.0 g, per Liter of Water"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Cary Blair Medium"/>
-        </designation>
       </concept>
       <concept id="16060">
         <code value="CHLTM"/>
+        <display value="Chlamydia transport medium"/>
         <definition value=" Any of a number of non-nutritive buffered media used to maintain Chlamydia viability during transportation to the laboratory"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Chlamydia transport medium"/>
-        </designation>
       </concept>
       <concept id="16061">
         <code value="CTAD"/>
+        <display value="CTAD"/>
         <definition value=" Buffered tri-sodium citrate solution with theophylline, adenosine and dipyridamole"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="CTAD"/>
-        </designation>
       </concept>
       <concept id="16077">
         <code value="EDTK15"/>
+        <display value="Potassium/K EDTA 15%"/>
         <definition value=" Potassium EDTA 15% solution in water"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Potassium/K EDTA 15%"/>
-        </designation>
       </concept>
       <concept id="16078">
         <code value="EDTK75"/>
+        <display value="Potassium/K EDTA 7.5%"/>
         <definition value=" Potassium EDTA 7.5% solution in water"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Potassium/K EDTA 7.5%"/>
-        </designation>
       </concept>
       <concept id="16087">
         <code value="EDTN"/>
+        <display value="Sodium/Na EDTA"/>
         <definition value=" Sodium fluoride and Disodium EDTA"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Sodium/Na EDTA"/>
-        </designation>
       </concept>
       <concept id="16062">
         <code value="ENT"/>
+        <display value="Enteric bacteria transport medium"/>
         <definition value=" Any of a number of non-nutritive buffered media used to maintain enteric bacterial viability during transportation to the laboratory"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Enteric bacteria transport medium"/>
-        </designation>
       </concept>
       <concept id="16043">
         <code value="F10"/>
+        <display value="10% Formalin"/>
         <definition value=" A 10% v/v solution in water of formalin( a 37% solution of formaldehyde and water).  Used for tissue preservation."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="10% Formalin"/>
-        </designation>
       </concept>
       <concept id="16091">
         <code value="FDP"/>
+        <display value="Thrombin NIH; soybean trypsin inhibitor"/>
         <definition value=" Thrombin plus soybean trypsin inhibitor.  For use in identifying fibrn degredation products."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Thrombin NIH; soybean trypsin inhibitor"/>
-        </designation>
       </concept>
       <concept id="16085">
         <code value="FL10"/>
+        <display value="Sodium Fluoride, 10mg"/>
         <definition value=" Sodium fluoride, 10mg added as a urine preservative."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Sodium Fluoride, 10mg"/>
-        </designation>
       </concept>
       <concept id="16084">
         <code value="FL100"/>
+        <display value="Sodium Fluoride, 100mg"/>
         <definition value=" Sodium fluoride, 100mg added as a urine preservative."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Sodium Fluoride, 100mg"/>
-        </designation>
       </concept>
       <concept id="16046">
         <code value="HCL6"/>
+        <display value="6N HCL"/>
         <definition value=" A solution of HCl containing 6moles of hydrogen ion/L. Used as a Urine Preservative."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="6N HCL"/>
-        </designation>
       </concept>
       <concept id="16051">
         <code value="HEPA"/>
+        <display value="Ammonium heparin"/>
         <definition value=" Ammonium heparin"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Ammonium heparin"/>
-        </designation>
       </concept>
       <concept id="16066">
         <code value="HEPL"/>
+        <display value="Lithium/Li Heparin"/>
         <definition value=" Lithium heparin salt"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Lithium/Li Heparin"/>
-        </designation>
       </concept>
       <concept id="16086">
         <code value="HEPN"/>
+        <display value="Sodium/Na Heparin"/>
         <definition value=" Sodium heparin salt"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Sodium/Na Heparin"/>
-        </designation>
       </concept>
       <concept id="16072">
         <code value="HNO3"/>
+        <display value="Nitric Acid"/>
         <definition value=" 6N Nitric acid used to preserve urine for heavy metal analysis."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Nitric Acid"/>
-        </designation>
       </concept>
       <concept id="16063">
         <code value="JKM"/>
+        <display value="Jones Kendrick Medium"/>
         <definition value=" A transport medium formulated to maintain Bordetella pertussis viability."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Jones Kendrick Medium"/>
-        </designation>
       </concept>
       <concept id="16064">
         <code value="KARN"/>
+        <display value="Karnovsky&#39;s fixative"/>
         <definition value=" 5% Glutaraldehyde, 4% Formaldehyde in 0.08M buffer. Tissue preservation"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Karnovsky&#39;s fixative"/>
-        </designation>
       </concept>
       <concept id="16076">
         <code value="KOX"/>
+        <display value="Potassium Oxalate"/>
         <definition value=" Potassium oxalate and sodium fluoride in a 1.25:1 ratio"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Potassium Oxalate"/>
-        </designation>
       </concept>
       <concept id="16065">
         <code value="LIA"/>
+        <display value="Lithium iodoacetate"/>
         <definition value=" Iodoacetate lithium salt"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Lithium iodoacetate"/>
-        </designation>
       </concept>
       <concept id="16067">
         <code value="M4"/>
+        <display value="M4"/>
         <definition value=" Modified Hank&#39;s balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with HEPES buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="M4"/>
-        </designation>
       </concept>
       <concept id="16068">
         <code value="M4RT"/>
+        <display value="M4-RT"/>
         <definition value=" Modified Hank&#39;s balanced salt solution supplemented with bovine serum albumin, gelatin, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Gentamicin and amphotericin B are used to inhibit c"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="M4-RT"/>
-        </designation>
       </concept>
       <concept id="16069">
         <code value="M5"/>
+        <display value="M5"/>
         <definition value=" Modified Hank&#39;s balanced salt solution supplemented with protein stabilizers, sucrose and glutamic acid. It is buffered to pH 7.3+ or - 0.2 with Hepes buffer. Phenol red is used to indicate pH. Vancomycin, Amphotericin B and Colistin are used to inhibit c"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="M5"/>
-        </designation>
       </concept>
       <concept id="16070">
         <code value="MICHTM"/>
+        <display value="Michel&#39;s transport medium"/>
         <definition value=" 1M potassium citrate, pH 7.0 2.5 ml, 0.1M magnesium sulfate 5.0 ml, 0.1M N-ethyl malemide  5.0 ml, dH2O 87.5 ml, ammonium sulfate 55gm. Preserve antigens for Immunofluorescence procedures"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Michel&#39;s transport medium"/>
-        </designation>
       </concept>
       <concept id="16071">
         <code value="MMDTM"/>
+        <display value="MMD transport medium"/>
         <definition value=" A buffered medium with ammonium sulfate added to preserve antigens for Immunofluorescence procedures"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="MMD transport medium"/>
-        </designation>
       </concept>
       <concept id="16083">
         <code value="NAF"/>
+        <display value="Sodium Fluoride"/>
         <definition value=" Sodium fluoride"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Sodium Fluoride"/>
-        </designation>
       </concept>
       <concept id="16073">
         <code value="NONE"/>
+        <display value="None"/>
         <definition value=" No additive. Specifically identifes the specimen as having no additives."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="None"/>
-        </designation>
       </concept>
       <concept id="16074">
         <code value="PAGE"/>
+        <display value="Page&#39;s Saline"/>
         <definition value=" 0.12 g NaCl, 0.004 g MgSO, 0.004 g, CaCl, 0.142 g Na2HPO4 and 0.136 g KH2PO4 per liter of distilled water. Maintain Acanthaoemba viability."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Page&#39;s Saline"/>
-        </designation>
       </concept>
       <concept id="16075">
         <code value="PHENOL"/>
+        <display value="Phenol"/>
         <definition value=" Phenol. Urine preservative"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Phenol"/>
-        </designation>
       </concept>
       <concept id="16079">
         <code value="PVA"/>
+        <display value="Polyvinylalcohol"/>
         <definition value=" Polyvinyl alcohol"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Polyvinylalcohol"/>
-        </designation>
       </concept>
       <concept id="16080">
         <code value="RLM"/>
+        <display value="Reagan Lowe Medium"/>
         <definition value=" A transport medium formulated to maintain Bordetella pertussis viability."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Reagan Lowe Medium"/>
-        </designation>
       </concept>
       <concept id="16082">
         <code value="SILICA"/>
+        <display value="Siliceous earth"/>
         <definition value=" Diatomaceous earth. For glucose determination blood samples"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Siliceous earth"/>
-        </designation>
       </concept>
       <concept id="16088">
         <code value="SPS"/>
+        <display value="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"/>
         <definition value=" Sodium polyanethol sulfonate in saline. Anticomplementary and antiphagocytic properties. Used in blood culture collection."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"/>
-        </designation>
       </concept>
       <concept id="16081">
         <code value="SST"/>
+        <display value="Serum Separator Tube"/>
         <definition value=" Polymer separator gel with clot activator"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Serum Separator Tube"/>
-        </designation>
       </concept>
       <concept id="16089">
         <code value="STUTM"/>
+        <display value="Stuart transport medium"/>
         <definition value=" Sodium Glycerophosphate 10.0g, Calcium Chloride 0.1g, Mercaptoacetic Acid 1.0ml, Distilled Water 1 liter"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Stuart transport medium"/>
-        </designation>
       </concept>
       <concept id="16090">
         <code value="THROM"/>
+        <display value="Thrombin"/>
         <definition value=" Thrombin. Accelerates clotting."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Thrombin"/>
-        </designation>
       </concept>
       <concept id="16092">
         <code value="THYMOL"/>
+        <display value="Thymol"/>
         <definition value=" 2-Isopropyl-5-methyl phenol. A preservative for 24 Hr Urine samples"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Thymol"/>
-        </designation>
       </concept>
       <concept id="16093">
         <code value="THYO"/>
+        <display value="Thyoglycolate broth"/>
         <definition value=" A nutritive medium with a reducing agent  (sodium thioglycolate) which, due to a chemical reaction, removes oxygen from the broth."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Thyoglycolate broth"/>
-        </designation>
       </concept>
       <concept id="16094">
         <code value="TOLU"/>
+        <display value="Toluene"/>
         <definition value=" Also known as Methylbenzene; Toluol; Phenylmethane. A preservative for 24 Hr Urine samples"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Toluene"/>
-        </designation>
       </concept>
       <concept id="16095">
         <code value="URETM"/>
+        <display value="Ureaplasma transport medium"/>
         <definition value=" A buffered salt solution with antifungal agents added for the collection and transport of Ureaplasma specimens."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Ureaplasma transport medium"/>
-        </designation>
       </concept>
       <concept id="16096">
         <code value="VIRTM"/>
+        <display value="Viral Transport medium"/>
         <definition value=" Sucrose 74.6g, Potassium hydrogenphosphate 0.52g, L-glutamic acid 0.72g, Bovine serum albumin 5.0g, Gentamicin 50mg, Potassium dihydrogenphosphate 1.25g, L-15 medium 9.9L, Water to 10L. Maintain Virus viability."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Viral Transport medium"/>
-        </designation>
       </concept>
       <concept id="16056">
         <code value="WEST"/>
+        <display value="Buffered Citrate"/>
         <definition value=" 3.8% Citrate buffered to a pH of 5.5 for Westergren Sedimentation Rate"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="Buffered Citrate"/>
-        </designation>
       </concept>
     </concept>
     <concept id="21459">
       <code value="BLDPRD"/>
+      <display value="Blood Product"/>
       <definition value=" A manufactured product that is produced from the raw blood oi a donor with the intention of using it in a recipient transfusion."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Blood Product"/>
-      </designation>
     </concept>
     <concept id="21458">
       <code value="VCCNE"/>
+      <display value="Vaccine"/>
       <definition value=" A Type of medicine that creates an immune protection without the recipient experiencing the disease."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Vaccine"/>
-      </designation>
     </concept>
     <concept id="21396">
       <code value="_DeviceGenericType"/>
+      <display value="Device Generic Type"/>
       <definition value=" Includes the set of codes used to identify a device that may be referred to in an ICSR report. Example code set reference is the FDA Center for Devices and Radiological Health product code list. Example product codes include: FOZ = Catheter, Intravascular, Therapeutic, short-term less than 30 days, MOP = Rotator, Prosthetic Heart Valve."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Device Generic Type"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
@@ -1362,42 +672,24 @@
     </concept>
     <concept id="21061">
       <code value="_DrugEntity"/>
+      <display value="DrugEntity"/>
       <definition value=" A substance whose therapeutic effect is produced by chemical action within the body."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="DrugEntity"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
       </property>
       <concept id="21059">
         <code value="_ClinicalDrug"/>
+        <display value="ClinicalDrug"/>
         <definition value=" Any substance or mixture of substances manufactured, sold or represented for use in: (a) the diagnosis, treatment, mitigation or prevention of a disease, disorder, abnormal physical state, or its symptoms, in human beings or animals; (b) restoring, correcting or modifying organic functions in human beings or animals."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="ClinicalDrug"/>
-        </designation>
         <property>
           <code value="status"/>
           <valueCode value="retired"/>
         </property>
         <concept id="21533">
           <code value="_ActiveIngredientDrugEntityType"/>
+          <display value="ActiveIngredientDrugEntityType"/>
           <definition value=" Any substance which, when combined with other ingredients, delivers all or part of the therapeutic benefit associated with a medication."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="ActiveIngredientDrugEntityType"/>
-          </designation>
           <property>
             <code value="status"/>
             <valueCode value="retired"/>
@@ -1405,14 +697,8 @@
         </concept>
         <concept id="21064">
           <code value="_ManufacturedDrug"/>
+          <display value="ManufacturedDrug"/>
           <definition value=" Identifies a drug or the use of a drug as produced by a specific manufacturer"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="ManufacturedDrug"/>
-          </designation>
           <property>
             <code value="status"/>
             <valueCode value="retired"/>
@@ -1422,14 +708,8 @@
     </concept>
     <concept id="21497">
       <code value="_ExposureAgentEntityType"/>
+      <display value="ExposureAgentEntityType"/>
       <definition value=" Indicates the material to which the patient was exposed which is believed to be related to the adverse reaction"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="ExposureAgentEntityType"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
@@ -1437,14 +717,8 @@
     </concept>
     <concept id="22154">
       <code value="_x_BillableProduct"/>
+      <display value="x_BillableProduct"/>
       <definition value="  Description:&#xD;&#xA;The billable codes selected for Clinical Product Invoices. Steward is Financial Management."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="x_BillableProduct"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
@@ -1453,195 +727,81 @@
   </concept>
   <concept id="22382">
     <code value="_NonDrugAgentEntity"/>
+    <display value="NonDrugAgentEntity"/>
     <definition value=" Indicates types of allergy and intolerance agents which are non-drugs.  (E.g. foods, latex, etc.)"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="NonDrugAgentEntity"/>
-    </designation>
     <concept id="21586">
       <code value="NDA01"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="egg"/>
-      </designation>
+      <display value="egg"/>
     </concept>
     <concept id="21587">
       <code value="NDA02"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="fish"/>
-      </designation>
+      <display value="fish"/>
     </concept>
     <concept id="21588">
       <code value="NDA03"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="lactose"/>
-      </designation>
+      <display value="lactose"/>
     </concept>
     <concept id="21589">
       <code value="NDA04"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="peanut"/>
-      </designation>
+      <display value="peanut"/>
     </concept>
     <concept id="21590">
       <code value="NDA05"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="soy"/>
-      </designation>
+      <display value="soy"/>
     </concept>
     <concept id="21591">
       <code value="NDA06"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="sulfites"/>
-      </designation>
+      <display value="sulfites"/>
     </concept>
     <concept id="21592">
       <code value="NDA07"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="wheat or gluten"/>
-      </designation>
+      <display value="wheat or gluten"/>
     </concept>
     <concept id="21593">
       <code value="NDA08"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="isocyanates"/>
-      </designation>
+      <display value="isocyanates"/>
     </concept>
     <concept id="21594">
       <code value="NDA09"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="solvents"/>
-      </designation>
+      <display value="solvents"/>
     </concept>
     <concept id="21595">
       <code value="NDA10"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="oils"/>
-      </designation>
+      <display value="oils"/>
     </concept>
     <concept id="21596">
       <code value="NDA11"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="venoms"/>
-      </designation>
+      <display value="venoms"/>
     </concept>
     <concept id="21597">
       <code value="NDA12"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="latex"/>
-      </designation>
+      <display value="latex"/>
     </concept>
     <concept id="21598">
       <code value="NDA13"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="shellfish"/>
-      </designation>
+      <display value="shellfish"/>
     </concept>
     <concept id="21599">
       <code value="NDA14"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="strawberries"/>
-      </designation>
+      <display value="strawberries"/>
     </concept>
     <concept id="21600">
       <code value="NDA15"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="tomatoes"/>
-      </designation>
+      <display value="tomatoes"/>
     </concept>
     <concept id="21601">
       <code value="NDA16"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="dust"/>
-      </designation>
+      <display value="dust"/>
     </concept>
     <concept id="21602">
       <code value="NDA17"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="dust mites"/>
-      </designation>
+      <display value="dust mites"/>
     </concept>
   </concept>
   <concept id="21356">
     <code value="_OrganizationEntityType"/>
+    <display value="OrganizationEntityType"/>
     <definition value=" Further classifies entities of classCode ORG."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="OrganizationEntityType"/>
-    </designation>
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
@@ -1651,47 +811,23 @@
     </property>
     <concept id="23072">
       <code value="HHOLD"/>
+      <display value="household"/>
       <definition value=" The group of persons who occupy a single housing unit."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="household"/>
-      </designation>
     </concept>
     <concept id="21584">
       <code value="NAT"/>
+      <display value="NationEntityType"/>
       <definition value=" Codes identifying nation states.  Allows for finer grained specification of Entity with classcode &lt;= NAT  Example:&#xD;&#xA;ISO3166 country codes."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="NationEntityType"/>
-      </designation>
     </concept>
     <concept id="21357">
       <code value="RELIG"/>
+      <display value="religious institution"/>
       <definition value=" An organization that provides religious rites of worship."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="religious institution"/>
-      </designation>
     </concept>
     <concept id="21395">
       <code value="_IndividualCaseSafetyReportSenderType"/>
+      <display value="Individual Case Safety Report Sender Type"/>
       <definition value=" A code that is used to indicate the type of organization which is originating and sending the ICSR. The current code example reference is from the International Conference on Harmonisation (ICH) Expert Workgroup guideline on Clinical Safety Data Management: Data Elements for Transmission of Individual Case Safety Reports. Example concepts are: Pharmaceutical Company, Regulatory Authority, Health Professional, Regional Pharmacovigilence Center, World Health Organization Collaborating Center for International Drug Monitoring."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Individual Case Safety Report Sender Type"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
@@ -1700,14 +836,8 @@
   </concept>
   <concept id="21070">
     <code value="_PlaceEntityType"/>
+    <display value="PlaceEntityType"/>
     <definition value=" Types of places for EntityClass &quot;PLC&quot;"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="PlaceEntityType"/>
-    </designation>
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
@@ -1717,70 +847,34 @@
     </property>
     <concept id="16101">
       <code value="BED"/>
+      <display value="Bed Location"/>
       <definition value=" The location of a bed"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Bed Location"/>
-      </designation>
     </concept>
     <concept id="16104">
       <code value="BLDG"/>
+      <display value="Building Location"/>
       <definition value=" The location of a building"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Building Location"/>
-      </designation>
     </concept>
     <concept id="16103">
       <code value="FLOOR"/>
+      <display value="Floor Location"/>
       <definition value=" The location of a floor of a building"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Floor Location"/>
-      </designation>
     </concept>
     <concept id="16102">
       <code value="ROOM"/>
+      <display value="Room Location"/>
       <definition value=" The location of a room"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Room Location"/>
-      </designation>
     </concept>
     <concept id="17703">
       <code value="WING"/>
+      <display value="Wing Location"/>
       <definition value=" The location of a wing of a building (e.g. East Wing).  The same room number for the same floor number can be distinguished by wing number in some situations"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="Wing Location"/>
-      </designation>
     </concept>
   </concept>
   <concept id="22383">
     <code value="_ResourceGroupEntityType"/>
+    <display value="ResourceGroupEntityType"/>
     <definition value=" Codes to characterize a Resource Group using categories that typify its membership and/or function .  Example:&#xD;&#xA;PractitionerGroup"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="ResourceGroupEntityType"/>
-    </designation>
     <property>
       <code value="ClassifiesClassCode"/>
       <valueCoding>
@@ -1790,25 +884,13 @@
     </property>
     <concept id="21439">
       <code value="PRAC"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="PractitionerGroup"/>
-      </designation>
+      <display value="PractitionerGroup"/>
     </concept>
   </concept>
   <concept id="22163">
     <code value="_NonPersonLivingSubjectEntityType"/>
+    <display value="NonPersonLivingSubjectEntityType"/>
     <definition value="  Description:&#xD;&#xA;Types of NonPersonLivingSubjects for the EntityClass &#39;NLIV&#39;"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="NonPersonLivingSubjectEntityType"/>
-    </designation>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>

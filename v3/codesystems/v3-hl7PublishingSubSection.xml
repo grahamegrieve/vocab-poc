@@ -39,14 +39,8 @@
   </property>
   <concept id="23160">
     <code value="CO"/>
+    <display value="common"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds common or shared specifications within the Infrastructure Management (IM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="common"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -57,14 +51,8 @@
   </concept>
   <concept id="23161">
     <code value="FI"/>
+    <display value="financial information"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to the management of financial information within the Administrative Management (AM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="financial information"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -75,14 +63,8 @@
   </concept>
   <concept id="23162">
     <code value="MC"/>
+    <display value="message control"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to the definition and control of interoperability messages within the Infrastructure Management (IM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="message control"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -93,14 +75,8 @@
   </concept>
   <concept id="23163">
     <code value="MF"/>
+    <display value="master file"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to master file and registry management activities within the Infrastructure Management (IM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="master file"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -111,14 +87,8 @@
   </concept>
   <concept id="23164">
     <code value="PO"/>
+    <display value="operations"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to managing clinical operations within the Health and Clinical Management (HM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="operations"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -129,14 +99,8 @@
   </concept>
   <concept id="23165">
     <code value="PR"/>
+    <display value="practice"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to the management of practice settings within the Administrative Management (AM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="practice"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -147,14 +111,8 @@
   </concept>
   <concept id="23166">
     <code value="QU"/>
+    <display value="query"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to query/response activities within the Infrastructure Management (IM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="query"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -165,14 +123,8 @@
   </concept>
   <concept id="23167">
     <code value="RC"/>
+    <display value="records"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to the definition and communication of records of clinical care within the Health and Clinical Management (HM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="records"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -183,14 +135,8 @@
   </concept>
   <concept id="23168">
     <code value="RE"/>
+    <display value="reasoning"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications related to the definition and communication of reasoning (knowledge) within the Health and Clinical Management (HM) section.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="reasoning"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>
@@ -201,14 +147,8 @@
   </concept>
   <concept id="23169">
     <code value="UU"/>
+    <display value="unknown"/>
     <definition value="  Description:&#xD;&#xA;Represents the HL7 V3 publishing sub-section that holds specifications that are unassigned - that have not yet been assigned to one of the formal publishing sections.  UsageNote:&#xD;&#xA;V3 Specifications are published in a set of &quot;domains&quot;, which contain interactions and related specifications for a single area of health care within which can be supported by a single, coherent set of interoperability specifications. For publishing purposes, these domains are aggregated into sub-sections of related health care areas and these sub-sections are further aggregated into three major sets."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="unknown"/>
-    </designation>
     <property>
       <code value="OwningSection"/>
       <valueCoding>

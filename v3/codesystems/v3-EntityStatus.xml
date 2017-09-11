@@ -36,46 +36,22 @@
   </property>
   <concept id="16006">
     <code value="normal"/>
+    <display value="normal"/>
     <definition value=" The &#39;typical&#39; state. Excludes &quot;nullified&quot; which represents the termination state of an Entity record instance that was created in error."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="normal"/>
-    </designation>
     <concept id="16007">
       <code value="active"/>
+      <display value="active"/>
       <definition value=" The state representing the fact that the Entity record is currently active."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="active"/>
-      </designation>
     </concept>
     <concept id="22187">
       <code value="inactive"/>
+      <display value="inactive"/>
       <definition value="  Definition:&#xD;&#xA;The state representing the fact that the entity is inactive."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="inactive"/>
-      </designation>
     </concept>
     <concept id="16008">
       <code value="terminated"/>
+      <display value="terminated"/>
       <definition value=" The state representing the normal termination of an Entity record."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="terminated"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
@@ -84,13 +60,7 @@
   </concept>
   <concept id="16009">
     <code value="nullified"/>
+    <display value="nullified"/>
     <definition value=" The state representing the termination of an Entity record instance that was created in error."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="nullified"/>
-    </designation>
   </concept>
 </CodeSystem>

@@ -31,145 +31,67 @@
   <content value="complete"/>
   <concept id="23133">
     <code value="affirmativeResolution"/>
+    <display value="affirmative resolution"/>
     <definition value="  Description:&#xD;&#xA;An abstract concept grouping resolutions that can be applied to affirmative ballot comments."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="affirmative resolution"/>
-    </designation>
     <concept id="23136">
       <code value="affdef"/>
+      <display value="affirmative-deferred"/>
       <definition value="  Description:&#xD;&#xA;The recommended change has been deferred to consideration for a future release."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="affirmative-deferred"/>
-      </designation>
     </concept>
     <concept id="23134">
       <code value="affi"/>
+      <display value="affirmative-incorporated"/>
       <definition value="  Description:&#xD;&#xA;The recommended change has been incorporated or identified issue has been answered."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="affirmative-incorporated"/>
-      </designation>
     </concept>
     <concept id="23135">
       <code value="affr"/>
+      <display value="affirmative-rejected"/>
       <definition value="  Description:&#xD;&#xA;The recommended change has been refused and is not expected to be incorporated."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="affirmative-rejected"/>
-      </designation>
     </concept>
   </concept>
   <concept id="23137">
     <code value="negativeResolution"/>
+    <display value="negative resolution"/>
     <definition value="  Description:&#xD;&#xA;An abstract concept grouping resolutions that can be applied to negative ballot comments."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="negative resolution"/>
-    </designation>
     <concept id="23139">
       <code value="nonsubp"/>
+      <display value="non-substantive proposed"/>
       <definition value="  Description:&#xD;&#xA;Responsible group has recommended that the negative vote be considered non-substantive.  (Issue raised does not provide sufficiently convincing reason to make changes to the item under ballot, or otherwise impede its adoption.)"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="non-substantive proposed"/>
-      </designation>
     </concept>
     <concept id="23140">
       <code value="nonsubv"/>
+      <display value="non-substantive voted"/>
       <definition value="  Description:&#xD;&#xA;Ballot group has voted and declared the negative vote non-substantive."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="non-substantive voted"/>
-      </designation>
     </concept>
     <concept id="23141">
       <code value="notrelp"/>
+      <display value="not related proposed"/>
       <definition value="  Description:&#xD;&#xA;Responsible group has recommended that the negative vote be considered not-related.  (Issue raised is not related to the current scope of the item under ballot, or does not prevent the item under ballot for being used for its defined intent.  Recommended changes may be considered as part of future versions.)  (Perhaps after further reading or explanation)."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="not related proposed"/>
-      </designation>
     </concept>
     <concept id="23142">
       <code value="notrelv"/>
+      <display value="not related voted"/>
       <definition value="  Description:&#xD;&#xA;Ballot group has voted and declared the negative vote non-related."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="not related voted"/>
-      </designation>
     </concept>
     <concept id="23143">
       <code value="prevcons"/>
+      <display value="previously considered"/>
       <definition value="  Description:&#xD;&#xA;Committee identifies that the same issue has been raised as part of a previous ballot on the same element version and was found by the ballot group to be non-substantive or not related.)"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="previously considered"/>
-      </designation>
     </concept>
     <concept id="23144">
       <code value="retract"/>
+      <display value="retracted"/>
       <definition value="  Description:&#xD;&#xA;Voter has formally withdrawn their vote or comment as having been in error.  (Perhaps after further reading or explanation)."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="retracted"/>
-      </designation>
     </concept>
     <concept id="23138">
       <code value="unresolved"/>
+      <display value="unresolved"/>
       <definition value="  Description:&#xD;&#xA;Vote has not yet gone through resolution."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="unresolved"/>
-      </designation>
     </concept>
     <concept id="23145">
       <code value="withdraw"/>
+      <display value="withdrawn"/>
       <definition value="  Description:&#xD;&#xA;Voter has formally withdrawn their vote or comment on the basis of agreed changes or proposed future changes."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="withdrawn"/>
-      </designation>
     </concept>
   </concept>
 </CodeSystem>

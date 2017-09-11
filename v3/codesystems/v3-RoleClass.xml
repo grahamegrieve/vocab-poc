@@ -185,14 +185,8 @@
   </property>
   <concept id="13940">
     <code value="ROL"/>
+    <display value="role"/>
     <definition value=" Corresponds to the Role class"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="role"/>
-    </designation>
     <property>
       <code value="Name:Class"/>
       <valueCode value="role"/>
@@ -227,14 +221,8 @@
     </property>
     <concept id="21113">
       <code value="_RoleClassAssociative"/>
+      <display value="RoleClassAssociative"/>
       <definition value=" A general association between two entities that is neither partitive nor ontological."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="RoleClassAssociative"/>
-      </designation>
       <property>
         <code value="Name:Class"/>
         <valueCode value="associatedEntity"/>
@@ -257,14 +245,8 @@
       </property>
       <concept id="21114">
         <code value="_RoleClassMutualRelationship"/>
+        <display value="RoleClassMutualRelationship"/>
         <definition value=" A relationship that is based on mutual behavior of the two Entities as being related. The basis of such relationship may be agreements (e.g., spouses, contract parties) or they may bede facto&#xD;&#xA;behavior (e.g. friends) or may be an incidental involvement with each other (e.g. parties over a dispute, siblings, children)."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="RoleClassMutualRelationship"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="relatedEntity"/>
@@ -287,14 +269,8 @@
         </property>
         <concept id="21118">
           <code value="_RoleClassRelationshipFormal"/>
+          <display value="RoleClassRelationshipFormal"/>
           <definition value=" A relationship between two entities that is formally recognized, frequently by a contract or similar agreement."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="RoleClassRelationshipFormal"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="formalRelation"/>
@@ -317,14 +293,8 @@
           </property>
           <concept id="21438">
             <code value="AFFL"/>
+            <display value="affiliate"/>
             <definition value=" Player of the Affiliate role has a business/professional relationship with scoper.  Player and scoper may be persons or organization.  The Affiliate relationship does not imply membership in a group, nor does it exist for resource scheduling purposes.  Example:&#xD;&#xA;A healthcare provider is affiliated with another provider as a business associate."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="affiliate"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="affiliate"/>
@@ -348,14 +318,8 @@
           </concept>
           <concept id="14006">
             <code value="AGNT"/>
+            <display value="agent"/>
             <definition value=" An entity (player) that acts or is authorized to act on behalf of another entity (scoper)."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="agent"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="agent"/>
@@ -378,14 +342,8 @@
             </property>
             <concept id="11595">
               <code value="ASSIGNED"/>
+              <display value="assigned entity"/>
               <definition value=" An agent role in which the agent is an Entity acting in the employ of an organization.  The focus is on functional role on behalf of the organization, unlike the Employee role where the focus is on the &#39;Human Resources&#39; relationship between the employee and the organization."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="assigned entity"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="assignedEntity"/>
@@ -408,14 +366,8 @@
               </property>
               <concept id="21303">
                 <code value="COMPAR"/>
+                <display value="commissioning party"/>
                 <definition value=" An Entity that is authorized to issue or instantiate permissions, privileges, credentials or other formal/legal authorizations."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="commissioning party"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="commissioningParty"/>
@@ -439,14 +391,8 @@
               </concept>
               <concept id="14007">
                 <code value="SGNOFF"/>
+                <display value="signing authority or officer"/>
                 <definition value=" The role of a person (player) who is the officer or signature authority for of a scoping entity, usually an organization (scoper)."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="signing authority or officer"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="signatureAuthority"/>
@@ -471,14 +417,8 @@
             </concept>
             <concept id="12205">
               <code value="CON"/>
+              <display value="contact"/>
               <definition value=" A person or an organization (player) which provides or receives information regarding another entity (scoper).  Examples; patient NOK and emergency contacts; guarantor contact; employer contact."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="contact"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="contactParty"/>
@@ -501,14 +441,8 @@
               </property>
               <concept id="19140">
                 <code value="ECON"/>
+                <display value="emergency contact"/>
                 <definition value=" An entity to be contacted in the event of an emergency."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="emergency contact"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="emergencyContact"/>
@@ -532,14 +466,8 @@
               </concept>
               <concept id="19141">
                 <code value="NOK"/>
+                <display value="next of kin"/>
                 <definition value=" An individual designated for notification as the next of kin for a given entity."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="next of kin"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="nextOfKin"/>
@@ -564,14 +492,8 @@
             </concept>
             <concept id="16324">
               <code value="GUARD"/>
+              <display value="guardian"/>
               <definition value=" Guardian of a ward"/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="guardian"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="guardian"/>
@@ -596,14 +518,8 @@
           </concept>
           <concept id="11568">
             <code value="CIT"/>
+            <display value="citizen"/>
             <definition value=" Citizen of apolitical entity"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="citizen"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="citizen"/>
@@ -627,14 +543,8 @@
           </concept>
           <concept id="14011">
             <code value="COVPTY"/>
+            <display value="covered party"/>
             <definition value=" A role class played by a person who receives benefit coverage under the terms of a particular insurance policy.  The underwriter of that policy is the scoping entity.  The covered party receives coverage because of some contractual or other relationship with the holder of that policy.  Discussion:&#xD;&#xA;This reason for coverage is captured in &#39;Role.code&#39; and a relationship link with type code of indirect authority should be included using the policy holder role as the source, and the covered party role as the target. Note that a particular policy may cover several individuals one of whom may be, but need not be, the policy holder.  Thus the notion of covered party is a role that is distinct from that of the policy holder."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="covered party"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="coveredParty"/>
@@ -657,14 +567,8 @@
             </property>
             <concept id="21955">
               <code value="CLAIM"/>
+              <display value="claimant"/>
               <definition value="  Description:&#xD;&#xA;A role played by a party making a claim for coverage under a policy or program.  A claimant must be either a person or organization, or a group of persons or organizations.  A claimant is not a named insured or a program eligible.  Discussion:&#xD;&#xA;With respect to liability insurance such as property and casualty insurance, a claimant must file a claim requesting indemnification for a loss that the claimant considers covered under the policy of a named insured.  The claims adjuster for the policy underwriter will review the claim to determine whether the loss meets the benefit coverage criteria under a policy, and base any indemnification or coverage payment on that review.  If a third party is liable in whole or part for the loss, the underwriter may pursue third party liability recovery.  A claimant may be involved in civil or criminal legal proceedings involving claims against a defendant party that is indemnified by an insurance policy or to protest the finding of a claims adjustor. With respect to life insurance, a beneficiary designated by a named insured becomes a claimant of the proceeds of coverage, as in the case of a life insurance policy.  However, a claimant for coverage under life insurance is not necessarily a designated beneficiary.  Note:&#xD;&#xA;A claimant is not a named insured.  However, a named insured may make a claim under a policy, e.g., an insured driver may make a claim for an injury under his or her comprehensive automobile insurance policy.  Similarly, a program eligible may make a claim under program, e.g., an unemployed worker may claim benefits under an unemployment insurance program, but parties playing these covered party role classes are not, for purposes of this vocabulary and in an effort to clearly distinguish role classes, considered claimants. In the case of a named insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that either a named insured or an individual insured has filed a claim for a loss.  In the case of a program eligible, a role type code INJWKR (injured worker) subtypes the class to indicate that the covered party in a workers compensation program is an injured worker, and as such, has filed a &quot;claim&quot; under the program for benefits.  Likewise, a covered role type code UNEMP (unemployed worker) subtypes the program eligible class to indicate that the covered party in an unemployment insurance program has filed a claim for unemployment benefits.  Example:&#xD;&#xA;A claimant under automobile policy that is not the named insured."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="claimant"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="claimant"/>
@@ -672,28 +576,16 @@
             </concept>
             <concept id="21957">
               <code value="NAMED"/>
+              <display value="named insured"/>
               <definition value="  Description:&#xD;&#xA;A role played by a party to an insurance policy to which the insurer agrees to indemnify for losses, provides benefits for, or renders services.  A named insured may be either a person, non-person living subject, or an organization, or a group of persons, non-person living subjects, or organizations.  Discussion:&#xD;&#xA;The coded concept NAMED should not be used where a more specific child concept in this Specializable value set applies.  In some cases, the named insured may not be the policy holder, e.g., where a policy holder purchases life insurance policy in which another party is the named insured and the policy holder is the beneficiary of the policy.  Note:&#xD;&#xA;The party playing the role of a named insured is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant).  However, a named insured may make a claim under a policy, e.g., e.g., a party that is the named insured and policy holder under a comprehensive automobile insurance policy may become the claimant for coverage under that policy e.g., if injured in an automobile accident and there is no liable third party.  In the case of a named insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that a named insured has filed a claim for a loss.  Example:&#xD;&#xA;The named insured under a comprehensive automobile, disability, or property and casualty policy that is the named insured and may or may not be the policy holder."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="named insured"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="namedInsured"/>
               </property>
               <concept id="21960">
                 <code value="DEPEN"/>
+                <display value="dependent"/>
                 <definition value="  Description:&#xD;&#xA;A role played by a person covered under a policy or program based on an association with a subscriber, which is recognized by the policy holder.  Note:&#xD;&#xA;The party playing the role of a dependent is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant).  However, a dependent may make a claim under a policy, e.g., a dependent under a health insurance policy may become the claimant for coverage under that policy for wellness examines or if injured and there is no liable third party.  In the case of a dependent making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that the dependent has filed a claim for services covered under the health insurance policy.  Example:&#xD;&#xA;The dependent has an association with the subscriber such as a financial dependency or personal relationship such as that of a spouse, or a natural or adopted child.  The policy holder may be required by law to recognize certain associations or may have discretion about the associations.  For example, a policy holder may dictate the criteria for the dependent status of adult children who are students, such as requiring full time enrollment, or may recognize domestic partners as dependents.  Under certain circumstances, the dependent may be under the indirect authority of a responsible party acting as a surrogate for the subscriber, for example, if the subscriber is differently abled or deceased, a guardian ad Lidem or estate executor may be appointed to assume the subscriberaTMs legal standing in the relationship with the dependent."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="dependent"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="dependent"/>
@@ -701,14 +593,8 @@
               </concept>
               <concept id="21958">
                 <code value="INDIV"/>
+                <display value="individual"/>
                 <definition value="  Description:&#xD;&#xA;A role played by a party covered under a policy as the policy holder.  An individual may be either a person or an organization.  Note:&#xD;&#xA;The party playing the role of an individual insured is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant).  However, a named insured may make a claim under a policy, e.g., a party that is the named insured and policy holder under a comprehensive automobile insurance policy may become the claimant for coverage under that policy if injured in an automobile accident and there is no liable third party.  In the case of an individual insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that an individual insured has filed a claim for a loss.  Example:&#xD;&#xA;The individual insured under a comprehensive automobile, disability, or property and casualty policy that is the policy holder."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="individual"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="individual"/>
@@ -716,14 +602,8 @@
               </concept>
               <concept id="21959">
                 <code value="SUBSCR"/>
+                <display value="subscriber"/>
                 <definition value="  Description:&#xD;&#xA;A role played by a person covered under a policy based on association with a sponsor who is the policy holder, and whose association may provide for the eligibility of dependents for coverage.  Discussion:&#xD;&#xA;The policy holder holds the contract with the policy or program underwriter.  The subscriber holds a certificate of coverage under the contract.  In legal proceedings concerning the policy or program, the terms of the contract takes precedence over the terms of the certificate of coverage if there are any inconsistencies.  Note:&#xD;&#xA;The party playing the role of a subscriber is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant).  However, a subscriber may make a claim under a policy, e.g., a subscriber under a health insurance policy may become the claimant for coverage under that policy for wellness examines or if injured and there is no liable third party.  In the case of a subscriber making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that the subscriber has filed a claim for services covered under the health insurance policy.  Example:&#xD;&#xA;An employee or a member of an association."/>
-                <designation>
-                  <use>
-                    <system value="http://something...?"/>
-                    <code value="deprecated alias"/>
-                  </use>
-                  <value value="subscriber"/>
-                </designation>
                 <property>
                   <code value="Name:Class"/>
                   <valueCode value="subscriber"/>
@@ -732,14 +612,8 @@
             </concept>
             <concept id="21956">
               <code value="PROG"/>
+              <display value="program eligible"/>
               <definition value="  Description:&#xD;&#xA;A role played by a party that meets the eligibility criteria for coverage under a program.  A program eligible may be either a person, non-person living subject, or an organization, or a group of persons, non-person living subjects, or organizations.  Discussion:&#xD;&#xA;A program as typically government administered coverage for parties determined eligible under the terms of the program.  Note:&#xD;&#xA;The party playing a program eligible is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant).  However a program eligible may make a claim under program, e.g., an unemployed worker may claim benefits under an unemployment insurance program, but parties playing these covered party role classes are not, for purposes of this vocabulary and in an effort to clearly distinguish role classes, considered claimants. In the case of a program eligible, a role type code INJWKR (injured worker) subtypes the class to indicate that the covered party in a workers compensation program is an injured worker, and as such, has filed a &quot;claim&quot; under the program for benefits.  Likewise, a covered role type code UNEMP (unemployed worker) subtypes the program eligible class to indicate that the covered party in an unemployment insurance program has filed a claim for unemployment benefits.  Example:&#xD;&#xA;A party meeting eligibility criteria related to health or financial status, e.g., in the U.S., persons meeting health, demographic, or financial criteria established by state and federal law are eligible for Medicaid."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="program eligible"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="programEligible"/>
@@ -748,14 +622,8 @@
           </concept>
           <concept id="19164">
             <code value="CRINV"/>
+            <display value="clinical research investigator"/>
             <definition value=" A role played by a provider, always a person, who has agency authority from a Clinical Research Sponsor to direct the conduct of a clinical research trial or study on behalf of the sponsor."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="clinical research investigator"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="clinicalResearchInvestigator"/>
@@ -779,14 +647,8 @@
           </concept>
           <concept id="19165">
             <code value="CRSPNSR"/>
+            <display value="clinical research sponsor"/>
             <definition value=" A role played by an entity, usually an organization, that is the sponsor of a clinical research trial or study.  The sponsor commissions the study, bears the expenses, is responsible for satisfying all legal requirements concerning subject safety and privacy, and is generally responsible for collection, storage and analysis of the data generated during the trial.  No scoper is necessary, as a clinical research sponsor undertakes the role on its own authority and declaration. Clinical research sponsors are usually educational or other research organizations, government agencies or biopharmaceutical companies."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="clinical research sponsor"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="clinicalResearchSponsor"/>
@@ -810,14 +672,8 @@
           </concept>
           <concept id="11569">
             <code value="EMP"/>
+            <display value="employee"/>
             <definition value=" A relationship between a person or organization and a person or organization formed for the purpose of exchanging work for compensation.  The purpose of the role is to identify the type of relationship the employee has to the employer, rather than the nature of the work actually performed.  (Contrast with AssignedEntity.)"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="employee"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="employment"/>
@@ -840,14 +696,8 @@
             </property>
             <concept id="11570">
               <code value="MIL"/>
+              <display value="military person"/>
               <definition value=" A role played by a member of a military service. Scoper is the military service (e.g. Army, Navy, Air Force, etc.) or, more specifically, the unit (e.g. Company C, 3rd Battalion, 4th Division, etc.)"/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="military person"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="militaryPerson"/>
@@ -872,14 +722,14 @@
           </concept>
           <concept id="13941">
             <code value="GUAR"/>
-            <display value="GuarantorRole"/>
+            <display value="guarantor"/>
             <definition value=" A person or organization (player) that serves as a financial guarantor for another person or organization (scoper)."/>
             <designation>
               <use>
                 <system value="http://something...?"/>
                 <code value="deprecated alias"/>
               </use>
-              <value value="guarantor"/>
+              <value value="GuarantorRole"/>
             </designation>
             <property>
               <code value="Name:Class"/>
@@ -904,14 +754,8 @@
           </concept>
           <concept id="21464">
             <code value="INVSBJ"/>
+            <display value="Investigation Subject"/>
             <definition value=" An entity that is the subject of an investigation. This role is scoped by the party responsible for the investigation."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="Investigation Subject"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="investigativeSubject"/>
@@ -934,14 +778,8 @@
             </property>
             <concept id="21465">
               <code value="CASEBJ"/>
+              <display value="Case Subject"/>
               <definition value=" A person, non-person living subject, or place that is the subject of an investigation related to a notifiable condition (health circumstance that is reportable within the applicable public health jurisdiction)"/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="Case Subject"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="caseSubject"/>
@@ -965,14 +803,8 @@
             </concept>
             <concept id="19166">
               <code value="RESBJ"/>
+              <display value="research subject"/>
               <definition value="  Definition:&#xD;&#xA;Specifies the administrative functionality within a formal experimental design for which the ResearchSubject role was established.  Examples:&#xD;&#xA;Screening - role is used for pre-enrollment evaluation portion of the design; enrolled - role is used for subjects admitted to the experimental portion of the design."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="research subject"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="researchSubject"/>
@@ -997,14 +829,8 @@
           </concept>
           <concept id="16773">
             <code value="LIC"/>
+            <display value="licensed entity"/>
             <definition value=" A relationship in which the scoper certifies the player ( e. g. a medical care giver, a medical device or a provider organization) to perform certain activities that fall under the jurisdiction of the scoper (e.g., a health authority licensing healthcare providers, a medical quality authority certifying healthcare professionals)."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="licensed entity"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="licensedEntity"/>
@@ -1027,13 +853,7 @@
             </property>
             <concept id="11576">
               <code value="NOT"/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="notary public"/>
-              </designation>
+              <display value="notary public"/>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="notaryPublic"/>
@@ -1057,14 +877,8 @@
             </concept>
             <concept id="11599">
               <code value="PROV"/>
+              <display value="healthcare provider"/>
               <definition value=" An Entity (player) that is authorized to provide health care services by some authorizing agency (scoper)."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="healthcare provider"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="healthCareProvider"/>
@@ -1089,14 +903,8 @@
           </concept>
           <concept id="11577">
             <code value="PAT"/>
+            <display value="patient"/>
             <definition value=" A Role of a LivingSubject (player) as an actual or potential recipient of health care services from a healthcare provider organization (scoper).  Usage Note:&#xD;&#xA;Communication about relationships between patients and specific healthcare practitioners (people) is not done via scoper.  Instead this is generally done using the CareProvision act.  This allows linkage between patient and a particular healthcare practitioner role and also allows description of the type of care involved in the relationship."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="patient"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="patient"/>
@@ -1120,14 +928,8 @@
           </concept>
           <concept id="14015">
             <code value="PAYEE"/>
+            <display value="payee"/>
             <definition value=" The role of an organization or individual designated to receive payment for a claim against a particular coverage. The scoping entity is the organization that is the submitter of the invoice in question."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="payee"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="payee"/>
@@ -1151,14 +953,8 @@
           </concept>
           <concept id="14014">
             <code value="PAYOR"/>
+            <display value="invoice payor"/>
             <definition value=" The role of an organization that undertakes to accept claims invoices, assess the coverage or payments due for those invoices and pay to the designated payees for those invoices.  This role may be either the underwriter or a third-party organization authorized by the underwriter.  The scoping entity is the organization that underwrites the claimed coverage."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="invoice payor"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="payor"/>
@@ -1182,14 +978,8 @@
           </concept>
           <concept id="14010">
             <code value="POLHOLD"/>
+            <display value="policy holder"/>
             <definition value=" A role played by a person or organization that holds an insurance policy.  The underwriter of that policy is the scoping entity.  Discussion:&#xD;&#xA;The identifier of the policy is captured in &#39;Role.id&#39; when the Role is a policy holder. A particular policy may cover several individuals one of whom may be, but need not be, the policy holder.  Thus the notion of covered party is a role that is distinct from that of the policy holder."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="policy holder"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="policyHolder"/>
@@ -1213,14 +1003,8 @@
           </concept>
           <concept id="11619">
             <code value="QUAL"/>
+            <display value="qualified entity"/>
             <definition value=" An entity (player) that has been recognized as having certain training/experience or other characteristics that would make said entity an appropriate performer for a certain activity. The scoper is an organization that educates or qualifies entities."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="qualified entity"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="qualifiedEntity"/>
@@ -1244,14 +1028,8 @@
           </concept>
           <concept id="14012">
             <code value="SPNSR"/>
+            <display value="coverage sponsor"/>
             <definition value=" A role played by an entity, usually an organization that is the sponsor of an insurance plan or a health program. A sponsor is the party that is ultimately accountable for the coverage by employment contract or by law.  A sponsor can be an employer, union, government agency, or association.  Fully insured sponsors establish the terms of the plan and contract with health insurance plans to assume the risk and to administer the plan.  Self-insured sponsors delegate coverage administration, but not risk, to third-party administrators.  Program sponsors designate services to be covered in accordance with statute.   Program sponsors may administer the coverage themselves, delegate coverage administration, but not risk to third-party administrators, or contract with health insurance plans to assume the risk and administrator a program. Sponsors qualify individuals who may become   a policy holder of the plan;  where the sponsor is the policy holder, who may become a subscriber or a dependent to a policy under the plan; or  where the sponsor is a government agency, who may become program eligibles under a program. The sponsor role may be further qualified by the SponsorRole.code.  Entities playing the sponsor role may also play the role of a Coverage Administrator.  Example:&#xD;&#xA;An employer, union, government agency, or association."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="coverage sponsor"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="sponsor"/>
@@ -1275,14 +1053,8 @@
           </concept>
           <concept id="12248">
             <code value="STD"/>
+            <display value="student"/>
             <definition value=" A role played by an individual who is a student of a school, which is the scoping entity."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="student"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="student"/>
@@ -1306,14 +1078,8 @@
           </concept>
           <concept id="14009">
             <code value="UNDWRT"/>
+            <display value="underwriter"/>
             <definition value=" A role played by a person or an organization.  It is the party that   accepts fiscal responsibility for insurance plans and the policies created under those plans;  administers and accepts fiscal responsibility for a program that provides coverage for services to eligible individuals; and/or  has the responsibility to assess the merits of each risk and decide a suitable premium for accepting all or part of the risk.  If played by an organization, this role may be further specified by an appropriate RoleCode.  Example:&#xD;&#xA;   A health insurer;  Medicaid Program;  Lloyd&#39;s of London"/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="underwriter"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="underwriter"/>
@@ -1338,14 +1104,8 @@
         </concept>
         <concept id="21355">
           <code value="CAREGIVER"/>
+          <display value="caregiver"/>
           <definition value=" A person responsible for the primary care of a patient at home."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="caregiver"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="careGiver"/>
@@ -1369,14 +1129,8 @@
         </concept>
         <concept id="19167">
           <code value="PRS"/>
+          <display value="personal relationship"/>
           <definition value=" Links two entities with classCode PSN (person) in a personal relationship. The character of the relationship must be defined by a PersonalRelationshipRoleType code. The player and scoper are determined by PersonalRelationshipRoleType code as well."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="personal relationship"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="personalRelationship"/>
@@ -1400,14 +1154,8 @@
         </concept>
         <concept id="21437">
           <code value="SELF"/>
+          <display value="self"/>
           <definition value=" The &quot;same&quot; roleclass asserts an identity between playing and scoping entities: that they are in fact instances of the same entity and, in the case of discrepancies (e.g different DOB, gender), that one or both are in error.  Usage:&#xD;&#xA; playing and scoping entities must have same classcode, but need not have identical attributes or values.  Example:&#xD;&#xA; a provider registry maintains sets of conflicting demographic data for what is reported to be the same individual."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="self"/>
-          </designation>
           <property>
             <code value="status"/>
             <valueCode value="retired"/>
@@ -1416,14 +1164,8 @@
       </concept>
       <concept id="21117">
         <code value="_RoleClassPassive"/>
+        <display value="RoleClassPassive"/>
         <definition value=" An association for a playing Entity that is used, known, treated, handled, built, or destroyed, etc. under the auspices of the scoping Entity. The playing Entity is passive in these roles (even though it may be active in other roles), in the sense that the kinds of things done to it in this role happen without an agreement from the playing Entity."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="RoleClassPassive"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="passiveRelation"/>
@@ -1446,14 +1188,8 @@
         </property>
         <concept id="11592">
           <code value="ACCESS"/>
+          <display value="access"/>
           <definition value=" A role in which the playing entity (material) provides access to another entity. The principal use case is intravenous (or other bodily) access lines that preexist and need to be referred to for medication routing instructions."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="access"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="access"/>
@@ -1477,14 +1213,8 @@
         </concept>
         <concept id="23095">
           <code value="ADJY"/>
+          <display value="adjacency"/>
           <definition value=" A physical association whereby two Entities are in some (even lose) spatial relationship with each other such that they touch each other in some way.  Examples:&#xD;&#xA;the colon is connected (and therefore adjacent) to the jejunum; the colon is adjacent to the liver (even if not actually connected.)  UsageConstraints:&#xD;&#xA;Adjacency is in principle a symmetrical connection, but scoper and player of the role should, where applicable, be assigned to have scoper be the larger, more central Entity and player the smaller, more distant, appendage."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="adjacency"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="adjacency"/>
@@ -1507,14 +1237,8 @@
           </property>
           <concept id="23096">
             <code value="CONC"/>
+            <display value="connection"/>
             <definition value=" An adjacency of two Entities held together by a bond which attaches to each of the two entities.  Examples:&#xD;&#xA;biceps brachii muscle connected to the radius bone, port 3 on a network switch connected to port 5 on a patch panel.  UsageConstraints:&#xD;&#xA;See Adjacency for the assignment of scoper (larger, more central) and player (smaller, more distant)."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="connection"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="connection"/>
@@ -1537,14 +1261,8 @@
             </property>
             <concept id="23098">
               <code value="BOND"/>
+              <display value="molecular bond"/>
               <definition value=" A connection between two atoms of a molecule.  Examples:&#xD;&#xA;double bond between first and second C in ethane, peptide bond between two amino-acid, disulfide bridge between two proteins, chelate and ion associations, even the much weaker van-der-Waals bonds can be considered molecular bonds.  UsageConstraints:&#xD;&#xA;See connection and adjacency for the assignment of player and scoper."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="molecular bond"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="bond"/>
@@ -1568,14 +1286,8 @@
             </concept>
             <concept id="23097">
               <code value="CONY"/>
+              <display value="continuity"/>
               <definition value=" A connection between two regional parts.  Examples:&#xD;&#xA;the connection between ascending aorta and the aortic arc, connection between descending colon and sigmoid.  UsageConstraints:&#xD;&#xA;See connection and adjacency for the assignment of player and scoper."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="continuity"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="continuity"/>
@@ -1601,14 +1313,8 @@
         </concept>
         <concept id="21435">
           <code value="ADMM"/>
+          <display value="Administerable Material"/>
           <definition value=" A material (player) that can be administered to an Entity (scoper)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="Administerable Material"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="administrableMaterial"/>
@@ -1632,14 +1338,8 @@
         </concept>
         <concept id="11589">
           <code value="BIRTHPL"/>
+          <display value="birthplace"/>
           <definition value=" Relates a place (playing Entity) as the location where a living subject (scoping Entity) was born."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="birthplace"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="birthplace"/>
@@ -1663,14 +1363,8 @@
         </concept>
         <concept id="21640">
           <code value="DEATHPLC"/>
+          <display value="place of death"/>
           <definition value=" Definition: Relates a place (playing Entity) as the location where a living subject (scoping Entity) died."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="place of death"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="placeOfDeath"/>
@@ -1678,14 +1372,8 @@
         </concept>
         <concept id="10418">
           <code value="DST"/>
+          <display value="distributed material"/>
           <definition value=" A material (player) distributed by a distributor (scoper) who functions between a manufacturer and a buyer or retailer."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="distributed material"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="distributedProduct"/>
@@ -1708,14 +1396,8 @@
           </property>
           <concept id="10419">
             <code value="RET"/>
+            <display value="retailed material"/>
             <definition value=" Material (player) sold by a retailer (scoper), who also give advice to prospective buyers."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="retailed material"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="retailedProduct"/>
@@ -1740,14 +1422,8 @@
         </concept>
         <concept id="23368">
           <code value="EXLOC"/>
+          <display value="event location"/>
           <definition value=" A role played by a place at which the location of an event may be recorded."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="event location"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="eventLocation"/>
@@ -1770,14 +1446,8 @@
           </property>
           <concept id="16927">
             <code value="SDLOC"/>
+            <display value="service delivery location"/>
             <definition value=" A role played by a place at which services may be provided."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="service delivery location"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="serviceDeliveryLocation"/>
@@ -1800,14 +1470,14 @@
             </property>
             <concept id="11600">
               <code value="DSDLOC"/>
-              <display value="health care facility"/>
+              <display value="dedicated service delivery location"/>
               <definition value=" A role of a place (player) that is intended to house the provision of services. Scoper is the Entity (typically Organization) that provides these services. This is not synonymous with &quot;ownership.&quot;"/>
               <designation>
                 <use>
                   <system value="http://something...?"/>
                   <code value="deprecated alias"/>
                 </use>
-                <value value="dedicated service delivery location"/>
+                <value value="health care facility"/>
               </designation>
               <property>
                 <code value="Name:Class"/>
@@ -1832,14 +1502,8 @@
             </concept>
             <concept id="16929">
               <code value="ISDLOC"/>
+              <display value="incidental service delivery location"/>
               <definition value=" A role played by a place at which health care services may be provided without prior designation or authorization."/>
-              <designation>
-                <use>
-                  <system value="http://something...?"/>
-                  <code value="deprecated alias"/>
-                </use>
-                <value value="incidental service delivery location"/>
-              </designation>
               <property>
                 <code value="Name:Class"/>
                 <valueCode value="incidentalServiceDeliveryLocation"/>
@@ -1865,14 +1529,8 @@
         </concept>
         <concept id="19131">
           <code value="EXPR"/>
+          <display value="exposed entity"/>
           <definition value=" A role played by an entity that has been exposed to a person or animal suffering a contagious disease, or with a location from which a toxin has been distributed.  The player of the role is normally a person or animal, but it is possible that other entity types could become exposed.  The role is scoped by the source of the exposure, and it is quite possible for a person playing the role of exposed party to also become the scoper a role played by another person.  That is to say, once a person has become infected, it is possible, perhaps likely, for that person to infect others. Management of exposures and tracking exposed parties is a key function within public health, and within most public health contexts - exposed parties are known as &quot;contacts.&quot;"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="exposed entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="exposedEntity"/>
@@ -1896,14 +1554,8 @@
         </concept>
         <concept id="10422">
           <code value="HLD"/>
+          <display value="held entity"/>
           <definition value=" Entity that is currently in the possession of a holder (scoper), who holds, or uses it, usually based on some agreement with the owner."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="held entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="heldEntity"/>
@@ -1927,14 +1579,8 @@
         </concept>
         <concept id="11618">
           <code value="HLTHCHRT"/>
+          <display value="health chart"/>
           <definition value=" The role of a material (player) that is the physical health chart belonging to an organization (scoper)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="health chart"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="healthChart"/>
@@ -1958,14 +1604,8 @@
         </concept>
         <concept id="16721">
           <code value="IDENT"/>
+          <display value="identified entity"/>
           <definition value=" A role in which the scoping entity designates an identifier for a playing entity."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="identified entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="identifiedEntity"/>
@@ -1989,14 +1629,8 @@
         </concept>
         <concept id="11580">
           <code value="MANU"/>
+          <display value="manufactured product"/>
           <definition value=" Scoped by the manufacturer"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="manufactured product"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="manufacturedProduct"/>
@@ -2019,14 +1653,8 @@
           </property>
           <concept id="11581">
             <code value="THER"/>
+            <display value="therapeutic agent"/>
             <definition value=" A manufactured material (player) that is used for its therapeutic properties.  The manufacturer is the scoper."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="therapeutic agent"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="manufacturedProduct"/>
@@ -2051,14 +1679,8 @@
         </concept>
         <concept id="10427">
           <code value="MNT"/>
+          <display value="maintained entity"/>
           <definition value=" An entity (player) that is maintained by another entity (scoper).  This is typical role held by durable equipment. The scoper assumes responsibility for proper operation, quality, and safety."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="maintained entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="maintainedEntity"/>
@@ -2082,14 +1704,8 @@
         </concept>
         <concept id="10421">
           <code value="OWN"/>
+          <display value="owned entity"/>
           <definition value=" An Entity (player) for which someone (scoper) is granted by law the right to call the material (player) his own.  This entitles the scoper to make decisions about the disposition of that material."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="owned entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="ownedEntity"/>
@@ -2113,14 +1729,8 @@
         </concept>
         <concept id="19132">
           <code value="RGPR"/>
+          <display value="regulated product"/>
           <definition value=" A product regulated by some governmentatl orgnization.  The role is played by Material and scoped by Organization. Rationale: To support an entity clone used to identify the NDC number for a drug product."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="regulated product"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="regulatedProduct"/>
@@ -2144,14 +1754,8 @@
         </concept>
         <concept id="11583">
           <code value="TERR"/>
+          <display value="territory of authority"/>
           <definition value=" Relates a place entity (player) as the region over which the scoper (typically an Organization) has certain authority (jurisdiction). For example, the Calgary Regional Health Authority (scoper) has authority over the territory &quot;Region 4 of Alberta&quot; (player) in matters of health."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="territory of authority"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="territorialAuthority"/>
@@ -2175,14 +1779,8 @@
         </concept>
         <concept id="22755">
           <code value="USED"/>
+          <display value="used entity"/>
           <definition value="  Description:&#xD;&#xA;An entity (player) that is used by another entity (scoper)"/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="used entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="usedEntity"/>
@@ -2190,14 +1788,8 @@
         </concept>
         <concept id="16300">
           <code value="WRTE"/>
+          <display value="warranted product"/>
           <definition value=" A role a product plays when a guarantee is given to the purchaser by the seller (scoping entity) stating that the product is reliable and free from known defects and that the seller will repair or replace defective parts within a given time limit and under certain conditions."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="warranted product"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="warrantedProduct"/>
@@ -2223,14 +1815,8 @@
     </concept>
     <concept id="21115">
       <code value="_RoleClassOntological"/>
+      <display value="RoleClassOntological"/>
       <definition value=" A relationship in which the scoping Entity defines or specifies what the playing Entity is.  Thus, the player&#39;s &quot;being&quot; (Greek: ontos) is specified."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="RoleClassOntological"/>
-      </designation>
       <property>
         <code value="Name:Class"/>
         <valueCode value="definedEntity"/>
@@ -2253,28 +1839,16 @@
       </property>
       <concept id="22399">
         <code value="EQUIV"/>
+        <display value="equivalent entity"/>
         <definition value="  Description:&#xD;&#xA;Specifies the player Entity (the equivalent Entity) as an Entity that is considered to be equivalent to a reference Entity (scoper).  The equivalence is in principle a symmetric relationship, however, it is expected that the scoper is a reference entity which serves as reference entity for multiple different equivalent entities.  Examples:&#xD;&#xA;An innovator&#39;s medicine formulation is the reference for &quot;generics&quot;, i.e., formulations manufactured differently but having been proven to be biologically equivalent to the reference medicine. Another example is a reference ingredient that serves as basis for quantity specifications (basis of strength, e.g., metoprolol succinate specified in terms of metoprolol tartrate.)"/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="equivalent entity"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="equivalentEntity"/>
         </property>
         <concept id="21488">
           <code value="SAME"/>
+          <display value="same"/>
           <definition value=" The &quot;same&quot; role asserts an identity between playing and scoping entities, i.e., that they are in fact two records of the same entity instance, and, in the case of discrepancies (e.g different DOB, gender), that one or both are in error.  Usage:&#xD;&#xA; playing and scoping entities must have same classCode, but need not have identical attributes or values.  Example:&#xD;&#xA; a provider registry maintains sets of conflicting demographic data for what is reported to be the same individual."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="same"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="same"/>
@@ -2298,14 +1872,8 @@
         </concept>
         <concept id="20070">
           <code value="SUBY"/>
+          <display value="subsumed by"/>
           <definition value=" Relates a prevailing record of an Entity (scoper) with another record (player) that it subsumes.  Examples:&#xD;&#xA;Show a correct new Person object (scoper) that subsumes one or more duplicate Person objects that had accidentally been created for the same physical person.  Constraints:&#xD;&#xA;Both the player and scoper must have the same classCode."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="subsumed by"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="subsumedBy"/>
@@ -2330,14 +1898,8 @@
       </concept>
       <concept id="10441">
         <code value="GEN"/>
+        <display value="has generalization"/>
         <definition value=" Relates a specialized material concept (player) to its generalization (scoper)."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="has generalization"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="specializedKind"/>
@@ -2360,14 +1922,8 @@
         </property>
         <concept id="10442">
           <code value="GRIC"/>
+          <display value="has generic"/>
           <definition value=" A special link between pharmaceuticals indicating that the target (scoper) is a generic for the source (player)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="has generic"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="entityWithGeneric"/>
@@ -2392,14 +1948,8 @@
       </concept>
       <concept id="10443">
         <code value="INST"/>
+        <display value="instance"/>
         <definition value=" An individual piece of material (player) instantiating a class of material (scoper)."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="instance"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="instanceOfKind"/>
@@ -2426,14 +1976,8 @@
           <valueString value="1100-20111201"/>
         </extension>
         <code value="SUBS"/>
+        <display value="subsumer"/>
         <definition value=" An entity that subsumes the identity of another.  Used in the context of merging documented entity instances. Both the player and scoper must have the same classCode. The use of this code isdeprecated&#xD;&#xA;in favor of the term SUBY which is its inverse and is more ontologically correct."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="subsumer"/>
-        </designation>
         <property>
           <code value="status"/>
           <valueCode value="retired"/>
@@ -2442,14 +1986,8 @@
     </concept>
     <concept id="21116">
       <code value="_RoleClassPartitive"/>
+      <display value="RoleClassPartitive"/>
       <definition value=" An association between two Entities where the playing Entity is considered in some way &quot;part&quot; of the scoping Entity, e.g., as a member, component, ingredient, or content. Being &quot;part&quot; in the broadest sense of the word can mean anything from being an integral structural component to a mere incidental temporary association of a playing Entity with a (generally larger) scoping Entity."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="RoleClassPartitive"/>
-      </designation>
       <property>
         <code value="Name:Class"/>
         <valueCode value="partOfWhole"/>
@@ -2472,14 +2010,8 @@
       </property>
       <concept id="10438">
         <code value="CONT"/>
+        <display value="content"/>
         <definition value=" Relates a material as the content (player) to a container (scoper).  Unlike ingredients, the content and a container remain separate (not mixed) and the content can be removed from the container.  A content is not part of an empty container."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="content"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="content"/>
@@ -2503,28 +2035,16 @@
       </concept>
       <concept id="22350">
         <code value="EXPAGTCAR"/>
+        <display value="exposure agent carrier"/>
         <definition value=" An exposure agent carrier is an entity that is capable of conveying an exposure agent from one entity to another.  The scoper of the role must be the exposure agent (e.g., pathogen)."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="exposure agent carrier"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="exposureAgentCarrier"/>
         </property>
         <concept id="22351">
           <code value="EXPVECTOR"/>
+          <display value="exposure vector"/>
           <definition value="  Description:&#xD;&#xA;A vector is a living subject that carries an exposure agent.  The vector does not cause the disease itself, but exposes targets to the exposure agent.  A mosquito carrying malaria is an example of a vector.  The scoper of the role must be the exposure agent (e.g., pathogen)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="exposure vector"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="exposureVector"/>
@@ -2532,14 +2052,8 @@
         </concept>
         <concept id="22352">
           <code value="FOMITE"/>
+          <display value="fomite"/>
           <definition value="  Description:&#xD;&#xA;A fomite is a non-living entity that is capable of conveying exposure agent from one entity to another.  A doorknob contaminated with a Norovirus is an example of a fomite.  Anyone touching the doorknob would be exposed to the virus.  The scoper of the role must be the exposure agent (e.g., pathogen)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="fomite"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="fomite"/>
@@ -2548,14 +2062,8 @@
       </concept>
       <concept id="10430">
         <code value="INGR"/>
+        <display value="ingredient"/>
         <definition value=" Relates a component (player) to a mixture (scoper). E.g., Glucose and Water are ingredients of D5W, latex may be an ingredient in a tracheal tube."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="ingredient"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="ingredient"/>
@@ -2578,14 +2086,8 @@
         </property>
         <concept id="10433">
           <code value="ACTI"/>
+          <display value="active ingredient"/>
           <definition value="  Definition:&#xD;&#xA;a therapeutically active ingredient (player) in a mixture (scoper), where the mixture is typically a manufactured pharmaceutical.  It is unknown if the quantity of such an ingredient is expressed precisely in terms of the playing ingredient substance, or, if it is specified in terms of a closely related substance (active moiety or reference substance)."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="active ingredient"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="activeIngredient"/>
@@ -2608,14 +2110,8 @@
           </property>
           <concept id="22396">
             <code value="ACTIB"/>
+            <display value="active ingredient - basis of strength"/>
             <definition value="  Description:&#xD;&#xA;Active ingredient, where the ingredient substance (player) is itself the &quot;basis of strength&quot;, i.e., where the Role.quantity specifies exactly the quantity of the player substance in the medicine formulation.  Examples:&#xD;&#xA;Lopressor 50 mg actually contains 50 mg of metoprolol succinate, even though the active moiety is metoprolol,  but also: Tenormin 50 mg contain 50 mg of atenolol, as free base, i.e., where the active ingredient atenolol is also the active moiety."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="active ingredient - basis of strength"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="activeIngredientBasisOfStrength"/>
@@ -2623,14 +2119,8 @@
           </concept>
           <concept id="22397">
             <code value="ACTIM"/>
+            <display value="active ingredient - moiety is basis of strength"/>
             <definition value="  Description:&#xD;&#xA;Active ingredient, where not the ingredient substance (player), but itaTMs active moiety is the &quot;basis of strength&quot;, i.e., where the Role.quantity specifies the quantity of the player substance&#39;s active moiety in the medicine formulation.  Examples:&#xD;&#xA;1 mL of Betopic 5mg/mL eye drops contains 5.6 mg betaxolol hydrochloride equivalent to betaxolol base 5 mg."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="active ingredient - moiety is basis of strength"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="activeIngredientMoietyIsBasisOfStrength"/>
@@ -2638,14 +2128,8 @@
           </concept>
           <concept id="22398">
             <code value="ACTIR"/>
+            <display value="active ingredient - reference substance is basis of strength"/>
             <definition value="  Description:&#xD;&#xA;Active ingredient, where not the ingredient substance (player) but another reference substance with the same active moiety, is the &quot;basis of strength&quot;, i.e., where the Role.quantity specifies the quantity of a reference substance, similar but different from the player substance&#39;s in the medicine formulation.  Examples:&#xD;&#xA;Toprol-XL 50 mg contains 47.5 mg of metoprolol succinate equivalent to 50 mg of metoprolol tartrate."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="active ingredient - reference substance is basis of strength"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="activeIngredientReferenceSubstanceIsBasisOfStrength"/>
@@ -2654,14 +2138,8 @@
         </concept>
         <concept id="23059">
           <code value="ADJV"/>
+          <display value="adjuvant"/>
           <definition value=" A component (player) added to enhance the action of an active ingredient (scoper) (in the manner of a catalyst) but which has no active effect in and of itself.  Such ingredients are significant in defining equivalence of products in a way that inactive ingredients are not."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="adjuvant"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="adjuvant"/>
@@ -2669,14 +2147,8 @@
         </concept>
         <concept id="10432">
           <code value="ADTV"/>
+          <display value="additive"/>
           <definition value=" An ingredient (player)  that is added to a base (scoper), that amounts to a minor part of the overall mixture."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="additive"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="additive"/>
@@ -2700,14 +2172,8 @@
         </concept>
         <concept id="10431">
           <code value="BASE"/>
+          <display value="base"/>
           <definition value=" A base ingredient (player) is what comprises the major part of a mixture (scoper). E.g., Water in most i.v. solutions, or Vaseline in salves. Among all ingredients of a material, there should be only one base. A base substance can, in turn, be a mixture."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="base"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="base"/>
@@ -2731,14 +2197,8 @@
         </concept>
         <concept id="23369">
           <code value="CNTM"/>
+          <display value="contaminant ingredient"/>
           <definition value=" An ingredient whose presence is not intended but may not be reasonably avoided given the circumstances of the mixture&#39;s nature or origin."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="contaminant ingredient"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="contaminant"/>
@@ -2762,14 +2222,8 @@
         </concept>
         <concept id="19089">
           <code value="IACT"/>
+          <display value="inactive ingredient"/>
           <definition value=" An ingredient which is not considered therapeutically active, e.g., colors, flavors, stabilizers, or preservatives, fillers, or structural components added to an active ingredient in order to facilitate administration of the active ingredient but without being considered therapeutically active. An inactive ingredient need not be biologically inert, e.g., might be active as an allergen or might have a pleasant taste, but is not an essential constituent delivering the therapeutic effect."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="inactive ingredient"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="inactiveIngredient"/>
@@ -2792,14 +2246,14 @@
           </property>
           <concept id="10437">
             <code value="COLR"/>
-            <display value="color"/>
+            <display value="color additive"/>
             <definition value=" A substance (player) influencing the optical aspect of material (scoper)."/>
             <designation>
               <use>
                 <system value="http://something...?"/>
                 <code value="deprecated alias"/>
               </use>
-              <value value="color additive"/>
+              <value value="color"/>
             </designation>
             <property>
               <code value="Name:Class"/>
@@ -2824,14 +2278,14 @@
           </concept>
           <concept id="10436">
             <code value="FLVR"/>
-            <display value="flavor"/>
+            <display value="flavor additive"/>
             <definition value=" A substance (player) added to a mixture (scoper) to make it taste a certain way.  In food the use is obvious, in pharmaceuticals flavors can hide disgusting taste of the active ingredient (important in pediatric treatments)."/>
             <designation>
               <use>
                 <system value="http://something...?"/>
                 <code value="deprecated alias"/>
               </use>
-              <value value="flavor additive"/>
+              <value value="flavor"/>
             </designation>
             <property>
               <code value="Name:Class"/>
@@ -2856,14 +2310,8 @@
           </concept>
           <concept id="10435">
             <code value="PRSV"/>
+            <display value="preservative"/>
             <definition value=" A substance (player) added to a mixture (scoper) to prevent microorganisms (fungi, bacteria) to spoil the mixture."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="preservative"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="preservative"/>
@@ -2887,14 +2335,8 @@
           </concept>
           <concept id="10434">
             <code value="STBL"/>
+            <display value="stabilizer"/>
             <definition value=" A stabilizer (player) added to a mixture (scoper) in order to prevent the molecular disintegration of the main substance."/>
-            <designation>
-              <use>
-                <system value="http://something...?"/>
-                <code value="deprecated alias"/>
-              </use>
-              <value value="stabilizer"/>
-            </designation>
             <property>
               <code value="Name:Class"/>
               <valueCode value="stabilizer"/>
@@ -2919,14 +2361,8 @@
         </concept>
         <concept id="23060">
           <code value="MECH"/>
+          <display value="mechanical ingredient"/>
           <definition value=" An ingredient (player) of a medication (scoper) that is inseparable from the active ingredients, but has no intended chemical or pharmaceutical effect itself, but which may have some systemic effect on the patient. An example is a collagen matrix used as a base for transplanting skin cells.  The collagen matrix can be left permanently in the graft site.  Because it is of bovine origin, the patient may exhibit allergies or may have cultural objections to its use."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="mechanical ingredient"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="mechanicalIngredient"/>
@@ -2935,14 +2371,8 @@
       </concept>
       <concept id="16815">
         <code value="LOCE"/>
+        <display value="located entity"/>
         <definition value=" Relates an entity (player) to a location (scoper) at which it is present in some way. This presence may be limited in time."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="located entity"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="locatedEntity"/>
@@ -2965,14 +2395,8 @@
         </property>
         <concept id="16817">
           <code value="STOR"/>
+          <display value="stored entity"/>
           <definition value=" Relates an entity (player) (e.g. a device) to a location (scoper) at which it is normally found or stored when not used."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="stored entity"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="storedEntity"/>
@@ -2997,14 +2421,8 @@
       </concept>
       <concept id="12204">
         <code value="MBR"/>
+        <display value="member"/>
         <definition value=" A role played by an entity that is a member of a group.  The group provides the scope for this role. Among other uses, groups as used in insurance (groups of covered individuals) and in scheduling where resources may be grouped for scheduling and logistical purposes."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="member"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="member"/>
@@ -3028,14 +2446,8 @@
       </concept>
       <concept id="19102">
         <code value="PART"/>
+        <display value="part"/>
         <definition value="  Definition:&#xD;&#xA;an association between two Entities where the playing Entity (the part) is a component of the whole (scoper) in the sense of an integral structural component, that is distinct from other parts in the same whole, has a distinct function in the whole, and, as an effect, the full integrity of the whole depends (to some degree) on the presence of this part, even though the part may often be separable from the whole.  Discussion:&#xD;&#xA;Part is defined in opposition to (a) ingredient (not separable), (b) content (not a functional component), and (c) member (not functionally distinct from other members)."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="part"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="partOfWhole"/>
@@ -3058,14 +2470,8 @@
         </property>
         <concept id="19088">
           <code value="ACTM"/>
+          <display value="active moiety"/>
           <definition value=" The molecule or ion that is responsible for the intended pharmacological action of the drug substance, excluding those appended or associated parts of the molecule that make the molecule an ester, salt (including a salt with hydrogen or coordination bonds), or other noncovalent derivative (such as a complex, chelate, or clathrate). Examples: heparin-sodium and heparin-potassium have the same active moiety, heparin; the active moiety of morphine-hydrochloride is morphine."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="active moiety"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="activeMoiety"/>
@@ -3090,14 +2496,8 @@
       </concept>
       <concept id="11591">
         <code value="SPEC"/>
+        <display value="specimen"/>
         <definition value=" A role played by a material entity that is a specimen for an act. It is scoped by the source of the specimen."/>
-        <designation>
-          <use>
-            <system value="http://something...?"/>
-            <code value="deprecated alias"/>
-          </use>
-          <value value="specimen"/>
-        </designation>
         <property>
           <code value="Name:Class"/>
           <valueCode value="specimen"/>
@@ -3120,14 +2520,8 @@
         </property>
         <concept id="14026">
           <code value="ALQT"/>
+          <display value="aliquot"/>
           <definition value=" A portion (player) of an original or source specimen (scoper) used for testing or transportation."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="aliquot"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="aliquot"/>
@@ -3151,14 +2545,8 @@
         </concept>
         <concept id="16302">
           <code value="ISLT"/>
+          <display value="isolate"/>
           <definition value=" A microorganism that has been isolated from other microorganisms or a source matrix."/>
-          <designation>
-            <use>
-              <system value="http://something...?"/>
-              <code value="deprecated alias"/>
-            </use>
-            <value value="isolate"/>
-          </designation>
           <property>
             <code value="Name:Class"/>
             <valueCode value="isolate"/>
@@ -3185,14 +2573,8 @@
   </concept>
   <concept id="11560">
     <code value="CHILD"/>
+    <display value="child"/>
     <definition value=" The player of the role is a child of the scoping entity, in a generic sense."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="child"/>
-    </designation>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>
@@ -3200,14 +2582,8 @@
   </concept>
   <concept id="16930">
     <code value="CRED"/>
+    <display value="credentialed entity"/>
     <definition value=" A role played by an entity that receives credentials from the scoping entity."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="credentialed entity"/>
-    </designation>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>
@@ -3215,13 +2591,7 @@
   </concept>
   <concept id="11574">
     <code value="NURPRAC"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="nurse practitioner"/>
-    </designation>
+    <display value="nurse practitioner"/>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>
@@ -3229,13 +2599,7 @@
   </concept>
   <concept id="11573">
     <code value="NURS"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="nurse"/>
-    </designation>
+    <display value="nurse"/>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>
@@ -3243,13 +2607,7 @@
   </concept>
   <concept id="11575">
     <code value="PA"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="physician assistant"/>
-    </designation>
+    <display value="physician assistant"/>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>
@@ -3257,13 +2615,7 @@
   </concept>
   <concept id="11572">
     <code value="PHYS"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="physician"/>
-    </designation>
+    <display value="physician"/>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>

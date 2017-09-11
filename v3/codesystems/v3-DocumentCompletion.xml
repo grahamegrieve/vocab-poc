@@ -28,101 +28,47 @@
   <content value="complete"/>
   <concept id="10581">
     <code value="AU"/>
+    <display value="authenticated"/>
     <definition value=" A completion status in which a document has been signed manually or electronically by one or more individuals who attest to its accuracy.  No explicit determination is made that the assigned individual has performed the authentication.  While the standard allows multiple instances of authentication, it would be typical to have a single instance of authentication, usually by the assigned individual."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="authenticated"/>
-    </designation>
   </concept>
   <concept id="10576">
     <code value="DI"/>
+    <display value="dictated"/>
     <definition value=" A completion status in which information has been orally recorded but not yet transcribed."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="dictated"/>
-    </designation>
   </concept>
   <concept id="10577">
     <code value="DO"/>
+    <display value="documented"/>
     <definition value=" A completion status in which document content, other than dictation, has been received but has not been translated into the final electronic format.  Examples include paper documents, whether hand-written or typewritten, and intermediate electronic forms, such as voice to text."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="documented"/>
-    </designation>
   </concept>
   <concept id="10579">
     <code value="IN"/>
+    <display value="incomplete"/>
     <definition value=" A completion status in which information is known to be missing from a transcribed document."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="incomplete"/>
-    </designation>
   </concept>
   <concept id="10578">
     <code value="IP"/>
+    <display value="in progress"/>
     <definition value=" A workflow status where the material has been assigned to personnel to perform the task of transcription. The document remains in this state until the document is transcribed."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="in progress"/>
-    </designation>
   </concept>
   <concept id="10582">
     <code value="LA"/>
+    <display value="legally authenticated"/>
     <definition value=" A completion status in which a document has been signed manually or electronically by the individual who is legally responsible for that document. This is the most mature state in the workflow progression."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="legally authenticated"/>
-    </designation>
   </concept>
   <concept id="23537">
     <code value="NU"/>
+    <display value="nullified document"/>
     <definition value=" A completion status in which a document was created in error or was placed in the wrong chart. The document is no longer available."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="nullified document"/>
-    </designation>
   </concept>
   <concept id="10580">
     <code value="PA"/>
+    <display value="pre-authenticated"/>
     <definition value=" A completion status in which a document is transcribed but not authenticated."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="pre-authenticated"/>
-    </designation>
   </concept>
   <concept id="23538">
     <code value="UC"/>
+    <display value="unsigned completed document"/>
     <definition value=" A completion status where the document is complete and there is no expectation that the document will be signed."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="unsigned completed document"/>
-    </designation>
   </concept>
 </CodeSystem>

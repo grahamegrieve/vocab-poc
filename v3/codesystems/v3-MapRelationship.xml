@@ -28,35 +28,17 @@
   <content value="complete"/>
   <concept id="11054">
     <code value="BT"/>
+    <display value="Broader Than"/>
     <definition value=" The first concept is at a more abstract level than the second concept.  For example, Hepatitis is broader than Hepatitis A, and endocrine disease is broader than Diabetes Mellitus.  Broader than is the opposite of the narrower than relationship."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Broader Than"/>
-    </designation>
   </concept>
   <concept id="11053">
     <code value="E"/>
+    <display value="Exact"/>
     <definition value=" The two concepts have identical meaning."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Exact"/>
-    </designation>
   </concept>
   <concept id="11055">
     <code value="NT"/>
+    <display value="Narrower Than"/>
     <definition value=" The first concept is at a more detailed level than the second concept.  For example, Pennicillin G is narrower than Pennicillin, and vellus hair is narrower than hair.  Narrower than is the opposite of broader than."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Narrower Than"/>
-    </designation>
   </concept>
 </CodeSystem>

@@ -22,35 +22,17 @@
   <content value="complete"/>
   <concept id="19956">
     <code value="E"/>
+    <display value="External"/>
     <definition value=" Code system is created and maintained by an organization outside of HL7"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="External"/>
-    </designation>
   </concept>
   <concept id="19957">
     <code value="EI"/>
+    <display value="external-internal"/>
     <definition value=" Code system is created and updated by an organization outside of HL7, but an internal copy is mainted by HL7 for convenience"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="external-internal"/>
-    </designation>
   </concept>
   <concept id="19955">
     <code value="I"/>
+    <display value="Internal"/>
     <definition value=" Code system is created and maintained by HL7"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Internal"/>
-    </designation>
   </concept>
 </CodeSystem>

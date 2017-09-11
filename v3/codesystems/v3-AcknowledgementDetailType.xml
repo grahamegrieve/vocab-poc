@@ -46,36 +46,18 @@
   </property>
   <concept id="19786">
     <code value="E"/>
+    <display value="Error"/>
     <definition value="  Definition:&#xD;&#xA;An issue which has prevented, or will prevent (unless a management is provided for the issue by the sender), the successful processing of an interaction.  Response interactions which include an issue which is an Error are a &#39;rejection&#39;, indicating that the request was not successfully processed.  Example:&#xD;&#xA;Unable to find specified patient."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Error"/>
-    </designation>
   </concept>
   <concept id="19788">
     <code value="I"/>
+    <display value="Information"/>
     <definition value="  Definition:&#xD;&#xA;The message relates to an issue which has no bearing on the successful processing of the request.  Information issues cannot be overridden by specifying a management.  Example:&#xD;&#xA;A Patient&#39;s coverage will expire in 5 days."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Information"/>
-    </designation>
   </concept>
   <concept id="19787">
     <code value="W"/>
+    <display value="Warning"/>
     <definition value="  Definition:&#xD;&#xA;The message relates to an issue which cannot prevent the successful processing of a request, but which could result in the processing not having the ideal or intended effect.  Managing a warning issue is not required for successful processing, but will suppress the warning from being raised.  Example:&#xD;&#xA; Unexpected additional repetitions of phone number have been ignored."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Warning"/>
-    </designation>
   </concept>
   <concept id="20071">
     <code value="ERR"/>

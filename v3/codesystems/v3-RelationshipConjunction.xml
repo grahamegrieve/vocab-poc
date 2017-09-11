@@ -19,35 +19,17 @@
   <content value="complete"/>
   <concept id="10366">
     <code value="AND"/>
+    <display value="and"/>
     <definition value=" This condition must be true."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="and"/>
-    </designation>
   </concept>
   <concept id="10367">
     <code value="OR"/>
+    <display value="or"/>
     <definition value=" At least one of the condition among all OR conditions must be true."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="or"/>
-    </designation>
   </concept>
   <concept id="10368">
     <code value="XOR"/>
+    <display value="exclusive or"/>
     <definition value=" One and only one of the XOR conditions must be true."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="exclusive or"/>
-    </designation>
   </concept>
 </CodeSystem>

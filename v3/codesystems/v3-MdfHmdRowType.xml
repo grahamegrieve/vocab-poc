@@ -36,68 +36,32 @@
   <content value="complete"/>
   <concept id="10072">
     <code value="assoc"/>
+    <display value="Association Row"/>
     <definition value=" Identifies an association leading from the &quot;class&quot; (or association) that is most directly above this row"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Association Row"/>
-    </designation>
   </concept>
   <concept id="10073">
     <code value="attr"/>
+    <display value="Attribute Row"/>
     <definition value=" Identifies an attribute of the &quot;class&quot; (or association) that is most directly above this row."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Attribute Row"/>
-    </designation>
   </concept>
   <concept id="10071">
     <code value="class"/>
+    <display value="HMD root class"/>
     <definition value=" Identifies &quot;class&quot; in the HMD. There is only one class entry in a Hierarchical Message Definition. This is the root class for the message."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="HMD root class"/>
-    </designation>
   </concept>
   <concept id="10070">
     <code value="hmd"/>
+    <display value="HMD identifier"/>
     <definition value=" Always the first row of the table, identifies the particular Hierarchical Message Definition in the nomenclature of the HL7 Repository."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="HMD identifier"/>
-    </designation>
   </concept>
   <concept id="10074">
     <code value="item"/>
+    <display value="Collection Item Row"/>
     <definition value=" Identifies a message element that represents one of whatever is repeated in a collection"/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Collection Item Row"/>
-    </designation>
   </concept>
   <concept id="10075">
     <code value="stc"/>
+    <display value="Subtype constraint"/>
     <definition value=" This row corresponds to a subcomponent of the row above; it would not normally be included in an HMD, but it is included in order to be able to state a constraint on the subtype. This is explained in 10.2.2.4."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="Subtype constraint"/>
-    </designation>
   </concept>
 </CodeSystem>

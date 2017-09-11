@@ -50,27 +50,15 @@
   </property>
   <concept id="22027">
     <code value="_VisionProductEntityType"/>
+    <display value="VisionProductEntityType"/>
     <definition value="  Description:&#xD;&#xA;Materials used for vision care."/>
-    <designation>
-      <use>
-        <system value="http://something...?"/>
-        <code value="deprecated alias"/>
-      </use>
-      <value value="VisionProductEntityType"/>
-    </designation>
     <property>
       <code value="status"/>
       <valueCode value="retired"/>
     </property>
     <concept id="22029">
       <code value="_CanadianVisionProductRoleType"/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="CanadianVisionProductRoleType"/>
-      </designation>
+      <display value="CanadianVisionProductRoleType"/>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
@@ -78,14 +66,8 @@
     </concept>
     <concept id="22028">
       <code value="_CPT4"/>
+      <display value="CPT4"/>
       <definition value="  Description:&#xD;&#xA;Physicians&#39; Current Procedural Terminology (CPT) Manual is a listing of descriptive terms and identifying codes for reporting medical services and procedures performed by physicians. Available for the AMA at the address listed for CPT above. These codes are found in Appendix A of CPT 2000 Standard Edition. (CPT 2000 Standard Edition, American Medical Association, Chicago, IL)."/>
-      <designation>
-        <use>
-          <system value="http://something...?"/>
-          <code value="deprecated alias"/>
-        </use>
-        <value value="CPT4"/>
-      </designation>
       <property>
         <code value="status"/>
         <valueCode value="retired"/>
